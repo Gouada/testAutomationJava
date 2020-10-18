@@ -1,0 +1,64 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-18T15:56:10.221Z",
+        "line": 6,
+        "name": "surf on menu page",
+        "description": "",
+        "id": "spiegel-1;surf-on-menu-page",
+        "after": [
+          {
+            "result": {
+              "duration": 91000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.MenuSteps.endsTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8884000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I start Spiegel",
+            "match": {
+              "location": "steps.MenuSteps.i_start_Spiegel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 316000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click Akzeptieren und weiter",
+            "match": {
+              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@spiegel"
+          }
+        ]
+      }
+    ],
+    "name": "Spiegel 1",
+    "description": "",
+    "id": "spiegel-1",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/menuPage.feature",
+    "tags": []
+  }
+]
