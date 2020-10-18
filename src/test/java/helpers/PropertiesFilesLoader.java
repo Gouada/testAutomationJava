@@ -31,7 +31,7 @@ public class PropertiesFilesLoader {
                 file_path = Constants.PROPERTIES_FILE_FOLDER + "/" + filename;  //"/" +
                 //file_path = filename;
             }
-            //file should be in resource-filder
+            //file should be in resource-folder
             fileInput = getClass().getResourceAsStream(file_path);
 
             properties = new Properties();
