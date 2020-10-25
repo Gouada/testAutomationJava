@@ -1,33 +1,33 @@
 [
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-10-18T15:56:10.221Z",
-        "line": 6,
-        "name": "surf on menu page",
-        "description": "",
-        "id": "spiegel-1;surf-on-menu-page",
-        "after": [
+        "start_timestamp": "2020-10-24T19:05:15.814Z",
+        "before": [
           {
             "result": {
-              "duration": 91000000,
+              "duration": 6801000000,
               "status": "passed"
             },
             "match": {
-              "location": "steps.MenuSteps.endsTest()"
+              "location": "steps.TestCaseBase.setup()"
             }
           }
         ],
+        "line": 8,
+        "name": "surf on menu page",
+        "description": "",
+        "id": "spiegel-1;surf-on-menu-page",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 8884000000,
+              "duration": 6397000000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 9,
             "name": "I start Spiegel",
             "match": {
               "location": "steps.MenuSteps.i_start_Spiegel()"
@@ -36,10 +36,11 @@
           },
           {
             "result": {
-              "duration": 316000000,
-              "status": "passed"
+              "error_message": "java.lang.NullPointerException\r\n\tat steps.MenuSteps.i_click_Akzeptieren_und_weiter(MenuSteps.java:49)\r\n\tat ✽.I click Akzeptieren und weiter(file:///C:/MyWorkspace/guineenews/src/test/resources/features/menuPage.feature:10)\r\n",
+              "duration": 3000000,
+              "status": "failed"
             },
-            "line": 8,
+            "line": 10,
             "name": "I click Akzeptieren und weiter",
             "match": {
               "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
@@ -49,7 +50,10 @@
         ],
         "tags": [
           {
-            "name": "@spiegel"
+            "name": "@menu"
+          },
+          {
+            "name": "@start"
           }
         ]
       }
@@ -59,6 +63,98 @@
     "id": "spiegel-1",
     "keyword": "Feature",
     "uri": "file:src/test/resources/features/menuPage.feature",
-    "tags": []
+    "tags": [
+      {
+        "name": "@menu",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-24T19:05:29.168Z",
+        "line": 8,
+        "name": "surf on menu page",
+        "description": "",
+        "id": "spiegel-1;surf-on-menu-page",
+        "after": [
+          {
+            "result": {
+              "duration": 695000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.TestCaseBase.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3641000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I start Spiegel",
+            "match": {
+              "location": "steps.MenuSteps.i_start_Spiegel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat steps.SpiegelPlusSteps.clickSpiegelPlus(SpiegelPlusSteps.java:35)\r\n\tat ✽.I click SpiegelPlus(file:///C:/MyWorkspace/guineenews/src/test/resources/features/spiegelPlus.feature:11)\r\n",
+              "duration": 2000000,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "I click SpiegelPlus",
+            "match": {
+              "location": "steps.SpiegelPlusSteps.clickSpiegelPlus()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@spiegelPlus"
+          },
+          {
+            "name": "@end"
+          }
+        ]
+      }
+    ],
+    "name": "Spiegel 1",
+    "description": "",
+    "id": "spiegel-1",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/spiegelPlus.feature",
+    "tags": [
+      {
+        "name": "@spiegelPlus",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@end",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 16
+        }
+      }
+    ]
   }
 ]

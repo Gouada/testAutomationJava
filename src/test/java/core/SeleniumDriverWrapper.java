@@ -82,10 +82,10 @@ public class SeleniumDriverWrapper {
         }
     }
 
-    public void clickElement(String myLocator, String myLocatorType, WebElement element)
+    public void clickElement(String myLocator, String myLocatorType)
     {
         try {
-            if (element == null) element = getElement(myLocator, myLocatorType);
+            WebElement element = getElement(myLocator, myLocatorType);
             element.click();
         }
         catch (ElementClickInterceptedException e)
@@ -95,6 +95,21 @@ public class SeleniumDriverWrapper {
         catch (ElementNotVisibleException e)
         {
             MyLogger.logger.error("Element Not Visible Exception: " + myLocatorType + e.getStackTrace().toString());
+        }
+    }
+
+    public void clickElement( WebElement element)
+    {
+        try {
+            element.click();
+        }
+        catch (ElementClickInterceptedException e)
+        {
+            MyLogger.logger.error("Element Click Intercepted Exception: "  + e.getStackTrace().toString());
+        }
+        catch (ElementNotVisibleException e)
+        {
+            MyLogger.logger.error("Element Not Visible Exception: " + e.getStackTrace().toString());
         }
     }
 

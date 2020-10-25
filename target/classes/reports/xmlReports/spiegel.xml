@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="17.919">
+<testcase classname="Spiegel 1" name="surf on menu page" time="13.308">
+<failure message="" type="java.lang.NullPointerException"><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................failed
+
+StackTrace:
+java.lang.NullPointerException
+	at steps.MenuSteps.i_click_Akzeptieren_und_weiter(MenuSteps.java:49)
+	at ✽.I click Akzeptieren und weiter(file:///C:/MyWorkspace/guineenews/src/test/resources/features/menuPage.feature:10)
+]]></failure>
+</testcase>
+<testcase classname="Spiegel 1" name="surf on menu page" time="4.34">
+<failure message="" type="java.lang.NullPointerException"><![CDATA[Given I start Spiegel.......................................................passed
+Then I click SpiegelPlus....................................................failed
+
+StackTrace:
+java.lang.NullPointerException
+	at steps.SpiegelPlusSteps.clickSpiegelPlus(SpiegelPlusSteps.java:35)
+	at ✽.I click SpiegelPlus(file:///C:/MyWorkspace/guineenews/src/test/resources/features/spiegelPlus.feature:11)
+]]></failure>
+</testcase>
+</testsuite>

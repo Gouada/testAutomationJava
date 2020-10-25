@@ -1,33 +1,33 @@
 [
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-10-18T15:56:51.762Z",
-        "line": 6,
-        "name": "surf on menu page",
-        "description": "",
-        "id": "spiegel-1;surf-on-menu-page",
-        "after": [
+        "start_timestamp": "2020-10-24T19:07:43.114Z",
+        "before": [
           {
             "result": {
-              "duration": 129000000,
+              "duration": 6818000000,
               "status": "passed"
             },
             "match": {
-              "location": "steps.MenuSteps.endsTest()"
+              "location": "steps.TestCaseBase.setup()"
             }
           }
         ],
+        "line": 8,
+        "name": "surf on menu page",
+        "description": "",
+        "id": "spiegel-1;surf-on-menu-page",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 9468000000,
+              "duration": 4257000000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 9,
             "name": "I start Spiegel",
             "match": {
               "location": "steps.MenuSteps.i_start_Spiegel()"
@@ -36,10 +36,10 @@
           },
           {
             "result": {
-              "duration": 3305000000,
+              "duration": 3260000000,
               "status": "passed"
             },
-            "line": 8,
+            "line": 10,
             "name": "I click Akzeptieren und weiter",
             "match": {
               "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
@@ -49,7 +49,10 @@
         ],
         "tags": [
           {
-            "name": "@spiegel"
+            "name": "@menu"
+          },
+          {
+            "name": "@start"
           }
         ]
       }
@@ -59,6 +62,97 @@
     "id": "spiegel-1",
     "keyword": "Feature",
     "uri": "file:src/test/resources/features/menuPage.feature",
-    "tags": []
+    "tags": [
+      {
+        "name": "@menu",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-24T19:07:57.578Z",
+        "line": 8,
+        "name": "surf on menu page",
+        "description": "",
+        "id": "spiegel-1;surf-on-menu-page",
+        "after": [
+          {
+            "result": {
+              "duration": 767000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.TestCaseBase.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5328000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I start Spiegel",
+            "match": {
+              "location": "steps.MenuSteps.i_start_Spiegel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6607000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click SpiegelPlus",
+            "match": {
+              "location": "steps.SpiegelPlusSteps.clickSpiegelPlus()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@spiegelPlus"
+          },
+          {
+            "name": "@end"
+          }
+        ]
+      }
+    ],
+    "name": "Spiegel 1",
+    "description": "",
+    "id": "spiegel-1",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/spiegelPlus.feature",
+    "tags": [
+      {
+        "name": "@spiegelPlus",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@end",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 16
+        }
+      }
+    ]
   }
 ]

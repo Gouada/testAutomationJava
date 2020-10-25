@@ -20,7 +20,7 @@ public class MenuPage extends BasePage{
 
     private String getTopMenuXpathString(String menuElement)
     {
-        return "//div[@class='OffsetContainer bg-white']//child::nav[@role='navigation']//child::li[@title='"+menuElement +"']";
+        return "//div[@class='OffsetContainer bg-white']//child::nav[@role='navigation']//child::a[@title='"+menuElement +"']";
     }
 
     private String getLeftMenuXpath(String menuElement)
@@ -48,7 +48,7 @@ public class MenuPage extends BasePage{
     {
         String myLocator = getLeftMenuexpandingButtonxpath(menuElement);
         if(!isLeftMenuElementExpanded(menuElement)) {
-            clickElement(myLocator,"xpath", null);
+            clickElement(myLocator,"xpath");
         }
     }
 
@@ -56,29 +56,35 @@ public class MenuPage extends BasePage{
     {
         String myLocator = getLeftMenuexpandingButtonxpath(menuElement);
         if(isLeftMenuElementExpanded(menuElement))
-            clickElement(myLocator,"xpath", null);
+            clickElement(myLocator,"xpath");
     }
 
     public void clickLeftMenuElement(String menuElement)
     {
         String myLocator = getLeftMenuXpath(menuElement);
-        clickElement(myLocator,"xpath", null);
+        clickElement(myLocator,"xpath");
     }
 
     public void clickSubMenuElement(String menuElement, String subMenuElement)
     {
         String myLocator = getLeftMenuSubMenuElement(subMenuElement);
         expandLeftMenuElement(menuElement);
-        clickElement(myLocator,"xpath", null);
+        clickElement(myLocator,"xpath");
     }
 
     public void clickAkzeptieren()
     {
         switch_toFrame(iframe, "xpath");
         waitForElementToBeClickable(akzeptieren_btn, "xpath",10,null);
-        clickElement(akzeptieren_btn,"xpath", null);
+        clickElement(akzeptieren_btn,"xpath");
         switch_back_toDefault();
     }
 
+    public void clickATopMenu(String menuName)
+    {
+        String myLocator = getTopMenuXpathString(menuName);
+        moveToElement(getElement(myLocator,"xpath"));
+        clickElement(getElement(myLocator, "xpath"));
+    }
 
 }
