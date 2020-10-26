@@ -74,10 +74,13 @@ public class MenuPage extends BasePage{
 
     public void clickAkzeptieren()
     {
-        switch_toFrame(iframe, "xpath");
-        waitForElementToBeClickable(akzeptieren_btn, "xpath",10,null);
-        clickElement(akzeptieren_btn,"xpath");
-        switch_back_toDefault();
+        if (isElementDisplayed(iframe, "xpath", null))
+        {
+            switch_toFrame(iframe, "xpath");
+            waitForElementToBeClickable(akzeptieren_btn, "xpath",10,null);
+            clickElement(akzeptieren_btn,"xpath");
+            switch_back_toDefault();
+        }
     }
 
     public void clickATopMenu(String menuName)

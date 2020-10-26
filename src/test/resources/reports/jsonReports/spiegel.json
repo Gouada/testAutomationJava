@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-10-24T19:07:43.114Z",
+        "start_timestamp": "2020-10-26T06:58:54.313Z",
         "before": [
           {
             "result": {
-              "duration": 6818000000,
+              "duration": 7439000000,
               "status": "passed"
             },
             "match": {
@@ -24,7 +24,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4257000000,
+              "duration": 5552000000,
               "status": "passed"
             },
             "line": 9,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 3260000000,
+              "duration": 3287000000,
               "status": "passed"
             },
             "line": 10,
@@ -77,7 +77,51 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-10-24T19:07:57.578Z",
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5525000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I start Spiegel",
+            "match": {
+              "location": "steps.MenuSteps.i_start_Spiegel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3761000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click Akzeptieren und weiter",
+            "match": {
+              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-26T06:59:10.709Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.TestCaseBase.setup()"
+            }
+          }
+        ],
         "line": 8,
         "name": "surf on menu page",
         "description": "",
@@ -85,7 +129,7 @@
         "after": [
           {
             "result": {
-              "duration": 767000000,
+              "duration": 1138000000,
               "status": "passed"
             },
             "match": {
@@ -98,19 +142,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5328000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "I start Spiegel",
-            "match": {
-              "location": "steps.MenuSteps.i_start_Spiegel()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 6607000000,
+              "duration": 6576000000,
               "status": "passed"
             },
             "line": 11,

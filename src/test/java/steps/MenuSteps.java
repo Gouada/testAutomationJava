@@ -38,6 +38,7 @@ public class MenuSteps{
     public void i_start_Spiegel() throws Throwable
     {
         //driver = DriverFactory.getDriverManager(Constants.CHROME).getDriver();
+        MyLogger.logger.info("starting Spiegel");
         TestCaseBase.driver.get(String.valueOf(Urls.STARTSEITE.getUrl()));
         menuPage = new MenuPage(driver);
         sleep(3000);
@@ -45,9 +46,11 @@ public class MenuSteps{
     }
 
     @Then("I click Akzeptieren und weiter")
-    public void i_click_Akzeptieren_und_weiter() throws InterruptedException {
-            menuPage.clickAkzeptieren();
-            sleep(3000);
+    public void i_click_Akzeptieren_und_weiter() throws InterruptedException
+    {
+        MyLogger.logger.info("accepting conditions");
+        menuPage.clickAkzeptieren();
+        sleep(3000);
     }
 
 /*

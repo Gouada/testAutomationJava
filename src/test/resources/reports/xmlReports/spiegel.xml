@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="27.392">
-<testcase classname="Spiegel 1" name="surf on menu page" time="14.454">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="33.643">
+<testcase classname="Spiegel 1" name="surf on menu page" time="16.382">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel 1" name="surf on menu page" time="12.706">
+<testcase classname="Spiegel 1" name="surf on menu page" time="17.009">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
 Then I click SpiegelPlus....................................................passed
 ]]></system-out>
 </testcase>

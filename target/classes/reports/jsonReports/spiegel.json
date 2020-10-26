@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-10-24T19:05:15.814Z",
+        "start_timestamp": "2020-10-26T06:51:21.157Z",
         "before": [
           {
             "result": {
-              "duration": 6801000000,
+              "duration": 8020000000,
               "status": "passed"
             },
             "match": {
@@ -24,7 +24,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6397000000,
+              "duration": 4828000000,
               "status": "passed"
             },
             "line": 9,
@@ -36,9 +36,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.NullPointerException\r\n\tat steps.MenuSteps.i_click_Akzeptieren_und_weiter(MenuSteps.java:49)\r\n\tat ✽.I click Akzeptieren und weiter(file:///C:/MyWorkspace/guineenews/src/test/resources/features/menuPage.feature:10)\r\n",
-              "duration": 3000000,
-              "status": "failed"
+              "duration": 3260000000,
+              "status": "passed"
             },
             "line": 10,
             "name": "I click Akzeptieren und weiter",
@@ -78,7 +77,39 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-10-24T19:05:29.168Z",
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5225000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I start Spiegel",
+            "match": {
+              "location": "steps.MenuSteps.i_start_Spiegel()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-26T06:51:37.368Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.TestCaseBase.setup()"
+            }
+          }
+        ],
         "line": 8,
         "name": "surf on menu page",
         "description": "",
@@ -86,7 +117,7 @@
         "after": [
           {
             "result": {
-              "duration": 695000000,
+              "duration": 992000000,
               "status": "passed"
             },
             "match": {
@@ -99,21 +130,8 @@
         "steps": [
           {
             "result": {
-              "duration": 3641000000,
+              "duration": 9280000000,
               "status": "passed"
-            },
-            "line": 9,
-            "name": "I start Spiegel",
-            "match": {
-              "location": "steps.MenuSteps.i_start_Spiegel()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "error_message": "java.lang.NullPointerException\r\n\tat steps.SpiegelPlusSteps.clickSpiegelPlus(SpiegelPlusSteps.java:35)\r\n\tat ✽.I click SpiegelPlus(file:///C:/MyWorkspace/guineenews/src/test/resources/features/spiegelPlus.feature:11)\r\n",
-              "duration": 2000000,
-              "status": "failed"
             },
             "line": 11,
             "name": "I click SpiegelPlus",

@@ -17,7 +17,8 @@ public class TestCaseBase {
     @Before //("@start")
     public void setup()
     {
-        MyLogger.logger.isEnabled(Level.DEBUG);
+        //MyLogger.logger.isEnabled(Level.DEBUG);
+        MyLogger.logger.trace("start logging");
         MyLogger.logger.info("starting test ...");
         driver = DriverFactory.getDriverManager(Constants.CHROME).getDriver();
         //menuPage = new MenuPage(driver);
