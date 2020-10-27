@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-10-26T06:58:54.313Z",
+        "start_timestamp": "2020-10-27T23:37:30.968Z",
         "before": [
           {
             "result": {
-              "duration": 7439000000,
+              "duration": 6863000000,
               "status": "passed"
             },
             "match": {
@@ -24,7 +24,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5552000000,
+              "duration": 4508000000,
               "status": "passed"
             },
             "line": 9,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 3287000000,
+              "duration": 3376000000,
               "status": "passed"
             },
             "line": 10,
@@ -85,7 +85,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5525000000,
+              "duration": 4062000000,
               "status": "passed"
             },
             "line": 5,
@@ -97,10 +97,10 @@
           },
           {
             "result": {
-              "duration": 3761000000,
+              "duration": 3744000000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "I click Akzeptieren und weiter",
             "match": {
               "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
@@ -110,11 +110,10 @@
         ]
       },
       {
-        "start_timestamp": "2020-10-26T06:59:10.709Z",
+        "start_timestamp": "2020-10-27T23:37:45.825Z",
         "before": [
           {
             "result": {
-              "duration": 3000000,
               "status": "passed"
             },
             "match": {
@@ -122,14 +121,14 @@
             }
           }
         ],
-        "line": 8,
+        "line": 9,
         "name": "surf on menu page",
         "description": "",
         "id": "spiegel-1;surf-on-menu-page",
         "after": [
           {
             "result": {
-              "duration": 1138000000,
+              "duration": 1543000000,
               "status": "passed"
             },
             "match": {
@@ -142,13 +141,109 @@
         "steps": [
           {
             "result": {
-              "duration": 6576000000,
+              "duration": 6252000000,
               "status": "passed"
             },
-            "line": 11,
+            "line": 12,
             "name": "I click SpiegelPlus",
             "match": {
               "location": "steps.SpiegelPlusSteps.clickSpiegelPlus()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 851000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click first article of first section",
+            "match": {
+              "location": "steps.SpiegelPlusSteps.i_click_first_article_of_first_section()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5255000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I scroll down",
+            "match": {
+              "location": "steps.SpiegelPlusSteps.i_scroll_down()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 209000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I go back",
+            "match": {
+              "location": "steps.SpiegelPlusSteps.i_go_back()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1778000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click last article of first section",
+            "match": {
+              "location": "steps.SpiegelPlusSteps.i_click_last_article_of_first_section()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5078000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I scroll down",
+            "match": {
+              "location": "steps.SpiegelPlusSteps.i_scroll_down()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 178000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I go back",
+            "match": {
+              "location": "steps.SpiegelPlusSteps.i_go_back()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6707000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I paginate to next page",
+            "match": {
+              "location": "steps.SpiegelPlusSteps.i_paginate_to_next_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5065000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I scroll down",
+            "match": {
+              "location": "steps.SpiegelPlusSteps.i_scroll_down()"
             },
             "keyword": "Then "
           }

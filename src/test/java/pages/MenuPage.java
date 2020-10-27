@@ -12,8 +12,6 @@ public class MenuPage extends BasePage{
     private static String meunu_button_xpath = "//button[@data-navbar-el='menuActivator']";
     private static String icon_xpath = "//span[contains(text(), 'Anmelden') and @class='relative bottom-px']";
 
-    private static String akzeptieren_btn = "//button[contains(@title, 'Akzeptieren und weiter')]";
-    private static String iframe = "//iframe[contains(@id, 'sp_message_iframe')]";
     public MenuPage(WebDriver driver) {
         super(driver);
     }
@@ -70,17 +68,6 @@ public class MenuPage extends BasePage{
         String myLocator = getLeftMenuSubMenuElement(subMenuElement);
         expandLeftMenuElement(menuElement);
         clickElement(myLocator,"xpath");
-    }
-
-    public void clickAkzeptieren()
-    {
-        if (isElementDisplayed(iframe, "xpath", null))
-        {
-            switch_toFrame(iframe, "xpath");
-            waitForElementToBeClickable(akzeptieren_btn, "xpath",10,null);
-            clickElement(akzeptieren_btn,"xpath");
-            switch_back_toDefault();
-        }
     }
 
     public void clickATopMenu(String menuName)

@@ -1,3 +1,2 @@
-2020-10-26 07:59:16,242 INFO s.MenuSteps [main] accepting conditions
-2020-10-26 07:59:16,989 ERROR c.SeleniumDriverWrapper [main] Element: //iframe[contains(@id, 'sp_message_iframe')] was not found[Ljava.lang.StackTraceElement;@263558c9
-2020-10-26 07:59:16,990 ERROR c.SeleniumDriverWrapper [main] //iframe[contains(@id, 'sp_message_iframe')][Ljava.lang.StackTraceElement;@1f14f20c
+2020-10-28 00:37:50,432 ERROR c.SeleniumDriverWrapper [main] Element: //iframe[contains(@id, 'sp_message_iframe')] was not found[Ljava.lang.StackTraceElement;@5f2afe62
+2020-10-28 00:37:50,633 ERROR c.SeleniumDriverWrapper [main] //iframe[contains(@id, 'sp_message_iframe')][Ljava.lang.StackTraceElement;@28782602

@@ -23,6 +23,15 @@ public class SpiegelPlus extends BasePage{
         return "//section[@class='relative flex flex-wrap w-full']["+sectionNr+"]//child::div[@data-block-el='articleTeaser']";
     }
 
+    private int getSectionsCount()
+    {
+        return getElements(sections_path, "xpath").size();
+    }
+
+    private int getArticlesCount(int sectionNr)
+    {
+        return getElements(getSectionArticlesXpath(sectionNr), "xpath").size();
+    }
     //check wether there sections on spiegelPlus page
     private boolean isSection()
     {
@@ -57,7 +66,11 @@ public class SpiegelPlus extends BasePage{
 
     public void paginate(String direction)
     {
-        WebElement element = getElement(direction, "xpath");
+        WebElement element=null;
+        if(direction.equals("right"))
+            element = getElement(nav_right, "xpath");
+        else if(direction.equals("left"))
+            element = getElement(nav_left, "xpath");
         moveToElement(element);
         clickElement(element);
     }

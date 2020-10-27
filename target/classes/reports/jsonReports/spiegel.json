@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-10-26T06:51:21.157Z",
+        "start_timestamp": "2020-10-27T23:01:32.917Z",
         "before": [
           {
             "result": {
-              "duration": 8020000000,
+              "duration": 6823000000,
               "status": "passed"
             },
             "match": {
@@ -24,7 +24,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4828000000,
+              "duration": 4566000000,
               "status": "passed"
             },
             "line": 9,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 3260000000,
+              "duration": 3309000000,
               "status": "passed"
             },
             "line": 10,
@@ -85,7 +85,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5225000000,
+              "duration": 5935000000,
               "status": "passed"
             },
             "line": 5,
@@ -94,15 +94,27 @@
               "location": "steps.MenuSteps.i_start_Spiegel()"
             },
             "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3824000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click Akzeptieren und weiter",
+            "match": {
+              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2020-10-26T06:51:37.368Z",
+        "start_timestamp": "2020-10-27T23:01:47.727Z",
         "before": [
           {
             "result": {
-              "duration": 5000000,
+              "duration": 8000000,
               "status": "passed"
             },
             "match": {
@@ -110,14 +122,14 @@
             }
           }
         ],
-        "line": 8,
+        "line": 9,
         "name": "surf on menu page",
         "description": "",
         "id": "spiegel-1;surf-on-menu-page",
         "after": [
           {
             "result": {
-              "duration": 992000000,
+              "duration": 846000000,
               "status": "passed"
             },
             "match": {
@@ -130,13 +142,37 @@
         "steps": [
           {
             "result": {
-              "duration": 9280000000,
+              "duration": 7238000000,
               "status": "passed"
             },
-            "line": 11,
+            "line": 12,
             "name": "I click SpiegelPlus",
             "match": {
               "location": "steps.SpiegelPlusSteps.clickSpiegelPlus()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5941000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I paginate to next page",
+            "match": {
+              "location": "steps.SpiegelPlusSteps.i_paginate_to_next_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5101000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I scroll down",
+            "match": {
+              "location": "steps.SpiegelPlusSteps.i_scroll_down()"
             },
             "keyword": "Then "
           }
