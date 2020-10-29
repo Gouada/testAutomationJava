@@ -1,2 +1,1 @@
-2020-10-28 00:37:50,432 ERROR c.SeleniumDriverWrapper [main] Element: //iframe[contains(@id, 'sp_message_iframe')] was not found[Ljava.lang.StackTraceElement;@5f2afe62
-2020-10-28 00:37:50,633 ERROR c.SeleniumDriverWrapper [main] //iframe[contains(@id, 'sp_message_iframe')][Ljava.lang.StackTraceElement;@28782602
+2020-10-29 20:01:54,285 INFO p.SpiegelPlus [main] count..:10

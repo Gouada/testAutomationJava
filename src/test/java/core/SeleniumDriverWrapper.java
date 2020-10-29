@@ -484,13 +484,25 @@ public class SeleniumDriverWrapper {
     public void goBack() {
         Object last_height;
         try {
-            last_height = ((JavascriptExecutor) driver).executeScript("return document.body.scrollHeight");
-            ((JavascriptExecutor) driver).executeScript("window.scrollTo(0, document.body.scrollHeight);");
+            //last_height = ((JavascriptExecutor) driver).executeScript("return document.body.scrollHeight");
+            //((JavascriptExecutor) driver).executeScript("window.scrollTo(0, document.body.scrollHeight);");
             ((JavascriptExecutor) driver).executeScript("window.history.go(-1)");
 
             //actions = ActionChains(self.driver)
             //actions.send_keys(Keys.ALT, Keys.LEFT).perform()
             //actions.key_down(Keys.ALT).send_keys(Keys.LEFT).key_up(Keys.ALT).perform()
+        } catch (Exception e) {
+            MyLogger.logger.error(e.getStackTrace().toString());
+        }
+    }
+
+    public void iClickBackButton() {
+        Object last_height;
+        try {
+
+            Actions actions = new Actions(driver);
+            //actions.sendKeys(Keys.ALT, Keys.LEFT).perform();
+            actions.keyDown(Keys.ALT).sendKeys(Keys.LEFT).keyUp(Keys.ALT).perform();
         } catch (Exception e) {
             MyLogger.logger.error(e.getStackTrace().toString());
         }

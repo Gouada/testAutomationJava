@@ -1,5 +1,6 @@
 package pages;
 
+import helpers.MyLogger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
@@ -32,7 +33,9 @@ public class SpiegelPlus extends BasePage{
 
     private int getArticlesCount(int sectionNr)
     {
-        return getElements(getSectionArticlesXpath(sectionNr), "xpath").size();
+        int count = getElements(getSectionArticlesXpath(sectionNr), "xpath").size();
+        MyLogger.logger.info("count..:"+count);
+        return count;
     }
     //check wether there sections on spiegelPlus page
     private boolean isSection()
@@ -54,7 +57,7 @@ public class SpiegelPlus extends BasePage{
 
     public void clickSectionArticle(int sectionNr, int articleNr)
     {
-        String myLocator = "(" + getSectionArticleXpath(sectionNr, articleNr) + "//a)[2]";
+        String myLocator = "(" + getSectionArticleXpath(sectionNr, articleNr) + "//a)[1]";
         scrollIntoView(getElement(myLocator,"xpath"));
         clickElement(myLocator, "xpath");
     }
@@ -85,13 +88,14 @@ public class SpiegelPlus extends BasePage{
     public void clickSectionLastArticle(int sectionNr)
     {
         int lastArticleNr = getArticlesCount(sectionNr);
+        MyLogger.logger.info("lastArticleNr ...:"+ lastArticleNr + "   "+ "sectionNr....:"+sectionNr);
         clickSectionArticle(sectionNr, lastArticleNr);
     }
 
     public void clickSectionRandomArticle(int sectionNr)
     {
         Random rdm = new Random();
-
+        
         int randomArticleNr = rdm.nextInt(getArticlesCount(sectionNr));
         clickSectionArticle(sectionNr, randomArticleNr);
     }

@@ -1,2 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" time="0.235"/>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="93.082">
+<testcase classname="Spiegel 1" name="surf on menu page" time="16.075">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Spiegel 1" name="surf on menu page" time="76.828">
+<failure message="" type="java.lang.AssertionError"><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+Then I click SpiegelPlus....................................................passed
+Then I click first article of first section.................................passed
+Then I scroll down..........................................................passed
+Then I go back..............................................................passed
+Then I click last article of first section..................................passed
+Then I scroll down..........................................................passed
+Then I go back..............................................................passed
+Then I paginate to "next" page..............................................passed
+Then I scroll down..........................................................passed
+Then I paginate to "previous" page..........................................passed
+Then I click an random article of first section.............................passed
+Then I scroll down..........................................................passed
+Then I go back..............................................................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at steps.SpiegelPlusSteps.i_go_back(SpiegelPlusSteps.java:83)
+	at ✽.I go back(file:///C:/MyWorkspace/guineenews/src/test/resources/features/spiegelPlus.feature:24)
+]]></failure>
+</testcase>
+</testsuite>

@@ -41,10 +41,10 @@ public class SpiegelPlusSteps {
         MenuSteps.menuPage.clickATopMenu(Menu.SPIEGEL_PLUS);
         Assert.assertTrue(spiegelPlus.getitle().contains("Plus - DER SPIEGEL"));
         Assert.assertTrue(spiegelPlus.getPageSource().contains("SPIEGEL+"));
-        sleep(5000);
+        sleep(3000);
     }
 
-    @Then("I paginate to {next} page")
+    @Then("^I paginate to (.*) page$")
     public void i_paginate_to_next_page(String next) throws Throwable
     {
         if(next.equals("next")) {
@@ -59,13 +59,13 @@ public class SpiegelPlusSteps {
             //Assert.assertTrue(spiegelPlus.isLeftNavigationVisible());
         }
 
-        sleep(5000);
+        sleep(3000);
     }
 
     @Then("I scroll down")
     public void i_scroll_down() throws InterruptedException {
         spiegelPlus.pageDown();
-        sleep(5000);
+        sleep(3000);
     }
 
     @Then("I click first article of first section")
@@ -78,20 +78,25 @@ public class SpiegelPlusSteps {
     public void i_go_back() throws Throwable
     {
         spiegelPlus.goBack();
-        Assert.assertTrue(spiegelPlus.getitle().contains("Plus - DER SPIEGEL"));
+        //spiegelPlus.iClickBackButton();
+        //Assert.assertTrue(spiegelPlus.getitle().contains("Plus - DER SPIEGEL"));
         Assert.assertTrue(spiegelPlus.getPageSource().contains("SPIEGEL+"));
+        sleep(3000);
+
     }
 
     @Then("I click last article of first section")
     public void i_click_last_article_of_first_section() throws Throwable
     {
         spiegelPlus.clickSectionLastArticle(1);
+        sleep(3000);
     }
 
     @Then("I click an random article of first section")
     public void i_click_an_random_article_of_section_one() throws Throwable
     {
         spiegelPlus.clickSectionRandomArticle(1);
+        sleep(3000);
     }
 /*
     @After
