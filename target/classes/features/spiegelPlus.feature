@@ -16,5 +16,11 @@ Feature: Spiegel 1
     Then I click last article of first section
     Then I scroll down
     Then I go back
-    Then I paginate to next page
+    Then I paginate to "next" page
     Then I scroll down
+    Then I paginate to "previous" page
+    Then I click an random article of first section
+    Then I scroll down
+    Then I go back
+
+

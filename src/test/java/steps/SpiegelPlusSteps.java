@@ -44,10 +44,21 @@ public class SpiegelPlusSteps {
         sleep(5000);
     }
 
-    @Then("I paginate to next page")
-    public void i_paginate_to_next_page() throws Throwable
+    @Then("I paginate to {next} page")
+    public void i_paginate_to_next_page(String next) throws Throwable
     {
-        spiegelPlus.paginate("right");
+        if(next.equals("next")) {
+            spiegelPlus.paginate("right");
+            Assert.assertTrue(spiegelPlus.getCurrentURL().equals("https://www.spiegel.de/plus/p2/"));
+            Assert.assertTrue(spiegelPlus.isLeftNavigationVisible());
+        }
+        else if(next.equals("previous"))
+        {
+            spiegelPlus.paginate("left");
+            //Assert.assertTrue(spiegelPlus.getCurrentURL().equals("https://www.spiegel.de/plus/p2/"));
+            //Assert.assertTrue(spiegelPlus.isLeftNavigationVisible());
+        }
+
         sleep(5000);
     }
 
@@ -67,12 +78,20 @@ public class SpiegelPlusSteps {
     public void i_go_back() throws Throwable
     {
         spiegelPlus.goBack();
+        Assert.assertTrue(spiegelPlus.getitle().contains("Plus - DER SPIEGEL"));
+        Assert.assertTrue(spiegelPlus.getPageSource().contains("SPIEGEL+"));
     }
 
     @Then("I click last article of first section")
     public void i_click_last_article_of_first_section() throws Throwable
     {
-        spiegelPlus.clickSectionArticle(1,5);
+        spiegelPlus.clickSectionLastArticle(1);
+    }
+
+    @Then("I click an random article of first section")
+    public void i_click_an_random_article_of_section_one() throws Throwable
+    {
+        spiegelPlus.clickSectionRandomArticle(1);
     }
 /*
     @After

@@ -23,4 +23,5 @@ public class BasePage extends SeleniumDriverWrapper {
         WebDriverWait dw = new WebDriverWait(driver, 15);
         dw.until(ExpectedConditions.titleIs(title));
     }
+
 }

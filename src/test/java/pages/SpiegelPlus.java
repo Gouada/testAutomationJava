@@ -3,6 +3,8 @@ package pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import java.util.Random;
+
 public class SpiegelPlus extends BasePage{
     public SpiegelPlus(WebDriver driver) {
         super(driver);
@@ -73,5 +75,24 @@ public class SpiegelPlus extends BasePage{
             element = getElement(nav_left, "xpath");
         moveToElement(element);
         clickElement(element);
+    }
+
+    public boolean isLeftNavigationVisible()
+    {
+        return isElementDisplayed(nav_left, "xpath", null);
+    }
+
+    public void clickSectionLastArticle(int sectionNr)
+    {
+        int lastArticleNr = getArticlesCount(sectionNr);
+        clickSectionArticle(sectionNr, lastArticleNr);
+    }
+
+    public void clickSectionRandomArticle(int sectionNr)
+    {
+        Random rdm = new Random();
+
+        int randomArticleNr = rdm.nextInt(getArticlesCount(sectionNr));
+        clickSectionArticle(sectionNr, randomArticleNr);
     }
 }
