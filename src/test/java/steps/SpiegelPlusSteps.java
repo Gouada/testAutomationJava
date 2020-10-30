@@ -68,10 +68,18 @@ public class SpiegelPlusSteps {
         sleep(3000);
     }
 
-    @Then("I click first article of first section")
-    public void i_click_first_article_of_first_section()
+    @Then("I click first article of (.*) section")
+    public void i_click_first_article_of_section(String section)
     {
-        spiegelPlus.clickSectionArticle(1,1);
+        int sectionNr =0;
+        if(section.equals("first"))
+            sectionNr=1;
+        if(section.equals("random"))
+            sectionNr = spiegelPlus.getRandomSectionNr();
+        if(section.equals("audio"))
+            sectionNr = spiegelPlus.getSectionsCount();
+
+        spiegelPlus.clickSectionArticle(sectionNr,1);
     }
 
     @Then("I go back")
@@ -85,19 +93,86 @@ public class SpiegelPlusSteps {
 
     }
 
-    @Then("I click last article of first section")
-    public void i_click_last_article_of_first_section() throws Throwable
+    @Then("I click last article of (.*) section")
+    public void i_click_last_article_of_first_section(String section) throws Throwable
     {
-        spiegelPlus.clickSectionLastArticle(1);
+        int sectionNr =0;
+        if(section.equals("first"))
+            sectionNr=1;
+        if(section.equals("random"))
+            sectionNr = spiegelPlus.getRandomSectionNr();
+        if(section.equals("audio"))
+            sectionNr = spiegelPlus.getSectionsCount();
+        spiegelPlus.clickSectionLastArticle(sectionNr);
         sleep(3000);
     }
 
-    @Then("I click an random article of first section")
-    public void i_click_an_random_article_of_section_one() throws Throwable
+    @Then("I click an random article of (.*) section")
+    public void i_click_an_random_article_of_section_one(String section) throws Throwable
     {
-        spiegelPlus.clickSectionRandomArticle(1);
+        int sectionNr =0;
+        if(section.equals("first"))
+            sectionNr=1;
+        if(section.equals("random"))
+            sectionNr = spiegelPlus.getRandomSectionNr();
+        if(section.equals("audio"))
+            sectionNr = spiegelPlus.getSectionsCount();
+
+        spiegelPlus.clickSectionRandomArticle(sectionNr);
         sleep(3000);
     }
+
+    @Then("^I scroll to (.*) section$")
+    public void i_scroll_to_audio_section(String section)
+    {
+        if(section.equals("alle_Beitraege"))
+        {
+            spiegelPlus.scrollto(section);
+        }
+        else {
+            int sectionNr =0;
+            if (section.equals("first"))
+                sectionNr = 1;
+            if (section.equals("random"))
+                sectionNr = spiegelPlus.getRandomSectionNr();
+            if (section.equals("audio"))
+                sectionNr = spiegelPlus.getSectionsCount();
+            spiegelPlus.scrollToSection(sectionNr);
+        }
+    }
+
+    @Then("^I scroll to alle Beitraege (.*) article$")
+    public void  i_scroll_to_alle_Beitraegearticle(String position)throws Throwable
+    {
+        if(position.equals("random"))
+        {
+            spiegelPlus.scrollToRandomArticleOfAlleBeitraegeSection();
+        }
+        if(position.equals("last"))
+        {
+            spiegelPlus.scrollToAlleBeitraegeSectionLastArticle();
+        }
+        else{
+            spiegelPlus.scrollToAlleBeitraegeSectionArticle(Integer.parseInt(position));
+        }
+    }
+
+    @Then("^I click a (.*) article of alle Beitraege section$")
+    public void i_click_article_of_alle_Beitraege_section(String position) throws Throwable
+    {
+        if(position.equals("random"))
+        {
+            spiegelPlus.clickRandomArticleOfAlleBeitraegeSection();
+        }
+        if(position.equals("last"))
+        {
+            spiegelPlus.clickAlleBeitraegeSectionLastArticle();
+        }
+        else{
+            spiegelPlus.clickAlleBeitraegeSectionArticle(Integer.parseInt(position));
+        }
+    }
+
 /*
     @After
     public void endsTest()
