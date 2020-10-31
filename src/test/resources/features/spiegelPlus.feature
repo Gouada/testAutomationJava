@@ -1,4 +1,4 @@
-@spiegelPlus   @end
+@spiegelPlus
 Feature: Spiegel 1
 
   Background:
@@ -18,10 +18,10 @@ Feature: Spiegel 1
     Then I paginate to "previous" page
     Then I click a random article of "first" section
     Then I scroll down
-    Then I go back
+    #Then I go back
 
   Scenario: Spiegel plus read random section articles
-    Then I scroll to random section
+    Then I scroll to "random" section
     Then I click first article of "random" section
     Then I scroll down
     Then I go back
@@ -38,10 +38,11 @@ Feature: Spiegel 1
     Then I scroll down
     Then I go back
 
+  @end
   Scenario: Spiegel plus read alle Beiträge section articles
     Then I scroll to "alle_Beitraege" section
     Then I scroll to alle Beitraege "last" article
-    Then I scroll to alle_Beitraege "random" article
+    Then I scroll to alle Beitraege "random" article
     Then I click a "random" article of alle Beitraege section
     Then I scroll down
     Then I go back

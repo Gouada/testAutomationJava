@@ -1,6 +1,7 @@
 package core;
 
 import helpers.MyLogger;
+import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.ObjectUtils;
 import org.apache.logging.log4j.Level;
 import org.openqa.selenium.*;
@@ -9,6 +10,9 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.io.File;
+import java.io.IOException;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 
@@ -481,6 +485,31 @@ public class SeleniumDriverWrapper {
         }
     }
 
+    public void takeScreenhot( String testStep)
+    {
+        Calendar calendar = Calendar.getInstance();
+        String filename;
+        //filename = "ERROR_SCREENSHOT_"+Calendar.DAY_OF_MONTH+"_"+Calendar.MONTH+"-"+Calendar.HOUR+"_"+Calendar.MINUTE+"_"+Calendar.SECOND+ ".jpg";
+        filename = "ERROR_SCREENSHOT_"+testStep+"_"+calendar.getTimeInMillis()+".jpg";
+        MyLogger.logger.info("this is the filename"+ filename);
+        File screenShot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        copyFile(screenShot, filename);
+        filename="";
+    }
+
+    public void copyFile(File screenShot, String filename)
+    {
+        String destinationPath = "ScreenShots/"+filename;
+        File destinationFile = new File (destinationPath);
+
+        try {
+            FileUtils.copyFile(screenShot, destinationFile);
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+    }
+
     public void goBack() {
         Object last_height;
         try {
@@ -492,6 +521,7 @@ public class SeleniumDriverWrapper {
             //actions.send_keys(Keys.ALT, Keys.LEFT).perform()
             //actions.key_down(Keys.ALT).send_keys(Keys.LEFT).key_up(Keys.ALT).perform()
         } catch (Exception e) {
+            takeScreenhot("goback");
             MyLogger.logger.error(e.getStackTrace().toString());
         }
     }
@@ -504,6 +534,7 @@ public class SeleniumDriverWrapper {
             //actions.sendKeys(Keys.ALT, Keys.LEFT).perform();
             actions.keyDown(Keys.ALT).sendKeys(Keys.LEFT).keyUp(Keys.ALT).perform();
         } catch (Exception e) {
+            takeScreenhot("going back");
             MyLogger.logger.error(e.getStackTrace().toString());
         }
     }

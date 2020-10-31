@@ -4,6 +4,7 @@ import helpers.MyLogger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import java.util.List;
 import java.util.Random;
 
 public class SpiegelPlus extends BasePage{
@@ -36,7 +37,7 @@ public class SpiegelPlus extends BasePage{
     {
         int articleCount = getElements(alle_beitraege_list, "xpath").size();
         Random rnd = new Random();
-        int rndId = rnd.nextInt(articleCount);
+        int rndId = rnd.nextInt(articleCount)+1;
         clickElement(getElements(alle_beitraege_list, "xpath").get(rndId));
     }
 
@@ -47,7 +48,7 @@ public class SpiegelPlus extends BasePage{
 
     public void clickAlleBeitraegeSectionLastArticle()
     {
-        int articleNr = getElements(alle_beitraege_list, "xpath").size();
+        int articleNr = getElements(alle_beitraege_list, "xpath").size()-1;
         clickElement(getElements(alle_beitraege_list, "xpath").get(articleNr));
     }
 
@@ -55,7 +56,7 @@ public class SpiegelPlus extends BasePage{
     {
         int articleCount = getElements(alle_beitraege_list, "xpath").size();
         Random rnd = new Random();
-        int rndId = rnd.nextInt(articleCount);
+        int rndId = rnd.nextInt(articleCount)+1;
         moveToElement(getElements(alle_beitraege_list, "xpath").get(rndId));
     }
 
@@ -66,7 +67,7 @@ public class SpiegelPlus extends BasePage{
 
     public void scrollToAlleBeitraegeSectionLastArticle()
     {
-        int articleNr = getElements(alle_beitraege_list, "xpath").size();
+        int articleNr = getElements(alle_beitraege_list, "xpath").size() -1;
         moveToElement(getElements(alle_beitraege_list, "xpath").get(articleNr));
     }
 
@@ -89,10 +90,11 @@ public class SpiegelPlus extends BasePage{
     }
 
     //check wether there are article within a given section
-    private boolean isArticle(int sectionNr)
+    private boolean hasArticle(int sectionNr)
     {
         String myLocator = getSectionArticlesXpath(sectionNr);
-        return getElements(myLocator, "xpath").size() >0;
+        List<WebElement> elements = getElements(myLocator, "xpath");
+        return elements != null && elements.size() > 0;
     }
 
     private String getAllebeitraegeElementXpath(int articleNr)
@@ -103,8 +105,9 @@ public class SpiegelPlus extends BasePage{
     public void clickSectionArticle(int sectionNr, int articleNr)
     {
         String myLocator = "(" + getSectionArticleXpath(sectionNr, articleNr) + "//a)[1]";
-        scrollIntoView(getElement(myLocator,"xpath"));
+        moveToElement(getElement(myLocator, "xpath"));
         clickElement(myLocator, "xpath");
+
     }
 
     public void clickAlleBeitraegeElement(int articleNr)
@@ -133,6 +136,7 @@ public class SpiegelPlus extends BasePage{
     public void clickSectionLastArticle(int sectionNr)
     {
         int lastArticleNr = getArticlesCount(sectionNr);
+        System.out.println("lastArticleNr ...:"+ lastArticleNr + "   "+ "sectionNr....:"+sectionNr);
         MyLogger.logger.info("lastArticleNr ...:"+ lastArticleNr + "   "+ "sectionNr....:"+sectionNr);
         clickSectionArticle(sectionNr, lastArticleNr);
     }
@@ -146,13 +150,20 @@ public class SpiegelPlus extends BasePage{
     public int getRandomArticleNr(int sectionNr)
     {
         Random rdm = new Random();
-        return rdm.nextInt(getArticlesCount(sectionNr));
+        int randNr = rdm.nextInt(getArticlesCount(sectionNr))+1;
+        System.out.println("Random section Nr"+ randNr);
+        return randNr;
     }
 
     public int getRandomSectionNr()
     {
         Random rdm = new Random();
-        return rdm.nextInt(getSectionsCount());
+        int rndSection=0;
+        do {
+            rndSection = rdm.nextInt(getSectionsCount())+1;
+        }
+        while(!hasArticle(rndSection));
+        return rndSection;
     }
 
     public void scrollToSection(int sectionNr)

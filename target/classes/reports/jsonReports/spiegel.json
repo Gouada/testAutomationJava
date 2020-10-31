@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-10-29T19:00:51.230Z",
+        "start_timestamp": "2020-10-31T02:10:11.980Z",
         "before": [
           {
             "result": {
-              "duration": 7247000000,
+              "duration": 8657000000,
               "status": "passed"
             },
             "match": {
@@ -24,7 +24,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4480000000,
+              "duration": 4602000000,
               "status": "passed"
             },
             "line": 9,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 3310000000,
+              "duration": 3337000000,
               "status": "passed"
             },
             "line": 10,
@@ -85,7 +85,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5660000000,
+              "duration": 4207000000,
               "status": "passed"
             },
             "line": 5,
@@ -97,24 +97,36 @@
           },
           {
             "result": {
-              "duration": 5657000000,
+              "duration": 4525000000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 6,
             "name": "I click Akzeptieren und weiter",
             "match": {
               "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7487000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click SpiegelPlus",
+            "match": {
+              "location": "steps.SpiegelPlusSteps.clickSpiegelPlus()"
             },
             "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2020-10-29T19:01:06.373Z",
+        "start_timestamp": "2020-10-31T02:10:28.656Z",
         "before": [
           {
             "result": {
-              "duration": 9000000,
+              "duration": 61000000,
               "status": "passed"
             },
             "match": {
@@ -123,50 +135,75 @@
           }
         ],
         "line": 9,
-        "name": "surf on menu page",
+        "name": "Spiegel plus read section 1 articles",
         "description": "",
-        "id": "spiegel-1;surf-on-menu-page",
-        "after": [
-          {
-            "result": {
-              "duration": 1317000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.TestCaseBase.tearDown()"
-            }
-          }
-        ],
+        "id": "spiegel-1;spiegel-plus-read-section-1-articles",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 4881000000,
+              "duration": 5538000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click first article of \"first\" section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"first\"",
+                  "offset": 25
+                }
+              ],
+              "location": "steps.SpiegelPlusSteps.i_click_first_article_of_section(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3065000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I scroll down",
+            "match": {
+              "location": "steps.SpiegelPlusSteps.i_scroll_down()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4642000000,
               "status": "passed"
             },
             "line": 12,
-            "name": "I click SpiegelPlus",
+            "name": "I go back",
             "match": {
-              "location": "steps.SpiegelPlusSteps.clickSpiegelPlus()"
+              "location": "steps.SpiegelPlusSteps.i_go_back()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1144000000,
+              "duration": 3844000000,
               "status": "passed"
             },
             "line": 13,
-            "name": "I click first article of first section",
+            "name": "I click last article of \"first\" section",
             "match": {
-              "location": "steps.SpiegelPlusSteps.i_click_first_article_of_first_section()"
+              "arguments": [
+                {
+                  "val": "\"first\"",
+                  "offset": 24
+                }
+              ],
+              "location": "steps.SpiegelPlusSteps.i_click_last_article_of_section(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 3041000000,
+              "duration": 3078000000,
               "status": "passed"
             },
             "line": 14,
@@ -178,7 +215,7 @@
           },
           {
             "result": {
-              "duration": 4380000000,
+              "duration": 4660000000,
               "status": "passed"
             },
             "line": 15,
@@ -190,46 +227,10 @@
           },
           {
             "result": {
-              "duration": 4216000000,
+              "duration": 10090000000,
               "status": "passed"
             },
             "line": 16,
-            "name": "I click last article of first section",
-            "match": {
-              "location": "steps.SpiegelPlusSteps.i_click_last_article_of_first_section()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 4278000000,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "I scroll down",
-            "match": {
-              "location": "steps.SpiegelPlusSteps.i_scroll_down()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 5495000000,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "I go back",
-            "match": {
-              "location": "steps.SpiegelPlusSteps.i_go_back()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3009000000,
-              "status": "passed"
-            },
-            "line": 19,
             "name": "I paginate to \"next\" page",
             "match": {
               "arguments": [
@@ -244,10 +245,10 @@
           },
           {
             "result": {
-              "duration": 3077000000,
+              "duration": 3045000000,
               "status": "passed"
             },
-            "line": 20,
+            "line": 17,
             "name": "I scroll down",
             "match": {
               "location": "steps.SpiegelPlusSteps.i_scroll_down()"
@@ -256,10 +257,10 @@
           },
           {
             "result": {
-              "duration": 3007000000,
+              "duration": 10629000000,
               "status": "passed"
             },
-            "line": 21,
+            "line": 18,
             "name": "I paginate to \"previous\" page",
             "match": {
               "arguments": [
@@ -274,22 +275,148 @@
           },
           {
             "result": {
-              "duration": 4545000000,
+              "duration": 4014000000,
               "status": "passed"
             },
-            "line": 22,
-            "name": "I click an random article of first section",
+            "line": 19,
+            "name": "I click a random article of \"first\" section",
             "match": {
-              "location": "steps.SpiegelPlusSteps.i_click_an_random_article_of_section_one()"
+              "arguments": [
+                {
+                  "val": "\"first\"",
+                  "offset": 28
+                }
+              ],
+              "location": "steps.SpiegelPlusSteps.i_click_an_random_article_of_section(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 3171000000,
+              "duration": 3041000000,
               "status": "passed"
             },
-            "line": 23,
+            "line": 20,
+            "name": "I scroll down",
+            "match": {
+              "location": "steps.SpiegelPlusSteps.i_scroll_down()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@spiegelPlus"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4430000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I start Spiegel",
+            "match": {
+              "location": "steps.MenuSteps.i_start_Spiegel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3296000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click Akzeptieren und weiter",
+            "match": {
+              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4202000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click SpiegelPlus",
+            "match": {
+              "location": "steps.SpiegelPlusSteps.clickSpiegelPlus()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-31T02:11:40.598Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.TestCaseBase.setup()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Spiegel plus read random section articles",
+        "description": "",
+        "id": "spiegel-1;spiegel-plus-read-random-section-articles",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 69000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I scroll to \"random\" section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 12
+                }
+              ],
+              "location": "steps.SpiegelPlusSteps.i_scroll_to_section(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5958000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I click first article of \"random\" section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 25
+                }
+              ],
+              "location": "steps.SpiegelPlusSteps.i_click_first_article_of_section(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3054000000,
+              "status": "passed"
+            },
+            "line": 26,
             "name": "I scroll down",
             "match": {
               "location": "steps.SpiegelPlusSteps.i_scroll_down()"
@@ -298,10 +425,406 @@
           },
           {
             "result": {
-              "duration": 5741000000,
+              "duration": 5084000000,
               "status": "passed"
             },
-            "line": 24,
+            "line": 27,
+            "name": "I go back",
+            "match": {
+              "location": "steps.SpiegelPlusSteps.i_go_back()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4628000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I click a random article of \"random\" section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 28
+                }
+              ],
+              "location": "steps.SpiegelPlusSteps.i_click_an_random_article_of_section(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3091000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I scroll down",
+            "match": {
+              "location": "steps.SpiegelPlusSteps.i_scroll_down()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5612000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I go back",
+            "match": {
+              "location": "steps.SpiegelPlusSteps.i_go_back()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@spiegelPlus"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5671000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I start Spiegel",
+            "match": {
+              "location": "steps.MenuSteps.i_start_Spiegel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4287000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click Akzeptieren und weiter",
+            "match": {
+              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5157000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click SpiegelPlus",
+            "match": {
+              "location": "steps.SpiegelPlusSteps.clickSpiegelPlus()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-31T02:12:20.029Z",
+        "before": [
+          {
+            "result": {
+              "duration": 15000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.TestCaseBase.setup()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Spiegel plus read audio section articles",
+        "description": "",
+        "id": "spiegel-1;spiegel-plus-read-audio-section-articles",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 66000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I scroll to \"audio\" section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"audio\"",
+                  "offset": 12
+                }
+              ],
+              "location": "steps.SpiegelPlusSteps.i_scroll_to_section(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7163000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I click first article of \"audio\" section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"audio\"",
+                  "offset": 25
+                }
+              ],
+              "location": "steps.SpiegelPlusSteps.i_click_first_article_of_section(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3088000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I scroll down",
+            "match": {
+              "location": "steps.SpiegelPlusSteps.i_scroll_down()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4688000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I go back",
+            "match": {
+              "location": "steps.SpiegelPlusSteps.i_go_back()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3869000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I click a random article of \"audio\" section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"audio\"",
+                  "offset": 28
+                }
+              ],
+              "location": "steps.SpiegelPlusSteps.i_click_an_random_article_of_section(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3055000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I scroll down",
+            "match": {
+              "location": "steps.SpiegelPlusSteps.i_scroll_down()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4619000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I go back",
+            "match": {
+              "location": "steps.SpiegelPlusSteps.i_go_back()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@spiegelPlus"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4871000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I start Spiegel",
+            "match": {
+              "location": "steps.MenuSteps.i_start_Spiegel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4653000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click Akzeptieren und weiter",
+            "match": {
+              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4915000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click SpiegelPlus",
+            "match": {
+              "location": "steps.SpiegelPlusSteps.clickSpiegelPlus()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-31T02:13:01.709Z",
+        "before": [
+          {
+            "result": {
+              "duration": 15000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.TestCaseBase.setup()"
+            }
+          }
+        ],
+        "line": 42,
+        "name": "Spiegel plus read alle Beiträge section articles",
+        "description": "",
+        "id": "spiegel-1;spiegel-plus-read-alle-beiträge-section-articles",
+        "after": [
+          {
+            "result": {
+              "duration": 1100000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.TestCaseBase.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 36000000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I scroll to \"alle_Beitraege\" section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"alle_Beitraege\"",
+                  "offset": 12
+                }
+              ],
+              "location": "steps.SpiegelPlusSteps.i_scroll_to_section(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 58000000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I scroll to alle Beitraege \"last\" article",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"last\"",
+                  "offset": 27
+                }
+              ],
+              "location": "steps.SpiegelPlusSteps.i_scroll_to_alle_Beitraegearticle(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 49000000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I scroll to alle Beitraege \"random\" article",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 27
+                }
+              ],
+              "location": "steps.SpiegelPlusSteps.i_scroll_to_alle_Beitraegearticle(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 871000000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I click a \"random\" article of alle Beitraege section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 10
+                }
+              ],
+              "location": "steps.SpiegelPlusSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3106000000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I scroll down",
+            "match": {
+              "location": "steps.SpiegelPlusSteps.i_scroll_down()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat steps.SpiegelPlusSteps.i_go_back(SpiegelPlusSteps.java:90)\r\n\tat ✽.I go back(file:///C:/MyWorkspace/guineenews/src/test/resources/features/spiegelPlus.feature:48)\r\n",
+              "duration": 633000000,
+              "status": "failed"
+            },
+            "line": 48,
             "name": "I go back",
             "match": {
               "location": "steps.SpiegelPlusSteps.i_go_back()"
@@ -331,14 +854,6 @@
         "location": {
           "line": 1,
           "column": 1
-        }
-      },
-      {
-        "name": "@end",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 16
         }
       }
     ]
