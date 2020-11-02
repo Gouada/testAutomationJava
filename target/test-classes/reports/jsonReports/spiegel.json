@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-11-02T14:48:30.164Z",
+        "start_timestamp": "2020-11-02T15:16:57.580Z",
         "before": [
           {
             "result": {
-              "duration": 6666000000,
+              "duration": 6953000000,
               "status": "passed"
             },
             "match": {
@@ -24,7 +24,7 @@
         "steps": [
           {
             "result": {
-              "duration": 26817000000,
+              "duration": 7217000000,
               "status": "passed"
             },
             "line": 9,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 3318000000,
+              "duration": 3294000000,
               "status": "passed"
             },
             "line": 10,
@@ -85,7 +85,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6915000000,
+              "duration": 6098000000,
               "status": "passed"
             },
             "line": 5,
@@ -97,7 +97,7 @@
           },
           {
             "result": {
-              "duration": 5965000000,
+              "duration": 5995000000,
               "status": "passed"
             },
             "line": 6,
@@ -109,7 +109,7 @@
           },
           {
             "result": {
-              "duration": 15647000000,
+              "duration": 4330000000,
               "status": "passed"
             },
             "line": 7,
@@ -122,11 +122,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-02T14:49:07.063Z",
+        "start_timestamp": "2020-11-02T15:17:15.146Z",
         "before": [
           {
             "result": {
-              "duration": 5000000,
+              "duration": 6000000,
               "status": "passed"
             },
             "match": {
@@ -143,7 +143,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4348000000,
+              "duration": 3688000000,
               "status": "passed"
             },
             "line": 10,
@@ -161,7 +161,7 @@
           },
           {
             "result": {
-              "duration": 4374000000,
+              "duration": 4231000000,
               "status": "passed"
             },
             "line": 11,
@@ -173,7 +173,7 @@
           },
           {
             "result": {
-              "duration": 10220000000,
+              "duration": 13728000000,
               "status": "passed"
             },
             "line": 12,
@@ -185,7 +185,7 @@
           },
           {
             "result": {
-              "duration": 6358000000,
+              "duration": 5581000000,
               "status": "passed"
             },
             "line": 13,
@@ -203,7 +203,7 @@
           },
           {
             "result": {
-              "duration": 5360000000,
+              "duration": 3801000000,
               "status": "passed"
             },
             "line": 14,
@@ -215,7 +215,7 @@
           },
           {
             "result": {
-              "duration": 11852000000,
+              "duration": 10338000000,
               "status": "passed"
             },
             "line": 15,
@@ -227,7 +227,7 @@
           },
           {
             "result": {
-              "duration": 5515000000,
+              "duration": 4131000000,
               "status": "passed"
             },
             "line": 16,
@@ -245,7 +245,7 @@
           },
           {
             "result": {
-              "duration": 5348000000,
+              "duration": 3584000000,
               "status": "passed"
             },
             "line": 17,
@@ -257,7 +257,7 @@
           },
           {
             "result": {
-              "duration": 4095000000,
+              "duration": 5490000000,
               "status": "passed"
             },
             "line": 18,
@@ -275,7 +275,7 @@
           },
           {
             "result": {
-              "duration": 5487000000,
+              "duration": 4165000000,
               "status": "passed"
             },
             "line": 19,
@@ -293,7 +293,7 @@
           },
           {
             "result": {
-              "duration": 4273000000,
+              "duration": 4884000000,
               "status": "passed"
             },
             "line": 20,
@@ -319,7 +319,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4904000000,
+              "duration": 5915000000,
               "status": "passed"
             },
             "line": 5,
@@ -331,7 +331,7 @@
           },
           {
             "result": {
-              "duration": 9445000000,
+              "duration": 3115000000,
               "status": "passed"
             },
             "line": 6,
@@ -343,7 +343,7 @@
           },
           {
             "result": {
-              "duration": 5114000000,
+              "duration": 3881000000,
               "status": "passed"
             },
             "line": 7,
@@ -356,11 +356,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-02T14:50:42.859Z",
+        "start_timestamp": "2020-11-02T15:18:35.219Z",
         "before": [
           {
             "result": {
-              "duration": 9000000,
+              "duration": 11000000,
               "status": "passed"
             },
             "match": {
@@ -377,7 +377,7 @@
         "steps": [
           {
             "result": {
-              "duration": 851000000,
+              "duration": 91000000,
               "status": "passed"
             },
             "line": 23,
@@ -395,7 +395,7 @@
           },
           {
             "result": {
-              "duration": 3853000000,
+              "duration": 4500000000,
               "status": "passed"
             },
             "line": 24,
@@ -413,7 +413,7 @@
           },
           {
             "result": {
-              "duration": 4014000000,
+              "duration": 3351000000,
               "status": "passed"
             },
             "line": 25,
@@ -425,7 +425,7 @@
           },
           {
             "result": {
-              "duration": 14615000000,
+              "duration": 11208000000,
               "status": "passed"
             },
             "line": 26,
@@ -437,7 +437,7 @@
           },
           {
             "result": {
-              "duration": 7676000000,
+              "duration": 6624000000,
               "status": "passed"
             },
             "line": 27,
@@ -455,7 +455,7 @@
           },
           {
             "result": {
-              "duration": 4726000000,
+              "duration": 3047000000,
               "status": "passed"
             },
             "line": 28,
@@ -467,8 +467,9 @@
           },
           {
             "result": {
-              "duration": 10922000000,
-              "status": "passed"
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat steps.SpiegelPlusSteps.i_go_back(SpiegelPlusSteps.java:93)\r\n\tat ✽.I go back(file:///C:/MyWorkspace/guineenews/src/test/resources/features/spiegelPlus.feature:29)\r\n",
+              "duration": 1202000000,
+              "status": "failed"
             },
             "line": 29,
             "name": "I go back",
@@ -493,7 +494,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3821000000,
+              "duration": 9018000000,
               "status": "passed"
             },
             "line": 5,
@@ -505,7 +506,7 @@
           },
           {
             "result": {
-              "duration": 3658000000,
+              "duration": 3396000000,
               "status": "passed"
             },
             "line": 6,
@@ -517,9 +518,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat steps.SpiegelPlusSteps.clickSpiegelPlus(SpiegelPlusSteps.java:21)\r\n\tat ✽.I click SpiegelPlus(file:///C:/MyWorkspace/guineenews/src/test/resources/features/spiegelPlus.feature:7)\r\n",
-              "duration": 2316000000,
-              "status": "failed"
+              "duration": 4331000000,
+              "status": "passed"
             },
             "line": 7,
             "name": "I click SpiegelPlus",
@@ -531,11 +531,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-02T14:51:48.992Z",
+        "start_timestamp": "2020-11-02T15:19:18.198Z",
         "before": [
           {
             "result": {
-              "duration": 15000000,
+              "duration": 7000000,
               "status": "passed"
             },
             "match": {
@@ -552,7 +552,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 1215000000,
+              "status": "passed"
             },
             "line": 32,
             "name": "I scroll to \"audio\" section",
@@ -569,7 +570,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3393000000,
+              "status": "passed"
             },
             "line": 33,
             "name": "I click first article of \"audio\" section",
@@ -586,7 +588,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3645000000,
+              "status": "passed"
             },
             "line": 34,
             "name": "I scroll down",
@@ -597,8 +600,8 @@
           },
           {
             "result": {
-              "duration": 1000000,
-              "status": "skipped"
+              "duration": 10685000000,
+              "status": "passed"
             },
             "line": 35,
             "name": "I go back",
@@ -609,7 +612,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5664000000,
+              "status": "passed"
             },
             "line": 36,
             "name": "I click a random article of \"audio\" section",
@@ -626,7 +630,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3077000000,
+              "status": "passed"
             },
             "line": 37,
             "name": "I scroll down",
@@ -637,7 +642,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 11498000000,
+              "status": "passed"
             },
             "line": 38,
             "name": "I go back",
@@ -662,7 +668,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5156000000,
+              "duration": 4383000000,
               "status": "passed"
             },
             "line": 5,
@@ -674,7 +680,7 @@
           },
           {
             "result": {
-              "duration": 3737000000,
+              "duration": 9015000000,
               "status": "passed"
             },
             "line": 6,
@@ -686,7 +692,7 @@
           },
           {
             "result": {
-              "duration": 3561000000,
+              "duration": 5154000000,
               "status": "passed"
             },
             "line": 7,
@@ -699,11 +705,10 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-02T14:51:58.822Z",
+        "start_timestamp": "2020-11-02T15:20:14.130Z",
         "before": [
           {
             "result": {
-              "duration": 8000000,
               "status": "passed"
             },
             "match": {
@@ -718,7 +723,7 @@
         "after": [
           {
             "result": {
-              "duration": 1198000000,
+              "duration": 1044000000,
               "status": "passed"
             },
             "match": {
@@ -731,7 +736,7 @@
         "steps": [
           {
             "result": {
-              "duration": 42000000,
+              "duration": 31000000,
               "status": "passed"
             },
             "line": 42,
@@ -749,7 +754,7 @@
           },
           {
             "result": {
-              "duration": 30000000,
+              "duration": 31000000,
               "status": "passed"
             },
             "line": 43,
@@ -767,7 +772,7 @@
           },
           {
             "result": {
-              "duration": 33000000,
+              "duration": 32000000,
               "status": "passed"
             },
             "line": 44,
@@ -785,7 +790,7 @@
           },
           {
             "result": {
-              "duration": 735000000,
+              "duration": 1321000000,
               "status": "passed"
             },
             "line": 45,
@@ -803,7 +808,7 @@
           },
           {
             "result": {
-              "duration": 3057000000,
+              "duration": 3120000000,
               "status": "passed"
             },
             "line": 46,
@@ -815,7 +820,7 @@
           },
           {
             "result": {
-              "duration": 11439000000,
+              "duration": 10493000000,
               "status": "passed"
             },
             "line": 47,
@@ -827,9 +832,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat steps.SpiegelPlusSteps.i_paginate_to_next_page(SpiegelPlusSteps.java:31)\r\n\tat ✽.I paginate to \"next\" page(file:///C:/MyWorkspace/guineenews/src/test/resources/features/spiegelPlus.feature:48)\r\n",
-              "duration": 3193000000,
-              "status": "failed"
+              "duration": 5450000000,
+              "status": "passed"
             },
             "line": 48,
             "name": "I paginate to \"next\" page",

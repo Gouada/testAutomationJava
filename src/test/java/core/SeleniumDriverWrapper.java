@@ -535,7 +535,7 @@ public class SeleniumDriverWrapper {
 
     public void copyFile(File screenShot, String filename)
     {
-        String destinationPath = "ScreenShots/"+filename;
+        String destinationPath = "Screenshots/"+filename;
         File destinationFile = new File (destinationPath);
 
         try {
