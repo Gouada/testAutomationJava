@@ -1,20 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: runners.SpiegelRunner
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 127.026 sec <<< FAILURE!
-Spiegel plus read section 1 articles(Spiegel 1 #2)  Time elapsed: 11.315 sec  <<< FAILURE!
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at steps.SpiegelPlusSteps.clickSpiegelPlus(SpiegelPlusSteps.java:22)
-	at ?.I click SpiegelPlus(file:///C:/MyWorkspace/guineenews/src/test/resources/features/spiegelPlus.feature:7)
-
-Spiegel plus read audio section articles(Spiegel 1 #2)  Time elapsed: 10.051 sec  <<< FAILURE!
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at steps.SpiegelPlusSteps.clickSpiegelPlus(SpiegelPlusSteps.java:22)
-	at ?.I click SpiegelPlus(file:///C:/MyWorkspace/guineenews/src/test/resources/features/spiegelPlus.feature:7)
-
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 255.469 sec

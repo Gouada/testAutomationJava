@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="187.578">
-<testcase classname="Spiegel 1" name="surf on menu page" time="16.235">
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="266.45">
+<testcase classname="Spiegel 1" name="surf on menu page" time="21.166">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel 1" name="Spiegel plus read section 1 articles" time="78.374">
+<testcase classname="Spiegel 1" name="Spiegel plus read section 1 articles" time="99.778">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I click SpiegelPlus....................................................passed
@@ -22,28 +22,20 @@ Then I click a random article of "first" section............................pass
 Then I scroll down..........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel 1" name="Spiegel plus read random section articles" time="9.342">
-<failure message="" type="java.lang.AssertionError"><![CDATA[Given I start Spiegel.......................................................passed
+<testcase classname="Spiegel 1" name="Spiegel plus read random section articles" time="58.549">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
-Then I click SpiegelPlus....................................................failed
-Then I scroll to "random" section...........................................skipped
-Then I click first article of "random" section..............................skipped
-Then I scroll down..........................................................skipped
-Then I go back..............................................................skipped
-Then I click a random article of "random" section...........................skipped
-Then I scroll down..........................................................skipped
-Then I go back..............................................................skipped
-
-StackTrace:
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at steps.SpiegelPlusSteps.clickSpiegelPlus(SpiegelPlusSteps.java:22)
-	at ✽.I click SpiegelPlus(file:///C:/MyWorkspace/guineenews/src/test/resources/features/spiegelPlus.feature:7)
-]]></failure>
+Then I click SpiegelPlus....................................................passed
+Then I scroll to "random" section...........................................passed
+Then I click first article of "random" section..............................passed
+Then I scroll down..........................................................passed
+Then I go back..............................................................passed
+Then I click a random article of "random" section...........................passed
+Then I scroll down..........................................................passed
+Then I go back..............................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Spiegel 1" name="Spiegel plus read audio section articles" time="51.967">
+<testcase classname="Spiegel 1" name="Spiegel plus read audio section articles" time="62.581">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I click SpiegelPlus....................................................passed
@@ -56,8 +48,8 @@ Then I scroll down..........................................................pass
 Then I go back..............................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel 1" name="Spiegel plus read alle Beiträge section articles" time="31.369">
-<system-out><![CDATA[Given I start Spiegel.......................................................passed
+<testcase classname="Spiegel 1" name="Spiegel plus read alle Beiträge section articles" time="24.06">
+<failure message="" type="java.lang.AssertionError"><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I click SpiegelPlus....................................................passed
 Then I scroll to "alle_Beitraege" section...................................passed
@@ -65,8 +57,16 @@ Then I scroll to alle Beitraege "last" article..............................pass
 Then I scroll to alle Beitraege "random" article............................passed
 Then I click a "random" article of alle Beitraege section...................passed
 Then I scroll down..........................................................passed
-Then I go back..............................................................passed
-Then I paginate to "next" page..............................................passed
-]]></system-out>
+Then I go back..............................................................failed
+Then I paginate to "next" page..............................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at steps.SpiegelPlusSteps.i_go_back(SpiegelPlusSteps.java:94)
+	at ✽.I go back(file:///C:/MyWorkspace/guineenews/src/test/resources/features/spiegelPlus.feature:47)
+]]></failure>
 </testcase>
 </testsuite>

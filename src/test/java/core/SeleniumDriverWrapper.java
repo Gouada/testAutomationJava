@@ -527,15 +527,15 @@ public class SeleniumDriverWrapper {
             Calendar calendar = Calendar.getInstance();
             String filename;
             //filename = "ERROR_SCREENSHOT_"+Calendar.DAY_OF_MONTH+"_"+Calendar.MONTH+"-"+Calendar.HOUR+"_"+Calendar.MINUTE+"_"+Calendar.SECOND+ ".jpg";
-            filename = "ERROR_SCREENSHOT_" + testStep + "_" + calendar.getTimeInMillis() + ".jpg";
-            MyLogger.logger.info("this is the filename" + filename);
+            filename = " ERROR_SCREENSHOT_" + testStep + "_" + calendar.getTimeInMillis() + ".jpg";
+            MyLogger.logger.info("this is the filename " + filename);
             File screenShot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
             copyFile(screenShot, filename);
             filename = "";
         }
         catch (Exception e)
         {
-            System.out.println("erro taking screenshot");
+            System.out.println("error taking screenshot");
             MyLogger.logger.error(e.getMessage());
             e.printStackTrace();
         }
@@ -550,7 +550,7 @@ public class SeleniumDriverWrapper {
         try {
             FileUtils.copyFile(screenShot, destinationFile);
         } catch (Exception e) {
-            System.out.println("erro taking screenshot");
+            System.out.println("error taking screenshot");
             MyLogger.logger.error(e.getMessage());
             e.printStackTrace();
         }

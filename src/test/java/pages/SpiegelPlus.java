@@ -68,7 +68,7 @@ public class SpiegelPlus extends BasePage{
 
     public void scrollToRandomArticleOfAlleBeitraegeSection()
     {
-        int articleCount = getElementsByXpath(alle_beitraege_list).size();
+        int articleCount = getElementsByXpath(alle_beitraege_list).size()-1;
         Random rnd = new Random();
         int rndId = rnd.nextInt(articleCount)+1;
         moveToElement(getElementsByXpath(alle_beitraege_list).get(rndId));
