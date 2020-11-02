@@ -523,25 +523,35 @@ public class SeleniumDriverWrapper {
 
     public void takeScreenhot( String testStep)
     {
-        Calendar calendar = Calendar.getInstance();
-        String filename;
-        //filename = "ERROR_SCREENSHOT_"+Calendar.DAY_OF_MONTH+"_"+Calendar.MONTH+"-"+Calendar.HOUR+"_"+Calendar.MINUTE+"_"+Calendar.SECOND+ ".jpg";
-        filename = "ERROR_SCREENSHOT_"+testStep+"_"+calendar.getTimeInMillis()+".jpg";
-        MyLogger.logger.info("this is the filename"+ filename);
-        File screenShot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-        copyFile(screenShot, filename);
-        filename="";
+        try {
+            Calendar calendar = Calendar.getInstance();
+            String filename;
+            //filename = "ERROR_SCREENSHOT_"+Calendar.DAY_OF_MONTH+"_"+Calendar.MONTH+"-"+Calendar.HOUR+"_"+Calendar.MINUTE+"_"+Calendar.SECOND+ ".jpg";
+            filename = "ERROR_SCREENSHOT_" + testStep + "_" + calendar.getTimeInMillis() + ".jpg";
+            MyLogger.logger.info("this is the filename" + filename);
+            File screenShot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+            copyFile(screenShot, filename);
+            filename = "";
+        }
+        catch (Exception e)
+        {
+            System.out.println("erro taking screenshot");
+            MyLogger.logger.error(e.getMessage());
+            e.printStackTrace();
+        }
     }
 
     public void copyFile(File screenShot, String filename)
     {
+
         String destinationPath = "Screenshots/"+filename;
         File destinationFile = new File (destinationPath);
 
         try {
             FileUtils.copyFile(screenShot, destinationFile);
-        } catch (IOException e) {
-            // TODO Auto-generated catch block
+        } catch (Exception e) {
+            System.out.println("erro taking screenshot");
+            MyLogger.logger.error(e.getMessage());
             e.printStackTrace();
         }
     }

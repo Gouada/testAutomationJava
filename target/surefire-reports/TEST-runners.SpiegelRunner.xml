@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="2" name="runners.SpiegelRunner" time="240.984" errors="0" skipped="0">
+<testsuite tests="5" failures="2" name="runners.SpiegelRunner" time="126.069" errors="0" skipped="0">
   <properties>
     <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -32,15 +32,15 @@
     <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 142 Stepping 10, GenuineIntel"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="LOCALAPPDATA" value="C:\Users\Lenovo\AppData\Local"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://127.0.0.1:8080/job/Webium-Automation/42/display/redirect?page=changes"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://127.0.0.1:8080/job/Webium-Automation/43/display/redirect?page=changes"/>
     <property name="user.timezone" value="Europe/Berlin"/>
     <property name="user.script" value=""/>
     <property name="path.separator" value=";"/>
     <property name="NUMBER_OF_PROCESSORS" value="8"/>
-    <property name="BUILD_TAG" value="jenkins-Webium-Automation-42"/>
+    <property name="BUILD_TAG" value="jenkins-Webium-Automation-43"/>
     <property name="PYTHONPATH" value="C:\python37;C:\python37\Scripts;C:\python37\DLLs;C:\python37\Lib;C:\python37\libs;"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\apache-maven-3.5.3 C:\Users\Lenovo\.jenkins\war\WEB-INF\lib\remoting-4.3.jar C:\Users\Lenovo\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar C:\Users\Lenovo\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar 64192"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\apache-maven-3.5.3 C:\Users\Lenovo\.jenkins\war\WEB-INF\lib\remoting-4.3.jar C:\Users\Lenovo\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar C:\Users\Lenovo\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar 52983"/>
     <property name="HUDSON_URL" value="http://127.0.0.1:8080/"/>
     <property name="JENKINS_SERVER_COOKIE" value="0631cecedd819be2"/>
     <property name="POSTGRESQLPATH" value="C:\Program Files\PostgreSQL\12\bin;C:\Program Files\PostgreSQL\12\lib"/>
@@ -51,14 +51,14 @@
     <property name="user.language" value="de"/>
     <property name="line.separator" value="
 "/>
-    <property name="BUILD_URL" value="http://127.0.0.1:8080/job/Webium-Automation/42/"/>
+    <property name="BUILD_URL" value="http://127.0.0.1:8080/job/Webium-Automation/43/"/>
     <property name="M2_HOME" value="C:\apache-maven-3.5.3"/>
     <property name="=C:" value="C:\jenkins"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
     <property name="sun.desktop" value="windows"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="BUILD_DISPLAY_NAME" value="#42"/>
+    <property name="BUILD_DISPLAY_NAME" value="#43"/>
     <property name="OS" value="Windows_NT"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="HUDSON_SERVER_COOKIE" value="0631cecedd819be2"/>
@@ -73,7 +73,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="42"/>
+    <property name="BUILD_NUMBER" value="43"/>
     <property name="maven3.interceptor" value="C:\Users\Lenovo\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\apache-maven-3.5.3/bin;C:\Program Files\Java\jdk1.8.0_172/bin;C:\Program Files\Java\jdk1.8.0_172/bin;C:\python37\Scripts\;C:\python37\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_172;C:\apache-maven-3.5.3\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Users\Lenovo\AppData\Local\Android\Sdk;C:\Users\Lenovo\AppData\Local\Android\Sdk\tools;C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools;C:\WINDOWS\System32\OpenSSH\;C:\MyWorkspace\SeleniumChromeDriver\;C:\python37;C:\python37\Scripts;C:\python37\DLLs;C:\python37\Lib;C:\python37\libs;;C:\Program Files\PostgreSQL\12\bin;C:\Program Files\PostgreSQL\12\lib;C:\MyWorkspace\SeleniumChromeDriver\83\;C:\MyWorkspace\SeleniumFirefoxDriver\2.6\;C:\MyWorkspace\IEDriver\;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Users\Lenovo\AppData\Roaming\npm;C:\Users\Lenovo\AppData\Roaming\Dashlane\5.12.0.19744\bin\Firefox_Extension\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\components;C:\Users\Lenovo\AppData\Roaming\Dashlane\5.12.0.19744\ucrt;;."/>
     <property name="HOMEDRIVE" value="C:"/>
@@ -82,9 +82,9 @@
     <property name="java.class.version" value="52.0"/>
     <property name="JOB_URL" value="http://127.0.0.1:8080/job/Webium-Automation/"/>
     <property name="OneDrive" value="C:\Users\Lenovo\OneDrive"/>
-    <property name="RUN_DISPLAY_URL" value="http://127.0.0.1:8080/job/Webium-Automation/42/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://127.0.0.1:8080/job/Webium-Automation/43/display/redirect"/>
     <property name="JENKINS_HOME" value="C:\Users\Lenovo\.jenkins"/>
-    <property name="BUILD_ID" value="42"/>
+    <property name="BUILD_ID" value="43"/>
     <property name="TEMP" value="C:\Users\Lenovo\AppData\Local\Temp"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_172\jre\bin"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -147,15 +147,48 @@
     <property name="POM_DISPLAYNAME" value="guineenews"/>
     <property name="sun.arch.data.model" value="64"/>
   </properties>
-  <testcase classname="Spiegel 1 #1" name="surf on menu page" time="37.01"/>
-  <testcase classname="Spiegel 1 #2" name="Spiegel plus read section 1 articles" time="95.802"/>
-  <testcase classname="Spiegel 1 #2" name="Spiegel plus read random section articles" time="66.148"/>
-  <testcase classname="Spiegel 1 #2" name="Spiegel plus read audio section articles" time="9.824">
+  <testcase classname="Spiegel 1 #1" name="surf on menu page" time="17.565"/>
+  <testcase classname="Spiegel 1 #2" name="Spiegel plus read section 1 articles" time="11.315">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:86)
 	at org.junit.Assert.assertTrue(Assert.java:41)
 	at org.junit.Assert.assertTrue(Assert.java:52)
-	at steps.SpiegelPlusSteps.clickSpiegelPlus(SpiegelPlusSteps.java:21)
+	at steps.SpiegelPlusSteps.clickSpiegelPlus(SpiegelPlusSteps.java:22)
+	at ✽.I click SpiegelPlus(file:///C:/MyWorkspace/guineenews/src/test/resources/features/spiegelPlus.feature:7)
+</failure>
+    <system-out>
+@spiegelPlus
+Scenario: Spiegel plus read section 1 articles     &amp;#27;[90m# src/test/resources/features/spiegelPlus.feature:9&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mI start Spiegel&amp;#27;[0m                            &amp;#27;[90m# steps.MenuSteps.i_start_Spiegel()&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click Akzeptieren und weiter&amp;#27;[0m              &amp;#27;[90m# steps.MenuSteps.i_click_Akzeptieren_und_weiter()&amp;#27;[0m
+  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mI click SpiegelPlus&amp;#27;[0m                         &amp;#27;[90m# steps.SpiegelPlusSteps.clickSpiegelPlus()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at steps.SpiegelPlusSteps.clickSpiegelPlus(SpiegelPlusSteps.java:22)
+	at âœ½.I click SpiegelPlus(file:///C:/MyWorkspace/guineenews/src/test/resources/features/spiegelPlus.feature:7)
+&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click first article of &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;first&quot;&amp;#27;[0m&amp;#27;[36m section&amp;#27;[0m    &amp;#27;[90m# steps.SpiegelPlusSteps.i_click_first_article_of_section(java.lang.String)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI scroll down&amp;#27;[0m                               &amp;#27;[90m# steps.SpiegelPlusSteps.i_scroll_down()&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI go back&amp;#27;[0m                                   &amp;#27;[90m# steps.SpiegelPlusSteps.i_go_back()&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click last article of &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;first&quot;&amp;#27;[0m&amp;#27;[36m section&amp;#27;[0m     &amp;#27;[90m# steps.SpiegelPlusSteps.i_click_last_article_of_section(java.lang.String)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI scroll down&amp;#27;[0m                               &amp;#27;[90m# steps.SpiegelPlusSteps.i_scroll_down()&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI go back&amp;#27;[0m                                   &amp;#27;[90m# steps.SpiegelPlusSteps.i_go_back()&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI paginate to &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;next&quot;&amp;#27;[0m&amp;#27;[36m page&amp;#27;[0m                   &amp;#27;[90m# steps.SpiegelPlusSteps.i_paginate_to_next_page(java.lang.String)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI scroll down&amp;#27;[0m                               &amp;#27;[90m# steps.SpiegelPlusSteps.i_scroll_down()&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI paginate to &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;previous&quot;&amp;#27;[0m&amp;#27;[36m page&amp;#27;[0m               &amp;#27;[90m# steps.SpiegelPlusSteps.i_paginate_to_next_page(java.lang.String)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click a random article of &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;first&quot;&amp;#27;[0m&amp;#27;[36m section&amp;#27;[0m &amp;#27;[90m# steps.SpiegelPlusSteps.i_click_an_random_article_of_section(java.lang.String)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI scroll down&amp;#27;[0m                               &amp;#27;[90m# steps.SpiegelPlusSteps.i_scroll_down()&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Spiegel 1 #2" name="Spiegel plus read random section articles" time="53.103"/>
+  <testcase classname="Spiegel 1 #2" name="Spiegel plus read audio section articles" time="10.051">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at steps.SpiegelPlusSteps.clickSpiegelPlus(SpiegelPlusSteps.java:22)
 	at ✽.I click SpiegelPlus(file:///C:/MyWorkspace/guineenews/src/test/resources/features/spiegelPlus.feature:7)
 </failure>
     <system-out>
@@ -168,7 +201,7 @@ Scenario: Spiegel plus read audio section articles &amp;#27;[90m# src/test/resou
 	at org.junit.Assert.fail(Assert.java:86)
 	at org.junit.Assert.assertTrue(Assert.java:41)
 	at org.junit.Assert.assertTrue(Assert.java:52)
-	at steps.SpiegelPlusSteps.clickSpiegelPlus(SpiegelPlusSteps.java:21)
+	at steps.SpiegelPlusSteps.clickSpiegelPlus(SpiegelPlusSteps.java:22)
 	at âœ½.I click SpiegelPlus(file:///C:/MyWorkspace/guineenews/src/test/resources/features/spiegelPlus.feature:7)
 &amp;#27;[0m
   &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI scroll to &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;audio&quot;&amp;#27;[0m&amp;#27;[36m section&amp;#27;[0m                 &amp;#27;[90m# steps.SpiegelPlusSteps.i_scroll_to_section(java.lang.String)&amp;#27;[0m
@@ -180,34 +213,5 @@ Scenario: Spiegel plus read audio section articles &amp;#27;[90m# src/test/resou
   &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI go back&amp;#27;[0m                                   &amp;#27;[90m# steps.SpiegelPlusSteps.i_go_back()&amp;#27;[0m
 </system-out>
   </testcase>
-  <testcase classname="Spiegel 1 #2" name="Spiegel plus read alle Beiträge section articles" time="32.2">
-    <failure type="java.lang.AssertionError">java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at steps.SpiegelPlusSteps.i_paginate_to_next_page(SpiegelPlusSteps.java:31)
-	at ✽.I paginate to &quot;next&quot; page(file:///C:/MyWorkspace/guineenews/src/test/resources/features/spiegelPlus.feature:48)
-</failure>
-    <system-out>
-@spiegelPlus @end
-Scenario: Spiegel plus read alle BeitrÃ¤ge section articles  &amp;#27;[90m# src/test/resources/features/spiegelPlus.feature:41&amp;#27;[0m
-  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mI start Spiegel&amp;#27;[0m                                     &amp;#27;[90m# steps.MenuSteps.i_start_Spiegel()&amp;#27;[0m
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click Akzeptieren und weiter&amp;#27;[0m                       &amp;#27;[90m# steps.MenuSteps.i_click_Akzeptieren_und_weiter()&amp;#27;[0m
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click SpiegelPlus&amp;#27;[0m                                  &amp;#27;[90m# steps.SpiegelPlusSteps.clickSpiegelPlus()&amp;#27;[0m
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI scroll to &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;alle_Beitraege&quot;&amp;#27;[0m&amp;#27;[32m section&amp;#27;[0m                 &amp;#27;[90m# steps.SpiegelPlusSteps.i_scroll_to_section(java.lang.String)&amp;#27;[0m
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI scroll to alle Beitraege &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;last&quot;&amp;#27;[0m&amp;#27;[32m article&amp;#27;[0m            &amp;#27;[90m# steps.SpiegelPlusSteps.i_scroll_to_alle_Beitraegearticle(java.lang.String)&amp;#27;[0m
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI scroll to alle Beitraege &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;random&quot;&amp;#27;[0m&amp;#27;[32m article&amp;#27;[0m          &amp;#27;[90m# steps.SpiegelPlusSteps.i_scroll_to_alle_Beitraegearticle(java.lang.String)&amp;#27;[0m
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click a &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;random&quot;&amp;#27;[0m&amp;#27;[32m article of alle Beitraege section&amp;#27;[0m &amp;#27;[90m# steps.SpiegelPlusSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)&amp;#27;[0m
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI scroll down&amp;#27;[0m                                        &amp;#27;[90m# steps.SpiegelPlusSteps.i_scroll_down()&amp;#27;[0m
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI go back&amp;#27;[0m                                            &amp;#27;[90m# steps.SpiegelPlusSteps.i_go_back()&amp;#27;[0m
-  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mI paginate to &amp;#27;[0m&amp;#27;[31m&amp;#27;[1m&quot;next&quot;&amp;#27;[0m&amp;#27;[31m page&amp;#27;[0m                            &amp;#27;[90m# steps.SpiegelPlusSteps.i_paginate_to_next_page(java.lang.String)&amp;#27;[0m
-      &amp;#27;[31mjava.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at steps.SpiegelPlusSteps.i_paginate_to_next_page(SpiegelPlusSteps.java:31)
-	at âœ½.I paginate to &quot;next&quot; page(file:///C:/MyWorkspace/guineenews/src/test/resources/features/spiegelPlus.feature:48)
-&amp;#27;[0m
-</system-out>
-  </testcase>
+  <testcase classname="Spiegel 1 #2" name="Spiegel plus read alle Beiträge section articles" time="34.035"/>
 </testsuite>
