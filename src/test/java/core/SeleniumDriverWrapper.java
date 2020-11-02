@@ -2,29 +2,28 @@ package core;
 
 import helpers.MyLogger;
 import org.apache.commons.io.FileUtils;
-import org.apache.commons.lang3.ObjectUtils;
 import org.apache.logging.log4j.Level;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
 import java.io.IOException;
 import java.util.Calendar;
-import java.util.Date;
 import java.util.List;
 
+//the Base page extends this class and so every page-class extends indirectly this class
 public class SeleniumDriverWrapper {
 
-    private WebDriver driver;
+    private final WebDriver driver;
     public SeleniumDriverWrapper(WebDriver driver) {
         this.driver =driver;
         MyLogger.logger.isEnabled(Level.DEBUG);
 
     }
 
+    //gets by Type
     public By getByType(String byType, String locator)
     {
         String byType_upper = byType.toUpperCase();
@@ -43,8 +42,8 @@ public class SeleniumDriverWrapper {
             return By.linkText(locator);
         } else if ("PARTIAL_LINK_TEXT".equals(byType_upper)) {
             return By.partialLinkText(locator);
-        } else if ("LINK_TEXT".equals(byType_upper)) {
-            return By.name(locator);
+        //} else if ("LINK_TEXT".equals(byType_upper)) {
+          //  return By.name(locator);
         } else {
             MyLogger.logger.error("Unexpected value: " + byType_upper);
             return null;
@@ -61,7 +60,7 @@ public class SeleniumDriverWrapper {
         }
         catch(NoSuchElementException e)
         {
-            MyLogger.logger.error("Element: "+ myLocator +" was not found" + e.getStackTrace().toString());
+            MyLogger.logger.error("Element: "+ myLocator +" was not found" + e.getMessage());
             //throw new NoSuchElementException("Element was not found" + myLocator);
         }
         finally {
@@ -69,21 +68,46 @@ public class SeleniumDriverWrapper {
         }
     }
 
-    public List<WebElement> getElements(String myLocator, String myLocatorType)
+    //as xpath is the most used identification type it make sense to create this methode
+    public WebElement getElementByXpath(String myLocator)
     {
-        List<WebElement> elements = null;
         try {
-            By by = getByType(myLocatorType, myLocator);
-            elements = this.driver.findElements(by);
+            return this.driver.findElement(By.xpath(myLocator));
         }
         catch(NoSuchElementException e)
         {
-            MyLogger.logger.error("Element: "+ myLocator +" was not found" + e.getStackTrace().toString());
+            MyLogger.logger.error("Element: "+ myLocator +" was not found" + e.getMessage());
             //throw new NoSuchElementException("Element was not found" + myLocator);
         }
-        finally {
-            return elements;
+        return null;
+    }
+
+    public List<WebElement> getElements(String myLocator, String myLocatorType)
+    {
+        try {
+            By by = getByType(myLocatorType, myLocator);
+            return this.driver.findElements(by);
         }
+        catch(NoSuchElementException e)
+        {
+            MyLogger.logger.error("Element: "+ myLocator +" was not found" + e.getMessage());
+            //throw new NoSuchElementException("Element was not found" + myLocator);
+        }
+        return null;
+    }
+
+    //as xpath is the most used identification type it make sense to create this methode
+    public List<WebElement> getElementsByXpath(String myLocator)
+    {
+        try {
+            return this.driver.findElements(By.xpath(myLocator));
+        }
+        catch(NoSuchElementException e)
+        {
+            MyLogger.logger.error("Element: "+ myLocator +" was not found" + e.getMessage());
+            //throw new NoSuchElementException("Element was not found" + myLocator);
+        }
+        return null;
     }
 
     public void clickElement(String myLocator, String myLocatorType)
@@ -94,11 +118,11 @@ public class SeleniumDriverWrapper {
         }
         catch (ElementClickInterceptedException e)
         {
-            MyLogger.logger.error("Element Click Intercepted Exception: " + myLocatorType + e.getStackTrace().toString());
+            MyLogger.logger.error("Element Click Intercepted Exception: " + myLocatorType + e.getMessage());
         }
         catch (ElementNotVisibleException e)
         {
-            MyLogger.logger.error("Element Not Visible Exception: " + myLocatorType + e.getStackTrace().toString());
+            MyLogger.logger.error("Element Not Visible Exception: " + myLocatorType + e.getMessage());
         }
     }
 
@@ -109,29 +133,41 @@ public class SeleniumDriverWrapper {
         }
         catch (ElementClickInterceptedException e)
         {
-            MyLogger.logger.error("Element Click Intercepted Exception: "  + e.getStackTrace().toString());
+            MyLogger.logger.error("Element Click Intercepted Exception: "  + e.getMessage());
         }
         catch (ElementNotVisibleException e)
         {
-            MyLogger.logger.error("Element Not Visible Exception: " + e.getStackTrace().toString());
+            MyLogger.logger.error("Element Not Visible Exception: " + e.getMessage());
         }
     }
 
-    public void TypeTextInField(String myLocator, String myLocatorType, String text, WebElement element)
+    public void TypeTextInField(String myLocator, String myLocatorType, String text)
     {
         try {
-            if (element == null) {
-                element = getElement(myLocator, myLocatorType);
-            }
+                getElement(myLocator, myLocatorType).sendKeys(text);
+        }
+        catch (ElementClickInterceptedException e)
+        {
+            MyLogger.logger.error("Element Click Intercepted Exception: " + myLocatorType + e.getMessage());
+        }
+        catch (ElementNotVisibleException e)
+        {
+            MyLogger.logger.error("Element Not Visible Exception: " + myLocatorType + e.getMessage());
+        }
+    }
+
+    public void TypeTextInField( WebElement element, String text)
+    {
+        try {
             element.sendKeys(text);
         }
         catch (ElementClickInterceptedException e)
         {
-            MyLogger.logger.error("Element Click Intercepted Exception: " + myLocatorType + e.getStackTrace().toString());
+            MyLogger.logger.error("Element Click Intercepted Exception: "  + e.getMessage());
         }
         catch (ElementNotVisibleException e)
         {
-            MyLogger.logger.error("Element Not Visible Exception: " + myLocatorType + e.getStackTrace().toString());
+            MyLogger.logger.error("Element Not Visible Exception: "  + e.getMessage());
         }
     }
 
@@ -145,11 +181,11 @@ public class SeleniumDriverWrapper {
         }
         catch (ElementClickInterceptedException e)
         {
-            MyLogger.logger.error("Element Click Intercepted Exception: " + myLocatorType + e.getStackTrace().toString());
+            MyLogger.logger.error("Element Click Intercepted Exception: " + myLocatorType + e.getMessage());
         }
         catch (ElementNotVisibleException e)
         {
-            MyLogger.logger.error("Element Not Visible Exception: " + myLocatorType + e.getStackTrace().toString());
+            MyLogger.logger.error("Element Not Visible Exception: " + myLocatorType + e.getMessage());
         }
     }
 
@@ -164,11 +200,11 @@ public class SeleniumDriverWrapper {
         }
         catch (ElementClickInterceptedException e)
         {
-            MyLogger.logger.error("Element Click Intercepted Exception: " + myLocatorType + e.getStackTrace().toString());
+            MyLogger.logger.error("Element Click Intercepted Exception: " + myLocatorType + e.getMessage());
         }
         catch (ElementNotVisibleException e)
         {
-            MyLogger.logger.error("Element Not Visible Exception: " + myLocatorType + e.getStackTrace().toString());
+            MyLogger.logger.error("Element Not Visible Exception: " + myLocatorType + e.getMessage());
         }
         finally {
             return text;
@@ -183,7 +219,7 @@ public class SeleniumDriverWrapper {
         }
         catch (Exception e)
         {
-            MyLogger.logger.error(e.getStackTrace().toString());
+            MyLogger.logger.error(e.getMessage());
         }
         finally {
             return title;
@@ -198,7 +234,7 @@ public class SeleniumDriverWrapper {
         }
         catch (Exception e)
         {
-            MyLogger.logger.error(e.getStackTrace().toString());
+            MyLogger.logger.error(e.getMessage());
         }
         finally {
             return url;
@@ -213,7 +249,7 @@ public class SeleniumDriverWrapper {
         }
         catch (Exception e)
         {
-            MyLogger.logger.error(e.getStackTrace().toString());
+            MyLogger.logger.error(e.getMessage());
         }
         finally {
             return page;
@@ -231,7 +267,7 @@ public class SeleniumDriverWrapper {
         }
         catch (Exception e)
         {
-            MyLogger.logger.error(myLocator + e.getStackTrace().toString());
+            MyLogger.logger.error(myLocator + e.getMessage());
         }
         finally {
             return isEnabled;
@@ -249,7 +285,7 @@ public class SeleniumDriverWrapper {
         }
         catch (Exception e)
         {
-            MyLogger.logger.error(myLocator + e.getStackTrace().toString());
+            MyLogger.logger.error(myLocator + e.getMessage());
         }
         finally {
             return isDisplayed;
@@ -263,7 +299,7 @@ public class SeleniumDriverWrapper {
                 element = getElement(myLocator, myLocatorType);
             isSelected = element.isSelected();
         } catch (Exception e) {
-            MyLogger.logger.error(myLocator + e.getStackTrace().toString());
+            MyLogger.logger.error(myLocator + e.getMessage());
         } finally {
             return isSelected;
         }
@@ -279,7 +315,7 @@ public class SeleniumDriverWrapper {
             }
             catch (Exception e)
             {
-                MyLogger.logger.error(myLocator + e.getStackTrace().toString());
+                MyLogger.logger.error(myLocator + e.getMessage());
             }
             finally {
                 return isChecked;
@@ -297,7 +333,7 @@ public class SeleniumDriverWrapper {
         }
         catch (Exception e)
         {
-            MyLogger.logger.error(myLocator + e.getStackTrace().toString());
+            MyLogger.logger.error(myLocator + e.getMessage());
         }
         finally {
             return isFocused;
@@ -313,7 +349,7 @@ public class SeleniumDriverWrapper {
         }
         catch (Exception e)
         {
-            MyLogger.logger.error(text + e.getStackTrace().toString());
+            MyLogger.logger.error(text + e.getMessage());
         }
         finally {
             return isTextPresent;
@@ -330,7 +366,7 @@ public class SeleniumDriverWrapper {
         }
         catch (Exception e)
         {
-            MyLogger.logger.error(e.getStackTrace().toString());
+            MyLogger.logger.error(e.getMessage());
         }
         finally {
             return className;
@@ -347,7 +383,7 @@ public class SeleniumDriverWrapper {
         }
         catch (Exception e)
         {
-            MyLogger.logger.error(e.getStackTrace().toString());
+            MyLogger.logger.error(e.getMessage());
         }
         finally {
             return tagName;
@@ -364,7 +400,7 @@ public class SeleniumDriverWrapper {
         }
         catch (Exception e)
         {
-            MyLogger.logger.error(e.getStackTrace().toString());
+            MyLogger.logger.error(e.getMessage());
         }
         finally {
             return location;
@@ -384,7 +420,7 @@ public class SeleniumDriverWrapper {
         }
         catch (Exception e)
         {
-            MyLogger.logger.error(e.getStackTrace().toString());
+            MyLogger.logger.error(e.getMessage());
         }
         finally {
         return element;
@@ -402,7 +438,7 @@ public class SeleniumDriverWrapper {
         }
         catch (Exception e)
         {
-            MyLogger.logger.error(e.getStackTrace().toString());
+            MyLogger.logger.error(e.getMessage());
         }
     }
 
@@ -415,7 +451,7 @@ public class SeleniumDriverWrapper {
         }
         catch(Exception e)
         {
-            MyLogger.logger.error(e.getStackTrace().toString());
+            MyLogger.logger.error(e.getMessage());
         }
     }
 
@@ -430,7 +466,7 @@ public class SeleniumDriverWrapper {
         }
         catch(Exception e)
         {
-            MyLogger.logger.error(e.getStackTrace().toString());
+            MyLogger.logger.error(e.getMessage());
         }
     }
 
@@ -450,7 +486,7 @@ public class SeleniumDriverWrapper {
             }
         catch(Exception e)
                 {
-                    MyLogger.logger.error(e.getStackTrace().toString());
+                    MyLogger.logger.error(e.getMessage());
                 }
     }
 
@@ -470,7 +506,7 @@ public class SeleniumDriverWrapper {
         }
         catch(Exception e)
         {
-            MyLogger.logger.error(e.getStackTrace().toString());
+            MyLogger.logger.error(e.getMessage());
         }
     }
 
@@ -481,7 +517,7 @@ public class SeleniumDriverWrapper {
         }
         catch (Exception e)
         {
-            MyLogger.logger.error(e.getStackTrace().toString());
+            MyLogger.logger.error(e.getMessage());
         }
     }
 
@@ -521,8 +557,9 @@ public class SeleniumDriverWrapper {
             //actions.send_keys(Keys.ALT, Keys.LEFT).perform()
             //actions.key_down(Keys.ALT).send_keys(Keys.LEFT).key_up(Keys.ALT).perform()
         } catch (Exception e) {
+            e.printStackTrace();
             takeScreenhot("goback");
-            MyLogger.logger.error(e.getStackTrace().toString());
+            MyLogger.logger.error(e.getMessage());
         }
     }
 
@@ -534,8 +571,9 @@ public class SeleniumDriverWrapper {
             //actions.sendKeys(Keys.ALT, Keys.LEFT).perform();
             actions.keyDown(Keys.ALT).sendKeys(Keys.LEFT).keyUp(Keys.ALT).perform();
         } catch (Exception e) {
+            e.printStackTrace();
             takeScreenhot("going back");
-            MyLogger.logger.error(e.getStackTrace().toString());
+            MyLogger.logger.error(e.getMessage());
         }
     }
 
@@ -547,7 +585,7 @@ public class SeleniumDriverWrapper {
             actions.moveToElement(element);
         }
         catch (Exception e) {
-        MyLogger.logger.error(e.getStackTrace().toString());
+        MyLogger.logger.error(e.getMessage());
         }
     }
 
@@ -560,7 +598,7 @@ public class SeleniumDriverWrapper {
             actions.mo
         }
         catch (Exception e) {
-            MyLogger.logger.error(e.getStackTrace().toString());
+            MyLogger.logger.error(e.getMessage());
         }
     }
     */

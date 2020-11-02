@@ -18,7 +18,6 @@ Feature: Spiegel 1
     Then I paginate to "previous" page
     Then I click a random article of "first" section
     Then I scroll down
-    #Then I go back
 
   Scenario: Spiegel plus read random section articles
     Then I scroll to "random" section
@@ -46,3 +45,4 @@ Feature: Spiegel 1
     Then I click a "random" article of alle Beitraege section
     Then I scroll down
     Then I go back
+    Then I paginate to "next" page

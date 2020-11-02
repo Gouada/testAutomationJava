@@ -1,5 +1,5 @@
 package pages;
-
+// this class implement SpiegelPlus Page actions
 import helpers.MyLogger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -12,122 +12,136 @@ public class SpiegelPlus extends BasePage{
         super(driver);
     }
 
+    //xpaths
     private static final String sections_list = "//section[@class='relative flex flex-wrap w-full']";
     private static final String alle_Beitrege_section = "//section[@data-area='article-teaser-list']";
     private static final String alle_beitraege_list = "//section[@data-area='article-teaser-list']//div[@data-block-el='articleTeaser']";
     private static final String nav_right = "//span[@title='Ältere Artikel']";
     private static final String nav_left = "//span[@title='Neuere Artikel']";
 
+    // gets the xpath of an article section in the specified section
     private String getSectionArticleXpath(int sectionNr, int articleNr)
     {
         return "//section[@class='relative flex flex-wrap w-full']["+sectionNr+"]//child::div[@data-block-el='articleTeaser']["+articleNr+"]";
     }
 
+    //gets the xpath of articles list of a specific section
     private String getSectionArticlesXpath(int sectionNr)
     {
         return "//section[@class='relative flex flex-wrap w-full']["+sectionNr+"]//child::div[@data-block-el='articleTeaser']";
     }
 
+    //gets the xpath of a specific section
     private String getSectionXpath(int sectionNr)
     {
         return sections_list +"["+sectionNr+"]";
     }
 
+    //gets the xpath of an article within alle Beiträge section
+    private String getAllebeitraegeElementXpath(int articleNr)
+    {
+        return "//section[@data-area='article-teaser-list']//div[@data-block-el='articleTeaser']["+articleNr+"]";
+    }
+
+    //click randomly an article within alle Beiträge section
     public void clickRandomArticleOfAlleBeitraegeSection()
     {
-        int articleCount = getElements(alle_beitraege_list, "xpath").size();
+        //article count in alle Beiträge section
+        int articleCount = getElementsByXpath(alle_beitraege_list).size();
         Random rnd = new Random();
         int rndId = rnd.nextInt(articleCount)+1;
-        clickElement(getElements(alle_beitraege_list, "xpath").get(rndId));
+        clickElement(getElementsByXpath(alle_beitraege_list).get(rndId));
     }
 
+    //click an specified article within alle Beiträge section
     public void clickAlleBeitraegeSectionArticle(int articleNr)
     {
-        clickElement(getElements(alle_beitraege_list, "xpath").get(articleNr));
+        clickElement(getElementsByXpath(alle_beitraege_list).get(articleNr));
     }
 
+    //click last article of alle Beiträge section
     public void clickAlleBeitraegeSectionLastArticle()
     {
-        int articleNr = getElements(alle_beitraege_list, "xpath").size()-1;
-        clickElement(getElements(alle_beitraege_list, "xpath").get(articleNr));
+        int articleNr = getElementsByXpath(alle_beitraege_list).size()-1;
+        clickElement(getElementsByXpath(alle_beitraege_list).get(articleNr));
     }
 
     public void scrollToRandomArticleOfAlleBeitraegeSection()
     {
-        int articleCount = getElements(alle_beitraege_list, "xpath").size();
+        int articleCount = getElementsByXpath(alle_beitraege_list).size();
         Random rnd = new Random();
         int rndId = rnd.nextInt(articleCount)+1;
-        moveToElement(getElements(alle_beitraege_list, "xpath").get(rndId));
+        moveToElement(getElementsByXpath(alle_beitraege_list).get(rndId));
     }
 
     public void scrollToAlleBeitraegeSectionArticle(int articleNr)
     {
-        moveToElement(getElements(alle_beitraege_list, "xpath").get(articleNr));
+        moveToElement(getElementsByXpath(alle_beitraege_list).get(articleNr));
     }
 
     public void scrollToAlleBeitraegeSectionLastArticle()
     {
-        int articleNr = getElements(alle_beitraege_list, "xpath").size() -1;
-        moveToElement(getElements(alle_beitraege_list, "xpath").get(articleNr));
+        int articleNr = getElementsByXpath(alle_beitraege_list).size() -1;
+        moveToElement(getElementsByXpath(alle_beitraege_list).get(articleNr));
     }
 
-
+    //gets section count
     public int getSectionsCount()
     {
-        return getElements(sections_list, "xpath").size();
+        return getElementsByXpath(sections_list).size();
     }
 
+    //gets number of articles in specified article
     private int getArticlesCount(int sectionNr)
     {
-        int count = getElements(getSectionArticlesXpath(sectionNr), "xpath").size();
+        int count = getElementsByXpath(getSectionArticlesXpath(sectionNr)).size();
         MyLogger.logger.info("count..:"+count);
         return count;
     }
     //check wether there sections on spiegelPlus page
     private boolean isSection()
     {
-        return getElements(sections_list,"xpath").size() > 0;
+        return getElementsByXpath(sections_list).size() > 0;
     }
 
-    //check wether there are article within a given section
+    //check wether there are articles within a given section
     private boolean hasArticle(int sectionNr)
     {
         String myLocator = getSectionArticlesXpath(sectionNr);
-        List<WebElement> elements = getElements(myLocator, "xpath");
+        List<WebElement> elements = getElementsByXpath(myLocator);
         return elements != null && elements.size() > 0;
     }
 
-    private String getAllebeitraegeElementXpath(int articleNr)
-    {
-        return "//section[@data-area='article-teaser-list']//div[@data-block-el='articleTeaser']["+articleNr+"]";
-    }
-
+    //click specified article within specified section
     public void clickSectionArticle(int sectionNr, int articleNr)
     {
         String myLocator = "(" + getSectionArticleXpath(sectionNr, articleNr) + "//a)[1]";
-        moveToElement(getElement(myLocator, "xpath"));
-        clickElement(myLocator, "xpath");
+        moveToElement(getElementByXpath(myLocator));
+        clickElement(getElementByXpath(myLocator));
 
     }
 
     public void clickAlleBeitraegeElement(int articleNr)
     {
         String myLocator = getAllebeitraegeElementXpath(articleNr);
-        scrollIntoView(getElement(myLocator,"xpath"));
+        moveToElement(getElementByXpath(myLocator));
+        //scrollIntoView(getElementByXpath(myLocator));
         clickElement(myLocator, "xpath");
     }
 
+    //paginate to left or right according to specified direction
     public void paginate(String direction)
     {
         WebElement element=null;
         if(direction.equals("right"))
-            element = getElement(nav_right, "xpath");
+            element = getElementByXpath(nav_right);
         else if(direction.equals("left"))
-            element = getElement(nav_left, "xpath");
+            element = getElementByXpath(nav_left);
         moveToElement(element);
         clickElement(element);
     }
 
+    // this helps to determine if we are no longer on first page. cuz left nav is not on first page
     public boolean isLeftNavigationVisible()
     {
         return isElementDisplayed(nav_left, "xpath", null);
@@ -136,8 +150,6 @@ public class SpiegelPlus extends BasePage{
     public void clickSectionLastArticle(int sectionNr)
     {
         int lastArticleNr = getArticlesCount(sectionNr);
-        System.out.println("lastArticleNr ...:"+ lastArticleNr + "   "+ "sectionNr....:"+sectionNr);
-        MyLogger.logger.info("lastArticleNr ...:"+ lastArticleNr + "   "+ "sectionNr....:"+sectionNr);
         clickSectionArticle(sectionNr, lastArticleNr);
     }
 
@@ -159,6 +171,7 @@ public class SpiegelPlus extends BasePage{
     {
         Random rdm = new Random();
         int rndSection=0;
+        //we want to select only sections which have articles. some sections does not have articles
         do {
             rndSection = rdm.nextInt(getSectionsCount())+1;
         }
@@ -168,7 +181,7 @@ public class SpiegelPlus extends BasePage{
 
     public void scrollToSection(int sectionNr)
     {
-        WebElement section = getElement(getSectionXpath(sectionNr), "xpath");
+        WebElement section = getElementByXpath(getSectionXpath(sectionNr));
         moveToElement(section);
     }
 
@@ -177,7 +190,7 @@ public class SpiegelPlus extends BasePage{
         WebElement element = null;
         try{
             if(indentificator.equals("alle_Beitraege"))
-                element = getElement(alle_Beitrege_section,"xpath");
+                element = getElementByXpath(alle_Beitrege_section);
             moveToElement(element);
         }
         catch (Exception e)
