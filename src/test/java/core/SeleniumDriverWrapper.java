@@ -274,18 +274,33 @@ public class SeleniumDriverWrapper {
         }
     }
 
-    public boolean isElementDisplayed(String myLocator, String myLocatorType, WebElement element)
+    public boolean isElementDisplayed(String myLocator, String myLocatorType)
+    {
+        boolean isDisplayed = false;
+        try
+        {
+            isDisplayed = getElement(myLocator, myLocatorType).isDisplayed();
+        }
+        catch (Exception e)
+        {
+            MyLogger.logger.error(myLocator + e.getMessage());
+        }
+        finally {
+            return isDisplayed;
+        }
+    }
+
+    public boolean isElementDisplayed(WebElement element)
     {
         boolean isDisplayed = false;
         try
         {
             if (element == null)
-                element = getElement(myLocator, myLocatorType);
-            isDisplayed = element.isDisplayed();
+              isDisplayed = element.isDisplayed();
         }
         catch (Exception e)
         {
-            MyLogger.logger.error(myLocator + e.getMessage());
+            MyLogger.logger.error( e.getMessage());
         }
         finally {
             return isDisplayed;
@@ -462,6 +477,19 @@ public class SeleniumDriverWrapper {
         try {
             if (element == null)
                 element = getElement(myLocator,locatorType);
+            wt.until(ExpectedConditions.visibilityOf(element));
+        }
+        catch(Exception e)
+        {
+            MyLogger.logger.error(e.getMessage());
+        }
+    }
+
+    public void waitForElementToBeVisible(WebElement element, long timeout)
+    {
+        WebDriverWait wt = new WebDriverWait(this.driver, timeout);
+
+        try {
             wt.until(ExpectedConditions.visibilityOf(element));
         }
         catch(Exception e)

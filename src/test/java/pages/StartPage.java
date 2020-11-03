@@ -14,7 +14,7 @@ public class StartPage extends BasePage{
     }
     public void clickAkzeptieren()
     {
-        if (isElementDisplayed(iframe, "xpath", null))
+        if (isElementDisplayed(iframe, "xpath"))
         {
             switch_toFrame(iframe, "xpath");
             waitForElementToBeClickable(akzeptieren_btn, "xpath",10,null);

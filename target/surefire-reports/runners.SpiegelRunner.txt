@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: runners.SpiegelRunner
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 255.469 sec
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 197.025 sec <<< FAILURE!
+Spiegel plus read section 1 articles(Spiegel 1 #2)  Time elapsed: 44.814 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at steps.SpiegelPlusSteps.i_go_back(SpiegelPlusSteps.java:94)
+	at ?.I go back(file:///C:/MyWorkspace/guineenews/src/test/resources/features/spiegelPlus.feature:15)
+

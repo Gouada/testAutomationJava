@@ -2,6 +2,7 @@ package pages;
 
 import org.junit.jupiter.api.AfterAll;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 public class MenuPage extends BasePage{
 
@@ -77,4 +78,31 @@ public class MenuPage extends BasePage{
         clickElement(getElement(myLocator, "xpath"));
     }
 
+    public void click_right_arrow()
+    {
+        clickElement(getElementByXpath(pfeil_nach_recht_xpath));
+    }
+
+    public void click_left_arrow()
+    {
+        clickElement(getElementByXpath(pfeil_nach_links_xpath));
+    }
+
+    public void click_right_arrow_until_is_visible(String menu) {
+        WebElement element = getElementByXpath(getTopMenuXpathString(menu));
+        do {
+            clickElement(getElementByXpath(pfeil_nach_recht_xpath));
+            waitForElementToBeVisible(element, 3);
+        }
+        while (!isElementDisplayed(element));
+    }
+    public void click_left_arrow_until_is_visible(String menu)
+    {
+        WebElement element = getElementByXpath(getTopMenuXpathString(menu));
+        do {
+            clickElement(getElementByXpath(pfeil_nach_links_xpath));
+            waitForElementToBeVisible(element, 3);
+        }
+        while (!isElementDisplayed(element));
+    }
 }

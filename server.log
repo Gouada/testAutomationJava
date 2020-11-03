@@ -1,64 +1,62 @@
-2020-11-02 16:54:33,042 ERROR s.SpiegelPlusSteps [main] Index: 20, Size: 20
-2020-11-02 16:54:33,042 INFO c.SeleniumDriverWrapper [main] this is the filenameERROR_SCREENSHOT_i_scroll_to_alle_Beitraegea_random_article_1604332473042.jpg
-2020-11-02 17:11:05,252 INFO s.TestCaseBase [main] starting test ...
-2020-11-02 17:11:05,262 INFO h.PropertiesFilesLoader [main] success loading properties-file /properties/environment.properties
-2020-11-02 17:11:05,262 INFO h.PropertiesFilesLoader [main] getting property with following key...CHROME_DRIVER_LOCATION
-2020-11-02 17:11:05,263 INFO h.PropertiesFilesLoader [main]  found corresponding property C:\MyWorkspace\SeleniumChromeDriver\85\chromedriver.exe
-2020-11-02 17:11:11,571 INFO s.MenuSteps [main] starting Spiegel
-2020-11-02 17:11:22,486 INFO s.MenuSteps [main] accepting conditions
-2020-11-02 17:11:25,807 INFO s.TestCaseBase [main] starting test ...
-2020-11-02 17:11:25,808 INFO s.MenuSteps [main] starting Spiegel
-2020-11-02 17:11:38,375 INFO s.MenuSteps [main] accepting conditions
-2020-11-02 17:11:41,927 ERROR c.SeleniumDriverWrapper [main] Element: //iframe[contains(@id, 'sp_message_iframe')] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//iframe[contains(@id, 'sp_message_iframe')]"}
+2020-11-02 23:04:08,090 INFO s.TestCaseBase [main] starting test ...
+2020-11-02 23:04:08,246 INFO h.PropertiesFilesLoader [main] success loading properties-file /properties/environment.properties
+2020-11-02 23:04:08,246 INFO h.PropertiesFilesLoader [main] getting property with following key...CHROME_DRIVER_LOCATION
+2020-11-02 23:04:08,246 INFO h.PropertiesFilesLoader [main]  found corresponding property C:\MyWorkspace\SeleniumChromeDriver\85\chromedriver.exe
+2020-11-02 23:04:15,277 INFO s.MenuSteps [main] starting Spiegel
+2020-11-02 23:04:19,984 INFO s.MenuSteps [main] accepting conditions
+2020-11-02 23:04:23,335 INFO s.TestCaseBase [main] starting test ...
+2020-11-02 23:04:23,336 INFO s.MenuSteps [main] starting Spiegel
+2020-11-02 23:04:29,117 INFO s.MenuSteps [main] accepting conditions
+2020-11-02 23:04:30,190 ERROR c.SeleniumDriverWrapper [main] Element: //iframe[contains(@id, 'sp_message_iframe')] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//iframe[contains(@id, 'sp_message_iframe')]"}
   (Session info: chrome=86.0.4240.111)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56058}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 3390f7198c51376066a25e135a0d15d7
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52427}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f9f67a0b004e6b910a653616836e8c4c
 *** Element info: {Using=xpath, value=//iframe[contains(@id, 'sp_message_iframe')]}
-2020-11-02 17:11:41,927 ERROR c.SeleniumDriverWrapper [main] //iframe[contains(@id, 'sp_message_iframe')]null
-2020-11-02 17:12:17,442 INFO p.SpiegelPlus [main] count..:17
-2020-11-02 17:12:57,353 INFO p.SpiegelPlus [main] count..:17
-2020-11-02 17:13:05,585 INFO s.TestCaseBase [main] starting test ...
-2020-11-02 17:13:05,586 INFO s.MenuSteps [main] starting Spiegel
-2020-11-02 17:13:11,254 INFO s.MenuSteps [main] accepting conditions
-2020-11-02 17:13:11,466 ERROR c.SeleniumDriverWrapper [main] Element: //iframe[contains(@id, 'sp_message_iframe')] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//iframe[contains(@id, 'sp_message_iframe')]"}
+2020-11-02 23:04:30,190 ERROR c.SeleniumDriverWrapper [main] //iframe[contains(@id, 'sp_message_iframe')]null
+2020-11-02 23:04:56,561 INFO p.SpiegelPlus [main] count..:17
+2020-11-02 23:05:27,190 INFO p.SpiegelPlus [main] count..:17
+2020-11-02 23:05:34,730 INFO s.TestCaseBase [main] starting test ...
+2020-11-02 23:05:34,730 INFO s.MenuSteps [main] starting Spiegel
+2020-11-02 23:05:38,877 INFO s.MenuSteps [main] accepting conditions
+2020-11-02 23:05:39,647 ERROR c.SeleniumDriverWrapper [main] Element: //iframe[contains(@id, 'sp_message_iframe')] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//iframe[contains(@id, 'sp_message_iframe')]"}
   (Session info: chrome=86.0.4240.111)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56058}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 3390f7198c51376066a25e135a0d15d7
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52427}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f9f67a0b004e6b910a653616836e8c4c
 *** Element info: {Using=xpath, value=//iframe[contains(@id, 'sp_message_iframe')]}
-2020-11-02 17:13:11,467 ERROR c.SeleniumDriverWrapper [main] //iframe[contains(@id, 'sp_message_iframe')]null
-2020-11-02 17:13:40,010 INFO p.SpiegelPlus [main] count..:18
-2020-11-02 17:14:04,145 INFO s.TestCaseBase [main] starting test ...
-2020-11-02 17:14:04,146 INFO s.MenuSteps [main] starting Spiegel
-2020-11-02 17:14:15,966 INFO s.MenuSteps [main] accepting conditions
-2020-11-02 17:14:20,197 ERROR c.SeleniumDriverWrapper [main] Element: //iframe[contains(@id, 'sp_message_iframe')] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//iframe[contains(@id, 'sp_message_iframe')]"}
+2020-11-02 23:05:39,647 ERROR c.SeleniumDriverWrapper [main] //iframe[contains(@id, 'sp_message_iframe')]null
+2020-11-02 23:06:07,262 INFO p.SpiegelPlus [main] count..:27
+2020-11-02 23:06:25,589 INFO s.TestCaseBase [main] starting test ...
+2020-11-02 23:06:25,589 INFO s.MenuSteps [main] starting Spiegel
+2020-11-02 23:06:29,545 INFO s.MenuSteps [main] accepting conditions
+2020-11-02 23:06:29,654 ERROR c.SeleniumDriverWrapper [main] Element: //iframe[contains(@id, 'sp_message_iframe')] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//iframe[contains(@id, 'sp_message_iframe')]"}
   (Session info: chrome=86.0.4240.111)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56058}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 3390f7198c51376066a25e135a0d15d7
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52427}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f9f67a0b004e6b910a653616836e8c4c
 *** Element info: {Using=xpath, value=//iframe[contains(@id, 'sp_message_iframe')]}
-2020-11-02 17:14:20,198 ERROR c.SeleniumDriverWrapper [main] //iframe[contains(@id, 'sp_message_iframe')]null
-2020-11-02 17:14:47,756 INFO p.SpiegelPlus [main] count..:22
-2020-11-02 17:15:06,732 INFO s.TestCaseBase [main] starting test ...
-2020-11-02 17:15:06,733 INFO s.MenuSteps [main] starting Spiegel
-2020-11-02 17:15:11,025 INFO s.MenuSteps [main] accepting conditions
-2020-11-02 17:15:12,473 ERROR c.SeleniumDriverWrapper [main] Element: //iframe[contains(@id, 'sp_message_iframe')] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//iframe[contains(@id, 'sp_message_iframe')]"}
+2020-11-02 23:06:29,655 ERROR c.SeleniumDriverWrapper [main] //iframe[contains(@id, 'sp_message_iframe')]null
+2020-11-02 23:06:56,475 INFO p.SpiegelPlus [main] count..:22
+2020-11-02 23:07:15,381 INFO s.TestCaseBase [main] starting test ...
+2020-11-02 23:07:15,381 INFO s.MenuSteps [main] starting Spiegel
+2020-11-02 23:07:19,343 INFO s.MenuSteps [main] accepting conditions
+2020-11-02 23:07:19,587 ERROR c.SeleniumDriverWrapper [main] Element: //iframe[contains(@id, 'sp_message_iframe')] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//iframe[contains(@id, 'sp_message_iframe')]"}
   (Session info: chrome=86.0.4240.111)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56058}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 3390f7198c51376066a25e135a0d15d7
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52427}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f9f67a0b004e6b910a653616836e8c4c
 *** Element info: {Using=xpath, value=//iframe[contains(@id, 'sp_message_iframe')]}
-2020-11-02 17:15:12,474 ERROR c.SeleniumDriverWrapper [main] //iframe[contains(@id, 'sp_message_iframe')]null
+2020-11-02 23:07:19,587 ERROR c.SeleniumDriverWrapper [main] //iframe[contains(@id, 'sp_message_iframe')]null

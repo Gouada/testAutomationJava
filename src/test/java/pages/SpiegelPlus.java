@@ -144,7 +144,7 @@ public class SpiegelPlus extends BasePage{
     // this helps to determine if we are no longer on first page. cuz left nav is not on first page
     public boolean isLeftNavigationVisible()
     {
-        return isElementDisplayed(nav_left, "xpath", null);
+        return isElementDisplayed(nav_left, "xpath");
     }
 
     public void clickSectionLastArticle(int sectionNr)
