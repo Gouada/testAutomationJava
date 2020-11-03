@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="196.07">
-<testcase classname="Spiegel 1" name="surf on menu page" time="17.836">
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="213.864">
+<testcase classname="Spiegel 1" name="surf on menu page" time="16.069">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel 1" name="Spiegel plus read section 1 articles" time="44.795">
-<failure message="" type="java.lang.AssertionError"><![CDATA[Given I start Spiegel.......................................................passed
+<testcase classname="Spiegel 1" name="Spiegel plus read section 1 articles" time="71.602">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I click SpiegelPlus....................................................passed
 Then I click first article of "first" section...............................passed
@@ -14,23 +14,15 @@ Then I scroll down..........................................................pass
 Then I go back..............................................................passed
 Then I click last article of "first" section................................passed
 Then I scroll down..........................................................passed
-Then I go back..............................................................failed
-Then I paginate to "next" page..............................................skipped
-Then I scroll down..........................................................skipped
-Then I paginate to "previous" page..........................................skipped
-Then I click a random article of "first" section............................skipped
-Then I scroll down..........................................................skipped
-
-StackTrace:
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at steps.SpiegelPlusSteps.i_go_back(SpiegelPlusSteps.java:94)
-	at ✽.I go back(file:///C:/MyWorkspace/guineenews/src/test/resources/features/spiegelPlus.feature:15)
-]]></failure>
+Then I go back..............................................................passed
+Then I paginate to "next" page..............................................passed
+Then I scroll down..........................................................passed
+Then I paginate to "previous" page..........................................passed
+Then I click a random article of "first" section............................passed
+Then I scroll down..........................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Spiegel 1" name="Spiegel plus read random section articles" time="51.55">
+<testcase classname="Spiegel 1" name="Spiegel plus read random section articles" time="55.793">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I click SpiegelPlus....................................................passed
@@ -43,7 +35,7 @@ Then I scroll down..........................................................pass
 Then I go back..............................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel 1" name="Spiegel plus read audio section articles" time="49.253">
+<testcase classname="Spiegel 1" name="Spiegel plus read audio section articles" time="50.984">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I click SpiegelPlus....................................................passed
@@ -56,8 +48,8 @@ Then I scroll down..........................................................pass
 Then I go back..............................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel 1" name="Spiegel plus read alle Beiträge section articles" time="32.433">
-<system-out><![CDATA[Given I start Spiegel.......................................................passed
+<testcase classname="Spiegel 1" name="Spiegel plus read alle Beiträge section articles" time="19.2">
+<failure message="" type="java.lang.AssertionError"><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I click SpiegelPlus....................................................passed
 Then I scroll to "alle_Beitraege" section...................................passed
@@ -65,8 +57,16 @@ Then I scroll to alle Beitraege "last" article..............................pass
 Then I scroll to alle Beitraege "random" article............................passed
 Then I click a "random" article of alle Beitraege section...................passed
 Then I scroll down..........................................................passed
-Then I go back..............................................................passed
-Then I paginate to "next" page..............................................passed
-]]></system-out>
+Then I go back..............................................................failed
+Then I paginate to "next" page..............................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at steps.SpiegelPlusSteps.i_go_back(SpiegelPlusSteps.java:94)
+	at ✽.I go back(file:///C:/MyWorkspace/guineenews/src/test/resources/features/spiegelPlus.feature:47)
+]]></failure>
 </testcase>
 </testsuite>

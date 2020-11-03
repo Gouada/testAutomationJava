@@ -5,7 +5,6 @@ import helpers.MyLogger;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
 import pages.SpiegelPlus;
-
 import static java.lang.Thread.sleep;
 
 public class SpiegelPlusSteps{
@@ -20,7 +19,7 @@ public class SpiegelPlusSteps{
             MenuSteps.menuPage.clickATopMenu(Menu.SPIEGEL_PLUS);
             Assert.assertTrue(spiegelPlus.getitle().contains("Plus - DER SPIEGEL"));
             Assert.assertTrue(spiegelPlus.getPageSource().contains("SPIEGEL+"));
-            sleep(3000);
+            //sleep(3000);
         }
         catch (Exception e)
         {
@@ -38,12 +37,12 @@ public class SpiegelPlusSteps{
                 spiegelPlus.paginate("right");
                 Assert.assertTrue(spiegelPlus.getCurrentURL().equals("https://www.spiegel.de/plus/p2/"));
                 Assert.assertTrue(spiegelPlus.isLeftNavigationVisible());
-                sleep(3000);
+                //sleep(3000);
             } else if (direction.equals("previous")) {
                 spiegelPlus.paginate("left");
                 //Assert.assertTrue(spiegelPlus.getCurrentURL().equals("https://www.spiegel.de/plus/p2/"));
                 //Assert.assertTrue(spiegelPlus.isLeftNavigationVisible());
-                sleep(3000);
+                //sleep(3000);
             }
         }
         catch (Exception e)
@@ -58,7 +57,7 @@ public class SpiegelPlusSteps{
     public void i_scroll_down()  {
         try {
             spiegelPlus.pageDown();
-            sleep(3000);
+            //sleep(3000);
         }
         catch (Exception e)
         {
@@ -76,7 +75,7 @@ public class SpiegelPlusSteps{
             if (section.equals("random")) sectionNr = spiegelPlus.getRandomSectionNr();
             if (section.equals("audio")) sectionNr = spiegelPlus.getSectionsCount();
             spiegelPlus.clickSectionArticle(sectionNr, 1);
-            sleep(3000);
+            //sleep(3000);
         }catch (Exception e)
         {
             MyLogger.logger.error(e.getMessage());
@@ -92,7 +91,7 @@ public class SpiegelPlusSteps{
             //spiegelPlus.iClickBackButton();
             Assert.assertTrue(spiegelPlus.getitle().contains("Plus - DER SPIEGEL"));
             Assert.assertTrue(spiegelPlus.getPageSource().contains("SPIEGEL+"));
-            sleep(10000);
+            //sleep(10000);
         }catch (Exception e)
         {
             MyLogger.logger.error(e.getMessage());
@@ -114,7 +113,7 @@ public class SpiegelPlusSteps{
             if (section.equals("audio"))
                 sectionNr = spiegelPlus.getSectionsCount();
             spiegelPlus.clickSectionLastArticle(sectionNr);
-            sleep(3000);
+            //sleep(3000);
         }catch (Exception e)
         {
             MyLogger.logger.error(e.getMessage());
@@ -135,7 +134,7 @@ public class SpiegelPlusSteps{
             if (section.equals("audio"))
                 sectionNr = spiegelPlus.getSectionsCount();
             spiegelPlus.clickSectionRandomArticle(sectionNr);
-            sleep(3000);
+            //sleep(3000);
         }
         catch (Exception e)
         {
