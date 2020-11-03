@@ -12,6 +12,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Calendar;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 //the Base page extends this class and so every page-class extends indirectly this class
 public class SeleniumDriverWrapper {
@@ -71,43 +72,52 @@ public class SeleniumDriverWrapper {
     //as xpath is the most used identification type it make sense to create this methode
     public WebElement getElementByXpath(String myLocator)
     {
+        WebElement element=null;
         try {
-            return this.driver.findElement(By.xpath(myLocator));
+            element = driver.findElement(By.xpath(myLocator));
         }
         catch(NoSuchElementException e)
         {
             MyLogger.logger.error("Element: "+ myLocator +" was not found" + e.getMessage());
             //throw new NoSuchElementException("Element was not found" + myLocator);
         }
-        return null;
+        finally {
+            return element;
+        }
     }
 
     public List<WebElement> getElements(String myLocator, String myLocatorType)
     {
+        List<WebElement> elements = null;
         try {
             By by = getByType(myLocatorType, myLocator);
-            return this.driver.findElements(by);
+            elements = driver.findElements(by);
         }
         catch(NoSuchElementException e)
         {
             MyLogger.logger.error("Element: "+ myLocator +" was not found" + e.getMessage());
             //throw new NoSuchElementException("Element was not found" + myLocator);
         }
-        return null;
+        finally {
+            return elements;
+        }
     }
 
     //as xpath is the most used identification type it make sense to create this methode
     public List<WebElement> getElementsByXpath(String myLocator)
     {
+        List<WebElement> elements = null;
         try {
-            return this.driver.findElements(By.xpath(myLocator));
+            elements = driver.findElements(By.xpath(myLocator));
         }
         catch(NoSuchElementException e)
         {
             MyLogger.logger.error("Element: "+ myLocator +" was not found" + e.getMessage());
             //throw new NoSuchElementException("Element was not found" + myLocator);
         }
-        return null;
+        finally {
+            return elements;
+        }
     }
 
     public void clickElement(String myLocator, String myLocatorType)
@@ -498,6 +508,11 @@ public class SeleniumDriverWrapper {
         }
     }
 
+    public void implicitlyWait(long timeout)
+    {
+        driver.manage().timeouts().implicitlyWait(timeout, TimeUnit.SECONDS);
+    }
+
     public void scrollDownToBottom()
     {
         Object windowHeight, newWidowHeight;
@@ -557,7 +572,10 @@ public class SeleniumDriverWrapper {
             //filename = "ERROR_SCREENSHOT_"+Calendar.DAY_OF_MONTH+"_"+Calendar.MONTH+"-"+Calendar.HOUR+"_"+Calendar.MINUTE+"_"+Calendar.SECOND+ ".jpg";
             filename = " ERROR_SCREENSHOT_" + testStep + "_" + calendar.getTimeInMillis() + ".jpg";
             MyLogger.logger.info("this is the filename " + filename);
+            System.out.println("..taking screenshot..");
             File screenShot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+            System.out.println(".. screenshot taken..");
+
             copyFile(screenShot, filename);
             filename = "";
         }

@@ -26,35 +26,39 @@ public class SpiegelPlusSteps{
             MyLogger.logger.error(e.getMessage());
             spiegelPlus.takeScreenhot("i_click_Spiegel_Plus");
             e.printStackTrace();
+            throw new AssertionError();
         }
     }
 
     @Then("I paginate to {string} page")
-    public void i_paginate_to_next_page(String direction)
+    public void i_paginate_to_next_page(String direction) throws Throwable
     {
-        try {
+        //try {
             if (direction.equals("next")) {
                 spiegelPlus.paginate("right");
-                Assert.assertTrue(spiegelPlus.getCurrentURL().equals("https://www.spiegel.de/plus/p2/"));
+                spiegelPlus.implicitlyWait(5);
+                Assert.assertTrue(spiegelPlus.getCurrentURL().contains("spiegel.de/plus/p2/"));
                 Assert.assertTrue(spiegelPlus.isLeftNavigationVisible());
                 //sleep(3000);
             } else if (direction.equals("previous")) {
                 spiegelPlus.paginate("left");
                 //Assert.assertTrue(spiegelPlus.getCurrentURL().equals("https://www.spiegel.de/plus/p2/"));
                 //Assert.assertTrue(spiegelPlus.isLeftNavigationVisible());
-                //sleep(3000);
+                spiegelPlus.implicitlyWait(5);
             }
-        }
-        catch (Exception e)
+        //}
+        /*catch (Exception e)
             {
                 MyLogger.logger.error(e.getMessage());
                 spiegelPlus.takeScreenhot("i_paginate_to_"+direction+"_page");
                 e.printStackTrace();
+                throw new Exception();
             }
+         */
     }
 
     @Then("I scroll down")
-    public void i_scroll_down()  {
+    public void i_scroll_down() throws Exception {
         try {
             spiegelPlus.pageDown();
             //sleep(3000);
@@ -64,6 +68,7 @@ public class SpiegelPlusSteps{
             MyLogger.logger.error(e.getMessage());
             spiegelPlus.takeScreenhot("i_scroll_down");
             e.printStackTrace();
+            throw new Exception();
         }
     }
 
@@ -78,32 +83,35 @@ public class SpiegelPlusSteps{
             //sleep(3000);
         }catch (Exception e)
         {
-            MyLogger.logger.error(e.getMessage());
+            MyLogger.logger.error("Step: i_click_first_article_of_"+section+"_section: " + e.getMessage());
             spiegelPlus.takeScreenhot("i_click_first_article_of_"+section+"_section");
             e.printStackTrace();
+            throw new AssertionError();
         }
     }
 
-    @Then("I go back")
-    public void i_go_back() {
+    @Then("I go back to {string}")
+    public void i_go_back_to(String title) {
         try {
             spiegelPlus.goBack();
             //spiegelPlus.iClickBackButton();
-            Assert.assertTrue(spiegelPlus.getitle().contains("Plus - DER SPIEGEL"));
+            spiegelPlus.waitForPageToLoad(title);
+            //spiegelPlus.implicitlyWait(5);
+            Assert.assertTrue(spiegelPlus.getitle().contains(title));
             Assert.assertTrue(spiegelPlus.getPageSource().contains("SPIEGEL+"));
             //sleep(10000);
         }catch (Exception e)
         {
-            MyLogger.logger.error(e.getMessage());
+            MyLogger.logger.error("Step 'i_go_back': "+e.getMessage());
             spiegelPlus.takeScreenhot("i_go_back");
             e.printStackTrace();
+            throw new AssertionError();
         }
 
     }
 
     @Then("I click last article of {string} section")
-    public void i_click_last_article_of_section(String section)
-    {
+    public void i_click_last_article_of_section(String section) throws Exception {
         try {
             int sectionNr = 0;
             if (section.equals("first"))
@@ -116,9 +124,10 @@ public class SpiegelPlusSteps{
             //sleep(3000);
         }catch (Exception e)
         {
-            MyLogger.logger.error(e.getMessage());
+            MyLogger.logger.error("Step 'i_click_last_article_of_"+section+"_section': " +e.getMessage());
             spiegelPlus.takeScreenhot("i_click_last_article_of_"+section+"_section");
             e.printStackTrace();
+            throw new Exception();
         }
     }
 
@@ -141,6 +150,7 @@ public class SpiegelPlusSteps{
             MyLogger.logger.error(e.getMessage());
             spiegelPlus.takeScreenhot("i_click_an_random_article_of_"+section+"_section");
             e.printStackTrace();
+            throw new AssertionError();
         }
     }
 
@@ -166,6 +176,7 @@ public class SpiegelPlusSteps{
             MyLogger.logger.error(e.getMessage());
             spiegelPlus.takeScreenhot("i_click_an_random_article_of_"+section+"_section");
             e.printStackTrace();
+            throw new AssertionError();
         }
     }
 
@@ -184,6 +195,7 @@ public class SpiegelPlusSteps{
             MyLogger.logger.error(e.getMessage());
             spiegelPlus.takeScreenhot("i_scroll_to_alle_Beitraegea_random_article");
             e.printStackTrace();
+            throw new AssertionError();
         }
     }
 
@@ -202,6 +214,7 @@ public class SpiegelPlusSteps{
             MyLogger.logger.error(e.getMessage());
             spiegelPlus.takeScreenhot("i_click_article_of_alle_Beitraege_section");
             e.printStackTrace();
+            throw new AssertionError();
         }
     }
 }

@@ -4,6 +4,7 @@ C:\MyWorkspace\guineenews\src\test\java\core\ChromeDriverManager.java
 C:\MyWorkspace\guineenews\src\test\java\pages\SearchPage.java
 C:\MyWorkspace\guineenews\src\test\java\steps\MenuSteps.java
 C:\MyWorkspace\guineenews\src\test\java\constants\Urls.java
+C:\MyWorkspace\guineenews\src\test\java\pages\ArticlesListBasePage.java
 C:\MyWorkspace\guineenews\src\test\java\core\DriverFactory.java
 C:\MyWorkspace\guineenews\src\test\java\core\DriverManager.java
 C:\MyWorkspace\guineenews\src\test\java\steps\TestCaseBase.java
@@ -11,9 +12,11 @@ C:\MyWorkspace\guineenews\src\test\java\constants\Constants.java
 C:\MyWorkspace\guineenews\src\test\java\pages\SpiegelPlus.java
 C:\MyWorkspace\guineenews\src\test\java\pages\StartPage.java
 C:\MyWorkspace\guineenews\src\test\java\core\IEDriverManager.java
+C:\MyWorkspace\guineenews\src\test\java\constants\CulturMenus.java
 C:\MyWorkspace\guineenews\src\test\java\pages\MenuPage.java
 C:\MyWorkspace\guineenews\src\test\java\core\FirefoxDriverManager.java
 C:\MyWorkspace\guineenews\src\test\java\helpers\PropertiesFilesLoader.java
+C:\MyWorkspace\guineenews\src\test\java\pages\CulturPage.java
 C:\MyWorkspace\guineenews\src\test\java\runners\SpiegelRunner.java
 C:\MyWorkspace\guineenews\src\test\java\core\SeleniumDriverWrapper.java
 C:\MyWorkspace\guineenews\src\test\java\constants\Menu.java

@@ -1,12 +1,9 @@
 -------------------------------------------------------------------------------
 Test set: runners.SpiegelRunner
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 215.091 sec <<< FAILURE!
-Spiegel plus read alle Beiträge section articles(Spiegel 1 #2)  Time elapsed: 19.207 sec  <<< FAILURE!
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 108.256 sec <<< FAILURE!
+Spiegel plus read random section articles(Spiegel 1 #2)  Time elapsed: 22.798 sec  <<< FAILURE!
 java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at steps.SpiegelPlusSteps.i_go_back(SpiegelPlusSteps.java:94)
-	at ?.I go back(file:///C:/MyWorkspace/guineenews/src/test/resources/features/spiegelPlus.feature:47)
+	at steps.SpiegelPlusSteps.clickSpiegelPlus(SpiegelPlusSteps.java:29)
+	at ?.I click SpiegelPlus(file:///C:/MyWorkspace/guineenews/src/test/resources/features/spiegelPlus.feature:7)
 
