@@ -3,10 +3,10 @@ package pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class CulturPage extends ArticlesListBasePage{
+public class CulturePage extends ArticlesListBasePage{
 
     private static final String cultur_menu_xpath = "";
-    public CulturPage(WebDriver driver) {
+    public CulturePage(WebDriver driver) {
         super(driver);
     }
 

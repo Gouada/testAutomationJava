@@ -1,69 +1,55 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="106.358">
-<testcase classname="Spiegel 1" name="surf on menu page" time="18.855">
-<system-out><![CDATA[Given I start Spiegel.......................................................passed
-Then I click Akzeptieren und weiter.........................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Spiegel 1" name="Spiegel plus read section 1 articles" time="25.307">
-<system-out><![CDATA[Given I start Spiegel.......................................................passed
-Then I click Akzeptieren und weiter.........................................passed
-Then I click SpiegelPlus....................................................passed
-Then I click first article of "first" section...............................passed
-Then I scroll down..........................................................passed
-Then I go back to "Plus - DER SPIEGEL"......................................passed
-Then I click last article of "first" section................................passed
-Then I scroll down..........................................................passed
-Then I go back to "Plus - DER SPIEGEL"......................................passed
-Then I paginate to "next" page..............................................passed
-Then I scroll down..........................................................passed
-Then I paginate to "previous" page..........................................passed
-Then I click a random article of "first" section............................passed
-Then I scroll down..........................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Spiegel 1" name="Spiegel plus read random section articles" time="22.791">
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="93.023">
+<testcase classname="Spiegel Lpus" name="navigate on culture sub-menu" time="27.34">
 <failure message="" type="java.lang.AssertionError"><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
-Then I click SpiegelPlus....................................................failed
-Then I scroll to "random" section...........................................skipped
-Then I click first article of "random" section..............................skipped
-Then I scroll down..........................................................skipped
-Then I go back to "Plus - DER SPIEGEL"......................................skipped
-Then I click a random article of "random" section...........................skipped
-Then I scroll down..........................................................skipped
-Then I go back to "Plus - DER SPIEGEL"......................................skipped
+Then I bring culture menu into view.........................................passed
+And I click TopMenu culture.................................................passed
+Then I click culture Kino...................................................passed
+Then I click a "random" article of alle Beitraege section...................passed
+Then I click page down 3....................................................passed
+Then I go back to "Kino - Kultur - DER SPIEGEL".............................failed
 
 StackTrace:
 java.lang.AssertionError
-	at steps.SpiegelPlusSteps.clickSpiegelPlus(SpiegelPlusSteps.java:29)
-	at ✽.I click SpiegelPlus(file:///C:/MyWorkspace/guineenews/src/test/resources/features/spiegelPlus.feature:7)
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at steps.HelperSteps.i_go_back_to(HelperSteps.java:103)
+	at ✽.I go back to "Kino - Kultur - DER SPIEGEL"(file:///C:/MyWorkspace/guineenews/src/test/resources/features/culturePage.feature:15)
 ]]></failure>
 </testcase>
-<testcase classname="Spiegel 1" name="Spiegel plus read audio section articles" time="19.645">
+<testcase classname="Spiegel Lpus" name="navigate on culture sub-menu 2" time="21.532">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
-Then I click SpiegelPlus....................................................passed
-Then I scroll to "audio" section............................................passed
-Then I click first article of "audio" section...............................passed
-Then I scroll down..........................................................passed
-Then I go back to "Plus - DER SPIEGEL"......................................passed
-Then I click a random article of "audio" section............................passed
-Then I scroll down..........................................................passed
-Then I go back to "Plus - DER SPIEGEL"......................................passed
+Then I bring culture menu into view.........................................passed
+And I click TopMenu culture.................................................passed
+Then I click culture Musik..................................................passed
+Then I click a "random" article of alle Beitraege section...................passed
+Then I click page down 3....................................................passed
+Then I go back to "Musik - Kultur - DER SPIEGEL"............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel 1" name="Spiegel plus read alle Beiträge section articles" time="19.388">
+<testcase classname="Spiegel Lpus" name="navigate on culture sub-menu 3" time="21.767">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
-Then I click SpiegelPlus....................................................passed
-Then I scroll to "alle_Beitraege" section...................................passed
-Then I scroll to alle Beitraege "last" article..............................passed
-Then I scroll to alle Beitraege "random" article............................passed
+Then I bring culture menu into view.........................................passed
+And I click TopMenu culture.................................................passed
+Then I click culture TV.....................................................passed
 Then I click a "random" article of alle Beitraege section...................passed
-Then I scroll down..........................................................passed
-Then I go back to "Plus - DER SPIEGEL"......................................passed
-Then I paginate to "next" page..............................................passed
+Then I click page down 3....................................................passed
+Then I go back to "TV - Kultur - DER SPIEGEL"...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Spiegel Lpus" name="navigate on culture sub-menu 4" time="22.035">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+Then I bring culture menu into view.........................................passed
+And I click TopMenu culture.................................................passed
+Then I click culture Literatur..............................................passed
+Then I click a "random" article of alle Beitraege section...................passed
+Then I click page down 3....................................................passed
+Then I go back to "Literatur - Kultur - DER SPIEGEL"........................passed
 ]]></system-out>
 </testcase>
 </testsuite>

@@ -84,6 +84,7 @@ public class ArticlesListBasePage extends BasePage{
         else if(direction.equals("left"))
             element = getElementByXpath(nav_left);
         moveToElement(element);
+        implicitlyWait(3);
         clickElement(element);
     }
 

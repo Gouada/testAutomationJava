@@ -140,6 +140,7 @@ public class SeleniumDriverWrapper {
     {
         try {
             element.click();
+            implicitlyWait(3);
         }
         catch (ElementClickInterceptedException e)
         {
@@ -305,7 +306,6 @@ public class SeleniumDriverWrapper {
         boolean isDisplayed = false;
         try
         {
-            if (element == null)
               isDisplayed = element.isDisplayed();
         }
         catch (Exception e)
@@ -473,6 +473,18 @@ public class SeleniumDriverWrapper {
         By by = getByType(locatorType,myLocator);
         try {
             wt.until(ExpectedConditions.elementToBeClickable(by));
+        }
+        catch(Exception e)
+        {
+            MyLogger.logger.error(e.getMessage());
+        }
+    }
+
+    public void waitForElementToBeClickable(WebElement element, long timeout)
+    {
+        WebDriverWait wt = new WebDriverWait(this.driver, timeout);
+        try {
+            wt.until(ExpectedConditions.elementToBeClickable(element));
         }
         catch(Exception e)
         {
@@ -659,16 +671,26 @@ public class SeleniumDriverWrapper {
     }
     */
 
-    public void pageUp()
+    public void pageUp(int count)
     {
         Actions actions = new Actions(driver);
-        actions.sendKeys(Keys.PAGE_UP).perform();
+        int i = 0;
+        while (i<count) {
+            actions.sendKeys(Keys.PAGE_UP).perform();
+            implicitlyWait(1);
+            i++;
+        }
     }
 
-    public void pageDown()
+    public void pageDown(int count)
     {
         Actions actions = new Actions(driver);
+        int i = 0;
+        while (i<count) {
         actions.sendKeys(Keys.PAGE_DOWN).perform();
+            implicitlyWait(1);
+            i++;
+        }
     }
 
     public void arrowDown( int count)
@@ -678,6 +700,7 @@ public class SeleniumDriverWrapper {
         while (i<count)
         {
             actions.sendKeys(Keys.ARROW_DOWN).perform();
+            implicitlyWait(1);
             i++;
         }
 
@@ -690,6 +713,7 @@ public class SeleniumDriverWrapper {
         while (i<count)
         {
             actions.sendKeys(Keys.ARROW_UP).perform();
+            implicitlyWait(1);
             i++;
         }
     }
@@ -701,6 +725,7 @@ public class SeleniumDriverWrapper {
         while (i<count)
         {
             actions.sendKeys(Keys.ARROW_LEFT).perform();
+            implicitlyWait(1);
             i++;
         }
 
@@ -713,6 +738,7 @@ public class SeleniumDriverWrapper {
         while (i<count)
         {
             actions.sendKeys(Keys.ARROW_RIGHT).perform();
+            implicitlyWait(1);
             i++;
         }
     }

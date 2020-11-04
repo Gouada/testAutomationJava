@@ -80,7 +80,8 @@ public class MenuPage extends BasePage{
 
     public void click_right_arrow()
     {
-        clickElement(getElementByXpath(pfeil_nach_recht_xpath));
+        for(int i=0; i<3; i++)
+            clickElement(getElementByXpath(pfeil_nach_recht_xpath));
     }
 
     public void click_left_arrow()
@@ -90,18 +91,24 @@ public class MenuPage extends BasePage{
 
     public void click_right_arrow_until_is_visible(String menu) {
         WebElement element = getElementByXpath(getTopMenuXpathString(menu));
+        WebElement arrow = getElementByXpath(pfeil_nach_recht_xpath);
         do {
-            clickElement(getElementByXpath(pfeil_nach_recht_xpath));
-            waitForElementToBeVisible(element, 3);
+            clickElement(arrow);
+            implicitlyWait(1);
+            //waitForElementToBeClickable(element, 1);
         }
         while (!isElementDisplayed(element));
+        clickElement(arrow);
     }
     public void click_left_arrow_until_is_visible(String menu)
     {
         WebElement element = getElementByXpath(getTopMenuXpathString(menu));
+        WebElement arrow;
         do {
-            clickElement(getElementByXpath(pfeil_nach_links_xpath));
-            waitForElementToBeVisible(element, 3);
+            arrow = getElementByXpath(pfeil_nach_links_xpath);
+            clickElement(arrow);
+            implicitlyWait(1);
+            //waitForElementToBeClickable(element, 1);
         }
         while (!isElementDisplayed(element));
     }
