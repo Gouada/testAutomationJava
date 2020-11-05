@@ -1,5 +1,5 @@
 @spiegelPlus
-Feature: Spiegel Lpus
+Feature: Spiegel Plus
 
   Background:
     Given I start Spiegel
@@ -29,6 +29,7 @@ Feature: Spiegel Lpus
     Then I click page down 3
     Then I go back to "Plus - DER SPIEGEL"
 
+  @audio
   Scenario: Spiegel plus read audio section articles
     Then I scroll to "audio" section
     Then I click first article of "audio" section

@@ -99,16 +99,20 @@ public class HelperSteps {
             page.goBack();
             //spiegelPlus.iClickBackButton();
             //spiegelPlus.waitForPageToLoad(title);
-            page.implicitlyWait(10);
+            //page.implicitlyWait(5);
             Assert.assertTrue(page.getitle().contains(title));
             //Assert.assertTrue(page.getPageSource().contains("SPIEGEL+"));
             //sleep(10000);
-        }catch (Exception e)
+        }catch (Exception  e)
         {
             MyLogger.logger.error("Step 'i_go_back': "+e.getMessage());
             page.takeScreenhot("i_go_back");
             e.printStackTrace();
             throw new AssertionError();
+        }
+        catch(AssertionError  e)
+        {
+            page.takeScreenhot("i_go_back");
         }
 
     }
@@ -157,7 +161,7 @@ public class HelperSteps {
         try {
             if (direction.equals("next")) {
                 page.paginate("right");
-                page.implicitlyWait(5);
+                //page.implicitlyWait(5);
                 //Assert.assertTrue(page.getCurrentURL().contains("spiegel.de/plus/p2/"));
                 Assert.assertTrue(page.isLeftNavigationVisible());
                 //sleep(3000);
@@ -165,7 +169,7 @@ public class HelperSteps {
                 page.paginate("left");
                 //Assert.assertTrue(spiegelPlus.getCurrentURL().equals("https://www.spiegel.de/plus/p2/"));
                 //Assert.assertTrue(spiegelPlus.isLeftNavigationVisible());
-                page.implicitlyWait(5);
+                //page.implicitlyWait(5);
             }
         }
         catch (Exception e)

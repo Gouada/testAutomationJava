@@ -1,9 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: runners.SpiegelRunner
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 108.256 sec <<< FAILURE!
-Spiegel plus read random section articles(Spiegel 1 #2)  Time elapsed: 22.798 sec  <<< FAILURE!
-java.lang.AssertionError
-	at steps.SpiegelPlusSteps.clickSpiegelPlus(SpiegelPlusSteps.java:29)
-	at ?.I click SpiegelPlus(file:///C:/MyWorkspace/guineenews/src/test/resources/features/spiegelPlus.feature:7)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 29.027 sec

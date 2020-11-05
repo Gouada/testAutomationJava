@@ -1,24 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="87.32">
-<testcase classname="Spiegel Lpus" name="navigate on culture sub-menu" time="23.534">
-<failure message="" type="java.lang.NullPointerException"><![CDATA[Given I start Spiegel.......................................................passed
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="9" time="164.572">
+<testcase classname="Spiegel Lpus" name="navigate on culture sub-menu" time="26.091">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring culture menu into view.........................................passed
 And I click TopMenu culture.................................................passed
-Then I click culture Kino...................................................failed
-Then I click a "random" article of alle Beitraege section...................skipped
-Then I click page down 3....................................................skipped
-Then I go back to "Kino - Kultur - DER SPIEGEL".............................skipped
-
-StackTrace:
-java.lang.NullPointerException
-	at core.SeleniumDriverWrapper.clickElement(SeleniumDriverWrapper.java:142)
-	at pages.CulturePage.clickMenuElement(CulturePage.java:21)
-	at steps.CultureSteps.i_click_menu(CultureSteps.java:26)
-	at ✽.I click culture Kino(file:///C:/MyWorkspace/guineenews/src/test/resources/features/culturePage.feature:12)
-]]></failure>
+Then I click culture Kino...................................................passed
+Then I click a "random" article of alle Beitraege section...................passed
+Then I click page down 3....................................................passed
+Then I go back to "Kino - Kultur - DER SPIEGEL".............................passed
+]]></system-out>
 </testcase>
-<testcase classname="Spiegel Lpus" name="navigate on culture sub-menu 2" time="17.942">
+<testcase classname="Spiegel Lpus" name="navigate on culture sub-menu 2" time="18.817">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring culture menu into view.........................................passed
@@ -29,7 +22,7 @@ Then I click page down 3....................................................pass
 Then I go back to "Musik - Kultur - DER SPIEGEL"............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Lpus" name="navigate on culture sub-menu 3" time="22.105">
+<testcase classname="Spiegel Lpus" name="navigate on culture sub-menu 3" time="17.142">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring culture menu into view.........................................passed
@@ -40,22 +33,81 @@ Then I click page down 3....................................................pass
 Then I go back to "TV - Kultur - DER SPIEGEL"...............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Lpus" name="navigate on culture sub-menu 4" time="22.272">
-<failure message="" type="java.lang.NullPointerException"><![CDATA[Given I start Spiegel.......................................................passed
+<testcase classname="Spiegel Lpus" name="navigate on culture sub-menu 4" time="18.564">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring culture menu into view.........................................passed
 And I click TopMenu culture.................................................passed
-Then I click culture Literatur..............................................failed
-Then I click a "random" article of alle Beitraege section...................skipped
+Then I click culture Literatur..............................................passed
+Then I click a "random" article of alle Beitraege section...................passed
+Then I click page down 3....................................................passed
+Then I go back to "Literatur - Kultur - DER SPIEGEL"........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Spiegel 1" name="surf on menu page" time="13.186">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Spiegel Lpus" name="Spiegel plus read section 1 articles" time="19.146">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+Then I click SpiegelPlus....................................................passed
+Then I click first article of "first" section...............................passed
+Then I click page down 3....................................................passed
+Then I go back to "Plus - DER SPIEGEL"......................................passed
+Then I click last article of "first" section................................passed
+Then I click page down 3....................................................passed
+Then I go back to "Plus - DER SPIEGEL"......................................passed
+Then I paginate to "next" page..............................................passed
+Then I click page down 3....................................................passed
+Then I paginate to "previous" page..........................................passed
+Then I click a random article of "first" section............................passed
+Then I click page down 3....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Spiegel Lpus" name="Spiegel plus read random section articles" time="20.877">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+Then I click SpiegelPlus....................................................passed
+Then I scroll to "random" section...........................................passed
+Then I click first article of "random" section..............................passed
+Then I click page down 3....................................................passed
+Then I go back to "Plus - DER SPIEGEL"......................................passed
+Then I click a random article of "random" section...........................passed
+Then I click page down 3....................................................passed
+Then I go back to "Plus - DER SPIEGEL"......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Spiegel Lpus" name="Spiegel plus read audio section articles" time="13.749">
+<failure message="" type="java.lang.AssertionError"><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+Then I click SpiegelPlus....................................................passed
+Then I scroll to "audio" section............................................passed
+Then I click first article of "audio" section...............................passed
+Then I click page down 3....................................................passed
+Then I go back to "Plus - DER SPIEGEL"......................................passed
+Then I click a random article of "audio" section............................failed
 Then I click page down 3....................................................skipped
-Then I go back to "Literatur - Kultur - DER SPIEGEL"........................skipped
+Then I go back to "Plus - DER SPIEGEL"......................................skipped
 
 StackTrace:
-java.lang.NullPointerException
-	at core.SeleniumDriverWrapper.clickElement(SeleniumDriverWrapper.java:142)
-	at pages.CulturePage.clickMenuElement(CulturePage.java:21)
-	at steps.CultureSteps.i_click_menu(CultureSteps.java:26)
-	at ✽.I click culture Literatur(file:///C:/MyWorkspace/guineenews/src/test/resources/features/culturePage.feature:12)
+java.lang.AssertionError
+	at steps.SpiegelPlusSteps.i_click_an_random_article_of_section(SpiegelPlusSteps.java:91)
+	at ✽.I click a random article of "audio" section(file:///C:/MyWorkspace/guineenews/src/test/resources/features/spiegelPlus.feature:37)
 ]]></failure>
+</testcase>
+<testcase classname="Spiegel Lpus" name="Spiegel plus read alle Beiträge section articles" time="16.768">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+Then I click SpiegelPlus....................................................passed
+Then I scroll to "alle_Beitraege" section...................................passed
+Then I scroll to alle Beitraege "last" article..............................passed
+Then I scroll to alle Beitraege "random" article............................passed
+Then I click a "random" article of alle Beitraege section...................passed
+Then I click page down 3....................................................passed
+Then I go back to "Plus - DER SPIEGEL"......................................passed
+Then I paginate to "next" page..............................................passed
+]]></system-out>
 </testcase>
 </testsuite>

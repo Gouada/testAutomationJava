@@ -1,5 +1,5 @@
 @spiegelCulture
-Feature: Spiegel Lpus
+Feature: Spiegel Kultur
 
   Background:
     Given I start Spiegel
