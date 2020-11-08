@@ -125,5 +125,7 @@ public class BestSellerBasePage extends BasePage{
         System.out.println("xpath:.........."+xpath);
         WebElement element = getElementByXpath(xpath);
         moveMouseOnElement(element);
+        if(!isElementDisplayed(element))
+            scrollIntoView(element);
     }
 }

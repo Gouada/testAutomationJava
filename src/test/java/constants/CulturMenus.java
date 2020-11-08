@@ -7,7 +7,7 @@ public enum CulturMenus {
     TV("TV"),
     LITERATUR("Literatur"),
     BESTSELLER("SPIEGEL-Bestseller"),
-    STREAMIN("Streaming"),
+    STREAMING("Streaming"),
     KUNST("Kunst");
 
     public String title;

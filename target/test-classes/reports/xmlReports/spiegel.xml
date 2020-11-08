@@ -1,186 +1,147 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="15" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="24" time="441.513">
-<testcase classname="Spiegel Kultur" name="Bestseller Books" time="23.614">
-<failure message="1" type="java.lang.ArrayIndexOutOfBoundsException"><![CDATA[Given I start Spiegel.......................................................passed
+<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="24" time="536.937">
+<testcase classname="Spiegel Kultur" name="Bestseller Books" time="31.313">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring culture menu into view.........................................passed
 And I click TopMenu culture.................................................passed
 Then I click culture SPIEGEL-Bestseller.....................................passed
-Then I click bestseller Sachbuch............................................failed
-Then I scroll to a random bestseller........................................skipped
-Then I click mehr anzeigen..................................................skipped
-Then I move mouse over kaufen...............................................skipped
-Then I click bei Thaila kaufen..............................................skipped
-Then I close the Thaila tab.................................................skipped
-
-StackTrace:
-java.lang.ArrayIndexOutOfBoundsException: 1
-	at steps.BestsellerSteps.i_click_bestseller_menu(BestsellerSteps.java:44)
-	at ✽.I click bestseller Sachbuch(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:15)
-]]></failure>
+Then I click bestseller Sachbuch............................................passed
+Then I scroll to a random bestseller........................................passed
+Then I click mehr anzeigen..................................................passed
+Then I move mouse over kaufen...............................................passed
+Then I click bei Thaila kaufen..............................................passed
+Then I close the Thaila tab.................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur" name="Bestseller Books 2" time="16.802">
-<failure message="1" type="java.lang.ArrayIndexOutOfBoundsException"><![CDATA[Given I start Spiegel.......................................................passed
+<testcase classname="Spiegel Kultur" name="Bestseller Books 2" time="22.147">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring culture menu into view.........................................passed
 And I click TopMenu culture.................................................passed
 Then I click culture SPIEGEL-Bestseller.....................................passed
-Then I click bestseller Belletristik........................................failed
-Then I scroll to a random bestseller........................................skipped
-Then I click mehr anzeigen..................................................skipped
-Then I move mouse over kaufen...............................................skipped
-Then I click bei Amazon kaufen..............................................skipped
-Then I close the Amazon tab.................................................skipped
-
-StackTrace:
-java.lang.ArrayIndexOutOfBoundsException: 1
-	at steps.BestsellerSteps.i_click_bestseller_menu(BestsellerSteps.java:44)
-	at ✽.I click bestseller Belletristik(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:15)
-]]></failure>
+Then I click bestseller Belletristik........................................passed
+Then I scroll to a random bestseller........................................passed
+Then I click mehr anzeigen..................................................passed
+Then I move mouse over kaufen...............................................passed
+Then I click bei Amazon kaufen..............................................passed
+Then I close the Amazon tab.................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur" name="Bestseller Books 3" time="23.896">
-<failure message="" type="java.lang.NullPointerException"><![CDATA[Given I start Spiegel.......................................................passed
+<testcase classname="Spiegel Kultur" name="Bestseller Books 3" time="21.019">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring culture menu into view.........................................passed
 And I click TopMenu culture.................................................passed
 Then I click culture SPIEGEL-Bestseller.....................................passed
 Then I click bestseller Kinder/ Jugend......................................passed
 Then I scroll to a random bestseller........................................passed
-Then I click mehr anzeigen..................................................failed
-Then I move mouse over kaufen...............................................skipped
-Then I click bei Thaila kaufen..............................................skipped
+Then I click mehr anzeigen..................................................passed
+Then I move mouse over kaufen...............................................passed
+Then I click bei Thaila kaufen..............................................passed
+Then I close the Thaila tab.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Spiegel Kultur" name="Bestseller DVD" time="25.089">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+Then I bring culture menu into view.........................................passed
+And I click TopMenu culture.................................................passed
+Then I click culture SPIEGEL-Bestseller.....................................passed
+Then I click bestseller DVD.................................................passed
+Then I click the bestseller sub_menu TV & Hobby.............................passed
+Then I scroll to a random bestseller........................................passed
+Then I click mehr anzeigen..................................................passed
+Then I move mouse over kaufen...............................................passed
+Then I click bei Amazon kaufen..............................................passed
+Then I close the Amazon tab.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Spiegel Kultur" name="Bestseller DVD 2" time="38.046">
+<failure message="" type="java.lang.AssertionError"><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+Then I bring culture menu into view.........................................passed
+And I click TopMenu culture.................................................passed
+Then I click culture SPIEGEL-Bestseller.....................................passed
+Then I click bestseller DVD.................................................passed
+Then I click the bestseller sub_menu TV & Hobby.............................passed
+Then I scroll to a random bestseller........................................passed
+Then I click mehr anzeigen..................................................passed
+Then I move mouse over kaufen...............................................passed
+Then I click bei Thaila kaufen..............................................failed
 Then I close the Thaila tab.................................................skipped
 
 StackTrace:
-java.lang.NullPointerException
-	at core.SeleniumDriverWrapper.clickElement(SeleniumDriverWrapper.java:153)
-	at pages.BestSellerBasePage.clickElementElementExpandButton(BestSellerBasePage.java:80)
-	at steps.BestsellerSteps.i_click_mehr_anzeigen(BestsellerSteps.java:59)
-	at ✽.I click mehr anzeigen(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:17)
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at steps.BestsellerSteps.i_click_bei_vendor_kaufen(BestsellerSteps.java:73)
+	at ✽.I click bei Thaila kaufen(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:43)
 ]]></failure>
 </testcase>
-<testcase classname="Spiegel Kultur" name="Bestseller DVD" time="17.984">
-<failure message="1" type="java.lang.ArrayIndexOutOfBoundsException"><![CDATA[Given I start Spiegel.......................................................passed
+<testcase classname="Spiegel Kultur" name="Bestseller Ratgeber" time="23.762">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring culture menu into view.........................................passed
 And I click TopMenu culture.................................................passed
 Then I click culture SPIEGEL-Bestseller.....................................passed
-Then I click bestseller DVD.................................................failed
-Then I click the bestseller sub_menu TV & Hobby.............................skipped
-Then I scroll to a random bestseller........................................skipped
-Then I click mehr anzeigen..................................................skipped
-Then I move mouse over kaufen...............................................skipped
-Then I click bei Amazon kaufen..............................................skipped
-Then I close the Amazon tab.................................................skipped
-
-StackTrace:
-java.lang.ArrayIndexOutOfBoundsException: 1
-	at steps.BestsellerSteps.i_click_bestseller_menu(BestsellerSteps.java:44)
-	at ✽.I click bestseller DVD(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:36)
-]]></failure>
+Then I click bestseller Ratgeber............................................passed
+Then I click the bestseller sub_menu Leben & Gesundheit.....................passed
+Then I scroll to a random bestseller........................................passed
+Then I click mehr anzeigen..................................................passed
+Then I move mouse over kaufen...............................................passed
+Then I click bei Thaila kaufen..............................................passed
+Then I close the Thaila tab.................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur" name="Bestseller DVD 2" time="18.501">
-<failure message="1" type="java.lang.ArrayIndexOutOfBoundsException"><![CDATA[Given I start Spiegel.......................................................passed
+<testcase classname="Spiegel Kultur" name="Bestseller Ratgeber 2" time="22.325">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring culture menu into view.........................................passed
 And I click TopMenu culture.................................................passed
 Then I click culture SPIEGEL-Bestseller.....................................passed
-Then I click bestseller DVD.................................................failed
-Then I click the bestseller sub_menu TV & Hobby.............................skipped
-Then I scroll to a random bestseller........................................skipped
-Then I click mehr anzeigen..................................................skipped
-Then I move mouse over kaufen...............................................skipped
-Then I click bei Thaila kaufen..............................................skipped
-Then I close the Thaila tab.................................................skipped
-
-StackTrace:
-java.lang.ArrayIndexOutOfBoundsException: 1
-	at steps.BestsellerSteps.i_click_bestseller_menu(BestsellerSteps.java:44)
-	at ✽.I click bestseller DVD(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:36)
-]]></failure>
+Then I click bestseller Ratgeber............................................passed
+Then I click the bestseller sub_menu Essen & Trinken........................passed
+Then I scroll to a random bestseller........................................passed
+Then I click mehr anzeigen..................................................passed
+Then I move mouse over kaufen...............................................passed
+Then I click bei Amazon kaufen..............................................passed
+Then I close the Amazon tab.................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur" name="Bestseller Ratgeber" time="17.395">
-<failure message="1" type="java.lang.ArrayIndexOutOfBoundsException"><![CDATA[Given I start Spiegel.......................................................passed
+<testcase classname="Spiegel Kultur" name="Bestseller Ratgeber 3" time="21.819">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring culture menu into view.........................................passed
 And I click TopMenu culture.................................................passed
 Then I click culture SPIEGEL-Bestseller.....................................passed
-Then I click bestseller Ratgeber............................................failed
-Then I click the bestseller sub_menu Leben & Gesundheit.....................skipped
-Then I scroll to a random bestseller........................................skipped
-Then I click mehr anzeigen..................................................skipped
-Then I move mouse over kaufen...............................................skipped
-Then I click bei Thaila kaufen..............................................skipped
-Then I close the Thaila tab.................................................skipped
-
-StackTrace:
-java.lang.ArrayIndexOutOfBoundsException: 1
-	at steps.BestsellerSteps.i_click_bestseller_menu(BestsellerSteps.java:44)
-	at ✽.I click bestseller Ratgeber(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:52)
-]]></failure>
+Then I click bestseller Ratgeber............................................passed
+Then I click the bestseller sub_menu Natur & Garten.........................passed
+Then I scroll to a random bestseller........................................passed
+Then I click mehr anzeigen..................................................passed
+Then I move mouse over kaufen...............................................passed
+Then I click bei Thaila kaufen..............................................passed
+Then I close the Thaila tab.................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur" name="Bestseller Ratgeber 2" time="20.07">
-<failure message="1" type="java.lang.ArrayIndexOutOfBoundsException"><![CDATA[Given I start Spiegel.......................................................passed
+<testcase classname="Spiegel Kultur" name="Bestseller Ratgeber 4" time="25.618">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring culture menu into view.........................................passed
 And I click TopMenu culture.................................................passed
 Then I click culture SPIEGEL-Bestseller.....................................passed
-Then I click bestseller Ratgeber............................................failed
-Then I click the bestseller sub_menu Essen & Trinken........................skipped
-Then I scroll to a random bestseller........................................skipped
-Then I click mehr anzeigen..................................................skipped
-Then I move mouse over kaufen...............................................skipped
-Then I click bei Amazon kaufen..............................................skipped
-Then I close the Amazon tab.................................................skipped
-
-StackTrace:
-java.lang.ArrayIndexOutOfBoundsException: 1
-	at steps.BestsellerSteps.i_click_bestseller_menu(BestsellerSteps.java:44)
-	at ✽.I click bestseller Ratgeber(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:52)
-]]></failure>
+Then I click bestseller Ratgeber............................................passed
+Then I click the bestseller sub_menu Hobby & Kreativität....................passed
+Then I scroll to a random bestseller........................................passed
+Then I click mehr anzeigen..................................................passed
+Then I move mouse over kaufen...............................................passed
+Then I click bei Amazon kaufen..............................................passed
+Then I close the Amazon tab.................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur" name="Bestseller Ratgeber 3" time="22.7">
-<failure message="1" type="java.lang.ArrayIndexOutOfBoundsException"><![CDATA[Given I start Spiegel.......................................................passed
-Then I click Akzeptieren und weiter.........................................passed
-Then I bring culture menu into view.........................................passed
-And I click TopMenu culture.................................................passed
-Then I click culture SPIEGEL-Bestseller.....................................passed
-Then I click bestseller Ratgeber............................................failed
-Then I click the bestseller sub_menu Natur & Garten.........................skipped
-Then I scroll to a random bestseller........................................skipped
-Then I click mehr anzeigen..................................................skipped
-Then I move mouse over kaufen...............................................skipped
-Then I click bei Thaila kaufen..............................................skipped
-Then I close the Thaila tab.................................................skipped
-
-StackTrace:
-java.lang.ArrayIndexOutOfBoundsException: 1
-	at steps.BestsellerSteps.i_click_bestseller_menu(BestsellerSteps.java:44)
-	at ✽.I click bestseller Ratgeber(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:52)
-]]></failure>
-</testcase>
-<testcase classname="Spiegel Kultur" name="Bestseller Ratgeber 4" time="17.096">
-<failure message="1" type="java.lang.ArrayIndexOutOfBoundsException"><![CDATA[Given I start Spiegel.......................................................passed
-Then I click Akzeptieren und weiter.........................................passed
-Then I bring culture menu into view.........................................passed
-And I click TopMenu culture.................................................passed
-Then I click culture SPIEGEL-Bestseller.....................................passed
-Then I click bestseller Ratgeber............................................failed
-Then I click the bestseller sub_menu Hobby & Kreativität....................skipped
-Then I scroll to a random bestseller........................................skipped
-Then I click mehr anzeigen..................................................skipped
-Then I move mouse over kaufen...............................................skipped
-Then I click bei Amazon kaufen..............................................skipped
-Then I close the Amazon tab.................................................skipped
-
-StackTrace:
-java.lang.ArrayIndexOutOfBoundsException: 1
-	at steps.BestsellerSteps.i_click_bestseller_menu(BestsellerSteps.java:44)
-	at ✽.I click bestseller Ratgeber(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:52)
-]]></failure>
-</testcase>
-<testcase classname="Spiegel Kultur" name="Bestseller KinderBuch" time="23.815">
-<failure message="" type="java.lang.NullPointerException"><![CDATA[Given I start Spiegel.......................................................passed
+<testcase classname="Spiegel Kultur" name="Bestseller KinderBuch" time="21.25">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring culture menu into view.........................................passed
 And I click TopMenu culture.................................................passed
@@ -188,21 +149,14 @@ Then I click culture SPIEGEL-Bestseller.....................................pass
 Then I click bestseller Kinder/ Jugend......................................passed
 Then I click the bestseller sub_menu Kinderbuch.............................passed
 Then I scroll to a random bestseller........................................passed
-Then I click mehr anzeigen..................................................failed
-Then I move mouse over kaufen...............................................skipped
-Then I click bei Amazon kaufen..............................................skipped
-Then I close the Amazon tab.................................................skipped
-
-StackTrace:
-java.lang.NullPointerException
-	at core.SeleniumDriverWrapper.clickElement(SeleniumDriverWrapper.java:153)
-	at pages.BestSellerBasePage.clickElementElementExpandButton(BestSellerBasePage.java:80)
-	at steps.BestsellerSteps.i_click_mehr_anzeigen(BestsellerSteps.java:59)
-	at ✽.I click mehr anzeigen(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:73)
-]]></failure>
+Then I click mehr anzeigen..................................................passed
+Then I move mouse over kaufen...............................................passed
+Then I click bei Amazon kaufen..............................................passed
+Then I close the Amazon tab.................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur" name="Bestseller KinderBuch 2" time="24.065">
-<failure message="" type="java.lang.NullPointerException"><![CDATA[Given I start Spiegel.......................................................passed
+<testcase classname="Spiegel Kultur" name="Bestseller KinderBuch 2" time="22.994">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring culture menu into view.........................................passed
 And I click TopMenu culture.................................................passed
@@ -210,21 +164,14 @@ Then I click culture SPIEGEL-Bestseller.....................................pass
 Then I click bestseller Kinder/ Jugend......................................passed
 Then I click the bestseller sub_menu Jugendbuch.............................passed
 Then I scroll to a random bestseller........................................passed
-Then I click mehr anzeigen..................................................failed
-Then I move mouse over kaufen...............................................skipped
-Then I click bei Thaila kaufen..............................................skipped
-Then I close the Thaila tab.................................................skipped
-
-StackTrace:
-java.lang.NullPointerException
-	at core.SeleniumDriverWrapper.clickElement(SeleniumDriverWrapper.java:153)
-	at pages.BestSellerBasePage.clickElementElementExpandButton(BestSellerBasePage.java:80)
-	at steps.BestsellerSteps.i_click_mehr_anzeigen(BestsellerSteps.java:59)
-	at ✽.I click mehr anzeigen(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:73)
-]]></failure>
+Then I click mehr anzeigen..................................................passed
+Then I move mouse over kaufen...............................................passed
+Then I click bei Thaila kaufen..............................................passed
+Then I close the Thaila tab.................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur" name="Bestseller KinderBuch 3" time="25.146">
-<failure message="" type="java.lang.NullPointerException"><![CDATA[Given I start Spiegel.......................................................passed
+<testcase classname="Spiegel Kultur" name="Bestseller KinderBuch 3" time="21.992">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring culture menu into view.........................................passed
 And I click TopMenu culture.................................................passed
@@ -232,20 +179,13 @@ Then I click culture SPIEGEL-Bestseller.....................................pass
 Then I click bestseller Kinder/ Jugend......................................passed
 Then I click the bestseller sub_menu Bilderbuch.............................passed
 Then I scroll to a random bestseller........................................passed
-Then I click mehr anzeigen..................................................failed
-Then I move mouse over kaufen...............................................skipped
-Then I click bei Thaila kaufen..............................................skipped
-Then I close the Thaila tab.................................................skipped
-
-StackTrace:
-java.lang.NullPointerException
-	at core.SeleniumDriverWrapper.clickElement(SeleniumDriverWrapper.java:153)
-	at pages.BestSellerBasePage.clickElementElementExpandButton(BestSellerBasePage.java:80)
-	at steps.BestsellerSteps.i_click_mehr_anzeigen(BestsellerSteps.java:59)
-	at ✽.I click mehr anzeigen(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:73)
-]]></failure>
+Then I click mehr anzeigen..................................................passed
+Then I move mouse over kaufen...............................................passed
+Then I click bei Thaila kaufen..............................................passed
+Then I close the Thaila tab.................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur" name="Bestseller KinderBuch 4" time="23.408">
+<testcase classname="Spiegel Kultur" name="Bestseller KinderBuch 4" time="21.242">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring culture menu into view.........................................passed
@@ -260,7 +200,7 @@ Then I click bei Amazon kaufen..............................................pass
 Then I close the Amazon tab.................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu" time="15.654">
+<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu" time="20.968">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring culture menu into view.........................................passed
@@ -271,7 +211,7 @@ Then I click page down 3....................................................pass
 Then I go back to "Kino - Kultur - DER SPIEGEL".............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu 2" time="15.313">
+<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu 2" time="19.13">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring culture menu into view.........................................passed
@@ -282,7 +222,7 @@ Then I click page down 3....................................................pass
 Then I go back to "Musik - Kultur - DER SPIEGEL"............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu 3" time="17.585">
+<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu 3" time="16.911">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring culture menu into view.........................................passed
@@ -293,7 +233,7 @@ Then I click page down 3....................................................pass
 Then I go back to "TV - Kultur - DER SPIEGEL"...............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu 4" time="14.525">
+<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu 4" time="19.082">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring culture menu into view.........................................passed
@@ -304,7 +244,7 @@ Then I click page down 3....................................................pass
 Then I go back to "Literatur - Kultur - DER SPIEGEL"........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu 5" time="14.08">
+<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu 5" time="20.379">
 <failure message="" type="java.lang.AssertionError"><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring culture menu into view.........................................passed
@@ -319,11 +259,11 @@ java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:86)
 	at org.junit.Assert.assertTrue(Assert.java:41)
 	at org.junit.Assert.assertTrue(Assert.java:52)
-	at steps.HelperSteps.i_go_back_to(HelperSteps.java:105)
+	at steps.HelperSteps.i_go_back_to(HelperSteps.java:106)
 	at ✽.I go back to "Streaming - Kultur - DER SPIEGEL"(file:///C:/MyWorkspace/guineenews/src/test/resources/features/culturePage.feature:15)
 ]]></failure>
 </testcase>
-<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu 6" time="21.022">
+<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu 6" time="20.205">
 <failure message="" type="java.lang.AssertionError"><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring culture menu into view.........................................passed
@@ -338,16 +278,16 @@ java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:86)
 	at org.junit.Assert.assertTrue(Assert.java:41)
 	at org.junit.Assert.assertTrue(Assert.java:52)
-	at steps.HelperSteps.i_go_back_to(HelperSteps.java:105)
+	at steps.HelperSteps.i_go_back_to(HelperSteps.java:106)
 	at ✽.I go back to "Kunst - Kultur - DER SPIEGEL"(file:///C:/MyWorkspace/guineenews/src/test/resources/features/culturePage.feature:15)
 ]]></failure>
 </testcase>
-<testcase classname="Spiegel 1" name="surf on menu page" time="9.566">
+<testcase classname="Spiegel 1" name="surf on menu page" time="8.48">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Plus" name="Spiegel plus read section 1 articles" time="20.42">
+<testcase classname="Spiegel Plus" name="Spiegel plus read section 1 articles" time="26.106">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click SpiegelPlus....................................................passed
 Then I click first article of "first" section...............................passed
@@ -363,7 +303,7 @@ Then I click a random article of "first" section............................pass
 Then I click page down 3....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Plus" name="Spiegel plus read random section articles" time="16.164">
+<testcase classname="Spiegel Plus" name="Spiegel plus read random section articles" time="28.597">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click SpiegelPlus....................................................passed
 Then I scroll to "random" section...........................................passed
@@ -375,7 +315,7 @@ Then I click page down 3....................................................pass
 Then I go back to "Plus - DER SPIEGEL"......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Plus" name="Spiegel plus read audio section articles" time="14.79">
+<testcase classname="Spiegel Plus" name="Spiegel plus read audio section articles" time="20.592">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click SpiegelPlus....................................................passed
 Then I scroll to "audio" section............................................passed
@@ -387,24 +327,16 @@ Then I click page down 3....................................................pass
 Then I go back to "Plus - DER SPIEGEL"......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Plus" name="Spiegel plus read alle Beiträge section articles" time="7.571">
-<failure message="" type="java.lang.AssertionError"><![CDATA[Given I start Spiegel.......................................................passed
-Then I click SpiegelPlus....................................................failed
-Then I scroll to "alle_Beitraege" section...................................skipped
-Then I scroll to alle Beitraege "last" article..............................skipped
-Then I scroll to alle Beitraege "random" article............................skipped
-Then I click a "random" article of alle Beitraege section...................skipped
-Then I click page down 3....................................................skipped
-Then I go back to "Plus - DER SPIEGEL"......................................skipped
-Then I paginate to "next" page..............................................skipped
-
-StackTrace:
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at steps.SpiegelPlusSteps.clickSpiegelPlus(SpiegelPlusSteps.java:21)
-	at ✽.I click SpiegelPlus(file:///C:/MyWorkspace/guineenews/src/test/resources/features/spiegelPlus.feature:7)
-]]></failure>
+<testcase classname="Spiegel Plus" name="Spiegel plus read alle Beiträge section articles" time="17.578">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
+Then I click SpiegelPlus....................................................passed
+Then I scroll to "alle_Beitraege" section...................................passed
+Then I scroll to alle Beitraege "last" article..............................passed
+Then I scroll to alle Beitraege "random" article............................passed
+Then I click a "random" article of alle Beitraege section...................passed
+Then I click page down 3....................................................passed
+Then I go back to "Plus - DER SPIEGEL"......................................passed
+Then I paginate to "next" page..............................................passed
+]]></system-out>
 </testcase>
 </testsuite>

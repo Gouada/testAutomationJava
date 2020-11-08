@@ -2,7 +2,6 @@ package steps;
 
 import constants.CulturMenus;
 import constants.Menu;
-import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import pages.CulturePage;
 import pages.MenuPage;
@@ -29,6 +28,8 @@ public class CultureSteps {
     @Then("I go back to (.*) - Kultur - DER SPIEGEL")
     public void i_go_back_to_menu_kultur_der_spiegel(String menu) {
         String title = menu + " - Kultur - DER SPIEGEL";
+        if(menu.equals(CulturMenus.KUNST.getTitle()) || menu.equals(CulturMenus.STREAMING.getTitle()))
+            title = menu + " - DER SPIEGEL";
         HelperSteps.i_go_back_to(title);
     }
 

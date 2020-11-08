@@ -99,12 +99,12 @@ public class HelperSteps {
     public static void i_go_back_to(String title) {
         try {
             page.goBack();
+            sleep(3000);
             //spiegelPlus.iClickBackButton();
             //spiegelPlus.waitForPageToLoad(title);
             //page.implicitlyWait(5);
             Assert.assertTrue(page.getitle().contains(title));
             //Assert.assertTrue(page.getPageSource().contains("SPIEGEL+"));
-            //sleep(10000);
         }
         catch (Exception  e)
         {

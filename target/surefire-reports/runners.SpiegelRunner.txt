@@ -1,96 +1,28 @@
 -------------------------------------------------------------------------------
 Test set: runners.SpiegelRunner
 -------------------------------------------------------------------------------
-Tests run: 24, Failures: 3, Errors: 12, Skipped: 0, Time elapsed: 442.75 sec <<< FAILURE!
-Bestseller Books #1(Spiegel Kultur #1)  Time elapsed: 23.77 sec  <<< ERROR!
-java.lang.ArrayIndexOutOfBoundsException: 1
-	at steps.BestsellerSteps.i_click_bestseller_menu(BestsellerSteps.java:44)
-	at ?.I click bestseller Sachbuch(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:15)
-
-Bestseller Books #2(Spiegel Kultur #1)  Time elapsed: 16.817 sec  <<< ERROR!
-java.lang.ArrayIndexOutOfBoundsException: 1
-	at steps.BestsellerSteps.i_click_bestseller_menu(BestsellerSteps.java:44)
-	at ?.I click bestseller Belletristik(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:15)
-
-Bestseller Books #3(Spiegel Kultur #1)  Time elapsed: 23.903 sec  <<< ERROR!
-java.lang.NullPointerException
-	at core.SeleniumDriverWrapper.clickElement(SeleniumDriverWrapper.java:153)
-	at pages.BestSellerBasePage.clickElementElementExpandButton(BestSellerBasePage.java:80)
-	at steps.BestsellerSteps.i_click_mehr_anzeigen(BestsellerSteps.java:59)
-	at ?.I click mehr anzeigen(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:17)
-
-Bestseller DVD #1(Spiegel Kultur #1)  Time elapsed: 18 sec  <<< ERROR!
-java.lang.ArrayIndexOutOfBoundsException: 1
-	at steps.BestsellerSteps.i_click_bestseller_menu(BestsellerSteps.java:44)
-	at ?.I click bestseller DVD(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:36)
-
-Bestseller DVD #2(Spiegel Kultur #1)  Time elapsed: 18.505 sec  <<< ERROR!
-java.lang.ArrayIndexOutOfBoundsException: 1
-	at steps.BestsellerSteps.i_click_bestseller_menu(BestsellerSteps.java:44)
-	at ?.I click bestseller DVD(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:36)
-
-Bestseller Ratgeber #1(Spiegel Kultur #1)  Time elapsed: 17.399 sec  <<< ERROR!
-java.lang.ArrayIndexOutOfBoundsException: 1
-	at steps.BestsellerSteps.i_click_bestseller_menu(BestsellerSteps.java:44)
-	at ?.I click bestseller Ratgeber(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:52)
-
-Bestseller Ratgeber #2(Spiegel Kultur #1)  Time elapsed: 20.078 sec  <<< ERROR!
-java.lang.ArrayIndexOutOfBoundsException: 1
-	at steps.BestsellerSteps.i_click_bestseller_menu(BestsellerSteps.java:44)
-	at ?.I click bestseller Ratgeber(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:52)
-
-Bestseller Ratgeber #3(Spiegel Kultur #1)  Time elapsed: 22.705 sec  <<< ERROR!
-java.lang.ArrayIndexOutOfBoundsException: 1
-	at steps.BestsellerSteps.i_click_bestseller_menu(BestsellerSteps.java:44)
-	at ?.I click bestseller Ratgeber(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:52)
-
-Bestseller Ratgeber #4(Spiegel Kultur #1)  Time elapsed: 17.102 sec  <<< ERROR!
-java.lang.ArrayIndexOutOfBoundsException: 1
-	at steps.BestsellerSteps.i_click_bestseller_menu(BestsellerSteps.java:44)
-	at ?.I click bestseller Ratgeber(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:52)
-
-Bestseller KinderBuch #1(Spiegel Kultur #1)  Time elapsed: 23.819 sec  <<< ERROR!
-java.lang.NullPointerException
-	at core.SeleniumDriverWrapper.clickElement(SeleniumDriverWrapper.java:153)
-	at pages.BestSellerBasePage.clickElementElementExpandButton(BestSellerBasePage.java:80)
-	at steps.BestsellerSteps.i_click_mehr_anzeigen(BestsellerSteps.java:59)
-	at ?.I click mehr anzeigen(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:73)
-
-Bestseller KinderBuch #2(Spiegel Kultur #1)  Time elapsed: 24.067 sec  <<< ERROR!
-java.lang.NullPointerException
-	at core.SeleniumDriverWrapper.clickElement(SeleniumDriverWrapper.java:153)
-	at pages.BestSellerBasePage.clickElementElementExpandButton(BestSellerBasePage.java:80)
-	at steps.BestsellerSteps.i_click_mehr_anzeigen(BestsellerSteps.java:59)
-	at ?.I click mehr anzeigen(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:73)
-
-Bestseller KinderBuch #3(Spiegel Kultur #1)  Time elapsed: 25.15 sec  <<< ERROR!
-java.lang.NullPointerException
-	at core.SeleniumDriverWrapper.clickElement(SeleniumDriverWrapper.java:153)
-	at pages.BestSellerBasePage.clickElementElementExpandButton(BestSellerBasePage.java:80)
-	at steps.BestsellerSteps.i_click_mehr_anzeigen(BestsellerSteps.java:59)
-	at ?.I click mehr anzeigen(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:73)
-
-navigate on culture sub-menu #5(Spiegel Kultur #2)  Time elapsed: 14.083 sec  <<< FAILURE!
+Tests run: 24, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 537.883 sec <<< FAILURE!
+Bestseller DVD #2(Spiegel Kultur #1)  Time elapsed: 38.053 sec  <<< FAILURE!
 java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:86)
 	at org.junit.Assert.assertTrue(Assert.java:41)
 	at org.junit.Assert.assertTrue(Assert.java:52)
-	at steps.HelperSteps.i_go_back_to(HelperSteps.java:105)
+	at steps.BestsellerSteps.i_click_bei_vendor_kaufen(BestsellerSteps.java:73)
+	at ?.I click bei Thaila kaufen(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:43)
+
+navigate on culture sub-menu #5(Spiegel Kultur #2)  Time elapsed: 20.381 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at steps.HelperSteps.i_go_back_to(HelperSteps.java:106)
 	at ?.I go back to "Streaming - Kultur - DER SPIEGEL"(file:///C:/MyWorkspace/guineenews/src/test/resources/features/culturePage.feature:15)
 
-navigate on culture sub-menu #6(Spiegel Kultur #2)  Time elapsed: 21.025 sec  <<< FAILURE!
+navigate on culture sub-menu #6(Spiegel Kultur #2)  Time elapsed: 20.207 sec  <<< FAILURE!
 java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:86)
 	at org.junit.Assert.assertTrue(Assert.java:41)
 	at org.junit.Assert.assertTrue(Assert.java:52)
-	at steps.HelperSteps.i_go_back_to(HelperSteps.java:105)
+	at steps.HelperSteps.i_go_back_to(HelperSteps.java:106)
 	at ?.I go back to "Kunst - Kultur - DER SPIEGEL"(file:///C:/MyWorkspace/guineenews/src/test/resources/features/culturePage.feature:15)
-
-Spiegel plus read alle Beiträge section articles(Spiegel Plus)  Time elapsed: 7.573 sec  <<< FAILURE!
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at steps.SpiegelPlusSteps.clickSpiegelPlus(SpiegelPlusSteps.java:21)
-	at ?.I click SpiegelPlus(file:///C:/MyWorkspace/guineenews/src/test/resources/features/spiegelPlus.feature:7)
 

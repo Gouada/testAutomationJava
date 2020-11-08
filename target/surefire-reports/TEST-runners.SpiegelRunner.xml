@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="24" failures="3" name="runners.SpiegelRunner" time="441.448" errors="12" skipped="0">
+<testsuite tests="24" failures="3" name="runners.SpiegelRunner" time="536.888" errors="0" skipped="0">
   <properties>
     <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -32,33 +32,33 @@
     <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 142 Stepping 10, GenuineIntel"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="LOCALAPPDATA" value="C:\Users\Lenovo\AppData\Local"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://127.0.0.1:8080/job/Webium-Automation/62/display/redirect?page=changes"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://127.0.0.1:8080/job/Webium-Automation/63/display/redirect?page=changes"/>
     <property name="user.timezone" value="Europe/Berlin"/>
     <property name="user.script" value=""/>
     <property name="path.separator" value=";"/>
     <property name="NUMBER_OF_PROCESSORS" value="8"/>
-    <property name="BUILD_TAG" value="jenkins-Webium-Automation-62"/>
+    <property name="BUILD_TAG" value="jenkins-Webium-Automation-63"/>
     <property name="PYTHONPATH" value="C:\python37;C:\python37\Scripts;C:\python37\DLLs;C:\python37\Lib;C:\python37\libs;"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\apache-maven-3.5.3 C:\Users\Lenovo\.jenkins\war\WEB-INF\lib\remoting-4.3.jar C:\Users\Lenovo\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar C:\Users\Lenovo\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar 59414"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\apache-maven-3.5.3 C:\Users\Lenovo\.jenkins\war\WEB-INF\lib\remoting-4.3.jar C:\Users\Lenovo\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar C:\Users\Lenovo\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar 49931"/>
     <property name="HUDSON_URL" value="http://127.0.0.1:8080/"/>
     <property name="JENKINS_SERVER_COOKIE" value="0631cecedd819be2"/>
     <property name="POSTGRESQLPATH" value="C:\Program Files\PostgreSQL\12\bin;C:\Program Files\PostgreSQL\12\lib"/>
-    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
     <property name="Path" value="C:\Program Files\Java\jdk1.8.0_172/bin;C:\python37\Scripts\;C:\python37\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_172;C:\apache-maven-3.5.3\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Users\Lenovo\AppData\Local\Android\Sdk;C:\Users\Lenovo\AppData\Local\Android\Sdk\tools;C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools;C:\WINDOWS\System32\OpenSSH\;C:\MyWorkspace\SeleniumChromeDriver\;C:\python37;C:\python37\Scripts;C:\python37\DLLs;C:\python37\Lib;C:\python37\libs;;C:\Program Files\PostgreSQL\12\bin;C:\Program Files\PostgreSQL\12\lib;C:\MyWorkspace\SeleniumChromeDriver\83\;C:\MyWorkspace\SeleniumFirefoxDriver\2.6\;C:\MyWorkspace\IEDriver\;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Users\Lenovo\AppData\Roaming\npm;C:\Users\Lenovo\AppData\Roaming\Dashlane\5.12.0.19744\bin\Firefox_Extension\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\components;C:\Users\Lenovo\AppData\Roaming\Dashlane\5.12.0.19744\ucrt;"/>
     <property name="java.io.tmpdir" value="C:\Users\Lenovo\AppData\Local\Temp\"/>
     <property name="APPDATA" value="C:\Users\Lenovo\AppData\Roaming"/>
     <property name="user.language" value="de"/>
     <property name="line.separator" value="
 "/>
-    <property name="BUILD_URL" value="http://127.0.0.1:8080/job/Webium-Automation/62/"/>
+    <property name="BUILD_URL" value="http://127.0.0.1:8080/job/Webium-Automation/63/"/>
     <property name="M2_HOME" value="C:\apache-maven-3.5.3"/>
     <property name="=C:" value="C:\jenkins"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
     <property name="sun.desktop" value="windows"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="BUILD_DISPLAY_NAME" value="#62"/>
+    <property name="BUILD_DISPLAY_NAME" value="#63"/>
     <property name="OS" value="Windows_NT"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="HUDSON_SERVER_COOKIE" value="0631cecedd819be2"/>
@@ -73,7 +73,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="62"/>
+    <property name="BUILD_NUMBER" value="63"/>
     <property name="maven3.interceptor" value="C:\Users\Lenovo\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\apache-maven-3.5.3/bin;C:\Program Files\Java\jdk1.8.0_172/bin;C:\Program Files\Java\jdk1.8.0_172/bin;C:\python37\Scripts\;C:\python37\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_172;C:\apache-maven-3.5.3\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Users\Lenovo\AppData\Local\Android\Sdk;C:\Users\Lenovo\AppData\Local\Android\Sdk\tools;C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools;C:\WINDOWS\System32\OpenSSH\;C:\MyWorkspace\SeleniumChromeDriver\;C:\python37;C:\python37\Scripts;C:\python37\DLLs;C:\python37\Lib;C:\python37\libs;;C:\Program Files\PostgreSQL\12\bin;C:\Program Files\PostgreSQL\12\lib;C:\MyWorkspace\SeleniumChromeDriver\83\;C:\MyWorkspace\SeleniumFirefoxDriver\2.6\;C:\MyWorkspace\IEDriver\;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Users\Lenovo\AppData\Roaming\npm;C:\Users\Lenovo\AppData\Roaming\Dashlane\5.12.0.19744\bin\Firefox_Extension\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\components;C:\Users\Lenovo\AppData\Roaming\Dashlane\5.12.0.19744\ucrt;;."/>
     <property name="HOMEDRIVE" value="C:"/>
@@ -82,9 +82,9 @@
     <property name="java.class.version" value="52.0"/>
     <property name="JOB_URL" value="http://127.0.0.1:8080/job/Webium-Automation/"/>
     <property name="OneDrive" value="C:\Users\Lenovo\OneDrive"/>
-    <property name="RUN_DISPLAY_URL" value="http://127.0.0.1:8080/job/Webium-Automation/62/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://127.0.0.1:8080/job/Webium-Automation/63/display/redirect"/>
     <property name="JENKINS_HOME" value="C:\Users\Lenovo\.jenkins"/>
-    <property name="BUILD_ID" value="62"/>
+    <property name="BUILD_ID" value="63"/>
     <property name="TEMP" value="C:\Users\Lenovo\AppData\Local\Temp"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_172\jre\bin"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -147,133 +147,18 @@
     <property name="POM_DISPLAYNAME" value="guineenews"/>
     <property name="sun.arch.data.model" value="64"/>
   </properties>
-  <testcase classname="Spiegel Kultur #1" name="Bestseller Books #1" time="23.77">
-    <error message="1" type="java.lang.ArrayIndexOutOfBoundsException">java.lang.ArrayIndexOutOfBoundsException: 1
-	at steps.BestsellerSteps.i_click_bestseller_menu(BestsellerSteps.java:44)
-	at ✽.I click bestseller Sachbuch(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:15)
-</error>
-    <system-out>
-@spiegelCultureBestseller @bestsellerbooks
-Scenario Outline: Bestseller Books        &amp;#27;[90m# src/test/resources/features/bestseller.feature:26&amp;#27;[0m
-  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mI start Spiegel&amp;#27;[0m                   &amp;#27;[90m# steps.MenuSteps.i_start_Spiegel()&amp;#27;[0m
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click Akzeptieren und weiter&amp;#27;[0m     &amp;#27;[90m# steps.MenuSteps.i_click_Akzeptieren_und_weiter()&amp;#27;[0m
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI bring culture menu into view&amp;#27;[0m     &amp;#27;[90m# steps.CultureSteps.i_bring_culture_menu_into_view()&amp;#27;[0m
-  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI click TopMenu culture&amp;#27;[0m             &amp;#27;[90m# steps.CultureSteps.i_click_culture_menu()&amp;#27;[0m
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click culture &amp;#27;[0m&amp;#27;[32m&amp;#27;[1mSPIEGEL-Bestseller&amp;#27;[0m &amp;#27;[90m# steps.CultureSteps.i_click_menu(java.lang.String)&amp;#27;[0m
-Sachbuch
-  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mI click bestseller &amp;#27;[0m&amp;#27;[31m&amp;#27;[1mSachbuch&amp;#27;[0m        &amp;#27;[90m# steps.BestsellerSteps.i_click_bestseller_menu(java.lang.String)&amp;#27;[0m
-      &amp;#27;[31mjava.lang.ArrayIndexOutOfBoundsException: 1
-	at steps.BestsellerSteps.i_click_bestseller_menu(BestsellerSteps.java:44)
-	at âœ½.I click bestseller Sachbuch(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:15)
-&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI scroll to a random bestseller&amp;#27;[0m    &amp;#27;[90m# steps.BestsellerSteps.i_scroll_to_random_bestseller_element()&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click mehr anzeigen&amp;#27;[0m              &amp;#27;[90m# steps.BestsellerSteps.i_click_mehr_anzeigen()&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI move mouse over kaufen&amp;#27;[0m           &amp;#27;[90m# steps.BestsellerSteps.i_move_mouse_over_kaufen()&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click bei &amp;#27;[0m&amp;#27;[36m&amp;#27;[1mThaila&amp;#27;[0m&amp;#27;[36m kaufen&amp;#27;[0m          &amp;#27;[90m# steps.BestsellerSteps.i_click_bei_vendor_kaufen(java.lang.String)&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI close the &amp;#27;[0m&amp;#27;[36m&amp;#27;[1mThaila&amp;#27;[0m&amp;#27;[36m tab&amp;#27;[0m             &amp;#27;[90m# steps.BestsellerSteps.i_close_vendor_tab(java.lang.String)&amp;#27;[0m
-</system-out>
-    <system-err>Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 15407
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-[1604846909.272][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
-Nov 08, 2020 3:48:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFORMATION: Detected dialect: W3C
-</system-err>
-  </testcase>
-  <testcase classname="Spiegel Kultur #1" name="Bestseller Books #2" time="16.817">
-    <error message="1" type="java.lang.ArrayIndexOutOfBoundsException">java.lang.ArrayIndexOutOfBoundsException: 1
-	at steps.BestsellerSteps.i_click_bestseller_menu(BestsellerSteps.java:44)
-	at ✽.I click bestseller Belletristik(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:15)
-</error>
-    <system-out>
-@spiegelCultureBestseller @bestsellerbooks
-Scenario Outline: Bestseller Books        &amp;#27;[90m# src/test/resources/features/bestseller.feature:27&amp;#27;[0m
-  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mI start Spiegel&amp;#27;[0m                   &amp;#27;[90m# steps.MenuSteps.i_start_Spiegel()&amp;#27;[0m
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click Akzeptieren und weiter&amp;#27;[0m     &amp;#27;[90m# steps.MenuSteps.i_click_Akzeptieren_und_weiter()&amp;#27;[0m
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI bring culture menu into view&amp;#27;[0m     &amp;#27;[90m# steps.CultureSteps.i_bring_culture_menu_into_view()&amp;#27;[0m
-  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI click TopMenu culture&amp;#27;[0m             &amp;#27;[90m# steps.CultureSteps.i_click_culture_menu()&amp;#27;[0m
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click culture &amp;#27;[0m&amp;#27;[32m&amp;#27;[1mSPIEGEL-Bestseller&amp;#27;[0m &amp;#27;[90m# steps.CultureSteps.i_click_menu(java.lang.String)&amp;#27;[0m
-Belletristik
-  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mI click bestseller &amp;#27;[0m&amp;#27;[31m&amp;#27;[1mBelletristik&amp;#27;[0m    &amp;#27;[90m# steps.BestsellerSteps.i_click_bestseller_menu(java.lang.String)&amp;#27;[0m
-      &amp;#27;[31mjava.lang.ArrayIndexOutOfBoundsException: 1
-	at steps.BestsellerSteps.i_click_bestseller_menu(BestsellerSteps.java:44)
-	at âœ½.I click bestseller Belletristik(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:15)
-&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI scroll to a random bestseller&amp;#27;[0m    &amp;#27;[90m# steps.BestsellerSteps.i_scroll_to_random_bestseller_element()&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click mehr anzeigen&amp;#27;[0m              &amp;#27;[90m# steps.BestsellerSteps.i_click_mehr_anzeigen()&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI move mouse over kaufen&amp;#27;[0m           &amp;#27;[90m# steps.BestsellerSteps.i_move_mouse_over_kaufen()&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click bei &amp;#27;[0m&amp;#27;[36m&amp;#27;[1mAmazon&amp;#27;[0m&amp;#27;[36m kaufen&amp;#27;[0m          &amp;#27;[90m# steps.BestsellerSteps.i_click_bei_vendor_kaufen(java.lang.String)&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI close the &amp;#27;[0m&amp;#27;[36m&amp;#27;[1mAmazon&amp;#27;[0m&amp;#27;[36m tab&amp;#27;[0m             &amp;#27;[90m# steps.BestsellerSteps.i_close_vendor_tab(java.lang.String)&amp;#27;[0m
-</system-out>
-  </testcase>
-  <testcase classname="Spiegel Kultur #1" name="Bestseller Books #3" time="23.903">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at core.SeleniumDriverWrapper.clickElement(SeleniumDriverWrapper.java:153)
-	at pages.BestSellerBasePage.clickElementElementExpandButton(BestSellerBasePage.java:80)
-	at steps.BestsellerSteps.i_click_mehr_anzeigen(BestsellerSteps.java:59)
-	at ✽.I click mehr anzeigen(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:17)
-</error>
-    <system-out>
-@spiegelCultureBestseller @bestsellerbooks
-Scenario Outline: Bestseller Books        &amp;#27;[90m# src/test/resources/features/bestseller.feature:28&amp;#27;[0m
-  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mI start Spiegel&amp;#27;[0m                   &amp;#27;[90m# steps.MenuSteps.i_start_Spiegel()&amp;#27;[0m
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click Akzeptieren und weiter&amp;#27;[0m     &amp;#27;[90m# steps.MenuSteps.i_click_Akzeptieren_und_weiter()&amp;#27;[0m
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI bring culture menu into view&amp;#27;[0m     &amp;#27;[90m# steps.CultureSteps.i_bring_culture_menu_into_view()&amp;#27;[0m
-  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI click TopMenu culture&amp;#27;[0m             &amp;#27;[90m# steps.CultureSteps.i_click_culture_menu()&amp;#27;[0m
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click culture &amp;#27;[0m&amp;#27;[32m&amp;#27;[1mSPIEGEL-Bestseller&amp;#27;[0m &amp;#27;[90m# steps.CultureSteps.i_click_menu(java.lang.String)&amp;#27;[0m
-Kinder/ Jugend
-Jugend
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click bestseller &amp;#27;[0m&amp;#27;[32m&amp;#27;[1mKinder/ Jugend&amp;#27;[0m  &amp;#27;[90m# steps.BestsellerSteps.i_click_bestseller_menu(java.lang.String)&amp;#27;[0m
-rdnr:..........16
-xpath:..........(//div[@data-component=&apos;BestsellerAccordionSection&apos;])[16]
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI scroll to a random bestseller&amp;#27;[0m    &amp;#27;[90m# steps.BestsellerSteps.i_scroll_to_random_bestseller_element()&amp;#27;[0m
-..taking screenshot..
-.. screenshot taken..
-  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mI click mehr anzeigen&amp;#27;[0m              &amp;#27;[90m# steps.BestsellerSteps.i_click_mehr_anzeigen()&amp;#27;[0m
-      &amp;#27;[31mjava.lang.NullPointerException
-	at core.SeleniumDriverWrapper.clickElement(SeleniumDriverWrapper.java:153)
-	at pages.BestSellerBasePage.clickElementElementExpandButton(BestSellerBasePage.java:80)
-	at steps.BestsellerSteps.i_click_mehr_anzeigen(BestsellerSteps.java:59)
-	at âœ½.I click mehr anzeigen(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:17)
-&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI move mouse over kaufen&amp;#27;[0m           &amp;#27;[90m# steps.BestsellerSteps.i_move_mouse_over_kaufen()&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click bei &amp;#27;[0m&amp;#27;[36m&amp;#27;[1mThaila&amp;#27;[0m&amp;#27;[36m kaufen&amp;#27;[0m          &amp;#27;[90m# steps.BestsellerSteps.i_click_bei_vendor_kaufen(java.lang.String)&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI close the &amp;#27;[0m&amp;#27;[36m&amp;#27;[1mThaila&amp;#27;[0m&amp;#27;[36m tab&amp;#27;[0m             &amp;#27;[90m# steps.BestsellerSteps.i_close_vendor_tab(java.lang.String)&amp;#27;[0m
-</system-out>
-  </testcase>
-  <testcase classname="Spiegel Kultur #1" name="Bestseller DVD #1" time="18">
-    <error message="1" type="java.lang.ArrayIndexOutOfBoundsException">java.lang.ArrayIndexOutOfBoundsException: 1
-	at steps.BestsellerSteps.i_click_bestseller_menu(BestsellerSteps.java:44)
-	at ✽.I click bestseller DVD(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:36)
-</error>
-    <system-out>
-@spiegelCultureBestseller @bestsellerDVD
-Scenario Outline: Bestseller DVD                  &amp;#27;[90m# src/test/resources/features/bestseller.feature:47&amp;#27;[0m
-  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mI start Spiegel&amp;#27;[0m                           &amp;#27;[90m# steps.MenuSteps.i_start_Spiegel()&amp;#27;[0m
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click Akzeptieren und weiter&amp;#27;[0m             &amp;#27;[90m# steps.MenuSteps.i_click_Akzeptieren_und_weiter()&amp;#27;[0m
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI bring culture menu into view&amp;#27;[0m             &amp;#27;[90m# steps.CultureSteps.i_bring_culture_menu_into_view()&amp;#27;[0m
-  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI click TopMenu culture&amp;#27;[0m                     &amp;#27;[90m# steps.CultureSteps.i_click_culture_menu()&amp;#27;[0m
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click culture &amp;#27;[0m&amp;#27;[32m&amp;#27;[1mSPIEGEL-Bestseller&amp;#27;[0m         &amp;#27;[90m# steps.CultureSteps.i_click_menu(java.lang.String)&amp;#27;[0m
-DVD
-  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mI click bestseller &amp;#27;[0m&amp;#27;[31m&amp;#27;[1mDVD&amp;#27;[0m                     &amp;#27;[90m# steps.BestsellerSteps.i_click_bestseller_menu(java.lang.String)&amp;#27;[0m
-      &amp;#27;[31mjava.lang.ArrayIndexOutOfBoundsException: 1
-	at steps.BestsellerSteps.i_click_bestseller_menu(BestsellerSteps.java:44)
-	at âœ½.I click bestseller DVD(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:36)
-&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click the bestseller sub_menu &amp;#27;[0m&amp;#27;[36m&amp;#27;[1mTV &amp; Hobby&amp;#27;[0m &amp;#27;[90m# steps.BestsellerSteps.i_click_bestseller_sub_menu(java.lang.String)&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI scroll to a random bestseller&amp;#27;[0m            &amp;#27;[90m# steps.BestsellerSteps.i_scroll_to_random_bestseller_element()&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click mehr anzeigen&amp;#27;[0m                      &amp;#27;[90m# steps.BestsellerSteps.i_click_mehr_anzeigen()&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI move mouse over kaufen&amp;#27;[0m                   &amp;#27;[90m# steps.BestsellerSteps.i_move_mouse_over_kaufen()&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click bei &amp;#27;[0m&amp;#27;[36m&amp;#27;[1mAmazon&amp;#27;[0m&amp;#27;[36m kaufen&amp;#27;[0m                  &amp;#27;[90m# steps.BestsellerSteps.i_click_bei_vendor_kaufen(java.lang.String)&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI close the &amp;#27;[0m&amp;#27;[36m&amp;#27;[1mAmazon&amp;#27;[0m&amp;#27;[36m tab&amp;#27;[0m                     &amp;#27;[90m# steps.BestsellerSteps.i_close_vendor_tab(java.lang.String)&amp;#27;[0m
-</system-out>
-  </testcase>
-  <testcase classname="Spiegel Kultur #1" name="Bestseller DVD #2" time="18.505">
-    <error message="1" type="java.lang.ArrayIndexOutOfBoundsException">java.lang.ArrayIndexOutOfBoundsException: 1
-	at steps.BestsellerSteps.i_click_bestseller_menu(BestsellerSteps.java:44)
-	at ✽.I click bestseller DVD(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:36)
-</error>
+  <testcase classname="Spiegel Kultur #1" name="Bestseller Books #1" time="31.472"/>
+  <testcase classname="Spiegel Kultur #1" name="Bestseller Books #2" time="22.154"/>
+  <testcase classname="Spiegel Kultur #1" name="Bestseller Books #3" time="21.027"/>
+  <testcase classname="Spiegel Kultur #1" name="Bestseller DVD #1" time="25.1"/>
+  <testcase classname="Spiegel Kultur #1" name="Bestseller DVD #2" time="38.053">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at steps.BestsellerSteps.i_click_bei_vendor_kaufen(BestsellerSteps.java:73)
+	at ✽.I click bei Thaila kaufen(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:43)
+</failure>
     <system-out>
 @spiegelCultureBestseller @bestsellerDVD
 Scenario Outline: Bestseller DVD                  &amp;#27;[90m# src/test/resources/features/bestseller.feature:48&amp;#27;[0m
@@ -283,249 +168,45 @@ Scenario Outline: Bestseller DVD                  &amp;#27;[90m# src/test/resour
   &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI click TopMenu culture&amp;#27;[0m                     &amp;#27;[90m# steps.CultureSteps.i_click_culture_menu()&amp;#27;[0m
   &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click culture &amp;#27;[0m&amp;#27;[32m&amp;#27;[1mSPIEGEL-Bestseller&amp;#27;[0m         &amp;#27;[90m# steps.CultureSteps.i_click_menu(java.lang.String)&amp;#27;[0m
 DVD
-  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mI click bestseller &amp;#27;[0m&amp;#27;[31m&amp;#27;[1mDVD&amp;#27;[0m                     &amp;#27;[90m# steps.BestsellerSteps.i_click_bestseller_menu(java.lang.String)&amp;#27;[0m
-      &amp;#27;[31mjava.lang.ArrayIndexOutOfBoundsException: 1
-	at steps.BestsellerSteps.i_click_bestseller_menu(BestsellerSteps.java:44)
-	at âœ½.I click bestseller DVD(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:36)
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click bestseller &amp;#27;[0m&amp;#27;[32m&amp;#27;[1mDVD&amp;#27;[0m                     &amp;#27;[90m# steps.BestsellerSteps.i_click_bestseller_menu(java.lang.String)&amp;#27;[0m
+(//div[@data-component=&apos;SwiperBar&apos;])[2]//ul//li//a[contains(@title,&apos;TV &amp; Hobby&apos;)]
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click the bestseller sub_menu &amp;#27;[0m&amp;#27;[32m&amp;#27;[1mTV &amp; Hobby&amp;#27;[0m &amp;#27;[90m# steps.BestsellerSteps.i_click_bestseller_sub_menu(java.lang.String)&amp;#27;[0m
+rdnr:..........4
+xpath:..........(//div[@data-component=&apos;BestsellerAccordionSection&apos;])[4]
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI scroll to a random bestseller&amp;#27;[0m            &amp;#27;[90m# steps.BestsellerSteps.i_scroll_to_random_bestseller_element()&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click mehr anzeigen&amp;#27;[0m                      &amp;#27;[90m# steps.BestsellerSteps.i_click_mehr_anzeigen()&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI move mouse over kaufen&amp;#27;[0m                   &amp;#27;[90m# steps.BestsellerSteps.i_move_mouse_over_kaufen()&amp;#27;[0m
+..taking screenshot..
+.. screenshot taken..
+  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mI click bei &amp;#27;[0m&amp;#27;[31m&amp;#27;[1mThaila&amp;#27;[0m&amp;#27;[31m kaufen&amp;#27;[0m                  &amp;#27;[90m# steps.BestsellerSteps.i_click_bei_vendor_kaufen(java.lang.String)&amp;#27;[0m
+      &amp;#27;[31mjava.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at steps.BestsellerSteps.i_click_bei_vendor_kaufen(BestsellerSteps.java:73)
+	at âœ½.I click bei Thaila kaufen(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:43)
 &amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click the bestseller sub_menu &amp;#27;[0m&amp;#27;[36m&amp;#27;[1mTV &amp; Hobby&amp;#27;[0m &amp;#27;[90m# steps.BestsellerSteps.i_click_bestseller_sub_menu(java.lang.String)&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI scroll to a random bestseller&amp;#27;[0m            &amp;#27;[90m# steps.BestsellerSteps.i_scroll_to_random_bestseller_element()&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click mehr anzeigen&amp;#27;[0m                      &amp;#27;[90m# steps.BestsellerSteps.i_click_mehr_anzeigen()&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI move mouse over kaufen&amp;#27;[0m                   &amp;#27;[90m# steps.BestsellerSteps.i_move_mouse_over_kaufen()&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click bei &amp;#27;[0m&amp;#27;[36m&amp;#27;[1mThaila&amp;#27;[0m&amp;#27;[36m kaufen&amp;#27;[0m                  &amp;#27;[90m# steps.BestsellerSteps.i_click_bei_vendor_kaufen(java.lang.String)&amp;#27;[0m
   &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI close the &amp;#27;[0m&amp;#27;[36m&amp;#27;[1mThaila&amp;#27;[0m&amp;#27;[36m tab&amp;#27;[0m                     &amp;#27;[90m# steps.BestsellerSteps.i_close_vendor_tab(java.lang.String)&amp;#27;[0m
 </system-out>
   </testcase>
-  <testcase classname="Spiegel Kultur #1" name="Bestseller Ratgeber #1" time="17.399">
-    <error message="1" type="java.lang.ArrayIndexOutOfBoundsException">java.lang.ArrayIndexOutOfBoundsException: 1
-	at steps.BestsellerSteps.i_click_bestseller_menu(BestsellerSteps.java:44)
-	at ✽.I click bestseller Ratgeber(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:52)
-</error>
-    <system-out>
-@spiegelCultureBestseller @bestsellerRatgeber
-Scenario Outline: Bestseller Ratgeber                     &amp;#27;[90m# src/test/resources/features/bestseller.feature:63&amp;#27;[0m
-  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mI start Spiegel&amp;#27;[0m                                   &amp;#27;[90m# steps.MenuSteps.i_start_Spiegel()&amp;#27;[0m
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click Akzeptieren und weiter&amp;#27;[0m                     &amp;#27;[90m# steps.MenuSteps.i_click_Akzeptieren_und_weiter()&amp;#27;[0m
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI bring culture menu into view&amp;#27;[0m                     &amp;#27;[90m# steps.CultureSteps.i_bring_culture_menu_into_view()&amp;#27;[0m
-  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI click TopMenu culture&amp;#27;[0m                             &amp;#27;[90m# steps.CultureSteps.i_click_culture_menu()&amp;#27;[0m
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click culture &amp;#27;[0m&amp;#27;[32m&amp;#27;[1mSPIEGEL-Bestseller&amp;#27;[0m                 &amp;#27;[90m# steps.CultureSteps.i_click_menu(java.lang.String)&amp;#27;[0m
-Ratgeber
-  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mI click bestseller &amp;#27;[0m&amp;#27;[31m&amp;#27;[1mRatgeber&amp;#27;[0m                        &amp;#27;[90m# steps.BestsellerSteps.i_click_bestseller_menu(java.lang.String)&amp;#27;[0m
-      &amp;#27;[31mjava.lang.ArrayIndexOutOfBoundsException: 1
-	at steps.BestsellerSteps.i_click_bestseller_menu(BestsellerSteps.java:44)
-	at âœ½.I click bestseller Ratgeber(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:52)
-&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click the bestseller sub_menu &amp;#27;[0m&amp;#27;[36m&amp;#27;[1mLeben &amp; Gesundheit&amp;#27;[0m &amp;#27;[90m# steps.BestsellerSteps.i_click_bestseller_sub_menu(java.lang.String)&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI scroll to a random bestseller&amp;#27;[0m                    &amp;#27;[90m# steps.BestsellerSteps.i_scroll_to_random_bestseller_element()&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click mehr anzeigen&amp;#27;[0m                              &amp;#27;[90m# steps.BestsellerSteps.i_click_mehr_anzeigen()&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI move mouse over kaufen&amp;#27;[0m                           &amp;#27;[90m# steps.BestsellerSteps.i_move_mouse_over_kaufen()&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click bei &amp;#27;[0m&amp;#27;[36m&amp;#27;[1mThaila&amp;#27;[0m&amp;#27;[36m kaufen&amp;#27;[0m                          &amp;#27;[90m# steps.BestsellerSteps.i_click_bei_vendor_kaufen(java.lang.String)&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI close the &amp;#27;[0m&amp;#27;[36m&amp;#27;[1mThaila&amp;#27;[0m&amp;#27;[36m tab&amp;#27;[0m                             &amp;#27;[90m# steps.BestsellerSteps.i_close_vendor_tab(java.lang.String)&amp;#27;[0m
-</system-out>
-  </testcase>
-  <testcase classname="Spiegel Kultur #1" name="Bestseller Ratgeber #2" time="20.078">
-    <error message="1" type="java.lang.ArrayIndexOutOfBoundsException">java.lang.ArrayIndexOutOfBoundsException: 1
-	at steps.BestsellerSteps.i_click_bestseller_menu(BestsellerSteps.java:44)
-	at ✽.I click bestseller Ratgeber(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:52)
-</error>
-    <system-out>
-@spiegelCultureBestseller @bestsellerRatgeber
-Scenario Outline: Bestseller Ratgeber                  &amp;#27;[90m# src/test/resources/features/bestseller.feature:64&amp;#27;[0m
-  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mI start Spiegel&amp;#27;[0m                                &amp;#27;[90m# steps.MenuSteps.i_start_Spiegel()&amp;#27;[0m
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click Akzeptieren und weiter&amp;#27;[0m                  &amp;#27;[90m# steps.MenuSteps.i_click_Akzeptieren_und_weiter()&amp;#27;[0m
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI bring culture menu into view&amp;#27;[0m                  &amp;#27;[90m# steps.CultureSteps.i_bring_culture_menu_into_view()&amp;#27;[0m
-  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI click TopMenu culture&amp;#27;[0m                          &amp;#27;[90m# steps.CultureSteps.i_click_culture_menu()&amp;#27;[0m
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click culture &amp;#27;[0m&amp;#27;[32m&amp;#27;[1mSPIEGEL-Bestseller&amp;#27;[0m              &amp;#27;[90m# steps.CultureSteps.i_click_menu(java.lang.String)&amp;#27;[0m
-Ratgeber
-  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mI click bestseller &amp;#27;[0m&amp;#27;[31m&amp;#27;[1mRatgeber&amp;#27;[0m                     &amp;#27;[90m# steps.BestsellerSteps.i_click_bestseller_menu(java.lang.String)&amp;#27;[0m
-      &amp;#27;[31mjava.lang.ArrayIndexOutOfBoundsException: 1
-	at steps.BestsellerSteps.i_click_bestseller_menu(BestsellerSteps.java:44)
-	at âœ½.I click bestseller Ratgeber(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:52)
-&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click the bestseller sub_menu &amp;#27;[0m&amp;#27;[36m&amp;#27;[1mEssen &amp; Trinken&amp;#27;[0m &amp;#27;[90m# steps.BestsellerSteps.i_click_bestseller_sub_menu(java.lang.String)&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI scroll to a random bestseller&amp;#27;[0m                 &amp;#27;[90m# steps.BestsellerSteps.i_scroll_to_random_bestseller_element()&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click mehr anzeigen&amp;#27;[0m                           &amp;#27;[90m# steps.BestsellerSteps.i_click_mehr_anzeigen()&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI move mouse over kaufen&amp;#27;[0m                        &amp;#27;[90m# steps.BestsellerSteps.i_move_mouse_over_kaufen()&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click bei &amp;#27;[0m&amp;#27;[36m&amp;#27;[1mAmazon&amp;#27;[0m&amp;#27;[36m kaufen&amp;#27;[0m                       &amp;#27;[90m# steps.BestsellerSteps.i_click_bei_vendor_kaufen(java.lang.String)&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI close the &amp;#27;[0m&amp;#27;[36m&amp;#27;[1mAmazon&amp;#27;[0m&amp;#27;[36m tab&amp;#27;[0m                          &amp;#27;[90m# steps.BestsellerSteps.i_close_vendor_tab(java.lang.String)&amp;#27;[0m
-</system-out>
-  </testcase>
-  <testcase classname="Spiegel Kultur #1" name="Bestseller Ratgeber #3" time="22.705">
-    <error message="1" type="java.lang.ArrayIndexOutOfBoundsException">java.lang.ArrayIndexOutOfBoundsException: 1
-	at steps.BestsellerSteps.i_click_bestseller_menu(BestsellerSteps.java:44)
-	at ✽.I click bestseller Ratgeber(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:52)
-</error>
-    <system-out>
-@spiegelCultureBestseller @bestsellerRatgeber
-Scenario Outline: Bestseller Ratgeber                 &amp;#27;[90m# src/test/resources/features/bestseller.feature:65&amp;#27;[0m
-  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mI start Spiegel&amp;#27;[0m                               &amp;#27;[90m# steps.MenuSteps.i_start_Spiegel()&amp;#27;[0m
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click Akzeptieren und weiter&amp;#27;[0m                 &amp;#27;[90m# steps.MenuSteps.i_click_Akzeptieren_und_weiter()&amp;#27;[0m
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI bring culture menu into view&amp;#27;[0m                 &amp;#27;[90m# steps.CultureSteps.i_bring_culture_menu_into_view()&amp;#27;[0m
-  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI click TopMenu culture&amp;#27;[0m                         &amp;#27;[90m# steps.CultureSteps.i_click_culture_menu()&amp;#27;[0m
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click culture &amp;#27;[0m&amp;#27;[32m&amp;#27;[1mSPIEGEL-Bestseller&amp;#27;[0m             &amp;#27;[90m# steps.CultureSteps.i_click_menu(java.lang.String)&amp;#27;[0m
-Ratgeber
-  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mI click bestseller &amp;#27;[0m&amp;#27;[31m&amp;#27;[1mRatgeber&amp;#27;[0m                    &amp;#27;[90m# steps.BestsellerSteps.i_click_bestseller_menu(java.lang.String)&amp;#27;[0m
-      &amp;#27;[31mjava.lang.ArrayIndexOutOfBoundsException: 1
-	at steps.BestsellerSteps.i_click_bestseller_menu(BestsellerSteps.java:44)
-	at âœ½.I click bestseller Ratgeber(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:52)
-&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click the bestseller sub_menu &amp;#27;[0m&amp;#27;[36m&amp;#27;[1mNatur &amp; Garten&amp;#27;[0m &amp;#27;[90m# steps.BestsellerSteps.i_click_bestseller_sub_menu(java.lang.String)&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI scroll to a random bestseller&amp;#27;[0m                &amp;#27;[90m# steps.BestsellerSteps.i_scroll_to_random_bestseller_element()&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click mehr anzeigen&amp;#27;[0m                          &amp;#27;[90m# steps.BestsellerSteps.i_click_mehr_anzeigen()&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI move mouse over kaufen&amp;#27;[0m                       &amp;#27;[90m# steps.BestsellerSteps.i_move_mouse_over_kaufen()&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click bei &amp;#27;[0m&amp;#27;[36m&amp;#27;[1mThaila&amp;#27;[0m&amp;#27;[36m kaufen&amp;#27;[0m                      &amp;#27;[90m# steps.BestsellerSteps.i_click_bei_vendor_kaufen(java.lang.String)&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI close the &amp;#27;[0m&amp;#27;[36m&amp;#27;[1mThaila&amp;#27;[0m&amp;#27;[36m tab&amp;#27;[0m                         &amp;#27;[90m# steps.BestsellerSteps.i_close_vendor_tab(java.lang.String)&amp;#27;[0m
-</system-out>
-  </testcase>
-  <testcase classname="Spiegel Kultur #1" name="Bestseller Ratgeber #4" time="17.102">
-    <error message="1" type="java.lang.ArrayIndexOutOfBoundsException">java.lang.ArrayIndexOutOfBoundsException: 1
-	at steps.BestsellerSteps.i_click_bestseller_menu(BestsellerSteps.java:44)
-	at ✽.I click bestseller Ratgeber(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:52)
-</error>
-    <system-out>
-@spiegelCultureBestseller @bestsellerRatgeber
-Scenario Outline: Bestseller Ratgeber                      &amp;#27;[90m# src/test/resources/features/bestseller.feature:66&amp;#27;[0m
-  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mI start Spiegel&amp;#27;[0m                                    &amp;#27;[90m# steps.MenuSteps.i_start_Spiegel()&amp;#27;[0m
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click Akzeptieren und weiter&amp;#27;[0m                      &amp;#27;[90m# steps.MenuSteps.i_click_Akzeptieren_und_weiter()&amp;#27;[0m
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI bring culture menu into view&amp;#27;[0m                      &amp;#27;[90m# steps.CultureSteps.i_bring_culture_menu_into_view()&amp;#27;[0m
-  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI click TopMenu culture&amp;#27;[0m                              &amp;#27;[90m# steps.CultureSteps.i_click_culture_menu()&amp;#27;[0m
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click culture &amp;#27;[0m&amp;#27;[32m&amp;#27;[1mSPIEGEL-Bestseller&amp;#27;[0m                  &amp;#27;[90m# steps.CultureSteps.i_click_menu(java.lang.String)&amp;#27;[0m
-Ratgeber
-  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mI click bestseller &amp;#27;[0m&amp;#27;[31m&amp;#27;[1mRatgeber&amp;#27;[0m                         &amp;#27;[90m# steps.BestsellerSteps.i_click_bestseller_menu(java.lang.String)&amp;#27;[0m
-      &amp;#27;[31mjava.lang.ArrayIndexOutOfBoundsException: 1
-	at steps.BestsellerSteps.i_click_bestseller_menu(BestsellerSteps.java:44)
-	at âœ½.I click bestseller Ratgeber(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:52)
-&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click the bestseller sub_menu &amp;#27;[0m&amp;#27;[36m&amp;#27;[1mHobby &amp; KreativitÃ¤t&amp;#27;[0m &amp;#27;[90m# steps.BestsellerSteps.i_click_bestseller_sub_menu(java.lang.String)&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI scroll to a random bestseller&amp;#27;[0m                     &amp;#27;[90m# steps.BestsellerSteps.i_scroll_to_random_bestseller_element()&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click mehr anzeigen&amp;#27;[0m                               &amp;#27;[90m# steps.BestsellerSteps.i_click_mehr_anzeigen()&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI move mouse over kaufen&amp;#27;[0m                            &amp;#27;[90m# steps.BestsellerSteps.i_move_mouse_over_kaufen()&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click bei &amp;#27;[0m&amp;#27;[36m&amp;#27;[1mAmazon&amp;#27;[0m&amp;#27;[36m kaufen&amp;#27;[0m                           &amp;#27;[90m# steps.BestsellerSteps.i_click_bei_vendor_kaufen(java.lang.String)&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI close the &amp;#27;[0m&amp;#27;[36m&amp;#27;[1mAmazon&amp;#27;[0m&amp;#27;[36m tab&amp;#27;[0m                              &amp;#27;[90m# steps.BestsellerSteps.i_close_vendor_tab(java.lang.String)&amp;#27;[0m
-</system-out>
-  </testcase>
-  <testcase classname="Spiegel Kultur #1" name="Bestseller KinderBuch #1" time="23.819">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at core.SeleniumDriverWrapper.clickElement(SeleniumDriverWrapper.java:153)
-	at pages.BestSellerBasePage.clickElementElementExpandButton(BestSellerBasePage.java:80)
-	at steps.BestsellerSteps.i_click_mehr_anzeigen(BestsellerSteps.java:59)
-	at ✽.I click mehr anzeigen(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:73)
-</error>
-    <system-out>
-@spiegelCultureBestseller @bestsellerKinderBuch
-Scenario Outline: Bestseller KinderBuch           &amp;#27;[90m# src/test/resources/features/bestseller.feature:81&amp;#27;[0m
-  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mI start Spiegel&amp;#27;[0m                           &amp;#27;[90m# steps.MenuSteps.i_start_Spiegel()&amp;#27;[0m
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click Akzeptieren und weiter&amp;#27;[0m             &amp;#27;[90m# steps.MenuSteps.i_click_Akzeptieren_und_weiter()&amp;#27;[0m
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI bring culture menu into view&amp;#27;[0m             &amp;#27;[90m# steps.CultureSteps.i_bring_culture_menu_into_view()&amp;#27;[0m
-  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI click TopMenu culture&amp;#27;[0m                     &amp;#27;[90m# steps.CultureSteps.i_click_culture_menu()&amp;#27;[0m
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click culture &amp;#27;[0m&amp;#27;[32m&amp;#27;[1mSPIEGEL-Bestseller&amp;#27;[0m         &amp;#27;[90m# steps.CultureSteps.i_click_menu(java.lang.String)&amp;#27;[0m
-Kinder/ Jugend
-Jugend
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click bestseller &amp;#27;[0m&amp;#27;[32m&amp;#27;[1mKinder/ Jugend&amp;#27;[0m          &amp;#27;[90m# steps.BestsellerSteps.i_click_bestseller_menu(java.lang.String)&amp;#27;[0m
-(//div[@data-component=&apos;SwiperBar&apos;])[2]//ul//li//a[contains(@title,&apos;Kinderbuch&apos;)]
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click the bestseller sub_menu &amp;#27;[0m&amp;#27;[32m&amp;#27;[1mKinderbuch&amp;#27;[0m &amp;#27;[90m# steps.BestsellerSteps.i_click_bestseller_sub_menu(java.lang.String)&amp;#27;[0m
-rdnr:..........16
-xpath:..........(//div[@data-component=&apos;BestsellerAccordionSection&apos;])[16]
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI scroll to a random bestseller&amp;#27;[0m            &amp;#27;[90m# steps.BestsellerSteps.i_scroll_to_random_bestseller_element()&amp;#27;[0m
-..taking screenshot..
-.. screenshot taken..
-  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mI click mehr anzeigen&amp;#27;[0m                      &amp;#27;[90m# steps.BestsellerSteps.i_click_mehr_anzeigen()&amp;#27;[0m
-      &amp;#27;[31mjava.lang.NullPointerException
-	at core.SeleniumDriverWrapper.clickElement(SeleniumDriverWrapper.java:153)
-	at pages.BestSellerBasePage.clickElementElementExpandButton(BestSellerBasePage.java:80)
-	at steps.BestsellerSteps.i_click_mehr_anzeigen(BestsellerSteps.java:59)
-	at âœ½.I click mehr anzeigen(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:73)
-&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI move mouse over kaufen&amp;#27;[0m                   &amp;#27;[90m# steps.BestsellerSteps.i_move_mouse_over_kaufen()&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click bei &amp;#27;[0m&amp;#27;[36m&amp;#27;[1mAmazon&amp;#27;[0m&amp;#27;[36m kaufen&amp;#27;[0m                  &amp;#27;[90m# steps.BestsellerSteps.i_click_bei_vendor_kaufen(java.lang.String)&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI close the &amp;#27;[0m&amp;#27;[36m&amp;#27;[1mAmazon&amp;#27;[0m&amp;#27;[36m tab&amp;#27;[0m                     &amp;#27;[90m# steps.BestsellerSteps.i_close_vendor_tab(java.lang.String)&amp;#27;[0m
-</system-out>
-  </testcase>
-  <testcase classname="Spiegel Kultur #1" name="Bestseller KinderBuch #2" time="24.067">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at core.SeleniumDriverWrapper.clickElement(SeleniumDriverWrapper.java:153)
-	at pages.BestSellerBasePage.clickElementElementExpandButton(BestSellerBasePage.java:80)
-	at steps.BestsellerSteps.i_click_mehr_anzeigen(BestsellerSteps.java:59)
-	at ✽.I click mehr anzeigen(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:73)
-</error>
-    <system-out>
-@spiegelCultureBestseller @bestsellerKinderBuch
-Scenario Outline: Bestseller KinderBuch           &amp;#27;[90m# src/test/resources/features/bestseller.feature:82&amp;#27;[0m
-  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mI start Spiegel&amp;#27;[0m                           &amp;#27;[90m# steps.MenuSteps.i_start_Spiegel()&amp;#27;[0m
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click Akzeptieren und weiter&amp;#27;[0m             &amp;#27;[90m# steps.MenuSteps.i_click_Akzeptieren_und_weiter()&amp;#27;[0m
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI bring culture menu into view&amp;#27;[0m             &amp;#27;[90m# steps.CultureSteps.i_bring_culture_menu_into_view()&amp;#27;[0m
-  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI click TopMenu culture&amp;#27;[0m                     &amp;#27;[90m# steps.CultureSteps.i_click_culture_menu()&amp;#27;[0m
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click culture &amp;#27;[0m&amp;#27;[32m&amp;#27;[1mSPIEGEL-Bestseller&amp;#27;[0m         &amp;#27;[90m# steps.CultureSteps.i_click_menu(java.lang.String)&amp;#27;[0m
-Kinder/ Jugend
-Jugend
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click bestseller &amp;#27;[0m&amp;#27;[32m&amp;#27;[1mKinder/ Jugend&amp;#27;[0m          &amp;#27;[90m# steps.BestsellerSteps.i_click_bestseller_menu(java.lang.String)&amp;#27;[0m
-(//div[@data-component=&apos;SwiperBar&apos;])[2]//ul//li//a[contains(@title,&apos;Jugendbuch&apos;)]
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click the bestseller sub_menu &amp;#27;[0m&amp;#27;[32m&amp;#27;[1mJugendbuch&amp;#27;[0m &amp;#27;[90m# steps.BestsellerSteps.i_click_bestseller_sub_menu(java.lang.String)&amp;#27;[0m
-rdnr:..........16
-xpath:..........(//div[@data-component=&apos;BestsellerAccordionSection&apos;])[16]
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI scroll to a random bestseller&amp;#27;[0m            &amp;#27;[90m# steps.BestsellerSteps.i_scroll_to_random_bestseller_element()&amp;#27;[0m
-..taking screenshot..
-.. screenshot taken..
-  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mI click mehr anzeigen&amp;#27;[0m                      &amp;#27;[90m# steps.BestsellerSteps.i_click_mehr_anzeigen()&amp;#27;[0m
-      &amp;#27;[31mjava.lang.NullPointerException
-	at core.SeleniumDriverWrapper.clickElement(SeleniumDriverWrapper.java:153)
-	at pages.BestSellerBasePage.clickElementElementExpandButton(BestSellerBasePage.java:80)
-	at steps.BestsellerSteps.i_click_mehr_anzeigen(BestsellerSteps.java:59)
-	at âœ½.I click mehr anzeigen(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:73)
-&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI move mouse over kaufen&amp;#27;[0m                   &amp;#27;[90m# steps.BestsellerSteps.i_move_mouse_over_kaufen()&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click bei &amp;#27;[0m&amp;#27;[36m&amp;#27;[1mThaila&amp;#27;[0m&amp;#27;[36m kaufen&amp;#27;[0m                  &amp;#27;[90m# steps.BestsellerSteps.i_click_bei_vendor_kaufen(java.lang.String)&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI close the &amp;#27;[0m&amp;#27;[36m&amp;#27;[1mThaila&amp;#27;[0m&amp;#27;[36m tab&amp;#27;[0m                     &amp;#27;[90m# steps.BestsellerSteps.i_close_vendor_tab(java.lang.String)&amp;#27;[0m
-</system-out>
-  </testcase>
-  <testcase classname="Spiegel Kultur #1" name="Bestseller KinderBuch #3" time="25.15">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at core.SeleniumDriverWrapper.clickElement(SeleniumDriverWrapper.java:153)
-	at pages.BestSellerBasePage.clickElementElementExpandButton(BestSellerBasePage.java:80)
-	at steps.BestsellerSteps.i_click_mehr_anzeigen(BestsellerSteps.java:59)
-	at ✽.I click mehr anzeigen(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:73)
-</error>
-    <system-out>
-@spiegelCultureBestseller @bestsellerKinderBuch
-Scenario Outline: Bestseller KinderBuch           &amp;#27;[90m# src/test/resources/features/bestseller.feature:83&amp;#27;[0m
-  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mI start Spiegel&amp;#27;[0m                           &amp;#27;[90m# steps.MenuSteps.i_start_Spiegel()&amp;#27;[0m
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click Akzeptieren und weiter&amp;#27;[0m             &amp;#27;[90m# steps.MenuSteps.i_click_Akzeptieren_und_weiter()&amp;#27;[0m
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI bring culture menu into view&amp;#27;[0m             &amp;#27;[90m# steps.CultureSteps.i_bring_culture_menu_into_view()&amp;#27;[0m
-  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI click TopMenu culture&amp;#27;[0m                     &amp;#27;[90m# steps.CultureSteps.i_click_culture_menu()&amp;#27;[0m
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click culture &amp;#27;[0m&amp;#27;[32m&amp;#27;[1mSPIEGEL-Bestseller&amp;#27;[0m         &amp;#27;[90m# steps.CultureSteps.i_click_menu(java.lang.String)&amp;#27;[0m
-Kinder/ Jugend
-Jugend
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click bestseller &amp;#27;[0m&amp;#27;[32m&amp;#27;[1mKinder/ Jugend&amp;#27;[0m          &amp;#27;[90m# steps.BestsellerSteps.i_click_bestseller_menu(java.lang.String)&amp;#27;[0m
-(//div[@data-component=&apos;SwiperBar&apos;])[2]//ul//li//a[contains(@title,&apos;Bilderbuch&apos;)]
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click the bestseller sub_menu &amp;#27;[0m&amp;#27;[32m&amp;#27;[1mBilderbuch&amp;#27;[0m &amp;#27;[90m# steps.BestsellerSteps.i_click_bestseller_sub_menu(java.lang.String)&amp;#27;[0m
-rdnr:..........16
-xpath:..........(//div[@data-component=&apos;BestsellerAccordionSection&apos;])[16]
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI scroll to a random bestseller&amp;#27;[0m            &amp;#27;[90m# steps.BestsellerSteps.i_scroll_to_random_bestseller_element()&amp;#27;[0m
-..taking screenshot..
-.. screenshot taken..
-  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mI click mehr anzeigen&amp;#27;[0m                      &amp;#27;[90m# steps.BestsellerSteps.i_click_mehr_anzeigen()&amp;#27;[0m
-      &amp;#27;[31mjava.lang.NullPointerException
-	at core.SeleniumDriverWrapper.clickElement(SeleniumDriverWrapper.java:153)
-	at pages.BestSellerBasePage.clickElementElementExpandButton(BestSellerBasePage.java:80)
-	at steps.BestsellerSteps.i_click_mehr_anzeigen(BestsellerSteps.java:59)
-	at âœ½.I click mehr anzeigen(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:73)
-&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI move mouse over kaufen&amp;#27;[0m                   &amp;#27;[90m# steps.BestsellerSteps.i_move_mouse_over_kaufen()&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click bei &amp;#27;[0m&amp;#27;[36m&amp;#27;[1mThaila&amp;#27;[0m&amp;#27;[36m kaufen&amp;#27;[0m                  &amp;#27;[90m# steps.BestsellerSteps.i_click_bei_vendor_kaufen(java.lang.String)&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI close the &amp;#27;[0m&amp;#27;[36m&amp;#27;[1mThaila&amp;#27;[0m&amp;#27;[36m tab&amp;#27;[0m                     &amp;#27;[90m# steps.BestsellerSteps.i_close_vendor_tab(java.lang.String)&amp;#27;[0m
-</system-out>
-  </testcase>
-  <testcase classname="Spiegel Kultur #1" name="Bestseller KinderBuch #4" time="23.41"/>
-  <testcase classname="Spiegel Kultur #2" name="navigate on culture sub-menu #1" time="15.658"/>
-  <testcase classname="Spiegel Kultur #2" name="navigate on culture sub-menu #2" time="15.315"/>
-  <testcase classname="Spiegel Kultur #2" name="navigate on culture sub-menu #3" time="17.589"/>
-  <testcase classname="Spiegel Kultur #2" name="navigate on culture sub-menu #4" time="14.529"/>
-  <testcase classname="Spiegel Kultur #2" name="navigate on culture sub-menu #5" time="14.083">
+  <testcase classname="Spiegel Kultur #1" name="Bestseller Ratgeber #1" time="23.765"/>
+  <testcase classname="Spiegel Kultur #1" name="Bestseller Ratgeber #2" time="22.328"/>
+  <testcase classname="Spiegel Kultur #1" name="Bestseller Ratgeber #3" time="21.822"/>
+  <testcase classname="Spiegel Kultur #1" name="Bestseller Ratgeber #4" time="25.623"/>
+  <testcase classname="Spiegel Kultur #1" name="Bestseller KinderBuch #1" time="21.252"/>
+  <testcase classname="Spiegel Kultur #1" name="Bestseller KinderBuch #2" time="22.996"/>
+  <testcase classname="Spiegel Kultur #1" name="Bestseller KinderBuch #3" time="21.994"/>
+  <testcase classname="Spiegel Kultur #1" name="Bestseller KinderBuch #4" time="21.245"/>
+  <testcase classname="Spiegel Kultur #2" name="navigate on culture sub-menu #1" time="20.971"/>
+  <testcase classname="Spiegel Kultur #2" name="navigate on culture sub-menu #2" time="19.133"/>
+  <testcase classname="Spiegel Kultur #2" name="navigate on culture sub-menu #3" time="16.916"/>
+  <testcase classname="Spiegel Kultur #2" name="navigate on culture sub-menu #4" time="19.086"/>
+  <testcase classname="Spiegel Kultur #2" name="navigate on culture sub-menu #5" time="20.381">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:86)
 	at org.junit.Assert.assertTrue(Assert.java:41)
 	at org.junit.Assert.assertTrue(Assert.java:52)
-	at steps.HelperSteps.i_go_back_to(HelperSteps.java:105)
+	at steps.HelperSteps.i_go_back_to(HelperSteps.java:106)
 	at ✽.I go back to &quot;Streaming - Kultur - DER SPIEGEL&quot;(file:///C:/MyWorkspace/guineenews/src/test/resources/features/culturePage.feature:15)
 </failure>
     <system-out>
@@ -543,17 +224,17 @@ Scenario Outline: navigate on culture sub-menu              &amp;#27;[90m# src/t
 	at org.junit.Assert.fail(Assert.java:86)
 	at org.junit.Assert.assertTrue(Assert.java:41)
 	at org.junit.Assert.assertTrue(Assert.java:52)
-	at steps.HelperSteps.i_go_back_to(HelperSteps.java:105)
+	at steps.HelperSteps.i_go_back_to(HelperSteps.java:106)
 	at âœ½.I go back to &quot;Streaming - Kultur - DER SPIEGEL&quot;(file:///C:/MyWorkspace/guineenews/src/test/resources/features/culturePage.feature:15)
 &amp;#27;[0m
 </system-out>
   </testcase>
-  <testcase classname="Spiegel Kultur #2" name="navigate on culture sub-menu #6" time="21.025">
+  <testcase classname="Spiegel Kultur #2" name="navigate on culture sub-menu #6" time="20.207">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:86)
 	at org.junit.Assert.assertTrue(Assert.java:41)
 	at org.junit.Assert.assertTrue(Assert.java:52)
-	at steps.HelperSteps.i_go_back_to(HelperSteps.java:105)
+	at steps.HelperSteps.i_go_back_to(HelperSteps.java:106)
 	at ✽.I go back to &quot;Kunst - Kultur - DER SPIEGEL&quot;(file:///C:/MyWorkspace/guineenews/src/test/resources/features/culturePage.feature:15)
 </failure>
     <system-out>
@@ -571,42 +252,14 @@ Scenario Outline: navigate on culture sub-menu              &amp;#27;[90m# src/t
 	at org.junit.Assert.fail(Assert.java:86)
 	at org.junit.Assert.assertTrue(Assert.java:41)
 	at org.junit.Assert.assertTrue(Assert.java:52)
-	at steps.HelperSteps.i_go_back_to(HelperSteps.java:105)
+	at steps.HelperSteps.i_go_back_to(HelperSteps.java:106)
 	at âœ½.I go back to &quot;Kunst - Kultur - DER SPIEGEL&quot;(file:///C:/MyWorkspace/guineenews/src/test/resources/features/culturePage.feature:15)
 &amp;#27;[0m
 </system-out>
   </testcase>
-  <testcase classname="Spiegel 1" name="surf on menu page" time="9.567"/>
-  <testcase classname="Spiegel Plus" name="Spiegel plus read section 1 articles" time="20.424"/>
-  <testcase classname="Spiegel Plus" name="Spiegel plus read random section articles" time="16.166"/>
-  <testcase classname="Spiegel Plus" name="Spiegel plus read audio section articles" time="14.794"/>
-  <testcase classname="Spiegel Plus" name="Spiegel plus read alle Beiträge section articles" time="7.573">
-    <failure type="java.lang.AssertionError">java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at steps.SpiegelPlusSteps.clickSpiegelPlus(SpiegelPlusSteps.java:21)
-	at ✽.I click SpiegelPlus(file:///C:/MyWorkspace/guineenews/src/test/resources/features/spiegelPlus.feature:7)
-</failure>
-    <system-out>
-@spiegelPlus @end
-Scenario: Spiegel plus read alle BeitrÃ¤ge section articles  &amp;#27;[90m# src/test/resources/features/spiegelPlus.feature:43&amp;#27;[0m
-  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mI start Spiegel&amp;#27;[0m                                     &amp;#27;[90m# steps.MenuSteps.i_start_Spiegel()&amp;#27;[0m
-  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mI click SpiegelPlus&amp;#27;[0m                                  &amp;#27;[90m# steps.SpiegelPlusSteps.clickSpiegelPlus()&amp;#27;[0m
-      &amp;#27;[31mjava.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at steps.SpiegelPlusSteps.clickSpiegelPlus(SpiegelPlusSteps.java:21)
-	at âœ½.I click SpiegelPlus(file:///C:/MyWorkspace/guineenews/src/test/resources/features/spiegelPlus.feature:7)
-&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI scroll to &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;alle_Beitraege&quot;&amp;#27;[0m&amp;#27;[36m section&amp;#27;[0m                 &amp;#27;[90m# steps.SpiegelPlusSteps.i_scroll_to_section(java.lang.String)&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI scroll to alle Beitraege &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;last&quot;&amp;#27;[0m&amp;#27;[36m article&amp;#27;[0m            &amp;#27;[90m# steps.HelperSteps.i_scroll_to_alle_Beitraegearticle(java.lang.String)&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI scroll to alle Beitraege &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;random&quot;&amp;#27;[0m&amp;#27;[36m article&amp;#27;[0m          &amp;#27;[90m# steps.HelperSteps.i_scroll_to_alle_Beitraegearticle(java.lang.String)&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click a &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;random&quot;&amp;#27;[0m&amp;#27;[36m article of alle Beitraege section&amp;#27;[0m &amp;#27;[90m# steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click page down &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m3&amp;#27;[0m                                  &amp;#27;[90m# steps.HelperSteps.i_click_page_down(int)&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI go back to &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;Plus - DER SPIEGEL&quot;&amp;#27;[0m                    &amp;#27;[90m# steps.HelperSteps.i_go_back_to(java.lang.String)&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI paginate to &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;next&quot;&amp;#27;[0m&amp;#27;[36m page&amp;#27;[0m                            &amp;#27;[90m# steps.HelperSteps.i_paginate_to_next_page(java.lang.String)&amp;#27;[0m
-</system-out>
-  </testcase>
+  <testcase classname="Spiegel 1" name="surf on menu page" time="8.481"/>
+  <testcase classname="Spiegel Plus" name="Spiegel plus read section 1 articles" time="26.109"/>
+  <testcase classname="Spiegel Plus" name="Spiegel plus read random section articles" time="28.6"/>
+  <testcase classname="Spiegel Plus" name="Spiegel plus read audio section articles" time="20.592"/>
+  <testcase classname="Spiegel Plus" name="Spiegel plus read alle Beiträge section articles" time="17.581"/>
 </testsuite>
