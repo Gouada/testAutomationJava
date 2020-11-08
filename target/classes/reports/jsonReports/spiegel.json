@@ -1,9 +1,9 @@
 [
   {
-    "line": 2,
+    "line": 3,
     "elements": [
       {
-        "line": 4,
+        "line": 5,
         "name": "",
         "description": "",
         "type": "background",
@@ -11,10 +11,10 @@
         "steps": [
           {
             "result": {
-              "duration": 7869000000,
+              "duration": 4472000000,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "I start Spiegel",
             "match": {
               "location": "steps.MenuSteps.i_start_Spiegel()"
@@ -23,10 +23,10 @@
           },
           {
             "result": {
-              "duration": 3307000000,
+              "duration": 3344000000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "I click Akzeptieren und weiter",
             "match": {
               "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
@@ -35,10 +35,10 @@
           },
           {
             "result": {
-              "duration": 1151000000,
+              "duration": 1384000000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "I bring culture menu into view",
             "match": {
               "location": "steps.CultureSteps.i_bring_culture_menu_into_view()"
@@ -47,739 +47,42 @@
           },
           {
             "result": {
-              "duration": 674000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I click TopMenu culture",
-            "match": {
-              "location": "steps.CultureSteps.i_click_culture_menu()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-04T15:34:20.395Z",
-        "before": [
-          {
-            "result": {
-              "duration": 6704000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.TestCaseBase.setup()"
-            }
-          }
-        ],
-        "line": 18,
-        "name": "navigate on culture sub-menu",
-        "description": "",
-        "id": "spiegel-lpus;navigate-on-culture-sub-menu;;2",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 3720000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "I click culture Kino",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Kino",
-                  "offset": 16
-                }
-              ],
-              "location": "steps.CultureSteps.i_click_menu(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1632000000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "I click a \"random\" article of alle Beitraege section",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"random\"",
-                  "offset": 10
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 125000000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "I click page down 3",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3",
-                  "offset": 18
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_page_down(int)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 842000000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "I go back to \"Kino - Kultur - DER SPIEGEL\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Kino - Kultur - DER SPIEGEL\"",
-                  "offset": 13
-                }
-              ],
-              "location": "steps.HelperSteps.i_go_back_to(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@spiegelCulture"
-          },
-          {
-            "name": "@culture"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 4294000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I start Spiegel",
-            "match": {
-              "location": "steps.MenuSteps.i_start_Spiegel()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 11702000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "I click Akzeptieren und weiter",
-            "match": {
-              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 396000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I bring culture menu into view",
-            "match": {
-              "location": "steps.CultureSteps.i_bring_culture_menu_into_view()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 269000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I click TopMenu culture",
-            "match": {
-              "location": "steps.CultureSteps.i_click_culture_menu()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-04T15:34:46.502Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.TestCaseBase.setup()"
-            }
-          }
-        ],
-        "line": 19,
-        "name": "navigate on culture sub-menu",
-        "description": "",
-        "id": "spiegel-lpus;navigate-on-culture-sub-menu;;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1092000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "I click culture Musik",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Musik",
-                  "offset": 16
-                }
-              ],
-              "location": "steps.CultureSteps.i_click_menu(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 843000000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "I click a \"random\" article of alle Beitraege section",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"random\"",
-                  "offset": 10
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 111000000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "I click page down 3",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3",
-                  "offset": 18
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_page_down(int)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 104000000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "I go back to \"Musik - Kultur - DER SPIEGEL\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Musik - Kultur - DER SPIEGEL\"",
-                  "offset": 13
-                }
-              ],
-              "location": "steps.HelperSteps.i_go_back_to(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@spiegelCulture"
-          },
-          {
-            "name": "@culture"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 7340000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I start Spiegel",
-            "match": {
-              "location": "steps.MenuSteps.i_start_Spiegel()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 5602000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "I click Akzeptieren und weiter",
-            "match": {
-              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1514000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I bring culture menu into view",
-            "match": {
-              "location": "steps.CultureSteps.i_bring_culture_menu_into_view()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 379000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I click TopMenu culture",
-            "match": {
-              "location": "steps.CultureSteps.i_click_culture_menu()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-04T15:35:05.323Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.TestCaseBase.setup()"
-            }
-          }
-        ],
-        "line": 20,
-        "name": "navigate on culture sub-menu",
-        "description": "",
-        "id": "spiegel-lpus;navigate-on-culture-sub-menu;;4",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1021000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "I click culture TV",
-            "match": {
-              "arguments": [
-                {
-                  "val": "TV",
-                  "offset": 16
-                }
-              ],
-              "location": "steps.CultureSteps.i_click_menu(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1112000000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "I click a \"random\" article of alle Beitraege section",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"random\"",
-                  "offset": 10
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 94000000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "I click page down 3",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3",
-                  "offset": 18
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_page_down(int)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 76000000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "I go back to \"TV - Kultur - DER SPIEGEL\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"TV - Kultur - DER SPIEGEL\"",
-                  "offset": 13
-                }
-              ],
-              "location": "steps.HelperSteps.i_go_back_to(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@spiegelCulture"
-          },
-          {
-            "name": "@culture"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 6475000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I start Spiegel",
-            "match": {
-              "location": "steps.MenuSteps.i_start_Spiegel()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 9119000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "I click Akzeptieren und weiter",
-            "match": {
-              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 393000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I bring culture menu into view",
-            "match": {
-              "location": "steps.CultureSteps.i_bring_culture_menu_into_view()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 252000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I click TopMenu culture",
-            "match": {
-              "location": "steps.CultureSteps.i_click_culture_menu()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-04T15:35:22.477Z",
-        "before": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.TestCaseBase.setup()"
-            }
-          }
-        ],
-        "line": 21,
-        "name": "navigate on culture sub-menu",
-        "description": "",
-        "id": "spiegel-lpus;navigate-on-culture-sub-menu;;5",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 831000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "I click culture Literatur",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Literatur",
-                  "offset": 16
-                }
-              ],
-              "location": "steps.CultureSteps.i_click_menu(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 457000000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "I click a \"random\" article of alle Beitraege section",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"random\"",
-                  "offset": 10
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 96000000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "I click page down 3",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3",
-                  "offset": 18
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_page_down(int)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 935000000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "I go back to \"Literatur - Kultur - DER SPIEGEL\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Literatur - Kultur - DER SPIEGEL\"",
-                  "offset": 13
-                }
-              ],
-              "location": "steps.HelperSteps.i_go_back_to(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@spiegelCulture"
-          },
-          {
-            "name": "@culture"
-          }
-        ]
-      }
-    ],
-    "name": "Spiegel Lpus",
-    "description": "",
-    "id": "spiegel-lpus",
-    "keyword": "Feature",
-    "uri": "file:src/test/resources/features/culturePage.feature",
-    "tags": [
-      {
-        "name": "@spiegelCulture",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 1
-        }
-      }
-    ]
-  },
-  {
-    "line": 2,
-    "elements": [
-      {
-        "start_timestamp": "2020-11-04T15:35:41.048Z",
-        "before": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.TestCaseBase.setup()"
-            }
-          }
-        ],
-        "line": 8,
-        "name": "surf on menu page",
-        "description": "",
-        "id": "spiegel-1;surf-on-menu-page",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 8516000000,
+              "duration": 453000000,
               "status": "passed"
             },
             "line": 9,
-            "name": "I start Spiegel",
+            "name": "I click TopMenu culture",
             "match": {
-              "location": "steps.MenuSteps.i_start_Spiegel()"
+              "location": "steps.CultureSteps.i_click_culture_menu()"
             },
-            "keyword": "Given "
+            "keyword": "And "
           },
           {
             "result": {
-              "duration": 4667000000,
+              "duration": 1497000000,
               "status": "passed"
             },
             "line": 10,
-            "name": "I click Akzeptieren und weiter",
+            "name": "I click culture SPIEGEL-Bestseller",
             "match": {
-              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@menu"
-          },
-          {
-            "name": "@start"
-          }
-        ]
-      }
-    ],
-    "name": "Spiegel 1",
-    "description": "",
-    "id": "spiegel-1",
-    "keyword": "Feature",
-    "uri": "file:src/test/resources/features/menuPage.feature",
-    "tags": [
-      {
-        "name": "@menu",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 1
-        }
-      }
-    ]
-  },
-  {
-    "line": 2,
-    "elements": [
-      {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 4294000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I start Spiegel",
-            "match": {
-              "location": "steps.MenuSteps.i_start_Spiegel()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 6939000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "I click Akzeptieren und weiter",
-            "match": {
-              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 448000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I click SpiegelPlus",
-            "match": {
-              "location": "steps.SpiegelPlusSteps.clickSpiegelPlus()"
+              "arguments": [
+                {
+                  "val": "SPIEGEL-Bestseller",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.CultureSteps.i_click_menu(java.lang.String)"
             },
             "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2020-11-04T15:35:54.243Z",
+        "start_timestamp": "2020-11-08T14:41:57.567Z",
         "before": [
           {
             "result": {
+              "duration": 7351000000,
               "status": "passed"
             },
             "match": {
@@ -787,223 +90,133 @@
             }
           }
         ],
-        "line": 10,
-        "name": "Spiegel plus read section 1 articles",
+        "line": 81,
+        "name": "Bestseller KinderBuch",
         "description": "",
-        "id": "spiegel-lpus;spiegel-plus-read-section-1-articles",
+        "id": "spiegel-kultur;bestseller-kinderbuch;;2",
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 932000000,
+              "duration": 5745000000,
               "status": "passed"
             },
-            "line": 11,
-            "name": "I click first article of \"first\" section",
+            "line": 70,
+            "name": "I click bestseller Kinder/ Jugend",
             "match": {
               "arguments": [
                 {
-                  "val": "\"first\"",
-                  "offset": 25
+                  "val": "Kinder/ Jugend",
+                  "offset": 19
                 }
               ],
-              "location": "steps.SpiegelPlusSteps.i_click_first_article_of_section(java.lang.String)"
+              "location": "steps.BestsellerSteps.i_click_bestseller_menu(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 268000000,
+              "duration": 722000000,
               "status": "passed"
             },
-            "line": 12,
-            "name": "I click page down 3",
+            "line": 71,
+            "name": "I click the bestseller sub_menu Kinderbuch",
             "match": {
               "arguments": [
                 {
-                  "val": "3",
-                  "offset": 18
+                  "val": "Kinderbuch",
+                  "offset": 32
                 }
               ],
-              "location": "steps.HelperSteps.i_click_page_down(int)"
+              "location": "steps.BestsellerSteps.i_click_bestseller_sub_menu(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 67000000,
+              "duration": 191000000,
               "status": "passed"
             },
-            "line": 13,
-            "name": "I go back to \"Plus - DER SPIEGEL\"",
+            "line": 72,
+            "name": "I scroll to a random bestseller",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"Plus - DER SPIEGEL\"",
-                  "offset": 13
-                }
-              ],
-              "location": "steps.HelperSteps.i_go_back_to(java.lang.String)"
+              "location": "steps.BestsellerSteps.i_scroll_to_random_bestseller_element()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 938000000,
+              "duration": 685000000,
               "status": "passed"
             },
-            "line": 14,
-            "name": "I click last article of \"first\" section",
+            "line": 73,
+            "name": "I click mehr anzeigen",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"first\"",
-                  "offset": 24
-                }
-              ],
-              "location": "steps.SpiegelPlusSteps.i_click_last_article_of_section(java.lang.String)"
+              "location": "steps.BestsellerSteps.i_click_mehr_anzeigen()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 264000000,
+              "duration": 358000000,
               "status": "passed"
             },
-            "line": 15,
-            "name": "I click page down 3",
+            "line": 76,
+            "name": "I move mouse over kaufen",
             "match": {
-              "arguments": [
-                {
-                  "val": "3",
-                  "offset": 18
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_page_down(int)"
+              "location": "steps.BestsellerSteps.i_move_mouse_over_kaufen()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 74000000,
+              "duration": 287000000,
               "status": "passed"
             },
-            "line": 16,
-            "name": "I go back to \"Plus - DER SPIEGEL\"",
+            "line": 77,
+            "name": "I click bei Amazon kaufen",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Plus - DER SPIEGEL\"",
-                  "offset": 13
+                  "val": "Amazon",
+                  "offset": 12
                 }
               ],
-              "location": "steps.HelperSteps.i_go_back_to(java.lang.String)"
+              "location": "steps.BestsellerSteps.i_click_bei_vendor_kaufen(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 2188000000,
+              "duration": 3097000000,
               "status": "passed"
             },
-            "line": 17,
-            "name": "I paginate to \"next\" page",
+            "line": 78,
+            "name": "I close the Amazon tab",
             "match": {
               "arguments": [
                 {
-                  "val": "\"next\"",
-                  "offset": 14
+                  "val": "Amazon",
+                  "offset": 12
                 }
               ],
-              "location": "steps.HelperSteps.i_paginate_to_next_page(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 104000000,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "I click page down 3",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3",
-                  "offset": 18
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_page_down(int)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1022000000,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "I paginate to \"previous\" page",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"previous\"",
-                  "offset": 14
-                }
-              ],
-              "location": "steps.HelperSteps.i_paginate_to_next_page(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1492000000,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "I click a random article of \"first\" section",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"first\"",
-                  "offset": 28
-                }
-              ],
-              "location": "steps.SpiegelPlusSteps.i_click_an_random_article_of_section(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 110000000,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "I click page down 3",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3",
-                  "offset": 18
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_page_down(int)"
+              "location": "steps.BestsellerSteps.i_close_vendor_tab(java.lang.String)"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@spiegelPlus"
+            "name": "@spiegelCultureBestseller"
           },
           {
-            "name": "@first_section"
+            "name": "@bestsellerKinderBuch"
           }
         ]
       },
       {
-        "line": 4,
+        "line": 5,
         "name": "",
         "description": "",
         "type": "background",
@@ -1011,10 +224,10 @@
         "steps": [
           {
             "result": {
-              "duration": 6897000000,
+              "duration": 4296000000,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "I start Spiegel",
             "match": {
               "location": "steps.MenuSteps.i_start_Spiegel()"
@@ -1023,10 +236,10 @@
           },
           {
             "result": {
-              "duration": 4346000000,
+              "duration": 6117000000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "I click Akzeptieren und weiter",
             "match": {
               "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
@@ -1035,20 +248,50 @@
           },
           {
             "result": {
-              "duration": 2739000000,
+              "duration": 454000000,
               "status": "passed"
             },
-            "line": 7,
-            "name": "I click SpiegelPlus",
+            "line": 8,
+            "name": "I bring culture menu into view",
             "match": {
-              "location": "steps.SpiegelPlusSteps.clickSpiegelPlus()"
+              "location": "steps.CultureSteps.i_bring_culture_menu_into_view()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1122000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click TopMenu culture",
+            "match": {
+              "location": "steps.CultureSteps.i_click_culture_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 370000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click culture SPIEGEL-Bestseller",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SPIEGEL-Bestseller",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.CultureSteps.i_click_menu(java.lang.String)"
             },
             "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2020-11-04T15:36:13.393Z",
+        "start_timestamp": "2020-11-08T14:42:27.287Z",
         "before": [
           {
             "result": {
@@ -1060,46 +303,28 @@
             }
           }
         ],
-        "line": 23,
-        "name": "Spiegel plus read random section articles",
+        "line": 82,
+        "name": "Bestseller KinderBuch",
         "description": "",
-        "id": "spiegel-lpus;spiegel-plus-read-random-section-articles",
+        "id": "spiegel-kultur;bestseller-kinderbuch;;3",
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 50000000,
+              "duration": 3904000000,
               "status": "passed"
             },
-            "line": 24,
-            "name": "I scroll to \"random\" section",
+            "line": 70,
+            "name": "I click bestseller Kinder/ Jugend",
             "match": {
               "arguments": [
                 {
-                  "val": "\"random\"",
-                  "offset": 12
+                  "val": "Kinder/ Jugend",
+                  "offset": 19
                 }
               ],
-              "location": "steps.SpiegelPlusSteps.i_scroll_to_section(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 4000000000,
-              "status": "passed"
-            },
-            "line": 25,
-            "name": "I click first article of \"random\" section",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"random\"",
-                  "offset": 25
-                }
-              ],
-              "location": "steps.SpiegelPlusSteps.i_click_first_article_of_section(java.lang.String)"
+              "location": "steps.BestsellerSteps.i_click_bestseller_menu(java.lang.String)"
             },
             "keyword": "Then "
           },
@@ -1108,195 +333,28 @@
               "duration": 472000000,
               "status": "passed"
             },
-            "line": 26,
-            "name": "I click page down 3",
+            "line": 71,
+            "name": "I click the bestseller sub_menu Jugendbuch",
             "match": {
               "arguments": [
                 {
-                  "val": "3",
-                  "offset": 18
+                  "val": "Jugendbuch",
+                  "offset": 32
                 }
               ],
-              "location": "steps.HelperSteps.i_click_page_down(int)"
+              "location": "steps.BestsellerSteps.i_click_bestseller_sub_menu(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 164000000,
+              "duration": 283000000,
               "status": "passed"
             },
-            "line": 27,
-            "name": "I go back to \"Plus - DER SPIEGEL\"",
+            "line": 72,
+            "name": "I scroll to a random bestseller",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"Plus - DER SPIEGEL\"",
-                  "offset": 13
-                }
-              ],
-              "location": "steps.HelperSteps.i_go_back_to(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1857000000,
-              "status": "passed"
-            },
-            "line": 28,
-            "name": "I click a random article of \"random\" section",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"random\"",
-                  "offset": 28
-                }
-              ],
-              "location": "steps.SpiegelPlusSteps.i_click_an_random_article_of_section(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 155000000,
-              "status": "passed"
-            },
-            "line": 29,
-            "name": "I click page down 3",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3",
-                  "offset": 18
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_page_down(int)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 194000000,
-              "status": "passed"
-            },
-            "line": 30,
-            "name": "I go back to \"Plus - DER SPIEGEL\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Plus - DER SPIEGEL\"",
-                  "offset": 13
-                }
-              ],
-              "location": "steps.HelperSteps.i_go_back_to(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@spiegelPlus"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 4635000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I start Spiegel",
-            "match": {
-              "location": "steps.MenuSteps.i_start_Spiegel()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 4339000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "I click Akzeptieren und weiter",
-            "match": {
-              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 505000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I click SpiegelPlus",
-            "match": {
-              "location": "steps.SpiegelPlusSteps.clickSpiegelPlus()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-04T15:36:34.276Z",
-        "before": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.TestCaseBase.setup()"
-            }
-          }
-        ],
-        "line": 32,
-        "name": "Spiegel plus read audio section articles",
-        "description": "",
-        "id": "spiegel-lpus;spiegel-plus-read-audio-section-articles",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 200000000,
-              "status": "passed"
-            },
-            "line": 33,
-            "name": "I scroll to \"audio\" section",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"audio\"",
-                  "offset": 12
-                }
-              ],
-              "location": "steps.SpiegelPlusSteps.i_scroll_to_section(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1075000000,
-              "status": "passed"
-            },
-            "line": 34,
-            "name": "I click first article of \"audio\" section",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"audio\"",
-                  "offset": 25
-                }
-              ],
-              "location": "steps.SpiegelPlusSteps.i_click_first_article_of_section(java.lang.String)"
+              "location": "steps.BestsellerSteps.i_scroll_to_random_bestseller_element()"
             },
             "keyword": "Then "
           },
@@ -1305,99 +363,73 @@
               "duration": 108000000,
               "status": "passed"
             },
-            "line": 35,
-            "name": "I click page down 3",
+            "line": 73,
+            "name": "I click mehr anzeigen",
             "match": {
-              "arguments": [
-                {
-                  "val": "3",
-                  "offset": 18
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_page_down(int)"
+              "location": "steps.BestsellerSteps.i_click_mehr_anzeigen()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 923000000,
+              "duration": 756000000,
               "status": "passed"
             },
-            "line": 36,
-            "name": "I go back to \"Plus - DER SPIEGEL\"",
+            "line": 76,
+            "name": "I move mouse over kaufen",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"Plus - DER SPIEGEL\"",
-                  "offset": 13
-                }
-              ],
-              "location": "steps.HelperSteps.i_go_back_to(java.lang.String)"
+              "location": "steps.BestsellerSteps.i_move_mouse_over_kaufen()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError\r\n\tat steps.SpiegelPlusSteps.i_click_an_random_article_of_section(SpiegelPlusSteps.java:91)\r\n\tat ✽.I click a random article of \"audio\" section(file:///C:/MyWorkspace/guineenews/src/test/resources/features/spiegelPlus.feature:37)\r\n",
-              "duration": 1958000000,
-              "status": "failed"
+              "duration": 499000000,
+              "status": "passed"
             },
-            "line": 37,
-            "name": "I click a random article of \"audio\" section",
+            "line": 77,
+            "name": "I click bei Thaila kaufen",
             "match": {
               "arguments": [
                 {
-                  "val": "\"audio\"",
-                  "offset": 28
+                  "val": "Thaila",
+                  "offset": 12
                 }
               ],
-              "location": "steps.SpiegelPlusSteps.i_click_an_random_article_of_section(java.lang.String)"
+              "location": "steps.BestsellerSteps.i_click_bei_vendor_kaufen(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2269000000,
+              "status": "passed"
             },
-            "line": 38,
-            "name": "I click page down 3",
+            "line": 78,
+            "name": "I close the Thaila tab",
             "match": {
               "arguments": [
                 {
-                  "val": "3",
-                  "offset": 18
+                  "val": "Thaila",
+                  "offset": 12
                 }
               ],
-              "location": "steps.HelperSteps.i_click_page_down(int)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 39,
-            "name": "I go back to \"Plus - DER SPIEGEL\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Plus - DER SPIEGEL\"",
-                  "offset": 13
-                }
-              ],
-              "location": "steps.HelperSteps.i_go_back_to(java.lang.String)"
+              "location": "steps.BestsellerSteps.i_close_vendor_tab(java.lang.String)"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@spiegelPlus"
+            "name": "@spiegelCultureBestseller"
+          },
+          {
+            "name": "@bestsellerKinderBuch"
           }
         ]
       },
       {
-        "line": 4,
+        "line": 5,
         "name": "",
         "description": "",
         "type": "background",
@@ -1405,10 +437,10 @@
         "steps": [
           {
             "result": {
-              "duration": 4386000000,
+              "duration": 4822000000,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "I start Spiegel",
             "match": {
               "location": "steps.MenuSteps.i_start_Spiegel()"
@@ -1417,10 +449,10 @@
           },
           {
             "result": {
-              "duration": 5599000000,
+              "duration": 6194000000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "I click Akzeptieren und weiter",
             "match": {
               "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
@@ -1429,23 +461,54 @@
           },
           {
             "result": {
-              "duration": 1851000000,
+              "duration": 426000000,
               "status": "passed"
             },
-            "line": 7,
-            "name": "I click SpiegelPlus",
+            "line": 8,
+            "name": "I bring culture menu into view",
             "match": {
-              "location": "steps.SpiegelPlusSteps.clickSpiegelPlus()"
+              "location": "steps.CultureSteps.i_bring_culture_menu_into_view()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1269000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click TopMenu culture",
+            "match": {
+              "location": "steps.CultureSteps.i_click_culture_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 482000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click culture SPIEGEL-Bestseller",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SPIEGEL-Bestseller",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.CultureSteps.i_click_menu(java.lang.String)"
             },
             "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2020-11-04T15:36:48.033Z",
+        "start_timestamp": "2020-11-08T14:42:47.952Z",
         "before": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -1453,169 +516,353 @@
             }
           }
         ],
-        "line": 42,
-        "name": "Spiegel plus read alle Beiträge section articles",
+        "line": 83,
+        "name": "Bestseller KinderBuch",
         "description": "",
-        "id": "spiegel-lpus;spiegel-plus-read-alle-beiträge-section-articles",
-        "after": [
-          {
-            "result": {
-              "duration": 1281000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.TestCaseBase.tearDown()"
-            }
-          }
-        ],
+        "id": "spiegel-kultur;bestseller-kinderbuch;;4",
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 20000000,
+              "duration": 6446000000,
               "status": "passed"
             },
-            "line": 43,
-            "name": "I scroll to \"alle_Beitraege\" section",
+            "line": 70,
+            "name": "I click bestseller Kinder/ Jugend",
             "match": {
               "arguments": [
                 {
-                  "val": "\"alle_Beitraege\"",
+                  "val": "Kinder/ Jugend",
+                  "offset": 19
+                }
+              ],
+              "location": "steps.BestsellerSteps.i_click_bestseller_menu(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 455000000,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "I click the bestseller sub_menu Bilderbuch",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bilderbuch",
+                  "offset": 32
+                }
+              ],
+              "location": "steps.BestsellerSteps.i_click_bestseller_sub_menu(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 902000000,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "I scroll to a random bestseller",
+            "match": {
+              "location": "steps.BestsellerSteps.i_scroll_to_random_bestseller_element()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 244000000,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "I click mehr anzeigen",
+            "match": {
+              "location": "steps.BestsellerSteps.i_click_mehr_anzeigen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 198000000,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "I move mouse over kaufen",
+            "match": {
+              "location": "steps.BestsellerSteps.i_move_mouse_over_kaufen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 353000000,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "I click bei Thaila kaufen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Thaila",
                   "offset": 12
                 }
               ],
-              "location": "steps.SpiegelPlusSteps.i_scroll_to_section(java.lang.String)"
+              "location": "steps.BestsellerSteps.i_click_bei_vendor_kaufen(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 43000000,
+              "duration": 2458000000,
               "status": "passed"
             },
-            "line": 44,
-            "name": "I scroll to alle Beitraege \"last\" article",
+            "line": 78,
+            "name": "I close the Thaila tab",
             "match": {
               "arguments": [
                 {
-                  "val": "\"last\"",
-                  "offset": 27
+                  "val": "Thaila",
+                  "offset": 12
                 }
               ],
-              "location": "steps.HelperSteps.i_scroll_to_alle_Beitraegearticle(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 36000000,
-              "status": "passed"
-            },
-            "line": 45,
-            "name": "I scroll to alle Beitraege \"random\" article",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"random\"",
-                  "offset": 27
-                }
-              ],
-              "location": "steps.HelperSteps.i_scroll_to_alle_Beitraegearticle(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 335000000,
-              "status": "passed"
-            },
-            "line": 46,
-            "name": "I click a \"random\" article of alle Beitraege section",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"random\"",
-                  "offset": 10
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 360000000,
-              "status": "passed"
-            },
-            "line": 47,
-            "name": "I click page down 3",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3",
-                  "offset": 18
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_page_down(int)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 234000000,
-              "status": "passed"
-            },
-            "line": 48,
-            "name": "I go back to \"Plus - DER SPIEGEL\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Plus - DER SPIEGEL\"",
-                  "offset": 13
-                }
-              ],
-              "location": "steps.HelperSteps.i_go_back_to(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2619000000,
-              "status": "passed"
-            },
-            "line": 49,
-            "name": "I paginate to \"next\" page",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"next\"",
-                  "offset": 14
-                }
-              ],
-              "location": "steps.HelperSteps.i_paginate_to_next_page(java.lang.String)"
+              "location": "steps.BestsellerSteps.i_close_vendor_tab(java.lang.String)"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@spiegelPlus"
+            "name": "@spiegelCultureBestseller"
           },
           {
-            "name": "@end"
+            "name": "@bestsellerKinderBuch"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5886000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I start Spiegel",
+            "match": {
+              "location": "steps.MenuSteps.i_start_Spiegel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6409000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click Akzeptieren und weiter",
+            "match": {
+              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 429000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I bring culture menu into view",
+            "match": {
+              "location": "steps.CultureSteps.i_bring_culture_menu_into_view()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1061000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click TopMenu culture",
+            "match": {
+              "location": "steps.CultureSteps.i_click_culture_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 529000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click culture SPIEGEL-Bestseller",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SPIEGEL-Bestseller",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.CultureSteps.i_click_menu(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-08T14:43:12.214Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.TestCaseBase.setup()"
+            }
+          }
+        ],
+        "line": 84,
+        "name": "Bestseller KinderBuch",
+        "description": "",
+        "id": "spiegel-kultur;bestseller-kinderbuch;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4343000000,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "I click bestseller Kinder/ Jugend",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Kinder/ Jugend",
+                  "offset": 19
+                }
+              ],
+              "location": "steps.BestsellerSteps.i_click_bestseller_menu(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2271000000,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "I click the bestseller sub_menu Hörbuch",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hörbuch",
+                  "offset": 32
+                }
+              ],
+              "location": "steps.BestsellerSteps.i_click_bestseller_sub_menu(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 896000000,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "I scroll to a random bestseller",
+            "match": {
+              "location": "steps.BestsellerSteps.i_scroll_to_random_bestseller_element()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 353000000,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "I click mehr anzeigen",
+            "match": {
+              "location": "steps.BestsellerSteps.i_click_mehr_anzeigen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 206000000,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "I move mouse over kaufen",
+            "match": {
+              "location": "steps.BestsellerSteps.i_move_mouse_over_kaufen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 385000000,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "I click bei Amazon kaufen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Amazon",
+                  "offset": 12
+                }
+              ],
+              "location": "steps.BestsellerSteps.i_click_bei_vendor_kaufen(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2127000000,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "I close the Amazon tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Amazon",
+                  "offset": 12
+                }
+              ],
+              "location": "steps.BestsellerSteps.i_close_vendor_tab(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@spiegelCultureBestseller"
+          },
+          {
+            "name": "@bestsellerKinderBuch"
           }
         ]
       }
     ],
-    "name": "Spiegel Lpus",
+    "name": "Spiegel Kultur",
     "description": "",
-    "id": "spiegel-lpus",
+    "id": "spiegel-kultur",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/spiegelPlus.feature",
+    "uri": "file:src/test/resources/features/bestseller.feature",
     "tags": [
       {
-        "name": "@spiegelPlus",
+        "name": "@spiegelCultureBestseller",
         "type": "Tag",
         "location": {
           "line": 1,

@@ -19,3 +19,5 @@ Feature: Spiegel Kultur
         | Musik |
         | TV |
         | Literatur |
+        |Streaming  |
+        |Kunst      |

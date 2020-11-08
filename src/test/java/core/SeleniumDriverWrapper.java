@@ -9,10 +9,12 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
-import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
+
+import static java.lang.Thread.sleep;
 
 //the Base page extends this class and so every page-class extends indirectly this class
 public class SeleniumDriverWrapper {
@@ -63,6 +65,10 @@ public class SeleniumDriverWrapper {
         {
             MyLogger.logger.error("Element: "+ myLocator +" was not found" + e.getMessage());
             //throw new NoSuchElementException("Element was not found" + myLocator);
+        }
+        catch (Exception e)
+        {
+            MyLogger.logger.error("Element: "+ myLocator +" was not found" + e.getMessage());
         }
         finally {
             return element;
@@ -124,22 +130,52 @@ public class SeleniumDriverWrapper {
     {
         try {
             WebElement element = getElement(myLocator, myLocatorType);
+            waitForElementToBeClickable(element,10);
             element.click();
+            implicitlyWait(3);
         }
         catch (ElementClickInterceptedException e)
         {
             MyLogger.logger.error("Element Click Intercepted Exception: " + myLocatorType + e.getMessage());
+            takeScreenhot("click_");
         }
         catch (ElementNotVisibleException e)
         {
             MyLogger.logger.error("Element Not Visible Exception: " + myLocatorType + e.getMessage());
+            takeScreenhot("click_");
         }
     }
 
     public void clickElement( WebElement element)
     {
         try {
+            waitForElementToBeClickable(element,10);
             element.click();
+            implicitlyWait(3);
+        }
+        catch (ElementClickInterceptedException e)
+        {
+            MyLogger.logger.error("Element Click Intercepted Exception: "  + e.getMessage());
+            takeScreenhot("click_");
+        }
+        catch (ElementNotVisibleException e)
+        {
+            MyLogger.logger.error("Element Not Visible Exception: " + e.getMessage());
+            takeScreenhot("click_");
+        }
+        catch(ElementNotInteractableException e)
+        {
+            MyLogger.logger.error("Element not interactable exception: " + e.getMessage());
+            takeScreenhot("click_");
+        }
+    }
+/*
+    public void moveMouseOnElement( WebElement element)
+    {
+        Actions action =new Actions(driver);
+        try {
+            waitForElementToBeVisible(element,10);
+            action.moveToElement(element).perform();
             implicitlyWait(3);
         }
         catch (ElementClickInterceptedException e)
@@ -150,7 +186,12 @@ public class SeleniumDriverWrapper {
         {
             MyLogger.logger.error("Element Not Visible Exception: " + e.getMessage());
         }
+        catch(ElementNotInteractableException e)
+        {
+            MyLogger.logger.error("Element not interactable exception: " + e.getMessage());
+        }
     }
+    */
 
     public void TypeTextInField(String myLocator, String myLocatorType, String text)
     {
@@ -311,6 +352,7 @@ public class SeleniumDriverWrapper {
         catch (Exception e)
         {
             MyLogger.logger.error( e.getMessage());
+            takeScreenhot("not_displayed_");
         }
         finally {
             return isDisplayed;
@@ -617,16 +659,24 @@ public class SeleniumDriverWrapper {
     public void goBack() {
         Object last_height;
         try {
-            //last_height = ((JavascriptExecutor) driver).executeScript("return document.body.scrollHeight");
-            //((JavascriptExecutor) driver).executeScript("window.scrollTo(0, document.body.scrollHeight);");
-            ((JavascriptExecutor) driver).executeScript("window.history.go(-1)");
-
-            //actions = ActionChains(self.driver)
-            //actions.send_keys(Keys.ALT, Keys.LEFT).perform()
-            //actions.key_down(Keys.ALT).send_keys(Keys.LEFT).key_up(Keys.ALT).perform()
+            JavascriptExecutor js = (JavascriptExecutor) driver;
+            js.executeScript("window.history.back();");
+            sleep(2000);
         } catch (Exception e) {
             e.printStackTrace();
-            takeScreenhot("goback");
+            MyLogger.logger.error(e.getMessage());
+        }
+    }
+
+    public void goForward() {
+        Object last_height;
+        try {
+            JavascriptExecutor js = (JavascriptExecutor) driver;
+            js.executeScript("window.history.forward();");
+            sleep(2000);
+        } catch (Exception e) {
+            e.printStackTrace();
+            takeScreenhot("goForward()");
             MyLogger.logger.error(e.getMessage());
         }
     }
@@ -634,7 +684,6 @@ public class SeleniumDriverWrapper {
     public void iClickBackButton() {
         Object last_height;
         try {
-
             Actions actions = new Actions(driver);
             //actions.sendKeys(Keys.ALT, Keys.LEFT).perform();
             actions.keyDown(Keys.ALT).sendKeys(Keys.LEFT).keyUp(Keys.ALT).perform();
@@ -645,12 +694,17 @@ public class SeleniumDriverWrapper {
         }
     }
 
-    public void moveToElement(WebElement element)
+    public void moveMouseOnElement(WebElement element)
     {
         Actions actions = new Actions(driver);
         try
         {
-            actions.moveToElement(element);
+            waitForElementToBeVisible(element,3);
+            actions.moveToElement(element).perform();
+            //implicitlyWait(3);
+        } catch (IllegalArgumentException a)
+        {
+            MyLogger.logger.error(a.getMessage());
         }
         catch (Exception e) {
         MyLogger.logger.error(e.getMessage());
@@ -753,5 +807,51 @@ public class SeleniumDriverWrapper {
     public void switch_back_toDefault()
     {
         driver.switchTo().defaultContent();
+    }
+
+    public void openTab()
+    {
+        Actions actions = new Actions(driver);
+        actions.keyDown(Keys.LEFT_CONTROL).sendKeys("t").build().perform();
+        ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
+        driver.switchTo().window(tabs.get(tabs.size()-1));
+    }
+
+    public void openElementInNewTab(WebElement element) {
+        Actions actions = new Actions(driver);
+        try {
+            actions.moveToElement(element).keyDown(Keys.LEFT_CONTROL).click(element).build().perform();
+            ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
+            driver.switchTo().window(tabs.get(tabs.size()-1));
+            sleep(3000);
+        }
+        catch(InterruptedException e)
+        {
+            MyLogger.logger.error(e.getMessage());
+        }
+
+    }
+
+    public void close_tab()
+    {
+        ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
+        if (tabs.size() > 1)
+            driver.close();
+        else MyLogger.logger.warn("Only one tab was active. I did not close it");
+        driver.switchTo().window(tabs.get(0));
+    }
+
+    public void switchToTab(int i)
+    {
+        ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
+        if(i< tabs.size())
+            driver.switchTo().window(tabs.get(i));
+        else MyLogger.logger.warn("WARNING: Tab"+i+"does not exists");
+    }
+
+    public int getTabCount()
+    {
+        ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
+        return tabs.size();
     }
 }

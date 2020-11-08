@@ -3,7 +3,7 @@ Feature: Spiegel Plus
 
   Background:
     Given I start Spiegel
-    Then I click Akzeptieren und weiter
+    #Then I click Akzeptieren und weiter
     Then I click SpiegelPlus
 
   @first_section

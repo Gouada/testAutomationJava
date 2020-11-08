@@ -5,6 +5,8 @@ import io.cucumber.java.en.Then;
 import org.junit.Assert;
 import pages.ArticlesListBasePage;
 
+import static java.lang.Thread.sleep;
+
 public class HelperSteps {
 
     private static ArticlesListBasePage page = new ArticlesListBasePage(TestCaseBase.driver);
@@ -103,17 +105,15 @@ public class HelperSteps {
             Assert.assertTrue(page.getitle().contains(title));
             //Assert.assertTrue(page.getPageSource().contains("SPIEGEL+"));
             //sleep(10000);
-        }catch (Exception  e)
+        }
+        catch (Exception  e)
         {
             MyLogger.logger.error("Step 'i_go_back': "+e.getMessage());
-            page.takeScreenhot("i_go_back");
+            page.takeScreenhot("i_go_back" + title);
             e.printStackTrace();
             throw new AssertionError();
         }
-        catch(AssertionError  e)
-        {
-            page.takeScreenhot("i_go_back");
-        }
+
 
     }
 
@@ -170,6 +170,7 @@ public class HelperSteps {
                 //Assert.assertTrue(spiegelPlus.getCurrentURL().equals("https://www.spiegel.de/plus/p2/"));
                 //Assert.assertTrue(spiegelPlus.isLeftNavigationVisible());
                 //page.implicitlyWait(5);
+                //sleep(5000);
             }
         }
         catch (Exception e)

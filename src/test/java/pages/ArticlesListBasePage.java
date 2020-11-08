@@ -11,7 +11,7 @@ public class ArticlesListBasePage extends BasePage{
     private static final String alle_Beitrege_section = "//section[@data-area='article-teaser-list']";
     private static final String alle_beitraege_list = "//section[@data-area='article-teaser-list']//div[@data-block-el='articleTeaser']";
     private static final String nav_right = "//span[contains(@title, 'ltere Artikel')]";
-    private static final String nav_left = "//span[@title='Neuere Artikel']";
+    private static final String nav_left = "//span[contains(@title,'Neuere Artikel')]";
 
     public ArticlesListBasePage(WebDriver driver) {
         super(driver);
@@ -50,7 +50,7 @@ public class ArticlesListBasePage extends BasePage{
     public void clickAlleBeitraegeElement(int articleNr)
     {
         String myLocator = getAllebeitraegeElementXpath(articleNr);
-        moveToElement(getElementByXpath(myLocator));
+        moveMouseOnElement(getElementByXpath(myLocator));
         //scrollIntoView(getElementByXpath(myLocator));
         clickElement(myLocator, "xpath");
     }
@@ -61,18 +61,18 @@ public class ArticlesListBasePage extends BasePage{
         int articleCount = getElementsByXpath(alle_beitraege_list).size()-1;
         Random rnd = new Random();
         int rndId = rnd.nextInt(articleCount);
-        moveToElement(getElementsByXpath(alle_beitraege_list).get(rndId));
+        moveMouseOnElement(getElementsByXpath(alle_beitraege_list).get(rndId));
     }
 
     public void scrollToAlleBeitraegeSectionArticle(int articleNr)
     {
-        moveToElement(getElementsByXpath(alle_beitraege_list).get(articleNr));
+        moveMouseOnElement(getElementsByXpath(alle_beitraege_list).get(articleNr));
     }
 
     public void scrollToAlleBeitraegeSectionLastArticle()
     {
         int articleNr = getElementsByXpath(alle_beitraege_list).size() -1;
-        moveToElement(getElementsByXpath(alle_beitraege_list).get(articleNr));
+        moveMouseOnElement(getElementsByXpath(alle_beitraege_list).get(articleNr));
     }
 
     //paginate to left or right according to specified direction
@@ -83,7 +83,7 @@ public class ArticlesListBasePage extends BasePage{
             element = getElementByXpath(nav_right);
         else if(direction.equals("left"))
             element = getElementByXpath(nav_left);
-        moveToElement(element);
+        moveMouseOnElement(element);
         implicitlyWait(3);
         clickElement(element);
     }
@@ -100,7 +100,7 @@ public class ArticlesListBasePage extends BasePage{
         try{
             if(indentificator.equals("alle_Beitraege"))
                 element = getElementByXpath(alle_Beitrege_section);
-            moveToElement(element);
+            moveMouseOnElement(element);
         }
         catch (Exception e)
         {

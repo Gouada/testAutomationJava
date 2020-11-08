@@ -69,7 +69,7 @@ public class SpiegelPlus extends ArticlesListBasePage{
     public void clickSectionArticle(int sectionNr, int articleNr)
     {
         String myLocator = "(" + getSectionArticleXpath(sectionNr, articleNr) + "//a)[1]";
-        moveToElement(getElementByXpath(myLocator));
+        moveMouseOnElement(getElementByXpath(myLocator));
         clickElement(getElementByXpath(myLocator));
 
     }
@@ -109,7 +109,7 @@ public class SpiegelPlus extends ArticlesListBasePage{
     public void scrollToSection(int sectionNr)
     {
         WebElement section = getElementByXpath(getSectionXpath(sectionNr));
-        moveToElement(section);
+        moveMouseOnElement(section);
     }
 
 }

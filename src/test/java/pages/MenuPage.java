@@ -1,6 +1,5 @@
 package pages;
 
-import org.junit.jupiter.api.AfterAll;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
@@ -74,7 +73,7 @@ public class MenuPage extends BasePage{
     public void clickATopMenu(String menuName)
     {
         String myLocator = getTopMenuXpathString(menuName);
-        moveToElement(getElement(myLocator,"xpath"));
+        moveMouseOnElement(getElement(myLocator,"xpath"));
         clickElement(getElement(myLocator, "xpath"));
     }
 
