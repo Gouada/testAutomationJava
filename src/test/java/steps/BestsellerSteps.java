@@ -41,8 +41,8 @@ public class BestsellerSteps {
         sleep(3000);
         Assert.assertTrue(bestSellerBasePage.getPageTitle().contains("Bestseller"));
         System.out.println(menu);
-        System.out.println(menu.split(" ")[1]);
-        if(menu.split(" ")[1].equals("Jugend"))
+        //System.out.println(menu.split(" ")[1]);
+        if(menu.contains("Jugend"))
             Assert.assertTrue(bestSellerBasePage.getPageTitle().contains("Kinderbücher ") || bestSellerBasePage.getPageTitle().contains("Bilderbücher") );
         else if(menu.equals(CultureBestsellerMenus.DVD.getTitle()))
             Assert.assertTrue(bestSellerBasePage.getPageTitle().contains("DVD-Charts - die Top 20 ") );

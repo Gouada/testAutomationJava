@@ -1,6 +1,11 @@
+C:\MyWorkspace\guineenews\src\test\java\pages\BestSellerBasePage.java
+C:\MyWorkspace\guineenews\src\test\java\constants\CultureBestsellerSubMenus.java
+C:\MyWorkspace\guineenews\src\test\java\pages\BestSeller.java
 C:\MyWorkspace\guineenews\src\test\java\pages\ArticlesListBasePage.java
 C:\MyWorkspace\guineenews\src\test\java\steps\TestCaseBase.java
 C:\MyWorkspace\guineenews\src\test\java\pages\StartPage.java
+C:\MyWorkspace\guineenews\src\test\java\steps\BestsellerSteps.java
+C:\MyWorkspace\guineenews\src\test\java\constants\CultureBestsellerMenus.java
 C:\MyWorkspace\guineenews\src\test\java\core\FirefoxDriverManager.java
 C:\MyWorkspace\guineenews\src\test\java\runners\SpiegelRunner.java
 C:\MyWorkspace\guineenews\src\test\java\core\SeleniumDriverWrapper.java
