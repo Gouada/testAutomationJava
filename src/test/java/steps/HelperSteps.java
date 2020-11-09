@@ -9,7 +9,7 @@ import static java.lang.Thread.sleep;
 
 public class HelperSteps {
 
-    private static ArticlesListBasePage page = new ArticlesListBasePage(TestCaseBase.driver);
+    private  ArticlesListBasePage page = new ArticlesListBasePage(TestCaseBase.driver);
 
     @Then("I scroll to bottom")
     public void i_scroll_to_bottom()
@@ -96,12 +96,12 @@ public class HelperSteps {
     }
 
     @Then("I go back to {string}")
-    public static void i_go_back_to(String title) {
+    public void i_go_back_to(String title) {
         try {
             page.goBack();
             sleep(3000);
             //spiegelPlus.iClickBackButton();
-            //spiegelPlus.waitForPageToLoad(title);
+            page.waitForPageToLoad(title);
             //page.implicitlyWait(5);
             Assert.assertTrue(page.getitle().contains(title));
             //Assert.assertTrue(page.getPageSource().contains("SPIEGEL+"));

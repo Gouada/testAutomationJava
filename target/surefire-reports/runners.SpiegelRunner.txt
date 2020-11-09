@@ -1,28 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: runners.SpiegelRunner
 -------------------------------------------------------------------------------
-Tests run: 24, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 537.883 sec <<< FAILURE!
-Bestseller DVD #2(Spiegel Kultur #1)  Time elapsed: 38.053 sec  <<< FAILURE!
+Tests run: 24, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 480.677 sec <<< FAILURE!
+Spiegel plus read random section articles(Spiegel Plus)  Time elapsed: 8.589 sec  <<< FAILURE!
 java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:86)
 	at org.junit.Assert.assertTrue(Assert.java:41)
 	at org.junit.Assert.assertTrue(Assert.java:52)
-	at steps.BestsellerSteps.i_click_bei_vendor_kaufen(BestsellerSteps.java:73)
-	at ?.I click bei Thaila kaufen(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:43)
-
-navigate on culture sub-menu #5(Spiegel Kultur #2)  Time elapsed: 20.381 sec  <<< FAILURE!
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at steps.HelperSteps.i_go_back_to(HelperSteps.java:106)
-	at ?.I go back to "Streaming - Kultur - DER SPIEGEL"(file:///C:/MyWorkspace/guineenews/src/test/resources/features/culturePage.feature:15)
-
-navigate on culture sub-menu #6(Spiegel Kultur #2)  Time elapsed: 20.207 sec  <<< FAILURE!
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at steps.HelperSteps.i_go_back_to(HelperSteps.java:106)
-	at ?.I go back to "Kunst - Kultur - DER SPIEGEL"(file:///C:/MyWorkspace/guineenews/src/test/resources/features/culturePage.feature:15)
+	at steps.SpiegelPlusSteps.clickSpiegelPlus(SpiegelPlusSteps.java:21)
+	at ?.I click SpiegelPlus(file:///C:/MyWorkspace/guineenews/src/test/resources/features/spiegelPlus.feature:7)
 

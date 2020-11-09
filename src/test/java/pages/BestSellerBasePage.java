@@ -12,6 +12,8 @@ public class BestSellerBasePage extends BasePage{
     private static final String menus = "(//div[@data-component='SwiperBar'])[1]//ul//li";
     private static final String sub_menus = "(//div[@data-component='SwiperBar'])[2]//ul//li";
     private static final String element_lits = "//div[@data-component='BestsellerAccordionSection']";
+    //private static final String add_close_btn = "//button[@id='btnClose']";
+
     //private static final String bei_thaila_bestellen_button =
     //private static final String bei_amazon_bestellen_button =
 
@@ -125,7 +127,8 @@ public class BestSellerBasePage extends BasePage{
         System.out.println("xpath:.........."+xpath);
         WebElement element = getElementByXpath(xpath);
         moveMouseOnElement(element);
-        if(!isElementDisplayed(element))
+        /*if(!isElementDisplayed(element))
             scrollIntoView(element);
+         */
     }
 }

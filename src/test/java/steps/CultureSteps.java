@@ -3,6 +3,7 @@ package steps;
 import constants.CulturMenus;
 import constants.Menu;
 import io.cucumber.java.en.Then;
+import org.junit.Assert;
 import pages.CulturePage;
 import pages.MenuPage;
 
@@ -25,12 +26,18 @@ public class CultureSteps {
         culturePage.clickMenuElement(menu);
     }
 
-    @Then("I go back to (.*) - Kultur - DER SPIEGEL")
+    @Then("^I navigate back to (.*) - Kultur - DER SPIEGEL$")
     public void i_go_back_to_menu_kultur_der_spiegel(String menu) {
-        String title = menu + " - Kultur - DER SPIEGEL";
-        if(menu.equals(CulturMenus.KUNST.getTitle()) || menu.equals(CulturMenus.STREAMING.getTitle()))
+        String title;
+        if(menu.contains("Kunst") || menu.contains("Streaming"))
             title = menu + " - DER SPIEGEL";
-        HelperSteps.i_go_back_to(title);
+        else title = menu + " - Kultur - DER SPIEGEL";
+        System.out.println("title:......."+title+"   CulturMenus.KUNST.getTitle() "+CulturMenus.KUNST.getTitle());
+        culturePage.goBack();
+        culturePage.waitForPageToLoad(title);
+        Assert.assertTrue(culturePage.getitle().contains(title));
+        //System.out.println("title:......."+title+"   CulturMenus.KUNST.getTitle() "+CulturMenus.KUNST.getTitle());
+        //HelperSteps.i_go_back_to(title);
     }
 
 }

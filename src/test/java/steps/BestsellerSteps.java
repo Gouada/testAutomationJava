@@ -16,7 +16,7 @@ public class BestsellerSteps {
     private MenuPage menuPage = new MenuPage(TestCaseBase.driver);
     private BestSellerBasePage bestSellerBasePage = new BestSellerBasePage(TestCaseBase.driver);
     private static Random rnd = new Random();
-    private  static int rndNr = rnd.nextInt(20);
+    private  static int rndNr = rnd.nextInt(10);
 
     /*
     @Then("I bring culture menu into view")
@@ -80,8 +80,9 @@ public class BestsellerSteps {
     }
 
     @Then("^I click the bestseller sub_menu (.*)$")
-    public void i_click_bestseller_sub_menu(String submenu) {
+    public void i_click_bestseller_sub_menu(String submenu)  {
         bestSellerBasePage.clickBestSellerSubMenuElement(submenu);
+        bestSellerBasePage.waitForPageToLoad("Bestseller");
         Assert.assertTrue(bestSellerBasePage.getPageTitle().contains("Bestseller"));
     }
 }

@@ -12,7 +12,7 @@ Feature: Spiegel Kultur
       Then I click culture <menu>
       Then I click a "random" article of alle Beitraege section
       Then I click page down 3
-      Then I go back to "<menu> - Kultur - DER SPIEGEL"
+      Then I navigate back to <menu> - Kultur - DER SPIEGEL
       Examples:
         |menu|
         | Kino |

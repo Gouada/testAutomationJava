@@ -8,6 +8,10 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class BasePage extends SeleniumDriverWrapper {
     WebDriver driver;
+
+    private static final String adversting_close_btn = "//button[@id='btnClose']";
+    private static final String adversting_colapse_btn = "//button[@id='btnCollapse']";
+
     public BasePage(WebDriver driver)
     {
         super(driver);
@@ -23,7 +27,7 @@ public class BasePage extends SeleniumDriverWrapper {
     {
         try {
             WebDriverWait dw = new WebDriverWait(driver, 15);
-            dw.until(ExpectedConditions.titleIs(title));
+            dw.until(ExpectedConditions.titleContains(title));
         }
         catch (Exception e)
         {
@@ -31,4 +35,15 @@ public class BasePage extends SeleniumDriverWrapper {
         }
     }
 
+    public void colapseAdversting()
+    {
+        if (isElementDisplayed(getElementByXpath(adversting_colapse_btn)))
+            clickElement(getElementByXpath(adversting_colapse_btn));
+    }
+
+    public void closeAdversting()
+    {
+        if (isElementDisplayed(getElementByXpath(adversting_close_btn)))
+            clickElement(getElementByXpath(adversting_close_btn));
+    }
 }

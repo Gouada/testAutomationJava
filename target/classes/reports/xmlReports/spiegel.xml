@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="24" time="536.937">
-<testcase classname="Spiegel Kultur" name="Bestseller Books" time="31.313">
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="24" time="478.519">
+<testcase classname="Spiegel Kultur" name="Bestseller Books" time="28.844">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring culture menu into view.........................................passed
@@ -14,7 +14,7 @@ Then I click bei Thaila kaufen..............................................pass
 Then I close the Thaila tab.................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur" name="Bestseller Books 2" time="22.147">
+<testcase classname="Spiegel Kultur" name="Bestseller Books 2" time="21.288">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring culture menu into view.........................................passed
@@ -28,7 +28,7 @@ Then I click bei Amazon kaufen..............................................pass
 Then I close the Amazon tab.................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur" name="Bestseller Books 3" time="21.019">
+<testcase classname="Spiegel Kultur" name="Bestseller Books 3" time="21.911">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring culture menu into view.........................................passed
@@ -42,7 +42,7 @@ Then I click bei Thaila kaufen..............................................pass
 Then I close the Thaila tab.................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur" name="Bestseller DVD" time="25.089">
+<testcase classname="Spiegel Kultur" name="Bestseller DVD" time="23.699">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring culture menu into view.........................................passed
@@ -57,8 +57,8 @@ Then I click bei Amazon kaufen..............................................pass
 Then I close the Amazon tab.................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur" name="Bestseller DVD 2" time="38.046">
-<failure message="" type="java.lang.AssertionError"><![CDATA[Given I start Spiegel.......................................................passed
+<testcase classname="Spiegel Kultur" name="Bestseller DVD 2" time="23.677">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring culture menu into view.........................................passed
 And I click TopMenu culture.................................................passed
@@ -68,19 +68,11 @@ Then I click the bestseller sub_menu TV & Hobby.............................pass
 Then I scroll to a random bestseller........................................passed
 Then I click mehr anzeigen..................................................passed
 Then I move mouse over kaufen...............................................passed
-Then I click bei Thaila kaufen..............................................failed
-Then I close the Thaila tab.................................................skipped
-
-StackTrace:
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at steps.BestsellerSteps.i_click_bei_vendor_kaufen(BestsellerSteps.java:73)
-	at ✽.I click bei Thaila kaufen(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:43)
-]]></failure>
+Then I click bei Thaila kaufen..............................................passed
+Then I close the Thaila tab.................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur" name="Bestseller Ratgeber" time="23.762">
+<testcase classname="Spiegel Kultur" name="Bestseller Ratgeber" time="23.476">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring culture menu into view.........................................passed
@@ -95,7 +87,7 @@ Then I click bei Thaila kaufen..............................................pass
 Then I close the Thaila tab.................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur" name="Bestseller Ratgeber 2" time="22.325">
+<testcase classname="Spiegel Kultur" name="Bestseller Ratgeber 2" time="25.611">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring culture menu into view.........................................passed
@@ -110,7 +102,7 @@ Then I click bei Amazon kaufen..............................................pass
 Then I close the Amazon tab.................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur" name="Bestseller Ratgeber 3" time="21.819">
+<testcase classname="Spiegel Kultur" name="Bestseller Ratgeber 3" time="21.525">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring culture menu into view.........................................passed
@@ -125,7 +117,7 @@ Then I click bei Thaila kaufen..............................................pass
 Then I close the Thaila tab.................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur" name="Bestseller Ratgeber 4" time="25.618">
+<testcase classname="Spiegel Kultur" name="Bestseller Ratgeber 4" time="24.121">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring culture menu into view.........................................passed
@@ -140,7 +132,7 @@ Then I click bei Amazon kaufen..............................................pass
 Then I close the Amazon tab.................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur" name="Bestseller KinderBuch" time="21.25">
+<testcase classname="Spiegel Kultur" name="Bestseller KinderBuch" time="22.308">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring culture menu into view.........................................passed
@@ -155,7 +147,7 @@ Then I click bei Amazon kaufen..............................................pass
 Then I close the Amazon tab.................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur" name="Bestseller KinderBuch 2" time="22.994">
+<testcase classname="Spiegel Kultur" name="Bestseller KinderBuch 2" time="22.175">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring culture menu into view.........................................passed
@@ -170,7 +162,7 @@ Then I click bei Thaila kaufen..............................................pass
 Then I close the Thaila tab.................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur" name="Bestseller KinderBuch 3" time="21.992">
+<testcase classname="Spiegel Kultur" name="Bestseller KinderBuch 3" time="22.493">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring culture menu into view.........................................passed
@@ -185,7 +177,7 @@ Then I click bei Thaila kaufen..............................................pass
 Then I close the Thaila tab.................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur" name="Bestseller KinderBuch 4" time="21.242">
+<testcase classname="Spiegel Kultur" name="Bestseller KinderBuch 4" time="24.817">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring culture menu into view.........................................passed
@@ -200,7 +192,7 @@ Then I click bei Amazon kaufen..............................................pass
 Then I close the Amazon tab.................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu" time="20.968">
+<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu" time="16.348">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring culture menu into view.........................................passed
@@ -208,10 +200,10 @@ And I click TopMenu culture.................................................pass
 Then I click culture Kino...................................................passed
 Then I click a "random" article of alle Beitraege section...................passed
 Then I click page down 3....................................................passed
-Then I go back to "Kino - Kultur - DER SPIEGEL".............................passed
+Then I navigate back to Kino - Kultur - DER SPIEGEL.........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu 2" time="19.13">
+<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu 2" time="14.242">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring culture menu into view.........................................passed
@@ -219,10 +211,10 @@ And I click TopMenu culture.................................................pass
 Then I click culture Musik..................................................passed
 Then I click a "random" article of alle Beitraege section...................passed
 Then I click page down 3....................................................passed
-Then I go back to "Musik - Kultur - DER SPIEGEL"............................passed
+Then I navigate back to Musik - Kultur - DER SPIEGEL........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu 3" time="16.911">
+<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu 3" time="15.054">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring culture menu into view.........................................passed
@@ -230,10 +222,10 @@ And I click TopMenu culture.................................................pass
 Then I click culture TV.....................................................passed
 Then I click a "random" article of alle Beitraege section...................passed
 Then I click page down 3....................................................passed
-Then I go back to "TV - Kultur - DER SPIEGEL"...............................passed
+Then I navigate back to TV - Kultur - DER SPIEGEL...........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu 4" time="19.082">
+<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu 4" time="14.337">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring culture menu into view.........................................passed
@@ -241,53 +233,37 @@ And I click TopMenu culture.................................................pass
 Then I click culture Literatur..............................................passed
 Then I click a "random" article of alle Beitraege section...................passed
 Then I click page down 3....................................................passed
-Then I go back to "Literatur - Kultur - DER SPIEGEL"........................passed
+Then I navigate back to Literatur - Kultur - DER SPIEGEL....................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu 5" time="20.379">
-<failure message="" type="java.lang.AssertionError"><![CDATA[Given I start Spiegel.......................................................passed
+<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu 5" time="15.045">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring culture menu into view.........................................passed
 And I click TopMenu culture.................................................passed
 Then I click culture Streaming..............................................passed
 Then I click a "random" article of alle Beitraege section...................passed
 Then I click page down 3....................................................passed
-Then I go back to "Streaming - Kultur - DER SPIEGEL"........................failed
-
-StackTrace:
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at steps.HelperSteps.i_go_back_to(HelperSteps.java:106)
-	at ✽.I go back to "Streaming - Kultur - DER SPIEGEL"(file:///C:/MyWorkspace/guineenews/src/test/resources/features/culturePage.feature:15)
-]]></failure>
+Then I navigate back to Streaming - Kultur - DER SPIEGEL....................passed
+]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu 6" time="20.205">
-<failure message="" type="java.lang.AssertionError"><![CDATA[Given I start Spiegel.......................................................passed
+<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu 6" time="15.665">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring culture menu into view.........................................passed
 And I click TopMenu culture.................................................passed
 Then I click culture Kunst..................................................passed
 Then I click a "random" article of alle Beitraege section...................passed
 Then I click page down 3....................................................passed
-Then I go back to "Kunst - Kultur - DER SPIEGEL"............................failed
-
-StackTrace:
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at steps.HelperSteps.i_go_back_to(HelperSteps.java:106)
-	at ✽.I go back to "Kunst - Kultur - DER SPIEGEL"(file:///C:/MyWorkspace/guineenews/src/test/resources/features/culturePage.feature:15)
-]]></failure>
+Then I navigate back to Kunst - Kultur - DER SPIEGEL........................passed
+]]></system-out>
 </testcase>
-<testcase classname="Spiegel 1" name="surf on menu page" time="8.48">
+<testcase classname="Spiegel 1" name="surf on menu page" time="8.635">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Plus" name="Spiegel plus read section 1 articles" time="26.106">
+<testcase classname="Spiegel Plus" name="Spiegel plus read section 1 articles" time="25.549">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click SpiegelPlus....................................................passed
 Then I click first article of "first" section...............................passed
@@ -303,19 +279,27 @@ Then I click a random article of "first" section............................pass
 Then I click page down 3....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Plus" name="Spiegel plus read random section articles" time="28.597">
-<system-out><![CDATA[Given I start Spiegel.......................................................passed
-Then I click SpiegelPlus....................................................passed
-Then I scroll to "random" section...........................................passed
-Then I click first article of "random" section..............................passed
-Then I click page down 3....................................................passed
-Then I go back to "Plus - DER SPIEGEL"......................................passed
-Then I click a random article of "random" section...........................passed
-Then I click page down 3....................................................passed
-Then I go back to "Plus - DER SPIEGEL"......................................passed
-]]></system-out>
+<testcase classname="Spiegel Plus" name="Spiegel plus read random section articles" time="8.58">
+<failure message="" type="java.lang.AssertionError"><![CDATA[Given I start Spiegel.......................................................passed
+Then I click SpiegelPlus....................................................failed
+Then I scroll to "random" section...........................................skipped
+Then I click first article of "random" section..............................skipped
+Then I click page down 3....................................................skipped
+Then I go back to "Plus - DER SPIEGEL"......................................skipped
+Then I click a random article of "random" section...........................skipped
+Then I click page down 3....................................................skipped
+Then I go back to "Plus - DER SPIEGEL"......................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at steps.SpiegelPlusSteps.clickSpiegelPlus(SpiegelPlusSteps.java:21)
+	at ✽.I click SpiegelPlus(file:///C:/MyWorkspace/guineenews/src/test/resources/features/spiegelPlus.feature:7)
+]]></failure>
 </testcase>
-<testcase classname="Spiegel Plus" name="Spiegel plus read audio section articles" time="20.592">
+<testcase classname="Spiegel Plus" name="Spiegel plus read audio section articles" time="21.056">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click SpiegelPlus....................................................passed
 Then I scroll to "audio" section............................................passed
@@ -327,7 +311,7 @@ Then I click page down 3....................................................pass
 Then I go back to "Plus - DER SPIEGEL"......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Plus" name="Spiegel plus read alle Beiträge section articles" time="17.578">
+<testcase classname="Spiegel Plus" name="Spiegel plus read alle Beiträge section articles" time="17.748">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click SpiegelPlus....................................................passed
 Then I scroll to "alle_Beitraege" section...................................passed
