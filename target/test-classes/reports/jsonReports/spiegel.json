@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5948000000,
+              "duration": 6970000000,
               "status": "passed"
             },
             "line": 6,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 3390000000,
+              "duration": 3391000000,
               "status": "passed"
             },
             "line": 7,
@@ -35,7 +35,7 @@
           },
           {
             "result": {
-              "duration": 3260000000,
+              "duration": 1375000000,
               "status": "passed"
             },
             "line": 8,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 1253000000,
+              "duration": 1807000000,
               "status": "passed"
             },
             "line": 9,
@@ -59,7 +59,7 @@
           },
           {
             "result": {
-              "duration": 2161000000,
+              "duration": 913000000,
               "status": "passed"
             },
             "line": 10,
@@ -78,11 +78,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:33:42.786Z",
+        "start_timestamp": "2020-11-12T00:37:44.562Z",
         "before": [
           {
             "result": {
-              "duration": 6531000000,
+              "duration": 7046000000,
               "status": "passed"
             },
             "match": {
@@ -99,9 +99,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "java.lang.NullPointerException\r\n\tat core.SeleniumDriverWrapper.clickElement(SeleniumDriverWrapper.java:154)\r\n\tat pages.BestSellerBasePage.clickBestSellerMenuElement(BestSellerBasePage.java:63)\r\n\tat steps.BestsellerSteps.i_click_bestseller_menu(BestsellerSteps.java:40)\r\n\tat ✽.I click bestseller Sachbuch(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:15)\r\n",
-              "duration": 66000000,
-              "status": "failed"
+              "duration": 4307000000,
+              "status": "passed"
             },
             "line": 15,
             "name": "I click bestseller Sachbuch",
@@ -118,8 +117,8 @@
           },
           {
             "result": {
-              "duration": 1000000,
-              "status": "skipped"
+              "duration": 230000000,
+              "status": "passed"
             },
             "line": 16,
             "name": "I scroll to a random bestseller",
@@ -130,8 +129,8 @@
           },
           {
             "result": {
-              "duration": 1000000,
-              "status": "skipped"
+              "duration": 1707000000,
+              "status": "passed"
             },
             "line": 17,
             "name": "I click mehr anzeigen",
@@ -142,8 +141,8 @@
           },
           {
             "result": {
-              "duration": 1000000,
-              "status": "skipped"
+              "duration": 278000000,
+              "status": "passed"
             },
             "line": 21,
             "name": "I move mouse over kaufen",
@@ -154,7 +153,9 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat steps.BestsellerSteps.i_click_bei_vendor_kaufen(BestsellerSteps.java:73)\r\n\tat ✽.I click bei Thaila kaufen(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:22)\r\n",
+              "duration": 17915000000,
+              "status": "failed"
             },
             "line": 22,
             "name": "I click bei Thaila kaufen",
@@ -205,9 +206,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d86.0.4240.183)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\Lenovo\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63989}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 1954e6a9eb697334d8f8e83cc3fa529c\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat steps.MenuSteps.i_start_Spiegel(MenuSteps.java:44)\r\n\tat ✽.I start Spiegel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:6)\r\n",
-              "duration": 21000000,
-              "status": "failed"
+              "duration": 6504000000,
+              "status": "passed"
             },
             "line": 6,
             "name": "I start Spiegel",
@@ -218,8 +218,8 @@
           },
           {
             "result": {
-              "duration": 1000000,
-              "status": "skipped"
+              "duration": 17611000000,
+              "status": "passed"
             },
             "line": 7,
             "name": "I click Akzeptieren und weiter",
@@ -230,8 +230,8 @@
           },
           {
             "result": {
-              "duration": 1000000,
-              "status": "skipped"
+              "duration": 580000000,
+              "status": "passed"
             },
             "line": 8,
             "name": "I bring culture menu into view",
@@ -242,7 +242,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2268000000,
+              "status": "passed"
             },
             "line": 9,
             "name": "I click TopMenu culture",
@@ -253,7 +254,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 410000000,
+              "status": "passed"
             },
             "line": 10,
             "name": "I click culture SPIEGEL-Bestseller",
@@ -271,10 +273,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:34:05.502Z",
+        "start_timestamp": "2020-11-12T00:38:30.575Z",
         "before": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -291,7 +294,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 7814000000,
+              "status": "passed"
             },
             "line": 15,
             "name": "I click bestseller Belletristik",
@@ -308,7 +312,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 256000000,
+              "status": "passed"
             },
             "line": 16,
             "name": "I scroll to a random bestseller",
@@ -319,7 +324,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 228000000,
+              "status": "passed"
             },
             "line": 17,
             "name": "I click mehr anzeigen",
@@ -330,7 +336,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 219000000,
+              "status": "passed"
             },
             "line": 21,
             "name": "I move mouse over kaufen",
@@ -341,7 +348,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 297000000,
+              "status": "passed"
             },
             "line": 22,
             "name": "I click bei Amazon kaufen",
@@ -358,8 +366,8 @@
           },
           {
             "result": {
-              "duration": 1000000,
-              "status": "skipped"
+              "duration": 2203000000,
+              "status": "passed"
             },
             "line": 23,
             "name": "I close the Amazon tab",
@@ -393,9 +401,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d86.0.4240.183)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\Lenovo\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63989}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 1954e6a9eb697334d8f8e83cc3fa529c\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat steps.MenuSteps.i_start_Spiegel(MenuSteps.java:44)\r\n\tat ✽.I start Spiegel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:6)\r\n",
-              "duration": 14000000,
-              "status": "failed"
+              "duration": 4749000000,
+              "status": "passed"
             },
             "line": 6,
             "name": "I start Spiegel",
@@ -406,8 +413,8 @@
           },
           {
             "result": {
-              "duration": 1000000,
-              "status": "skipped"
+              "duration": 13149000000,
+              "status": "passed"
             },
             "line": 7,
             "name": "I click Akzeptieren und weiter",
@@ -418,7 +425,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 479000000,
+              "status": "passed"
             },
             "line": 8,
             "name": "I bring culture menu into view",
@@ -429,8 +437,8 @@
           },
           {
             "result": {
-              "duration": 1000000,
-              "status": "skipped"
+              "duration": 932000000,
+              "status": "passed"
             },
             "line": 9,
             "name": "I click TopMenu culture",
@@ -441,7 +449,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1911000000,
+              "status": "passed"
             },
             "line": 10,
             "name": "I click culture SPIEGEL-Bestseller",
@@ -459,10 +468,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:34:05.542Z",
+        "start_timestamp": "2020-11-12T00:39:08.975Z",
         "before": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -479,7 +489,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 4414000000,
+              "status": "passed"
             },
             "line": 15,
             "name": "I click bestseller Kinder/ Jugend",
@@ -496,7 +507,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 175000000,
+              "status": "passed"
             },
             "line": 16,
             "name": "I scroll to a random bestseller",
@@ -507,7 +519,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 434000000,
+              "status": "passed"
             },
             "line": 17,
             "name": "I click mehr anzeigen",
@@ -518,7 +531,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 239000000,
+              "status": "passed"
             },
             "line": 21,
             "name": "I move mouse over kaufen",
@@ -529,7 +543,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 411000000,
+              "status": "passed"
             },
             "line": 22,
             "name": "I click bei Thaila kaufen",
@@ -546,7 +561,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2092000000,
+              "status": "passed"
             },
             "line": 23,
             "name": "I close the Thaila tab",
@@ -580,9 +596,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d86.0.4240.183)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\Lenovo\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63989}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 1954e6a9eb697334d8f8e83cc3fa529c\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat steps.MenuSteps.i_start_Spiegel(MenuSteps.java:44)\r\n\tat ✽.I start Spiegel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:6)\r\n",
-              "duration": 11000000,
-              "status": "failed"
+              "duration": 7665000000,
+              "status": "passed"
             },
             "line": 6,
             "name": "I start Spiegel",
@@ -593,7 +608,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 8503000000,
+              "status": "passed"
             },
             "line": 7,
             "name": "I click Akzeptieren und weiter",
@@ -604,7 +620,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 515000000,
+              "status": "passed"
             },
             "line": 8,
             "name": "I bring culture menu into view",
@@ -615,7 +632,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1487000000,
+              "status": "passed"
             },
             "line": 9,
             "name": "I click TopMenu culture",
@@ -626,7 +644,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2891000000,
+              "status": "passed"
             },
             "line": 10,
             "name": "I click culture SPIEGEL-Bestseller",
@@ -644,11 +663,10 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:34:05.587Z",
+        "start_timestamp": "2020-11-12T00:39:37.974Z",
         "before": [
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -665,7 +683,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 3863000000,
+              "status": "passed"
             },
             "line": 36,
             "name": "I click bestseller DVD",
@@ -682,7 +701,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 437000000,
+              "status": "passed"
             },
             "line": 37,
             "name": "I click the bestseller sub_menu TV \u0026 Hobby",
@@ -699,7 +719,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 874000000,
+              "status": "passed"
             },
             "line": 38,
             "name": "I scroll to a random bestseller",
@@ -710,7 +731,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 188000000,
+              "status": "passed"
             },
             "line": 39,
             "name": "I click mehr anzeigen",
@@ -721,7 +743,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 638000000,
+              "status": "passed"
             },
             "line": 42,
             "name": "I move mouse over kaufen",
@@ -732,7 +755,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 526000000,
+              "status": "passed"
             },
             "line": 43,
             "name": "I click bei Amazon kaufen",
@@ -749,7 +773,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2612000000,
+              "status": "passed"
             },
             "line": 44,
             "name": "I close the Amazon tab",
@@ -783,9 +808,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d86.0.4240.183)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\Lenovo\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63989}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 1954e6a9eb697334d8f8e83cc3fa529c\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat steps.MenuSteps.i_start_Spiegel(MenuSteps.java:44)\r\n\tat ✽.I start Spiegel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:6)\r\n",
-              "duration": 16000000,
-              "status": "failed"
+              "duration": 7815000000,
+              "status": "passed"
             },
             "line": 6,
             "name": "I start Spiegel",
@@ -796,7 +820,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 8361000000,
+              "status": "passed"
             },
             "line": 7,
             "name": "I click Akzeptieren und weiter",
@@ -807,7 +832,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 549000000,
+              "status": "passed"
             },
             "line": 8,
             "name": "I bring culture menu into view",
@@ -818,7 +844,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1216000000,
+              "status": "passed"
             },
             "line": 9,
             "name": "I click TopMenu culture",
@@ -829,7 +856,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 746000000,
+              "status": "passed"
             },
             "line": 10,
             "name": "I click culture SPIEGEL-Bestseller",
@@ -847,11 +875,10 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:34:05.613Z",
+        "start_timestamp": "2020-11-12T00:40:08.182Z",
         "before": [
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -868,7 +895,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 3895000000,
+              "status": "passed"
             },
             "line": 36,
             "name": "I click bestseller DVD",
@@ -885,8 +913,8 @@
           },
           {
             "result": {
-              "duration": 1000000,
-              "status": "skipped"
+              "duration": 1449000000,
+              "status": "passed"
             },
             "line": 37,
             "name": "I click the bestseller sub_menu TV \u0026 Hobby",
@@ -903,7 +931,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 242000000,
+              "status": "passed"
             },
             "line": 38,
             "name": "I scroll to a random bestseller",
@@ -914,7 +943,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 792000000,
+              "status": "passed"
             },
             "line": 39,
             "name": "I click mehr anzeigen",
@@ -925,7 +955,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 250000000,
+              "status": "passed"
             },
             "line": 42,
             "name": "I move mouse over kaufen",
@@ -936,7 +967,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 407000000,
+              "status": "passed"
             },
             "line": 43,
             "name": "I click bei Thaila kaufen",
@@ -953,7 +985,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3629000000,
+              "status": "passed"
             },
             "line": 44,
             "name": "I close the Thaila tab",
@@ -987,9 +1020,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d86.0.4240.183)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\Lenovo\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63989}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 1954e6a9eb697334d8f8e83cc3fa529c\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat steps.MenuSteps.i_start_Spiegel(MenuSteps.java:44)\r\n\tat ✽.I start Spiegel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:6)\r\n",
-              "duration": 18000000,
-              "status": "failed"
+              "duration": 5800000000,
+              "status": "passed"
             },
             "line": 6,
             "name": "I start Spiegel",
@@ -1000,7 +1032,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 6794000000,
+              "status": "passed"
             },
             "line": 7,
             "name": "I click Akzeptieren und weiter",
@@ -1011,7 +1044,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 430000000,
+              "status": "passed"
             },
             "line": 8,
             "name": "I bring culture menu into view",
@@ -1022,7 +1056,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2424000000,
+              "status": "passed"
             },
             "line": 9,
             "name": "I click TopMenu culture",
@@ -1033,7 +1068,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 422000000,
+              "status": "passed"
             },
             "line": 10,
             "name": "I click culture SPIEGEL-Bestseller",
@@ -1051,10 +1087,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:34:05.644Z",
+        "start_timestamp": "2020-11-12T00:40:37.543Z",
         "before": [
           {
             "result": {
+              "duration": 5000000,
               "status": "passed"
             },
             "match": {
@@ -1071,8 +1108,8 @@
         "steps": [
           {
             "result": {
-              "duration": 1000000,
-              "status": "skipped"
+              "duration": 4741000000,
+              "status": "passed"
             },
             "line": 52,
             "name": "I click bestseller Ratgeber",
@@ -1089,7 +1126,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2695000000,
+              "status": "passed"
             },
             "line": 53,
             "name": "I click the bestseller sub_menu Leben \u0026 Gesundheit",
@@ -1106,7 +1144,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 796000000,
+              "status": "passed"
             },
             "line": 54,
             "name": "I scroll to a random bestseller",
@@ -1117,7 +1156,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 128000000,
+              "status": "passed"
             },
             "line": 55,
             "name": "I click mehr anzeigen",
@@ -1128,7 +1168,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 175000000,
+              "status": "passed"
             },
             "line": 58,
             "name": "I move mouse over kaufen",
@@ -1139,7 +1180,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 501000000,
+              "status": "passed"
             },
             "line": 59,
             "name": "I click bei Thaila kaufen",
@@ -1156,7 +1198,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 4062000000,
+              "status": "passed"
             },
             "line": 60,
             "name": "I close the Thaila tab",
@@ -1190,9 +1233,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d86.0.4240.183)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\Lenovo\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63989}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 1954e6a9eb697334d8f8e83cc3fa529c\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat steps.MenuSteps.i_start_Spiegel(MenuSteps.java:44)\r\n\tat ✽.I start Spiegel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:6)\r\n",
-              "duration": 5000000,
-              "status": "failed"
+              "duration": 4962000000,
+              "status": "passed"
             },
             "line": 6,
             "name": "I start Spiegel",
@@ -1203,7 +1245,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 11517000000,
+              "status": "passed"
             },
             "line": 7,
             "name": "I click Akzeptieren und weiter",
@@ -1214,7 +1257,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 523000000,
+              "status": "passed"
             },
             "line": 8,
             "name": "I bring culture menu into view",
@@ -1225,7 +1269,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2996000000,
+              "status": "passed"
             },
             "line": 9,
             "name": "I click TopMenu culture",
@@ -1236,7 +1281,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1351000000,
+              "status": "passed"
             },
             "line": 10,
             "name": "I click culture SPIEGEL-Bestseller",
@@ -1254,11 +1300,10 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:34:05.671Z",
+        "start_timestamp": "2020-11-12T00:41:06.524Z",
         "before": [
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -1275,7 +1320,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 5395000000,
+              "status": "passed"
             },
             "line": 52,
             "name": "I click bestseller Ratgeber",
@@ -1292,7 +1338,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1508000000,
+              "status": "passed"
             },
             "line": 53,
             "name": "I click the bestseller sub_menu Essen \u0026 Trinken",
@@ -1309,7 +1356,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 301000000,
+              "status": "passed"
             },
             "line": 54,
             "name": "I scroll to a random bestseller",
@@ -1320,7 +1368,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1327000000,
+              "status": "passed"
             },
             "line": 55,
             "name": "I click mehr anzeigen",
@@ -1331,7 +1380,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 216000000,
+              "status": "passed"
             },
             "line": 58,
             "name": "I move mouse over kaufen",
@@ -1342,7 +1392,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 661000000,
+              "status": "passed"
             },
             "line": 59,
             "name": "I click bei Amazon kaufen",
@@ -1359,7 +1410,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3740000000,
+              "status": "passed"
             },
             "line": 60,
             "name": "I close the Amazon tab",
@@ -1393,9 +1445,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d86.0.4240.183)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\Lenovo\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63989}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 1954e6a9eb697334d8f8e83cc3fa529c\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat steps.MenuSteps.i_start_Spiegel(MenuSteps.java:44)\r\n\tat ✽.I start Spiegel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:6)\r\n",
-              "duration": 6000000,
-              "status": "failed"
+              "duration": 3638000000,
+              "status": "passed"
             },
             "line": 6,
             "name": "I start Spiegel",
@@ -1406,7 +1457,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 7760000000,
+              "status": "passed"
             },
             "line": 7,
             "name": "I click Akzeptieren und weiter",
@@ -1417,7 +1469,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 483000000,
+              "status": "passed"
             },
             "line": 8,
             "name": "I bring culture menu into view",
@@ -1428,7 +1481,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1291000000,
+              "status": "passed"
             },
             "line": 9,
             "name": "I click TopMenu culture",
@@ -1439,7 +1493,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1400000000,
+              "status": "passed"
             },
             "line": 10,
             "name": "I click culture SPIEGEL-Bestseller",
@@ -1457,7 +1512,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:34:05.687Z",
+        "start_timestamp": "2020-11-12T00:41:41.036Z",
         "before": [
           {
             "result": {
@@ -1477,7 +1532,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 3506000000,
+              "status": "passed"
             },
             "line": 52,
             "name": "I click bestseller Ratgeber",
@@ -1494,7 +1550,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1201000000,
+              "status": "passed"
             },
             "line": 53,
             "name": "I click the bestseller sub_menu Natur \u0026 Garten",
@@ -1511,7 +1568,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 861000000,
+              "status": "passed"
             },
             "line": 54,
             "name": "I scroll to a random bestseller",
@@ -1522,7 +1580,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 455000000,
+              "status": "passed"
             },
             "line": 55,
             "name": "I click mehr anzeigen",
@@ -1533,7 +1592,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 533000000,
+              "status": "passed"
             },
             "line": 58,
             "name": "I move mouse over kaufen",
@@ -1544,7 +1604,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 560000000,
+              "status": "passed"
             },
             "line": 59,
             "name": "I click bei Thaila kaufen",
@@ -1561,7 +1622,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3327000000,
+              "status": "passed"
             },
             "line": 60,
             "name": "I close the Thaila tab",
@@ -1595,9 +1657,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d86.0.4240.183)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\Lenovo\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63989}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 1954e6a9eb697334d8f8e83cc3fa529c\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat steps.MenuSteps.i_start_Spiegel(MenuSteps.java:44)\r\n\tat ✽.I start Spiegel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:6)\r\n",
-              "duration": 8000000,
-              "status": "failed"
+              "duration": 4844000000,
+              "status": "passed"
             },
             "line": 6,
             "name": "I start Spiegel",
@@ -1608,7 +1669,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 6694000000,
+              "status": "passed"
             },
             "line": 7,
             "name": "I click Akzeptieren und weiter",
@@ -1619,7 +1681,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 416000000,
+              "status": "passed"
             },
             "line": 8,
             "name": "I bring culture menu into view",
@@ -1630,7 +1693,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1237000000,
+              "status": "passed"
             },
             "line": 9,
             "name": "I click TopMenu culture",
@@ -1641,7 +1705,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 619000000,
+              "status": "passed"
             },
             "line": 10,
             "name": "I click culture SPIEGEL-Bestseller",
@@ -1659,7 +1724,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:34:05.701Z",
+        "start_timestamp": "2020-11-12T00:42:06.051Z",
         "before": [
           {
             "result": {
@@ -1679,7 +1744,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 5378000000,
+              "status": "passed"
             },
             "line": 52,
             "name": "I click bestseller Ratgeber",
@@ -1696,7 +1762,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 370000000,
+              "status": "passed"
             },
             "line": 53,
             "name": "I click the bestseller sub_menu Hobby \u0026 Kreativität",
@@ -1713,7 +1780,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 920000000,
+              "status": "passed"
             },
             "line": 54,
             "name": "I scroll to a random bestseller",
@@ -1724,7 +1792,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 112000000,
+              "status": "passed"
             },
             "line": 55,
             "name": "I click mehr anzeigen",
@@ -1735,7 +1804,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 191000000,
+              "status": "passed"
             },
             "line": 58,
             "name": "I move mouse over kaufen",
@@ -1746,7 +1816,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 810000000,
+              "status": "passed"
             },
             "line": 59,
             "name": "I click bei Amazon kaufen",
@@ -1763,7 +1834,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2910000000,
+              "status": "passed"
             },
             "line": 60,
             "name": "I close the Amazon tab",
@@ -1797,9 +1869,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d86.0.4240.183)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\Lenovo\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63989}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 1954e6a9eb697334d8f8e83cc3fa529c\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat steps.MenuSteps.i_start_Spiegel(MenuSteps.java:44)\r\n\tat ✽.I start Spiegel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:6)\r\n",
-              "duration": 9000000,
-              "status": "failed"
+              "duration": 5474000000,
+              "status": "passed"
             },
             "line": 6,
             "name": "I start Spiegel",
@@ -1810,7 +1881,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 6111000000,
+              "status": "passed"
             },
             "line": 7,
             "name": "I click Akzeptieren und weiter",
@@ -1821,7 +1893,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 476000000,
+              "status": "passed"
             },
             "line": 8,
             "name": "I bring culture menu into view",
@@ -1832,7 +1905,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1176000000,
+              "status": "passed"
             },
             "line": 9,
             "name": "I click TopMenu culture",
@@ -1843,7 +1917,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 388000000,
+              "status": "passed"
             },
             "line": 10,
             "name": "I click culture SPIEGEL-Bestseller",
@@ -1861,11 +1936,10 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:34:05.716Z",
+        "start_timestamp": "2020-11-12T00:42:30.552Z",
         "before": [
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -1882,7 +1956,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 4020000000,
+              "status": "passed"
             },
             "line": 70,
             "name": "I click bestseller Kinder/ Jugend",
@@ -1899,7 +1974,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1130000000,
+              "status": "passed"
             },
             "line": 71,
             "name": "I click the bestseller sub_menu Kinderbuch",
@@ -1916,7 +1992,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 160000000,
+              "status": "passed"
             },
             "line": 72,
             "name": "I scroll to a random bestseller",
@@ -1927,7 +2004,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 191000000,
+              "status": "passed"
             },
             "line": 73,
             "name": "I click mehr anzeigen",
@@ -1938,7 +2016,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 753000000,
+              "status": "passed"
             },
             "line": 76,
             "name": "I move mouse over kaufen",
@@ -1949,7 +2028,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 497000000,
+              "status": "passed"
             },
             "line": 77,
             "name": "I click bei Amazon kaufen",
@@ -1966,7 +2046,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 4232000000,
+              "status": "passed"
             },
             "line": 78,
             "name": "I close the Amazon tab",
@@ -2000,9 +2081,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d86.0.4240.183)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\Lenovo\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63989}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 1954e6a9eb697334d8f8e83cc3fa529c\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat steps.MenuSteps.i_start_Spiegel(MenuSteps.java:44)\r\n\tat ✽.I start Spiegel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:6)\r\n",
-              "duration": 8000000,
-              "status": "failed"
+              "duration": 4260000000,
+              "status": "passed"
             },
             "line": 6,
             "name": "I start Spiegel",
@@ -2013,7 +2093,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 6399000000,
+              "status": "passed"
             },
             "line": 7,
             "name": "I click Akzeptieren und weiter",
@@ -2024,7 +2105,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 513000000,
+              "status": "passed"
             },
             "line": 8,
             "name": "I bring culture menu into view",
@@ -2035,7 +2117,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1228000000,
+              "status": "passed"
             },
             "line": 9,
             "name": "I click TopMenu culture",
@@ -2046,7 +2129,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 462000000,
+              "status": "passed"
             },
             "line": 10,
             "name": "I click culture SPIEGEL-Bestseller",
@@ -2064,7 +2148,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:34:05.733Z",
+        "start_timestamp": "2020-11-12T00:42:55.170Z",
         "before": [
           {
             "result": {
@@ -2084,7 +2168,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 4107000000,
+              "status": "passed"
             },
             "line": 70,
             "name": "I click bestseller Kinder/ Jugend",
@@ -2101,7 +2186,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2519000000,
+              "status": "passed"
             },
             "line": 71,
             "name": "I click the bestseller sub_menu Jugendbuch",
@@ -2118,7 +2204,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 806000000,
+              "status": "passed"
             },
             "line": 72,
             "name": "I scroll to a random bestseller",
@@ -2129,7 +2216,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 312000000,
+              "status": "passed"
             },
             "line": 73,
             "name": "I click mehr anzeigen",
@@ -2140,7 +2228,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 469000000,
+              "status": "passed"
             },
             "line": 76,
             "name": "I move mouse over kaufen",
@@ -2151,7 +2240,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 569000000,
+              "status": "passed"
             },
             "line": 77,
             "name": "I click bei Thaila kaufen",
@@ -2168,7 +2258,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2412000000,
+              "status": "passed"
             },
             "line": 78,
             "name": "I close the Thaila tab",
@@ -2202,9 +2293,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d86.0.4240.183)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\Lenovo\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63989}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 1954e6a9eb697334d8f8e83cc3fa529c\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat steps.MenuSteps.i_start_Spiegel(MenuSteps.java:44)\r\n\tat ✽.I start Spiegel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:6)\r\n",
-              "duration": 5000000,
-              "status": "failed"
+              "duration": 4190000000,
+              "status": "passed"
             },
             "line": 6,
             "name": "I start Spiegel",
@@ -2215,7 +2305,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 6282000000,
+              "status": "passed"
             },
             "line": 7,
             "name": "I click Akzeptieren und weiter",
@@ -2226,7 +2317,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 552000000,
+              "status": "passed"
             },
             "line": 8,
             "name": "I bring culture menu into view",
@@ -2237,7 +2329,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2593000000,
+              "status": "passed"
             },
             "line": 9,
             "name": "I click TopMenu culture",
@@ -2248,7 +2341,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 248000000,
+              "status": "passed"
             },
             "line": 10,
             "name": "I click culture SPIEGEL-Bestseller",
@@ -2266,7 +2360,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:34:05.751Z",
+        "start_timestamp": "2020-11-12T00:43:19.234Z",
         "before": [
           {
             "result": {
@@ -2286,8 +2380,8 @@
         "steps": [
           {
             "result": {
-              "duration": 1000000,
-              "status": "skipped"
+              "duration": 4425000000,
+              "status": "passed"
             },
             "line": 70,
             "name": "I click bestseller Kinder/ Jugend",
@@ -2304,7 +2398,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1016000000,
+              "status": "passed"
             },
             "line": 71,
             "name": "I click the bestseller sub_menu Bilderbuch",
@@ -2321,7 +2416,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 800000000,
+              "status": "passed"
             },
             "line": 72,
             "name": "I scroll to a random bestseller",
@@ -2332,7 +2428,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 289000000,
+              "status": "passed"
             },
             "line": 73,
             "name": "I click mehr anzeigen",
@@ -2343,7 +2440,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 866000000,
+              "status": "passed"
             },
             "line": 76,
             "name": "I move mouse over kaufen",
@@ -2354,7 +2452,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 537000000,
+              "status": "passed"
             },
             "line": 77,
             "name": "I click bei Thaila kaufen",
@@ -2371,7 +2470,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2139000000,
+              "status": "passed"
             },
             "line": 78,
             "name": "I close the Thaila tab",
@@ -2405,9 +2505,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d86.0.4240.183)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\Lenovo\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63989}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 1954e6a9eb697334d8f8e83cc3fa529c\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat steps.MenuSteps.i_start_Spiegel(MenuSteps.java:44)\r\n\tat ✽.I start Spiegel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:6)\r\n",
-              "duration": 5000000,
-              "status": "failed"
+              "duration": 4260000000,
+              "status": "passed"
             },
             "line": 6,
             "name": "I start Spiegel",
@@ -2418,7 +2517,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 7287000000,
+              "status": "passed"
             },
             "line": 7,
             "name": "I click Akzeptieren und weiter",
@@ -2429,7 +2529,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 420000000,
+              "status": "passed"
             },
             "line": 8,
             "name": "I bring culture menu into view",
@@ -2440,7 +2541,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1753000000,
+              "status": "passed"
             },
             "line": 9,
             "name": "I click TopMenu culture",
@@ -2451,7 +2553,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 256000000,
+              "status": "passed"
             },
             "line": 10,
             "name": "I click culture SPIEGEL-Bestseller",
@@ -2469,7 +2572,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:34:05.767Z",
+        "start_timestamp": "2020-11-12T00:43:43.181Z",
         "before": [
           {
             "result": {
@@ -2489,7 +2592,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 4017000000,
+              "status": "passed"
             },
             "line": 70,
             "name": "I click bestseller Kinder/ Jugend",
@@ -2506,7 +2610,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1752000000,
+              "status": "passed"
             },
             "line": 71,
             "name": "I click the bestseller sub_menu Hörbuch",
@@ -2523,7 +2628,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 942000000,
+              "status": "passed"
             },
             "line": 72,
             "name": "I scroll to a random bestseller",
@@ -2534,7 +2640,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 176000000,
+              "status": "passed"
             },
             "line": 73,
             "name": "I click mehr anzeigen",
@@ -2545,8 +2652,8 @@
           },
           {
             "result": {
-              "duration": 1000000,
-              "status": "skipped"
+              "duration": 672000000,
+              "status": "passed"
             },
             "line": 76,
             "name": "I move mouse over kaufen",
@@ -2557,7 +2664,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 363000000,
+              "status": "passed"
             },
             "line": 77,
             "name": "I click bei Amazon kaufen",
@@ -2574,7 +2682,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2746000000,
+              "status": "passed"
             },
             "line": 78,
             "name": "I close the Amazon tab",
@@ -2628,9 +2737,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d86.0.4240.183)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\Lenovo\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63989}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 1954e6a9eb697334d8f8e83cc3fa529c\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat steps.MenuSteps.i_start_Spiegel(MenuSteps.java:44)\r\n\tat ✽.I start Spiegel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/culturePage.feature:5)\r\n",
-              "duration": 10000000,
-              "status": "failed"
+              "duration": 4874000000,
+              "status": "passed"
             },
             "line": 5,
             "name": "I start Spiegel",
@@ -2641,7 +2749,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 6821000000,
+              "status": "passed"
             },
             "line": 6,
             "name": "I click Akzeptieren und weiter",
@@ -2652,7 +2761,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 514000000,
+              "status": "passed"
             },
             "line": 7,
             "name": "I bring culture menu into view",
@@ -2663,7 +2773,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1528000000,
+              "status": "passed"
             },
             "line": 8,
             "name": "I click TopMenu culture",
@@ -2675,11 +2786,10 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:34:05.792Z",
+        "start_timestamp": "2020-11-12T00:44:07.826Z",
         "before": [
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -2696,7 +2806,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 1096000000,
+              "status": "passed"
             },
             "line": 12,
             "name": "I click culture Kino",
@@ -2774,9 +2885,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d86.0.4240.183)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\Lenovo\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63989}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 1954e6a9eb697334d8f8e83cc3fa529c\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat steps.MenuSteps.i_start_Spiegel(MenuSteps.java:44)\r\n\tat ✽.I start Spiegel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/culturePage.feature:5)\r\n",
-              "duration": 6000000,
-              "status": "failed"
+              "duration": 4471000000,
+              "status": "passed"
             },
             "line": 5,
             "name": "I start Spiegel",
@@ -2787,7 +2897,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 6506000000,
+              "status": "passed"
             },
             "line": 6,
             "name": "I click Akzeptieren und weiter",
@@ -2798,7 +2909,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 459000000,
+              "status": "passed"
             },
             "line": 7,
             "name": "I bring culture menu into view",
@@ -2809,7 +2921,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1232000000,
+              "status": "passed"
             },
             "line": 8,
             "name": "I click TopMenu culture",
@@ -2821,11 +2934,10 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:34:05.815Z",
+        "start_timestamp": "2020-11-12T00:44:22.675Z",
         "before": [
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -2842,7 +2954,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 1959000000,
+              "status": "passed"
             },
             "line": 12,
             "name": "I click culture Musik",
@@ -2869,7 +2982,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "skipped"
             },
             "line": 14,
@@ -2921,9 +3033,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d86.0.4240.183)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\Lenovo\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63989}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 1954e6a9eb697334d8f8e83cc3fa529c\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat steps.MenuSteps.i_start_Spiegel(MenuSteps.java:44)\r\n\tat ✽.I start Spiegel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/culturePage.feature:5)\r\n",
-              "duration": 18000000,
-              "status": "failed"
+              "duration": 4169000000,
+              "status": "passed"
             },
             "line": 5,
             "name": "I start Spiegel",
@@ -2934,7 +3045,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 6749000000,
+              "status": "passed"
             },
             "line": 6,
             "name": "I click Akzeptieren und weiter",
@@ -2945,7 +3057,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 516000000,
+              "status": "passed"
             },
             "line": 7,
             "name": "I bring culture menu into view",
@@ -2956,7 +3069,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1078000000,
+              "status": "passed"
             },
             "line": 8,
             "name": "I click TopMenu culture",
@@ -2968,11 +3082,10 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:34:05.832Z",
+        "start_timestamp": "2020-11-12T00:44:37.310Z",
         "before": [
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -2989,7 +3102,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 424000000,
+              "status": "passed"
             },
             "line": 12,
             "name": "I click culture TV",
@@ -3016,7 +3130,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "skipped"
             },
             "line": 14,
@@ -3068,9 +3181,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d86.0.4240.183)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\Lenovo\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63989}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 1954e6a9eb697334d8f8e83cc3fa529c\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat steps.MenuSteps.i_start_Spiegel(MenuSteps.java:44)\r\n\tat ✽.I start Spiegel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/culturePage.feature:5)\r\n",
-              "duration": 7000000,
-              "status": "failed"
+              "duration": 4114000000,
+              "status": "passed"
             },
             "line": 5,
             "name": "I start Spiegel",
@@ -3081,7 +3193,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 6585000000,
+              "status": "passed"
             },
             "line": 6,
             "name": "I click Akzeptieren und weiter",
@@ -3092,7 +3205,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 471000000,
+              "status": "passed"
             },
             "line": 7,
             "name": "I bring culture menu into view",
@@ -3103,7 +3217,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1777000000,
+              "status": "passed"
             },
             "line": 8,
             "name": "I click TopMenu culture",
@@ -3115,7 +3230,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:34:05.861Z",
+        "start_timestamp": "2020-11-12T00:44:50.246Z",
         "before": [
           {
             "result": {
@@ -3135,7 +3250,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 360000000,
+              "status": "passed"
             },
             "line": 12,
             "name": "I click culture Literatur",
@@ -3213,9 +3329,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d86.0.4240.183)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\Lenovo\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63989}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 1954e6a9eb697334d8f8e83cc3fa529c\r\n\tat sun.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat steps.MenuSteps.i_start_Spiegel(MenuSteps.java:44)\r\n\tat ✽.I start Spiegel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/culturePage.feature:5)\r\n",
-              "duration": 6000000,
-              "status": "failed"
+              "duration": 4389000000,
+              "status": "passed"
             },
             "line": 5,
             "name": "I start Spiegel",
@@ -3226,7 +3341,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 6949000000,
+              "status": "passed"
             },
             "line": 6,
             "name": "I click Akzeptieren und weiter",
@@ -3237,7 +3353,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 498000000,
+              "status": "passed"
             },
             "line": 7,
             "name": "I bring culture menu into view",
@@ -3248,7 +3365,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1133000000,
+              "status": "passed"
             },
             "line": 8,
             "name": "I click TopMenu culture",
@@ -3260,11 +3378,10 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:34:05.876Z",
+        "start_timestamp": "2020-11-12T00:45:03.568Z",
         "before": [
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -3281,7 +3398,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 1215000000,
+              "status": "passed"
             },
             "line": 12,
             "name": "I click culture Streaming",
@@ -3359,9 +3477,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d86.0.4240.183)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\Lenovo\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63989}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 1954e6a9eb697334d8f8e83cc3fa529c\r\n\tat sun.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat steps.MenuSteps.i_start_Spiegel(MenuSteps.java:44)\r\n\tat ✽.I start Spiegel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/culturePage.feature:5)\r\n",
-              "duration": 8000000,
-              "status": "failed"
+              "duration": 4123000000,
+              "status": "passed"
             },
             "line": 5,
             "name": "I start Spiegel",
@@ -3372,7 +3489,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 6599000000,
+              "status": "passed"
             },
             "line": 6,
             "name": "I click Akzeptieren und weiter",
@@ -3383,7 +3501,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 488000000,
+              "status": "passed"
             },
             "line": 7,
             "name": "I bring culture menu into view",
@@ -3394,7 +3513,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1088000000,
+              "status": "passed"
             },
             "line": 8,
             "name": "I click TopMenu culture",
@@ -3406,7 +3526,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:34:05.891Z",
+        "start_timestamp": "2020-11-12T00:45:17.768Z",
         "before": [
           {
             "result": {
@@ -3426,7 +3546,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 701000000,
+              "status": "passed"
             },
             "line": 12,
             "name": "I click culture Kunst",
@@ -3516,7 +3637,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-11-12T00:34:05.906Z",
+        "start_timestamp": "2020-11-12T00:45:30.783Z",
         "before": [
           {
             "result": {
@@ -3536,9 +3657,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d86.0.4240.183)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\Lenovo\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63989}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 1954e6a9eb697334d8f8e83cc3fa529c\r\n\tat sun.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat steps.MenuSteps.i_start_Spiegel(MenuSteps.java:44)\r\n\tat ✽.I start Spiegel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/menuPage.feature:9)\r\n",
-              "duration": 8000000,
-              "status": "failed"
+              "duration": 4132000000,
+              "status": "passed"
             },
             "line": 9,
             "name": "I start Spiegel",
@@ -3549,7 +3669,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 6290000000,
+              "status": "passed"
             },
             "line": 10,
             "name": "I click Akzeptieren und weiter",
@@ -3597,9 +3718,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d86.0.4240.183)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\Lenovo\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63989}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 1954e6a9eb697334d8f8e83cc3fa529c\r\n\tat sun.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat steps.MenuSteps.i_start_Spiegel(MenuSteps.java:44)\r\n\tat ✽.I start Spiegel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/spiegelPlus.feature:5)\r\n",
-              "duration": 6000000,
-              "status": "failed"
+              "duration": 4380000000,
+              "status": "passed"
             },
             "line": 5,
             "name": "I start Spiegel",
@@ -3610,7 +3730,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2913000000,
+              "status": "passed"
             },
             "line": 7,
             "name": "I click SpiegelPlus",
@@ -3622,7 +3743,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:34:05.921Z",
+        "start_timestamp": "2020-11-12T00:45:41.213Z",
         "before": [
           {
             "result": {
@@ -3825,9 +3946,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d86.0.4240.183)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\Lenovo\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63989}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 1954e6a9eb697334d8f8e83cc3fa529c\r\n\tat sun.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat steps.MenuSteps.i_start_Spiegel(MenuSteps.java:44)\r\n\tat ✽.I start Spiegel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/spiegelPlus.feature:5)\r\n",
-              "duration": 4000000,
-              "status": "failed"
+              "duration": 4490000000,
+              "status": "passed"
             },
             "line": 5,
             "name": "I start Spiegel",
@@ -3838,7 +3958,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 4108000000,
+              "status": "passed"
             },
             "line": 7,
             "name": "I click SpiegelPlus",
@@ -3850,7 +3971,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:34:05.940Z",
+        "start_timestamp": "2020-11-12T00:45:48.522Z",
         "before": [
           {
             "result": {
@@ -3870,7 +3991,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 3307000000,
+              "status": "passed"
             },
             "line": 24,
             "name": "I scroll to \"random\" section",
@@ -3958,6 +4080,7 @@
           },
           {
             "result": {
+              "duration": 7000000,
               "status": "skipped"
             },
             "line": 30,
@@ -3989,9 +4112,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d86.0.4240.183)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\Lenovo\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63989}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 1954e6a9eb697334d8f8e83cc3fa529c\r\n\tat sun.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat steps.MenuSteps.i_start_Spiegel(MenuSteps.java:44)\r\n\tat ✽.I start Spiegel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/spiegelPlus.feature:5)\r\n",
-              "duration": 7000000,
-              "status": "failed"
+              "duration": 5543000000,
+              "status": "passed"
             },
             "line": 5,
             "name": "I start Spiegel",
@@ -4002,7 +4124,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1737000000,
+              "status": "passed"
             },
             "line": 7,
             "name": "I click SpiegelPlus",
@@ -4014,11 +4137,10 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:34:05.954Z",
+        "start_timestamp": "2020-11-12T00:46:00.442Z",
         "before": [
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -4035,7 +4157,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 1504000000,
+              "status": "passed"
             },
             "line": 34,
             "name": "I scroll to \"audio\" section",
@@ -4157,9 +4280,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d86.0.4240.183)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\Lenovo\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63989}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 1954e6a9eb697334d8f8e83cc3fa529c\r\n\tat sun.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat steps.MenuSteps.i_start_Spiegel(MenuSteps.java:44)\r\n\tat ✽.I start Spiegel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/spiegelPlus.feature:5)\r\n",
-              "duration": 7000000,
-              "status": "failed"
+              "duration": 4120000000,
+              "status": "passed"
             },
             "line": 5,
             "name": "I start Spiegel",
@@ -4170,7 +4292,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2873000000,
+              "status": "passed"
             },
             "line": 7,
             "name": "I click SpiegelPlus",
@@ -4182,7 +4305,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:34:05.969Z",
+        "start_timestamp": "2020-11-12T00:46:09.234Z",
         "before": [
           {
             "result": {
@@ -4197,23 +4320,13 @@
         "name": "Spiegel plus read alle Beiträge section articles",
         "description": "",
         "id": "spiegel-plus;spiegel-plus-read-alle-beiträge-section-articles",
-        "after": [
-          {
-            "result": {
-              "duration": 1674000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.TestCaseBase.tearDown()"
-            }
-          }
-        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 1394000000,
+              "status": "passed"
             },
             "line": 44,
             "name": "I scroll to \"alle_Beitraege\" section",
@@ -4230,7 +4343,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 186000000,
+              "status": "passed"
             },
             "line": 45,
             "name": "I scroll to alle Beitraege \"last\" article",
@@ -4247,7 +4361,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 201000000,
+              "status": "passed"
             },
             "line": 46,
             "name": "I scroll to alle Beitraege \"random\" article",
@@ -4327,9 +4442,6 @@
         "tags": [
           {
             "name": "@spiegelPlus"
-          },
-          {
-            "name": "@end"
           }
         ]
       }
@@ -4362,8 +4474,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat steps.MenuSteps.i_start_Spiegel(MenuSteps.java:44)\r\n\tat ✽.I start Spiegel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/startPage.feature:6)\r\n",
-              "status": "failed"
+              "duration": 5787000000,
+              "status": "passed"
             },
             "line": 6,
             "name": "I start Spiegel",
@@ -4374,7 +4486,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 6745000000,
+              "status": "passed"
             },
             "line": 7,
             "name": "I click Akzeptieren und weiter",
@@ -4386,10 +4499,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:34:07.659Z",
+        "start_timestamp": "2020-11-12T00:46:18.021Z",
         "before": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -4406,7 +4520,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 257000000,
+              "status": "passed"
             },
             "line": 12,
             "name": "I click start page main_article",
@@ -4417,7 +4532,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 186000000,
+              "status": "passed"
             },
             "line": 13,
             "name": "I click page down 6",
@@ -4434,7 +4550,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 91000000,
+              "status": "passed"
             },
             "line": 14,
             "name": "I click page up 3",
@@ -4451,7 +4568,9 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat steps.HelperSteps.i_go_back_to(HelperSteps.java:106)\r\n\tat ✽.I go back to \"DER SPIEGEL | Online-Nachrichten\"(file:///C:/MyWorkspace/guineenews/src/test/resources/features/startPage.feature:15)\r\n",
+              "duration": 20515000000,
+              "status": "failed"
             },
             "line": 15,
             "name": "I go back to \"DER SPIEGEL | Online-Nachrichten\"",
@@ -4485,8 +4604,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat steps.MenuSteps.i_start_Spiegel(MenuSteps.java:44)\r\n\tat ✽.I start Spiegel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/startPage.feature:6)\r\n",
-              "status": "failed"
+              "duration": 4545000000,
+              "status": "passed"
             },
             "line": 6,
             "name": "I start Spiegel",
@@ -4497,7 +4616,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 4026000000,
+              "status": "passed"
             },
             "line": 7,
             "name": "I click Akzeptieren und weiter",
@@ -4509,7 +4629,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:34:07.659Z",
+        "start_timestamp": "2020-11-12T00:46:51.606Z",
         "before": [
           {
             "result": {
@@ -4529,7 +4649,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 4195000000,
+              "status": "passed"
             },
             "line": 19,
             "name": "I scroll to \"news_section\" on start page",
@@ -4546,7 +4667,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 11178000000,
+              "status": "passed"
             },
             "line": 20,
             "name": "I click first article of news_section",
@@ -4567,7 +4689,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 494000000,
+              "status": "passed"
             },
             "line": 21,
             "name": "I click page down 6",
@@ -4584,7 +4707,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 695000000,
+              "status": "passed"
             },
             "line": 22,
             "name": "I click page up 3",
@@ -4601,7 +4725,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 8475000000,
+              "status": "passed"
             },
             "line": 23,
             "name": "I go back to \"DER SPIEGEL | Online-Nachrichten\"",
@@ -4618,7 +4743,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 4028000000,
+              "status": "passed"
             },
             "line": 24,
             "name": "I scroll to \"news section\" on start page",
@@ -4635,7 +4761,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 50000000,
+              "status": "passed"
             },
             "line": 25,
             "name": "I scroll to random article of news_section",
@@ -4656,7 +4783,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 6232000000,
+              "status": "passed"
             },
             "line": 26,
             "name": "I click random article of news_section",
@@ -4677,7 +4805,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 267000000,
+              "status": "passed"
             },
             "line": 27,
             "name": "I click page down 6",
@@ -4694,7 +4823,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 171000000,
+              "status": "passed"
             },
             "line": 28,
             "name": "I click page up 3",
@@ -4728,8 +4858,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat steps.MenuSteps.i_start_Spiegel(MenuSteps.java:44)\r\n\tat ✽.I start Spiegel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/startPage.feature:6)\r\n",
-              "status": "failed"
+              "duration": 5675000000,
+              "status": "passed"
             },
             "line": 6,
             "name": "I start Spiegel",
@@ -4740,7 +4870,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 4997000000,
+              "status": "passed"
             },
             "line": 7,
             "name": "I click Akzeptieren und weiter",
@@ -4752,7 +4883,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:34:07.674Z",
+        "start_timestamp": "2020-11-12T00:47:35.970Z",
         "before": [
           {
             "result": {
@@ -4772,7 +4903,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 4063000000,
+              "status": "passed"
             },
             "line": 33,
             "name": "I scroll to \"alle_rubriken_section\" on start page",
@@ -4789,7 +4921,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 9267000000,
+              "status": "passed"
             },
             "line": 34,
             "name": "I click random article of sport_rubrik",
@@ -4810,7 +4943,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 250000000,
+              "status": "passed"
             },
             "line": 35,
             "name": "I click page down 6",
@@ -4827,7 +4961,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 155000000,
+              "status": "passed"
             },
             "line": 36,
             "name": "I click page up 3",
@@ -4844,7 +4979,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 7489000000,
+              "status": "passed"
             },
             "line": 37,
             "name": "I go back to \"DER SPIEGEL | Online-Nachrichten\"",
@@ -4878,8 +5014,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat steps.MenuSteps.i_start_Spiegel(MenuSteps.java:44)\r\n\tat ✽.I start Spiegel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/startPage.feature:6)\r\n",
-              "status": "failed"
+              "duration": 5811000000,
+              "status": "passed"
             },
             "line": 6,
             "name": "I start Spiegel",
@@ -4890,7 +5026,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5196000000,
+              "status": "passed"
             },
             "line": 7,
             "name": "I click Akzeptieren und weiter",
@@ -4902,7 +5039,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:34:07.674Z",
+        "start_timestamp": "2020-11-12T00:48:07.871Z",
         "before": [
           {
             "result": {
@@ -4922,7 +5059,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 4064000000,
+              "status": "passed"
             },
             "line": 33,
             "name": "I scroll to \"alle_rubriken_section\" on start page",
@@ -4939,7 +5077,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 6100000000,
+              "status": "passed"
             },
             "line": 34,
             "name": "I click random article of politik_rubrik",
@@ -4960,7 +5099,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3929000000,
+              "status": "passed"
             },
             "line": 35,
             "name": "I click page down 6",
@@ -4977,7 +5117,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 95000000,
+              "status": "passed"
             },
             "line": 36,
             "name": "I click page up 3",
@@ -4994,7 +5135,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 6803000000,
+              "status": "passed"
             },
             "line": 37,
             "name": "I go back to \"DER SPIEGEL | Online-Nachrichten\"",
@@ -5028,8 +5170,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat steps.MenuSteps.i_start_Spiegel(MenuSteps.java:44)\r\n\tat ✽.I start Spiegel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/startPage.feature:6)\r\n",
-              "status": "failed"
+              "duration": 5625000000,
+              "status": "passed"
             },
             "line": 6,
             "name": "I start Spiegel",
@@ -5040,7 +5182,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 4523000000,
+              "status": "passed"
             },
             "line": 7,
             "name": "I click Akzeptieren und weiter",
@@ -5052,10 +5195,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:34:07.674Z",
+        "start_timestamp": "2020-11-12T00:48:39.872Z",
         "before": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -5072,7 +5216,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 4065000000,
+              "status": "passed"
             },
             "line": 33,
             "name": "I scroll to \"alle_rubriken_section\" on start page",
@@ -5089,7 +5234,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5691000000,
+              "status": "passed"
             },
             "line": 34,
             "name": "I click random article of wirtschaft_rubrik",
@@ -5110,7 +5256,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1722000000,
+              "status": "passed"
             },
             "line": 35,
             "name": "I click page down 6",
@@ -5127,7 +5274,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 227000000,
+              "status": "passed"
             },
             "line": 36,
             "name": "I click page up 3",
@@ -5144,7 +5292,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5659000000,
+              "status": "passed"
             },
             "line": 37,
             "name": "I go back to \"DER SPIEGEL | Online-Nachrichten\"",
@@ -5178,8 +5327,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat steps.MenuSteps.i_start_Spiegel(MenuSteps.java:44)\r\n\tat ✽.I start Spiegel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/startPage.feature:6)\r\n",
-              "status": "failed"
+              "duration": 4945000000,
+              "status": "passed"
             },
             "line": 6,
             "name": "I start Spiegel",
@@ -5190,7 +5339,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 4700000000,
+              "status": "passed"
             },
             "line": 7,
             "name": "I click Akzeptieren und weiter",
@@ -5202,7 +5352,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:34:07.690Z",
+        "start_timestamp": "2020-11-12T00:49:07.388Z",
         "before": [
           {
             "result": {
@@ -5222,7 +5372,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 4072000000,
+              "status": "passed"
             },
             "line": 33,
             "name": "I scroll to \"alle_rubriken_section\" on start page",
@@ -5239,7 +5390,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 8206000000,
+              "status": "passed"
             },
             "line": 34,
             "name": "I click random article of manager_magazin_rubrik",
@@ -5260,7 +5412,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 187000000,
+              "status": "passed"
             },
             "line": 35,
             "name": "I click page down 6",
@@ -5277,7 +5430,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 98000000,
+              "status": "passed"
             },
             "line": 36,
             "name": "I click page up 3",
@@ -5294,7 +5448,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 7227000000,
+              "status": "passed"
             },
             "line": 37,
             "name": "I go back to \"DER SPIEGEL | Online-Nachrichten\"",
@@ -5328,8 +5483,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat steps.MenuSteps.i_start_Spiegel(MenuSteps.java:44)\r\n\tat ✽.I start Spiegel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/startPage.feature:6)\r\n",
-              "status": "failed"
+              "duration": 4314000000,
+              "status": "passed"
             },
             "line": 6,
             "name": "I start Spiegel",
@@ -5340,7 +5495,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 4375000000,
+              "status": "passed"
             },
             "line": 7,
             "name": "I click Akzeptieren und weiter",
@@ -5352,10 +5508,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:34:07.690Z",
+        "start_timestamp": "2020-11-12T00:49:36.828Z",
         "before": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -5372,7 +5529,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 4046000000,
+              "status": "passed"
             },
             "line": 48,
             "name": "I scroll to \"stock_section\" on start page",
@@ -5389,7 +5547,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 364000000,
+              "status": "passed"
             },
             "line": 49,
             "name": "I click 3 \"stock\" section arrow \"right\"",
@@ -5414,7 +5573,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 204000000,
+              "status": "passed"
             },
             "line": 50,
             "name": "I click 2 \"stock\" section arrow \"left\"",
@@ -5439,7 +5599,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 823000000,
+              "status": "passed"
             },
             "line": 51,
             "name": "I click dow jones",
@@ -5450,7 +5611,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 332000000,
+              "status": "passed"
             },
             "line": 52,
             "name": "I switch to \"dow jones\" tab",
@@ -5467,7 +5629,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2103000000,
+              "status": "passed"
             },
             "line": 53,
             "name": "I click page down 2",
@@ -5484,7 +5647,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 31000000,
+              "status": "passed"
             },
             "line": 54,
             "name": "I switch to \"spiegel\" tab",
@@ -5518,8 +5682,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat steps.MenuSteps.i_start_Spiegel(MenuSteps.java:44)\r\n\tat ✽.I start Spiegel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/startPage.feature:6)\r\n",
-              "status": "failed"
+              "duration": 4167000000,
+              "status": "passed"
             },
             "line": 6,
             "name": "I start Spiegel",
@@ -5530,7 +5694,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5267000000,
+              "status": "passed"
             },
             "line": 7,
             "name": "I click Akzeptieren und weiter",
@@ -5542,7 +5707,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:34:07.706Z",
+        "start_timestamp": "2020-11-12T00:49:53.426Z",
         "before": [
           {
             "result": {
@@ -5562,7 +5727,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 4074000000,
+              "status": "passed"
             },
             "line": 58,
             "name": "I scroll to \"block_channel_section\" on start page",
@@ -5579,7 +5745,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5541000000,
+              "status": "passed"
             },
             "line": 59,
             "name": "I click random article of geschichte_channel",
@@ -5600,7 +5767,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1260000000,
+              "status": "passed"
             },
             "line": 60,
             "name": "I click page down 6",
@@ -5617,7 +5785,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 138000000,
+              "status": "passed"
             },
             "line": 61,
             "name": "I click page up 3",
@@ -5634,7 +5803,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 6879000000,
+              "status": "passed"
             },
             "line": 62,
             "name": "I go back to \"DER SPIEGEL | Online-Nachrichten\"",
@@ -5668,8 +5838,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat steps.MenuSteps.i_start_Spiegel(MenuSteps.java:44)\r\n\tat ✽.I start Spiegel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/startPage.feature:6)\r\n",
-              "status": "failed"
+              "duration": 4807000000,
+              "status": "passed"
             },
             "line": 6,
             "name": "I start Spiegel",
@@ -5680,7 +5850,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5313000000,
+              "status": "passed"
             },
             "line": 7,
             "name": "I click Akzeptieren und weiter",
@@ -5692,7 +5863,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:34:07.706Z",
+        "start_timestamp": "2020-11-12T00:50:20.756Z",
         "before": [
           {
             "result": {
@@ -5712,7 +5883,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 4069000000,
+              "status": "passed"
             },
             "line": 58,
             "name": "I scroll to \"block_channel_section\" on start page",
@@ -5729,7 +5901,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5701000000,
+              "status": "passed"
             },
             "line": 59,
             "name": "I click random article of netzwelt_channel",
@@ -5750,7 +5923,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 325000000,
+              "status": "passed"
             },
             "line": 60,
             "name": "I click page down 6",
@@ -5767,7 +5941,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 95000000,
+              "status": "passed"
             },
             "line": 61,
             "name": "I click page up 3",
@@ -5784,7 +5959,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 6248000000,
+              "status": "passed"
             },
             "line": 62,
             "name": "I go back to \"DER SPIEGEL | Online-Nachrichten\"",
@@ -5818,8 +5994,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat steps.MenuSteps.i_start_Spiegel(MenuSteps.java:44)\r\n\tat ✽.I start Spiegel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/startPage.feature:6)\r\n",
-              "status": "failed"
+              "duration": 5850000000,
+              "status": "passed"
             },
             "line": 6,
             "name": "I start Spiegel",
@@ -5830,7 +6006,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 6037000000,
+              "status": "passed"
             },
             "line": 7,
             "name": "I click Akzeptieren und weiter",
@@ -5842,7 +6019,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:34:07.706Z",
+        "start_timestamp": "2020-11-12T00:50:47.317Z",
         "before": [
           {
             "result": {
@@ -5862,7 +6039,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 4067000000,
+              "status": "passed"
             },
             "line": 58,
             "name": "I scroll to \"block_channel_section\" on start page",
@@ -5879,7 +6057,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5236000000,
+              "status": "passed"
             },
             "line": 59,
             "name": "I click random article of mobilität_channel",
@@ -5900,7 +6079,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 647000000,
+              "status": "passed"
             },
             "line": 60,
             "name": "I click page down 6",
@@ -5917,7 +6097,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 125000000,
+              "status": "passed"
             },
             "line": 61,
             "name": "I click page up 3",
@@ -5934,7 +6115,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 6133000000,
+              "status": "passed"
             },
             "line": 62,
             "name": "I go back to \"DER SPIEGEL | Online-Nachrichten\"",
@@ -5968,8 +6150,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat steps.MenuSteps.i_start_Spiegel(MenuSteps.java:44)\r\n\tat ✽.I start Spiegel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/startPage.feature:6)\r\n",
-              "status": "failed"
+              "duration": 3517000000,
+              "status": "passed"
             },
             "line": 6,
             "name": "I start Spiegel",
@@ -5980,7 +6162,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 7820000000,
+              "status": "passed"
             },
             "line": 7,
             "name": "I click Akzeptieren und weiter",
@@ -5992,7 +6175,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:34:07.721Z",
+        "start_timestamp": "2020-11-12T00:51:15.414Z",
         "before": [
           {
             "result": {
@@ -6012,7 +6195,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 4078000000,
+              "status": "passed"
             },
             "line": 58,
             "name": "I scroll to \"block_channel_section\" on start page",
@@ -6029,7 +6213,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5464000000,
+              "status": "passed"
             },
             "line": 59,
             "name": "I click random article of kultur_channel",
@@ -6050,7 +6235,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 436000000,
+              "status": "passed"
             },
             "line": 60,
             "name": "I click page down 6",
@@ -6067,7 +6253,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 218000000,
+              "status": "passed"
             },
             "line": 61,
             "name": "I click page up 3",
@@ -6084,7 +6271,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5873000000,
+              "status": "passed"
             },
             "line": 62,
             "name": "I go back to \"DER SPIEGEL | Online-Nachrichten\"",
@@ -6118,8 +6306,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat steps.MenuSteps.i_start_Spiegel(MenuSteps.java:44)\r\n\tat ✽.I start Spiegel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/startPage.feature:6)\r\n",
-              "status": "failed"
+              "duration": 3919000000,
+              "status": "passed"
             },
             "line": 6,
             "name": "I start Spiegel",
@@ -6130,7 +6318,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5770000000,
+              "status": "passed"
             },
             "line": 7,
             "name": "I click Akzeptieren und weiter",
@@ -6142,7 +6331,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:34:07.721Z",
+        "start_timestamp": "2020-11-12T00:51:42.823Z",
         "before": [
           {
             "result": {
@@ -6162,7 +6351,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 4047000000,
+              "status": "passed"
             },
             "line": 58,
             "name": "I scroll to \"block_channel_section\" on start page",
@@ -6179,7 +6369,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1582000000,
+              "status": "passed"
             },
             "line": 59,
             "name": "I click random article of tests_channel",
@@ -6200,7 +6391,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 199000000,
+              "status": "passed"
             },
             "line": 60,
             "name": "I click page down 6",
@@ -6217,7 +6409,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 94000000,
+              "status": "passed"
             },
             "line": 61,
             "name": "I click page up 3",
@@ -6234,7 +6427,9 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat steps.HelperSteps.i_go_back_to(HelperSteps.java:106)\r\n\tat ✽.I go back to \"DER SPIEGEL | Online-Nachrichten\"(file:///C:/MyWorkspace/guineenews/src/test/resources/features/startPage.feature:62)\r\n",
+              "duration": 20484000000,
+              "status": "failed"
             },
             "line": 62,
             "name": "I go back to \"DER SPIEGEL | Online-Nachrichten\"",
@@ -6268,8 +6463,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat steps.MenuSteps.i_start_Spiegel(MenuSteps.java:44)\r\n\tat ✽.I start Spiegel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/startPage.feature:6)\r\n",
-              "status": "failed"
+              "duration": 4410000000,
+              "status": "passed"
             },
             "line": 6,
             "name": "I start Spiegel",
@@ -6280,7 +6475,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5174000000,
+              "status": "passed"
             },
             "line": 7,
             "name": "I click Akzeptieren und weiter",
@@ -6292,7 +6488,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:34:07.721Z",
+        "start_timestamp": "2020-11-12T00:52:18.922Z",
         "before": [
           {
             "result": {
@@ -6312,7 +6508,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 4068000000,
+              "status": "passed"
             },
             "line": 58,
             "name": "I scroll to \"block_channel_section\" on start page",
@@ -6329,7 +6526,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5573000000,
+              "status": "passed"
             },
             "line": 59,
             "name": "I click random article of wissenschaft_channel",
@@ -6350,7 +6548,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 766000000,
+              "status": "passed"
             },
             "line": 60,
             "name": "I click page down 6",
@@ -6367,7 +6566,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 202000000,
+              "status": "passed"
             },
             "line": 61,
             "name": "I click page up 3",
@@ -6384,7 +6584,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5784000000,
+              "status": "passed"
             },
             "line": 62,
             "name": "I go back to \"DER SPIEGEL | Online-Nachrichten\"",
@@ -6418,8 +6619,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat steps.MenuSteps.i_start_Spiegel(MenuSteps.java:44)\r\n\tat ✽.I start Spiegel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/startPage.feature:6)\r\n",
-              "status": "failed"
+              "duration": 7356000000,
+              "status": "passed"
             },
             "line": 6,
             "name": "I start Spiegel",
@@ -6430,7 +6631,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 4913000000,
+              "status": "passed"
             },
             "line": 7,
             "name": "I click Akzeptieren und weiter",
@@ -6442,7 +6644,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:34:07.737Z",
+        "start_timestamp": "2020-11-12T00:52:44.904Z",
         "before": [
           {
             "result": {
@@ -6462,7 +6664,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 4052000000,
+              "status": "passed"
             },
             "line": 75,
             "name": "I scroll to \"leben_section\" on start page",
@@ -6479,7 +6682,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 4363000000,
+              "status": "passed"
             },
             "line": 76,
             "name": "I click first article of leben_section",
@@ -6500,7 +6704,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 366000000,
+              "status": "passed"
             },
             "line": 77,
             "name": "I click page down 6",
@@ -6517,7 +6722,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 127000000,
+              "status": "passed"
             },
             "line": 78,
             "name": "I click page up 3",
@@ -6534,7 +6740,9 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat steps.HelperSteps.i_go_back_to(HelperSteps.java:106)\r\n\tat ✽.I go back to \"DER SPIEGEL | Online-Nachrichten\"(file:///C:/MyWorkspace/guineenews/src/test/resources/features/startPage.feature:79)\r\n",
+              "duration": 20079000000,
+              "status": "failed"
             },
             "line": 79,
             "name": "I go back to \"DER SPIEGEL | Online-Nachrichten\"",
@@ -6661,8 +6869,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat steps.MenuSteps.i_start_Spiegel(MenuSteps.java:44)\r\n\tat ✽.I start Spiegel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/startPage.feature:6)\r\n",
-              "status": "failed"
+              "duration": 4886000000,
+              "status": "passed"
             },
             "line": 6,
             "name": "I start Spiegel",
@@ -6673,7 +6881,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5028000000,
+              "status": "passed"
             },
             "line": 7,
             "name": "I click Akzeptieren und weiter",
@@ -6685,7 +6894,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:34:07.737Z",
+        "start_timestamp": "2020-11-12T00:53:26.164Z",
         "before": [
           {
             "result": {
@@ -6705,7 +6914,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 4042000000,
+              "status": "passed"
             },
             "line": 88,
             "name": "I scroll to \"highlight_section\" on start page",
@@ -6722,7 +6932,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5363000000,
+              "status": "passed"
             },
             "line": 89,
             "name": "I click first article of highlight_section",
@@ -6743,7 +6954,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 734000000,
+              "status": "passed"
             },
             "line": 90,
             "name": "I click page down 15",
@@ -6760,7 +6972,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 502000000,
+              "status": "passed"
             },
             "line": 91,
             "name": "I click page up 15",
@@ -6777,7 +6990,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 6109000000,
+              "status": "passed"
             },
             "line": 92,
             "name": "I go back to \"DER SPIEGEL | Online-Nachrichten\"",

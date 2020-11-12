@@ -323,7 +323,7 @@ public class SeleniumDriverWrapper {
         catch (Exception e)
         {
             MyLogger.logger.error( e.getMessage());
-            takeScreenhot("not_displayed_");
+            //takeScreenhot("not_displayed_");
         }
         finally {
             return isDisplayed;

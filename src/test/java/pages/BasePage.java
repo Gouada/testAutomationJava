@@ -9,8 +9,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class BasePage extends SeleniumDriverWrapper {
     WebDriver driver;
 
-    private static final String adversting_close_btn = "//button[@id='btnClose']";
-    private static final String adversting_colapse_btn = "//button[@id='btnCollapse']";
+    protected static final String adversting_close_btn = "//button[@id='btnClose']";
+    protected static final String adversting_colapse_btn = "//button[@id='btnCollapse']";
 
     public BasePage(WebDriver driver)
     {

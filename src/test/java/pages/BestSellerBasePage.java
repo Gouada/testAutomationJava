@@ -128,13 +128,11 @@ public class BestSellerBasePage extends BasePage{
 
     public void scrollToBestSellerElement(int i)
     {
-        System.out.println("rdnr:.........."+i);
         String xpath = "("+element_lits+")["+i+"]";
-        System.out.println("xpath:.........."+xpath);
         WebElement element = getElementByXpath(xpath);
         moveMouseOnElement(element);
-        /*if(!isElementDisplayed(element))
-            scrollIntoView(element);
-         */
+        if(isElementDisplayed(getElementByXpath(adversting_close_btn)))
+            clickElement(getElementByXpath(adversting_close_btn));
+
     }
 }

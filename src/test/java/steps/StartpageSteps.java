@@ -41,7 +41,7 @@ public class StartpageSteps{
         }
     }
 
-    @Then("^I click (.*) article of (.*)$")
+    @Then("^On start page I click (.*) article of (.*)$")
     public void i_click_article_of(String article, String section)
     {
         try {
@@ -69,7 +69,7 @@ public class StartpageSteps{
         }
     }
 
-    @Then("I click {int} {string} section arrow {string}")
+    @Then("I click {int} times {string} section arrow {string}")
     public void i_click_section_arrow(int clicks, String section, String direction)
     {
         try {
