@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6970000000,
+              "duration": 7405000000,
               "status": "passed"
             },
             "line": 6,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 3391000000,
+              "duration": 3353000000,
               "status": "passed"
             },
             "line": 7,
@@ -35,7 +35,7 @@
           },
           {
             "result": {
-              "duration": 1375000000,
+              "duration": 5969000000,
               "status": "passed"
             },
             "line": 8,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 1807000000,
+              "duration": 1111000000,
               "status": "passed"
             },
             "line": 9,
@@ -59,7 +59,7 @@
           },
           {
             "result": {
-              "duration": 913000000,
+              "duration": 1781000000,
               "status": "passed"
             },
             "line": 10,
@@ -78,11 +78,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:37:44.562Z",
+        "start_timestamp": "2020-11-12T14:06:03.495Z",
         "before": [
           {
             "result": {
-              "duration": 7046000000,
+              "duration": 7357000000,
               "status": "passed"
             },
             "match": {
@@ -99,7 +99,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4307000000,
+              "duration": 5151000000,
               "status": "passed"
             },
             "line": 15,
@@ -117,7 +117,7 @@
           },
           {
             "result": {
-              "duration": 230000000,
+              "duration": 3263000000,
               "status": "passed"
             },
             "line": 16,
@@ -129,7 +129,7 @@
           },
           {
             "result": {
-              "duration": 1707000000,
+              "duration": 1632000000,
               "status": "passed"
             },
             "line": 17,
@@ -141,7 +141,7 @@
           },
           {
             "result": {
-              "duration": 278000000,
+              "duration": 222000000,
               "status": "passed"
             },
             "line": 21,
@@ -154,7 +154,7 @@
           {
             "result": {
               "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat steps.BestsellerSteps.i_click_bei_vendor_kaufen(BestsellerSteps.java:73)\r\n\tat ✽.I click bei Thaila kaufen(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:22)\r\n",
-              "duration": 17915000000,
+              "duration": 17317000000,
               "status": "failed"
             },
             "line": 22,
@@ -206,7 +206,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6504000000,
+              "duration": 4272000000,
               "status": "passed"
             },
             "line": 6,
@@ -218,7 +218,7 @@
           },
           {
             "result": {
-              "duration": 17611000000,
+              "duration": 6617000000,
               "status": "passed"
             },
             "line": 7,
@@ -230,7 +230,7 @@
           },
           {
             "result": {
-              "duration": 580000000,
+              "duration": 9027000000,
               "status": "passed"
             },
             "line": 8,
@@ -242,7 +242,7 @@
           },
           {
             "result": {
-              "duration": 2268000000,
+              "duration": 393000000,
               "status": "passed"
             },
             "line": 9,
@@ -254,7 +254,7 @@
           },
           {
             "result": {
-              "duration": 410000000,
+              "duration": 11408000000,
               "status": "passed"
             },
             "line": 10,
@@ -273,11 +273,10 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:38:30.575Z",
+        "start_timestamp": "2020-11-12T14:06:58.186Z",
         "before": [
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -294,7 +293,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7814000000,
+              "duration": 22570000000,
               "status": "passed"
             },
             "line": 15,
@@ -312,7 +311,7 @@
           },
           {
             "result": {
-              "duration": 256000000,
+              "duration": 3258000000,
               "status": "passed"
             },
             "line": 16,
@@ -324,7 +323,7 @@
           },
           {
             "result": {
-              "duration": 228000000,
+              "duration": 223000000,
               "status": "passed"
             },
             "line": 17,
@@ -336,7 +335,7 @@
           },
           {
             "result": {
-              "duration": 219000000,
+              "duration": 189000000,
               "status": "passed"
             },
             "line": 21,
@@ -348,7 +347,7 @@
           },
           {
             "result": {
-              "duration": 297000000,
+              "duration": 273000000,
               "status": "passed"
             },
             "line": 22,
@@ -366,7 +365,7 @@
           },
           {
             "result": {
-              "duration": 2203000000,
+              "duration": 2131000000,
               "status": "passed"
             },
             "line": 23,
@@ -401,7 +400,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4749000000,
+              "duration": 7523000000,
               "status": "passed"
             },
             "line": 6,
@@ -413,7 +412,7 @@
           },
           {
             "result": {
-              "duration": 13149000000,
+              "duration": 7079000000,
               "status": "passed"
             },
             "line": 7,
@@ -425,7 +424,7 @@
           },
           {
             "result": {
-              "duration": 479000000,
+              "duration": 711000000,
               "status": "passed"
             },
             "line": 8,
@@ -437,7 +436,7 @@
           },
           {
             "result": {
-              "duration": 932000000,
+              "duration": 373000000,
               "status": "passed"
             },
             "line": 9,
@@ -449,7 +448,7 @@
           },
           {
             "result": {
-              "duration": 1911000000,
+              "duration": 2483000000,
               "status": "passed"
             },
             "line": 10,
@@ -468,7 +467,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:39:08.975Z",
+        "start_timestamp": "2020-11-12T14:07:58.559Z",
         "before": [
           {
             "result": {
@@ -489,7 +488,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4414000000,
+              "duration": 11200000000,
               "status": "passed"
             },
             "line": 15,
@@ -507,7 +506,7 @@
           },
           {
             "result": {
-              "duration": 175000000,
+              "duration": 3219000000,
               "status": "passed"
             },
             "line": 16,
@@ -519,7 +518,7 @@
           },
           {
             "result": {
-              "duration": 434000000,
+              "duration": 205000000,
               "status": "passed"
             },
             "line": 17,
@@ -531,7 +530,7 @@
           },
           {
             "result": {
-              "duration": 239000000,
+              "duration": 209000000,
               "status": "passed"
             },
             "line": 21,
@@ -543,7 +542,7 @@
           },
           {
             "result": {
-              "duration": 411000000,
+              "duration": 435000000,
               "status": "passed"
             },
             "line": 22,
@@ -561,7 +560,7 @@
           },
           {
             "result": {
-              "duration": 2092000000,
+              "duration": 6186000000,
               "status": "passed"
             },
             "line": 23,
@@ -596,7 +595,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7665000000,
+              "duration": 4788000000,
               "status": "passed"
             },
             "line": 6,
@@ -608,7 +607,7 @@
           },
           {
             "result": {
-              "duration": 8503000000,
+              "duration": 42208000000,
               "status": "passed"
             },
             "line": 7,
@@ -620,7 +619,7 @@
           },
           {
             "result": {
-              "duration": 515000000,
+              "duration": 559000000,
               "status": "passed"
             },
             "line": 8,
@@ -632,7 +631,7 @@
           },
           {
             "result": {
-              "duration": 1487000000,
+              "duration": 3529000000,
               "status": "passed"
             },
             "line": 9,
@@ -644,7 +643,7 @@
           },
           {
             "result": {
-              "duration": 2891000000,
+              "duration": 1626000000,
               "status": "passed"
             },
             "line": 10,
@@ -663,7 +662,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:39:37.974Z",
+        "start_timestamp": "2020-11-12T14:08:38.191Z",
         "before": [
           {
             "result": {
@@ -683,7 +682,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3863000000,
+              "duration": 9426000000,
               "status": "passed"
             },
             "line": 36,
@@ -701,7 +700,7 @@
           },
           {
             "result": {
-              "duration": 437000000,
+              "duration": 2552000000,
               "status": "passed"
             },
             "line": 37,
@@ -719,7 +718,7 @@
           },
           {
             "result": {
-              "duration": 874000000,
+              "duration": 3612000000,
               "status": "passed"
             },
             "line": 38,
@@ -731,7 +730,7 @@
           },
           {
             "result": {
-              "duration": 188000000,
+              "duration": 181000000,
               "status": "passed"
             },
             "line": 39,
@@ -743,7 +742,7 @@
           },
           {
             "result": {
-              "duration": 638000000,
+              "duration": 229000000,
               "status": "passed"
             },
             "line": 42,
@@ -755,7 +754,7 @@
           },
           {
             "result": {
-              "duration": 526000000,
+              "duration": 303000000,
               "status": "passed"
             },
             "line": 43,
@@ -773,7 +772,7 @@
           },
           {
             "result": {
-              "duration": 2612000000,
+              "duration": 2384000000,
               "status": "passed"
             },
             "line": 44,
@@ -808,7 +807,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7815000000,
+              "duration": 4585000000,
               "status": "passed"
             },
             "line": 6,
@@ -820,7 +819,7 @@
           },
           {
             "result": {
-              "duration": 8361000000,
+              "duration": 6653000000,
               "status": "passed"
             },
             "line": 7,
@@ -832,7 +831,7 @@
           },
           {
             "result": {
-              "duration": 549000000,
+              "duration": 1021000000,
               "status": "passed"
             },
             "line": 8,
@@ -844,7 +843,7 @@
           },
           {
             "result": {
-              "duration": 1216000000,
+              "duration": 503000000,
               "status": "passed"
             },
             "line": 9,
@@ -856,7 +855,7 @@
           },
           {
             "result": {
-              "duration": 746000000,
+              "duration": 2249000000,
               "status": "passed"
             },
             "line": 10,
@@ -875,7 +874,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:40:08.182Z",
+        "start_timestamp": "2020-11-12T14:09:49.599Z",
         "before": [
           {
             "result": {
@@ -895,7 +894,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3895000000,
+              "duration": 4433000000,
               "status": "passed"
             },
             "line": 36,
@@ -913,7 +912,7 @@
           },
           {
             "result": {
-              "duration": 1449000000,
+              "duration": 1597000000,
               "status": "passed"
             },
             "line": 37,
@@ -931,7 +930,7 @@
           },
           {
             "result": {
-              "duration": 242000000,
+              "duration": 3301000000,
               "status": "passed"
             },
             "line": 38,
@@ -943,7 +942,7 @@
           },
           {
             "result": {
-              "duration": 792000000,
+              "duration": 223000000,
               "status": "passed"
             },
             "line": 39,
@@ -955,7 +954,7 @@
           },
           {
             "result": {
-              "duration": 250000000,
+              "duration": 231000000,
               "status": "passed"
             },
             "line": 42,
@@ -967,7 +966,7 @@
           },
           {
             "result": {
-              "duration": 407000000,
+              "duration": 384000000,
               "status": "passed"
             },
             "line": 43,
@@ -985,7 +984,7 @@
           },
           {
             "result": {
-              "duration": 3629000000,
+              "duration": 2134000000,
               "status": "passed"
             },
             "line": 44,
@@ -1020,7 +1019,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5800000000,
+              "duration": 4645000000,
               "status": "passed"
             },
             "line": 6,
@@ -1032,7 +1031,7 @@
           },
           {
             "result": {
-              "duration": 6794000000,
+              "duration": 11962000000,
               "status": "passed"
             },
             "line": 7,
@@ -1044,7 +1043,7 @@
           },
           {
             "result": {
-              "duration": 430000000,
+              "duration": 462000000,
               "status": "passed"
             },
             "line": 8,
@@ -1056,7 +1055,7 @@
           },
           {
             "result": {
-              "duration": 2424000000,
+              "duration": 2039000000,
               "status": "passed"
             },
             "line": 9,
@@ -1068,7 +1067,7 @@
           },
           {
             "result": {
-              "duration": 422000000,
+              "duration": 309000000,
               "status": "passed"
             },
             "line": 10,
@@ -1087,11 +1086,10 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:40:37.543Z",
+        "start_timestamp": "2020-11-12T14:10:16.921Z",
         "before": [
           {
             "result": {
-              "duration": 5000000,
               "status": "passed"
             },
             "match": {
@@ -1108,7 +1106,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4741000000,
+              "duration": 5252000000,
               "status": "passed"
             },
             "line": 52,
@@ -1126,7 +1124,7 @@
           },
           {
             "result": {
-              "duration": 2695000000,
+              "duration": 435000000,
               "status": "passed"
             },
             "line": 53,
@@ -1144,7 +1142,219 @@
           },
           {
             "result": {
-              "duration": 796000000,
+              "duration": 7126000000,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I scroll to a random bestseller",
+            "match": {
+              "location": "steps.BestsellerSteps.i_scroll_to_random_bestseller_element()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 179000000,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I click mehr anzeigen",
+            "match": {
+              "location": "steps.BestsellerSteps.i_click_mehr_anzeigen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 189000000,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "I move mouse over kaufen",
+            "match": {
+              "location": "steps.BestsellerSteps.i_move_mouse_over_kaufen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 466000000,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "I click bei Thaila kaufen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Thaila",
+                  "offset": 12
+                }
+              ],
+              "location": "steps.BestsellerSteps.i_click_bei_vendor_kaufen(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2430000000,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "I close the Thaila tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Thaila",
+                  "offset": 12
+                }
+              ],
+              "location": "steps.BestsellerSteps.i_close_vendor_tab(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@spiegelCultureBestseller"
+          },
+          {
+            "name": "@bestsellerRatgeber"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4508000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I start Spiegel",
+            "match": {
+              "location": "steps.MenuSteps.i_start_Spiegel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6719000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click Akzeptieren und weiter",
+            "match": {
+              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 518000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I bring culture menu into view",
+            "match": {
+              "location": "steps.CultureSteps.i_bring_culture_menu_into_view()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1446000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click TopMenu culture",
+            "match": {
+              "location": "steps.CultureSteps.i_click_culture_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 632000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click culture SPIEGEL-Bestseller",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SPIEGEL-Bestseller",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.CultureSteps.i_click_menu(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-12T14:10:52.424Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.TestCaseBase.setup()"
+            }
+          }
+        ],
+        "line": 64,
+        "name": "Bestseller Ratgeber",
+        "description": "",
+        "id": "spiegel-kultur;bestseller-ratgeber;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5831000000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I click bestseller Ratgeber",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ratgeber",
+                  "offset": 19
+                }
+              ],
+              "location": "steps.BestsellerSteps.i_click_bestseller_menu(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 572000000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I click the bestseller sub_menu Essen \u0026 Trinken",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Essen \u0026 Trinken",
+                  "offset": 32
+                }
+              ],
+              "location": "steps.BestsellerSteps.i_click_bestseller_sub_menu(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3269000000,
               "status": "passed"
             },
             "line": 54,
@@ -1168,7 +1378,7 @@
           },
           {
             "result": {
-              "duration": 175000000,
+              "duration": 177000000,
               "status": "passed"
             },
             "line": 58,
@@ -1180,219 +1390,7 @@
           },
           {
             "result": {
-              "duration": 501000000,
-              "status": "passed"
-            },
-            "line": 59,
-            "name": "I click bei Thaila kaufen",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Thaila",
-                  "offset": 12
-                }
-              ],
-              "location": "steps.BestsellerSteps.i_click_bei_vendor_kaufen(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 4062000000,
-              "status": "passed"
-            },
-            "line": 60,
-            "name": "I close the Thaila tab",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Thaila",
-                  "offset": 12
-                }
-              ],
-              "location": "steps.BestsellerSteps.i_close_vendor_tab(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@spiegelCultureBestseller"
-          },
-          {
-            "name": "@bestsellerRatgeber"
-          }
-        ]
-      },
-      {
-        "line": 5,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 4962000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "I start Spiegel",
-            "match": {
-              "location": "steps.MenuSteps.i_start_Spiegel()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 11517000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I click Akzeptieren und weiter",
-            "match": {
-              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 523000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I bring culture menu into view",
-            "match": {
-              "location": "steps.CultureSteps.i_bring_culture_menu_into_view()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2996000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "I click TopMenu culture",
-            "match": {
-              "location": "steps.CultureSteps.i_click_culture_menu()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1351000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "I click culture SPIEGEL-Bestseller",
-            "match": {
-              "arguments": [
-                {
-                  "val": "SPIEGEL-Bestseller",
-                  "offset": 16
-                }
-              ],
-              "location": "steps.CultureSteps.i_click_menu(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-12T00:41:06.524Z",
-        "before": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.TestCaseBase.setup()"
-            }
-          }
-        ],
-        "line": 64,
-        "name": "Bestseller Ratgeber",
-        "description": "",
-        "id": "spiegel-kultur;bestseller-ratgeber;;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 5395000000,
-              "status": "passed"
-            },
-            "line": 52,
-            "name": "I click bestseller Ratgeber",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Ratgeber",
-                  "offset": 19
-                }
-              ],
-              "location": "steps.BestsellerSteps.i_click_bestseller_menu(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1508000000,
-              "status": "passed"
-            },
-            "line": 53,
-            "name": "I click the bestseller sub_menu Essen \u0026 Trinken",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Essen \u0026 Trinken",
-                  "offset": 32
-                }
-              ],
-              "location": "steps.BestsellerSteps.i_click_bestseller_sub_menu(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 301000000,
-              "status": "passed"
-            },
-            "line": 54,
-            "name": "I scroll to a random bestseller",
-            "match": {
-              "location": "steps.BestsellerSteps.i_scroll_to_random_bestseller_element()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1327000000,
-              "status": "passed"
-            },
-            "line": 55,
-            "name": "I click mehr anzeigen",
-            "match": {
-              "location": "steps.BestsellerSteps.i_click_mehr_anzeigen()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 216000000,
-              "status": "passed"
-            },
-            "line": 58,
-            "name": "I move mouse over kaufen",
-            "match": {
-              "location": "steps.BestsellerSteps.i_move_mouse_over_kaufen()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 661000000,
+              "duration": 252000000,
               "status": "passed"
             },
             "line": 59,
@@ -1410,7 +1408,7 @@
           },
           {
             "result": {
-              "duration": 3740000000,
+              "duration": 4768000000,
               "status": "passed"
             },
             "line": 60,
@@ -1445,7 +1443,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3638000000,
+              "duration": 4821000000,
               "status": "passed"
             },
             "line": 6,
@@ -1457,7 +1455,7 @@
           },
           {
             "result": {
-              "duration": 7760000000,
+              "duration": 7514000000,
               "status": "passed"
             },
             "line": 7,
@@ -1469,7 +1467,7 @@
           },
           {
             "result": {
-              "duration": 483000000,
+              "duration": 425000000,
               "status": "passed"
             },
             "line": 8,
@@ -1481,7 +1479,7 @@
           },
           {
             "result": {
-              "duration": 1291000000,
+              "duration": 405000000,
               "status": "passed"
             },
             "line": 9,
@@ -1493,7 +1491,7 @@
           },
           {
             "result": {
-              "duration": 1400000000,
+              "duration": 1860000000,
               "status": "passed"
             },
             "line": 10,
@@ -1512,7 +1510,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:41:41.036Z",
+        "start_timestamp": "2020-11-12T14:11:21.256Z",
         "before": [
           {
             "result": {
@@ -1532,7 +1530,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3506000000,
+              "duration": 4989000000,
               "status": "passed"
             },
             "line": 52,
@@ -1550,7 +1548,7 @@
           },
           {
             "result": {
-              "duration": 1201000000,
+              "duration": 1041000000,
               "status": "passed"
             },
             "line": 53,
@@ -1568,7 +1566,7 @@
           },
           {
             "result": {
-              "duration": 861000000,
+              "duration": 3299000000,
               "status": "passed"
             },
             "line": 54,
@@ -1580,7 +1578,7 @@
           },
           {
             "result": {
-              "duration": 455000000,
+              "duration": 209000000,
               "status": "passed"
             },
             "line": 55,
@@ -1592,7 +1590,7 @@
           },
           {
             "result": {
-              "duration": 533000000,
+              "duration": 202000000,
               "status": "passed"
             },
             "line": 58,
@@ -1604,7 +1602,7 @@
           },
           {
             "result": {
-              "duration": 560000000,
+              "duration": 458000000,
               "status": "passed"
             },
             "line": 59,
@@ -1622,7 +1620,7 @@
           },
           {
             "result": {
-              "duration": 3327000000,
+              "duration": 3237000000,
               "status": "passed"
             },
             "line": 60,
@@ -1657,7 +1655,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4844000000,
+              "duration": 5737000000,
               "status": "passed"
             },
             "line": 6,
@@ -1669,7 +1667,7 @@
           },
           {
             "result": {
-              "duration": 6694000000,
+              "duration": 6315000000,
               "status": "passed"
             },
             "line": 7,
@@ -1681,7 +1679,7 @@
           },
           {
             "result": {
-              "duration": 416000000,
+              "duration": 551000000,
               "status": "passed"
             },
             "line": 8,
@@ -1693,7 +1691,7 @@
           },
           {
             "result": {
-              "duration": 1237000000,
+              "duration": 2155000000,
               "status": "passed"
             },
             "line": 9,
@@ -1705,7 +1703,7 @@
           },
           {
             "result": {
-              "duration": 619000000,
+              "duration": 1118000000,
               "status": "passed"
             },
             "line": 10,
@@ -1724,10 +1722,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:42:06.051Z",
+        "start_timestamp": "2020-11-12T14:11:49.728Z",
         "before": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -1744,7 +1743,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5378000000,
+              "duration": 5494000000,
               "status": "passed"
             },
             "line": 52,
@@ -1762,7 +1761,7 @@
           },
           {
             "result": {
-              "duration": 370000000,
+              "duration": 1763000000,
               "status": "passed"
             },
             "line": 53,
@@ -1780,7 +1779,7 @@
           },
           {
             "result": {
-              "duration": 920000000,
+              "duration": 7634000000,
               "status": "passed"
             },
             "line": 54,
@@ -1792,7 +1791,7 @@
           },
           {
             "result": {
-              "duration": 112000000,
+              "duration": 170000000,
               "status": "passed"
             },
             "line": 55,
@@ -1804,7 +1803,7 @@
           },
           {
             "result": {
-              "duration": 191000000,
+              "duration": 226000000,
               "status": "passed"
             },
             "line": 58,
@@ -1816,7 +1815,7 @@
           },
           {
             "result": {
-              "duration": 810000000,
+              "duration": 280000000,
               "status": "passed"
             },
             "line": 59,
@@ -1834,7 +1833,7 @@
           },
           {
             "result": {
-              "duration": 2910000000,
+              "duration": 2138000000,
               "status": "passed"
             },
             "line": 60,
@@ -1869,7 +1868,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5474000000,
+              "duration": 5587000000,
               "status": "passed"
             },
             "line": 6,
@@ -1881,7 +1880,7 @@
           },
           {
             "result": {
-              "duration": 6111000000,
+              "duration": 12772000000,
               "status": "passed"
             },
             "line": 7,
@@ -1893,7 +1892,7 @@
           },
           {
             "result": {
-              "duration": 476000000,
+              "duration": 493000000,
               "status": "passed"
             },
             "line": 8,
@@ -1905,7 +1904,7 @@
           },
           {
             "result": {
-              "duration": 1176000000,
+              "duration": 1156000000,
               "status": "passed"
             },
             "line": 9,
@@ -1917,7 +1916,7 @@
           },
           {
             "result": {
-              "duration": 388000000,
+              "duration": 5059000000,
               "status": "passed"
             },
             "line": 10,
@@ -1936,7 +1935,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:42:30.552Z",
+        "start_timestamp": "2020-11-12T14:12:23.319Z",
         "before": [
           {
             "result": {
@@ -1956,7 +1955,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4020000000,
+              "duration": 11463000000,
               "status": "passed"
             },
             "line": 70,
@@ -1974,7 +1973,7 @@
           },
           {
             "result": {
-              "duration": 1130000000,
+              "duration": 1333000000,
               "status": "passed"
             },
             "line": 71,
@@ -1992,7 +1991,7 @@
           },
           {
             "result": {
-              "duration": 160000000,
+              "duration": 8188000000,
               "status": "passed"
             },
             "line": 72,
@@ -2004,7 +2003,7 @@
           },
           {
             "result": {
-              "duration": 191000000,
+              "duration": 131000000,
               "status": "passed"
             },
             "line": 73,
@@ -2016,7 +2015,7 @@
           },
           {
             "result": {
-              "duration": 753000000,
+              "duration": 175000000,
               "status": "passed"
             },
             "line": 76,
@@ -2028,7 +2027,7 @@
           },
           {
             "result": {
-              "duration": 497000000,
+              "duration": 191000000,
               "status": "passed"
             },
             "line": 77,
@@ -2046,7 +2045,7 @@
           },
           {
             "result": {
-              "duration": 4232000000,
+              "duration": 2119000000,
               "status": "passed"
             },
             "line": 78,
@@ -2081,7 +2080,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4260000000,
+              "duration": 6754000000,
               "status": "passed"
             },
             "line": 6,
@@ -2093,7 +2092,7 @@
           },
           {
             "result": {
-              "duration": 6399000000,
+              "duration": 6593000000,
               "status": "passed"
             },
             "line": 7,
@@ -2105,7 +2104,7 @@
           },
           {
             "result": {
-              "duration": 513000000,
+              "duration": 2725000000,
               "status": "passed"
             },
             "line": 8,
@@ -2117,7 +2116,7 @@
           },
           {
             "result": {
-              "duration": 1228000000,
+              "duration": 408000000,
               "status": "passed"
             },
             "line": 9,
@@ -2129,7 +2128,7 @@
           },
           {
             "result": {
-              "duration": 462000000,
+              "duration": 1133000000,
               "status": "passed"
             },
             "line": 10,
@@ -2148,10 +2147,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:42:55.170Z",
+        "start_timestamp": "2020-11-12T14:13:11.999Z",
         "before": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -2168,7 +2168,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4107000000,
+              "duration": 4508000000,
               "status": "passed"
             },
             "line": 70,
@@ -2186,7 +2186,7 @@
           },
           {
             "result": {
-              "duration": 2519000000,
+              "duration": 460000000,
               "status": "passed"
             },
             "line": 71,
@@ -2204,7 +2204,7 @@
           },
           {
             "result": {
-              "duration": 806000000,
+              "duration": 7462000000,
               "status": "passed"
             },
             "line": 72,
@@ -2216,7 +2216,7 @@
           },
           {
             "result": {
-              "duration": 312000000,
+              "duration": 219000000,
               "status": "passed"
             },
             "line": 73,
@@ -2228,7 +2228,7 @@
           },
           {
             "result": {
-              "duration": 469000000,
+              "duration": 173000000,
               "status": "passed"
             },
             "line": 76,
@@ -2240,7 +2240,7 @@
           },
           {
             "result": {
-              "duration": 569000000,
+              "duration": 396000000,
               "status": "passed"
             },
             "line": 77,
@@ -2258,7 +2258,7 @@
           },
           {
             "result": {
-              "duration": 2412000000,
+              "duration": 2145000000,
               "status": "passed"
             },
             "line": 78,
@@ -2293,7 +2293,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4190000000,
+              "duration": 6608000000,
               "status": "passed"
             },
             "line": 6,
@@ -2305,7 +2305,7 @@
           },
           {
             "result": {
-              "duration": 6282000000,
+              "duration": 6693000000,
               "status": "passed"
             },
             "line": 7,
@@ -2317,7 +2317,7 @@
           },
           {
             "result": {
-              "duration": 552000000,
+              "duration": 474000000,
               "status": "passed"
             },
             "line": 8,
@@ -2329,7 +2329,7 @@
           },
           {
             "result": {
-              "duration": 2593000000,
+              "duration": 377000000,
               "status": "passed"
             },
             "line": 9,
@@ -2341,7 +2341,7 @@
           },
           {
             "result": {
-              "duration": 248000000,
+              "duration": 2627000000,
               "status": "passed"
             },
             "line": 10,
@@ -2360,7 +2360,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:43:19.234Z",
+        "start_timestamp": "2020-11-12T14:13:44.982Z",
         "before": [
           {
             "result": {
@@ -2380,7 +2380,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4425000000,
+              "duration": 6049000000,
               "status": "passed"
             },
             "line": 70,
@@ -2398,7 +2398,7 @@
           },
           {
             "result": {
-              "duration": 1016000000,
+              "duration": 1673000000,
               "status": "passed"
             },
             "line": 71,
@@ -2416,7 +2416,7 @@
           },
           {
             "result": {
-              "duration": 800000000,
+              "duration": 6937000000,
               "status": "passed"
             },
             "line": 72,
@@ -2428,7 +2428,7 @@
           },
           {
             "result": {
-              "duration": 289000000,
+              "duration": 164000000,
               "status": "passed"
             },
             "line": 73,
@@ -2440,7 +2440,7 @@
           },
           {
             "result": {
-              "duration": 866000000,
+              "duration": 189000000,
               "status": "passed"
             },
             "line": 76,
@@ -2452,7 +2452,7 @@
           },
           {
             "result": {
-              "duration": 537000000,
+              "duration": 442000000,
               "status": "passed"
             },
             "line": 77,
@@ -2470,7 +2470,7 @@
           },
           {
             "result": {
-              "duration": 2139000000,
+              "duration": 2279000000,
               "status": "passed"
             },
             "line": 78,
@@ -2505,7 +2505,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4260000000,
+              "duration": 4357000000,
               "status": "passed"
             },
             "line": 6,
@@ -2517,7 +2517,7 @@
           },
           {
             "result": {
-              "duration": 7287000000,
+              "duration": 7251000000,
               "status": "passed"
             },
             "line": 7,
@@ -2529,7 +2529,7 @@
           },
           {
             "result": {
-              "duration": 420000000,
+              "duration": 548000000,
               "status": "passed"
             },
             "line": 8,
@@ -2541,7 +2541,7 @@
           },
           {
             "result": {
-              "duration": 1753000000,
+              "duration": 1583000000,
               "status": "passed"
             },
             "line": 9,
@@ -2553,7 +2553,7 @@
           },
           {
             "result": {
-              "duration": 256000000,
+              "duration": 972000000,
               "status": "passed"
             },
             "line": 10,
@@ -2572,7 +2572,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:43:43.181Z",
+        "start_timestamp": "2020-11-12T14:14:19.507Z",
         "before": [
           {
             "result": {
@@ -2592,7 +2592,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4017000000,
+              "duration": 6402000000,
               "status": "passed"
             },
             "line": 70,
@@ -2610,7 +2610,7 @@
           },
           {
             "result": {
-              "duration": 1752000000,
+              "duration": 977000000,
               "status": "passed"
             },
             "line": 71,
@@ -2628,7 +2628,7 @@
           },
           {
             "result": {
-              "duration": 942000000,
+              "duration": 3831000000,
               "status": "passed"
             },
             "line": 72,
@@ -2640,7 +2640,7 @@
           },
           {
             "result": {
-              "duration": 176000000,
+              "duration": 293000000,
               "status": "passed"
             },
             "line": 73,
@@ -2652,7 +2652,7 @@
           },
           {
             "result": {
-              "duration": 672000000,
+              "duration": 235000000,
               "status": "passed"
             },
             "line": 76,
@@ -2664,7 +2664,7 @@
           },
           {
             "result": {
-              "duration": 363000000,
+              "duration": 319000000,
               "status": "passed"
             },
             "line": 77,
@@ -2682,7 +2682,7 @@
           },
           {
             "result": {
-              "duration": 2746000000,
+              "duration": 3719000000,
               "status": "passed"
             },
             "line": 78,
@@ -2737,7 +2737,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4874000000,
+              "duration": 4572000000,
               "status": "passed"
             },
             "line": 5,
@@ -2749,7 +2749,7 @@
           },
           {
             "result": {
-              "duration": 6821000000,
+              "duration": 11364000000,
               "status": "passed"
             },
             "line": 6,
@@ -2761,7 +2761,7 @@
           },
           {
             "result": {
-              "duration": 514000000,
+              "duration": 464000000,
               "status": "passed"
             },
             "line": 7,
@@ -2773,7 +2773,7 @@
           },
           {
             "result": {
-              "duration": 1528000000,
+              "duration": 1285000000,
               "status": "passed"
             },
             "line": 8,
@@ -2786,10 +2786,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:44:07.826Z",
+        "start_timestamp": "2020-11-12T14:14:50.004Z",
         "before": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -2806,7 +2807,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1096000000,
+              "duration": 172000000,
               "status": "passed"
             },
             "line": 12,
@@ -2824,17 +2825,26 @@
           },
           {
             "result": {
-              "error_message": "io.cucumber.core.runner.AmbiguousStepDefinitionsException: \"I click a \"random\" article of alle Beitraege section\" matches more than one step definition:\n  \"I click a {string} article of alle Beitraege section\" in steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)\n  \"^I click (.*) article of (.*)$\" in steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)\r\n\tat io.cucumber.core.runner.CachingGlue.findStepDefinitionMatch(CachingGlue.java:373)\r\n\tat io.cucumber.core.runner.CachingGlue.stepDefinitionMatch(CachingGlue.java:341)\r\n\tat io.cucumber.core.runner.Runner.matchStepToStepDefinition(Runner.java:146)\r\n\tat io.cucumber.core.runner.Runner.createTestStepsForPickleSteps(Runner.java:126)\r\n\tat io.cucumber.core.runner.Runner.createTestCaseForPickle(Runner.java:109)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:70)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)\r\n",
-              "status": "ambiguous"
+              "duration": 561000000,
+              "status": "passed"
             },
             "line": 13,
             "name": "I click a \"random\" article of alle Beitraege section",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 10
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1320000000,
+              "status": "passed"
             },
             "line": 14,
             "name": "I click page down 3",
@@ -2851,7 +2861,9 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat steps.CultureSteps.i_go_back_to_menu_kultur_der_spiegel(CultureSteps.java:39)\r\n\tat ✽.I navigate back to Kino - Kultur - DER SPIEGEL(file:///C:/MyWorkspace/guineenews/src/test/resources/features/culturePage.feature:15)\r\n",
+              "duration": 17391000000,
+              "status": "failed"
             },
             "line": 15,
             "name": "I navigate back to Kino - Kultur - DER SPIEGEL",
@@ -2885,7 +2897,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4471000000,
+              "duration": 4857000000,
               "status": "passed"
             },
             "line": 5,
@@ -2897,7 +2909,7 @@
           },
           {
             "result": {
-              "duration": 6506000000,
+              "duration": 5138000000,
               "status": "passed"
             },
             "line": 6,
@@ -2909,7 +2921,7 @@
           },
           {
             "result": {
-              "duration": 459000000,
+              "duration": 457000000,
               "status": "passed"
             },
             "line": 7,
@@ -2921,7 +2933,7 @@
           },
           {
             "result": {
-              "duration": 1232000000,
+              "duration": 1150000000,
               "status": "passed"
             },
             "line": 8,
@@ -2934,10 +2946,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:44:22.675Z",
+        "start_timestamp": "2020-11-12T14:15:27.144Z",
         "before": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -2954,7 +2967,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1959000000,
+              "duration": 328000000,
               "status": "passed"
             },
             "line": 12,
@@ -2972,17 +2985,26 @@
           },
           {
             "result": {
-              "error_message": "io.cucumber.core.runner.AmbiguousStepDefinitionsException: \"I click a \"random\" article of alle Beitraege section\" matches more than one step definition:\n  \"I click a {string} article of alle Beitraege section\" in steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)\n  \"^I click (.*) article of (.*)$\" in steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)\r\n\tat io.cucumber.core.runner.CachingGlue.findStepDefinitionMatch(CachingGlue.java:373)\r\n\tat io.cucumber.core.runner.CachingGlue.stepDefinitionMatch(CachingGlue.java:341)\r\n\tat io.cucumber.core.runner.Runner.matchStepToStepDefinition(Runner.java:146)\r\n\tat io.cucumber.core.runner.Runner.createTestStepsForPickleSteps(Runner.java:126)\r\n\tat io.cucumber.core.runner.Runner.createTestCaseForPickle(Runner.java:109)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:70)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)\r\n",
-              "status": "ambiguous"
+              "duration": 1838000000,
+              "status": "passed"
             },
             "line": 13,
             "name": "I click a \"random\" article of alle Beitraege section",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 10
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 157000000,
+              "status": "passed"
             },
             "line": 14,
             "name": "I click page down 3",
@@ -2999,7 +3021,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2343000000,
+              "status": "passed"
             },
             "line": 15,
             "name": "I navigate back to Musik - Kultur - DER SPIEGEL",
@@ -3033,7 +3056,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4169000000,
+              "duration": 5801000000,
               "status": "passed"
             },
             "line": 5,
@@ -3045,7 +3068,7 @@
           },
           {
             "result": {
-              "duration": 6749000000,
+              "duration": 5086000000,
               "status": "passed"
             },
             "line": 6,
@@ -3057,7 +3080,7 @@
           },
           {
             "result": {
-              "duration": 516000000,
+              "duration": 1040000000,
               "status": "passed"
             },
             "line": 7,
@@ -3069,7 +3092,7 @@
           },
           {
             "result": {
-              "duration": 1078000000,
+              "duration": 1118000000,
               "status": "passed"
             },
             "line": 8,
@@ -3082,10 +3105,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:44:37.310Z",
+        "start_timestamp": "2020-11-12T14:15:43.421Z",
         "before": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -3102,7 +3126,7 @@
         "steps": [
           {
             "result": {
-              "duration": 424000000,
+              "duration": 742000000,
               "status": "passed"
             },
             "line": 12,
@@ -3120,17 +3144,26 @@
           },
           {
             "result": {
-              "error_message": "io.cucumber.core.runner.AmbiguousStepDefinitionsException: \"I click a \"random\" article of alle Beitraege section\" matches more than one step definition:\n  \"I click a {string} article of alle Beitraege section\" in steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)\n  \"^I click (.*) article of (.*)$\" in steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)\r\n\tat io.cucumber.core.runner.CachingGlue.findStepDefinitionMatch(CachingGlue.java:373)\r\n\tat io.cucumber.core.runner.CachingGlue.stepDefinitionMatch(CachingGlue.java:341)\r\n\tat io.cucumber.core.runner.Runner.matchStepToStepDefinition(Runner.java:146)\r\n\tat io.cucumber.core.runner.Runner.createTestStepsForPickleSteps(Runner.java:126)\r\n\tat io.cucumber.core.runner.Runner.createTestCaseForPickle(Runner.java:109)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:70)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)\r\n",
-              "status": "ambiguous"
+              "duration": 753000000,
+              "status": "passed"
             },
             "line": 13,
             "name": "I click a \"random\" article of alle Beitraege section",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 10
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 111000000,
+              "status": "passed"
             },
             "line": 14,
             "name": "I click page down 3",
@@ -3147,7 +3180,9 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat steps.CultureSteps.i_go_back_to_menu_kultur_der_spiegel(CultureSteps.java:39)\r\n\tat ✽.I navigate back to TV - Kultur - DER SPIEGEL(file:///C:/MyWorkspace/guineenews/src/test/resources/features/culturePage.feature:15)\r\n",
+              "duration": 17422000000,
+              "status": "failed"
             },
             "line": 15,
             "name": "I navigate back to TV - Kultur - DER SPIEGEL",
@@ -3181,7 +3216,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4114000000,
+              "duration": 4999000000,
               "status": "passed"
             },
             "line": 5,
@@ -3193,7 +3228,7 @@
           },
           {
             "result": {
-              "duration": 6585000000,
+              "duration": 4937000000,
               "status": "passed"
             },
             "line": 6,
@@ -3205,7 +3240,7 @@
           },
           {
             "result": {
-              "duration": 471000000,
+              "duration": 458000000,
               "status": "passed"
             },
             "line": 7,
@@ -3217,7 +3252,7 @@
           },
           {
             "result": {
-              "duration": 1777000000,
+              "duration": 2394000000,
               "status": "passed"
             },
             "line": 8,
@@ -3230,7 +3265,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:44:50.246Z",
+        "start_timestamp": "2020-11-12T14:16:15.513Z",
         "before": [
           {
             "result": {
@@ -3250,7 +3285,7 @@
         "steps": [
           {
             "result": {
-              "duration": 360000000,
+              "duration": 1406000000,
               "status": "passed"
             },
             "line": 12,
@@ -3268,17 +3303,26 @@
           },
           {
             "result": {
-              "error_message": "io.cucumber.core.runner.AmbiguousStepDefinitionsException: \"I click a \"random\" article of alle Beitraege section\" matches more than one step definition:\n  \"I click a {string} article of alle Beitraege section\" in steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)\n  \"^I click (.*) article of (.*)$\" in steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)\r\n\tat io.cucumber.core.runner.CachingGlue.findStepDefinitionMatch(CachingGlue.java:373)\r\n\tat io.cucumber.core.runner.CachingGlue.stepDefinitionMatch(CachingGlue.java:341)\r\n\tat io.cucumber.core.runner.Runner.matchStepToStepDefinition(Runner.java:146)\r\n\tat io.cucumber.core.runner.Runner.createTestStepsForPickleSteps(Runner.java:126)\r\n\tat io.cucumber.core.runner.Runner.createTestCaseForPickle(Runner.java:109)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:70)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)\r\n",
-              "status": "ambiguous"
+              "duration": 1527000000,
+              "status": "passed"
             },
             "line": 13,
             "name": "I click a \"random\" article of alle Beitraege section",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 10
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 94000000,
+              "status": "passed"
             },
             "line": 14,
             "name": "I click page down 3",
@@ -3295,7 +3339,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3644000000,
+              "status": "passed"
             },
             "line": 15,
             "name": "I navigate back to Literatur - Kultur - DER SPIEGEL",
@@ -3329,7 +3374,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4389000000,
+              "duration": 5627000000,
               "status": "passed"
             },
             "line": 5,
@@ -3341,7 +3386,7 @@
           },
           {
             "result": {
-              "duration": 6949000000,
+              "duration": 4627000000,
               "status": "passed"
             },
             "line": 6,
@@ -3353,7 +3398,7 @@
           },
           {
             "result": {
-              "duration": 498000000,
+              "duration": 1181000000,
               "status": "passed"
             },
             "line": 7,
@@ -3365,7 +3410,7 @@
           },
           {
             "result": {
-              "duration": 1133000000,
+              "duration": 1161000000,
               "status": "passed"
             },
             "line": 8,
@@ -3378,7 +3423,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:45:03.568Z",
+        "start_timestamp": "2020-11-12T14:16:34.980Z",
         "before": [
           {
             "result": {
@@ -3398,7 +3443,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1215000000,
+              "duration": 1072000000,
               "status": "passed"
             },
             "line": 12,
@@ -3416,17 +3461,26 @@
           },
           {
             "result": {
-              "error_message": "io.cucumber.core.runner.AmbiguousStepDefinitionsException: \"I click a \"random\" article of alle Beitraege section\" matches more than one step definition:\n  \"I click a {string} article of alle Beitraege section\" in steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)\n  \"^I click (.*) article of (.*)$\" in steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)\r\n\tat io.cucumber.core.runner.CachingGlue.findStepDefinitionMatch(CachingGlue.java:373)\r\n\tat io.cucumber.core.runner.CachingGlue.stepDefinitionMatch(CachingGlue.java:341)\r\n\tat io.cucumber.core.runner.Runner.matchStepToStepDefinition(Runner.java:146)\r\n\tat io.cucumber.core.runner.Runner.createTestStepsForPickleSteps(Runner.java:126)\r\n\tat io.cucumber.core.runner.Runner.createTestCaseForPickle(Runner.java:109)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:70)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)\r\n",
-              "status": "ambiguous"
+              "duration": 2412000000,
+              "status": "passed"
             },
             "line": 13,
             "name": "I click a \"random\" article of alle Beitraege section",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 10
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 111000000,
+              "status": "passed"
             },
             "line": 14,
             "name": "I click page down 3",
@@ -3443,7 +3497,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5422000000,
+              "status": "passed"
             },
             "line": 15,
             "name": "I navigate back to Streaming - Kultur - DER SPIEGEL",
@@ -3477,7 +3532,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4123000000,
+              "duration": 4921000000,
               "status": "passed"
             },
             "line": 5,
@@ -3489,7 +3544,7 @@
           },
           {
             "result": {
-              "duration": 6599000000,
+              "duration": 4165000000,
               "status": "passed"
             },
             "line": 6,
@@ -3501,7 +3556,7 @@
           },
           {
             "result": {
-              "duration": 488000000,
+              "duration": 3181000000,
               "status": "passed"
             },
             "line": 7,
@@ -3513,7 +3568,7 @@
           },
           {
             "result": {
-              "duration": 1088000000,
+              "duration": 546000000,
               "status": "passed"
             },
             "line": 8,
@@ -3526,10 +3581,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:45:17.768Z",
+        "start_timestamp": "2020-11-12T14:16:56.599Z",
         "before": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -3546,7 +3602,7 @@
         "steps": [
           {
             "result": {
-              "duration": 701000000,
+              "duration": 1720000000,
               "status": "passed"
             },
             "line": 12,
@@ -3564,17 +3620,26 @@
           },
           {
             "result": {
-              "error_message": "io.cucumber.core.runner.AmbiguousStepDefinitionsException: \"I click a \"random\" article of alle Beitraege section\" matches more than one step definition:\n  \"I click a {string} article of alle Beitraege section\" in steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)\n  \"^I click (.*) article of (.*)$\" in steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)\r\n\tat io.cucumber.core.runner.CachingGlue.findStepDefinitionMatch(CachingGlue.java:373)\r\n\tat io.cucumber.core.runner.CachingGlue.stepDefinitionMatch(CachingGlue.java:341)\r\n\tat io.cucumber.core.runner.Runner.matchStepToStepDefinition(Runner.java:146)\r\n\tat io.cucumber.core.runner.Runner.createTestStepsForPickleSteps(Runner.java:126)\r\n\tat io.cucumber.core.runner.Runner.createTestCaseForPickle(Runner.java:109)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:70)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)\r\n",
-              "status": "ambiguous"
+              "duration": 777000000,
+              "status": "passed"
             },
             "line": 13,
             "name": "I click a \"random\" article of alle Beitraege section",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 10
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 280000000,
+              "status": "passed"
             },
             "line": 14,
             "name": "I click page down 3",
@@ -3591,7 +3656,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2767000000,
+              "status": "passed"
             },
             "line": 15,
             "name": "I navigate back to Kunst - Kultur - DER SPIEGEL",
@@ -3637,7 +3703,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-11-12T00:45:30.783Z",
+        "start_timestamp": "2020-11-12T14:17:14.963Z",
         "before": [
           {
             "result": {
@@ -3657,7 +3723,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4132000000,
+              "duration": 4239000000,
               "status": "passed"
             },
             "line": 9,
@@ -3669,7 +3735,7 @@
           },
           {
             "result": {
-              "duration": 6290000000,
+              "duration": 6432000000,
               "status": "passed"
             },
             "line": 10,
@@ -3718,7 +3784,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4380000000,
+              "duration": 4536000000,
               "status": "passed"
             },
             "line": 5,
@@ -3730,7 +3796,7 @@
           },
           {
             "result": {
-              "duration": 2913000000,
+              "duration": 2457000000,
               "status": "passed"
             },
             "line": 7,
@@ -3743,10 +3809,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:45:41.213Z",
+        "start_timestamp": "2020-11-12T14:17:25.639Z",
         "before": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -3763,17 +3830,26 @@
         "steps": [
           {
             "result": {
-              "error_message": "io.cucumber.core.runner.AmbiguousStepDefinitionsException: \"I click first article of \"first\" section\" matches more than one step definition:\n  \"I click first article of {string} section\" in steps.SpiegelPlusSteps.i_click_first_article_of_section(java.lang.String)\n  \"^I click (.*) article of (.*)$\" in steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)\r\n\tat io.cucumber.core.runner.CachingGlue.findStepDefinitionMatch(CachingGlue.java:373)\r\n\tat io.cucumber.core.runner.CachingGlue.stepDefinitionMatch(CachingGlue.java:341)\r\n\tat io.cucumber.core.runner.Runner.matchStepToStepDefinition(Runner.java:146)\r\n\tat io.cucumber.core.runner.Runner.createTestStepsForPickleSteps(Runner.java:126)\r\n\tat io.cucumber.core.runner.Runner.createTestCaseForPickle(Runner.java:109)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:70)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)\r\n",
-              "status": "ambiguous"
+              "duration": 1733000000,
+              "status": "passed"
             },
             "line": 11,
             "name": "I click first article of \"first\" section",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"first\"",
+                  "offset": 25
+                }
+              ],
+              "location": "steps.SpiegelPlusSteps.i_click_first_article_of_section(java.lang.String)"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 405000000,
+              "status": "passed"
             },
             "line": 12,
             "name": "I click page down 3",
@@ -3790,7 +3866,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5106000000,
+              "status": "passed"
             },
             "line": 13,
             "name": "I go back to \"Plus - DER SPIEGEL\"",
@@ -3807,17 +3884,26 @@
           },
           {
             "result": {
-              "error_message": "io.cucumber.core.runner.AmbiguousStepDefinitionsException: \"I click last article of \"first\" section\" matches more than one step definition:\n  \"I click last article of {string} section\" in steps.SpiegelPlusSteps.i_click_last_article_of_section(java.lang.String)\n  \"^I click (.*) article of (.*)$\" in steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)\r\n\tat io.cucumber.core.runner.CachingGlue.findStepDefinitionMatch(CachingGlue.java:373)\r\n\tat io.cucumber.core.runner.CachingGlue.stepDefinitionMatch(CachingGlue.java:341)\r\n\tat io.cucumber.core.runner.Runner.matchStepToStepDefinition(Runner.java:146)\r\n\tat io.cucumber.core.runner.Runner.createTestStepsForPickleSteps(Runner.java:126)\r\n\tat io.cucumber.core.runner.Runner.createTestCaseForPickle(Runner.java:109)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:70)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)\r\n",
-              "status": "ambiguous"
+              "duration": 1467000000,
+              "status": "passed"
             },
             "line": 14,
             "name": "I click last article of \"first\" section",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"first\"",
+                  "offset": 24
+                }
+              ],
+              "location": "steps.SpiegelPlusSteps.i_click_last_article_of_section(java.lang.String)"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 142000000,
+              "status": "passed"
             },
             "line": 15,
             "name": "I click page down 3",
@@ -3834,7 +3920,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5129000000,
+              "status": "passed"
             },
             "line": 16,
             "name": "I go back to \"Plus - DER SPIEGEL\"",
@@ -3851,7 +3938,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2280000000,
+              "status": "passed"
             },
             "line": 17,
             "name": "I paginate to \"next\" page",
@@ -3868,7 +3956,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 208000000,
+              "status": "passed"
             },
             "line": 18,
             "name": "I click page down 3",
@@ -3885,7 +3974,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1097000000,
+              "status": "passed"
             },
             "line": 19,
             "name": "I paginate to \"previous\" page",
@@ -3902,17 +3992,26 @@
           },
           {
             "result": {
-              "error_message": "io.cucumber.core.runner.AmbiguousStepDefinitionsException: \"I click a random article of \"first\" section\" matches more than one step definition:\n  \"I click a random article of {string} section\" in steps.SpiegelPlusSteps.i_click_an_random_article_of_section(java.lang.String)\n  \"^I click (.*) article of (.*)$\" in steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)\r\n\tat io.cucumber.core.runner.CachingGlue.findStepDefinitionMatch(CachingGlue.java:373)\r\n\tat io.cucumber.core.runner.CachingGlue.stepDefinitionMatch(CachingGlue.java:341)\r\n\tat io.cucumber.core.runner.Runner.matchStepToStepDefinition(Runner.java:146)\r\n\tat io.cucumber.core.runner.Runner.createTestStepsForPickleSteps(Runner.java:126)\r\n\tat io.cucumber.core.runner.Runner.createTestCaseForPickle(Runner.java:109)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:70)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)\r\n",
-              "status": "ambiguous"
+              "duration": 1421000000,
+              "status": "passed"
             },
             "line": 20,
             "name": "I click a random article of \"first\" section",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"first\"",
+                  "offset": 28
+                }
+              ],
+              "location": "steps.SpiegelPlusSteps.i_click_an_random_article_of_section(java.lang.String)"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 110000000,
+              "status": "passed"
             },
             "line": 21,
             "name": "I click page down 3",
@@ -3946,7 +4045,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4490000000,
+              "duration": 4150000000,
               "status": "passed"
             },
             "line": 5,
@@ -3958,7 +4057,7 @@
           },
           {
             "result": {
-              "duration": 4108000000,
+              "duration": 3842000000,
               "status": "passed"
             },
             "line": 7,
@@ -3971,10 +4070,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:45:48.522Z",
+        "start_timestamp": "2020-11-12T14:17:51.739Z",
         "before": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -3991,7 +4091,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3307000000,
+              "duration": 3623000000,
               "status": "passed"
             },
             "line": 24,
@@ -4009,17 +4109,26 @@
           },
           {
             "result": {
-              "error_message": "io.cucumber.core.runner.AmbiguousStepDefinitionsException: \"I click first article of \"random\" section\" matches more than one step definition:\n  \"I click first article of {string} section\" in steps.SpiegelPlusSteps.i_click_first_article_of_section(java.lang.String)\n  \"^I click (.*) article of (.*)$\" in steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)\r\n\tat io.cucumber.core.runner.CachingGlue.findStepDefinitionMatch(CachingGlue.java:373)\r\n\tat io.cucumber.core.runner.CachingGlue.stepDefinitionMatch(CachingGlue.java:341)\r\n\tat io.cucumber.core.runner.Runner.matchStepToStepDefinition(Runner.java:146)\r\n\tat io.cucumber.core.runner.Runner.createTestStepsForPickleSteps(Runner.java:126)\r\n\tat io.cucumber.core.runner.Runner.createTestCaseForPickle(Runner.java:109)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:70)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)\r\n",
-              "status": "ambiguous"
+              "duration": 7440000000,
+              "status": "passed"
             },
             "line": 25,
             "name": "I click first article of \"random\" section",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 25
+                }
+              ],
+              "location": "steps.SpiegelPlusSteps.i_click_first_article_of_section(java.lang.String)"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 94000000,
+              "status": "passed"
             },
             "line": 26,
             "name": "I click page down 3",
@@ -4036,7 +4145,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5078000000,
+              "status": "passed"
             },
             "line": 27,
             "name": "I go back to \"Plus - DER SPIEGEL\"",
@@ -4053,17 +4163,26 @@
           },
           {
             "result": {
-              "error_message": "io.cucumber.core.runner.AmbiguousStepDefinitionsException: \"I click a random article of \"random\" section\" matches more than one step definition:\n  \"I click a random article of {string} section\" in steps.SpiegelPlusSteps.i_click_an_random_article_of_section(java.lang.String)\n  \"^I click (.*) article of (.*)$\" in steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)\r\n\tat io.cucumber.core.runner.CachingGlue.findStepDefinitionMatch(CachingGlue.java:373)\r\n\tat io.cucumber.core.runner.CachingGlue.stepDefinitionMatch(CachingGlue.java:341)\r\n\tat io.cucumber.core.runner.Runner.matchStepToStepDefinition(Runner.java:146)\r\n\tat io.cucumber.core.runner.Runner.createTestStepsForPickleSteps(Runner.java:126)\r\n\tat io.cucumber.core.runner.Runner.createTestCaseForPickle(Runner.java:109)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:70)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)\r\n",
-              "status": "ambiguous"
+              "duration": 3127000000,
+              "status": "passed"
             },
             "line": 28,
             "name": "I click a random article of \"random\" section",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 28
+                }
+              ],
+              "location": "steps.SpiegelPlusSteps.i_click_an_random_article_of_section(java.lang.String)"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 251000000,
+              "status": "passed"
             },
             "line": 29,
             "name": "I click page down 3",
@@ -4080,8 +4199,8 @@
           },
           {
             "result": {
-              "duration": 7000000,
-              "status": "skipped"
+              "duration": 5095000000,
+              "status": "passed"
             },
             "line": 30,
             "name": "I go back to \"Plus - DER SPIEGEL\"",
@@ -4112,7 +4231,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5543000000,
+              "duration": 4214000000,
               "status": "passed"
             },
             "line": 5,
@@ -4124,7 +4243,7 @@
           },
           {
             "result": {
-              "duration": 1737000000,
+              "duration": 2465000000,
               "status": "passed"
             },
             "line": 7,
@@ -4137,7 +4256,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:46:00.442Z",
+        "start_timestamp": "2020-11-12T14:18:24.459Z",
         "before": [
           {
             "result": {
@@ -4157,7 +4276,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1504000000,
+              "duration": 519000000,
               "status": "passed"
             },
             "line": 34,
@@ -4175,17 +4294,26 @@
           },
           {
             "result": {
-              "error_message": "io.cucumber.core.runner.AmbiguousStepDefinitionsException: \"I click first article of \"audio\" section\" matches more than one step definition:\n  \"I click first article of {string} section\" in steps.SpiegelPlusSteps.i_click_first_article_of_section(java.lang.String)\n  \"^I click (.*) article of (.*)$\" in steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)\r\n\tat io.cucumber.core.runner.CachingGlue.findStepDefinitionMatch(CachingGlue.java:373)\r\n\tat io.cucumber.core.runner.CachingGlue.stepDefinitionMatch(CachingGlue.java:341)\r\n\tat io.cucumber.core.runner.Runner.matchStepToStepDefinition(Runner.java:146)\r\n\tat io.cucumber.core.runner.Runner.createTestStepsForPickleSteps(Runner.java:126)\r\n\tat io.cucumber.core.runner.Runner.createTestCaseForPickle(Runner.java:109)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:70)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)\r\n",
-              "status": "ambiguous"
+              "duration": 663000000,
+              "status": "passed"
             },
             "line": 35,
             "name": "I click first article of \"audio\" section",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"audio\"",
+                  "offset": 25
+                }
+              ],
+              "location": "steps.SpiegelPlusSteps.i_click_first_article_of_section(java.lang.String)"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 125000000,
+              "status": "passed"
             },
             "line": 36,
             "name": "I click page down 3",
@@ -4202,7 +4330,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5128000000,
+              "status": "passed"
             },
             "line": 37,
             "name": "I go back to \"Plus - DER SPIEGEL\"",
@@ -4219,17 +4348,26 @@
           },
           {
             "result": {
-              "error_message": "io.cucumber.core.runner.AmbiguousStepDefinitionsException: \"I click a random article of \"audio\" section\" matches more than one step definition:\n  \"I click a random article of {string} section\" in steps.SpiegelPlusSteps.i_click_an_random_article_of_section(java.lang.String)\n  \"^I click (.*) article of (.*)$\" in steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)\r\n\tat io.cucumber.core.runner.CachingGlue.findStepDefinitionMatch(CachingGlue.java:373)\r\n\tat io.cucumber.core.runner.CachingGlue.stepDefinitionMatch(CachingGlue.java:341)\r\n\tat io.cucumber.core.runner.Runner.matchStepToStepDefinition(Runner.java:146)\r\n\tat io.cucumber.core.runner.Runner.createTestStepsForPickleSteps(Runner.java:126)\r\n\tat io.cucumber.core.runner.Runner.createTestCaseForPickle(Runner.java:109)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:70)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)\r\n",
-              "status": "ambiguous"
+              "duration": 1103000000,
+              "status": "passed"
             },
             "line": 38,
             "name": "I click a random article of \"audio\" section",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"audio\"",
+                  "offset": 28
+                }
+              ],
+              "location": "steps.SpiegelPlusSteps.i_click_an_random_article_of_section(java.lang.String)"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 687000000,
+              "status": "passed"
             },
             "line": 39,
             "name": "I click page down 3",
@@ -4246,7 +4384,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5046000000,
+              "status": "passed"
             },
             "line": 40,
             "name": "I go back to \"Plus - DER SPIEGEL\"",
@@ -4280,7 +4419,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4120000000,
+              "duration": 4318000000,
               "status": "passed"
             },
             "line": 5,
@@ -4292,7 +4431,7 @@
           },
           {
             "result": {
-              "duration": 2873000000,
+              "duration": 3405000000,
               "status": "passed"
             },
             "line": 7,
@@ -4305,7 +4444,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:46:09.234Z",
+        "start_timestamp": "2020-11-12T14:18:44.409Z",
         "before": [
           {
             "result": {
@@ -4325,7 +4464,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1394000000,
+              "duration": 1390000000,
               "status": "passed"
             },
             "line": 44,
@@ -4343,7 +4482,7 @@
           },
           {
             "result": {
-              "duration": 186000000,
+              "duration": 5133000000,
               "status": "passed"
             },
             "line": 45,
@@ -4361,7 +4500,7 @@
           },
           {
             "result": {
-              "duration": 201000000,
+              "duration": 175000000,
               "status": "passed"
             },
             "line": 46,
@@ -4379,17 +4518,26 @@
           },
           {
             "result": {
-              "error_message": "io.cucumber.core.runner.AmbiguousStepDefinitionsException: \"I click a \"random\" article of alle Beitraege section\" matches more than one step definition:\n  \"I click a {string} article of alle Beitraege section\" in steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)\n  \"^I click (.*) article of (.*)$\" in steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)\r\n\tat io.cucumber.core.runner.CachingGlue.findStepDefinitionMatch(CachingGlue.java:373)\r\n\tat io.cucumber.core.runner.CachingGlue.stepDefinitionMatch(CachingGlue.java:341)\r\n\tat io.cucumber.core.runner.Runner.matchStepToStepDefinition(Runner.java:146)\r\n\tat io.cucumber.core.runner.Runner.createTestStepsForPickleSteps(Runner.java:126)\r\n\tat io.cucumber.core.runner.Runner.createTestCaseForPickle(Runner.java:109)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:70)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)\r\n",
-              "status": "ambiguous"
+              "duration": 1663000000,
+              "status": "passed"
             },
             "line": 47,
             "name": "I click a \"random\" article of alle Beitraege section",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 10
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 126000000,
+              "status": "passed"
             },
             "line": 48,
             "name": "I click page down 3",
@@ -4406,7 +4554,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5116000000,
+              "status": "passed"
             },
             "line": 49,
             "name": "I go back to \"Plus - DER SPIEGEL\"",
@@ -4423,7 +4572,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2576000000,
+              "status": "passed"
             },
             "line": 50,
             "name": "I paginate to \"next\" page",
@@ -4474,7 +4624,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5787000000,
+              "duration": 7460000000,
               "status": "passed"
             },
             "line": 6,
@@ -4486,7 +4636,7 @@
           },
           {
             "result": {
-              "duration": 6745000000,
+              "duration": 6620000000,
               "status": "passed"
             },
             "line": 7,
@@ -4499,7 +4649,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:46:18.021Z",
+        "start_timestamp": "2020-11-12T14:19:08.318Z",
         "before": [
           {
             "result": {
@@ -4520,7 +4670,7 @@
         "steps": [
           {
             "result": {
-              "duration": 257000000,
+              "duration": 1806000000,
               "status": "passed"
             },
             "line": 12,
@@ -4532,7 +4682,7 @@
           },
           {
             "result": {
-              "duration": 186000000,
+              "duration": 311000000,
               "status": "passed"
             },
             "line": 13,
@@ -4550,7 +4700,7 @@
           },
           {
             "result": {
-              "duration": 91000000,
+              "duration": 100000000,
               "status": "passed"
             },
             "line": 14,
@@ -4568,9 +4718,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat steps.HelperSteps.i_go_back_to(HelperSteps.java:106)\r\n\tat ✽.I go back to \"DER SPIEGEL | Online-Nachrichten\"(file:///C:/MyWorkspace/guineenews/src/test/resources/features/startPage.feature:15)\r\n",
-              "duration": 20515000000,
-              "status": "failed"
+              "duration": 5083000000,
+              "status": "passed"
             },
             "line": 15,
             "name": "I go back to \"DER SPIEGEL | Online-Nachrichten\"",
@@ -4604,7 +4753,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4545000000,
+              "duration": 5845000000,
               "status": "passed"
             },
             "line": 6,
@@ -4616,7 +4765,7 @@
           },
           {
             "result": {
-              "duration": 4026000000,
+              "duration": 4700000000,
               "status": "passed"
             },
             "line": 7,
@@ -4629,7 +4778,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:46:51.606Z",
+        "start_timestamp": "2020-11-12T14:19:29.708Z",
         "before": [
           {
             "result": {
@@ -4649,7 +4798,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4195000000,
+              "duration": 4167000000,
               "status": "passed"
             },
             "line": 19,
@@ -4667,20 +4816,20 @@
           },
           {
             "result": {
-              "duration": 11178000000,
+              "duration": 4356000000,
               "status": "passed"
             },
             "line": 20,
-            "name": "I click first article of news_section",
+            "name": "On start page I click first article of news_section",
             "match": {
               "arguments": [
                 {
                   "val": "first",
-                  "offset": 8
+                  "offset": 22
                 },
                 {
                   "val": "news_section",
-                  "offset": 25
+                  "offset": 39
                 }
               ],
               "location": "steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)"
@@ -4689,7 +4838,7 @@
           },
           {
             "result": {
-              "duration": 494000000,
+              "duration": 283000000,
               "status": "passed"
             },
             "line": 21,
@@ -4707,7 +4856,7 @@
           },
           {
             "result": {
-              "duration": 695000000,
+              "duration": 174000000,
               "status": "passed"
             },
             "line": 22,
@@ -4725,8 +4874,9 @@
           },
           {
             "result": {
-              "duration": 8475000000,
-              "status": "passed"
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat steps.HelperSteps.i_go_back_to(HelperSteps.java:106)\r\n\tat ✽.I go back to \"DER SPIEGEL | Online-Nachrichten\"(file:///C:/MyWorkspace/guineenews/src/test/resources/features/startPage.feature:23)\r\n",
+              "duration": 20233000000,
+              "status": "failed"
             },
             "line": 23,
             "name": "I go back to \"DER SPIEGEL | Online-Nachrichten\"",
@@ -4743,8 +4893,7 @@
           },
           {
             "result": {
-              "duration": 4028000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 24,
             "name": "I scroll to \"news section\" on start page",
@@ -4761,8 +4910,7 @@
           },
           {
             "result": {
-              "duration": 50000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 25,
             "name": "I scroll to random article of news_section",
@@ -4783,20 +4931,19 @@
           },
           {
             "result": {
-              "duration": 6232000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 26,
-            "name": "I click random article of news_section",
+            "name": "On start page I click random article of news_section",
             "match": {
               "arguments": [
                 {
                   "val": "random",
-                  "offset": 8
+                  "offset": 22
                 },
                 {
                   "val": "news_section",
-                  "offset": 26
+                  "offset": 40
                 }
               ],
               "location": "steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)"
@@ -4805,8 +4952,7 @@
           },
           {
             "result": {
-              "duration": 267000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 27,
             "name": "I click page down 6",
@@ -4823,8 +4969,7 @@
           },
           {
             "result": {
-              "duration": 171000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 28,
             "name": "I click page up 3",
@@ -4858,7 +5003,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5675000000,
+              "duration": 5649000000,
               "status": "passed"
             },
             "line": 6,
@@ -4870,7 +5015,7 @@
           },
           {
             "result": {
-              "duration": 4997000000,
+              "duration": 5084000000,
               "status": "passed"
             },
             "line": 7,
@@ -4883,7 +5028,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:47:35.970Z",
+        "start_timestamp": "2020-11-12T14:20:09.484Z",
         "before": [
           {
             "result": {
@@ -4903,7 +5048,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4063000000,
+              "duration": 4066000000,
               "status": "passed"
             },
             "line": 33,
@@ -4921,20 +5066,20 @@
           },
           {
             "result": {
-              "duration": 9267000000,
+              "duration": 4400000000,
               "status": "passed"
             },
             "line": 34,
-            "name": "I click random article of sport_rubrik",
+            "name": "On start page I click random article of sport_rubrik",
             "match": {
               "arguments": [
                 {
                   "val": "random",
-                  "offset": 8
+                  "offset": 22
                 },
                 {
                   "val": "sport_rubrik",
-                  "offset": 26
+                  "offset": 40
                 }
               ],
               "location": "steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)"
@@ -4943,163 +5088,7 @@
           },
           {
             "result": {
-              "duration": 250000000,
-              "status": "passed"
-            },
-            "line": 35,
-            "name": "I click page down 6",
-            "match": {
-              "arguments": [
-                {
-                  "val": "6",
-                  "offset": 18
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_page_down(int)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 155000000,
-              "status": "passed"
-            },
-            "line": 36,
-            "name": "I click page up 3",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3",
-                  "offset": 16
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_page_up(int)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 7489000000,
-              "status": "passed"
-            },
-            "line": 37,
-            "name": "I go back to \"DER SPIEGEL | Online-Nachrichten\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"DER SPIEGEL | Online-Nachrichten\"",
-                  "offset": 13
-                }
-              ],
-              "location": "steps.HelperSteps.i_go_back_to(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@spiegelStartPage"
-          },
-          {
-            "name": "@alleRubriken"
-          }
-        ]
-      },
-      {
-        "line": 5,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 5811000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "I start Spiegel",
-            "match": {
-              "location": "steps.MenuSteps.i_start_Spiegel()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 5196000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I click Akzeptieren und weiter",
-            "match": {
-              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-12T00:48:07.871Z",
-        "before": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.TestCaseBase.setup()"
-            }
-          }
-        ],
-        "line": 42,
-        "name": "alle Rubriken",
-        "description": "",
-        "id": "spiegel-startpage;alle-rubriken;;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 4064000000,
-              "status": "passed"
-            },
-            "line": 33,
-            "name": "I scroll to \"alle_rubriken_section\" on start page",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"alle_rubriken_section\"",
-                  "offset": 12
-                }
-              ],
-              "location": "steps.StartpageSteps.i_scroll_to_section_on_start_page(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 6100000000,
-              "status": "passed"
-            },
-            "line": 34,
-            "name": "I click random article of politik_rubrik",
-            "match": {
-              "arguments": [
-                {
-                  "val": "random",
-                  "offset": 8
-                },
-                {
-                  "val": "politik_rubrik",
-                  "offset": 26
-                }
-              ],
-              "location": "steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3929000000,
+              "duration": 785000000,
               "status": "passed"
             },
             "line": 35,
@@ -5135,7 +5124,7 @@
           },
           {
             "result": {
-              "duration": 6803000000,
+              "duration": 7525000000,
               "status": "passed"
             },
             "line": 37,
@@ -5170,7 +5159,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5625000000,
+              "duration": 4990000000,
               "status": "passed"
             },
             "line": 6,
@@ -5182,7 +5171,7 @@
           },
           {
             "result": {
-              "duration": 4523000000,
+              "duration": 4852000000,
               "status": "passed"
             },
             "line": 7,
@@ -5195,7 +5184,164 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:48:39.872Z",
+        "start_timestamp": "2020-11-12T14:20:37.092Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.TestCaseBase.setup()"
+            }
+          }
+        ],
+        "line": 42,
+        "name": "alle Rubriken",
+        "description": "",
+        "id": "spiegel-startpage;alle-rubriken;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4048000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I scroll to \"alle_rubriken_section\" on start page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"alle_rubriken_section\"",
+                  "offset": 12
+                }
+              ],
+              "location": "steps.StartpageSteps.i_scroll_to_section_on_start_page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5784000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "On start page I click random article of politik_rubrik",
+            "match": {
+              "arguments": [
+                {
+                  "val": "random",
+                  "offset": 22
+                },
+                {
+                  "val": "politik_rubrik",
+                  "offset": 40
+                }
+              ],
+              "location": "steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6384000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I click page down 6",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_page_down(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 92000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I click page up 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_page_up(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9490000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I go back to \"DER SPIEGEL | Online-Nachrichten\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DER SPIEGEL | Online-Nachrichten\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HelperSteps.i_go_back_to(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@spiegelStartPage"
+          },
+          {
+            "name": "@alleRubriken"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6991000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I start Spiegel",
+            "match": {
+              "location": "steps.MenuSteps.i_start_Spiegel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4328000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click Akzeptieren und weiter",
+            "match": {
+              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-12T14:21:12.738Z",
         "before": [
           {
             "result": {
@@ -5216,7 +5362,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4065000000,
+              "duration": 6237000000,
               "status": "passed"
             },
             "line": 33,
@@ -5234,20 +5380,20 @@
           },
           {
             "result": {
-              "duration": 5691000000,
+              "duration": 4496000000,
               "status": "passed"
             },
             "line": 34,
-            "name": "I click random article of wirtschaft_rubrik",
+            "name": "On start page I click random article of wirtschaft_rubrik",
             "match": {
               "arguments": [
                 {
                   "val": "random",
-                  "offset": 8
+                  "offset": 22
                 },
                 {
                   "val": "wirtschaft_rubrik",
-                  "offset": 26
+                  "offset": 40
                 }
               ],
               "location": "steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)"
@@ -5256,7 +5402,7 @@
           },
           {
             "result": {
-              "duration": 1722000000,
+              "duration": 205000000,
               "status": "passed"
             },
             "line": 35,
@@ -5274,7 +5420,7 @@
           },
           {
             "result": {
-              "duration": 227000000,
+              "duration": 252000000,
               "status": "passed"
             },
             "line": 36,
@@ -5292,7 +5438,7 @@
           },
           {
             "result": {
-              "duration": 5659000000,
+              "duration": 6849000000,
               "status": "passed"
             },
             "line": 37,
@@ -5327,7 +5473,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4945000000,
+              "duration": 3433000000,
               "status": "passed"
             },
             "line": 6,
@@ -5339,7 +5485,7 @@
           },
           {
             "result": {
-              "duration": 4700000000,
+              "duration": 4976000000,
               "status": "passed"
             },
             "line": 7,
@@ -5352,7 +5498,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:49:07.388Z",
+        "start_timestamp": "2020-11-12T14:21:42.101Z",
         "before": [
           {
             "result": {
@@ -5372,7 +5518,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4072000000,
+              "duration": 5527000000,
               "status": "passed"
             },
             "line": 33,
@@ -5390,20 +5536,20 @@
           },
           {
             "result": {
-              "duration": 8206000000,
+              "duration": 12320000000,
               "status": "passed"
             },
             "line": 34,
-            "name": "I click random article of manager_magazin_rubrik",
+            "name": "On start page I click random article of manager_magazin_rubrik",
             "match": {
               "arguments": [
                 {
                   "val": "random",
-                  "offset": 8
+                  "offset": 22
                 },
                 {
                   "val": "manager_magazin_rubrik",
-                  "offset": 26
+                  "offset": 40
                 }
               ],
               "location": "steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)"
@@ -5412,7 +5558,7 @@
           },
           {
             "result": {
-              "duration": 187000000,
+              "duration": 190000000,
               "status": "passed"
             },
             "line": 35,
@@ -5430,7 +5576,7 @@
           },
           {
             "result": {
-              "duration": 98000000,
+              "duration": 94000000,
               "status": "passed"
             },
             "line": 36,
@@ -5448,7 +5594,7 @@
           },
           {
             "result": {
-              "duration": 7227000000,
+              "duration": 6609000000,
               "status": "passed"
             },
             "line": 37,
@@ -5483,7 +5629,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4314000000,
+              "duration": 10326000000,
               "status": "passed"
             },
             "line": 6,
@@ -5495,7 +5641,7 @@
           },
           {
             "result": {
-              "duration": 4375000000,
+              "duration": 6537000000,
               "status": "passed"
             },
             "line": 7,
@@ -5508,11 +5654,10 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:49:36.828Z",
+        "start_timestamp": "2020-11-12T14:22:15.570Z",
         "before": [
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -5529,7 +5674,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4046000000,
+              "duration": 4788000000,
               "status": "passed"
             },
             "line": 48,
@@ -5547,37 +5692,19 @@
           },
           {
             "result": {
-              "duration": 364000000,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 49,
-            "name": "I click 3 \"stock\" section arrow \"right\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3",
-                  "offset": 8
-                },
-                {
-                  "val": "\"stock\"",
-                  "offset": 10
-                },
-                {
-                  "val": "\"right\"",
-                  "offset": 32
-                }
-              ],
-              "location": "steps.StartpageSteps.i_click_section_arrow(int,java.lang.String,java.lang.String)"
-            },
+            "name": "On start page I click 3 times \"stock\" section arrow \"right\"",
+            "match": {},
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 204000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 50,
-            "name": "I click 2 \"stock\" section arrow \"left\"",
+            "name": "I click 2 times \"stock\" section arrow \"left\"",
             "match": {
               "arguments": [
                 {
@@ -5586,11 +5713,11 @@
                 },
                 {
                   "val": "\"stock\"",
-                  "offset": 10
+                  "offset": 16
                 },
                 {
                   "val": "\"left\"",
-                  "offset": 32
+                  "offset": 38
                 }
               ],
               "location": "steps.StartpageSteps.i_click_section_arrow(int,java.lang.String,java.lang.String)"
@@ -5599,8 +5726,7 @@
           },
           {
             "result": {
-              "duration": 823000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 51,
             "name": "I click dow jones",
@@ -5611,8 +5737,7 @@
           },
           {
             "result": {
-              "duration": 332000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 52,
             "name": "I switch to \"dow jones\" tab",
@@ -5629,8 +5754,7 @@
           },
           {
             "result": {
-              "duration": 2103000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 53,
             "name": "I click page down 2",
@@ -5647,8 +5771,7 @@
           },
           {
             "result": {
-              "duration": 31000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 54,
             "name": "I switch to \"spiegel\" tab",
@@ -5682,7 +5805,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4167000000,
+              "duration": 5552000000,
               "status": "passed"
             },
             "line": 6,
@@ -5694,7 +5817,7 @@
           },
           {
             "result": {
-              "duration": 5267000000,
+              "duration": 5251000000,
               "status": "passed"
             },
             "line": 7,
@@ -5707,10 +5830,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:49:53.426Z",
+        "start_timestamp": "2020-11-12T14:22:37.230Z",
         "before": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -5727,7 +5851,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4074000000,
+              "duration": 4064000000,
               "status": "passed"
             },
             "line": 58,
@@ -5745,20 +5869,20 @@
           },
           {
             "result": {
-              "duration": 5541000000,
+              "duration": 8506000000,
               "status": "passed"
             },
             "line": 59,
-            "name": "I click random article of geschichte_channel",
+            "name": "On start page I click random article of geschichte_channel",
             "match": {
               "arguments": [
                 {
                   "val": "random",
-                  "offset": 8
+                  "offset": 22
                 },
                 {
                   "val": "geschichte_channel",
-                  "offset": 26
+                  "offset": 40
                 }
               ],
               "location": "steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)"
@@ -5767,7 +5891,7 @@
           },
           {
             "result": {
-              "duration": 1260000000,
+              "duration": 6499000000,
               "status": "passed"
             },
             "line": 60,
@@ -5785,7 +5909,7 @@
           },
           {
             "result": {
-              "duration": 138000000,
+              "duration": 109000000,
               "status": "passed"
             },
             "line": 61,
@@ -5803,7 +5927,7 @@
           },
           {
             "result": {
-              "duration": 6879000000,
+              "duration": 6130000000,
               "status": "passed"
             },
             "line": 62,
@@ -5838,7 +5962,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4807000000,
+              "duration": 4873000000,
               "status": "passed"
             },
             "line": 6,
@@ -5850,7 +5974,7 @@
           },
           {
             "result": {
-              "duration": 5313000000,
+              "duration": 4899000000,
               "status": "passed"
             },
             "line": 7,
@@ -5863,7 +5987,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:50:20.756Z",
+        "start_timestamp": "2020-11-12T14:23:13.347Z",
         "before": [
           {
             "result": {
@@ -5883,7 +6007,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4069000000,
+              "duration": 4785000000,
               "status": "passed"
             },
             "line": 58,
@@ -5901,20 +6025,20 @@
           },
           {
             "result": {
-              "duration": 5701000000,
+              "duration": 5316000000,
               "status": "passed"
             },
             "line": 59,
-            "name": "I click random article of netzwelt_channel",
+            "name": "On start page I click random article of netzwelt_channel",
             "match": {
               "arguments": [
                 {
                   "val": "random",
-                  "offset": 8
+                  "offset": 22
                 },
                 {
                   "val": "netzwelt_channel",
-                  "offset": 26
+                  "offset": 40
                 }
               ],
               "location": "steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)"
@@ -5923,7 +6047,7 @@
           },
           {
             "result": {
-              "duration": 325000000,
+              "duration": 8858000000,
               "status": "passed"
             },
             "line": 60,
@@ -5959,7 +6083,7 @@
           },
           {
             "result": {
-              "duration": 6248000000,
+              "duration": 5889000000,
               "status": "passed"
             },
             "line": 62,
@@ -5994,7 +6118,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5850000000,
+              "duration": 11076000000,
               "status": "passed"
             },
             "line": 6,
@@ -6006,7 +6130,7 @@
           },
           {
             "result": {
-              "duration": 6037000000,
+              "duration": 4662000000,
               "status": "passed"
             },
             "line": 7,
@@ -6019,7 +6143,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:50:47.317Z",
+        "start_timestamp": "2020-11-12T14:23:48.066Z",
         "before": [
           {
             "result": {
@@ -6039,7 +6163,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4067000000,
+              "duration": 4830000000,
               "status": "passed"
             },
             "line": 58,
@@ -6057,20 +6181,20 @@
           },
           {
             "result": {
-              "duration": 5236000000,
+              "duration": 6263000000,
               "status": "passed"
             },
             "line": 59,
-            "name": "I click random article of mobilität_channel",
+            "name": "On start page I click random article of mobilität_channel",
             "match": {
               "arguments": [
                 {
                   "val": "random",
-                  "offset": 8
+                  "offset": 22
                 },
                 {
                   "val": "mobilität_channel",
-                  "offset": 26
+                  "offset": 40
                 }
               ],
               "location": "steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)"
@@ -6079,7 +6203,7 @@
           },
           {
             "result": {
-              "duration": 647000000,
+              "duration": 270000000,
               "status": "passed"
             },
             "line": 60,
@@ -6097,7 +6221,7 @@
           },
           {
             "result": {
-              "duration": 125000000,
+              "duration": 1079000000,
               "status": "passed"
             },
             "line": 61,
@@ -6115,7 +6239,7 @@
           },
           {
             "result": {
-              "duration": 6133000000,
+              "duration": 5775000000,
               "status": "passed"
             },
             "line": 62,
@@ -6150,7 +6274,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3517000000,
+              "duration": 7070000000,
               "status": "passed"
             },
             "line": 6,
@@ -6162,7 +6286,7 @@
           },
           {
             "result": {
-              "duration": 7820000000,
+              "duration": 9205000000,
               "status": "passed"
             },
             "line": 7,
@@ -6175,7 +6299,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:51:15.414Z",
+        "start_timestamp": "2020-11-12T14:24:22.025Z",
         "before": [
           {
             "result": {
@@ -6195,7 +6319,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4078000000,
+              "duration": 4079000000,
               "status": "passed"
             },
             "line": 58,
@@ -6213,20 +6337,20 @@
           },
           {
             "result": {
-              "duration": 5464000000,
+              "duration": 4954000000,
               "status": "passed"
             },
             "line": 59,
-            "name": "I click random article of kultur_channel",
+            "name": "On start page I click random article of kultur_channel",
             "match": {
               "arguments": [
                 {
                   "val": "random",
-                  "offset": 8
+                  "offset": 22
                 },
                 {
                   "val": "kultur_channel",
-                  "offset": 26
+                  "offset": 40
                 }
               ],
               "location": "steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)"
@@ -6235,7 +6359,7 @@
           },
           {
             "result": {
-              "duration": 436000000,
+              "duration": 409000000,
               "status": "passed"
             },
             "line": 60,
@@ -6253,7 +6377,7 @@
           },
           {
             "result": {
-              "duration": 218000000,
+              "duration": 97000000,
               "status": "passed"
             },
             "line": 61,
@@ -6271,7 +6395,7 @@
           },
           {
             "result": {
-              "duration": 5873000000,
+              "duration": 5816000000,
               "status": "passed"
             },
             "line": 62,
@@ -6306,7 +6430,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3919000000,
+              "duration": 4587000000,
               "status": "passed"
             },
             "line": 6,
@@ -6318,7 +6442,7 @@
           },
           {
             "result": {
-              "duration": 5770000000,
+              "duration": 5202000000,
               "status": "passed"
             },
             "line": 7,
@@ -6331,10 +6455,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:51:42.823Z",
+        "start_timestamp": "2020-11-12T14:24:53.660Z",
         "before": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -6351,7 +6476,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4047000000,
+              "duration": 4061000000,
               "status": "passed"
             },
             "line": 58,
@@ -6369,20 +6494,20 @@
           },
           {
             "result": {
-              "duration": 1582000000,
+              "duration": 1808000000,
               "status": "passed"
             },
             "line": 59,
-            "name": "I click random article of tests_channel",
+            "name": "On start page I click random article of tests_channel",
             "match": {
               "arguments": [
                 {
                   "val": "random",
-                  "offset": 8
+                  "offset": 22
                 },
                 {
                   "val": "tests_channel",
-                  "offset": 26
+                  "offset": 40
                 }
               ],
               "location": "steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)"
@@ -6391,7 +6516,7 @@
           },
           {
             "result": {
-              "duration": 199000000,
+              "duration": 228000000,
               "status": "passed"
             },
             "line": 60,
@@ -6409,7 +6534,7 @@
           },
           {
             "result": {
-              "duration": 94000000,
+              "duration": 107000000,
               "status": "passed"
             },
             "line": 61,
@@ -6428,7 +6553,7 @@
           {
             "result": {
               "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat steps.HelperSteps.i_go_back_to(HelperSteps.java:106)\r\n\tat ✽.I go back to \"DER SPIEGEL | Online-Nachrichten\"(file:///C:/MyWorkspace/guineenews/src/test/resources/features/startPage.feature:62)\r\n",
-              "duration": 20484000000,
+              "duration": 20304000000,
               "status": "failed"
             },
             "line": 62,
@@ -6463,7 +6588,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4410000000,
+              "duration": 3898000000,
               "status": "passed"
             },
             "line": 6,
@@ -6475,7 +6600,7 @@
           },
           {
             "result": {
-              "duration": 5174000000,
+              "duration": 4549000000,
               "status": "passed"
             },
             "line": 7,
@@ -6488,7 +6613,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:52:18.922Z",
+        "start_timestamp": "2020-11-12T14:25:29.959Z",
         "before": [
           {
             "result": {
@@ -6508,7 +6633,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4068000000,
+              "duration": 4084000000,
               "status": "passed"
             },
             "line": 58,
@@ -6526,20 +6651,20 @@
           },
           {
             "result": {
-              "duration": 5573000000,
+              "duration": 5829000000,
               "status": "passed"
             },
             "line": 59,
-            "name": "I click random article of wissenschaft_channel",
+            "name": "On start page I click random article of wissenschaft_channel",
             "match": {
               "arguments": [
                 {
                   "val": "random",
-                  "offset": 8
+                  "offset": 22
                 },
                 {
                   "val": "wissenschaft_channel",
-                  "offset": 26
+                  "offset": 40
                 }
               ],
               "location": "steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)"
@@ -6548,7 +6673,7 @@
           },
           {
             "result": {
-              "duration": 766000000,
+              "duration": 2578000000,
               "status": "passed"
             },
             "line": 60,
@@ -6566,7 +6691,7 @@
           },
           {
             "result": {
-              "duration": 202000000,
+              "duration": 111000000,
               "status": "passed"
             },
             "line": 61,
@@ -6584,7 +6709,7 @@
           },
           {
             "result": {
-              "duration": 5784000000,
+              "duration": 5704000000,
               "status": "passed"
             },
             "line": 62,
@@ -6619,7 +6744,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7356000000,
+              "duration": 10686000000,
               "status": "passed"
             },
             "line": 6,
@@ -6631,7 +6756,7 @@
           },
           {
             "result": {
-              "duration": 4913000000,
+              "duration": 4608000000,
               "status": "passed"
             },
             "line": 7,
@@ -6644,10 +6769,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:52:44.904Z",
+        "start_timestamp": "2020-11-12T14:25:56.715Z",
         "before": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -6664,7 +6790,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4052000000,
+              "duration": 6165000000,
               "status": "passed"
             },
             "line": 75,
@@ -6682,20 +6808,20 @@
           },
           {
             "result": {
-              "duration": 4363000000,
+              "duration": 4347000000,
               "status": "passed"
             },
             "line": 76,
-            "name": "I click first article of leben_section",
+            "name": "On start page I click first article of leben_section",
             "match": {
               "arguments": [
                 {
                   "val": "first",
-                  "offset": 8
+                  "offset": 22
                 },
                 {
                   "val": "leben_section",
-                  "offset": 25
+                  "offset": 39
                 }
               ],
               "location": "steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)"
@@ -6704,7 +6830,7 @@
           },
           {
             "result": {
-              "duration": 366000000,
+              "duration": 289000000,
               "status": "passed"
             },
             "line": 77,
@@ -6722,7 +6848,7 @@
           },
           {
             "result": {
-              "duration": 127000000,
+              "duration": 139000000,
               "status": "passed"
             },
             "line": 78,
@@ -6741,7 +6867,7 @@
           {
             "result": {
               "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat steps.HelperSteps.i_go_back_to(HelperSteps.java:106)\r\n\tat ✽.I go back to \"DER SPIEGEL | Online-Nachrichten\"(file:///C:/MyWorkspace/guineenews/src/test/resources/features/startPage.feature:79)\r\n",
-              "duration": 20079000000,
+              "duration": 20328000000,
               "status": "failed"
             },
             "line": 79,
@@ -6800,16 +6926,16 @@
               "status": "skipped"
             },
             "line": 82,
-            "name": "I click random article of leben_section",
+            "name": "On start page I click random article of leben_section",
             "match": {
               "arguments": [
                 {
                   "val": "random",
-                  "offset": 8
+                  "offset": 22
                 },
                 {
                   "val": "leben_section",
-                  "offset": 26
+                  "offset": 40
                 }
               ],
               "location": "steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)"
@@ -6869,7 +6995,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4886000000,
+              "duration": 4105000000,
               "status": "passed"
             },
             "line": 6,
@@ -6881,7 +7007,7 @@
           },
           {
             "result": {
-              "duration": 5028000000,
+              "duration": 4744000000,
               "status": "passed"
             },
             "line": 7,
@@ -6894,7 +7020,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T00:53:26.164Z",
+        "start_timestamp": "2020-11-12T14:26:43.294Z",
         "before": [
           {
             "result": {
@@ -6914,7 +7040,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4042000000,
+              "duration": 4041000000,
               "status": "passed"
             },
             "line": 88,
@@ -6932,20 +7058,20 @@
           },
           {
             "result": {
-              "duration": 5363000000,
+              "duration": 7065000000,
               "status": "passed"
             },
             "line": 89,
-            "name": "I click first article of highlight_section",
+            "name": "On start page I click first article of highlight_section",
             "match": {
               "arguments": [
                 {
                   "val": "first",
-                  "offset": 8
+                  "offset": 22
                 },
                 {
                   "val": "highlight_section",
-                  "offset": 25
+                  "offset": 39
                 }
               ],
               "location": "steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)"
@@ -6954,7 +7080,7 @@
           },
           {
             "result": {
-              "duration": 734000000,
+              "duration": 2514000000,
               "status": "passed"
             },
             "line": 90,
@@ -6972,7 +7098,7 @@
           },
           {
             "result": {
-              "duration": 502000000,
+              "duration": 469000000,
               "status": "passed"
             },
             "line": 91,
@@ -6990,7 +7116,7 @@
           },
           {
             "result": {
-              "duration": 6109000000,
+              "duration": 6362000000,
               "status": "passed"
             },
             "line": 92,

@@ -46,7 +46,7 @@ Feature: Spiegel StartPage
   @stockSection
   Scenario: stock section
     And I scroll to "stock_section" on start page
-    Then On start page I click 3 times "stock" section arrow "right"
+    Then I click 3 times "stock" section arrow "right"
     Then I click 2 times "stock" section arrow "left"
     Then I click dow jones
     Then I switch to "dow jones" tab
