@@ -12,6 +12,8 @@ public class ArticlesListBasePage extends BasePage{
     private static final String alle_beitraege_list = "//section[@data-area='article-teaser-list']//div[@data-block-el='articleTeaser']";
     private static final String nav_right = "//span[contains(@title, 'ltere Artikel')]";
     private static final String nav_left = "//span[contains(@title,'Neuere Artikel')]";
+    private static final String page_title = "//div[@class='bg-white shadow rounded']//h1[contains(text(),'SPIEGEL-Bestseller')]";
+
 
     public ArticlesListBasePage(WebDriver driver) {
         super(driver);
@@ -23,14 +25,25 @@ public class ArticlesListBasePage extends BasePage{
         return "//section[@data-area='article-teaser-list']//div[@data-block-el='articleTeaser']["+articleNr+"]";
     }
 
+    //get page title
+    public String getPageVisibleTitle(String menu)
+    {
+        if(menu.equals("Kunst") || menu.equals("Streaming"))
+            return getElementText(getElementByXpath("//div[@class='bg-white shadow rounded']//h2"));
+        else
+            return getElementText(getElementByXpath("//div[@class='bg-white shadow rounded']//h1"));
+    }
+
     //click randomly an article within alle Beiträge section
     public void clickRandomArticleOfAlleBeitraegeSection()
     {
-        //article count in alle Beiträge section
+        //article count in alle Beitraege section
         int articleCount = getElementsByXpath(alle_beitraege_list).size();
         Random rnd = new Random();
         int rndId = rnd.nextInt(articleCount);
-        clickElement(getElementsByXpath(alle_beitraege_list).get(rndId));
+        WebElement element = getElementsByXpath(alle_beitraege_list).get(rndId);
+        scrollIntoView(element);
+        clickElement(element);
     }
 
     //click an specified article within alle Beiträge section

@@ -92,6 +92,7 @@ public class SeleniumDriverWrapper {
         }
     }
 
+    //get element list
     public List<WebElement> getElements(String myLocator, String myLocatorType)
     {
         List<WebElement> elements = null;
@@ -130,7 +131,7 @@ public class SeleniumDriverWrapper {
     {
         try {
             WebElement element = getElement(myLocator, myLocatorType);
-            waitForElementToBeClickable(element,10);
+            waitForElementToBeClickable(element,10); // we wait max 10 seconds to check element is clickable
             element.click();
             implicitlyWait(3);
         }
@@ -169,29 +170,6 @@ public class SeleniumDriverWrapper {
             takeScreenhot("click_");
         }
     }
-/*
-    public void moveMouseOnElement( WebElement element)
-    {
-        Actions action =new Actions(driver);
-        try {
-            waitForElementToBeVisible(element,10);
-            action.moveToElement(element).perform();
-            implicitlyWait(3);
-        }
-        catch (ElementClickInterceptedException e)
-        {
-            MyLogger.logger.error("Element Click Intercepted Exception: "  + e.getMessage());
-        }
-        catch (ElementNotVisibleException e)
-        {
-            MyLogger.logger.error("Element Not Visible Exception: " + e.getMessage());
-        }
-        catch(ElementNotInteractableException e)
-        {
-            MyLogger.logger.error("Element not interactable exception: " + e.getMessage());
-        }
-    }
-    */
 
     public void TypeTextInField(String myLocator, String myLocatorType, String text)
     {
@@ -223,40 +201,35 @@ public class SeleniumDriverWrapper {
         }
     }
 
-    public void clearField(String myLocator, String myLocatorType, WebElement element)
+    public void clearField(WebElement element)
     {
         try {
-            if (element == null) {
-                element = getElement(myLocator, myLocatorType);
-            }
             element.clear();
         }
         catch (ElementClickInterceptedException e)
         {
-            MyLogger.logger.error("Element Click Intercepted Exception: " + myLocatorType + e.getMessage());
+            MyLogger.logger.error("Element Click Intercepted Exception: "  + e.getMessage());
         }
         catch (ElementNotVisibleException e)
         {
-            MyLogger.logger.error("Element Not Visible Exception: " + myLocatorType + e.getMessage());
+            MyLogger.logger.error("Element Not Visible Exception: "  + e.getMessage());
         }
     }
 
-    public String getElementText(String myLocator, String myLocatorType, WebElement element)
+    public String getElementText(WebElement element)
     {
         String text ="";
         try {
-            if (element == null) {
-                element = getElement(myLocator, myLocatorType);
-            }
+
             text = element.getText();
         }
         catch (ElementClickInterceptedException e)
         {
-            MyLogger.logger.error("Element Click Intercepted Exception: " + myLocatorType + e.getMessage());
+            MyLogger.logger.error("Element Click Intercepted Exception: " + e.getMessage());
         }
         catch (ElementNotVisibleException e)
         {
-            MyLogger.logger.error("Element Not Visible Exception: " + myLocatorType + e.getMessage());
+            MyLogger.logger.error("Element Not Visible Exception: " + e.getMessage());
         }
         finally {
             return text;
@@ -308,18 +281,16 @@ public class SeleniumDriverWrapper {
         }
     }
 
-    public boolean isElementEnabled(String myLocator, String myLocatorType, WebElement element)
+    public boolean isElementEnabled(WebElement element)
     {
         boolean isEnabled = false;
         try
         {
-            if (element == null)
-                element = getElement(myLocator, myLocatorType);
             isEnabled = element.isEnabled();
         }
         catch (Exception e)
         {
-            MyLogger.logger.error(myLocator + e.getMessage());
+            MyLogger.logger.error(e.getMessage());
         }
         finally {
             return isEnabled;
@@ -359,48 +330,42 @@ public class SeleniumDriverWrapper {
         }
     }
 
-    public boolean isElementSelected(String myLocator, String myLocatorType, WebElement element) {
+    public boolean isElementSelected(WebElement element) {
         boolean isSelected = false;
         try {
-            if (element == null)
-                element = getElement(myLocator, myLocatorType);
-            isSelected = element.isSelected();
+                isSelected = element.isSelected();
         } catch (Exception e) {
-            MyLogger.logger.error(myLocator + e.getMessage());
+            MyLogger.logger.error(e.getMessage());
         } finally {
             return isSelected;
         }
     }
-    public String isElementChecked(String myLocator, String myLocatorType, WebElement element)
+    public String isElementChecked(WebElement element)
         {
             String isChecked = "";
             try
             {
-                if (element == null)
-                    element = getElement(myLocator, myLocatorType);
                 isChecked = element.getAttribute("checked");
             }
             catch (Exception e)
             {
-                MyLogger.logger.error(myLocator + e.getMessage());
+                MyLogger.logger.error(e.getMessage());
             }
             finally {
                 return isChecked;
             }
     }
 
-    public String isElementFocused(String myLocator, String myLocatorType, WebElement element)
+    public String isElementFocused(WebElement element)
     {
         String isFocused = "";
         try
         {
-            if (element == null)
-                element = getElement(myLocator, myLocatorType);
             isFocused = element.getAttribute("focused");
         }
         catch (Exception e)
         {
-            MyLogger.logger.error(myLocator + e.getMessage());
+            MyLogger.logger.error(e.getMessage());
         }
         finally {
             return isFocused;
@@ -423,13 +388,11 @@ public class SeleniumDriverWrapper {
         }
     }
 
-    public String getClassname(String myLocator, String myLocatorType, WebElement element)
+    public String getClassname(WebElement element)
     {
         String className = "";
         try {
-            if (element == null)
-                element = getElement(myLocator, myLocatorType);
-            className = element.getAttribute("className");
+                className = element.getAttribute("className");
         }
         catch (Exception e)
         {
@@ -440,13 +403,11 @@ public class SeleniumDriverWrapper {
         }
     }
 
-    public String getTagName(String myLocator, String myLocatorType, WebElement element)
+    public String getTagName(WebElement element)
     {
         String tagName = "";
         try {
-            if (element == null)
-                element = getElement(myLocator, myLocatorType);
-            tagName = element.getTagName();
+                tagName = element.getTagName();
         }
         catch (Exception e)
         {
@@ -457,13 +418,11 @@ public class SeleniumDriverWrapper {
         }
     }
 
-    public String getLocation(String myLocator, String myLocatorType, WebElement element)
+    public Point getLocation(WebElement element)
     {
-        String location = "";
+        Point location = null;
         try {
-            if (element == null)
-                element = getElement(myLocator, myLocatorType);
-            location = element.getText();
+            location = element.getLocation();
         }
         catch (Exception e)
         {
@@ -479,11 +438,8 @@ public class SeleniumDriverWrapper {
         WebElement element = null;
         try
         {
-            if (element == null) //???
-            {
                 By by = getByType(locatorType, myLocator);
                 element = driver.findElements(by).get(elementPosition);
-            }
         }
         catch (Exception e)
         {
@@ -494,13 +450,11 @@ public class SeleniumDriverWrapper {
         }
     }
 
-    public void clickListElement(String myLocator, String locatorType, int elementPosition, List<WebElement> webElements)
+    public void clickListElement(String myLocator, String locatorType, int elementPosition)
     {
         WebElement element = null;
         try {
-                if (webElements == null)
-                    element = getListElement(myLocator,locatorType, elementPosition);
-                else element =webElements.get(elementPosition);
+                element = getListElement(myLocator,locatorType, elementPosition);
                 element.click();
         }
         catch (Exception e)
@@ -509,7 +463,7 @@ public class SeleniumDriverWrapper {
         }
     }
 
-    public void waitForElementToBeClickable(String myLocator, String locatorType, long timeout, WebElement element)
+    public void waitForElementToBeClickable(String myLocator, String locatorType, long timeout)
     {
         WebDriverWait wt = new WebDriverWait(this.driver, timeout);
         By by = getByType(locatorType,myLocator);
@@ -618,6 +572,31 @@ public class SeleniumDriverWrapper {
         }
     }
 
+    public void scrollPageUpDown(String direction)
+    {
+        try {
+            if (direction.toUpperCase().equals("UP"))
+                ((JavascriptExecutor) driver).executeScript("window.scrollBy(0, -window.innerHeight);");
+            else if (direction.toUpperCase().equals("DOWN"))
+                ((JavascriptExecutor) driver).executeScript("window.scrollBy(0, window.innerHeight);");
+        }
+        catch (Exception e)
+        {
+            MyLogger.logger.error(e.getMessage());
+        }
+    }
+
+    public void scrollBy(int x, int y)
+    {
+        try {
+                ((JavascriptExecutor) driver).executeScript("window.scrollBy("+x+", "+y+");");
+        }
+        catch (Exception e)
+        {
+            MyLogger.logger.error(e.getMessage());
+        }
+    }
+
     public void takeScreenhot( String testStep)
     {
         try {
@@ -643,7 +622,6 @@ public class SeleniumDriverWrapper {
 
     public void copyFile(File screenShot, String filename)
     {
-
         String destinationPath = "Screenshots/"+filename;
         File destinationFile = new File (destinationPath);
 
@@ -711,20 +689,6 @@ public class SeleniumDriverWrapper {
         }
     }
 
-    /*
-    public void moveMouseOnElement(WebElement element)
-    {
-        Actions actions = new Actions(driver);
-        try
-        {
-            actions.mo
-        }
-        catch (Exception e) {
-            MyLogger.logger.error(e.getMessage());
-        }
-    }
-    */
-
     public void pageUp(int count)
     {
         Actions actions = new Actions(driver);
@@ -757,7 +721,6 @@ public class SeleniumDriverWrapper {
             implicitlyWait(1);
             i++;
         }
-
     }
 
     public void arrowUp(int count)
@@ -782,7 +745,6 @@ public class SeleniumDriverWrapper {
             implicitlyWait(1);
             i++;
         }
-
     }
 
     public void arrowRight(int count)
@@ -829,7 +791,6 @@ public class SeleniumDriverWrapper {
         {
             MyLogger.logger.error(e.getMessage());
         }
-
     }
 
     public void close_tab()

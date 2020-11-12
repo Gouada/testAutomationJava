@@ -13,6 +13,6 @@ import static constants.Constants.*;
     @CucumberOptions(plugin = { "pretty", "html:" + HTML_RESULT_FOLDER + "/spiegel.html",
             "json:" + JSON_RESULT_FOLDER + "/spiegel.json",
             "junit:" + XML_RESULT_FOLDER
-                    + "/spiegel.xml" }, features = SPIEGEL_FEATURE, glue = SPIEGEL_STEPS_DEFINITION) //, tags = "@culture")
+                    + "/spiegel.xml" }, features = SPIEGEL_FEATURE, glue = SPIEGEL_STEPS_DEFINITION) //, tags = "@spiegelStartPage")
     public class SpiegelRunner {
     }

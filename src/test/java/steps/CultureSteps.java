@@ -32,10 +32,11 @@ public class CultureSteps {
         if(menu.contains("Kunst") || menu.contains("Streaming"))
             title = menu + " - DER SPIEGEL";
         else title = menu + " - Kultur - DER SPIEGEL";
-        System.out.println("title:......."+title+"   CulturMenus.KUNST.getTitle() "+CulturMenus.KUNST.getTitle());
+
         culturePage.goBack();
         culturePage.waitForPageToLoad(title);
-        Assert.assertTrue(culturePage.getitle().contains(title));
+        //Assert.assertTrue(culturePage.getitle().contains(title));
+        Assert.assertTrue(culturePage.getPageVisibleTitle(menu).equals(menu));
         //System.out.println("title:......."+title+"   CulturMenus.KUNST.getTitle() "+CulturMenus.KUNST.getTitle());
         //HelperSteps.i_go_back_to(title);
     }

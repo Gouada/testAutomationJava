@@ -51,6 +51,12 @@ public class BestSellerBasePage extends BasePage{
         return "(//div[@class='Tooltip-content invisible absolute bg-white shadow p-8 border border-shade-lighter rounded z-10'])["+elementNr+"]//a[@title='Bei Thalia bestellen']";
     }
 
+    //get page title
+    public String getPageVisibleTitle()
+    {
+        return getElementText(getElementByXpath("(//main[@id='Inhalt']//h2//span)[1]"));
+    }
+
     public void clickBestSellerMenuElement(String menuElement)
     {
         WebElement element = getElementByXpath(getBestsellerMenuElementXpath(menuElement));

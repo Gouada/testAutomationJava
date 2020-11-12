@@ -22,6 +22,13 @@ public class SpiegelPlusSteps{
             //Assert.assertTrue(spiegelPlus.getPageSource().contains("SPIEGEL+"));
             //sleep(3000);
         }
+        catch (AssertionError e)
+        {
+            MyLogger.logger.error(e.getMessage());
+            spiegelPlus.takeScreenhot("i_click_Spiegel_Plus");
+            e.printStackTrace();
+            //throw new AssertionError();
+        }
         catch (Exception e)
         {
             MyLogger.logger.error(e.getMessage());

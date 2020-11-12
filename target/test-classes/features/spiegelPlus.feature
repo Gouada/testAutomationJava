@@ -39,7 +39,7 @@ Feature: Spiegel Plus
     Then I click page down 3
     Then I go back to "Plus - DER SPIEGEL"
 
-  @end
+  #@end
   Scenario: Spiegel plus read alle Beiträge section articles
     Then I scroll to "alle_Beitraege" section
     Then I scroll to alle Beitraege "last" article
