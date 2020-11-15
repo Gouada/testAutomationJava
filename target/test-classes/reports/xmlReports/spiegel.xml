@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="67.643">
-<testcase classname="Spiegel StartPage" name="top bei spiegel spiegel" time="36.922">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="69.772">
+<testcase classname="Spiegel StartPage" name="top bei spiegel spiegel" time="36.134">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I scroll to "top_bei_spiegel_section" on start page.....................passed
@@ -15,7 +15,7 @@ Then I click page up 3......................................................pass
 Then I go back to "DER SPIEGEL | Online-Nachrichten"........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel StartPage" name="meist gelesene section" time="30.326">
+<testcase classname="Spiegel StartPage" name="meist gelesene section" time="33.261">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I scroll to "meist_gelesene_section" on start page......................passed
