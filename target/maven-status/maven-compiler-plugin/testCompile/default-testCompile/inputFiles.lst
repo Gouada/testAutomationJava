@@ -4,6 +4,7 @@ C:\MyWorkspace\guineenews\src\test\java\pages\BestSeller.java
 C:\MyWorkspace\guineenews\src\test\java\pages\ArticlesListBasePage.java
 C:\MyWorkspace\guineenews\src\test\java\steps\TestCaseBase.java
 C:\MyWorkspace\guineenews\src\test\java\pages\StartPage.java
+C:\MyWorkspace\guineenews\src\test\java\pages\Schlagzeilen.java
 C:\MyWorkspace\guineenews\src\test\java\steps\BestsellerSteps.java
 C:\MyWorkspace\guineenews\src\test\java\constants\CultureBestsellerMenus.java
 C:\MyWorkspace\guineenews\src\test\java\steps\StartpageSteps.java
@@ -24,6 +25,7 @@ C:\MyWorkspace\guineenews\src\test\java\constants\Constants.java
 C:\MyWorkspace\guineenews\src\test\java\pages\SpiegelPlus.java
 C:\MyWorkspace\guineenews\src\test\java\core\IEDriverManager.java
 C:\MyWorkspace\guineenews\src\test\java\constants\CulturMenus.java
+C:\MyWorkspace\guineenews\src\test\java\steps\SchlagzeilenSteps.java
 C:\MyWorkspace\guineenews\src\test\java\pages\MenuPage.java
 C:\MyWorkspace\guineenews\src\test\java\steps\CultureSteps.java
 C:\MyWorkspace\guineenews\src\test\java\helpers\PropertiesFilesLoader.java

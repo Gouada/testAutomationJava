@@ -9,7 +9,7 @@ import java.util.Random;
 public class ArticlesListBasePage extends BasePage{
 
     private static final String alle_Beitrege_section = "//section[@data-area='article-teaser-list']";
-    private static final String alle_beitraege_list = "//section[@data-area='article-teaser-list']//div[@data-block-el='articleTeaser']";
+    private static final String alle_beitraege_list = "//section[@data-area='article-teaser-list']//div[@data-block-el='articleTeaser']//article//h2//a";
     private static final String nav_right = "//span[contains(@title, 'ltere Artikel')]";
     private static final String nav_left = "//span[contains(@title,'Neuere Artikel')]";
     private static final String page_title = "//div[@class='bg-white shadow rounded']//h1[contains(text(),'SPIEGEL-Bestseller')]";
@@ -42,8 +42,11 @@ public class ArticlesListBasePage extends BasePage{
         Random rnd = new Random();
         int rndId = rnd.nextInt(articleCount);
         WebElement element = getElementsByXpath(alle_beitraege_list).get(rndId);
-        scrollIntoView(element);
+        //scrollIntoView(element);
+        moveMouseOnElement(element);
+        //takeScreenhot("before");
         clickElement(element);
+        //takeScreenhot("after");
     }
 
     //click an specified article within alle Beiträge section

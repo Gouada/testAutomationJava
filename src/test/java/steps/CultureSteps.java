@@ -11,16 +11,7 @@ public class CultureSteps {
 
     MenuPage menuPage = new MenuPage(TestCaseBase.driver);
     CulturePage culturePage = new CulturePage(TestCaseBase.driver);
-    @Then("I bring culture menu into view")
-    public void i_bring_culture_menu_into_view() {
-        menuPage.click_right_arrow_until_is_visible(Menu.KULTUR);
-        //menuPage.click_right_arrow();
-    }
 
-    @Then("I click TopMenu culture")
-    public void i_click_culture_menu() {
-        menuPage.clickATopMenu(Menu.KULTUR);
-    }
     @Then("^I click culture (.*)$")
     public void i_click_menu(String menu) {
         culturePage.clickMenuElement(menu);

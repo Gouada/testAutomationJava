@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7405000000,
+              "duration": 4313000000,
               "status": "passed"
             },
             "line": 6,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 3353000000,
+              "duration": 3363000000,
               "status": "passed"
             },
             "line": 7,
@@ -35,31 +35,43 @@
           },
           {
             "result": {
-              "duration": 5969000000,
+              "duration": 3583000000,
               "status": "passed"
             },
             "line": 8,
-            "name": "I bring culture menu into view",
+            "name": "I bring \"Kultur\" menu into view",
             "match": {
-              "location": "steps.CultureSteps.i_bring_culture_menu_into_view()"
+              "arguments": [
+                {
+                  "val": "\"Kultur\"",
+                  "offset": 8
+                }
+              ],
+              "location": "steps.MenuSteps.i_bring_top_menu_into_view(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1111000000,
+              "duration": 874000000,
               "status": "passed"
             },
             "line": 9,
-            "name": "I click TopMenu culture",
+            "name": "I click TopMenu \"Kultur\"",
             "match": {
-              "location": "steps.CultureSteps.i_click_culture_menu()"
+              "arguments": [
+                {
+                  "val": "\"Kultur\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.MenuSteps.i_click_top_menu(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1781000000,
+              "duration": 988000000,
               "status": "passed"
             },
             "line": 10,
@@ -78,11 +90,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T14:06:03.495Z",
+        "start_timestamp": "2020-11-15T14:22:13.339Z",
         "before": [
           {
             "result": {
-              "duration": 7357000000,
+              "duration": 6779000000,
               "status": "passed"
             },
             "match": {
@@ -93,13 +105,13 @@
         "line": 26,
         "name": "Bestseller Books",
         "description": "",
-        "id": "spiegel-kultur;bestseller-books;;2",
+        "id": "spiegel-kultur-bestseller;bestseller-books;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 5151000000,
+              "duration": 3979000000,
               "status": "passed"
             },
             "line": 15,
@@ -117,7 +129,7 @@
           },
           {
             "result": {
-              "duration": 3263000000,
+              "duration": 3287000000,
               "status": "passed"
             },
             "line": 16,
@@ -129,7 +141,7 @@
           },
           {
             "result": {
-              "duration": 1632000000,
+              "duration": 199000000,
               "status": "passed"
             },
             "line": 17,
@@ -141,7 +153,7 @@
           },
           {
             "result": {
-              "duration": 222000000,
+              "duration": 223000000,
               "status": "passed"
             },
             "line": 21,
@@ -153,9 +165,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat steps.BestsellerSteps.i_click_bei_vendor_kaufen(BestsellerSteps.java:73)\r\n\tat ✽.I click bei Thaila kaufen(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:22)\r\n",
-              "duration": 17317000000,
-              "status": "failed"
+              "duration": 456000000,
+              "status": "passed"
             },
             "line": 22,
             "name": "I click bei Thaila kaufen",
@@ -172,7 +183,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2151000000,
+              "status": "passed"
             },
             "line": 23,
             "name": "I close the Thaila tab",
@@ -206,7 +218,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4272000000,
+              "duration": 4301000000,
               "status": "passed"
             },
             "line": 6,
@@ -218,7 +230,7 @@
           },
           {
             "result": {
-              "duration": 6617000000,
+              "duration": 6773000000,
               "status": "passed"
             },
             "line": 7,
@@ -230,31 +242,43 @@
           },
           {
             "result": {
-              "duration": 9027000000,
+              "duration": 485000000,
               "status": "passed"
             },
             "line": 8,
-            "name": "I bring culture menu into view",
+            "name": "I bring \"Kultur\" menu into view",
             "match": {
-              "location": "steps.CultureSteps.i_bring_culture_menu_into_view()"
+              "arguments": [
+                {
+                  "val": "\"Kultur\"",
+                  "offset": 8
+                }
+              ],
+              "location": "steps.MenuSteps.i_bring_top_menu_into_view(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 393000000,
+              "duration": 1069000000,
               "status": "passed"
             },
             "line": 9,
-            "name": "I click TopMenu culture",
+            "name": "I click TopMenu \"Kultur\"",
             "match": {
-              "location": "steps.CultureSteps.i_click_culture_menu()"
+              "arguments": [
+                {
+                  "val": "\"Kultur\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.MenuSteps.i_click_top_menu(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 11408000000,
+              "duration": 418000000,
               "status": "passed"
             },
             "line": 10,
@@ -273,7 +297,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T14:06:58.186Z",
+        "start_timestamp": "2020-11-15T14:22:43.670Z",
         "before": [
           {
             "result": {
@@ -287,13 +311,13 @@
         "line": 27,
         "name": "Bestseller Books",
         "description": "",
-        "id": "spiegel-kultur;bestseller-books;;3",
+        "id": "spiegel-kultur-bestseller;bestseller-books;;3",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 22570000000,
+              "duration": 4008000000,
               "status": "passed"
             },
             "line": 15,
@@ -311,7 +335,7 @@
           },
           {
             "result": {
-              "duration": 3258000000,
+              "duration": 3349000000,
               "status": "passed"
             },
             "line": 16,
@@ -323,7 +347,7 @@
           },
           {
             "result": {
-              "duration": 223000000,
+              "duration": 183000000,
               "status": "passed"
             },
             "line": 17,
@@ -335,7 +359,7 @@
           },
           {
             "result": {
-              "duration": 189000000,
+              "duration": 224000000,
               "status": "passed"
             },
             "line": 21,
@@ -347,7 +371,7 @@
           },
           {
             "result": {
-              "duration": 273000000,
+              "duration": 291000000,
               "status": "passed"
             },
             "line": 22,
@@ -365,7 +389,7 @@
           },
           {
             "result": {
-              "duration": 2131000000,
+              "duration": 2175000000,
               "status": "passed"
             },
             "line": 23,
@@ -400,7 +424,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7523000000,
+              "duration": 4207000000,
               "status": "passed"
             },
             "line": 6,
@@ -412,7 +436,7 @@
           },
           {
             "result": {
-              "duration": 7079000000,
+              "duration": 6207000000,
               "status": "passed"
             },
             "line": 7,
@@ -424,31 +448,43 @@
           },
           {
             "result": {
-              "duration": 711000000,
+              "duration": 454000000,
               "status": "passed"
             },
             "line": 8,
-            "name": "I bring culture menu into view",
+            "name": "I bring \"Kultur\" menu into view",
             "match": {
-              "location": "steps.CultureSteps.i_bring_culture_menu_into_view()"
+              "arguments": [
+                {
+                  "val": "\"Kultur\"",
+                  "offset": 8
+                }
+              ],
+              "location": "steps.MenuSteps.i_bring_top_menu_into_view(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 373000000,
+              "duration": 1195000000,
               "status": "passed"
             },
             "line": 9,
-            "name": "I click TopMenu culture",
+            "name": "I click TopMenu \"Kultur\"",
             "match": {
-              "location": "steps.CultureSteps.i_click_culture_menu()"
+              "arguments": [
+                {
+                  "val": "\"Kultur\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.MenuSteps.i_click_top_menu(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 2483000000,
+              "duration": 340000000,
               "status": "passed"
             },
             "line": 10,
@@ -467,7 +503,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T14:07:58.559Z",
+        "start_timestamp": "2020-11-15T14:23:07.046Z",
         "before": [
           {
             "result": {
@@ -482,13 +518,13 @@
         "line": 28,
         "name": "Bestseller Books",
         "description": "",
-        "id": "spiegel-kultur;bestseller-books;;4",
+        "id": "spiegel-kultur-bestseller;bestseller-books;;4",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 11200000000,
+              "duration": 4022000000,
               "status": "passed"
             },
             "line": 15,
@@ -506,7 +542,7 @@
           },
           {
             "result": {
-              "duration": 3219000000,
+              "duration": 3248000000,
               "status": "passed"
             },
             "line": 16,
@@ -518,7 +554,7 @@
           },
           {
             "result": {
-              "duration": 205000000,
+              "duration": 186000000,
               "status": "passed"
             },
             "line": 17,
@@ -530,7 +566,7 @@
           },
           {
             "result": {
-              "duration": 209000000,
+              "duration": 232000000,
               "status": "passed"
             },
             "line": 21,
@@ -542,7 +578,7 @@
           },
           {
             "result": {
-              "duration": 435000000,
+              "duration": 475000000,
               "status": "passed"
             },
             "line": 22,
@@ -560,7 +596,7 @@
           },
           {
             "result": {
-              "duration": 6186000000,
+              "duration": 2125000000,
               "status": "passed"
             },
             "line": 23,
@@ -595,7 +631,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4788000000,
+              "duration": 4192000000,
               "status": "passed"
             },
             "line": 6,
@@ -607,7 +643,7 @@
           },
           {
             "result": {
-              "duration": 42208000000,
+              "duration": 6286000000,
               "status": "passed"
             },
             "line": 7,
@@ -619,31 +655,43 @@
           },
           {
             "result": {
-              "duration": 559000000,
+              "duration": 445000000,
               "status": "passed"
             },
             "line": 8,
-            "name": "I bring culture menu into view",
+            "name": "I bring \"Kultur\" menu into view",
             "match": {
-              "location": "steps.CultureSteps.i_bring_culture_menu_into_view()"
+              "arguments": [
+                {
+                  "val": "\"Kultur\"",
+                  "offset": 8
+                }
+              ],
+              "location": "steps.MenuSteps.i_bring_top_menu_into_view(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 3529000000,
+              "duration": 1242000000,
               "status": "passed"
             },
             "line": 9,
-            "name": "I click TopMenu culture",
+            "name": "I click TopMenu \"Kultur\"",
             "match": {
-              "location": "steps.CultureSteps.i_click_culture_menu()"
+              "arguments": [
+                {
+                  "val": "\"Kultur\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.MenuSteps.i_click_top_menu(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1626000000,
+              "duration": 973000000,
               "status": "passed"
             },
             "line": 10,
@@ -662,7 +710,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T14:08:38.191Z",
+        "start_timestamp": "2020-11-15T14:23:29.746Z",
         "before": [
           {
             "result": {
@@ -676,13 +724,13 @@
         "line": 47,
         "name": "Bestseller DVD",
         "description": "",
-        "id": "spiegel-kultur;bestseller-dvd;;2",
+        "id": "spiegel-kultur-bestseller;bestseller-dvd;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 9426000000,
+              "duration": 4300000000,
               "status": "passed"
             },
             "line": 36,
@@ -700,7 +748,7 @@
           },
           {
             "result": {
-              "duration": 2552000000,
+              "duration": 800000000,
               "status": "passed"
             },
             "line": 37,
@@ -718,7 +766,7 @@
           },
           {
             "result": {
-              "duration": 3612000000,
+              "duration": 4102000000,
               "status": "passed"
             },
             "line": 38,
@@ -730,7 +778,7 @@
           },
           {
             "result": {
-              "duration": 181000000,
+              "duration": 182000000,
               "status": "passed"
             },
             "line": 39,
@@ -742,7 +790,7 @@
           },
           {
             "result": {
-              "duration": 229000000,
+              "duration": 215000000,
               "status": "passed"
             },
             "line": 42,
@@ -754,7 +802,7 @@
           },
           {
             "result": {
-              "duration": 303000000,
+              "duration": 250000000,
               "status": "passed"
             },
             "line": 43,
@@ -772,7 +820,7 @@
           },
           {
             "result": {
-              "duration": 2384000000,
+              "duration": 2615000000,
               "status": "passed"
             },
             "line": 44,
@@ -807,7 +855,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4585000000,
+              "duration": 4529000000,
               "status": "passed"
             },
             "line": 6,
@@ -819,7 +867,7 @@
           },
           {
             "result": {
-              "duration": 6653000000,
+              "duration": 6491000000,
               "status": "passed"
             },
             "line": 7,
@@ -831,31 +879,43 @@
           },
           {
             "result": {
-              "duration": 1021000000,
+              "duration": 447000000,
               "status": "passed"
             },
             "line": 8,
-            "name": "I bring culture menu into view",
+            "name": "I bring \"Kultur\" menu into view",
             "match": {
-              "location": "steps.CultureSteps.i_bring_culture_menu_into_view()"
+              "arguments": [
+                {
+                  "val": "\"Kultur\"",
+                  "offset": 8
+                }
+              ],
+              "location": "steps.MenuSteps.i_bring_top_menu_into_view(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 503000000,
+              "duration": 1113000000,
               "status": "passed"
             },
             "line": 9,
-            "name": "I click TopMenu culture",
+            "name": "I click TopMenu \"Kultur\"",
             "match": {
-              "location": "steps.CultureSteps.i_click_culture_menu()"
+              "arguments": [
+                {
+                  "val": "\"Kultur\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.MenuSteps.i_click_top_menu(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 2249000000,
+              "duration": 402000000,
               "status": "passed"
             },
             "line": 10,
@@ -874,10 +934,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T14:09:49.599Z",
+        "start_timestamp": "2020-11-15T14:23:55.362Z",
         "before": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -888,13 +949,13 @@
         "line": 48,
         "name": "Bestseller DVD",
         "description": "",
-        "id": "spiegel-kultur;bestseller-dvd;;3",
+        "id": "spiegel-kultur-bestseller;bestseller-dvd;;3",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 4433000000,
+              "duration": 3994000000,
               "status": "passed"
             },
             "line": 36,
@@ -912,7 +973,7 @@
           },
           {
             "result": {
-              "duration": 1597000000,
+              "duration": 1514000000,
               "status": "passed"
             },
             "line": 37,
@@ -930,7 +991,7 @@
           },
           {
             "result": {
-              "duration": 3301000000,
+              "duration": 3403000000,
               "status": "passed"
             },
             "line": 38,
@@ -942,7 +1003,7 @@
           },
           {
             "result": {
-              "duration": 223000000,
+              "duration": 204000000,
               "status": "passed"
             },
             "line": 39,
@@ -954,7 +1015,7 @@
           },
           {
             "result": {
-              "duration": 231000000,
+              "duration": 230000000,
               "status": "passed"
             },
             "line": 42,
@@ -966,7 +1027,7 @@
           },
           {
             "result": {
-              "duration": 384000000,
+              "duration": 449000000,
               "status": "passed"
             },
             "line": 43,
@@ -984,7 +1045,7 @@
           },
           {
             "result": {
-              "duration": 2134000000,
+              "duration": 2141000000,
               "status": "passed"
             },
             "line": 44,
@@ -1019,7 +1080,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4645000000,
+              "duration": 4375000000,
               "status": "passed"
             },
             "line": 6,
@@ -1031,7 +1092,7 @@
           },
           {
             "result": {
-              "duration": 11962000000,
+              "duration": 6305000000,
               "status": "passed"
             },
             "line": 7,
@@ -1043,31 +1104,43 @@
           },
           {
             "result": {
-              "duration": 462000000,
+              "duration": 409000000,
               "status": "passed"
             },
             "line": 8,
-            "name": "I bring culture menu into view",
+            "name": "I bring \"Kultur\" menu into view",
             "match": {
-              "location": "steps.CultureSteps.i_bring_culture_menu_into_view()"
+              "arguments": [
+                {
+                  "val": "\"Kultur\"",
+                  "offset": 8
+                }
+              ],
+              "location": "steps.MenuSteps.i_bring_top_menu_into_view(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 2039000000,
+              "duration": 1107000000,
               "status": "passed"
             },
             "line": 9,
-            "name": "I click TopMenu culture",
+            "name": "I click TopMenu \"Kultur\"",
             "match": {
-              "location": "steps.CultureSteps.i_click_culture_menu()"
+              "arguments": [
+                {
+                  "val": "\"Kultur\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.MenuSteps.i_click_top_menu(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 309000000,
+              "duration": 343000000,
               "status": "passed"
             },
             "line": 10,
@@ -1086,10 +1159,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T14:10:16.921Z",
+        "start_timestamp": "2020-11-15T14:24:20.293Z",
         "before": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -1100,13 +1174,13 @@
         "line": 63,
         "name": "Bestseller Ratgeber",
         "description": "",
-        "id": "spiegel-kultur;bestseller-ratgeber;;2",
+        "id": "spiegel-kultur-bestseller;bestseller-ratgeber;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 5252000000,
+              "duration": 3914000000,
               "status": "passed"
             },
             "line": 52,
@@ -1124,7 +1198,7 @@
           },
           {
             "result": {
-              "duration": 435000000,
+              "duration": 348000000,
               "status": "passed"
             },
             "line": 53,
@@ -1142,7 +1216,232 @@
           },
           {
             "result": {
-              "duration": 7126000000,
+              "duration": 4365000000,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I scroll to a random bestseller",
+            "match": {
+              "location": "steps.BestsellerSteps.i_scroll_to_random_bestseller_element()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 166000000,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I click mehr anzeigen",
+            "match": {
+              "location": "steps.BestsellerSteps.i_click_mehr_anzeigen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 228000000,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "I move mouse over kaufen",
+            "match": {
+              "location": "steps.BestsellerSteps.i_move_mouse_over_kaufen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 451000000,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "I click bei Thaila kaufen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Thaila",
+                  "offset": 12
+                }
+              ],
+              "location": "steps.BestsellerSteps.i_click_bei_vendor_kaufen(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2131000000,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "I close the Thaila tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Thaila",
+                  "offset": 12
+                }
+              ],
+              "location": "steps.BestsellerSteps.i_close_vendor_tab(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@spiegelCultureBestseller"
+          },
+          {
+            "name": "@bestsellerRatgeber"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4693000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I start Spiegel",
+            "match": {
+              "location": "steps.MenuSteps.i_start_Spiegel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6244000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click Akzeptieren und weiter",
+            "match": {
+              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 458000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I bring \"Kultur\" menu into view",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kultur\"",
+                  "offset": 8
+                }
+              ],
+              "location": "steps.MenuSteps.i_bring_top_menu_into_view(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1482000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click TopMenu \"Kultur\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kultur\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.MenuSteps.i_click_top_menu(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 806000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click culture SPIEGEL-Bestseller",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SPIEGEL-Bestseller",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.CultureSteps.i_click_menu(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-15T14:24:44.445Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.TestCaseBase.setup()"
+            }
+          }
+        ],
+        "line": 64,
+        "name": "Bestseller Ratgeber",
+        "description": "",
+        "id": "spiegel-kultur-bestseller;bestseller-ratgeber;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4313000000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I click bestseller Ratgeber",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ratgeber",
+                  "offset": 19
+                }
+              ],
+              "location": "steps.BestsellerSteps.i_click_bestseller_menu(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 876000000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I click the bestseller sub_menu Essen \u0026 Trinken",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Essen \u0026 Trinken",
+                  "offset": 32
+                }
+              ],
+              "location": "steps.BestsellerSteps.i_click_bestseller_sub_menu(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3931000000,
               "status": "passed"
             },
             "line": 54,
@@ -1166,7 +1465,7 @@
           },
           {
             "result": {
-              "duration": 189000000,
+              "duration": 223000000,
               "status": "passed"
             },
             "line": 58,
@@ -1178,219 +1477,7 @@
           },
           {
             "result": {
-              "duration": 466000000,
-              "status": "passed"
-            },
-            "line": 59,
-            "name": "I click bei Thaila kaufen",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Thaila",
-                  "offset": 12
-                }
-              ],
-              "location": "steps.BestsellerSteps.i_click_bei_vendor_kaufen(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2430000000,
-              "status": "passed"
-            },
-            "line": 60,
-            "name": "I close the Thaila tab",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Thaila",
-                  "offset": 12
-                }
-              ],
-              "location": "steps.BestsellerSteps.i_close_vendor_tab(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@spiegelCultureBestseller"
-          },
-          {
-            "name": "@bestsellerRatgeber"
-          }
-        ]
-      },
-      {
-        "line": 5,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 4508000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "I start Spiegel",
-            "match": {
-              "location": "steps.MenuSteps.i_start_Spiegel()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 6719000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I click Akzeptieren und weiter",
-            "match": {
-              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 518000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I bring culture menu into view",
-            "match": {
-              "location": "steps.CultureSteps.i_bring_culture_menu_into_view()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1446000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "I click TopMenu culture",
-            "match": {
-              "location": "steps.CultureSteps.i_click_culture_menu()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 632000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "I click culture SPIEGEL-Bestseller",
-            "match": {
-              "arguments": [
-                {
-                  "val": "SPIEGEL-Bestseller",
-                  "offset": 16
-                }
-              ],
-              "location": "steps.CultureSteps.i_click_menu(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-12T14:10:52.424Z",
-        "before": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.TestCaseBase.setup()"
-            }
-          }
-        ],
-        "line": 64,
-        "name": "Bestseller Ratgeber",
-        "description": "",
-        "id": "spiegel-kultur;bestseller-ratgeber;;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 5831000000,
-              "status": "passed"
-            },
-            "line": 52,
-            "name": "I click bestseller Ratgeber",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Ratgeber",
-                  "offset": 19
-                }
-              ],
-              "location": "steps.BestsellerSteps.i_click_bestseller_menu(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 572000000,
-              "status": "passed"
-            },
-            "line": 53,
-            "name": "I click the bestseller sub_menu Essen \u0026 Trinken",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Essen \u0026 Trinken",
-                  "offset": 32
-                }
-              ],
-              "location": "steps.BestsellerSteps.i_click_bestseller_sub_menu(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3269000000,
-              "status": "passed"
-            },
-            "line": 54,
-            "name": "I scroll to a random bestseller",
-            "match": {
-              "location": "steps.BestsellerSteps.i_scroll_to_random_bestseller_element()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 128000000,
-              "status": "passed"
-            },
-            "line": 55,
-            "name": "I click mehr anzeigen",
-            "match": {
-              "location": "steps.BestsellerSteps.i_click_mehr_anzeigen()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 177000000,
-              "status": "passed"
-            },
-            "line": 58,
-            "name": "I move mouse over kaufen",
-            "match": {
-              "location": "steps.BestsellerSteps.i_move_mouse_over_kaufen()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 252000000,
+              "duration": 286000000,
               "status": "passed"
             },
             "line": 59,
@@ -1408,7 +1495,7 @@
           },
           {
             "result": {
-              "duration": 4768000000,
+              "duration": 2568000000,
               "status": "passed"
             },
             "line": 60,
@@ -1443,7 +1530,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4821000000,
+              "duration": 4148000000,
               "status": "passed"
             },
             "line": 6,
@@ -1455,7 +1542,7 @@
           },
           {
             "result": {
-              "duration": 7514000000,
+              "duration": 6760000000,
               "status": "passed"
             },
             "line": 7,
@@ -1467,31 +1554,43 @@
           },
           {
             "result": {
-              "duration": 425000000,
+              "duration": 457000000,
               "status": "passed"
             },
             "line": 8,
-            "name": "I bring culture menu into view",
+            "name": "I bring \"Kultur\" menu into view",
             "match": {
-              "location": "steps.CultureSteps.i_bring_culture_menu_into_view()"
+              "arguments": [
+                {
+                  "val": "\"Kultur\"",
+                  "offset": 8
+                }
+              ],
+              "location": "steps.MenuSteps.i_bring_top_menu_into_view(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 405000000,
+              "duration": 1190000000,
               "status": "passed"
             },
             "line": 9,
-            "name": "I click TopMenu culture",
+            "name": "I click TopMenu \"Kultur\"",
             "match": {
-              "location": "steps.CultureSteps.i_click_culture_menu()"
+              "arguments": [
+                {
+                  "val": "\"Kultur\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.MenuSteps.i_click_top_menu(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1860000000,
+              "duration": 774000000,
               "status": "passed"
             },
             "line": 10,
@@ -1510,7 +1609,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T14:11:21.256Z",
+        "start_timestamp": "2020-11-15T14:25:10.517Z",
         "before": [
           {
             "result": {
@@ -1524,13 +1623,13 @@
         "line": 65,
         "name": "Bestseller Ratgeber",
         "description": "",
-        "id": "spiegel-kultur;bestseller-ratgeber;;4",
+        "id": "spiegel-kultur-bestseller;bestseller-ratgeber;;4",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 4989000000,
+              "duration": 6150000000,
               "status": "passed"
             },
             "line": 52,
@@ -1548,7 +1647,7 @@
           },
           {
             "result": {
-              "duration": 1041000000,
+              "duration": 768000000,
               "status": "passed"
             },
             "line": 53,
@@ -1566,7 +1665,7 @@
           },
           {
             "result": {
-              "duration": 3299000000,
+              "duration": 3929000000,
               "status": "passed"
             },
             "line": 54,
@@ -1578,7 +1677,7 @@
           },
           {
             "result": {
-              "duration": 209000000,
+              "duration": 176000000,
               "status": "passed"
             },
             "line": 55,
@@ -1590,7 +1689,7 @@
           },
           {
             "result": {
-              "duration": 202000000,
+              "duration": 248000000,
               "status": "passed"
             },
             "line": 58,
@@ -1620,7 +1719,7 @@
           },
           {
             "result": {
-              "duration": 3237000000,
+              "duration": 2116000000,
               "status": "passed"
             },
             "line": 60,
@@ -1655,7 +1754,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5737000000,
+              "duration": 4200000000,
               "status": "passed"
             },
             "line": 6,
@@ -1667,7 +1766,7 @@
           },
           {
             "result": {
-              "duration": 6315000000,
+              "duration": 6965000000,
               "status": "passed"
             },
             "line": 7,
@@ -1679,31 +1778,43 @@
           },
           {
             "result": {
-              "duration": 551000000,
+              "duration": 457000000,
               "status": "passed"
             },
             "line": 8,
-            "name": "I bring culture menu into view",
+            "name": "I bring \"Kultur\" menu into view",
             "match": {
-              "location": "steps.CultureSteps.i_bring_culture_menu_into_view()"
+              "arguments": [
+                {
+                  "val": "\"Kultur\"",
+                  "offset": 8
+                }
+              ],
+              "location": "steps.MenuSteps.i_bring_top_menu_into_view(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 2155000000,
+              "duration": 1163000000,
               "status": "passed"
             },
             "line": 9,
-            "name": "I click TopMenu culture",
+            "name": "I click TopMenu \"Kultur\"",
             "match": {
-              "location": "steps.CultureSteps.i_click_culture_menu()"
+              "arguments": [
+                {
+                  "val": "\"Kultur\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.MenuSteps.i_click_top_menu(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1118000000,
+              "duration": 311000000,
               "status": "passed"
             },
             "line": 10,
@@ -1722,7 +1833,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T14:11:49.728Z",
+        "start_timestamp": "2020-11-15T14:25:37.700Z",
         "before": [
           {
             "result": {
@@ -1737,13 +1848,13 @@
         "line": 66,
         "name": "Bestseller Ratgeber",
         "description": "",
-        "id": "spiegel-kultur;bestseller-ratgeber;;5",
+        "id": "spiegel-kultur-bestseller;bestseller-ratgeber;;5",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 5494000000,
+              "duration": 4018000000,
               "status": "passed"
             },
             "line": 52,
@@ -1761,7 +1872,7 @@
           },
           {
             "result": {
-              "duration": 1763000000,
+              "duration": 1716000000,
               "status": "passed"
             },
             "line": 53,
@@ -1779,7 +1890,7 @@
           },
           {
             "result": {
-              "duration": 7634000000,
+              "duration": 10112000000,
               "status": "passed"
             },
             "line": 54,
@@ -1791,7 +1902,7 @@
           },
           {
             "result": {
-              "duration": 170000000,
+              "duration": 189000000,
               "status": "passed"
             },
             "line": 55,
@@ -1803,7 +1914,7 @@
           },
           {
             "result": {
-              "duration": 226000000,
+              "duration": 229000000,
               "status": "passed"
             },
             "line": 58,
@@ -1815,7 +1926,7 @@
           },
           {
             "result": {
-              "duration": 280000000,
+              "duration": 273000000,
               "status": "passed"
             },
             "line": 59,
@@ -1833,7 +1944,7 @@
           },
           {
             "result": {
-              "duration": 2138000000,
+              "duration": 2375000000,
               "status": "passed"
             },
             "line": 60,
@@ -1868,7 +1979,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5587000000,
+              "duration": 4232000000,
               "status": "passed"
             },
             "line": 6,
@@ -1880,7 +1991,7 @@
           },
           {
             "result": {
-              "duration": 12772000000,
+              "duration": 6484000000,
               "status": "passed"
             },
             "line": 7,
@@ -1892,31 +2003,43 @@
           },
           {
             "result": {
-              "duration": 493000000,
+              "duration": 502000000,
               "status": "passed"
             },
             "line": 8,
-            "name": "I bring culture menu into view",
+            "name": "I bring \"Kultur\" menu into view",
             "match": {
-              "location": "steps.CultureSteps.i_bring_culture_menu_into_view()"
+              "arguments": [
+                {
+                  "val": "\"Kultur\"",
+                  "offset": 8
+                }
+              ],
+              "location": "steps.MenuSteps.i_bring_top_menu_into_view(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1156000000,
+              "duration": 2186000000,
               "status": "passed"
             },
             "line": 9,
-            "name": "I click TopMenu culture",
+            "name": "I click TopMenu \"Kultur\"",
             "match": {
-              "location": "steps.CultureSteps.i_click_culture_menu()"
+              "arguments": [
+                {
+                  "val": "\"Kultur\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.MenuSteps.i_click_top_menu(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 5059000000,
+              "duration": 276000000,
               "status": "passed"
             },
             "line": 10,
@@ -1935,7 +2058,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T14:12:23.319Z",
+        "start_timestamp": "2020-11-15T14:26:09.715Z",
         "before": [
           {
             "result": {
@@ -1949,13 +2072,13 @@
         "line": 81,
         "name": "Bestseller KinderBuch",
         "description": "",
-        "id": "spiegel-kultur;bestseller-kinderbuch;;2",
+        "id": "spiegel-kultur-bestseller;bestseller-kinderbuch;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 11463000000,
+              "duration": 4387000000,
               "status": "passed"
             },
             "line": 70,
@@ -1973,7 +2096,7 @@
           },
           {
             "result": {
-              "duration": 1333000000,
+              "duration": 434000000,
               "status": "passed"
             },
             "line": 71,
@@ -1991,7 +2114,7 @@
           },
           {
             "result": {
-              "duration": 8188000000,
+              "duration": 4077000000,
               "status": "passed"
             },
             "line": 72,
@@ -2003,7 +2126,7 @@
           },
           {
             "result": {
-              "duration": 131000000,
+              "duration": 151000000,
               "status": "passed"
             },
             "line": 73,
@@ -2015,7 +2138,7 @@
           },
           {
             "result": {
-              "duration": 175000000,
+              "duration": 271000000,
               "status": "passed"
             },
             "line": 76,
@@ -2027,7 +2150,7 @@
           },
           {
             "result": {
-              "duration": 191000000,
+              "duration": 217000000,
               "status": "passed"
             },
             "line": 77,
@@ -2045,7 +2168,7 @@
           },
           {
             "result": {
-              "duration": 2119000000,
+              "duration": 2789000000,
               "status": "passed"
             },
             "line": 78,
@@ -2080,7 +2203,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6754000000,
+              "duration": 3955000000,
               "status": "passed"
             },
             "line": 6,
@@ -2092,7 +2215,7 @@
           },
           {
             "result": {
-              "duration": 6593000000,
+              "duration": 6859000000,
               "status": "passed"
             },
             "line": 7,
@@ -2104,31 +2227,43 @@
           },
           {
             "result": {
-              "duration": 2725000000,
+              "duration": 472000000,
               "status": "passed"
             },
             "line": 8,
-            "name": "I bring culture menu into view",
+            "name": "I bring \"Kultur\" menu into view",
             "match": {
-              "location": "steps.CultureSteps.i_bring_culture_menu_into_view()"
+              "arguments": [
+                {
+                  "val": "\"Kultur\"",
+                  "offset": 8
+                }
+              ],
+              "location": "steps.MenuSteps.i_bring_top_menu_into_view(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 408000000,
+              "duration": 1094000000,
               "status": "passed"
             },
             "line": 9,
-            "name": "I click TopMenu culture",
+            "name": "I click TopMenu \"Kultur\"",
             "match": {
-              "location": "steps.CultureSteps.i_click_culture_menu()"
+              "arguments": [
+                {
+                  "val": "\"Kultur\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.MenuSteps.i_click_top_menu(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1133000000,
+              "duration": 949000000,
               "status": "passed"
             },
             "line": 10,
@@ -2147,7 +2282,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T14:13:11.999Z",
+        "start_timestamp": "2020-11-15T14:26:35.734Z",
         "before": [
           {
             "result": {
@@ -2162,13 +2297,13 @@
         "line": 82,
         "name": "Bestseller KinderBuch",
         "description": "",
-        "id": "spiegel-kultur;bestseller-kinderbuch;;3",
+        "id": "spiegel-kultur-bestseller;bestseller-kinderbuch;;3",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 4508000000,
+              "duration": 3986000000,
               "status": "passed"
             },
             "line": 70,
@@ -2186,7 +2321,7 @@
           },
           {
             "result": {
-              "duration": 460000000,
+              "duration": 1410000000,
               "status": "passed"
             },
             "line": 71,
@@ -2204,7 +2339,7 @@
           },
           {
             "result": {
-              "duration": 7462000000,
+              "duration": 3899000000,
               "status": "passed"
             },
             "line": 72,
@@ -2216,7 +2351,7 @@
           },
           {
             "result": {
-              "duration": 219000000,
+              "duration": 166000000,
               "status": "passed"
             },
             "line": 73,
@@ -2228,7 +2363,7 @@
           },
           {
             "result": {
-              "duration": 173000000,
+              "duration": 225000000,
               "status": "passed"
             },
             "line": 76,
@@ -2240,7 +2375,7 @@
           },
           {
             "result": {
-              "duration": 396000000,
+              "duration": 401000000,
               "status": "passed"
             },
             "line": 77,
@@ -2258,7 +2393,7 @@
           },
           {
             "result": {
-              "duration": 2145000000,
+              "duration": 2130000000,
               "status": "passed"
             },
             "line": 78,
@@ -2293,7 +2428,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6608000000,
+              "duration": 4491000000,
               "status": "passed"
             },
             "line": 6,
@@ -2305,7 +2440,7 @@
           },
           {
             "result": {
-              "duration": 6693000000,
+              "duration": 6427000000,
               "status": "passed"
             },
             "line": 7,
@@ -2317,31 +2452,43 @@
           },
           {
             "result": {
-              "duration": 474000000,
+              "duration": 504000000,
               "status": "passed"
             },
             "line": 8,
-            "name": "I bring culture menu into view",
+            "name": "I bring \"Kultur\" menu into view",
             "match": {
-              "location": "steps.CultureSteps.i_bring_culture_menu_into_view()"
+              "arguments": [
+                {
+                  "val": "\"Kultur\"",
+                  "offset": 8
+                }
+              ],
+              "location": "steps.MenuSteps.i_bring_top_menu_into_view(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 377000000,
+              "duration": 1167000000,
               "status": "passed"
             },
             "line": 9,
-            "name": "I click TopMenu culture",
+            "name": "I click TopMenu \"Kultur\"",
             "match": {
-              "location": "steps.CultureSteps.i_click_culture_menu()"
+              "arguments": [
+                {
+                  "val": "\"Kultur\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.MenuSteps.i_click_top_menu(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 2627000000,
+              "duration": 1056000000,
               "status": "passed"
             },
             "line": 10,
@@ -2360,10 +2507,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T14:13:44.982Z",
+        "start_timestamp": "2020-11-15T14:27:01.288Z",
         "before": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -2374,13 +2522,13 @@
         "line": 83,
         "name": "Bestseller KinderBuch",
         "description": "",
-        "id": "spiegel-kultur;bestseller-kinderbuch;;4",
+        "id": "spiegel-kultur-bestseller;bestseller-kinderbuch;;4",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 6049000000,
+              "duration": 3376000000,
               "status": "passed"
             },
             "line": 70,
@@ -2398,7 +2546,7 @@
           },
           {
             "result": {
-              "duration": 1673000000,
+              "duration": 1488000000,
               "status": "passed"
             },
             "line": 71,
@@ -2416,7 +2564,7 @@
           },
           {
             "result": {
-              "duration": 6937000000,
+              "duration": 3897000000,
               "status": "passed"
             },
             "line": 72,
@@ -2428,7 +2576,7 @@
           },
           {
             "result": {
-              "duration": 164000000,
+              "duration": 177000000,
               "status": "passed"
             },
             "line": 73,
@@ -2440,7 +2588,7 @@
           },
           {
             "result": {
-              "duration": 189000000,
+              "duration": 224000000,
               "status": "passed"
             },
             "line": 76,
@@ -2452,7 +2600,7 @@
           },
           {
             "result": {
-              "duration": 442000000,
+              "duration": 435000000,
               "status": "passed"
             },
             "line": 77,
@@ -2470,7 +2618,7 @@
           },
           {
             "result": {
-              "duration": 2279000000,
+              "duration": 2160000000,
               "status": "passed"
             },
             "line": 78,
@@ -2505,7 +2653,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4357000000,
+              "duration": 3821000000,
               "status": "passed"
             },
             "line": 6,
@@ -2517,7 +2665,7 @@
           },
           {
             "result": {
-              "duration": 7251000000,
+              "duration": 6631000000,
               "status": "passed"
             },
             "line": 7,
@@ -2529,31 +2677,43 @@
           },
           {
             "result": {
-              "duration": 548000000,
+              "duration": 471000000,
               "status": "passed"
             },
             "line": 8,
-            "name": "I bring culture menu into view",
+            "name": "I bring \"Kultur\" menu into view",
             "match": {
-              "location": "steps.CultureSteps.i_bring_culture_menu_into_view()"
+              "arguments": [
+                {
+                  "val": "\"Kultur\"",
+                  "offset": 8
+                }
+              ],
+              "location": "steps.MenuSteps.i_bring_top_menu_into_view(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1583000000,
+              "duration": 1880000000,
               "status": "passed"
             },
             "line": 9,
-            "name": "I click TopMenu culture",
+            "name": "I click TopMenu \"Kultur\"",
             "match": {
-              "location": "steps.CultureSteps.i_click_culture_menu()"
+              "arguments": [
+                {
+                  "val": "\"Kultur\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.MenuSteps.i_click_top_menu(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 972000000,
+              "duration": 371000000,
               "status": "passed"
             },
             "line": 10,
@@ -2572,7 +2732,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T14:14:19.507Z",
+        "start_timestamp": "2020-11-15T14:27:26.700Z",
         "before": [
           {
             "result": {
@@ -2586,13 +2746,13 @@
         "line": 84,
         "name": "Bestseller KinderBuch",
         "description": "",
-        "id": "spiegel-kultur;bestseller-kinderbuch;;5",
+        "id": "spiegel-kultur-bestseller;bestseller-kinderbuch;;5",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 6402000000,
+              "duration": 4152000000,
               "status": "passed"
             },
             "line": 70,
@@ -2610,7 +2770,7 @@
           },
           {
             "result": {
-              "duration": 977000000,
+              "duration": 1229000000,
               "status": "passed"
             },
             "line": 71,
@@ -2628,7 +2788,7 @@
           },
           {
             "result": {
-              "duration": 3831000000,
+              "duration": 3404000000,
               "status": "passed"
             },
             "line": 72,
@@ -2640,7 +2800,7 @@
           },
           {
             "result": {
-              "duration": 293000000,
+              "duration": 189000000,
               "status": "passed"
             },
             "line": 73,
@@ -2652,7 +2812,7 @@
           },
           {
             "result": {
-              "duration": 235000000,
+              "duration": 228000000,
               "status": "passed"
             },
             "line": 76,
@@ -2664,7 +2824,7 @@
           },
           {
             "result": {
-              "duration": 319000000,
+              "duration": 245000000,
               "status": "passed"
             },
             "line": 77,
@@ -2682,7 +2842,7 @@
           },
           {
             "result": {
-              "duration": 3719000000,
+              "duration": 2148000000,
               "status": "passed"
             },
             "line": 78,
@@ -2709,9 +2869,9 @@
         ]
       }
     ],
-    "name": "Spiegel Kultur",
+    "name": "Spiegel Kultur Bestseller",
     "description": "",
-    "id": "spiegel-kultur",
+    "id": "spiegel-kultur-bestseller",
     "keyword": "Feature",
     "uri": "file:src/test/resources/features/bestseller.feature",
     "tags": [
@@ -2737,7 +2897,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4572000000,
+              "duration": 4322000000,
               "status": "passed"
             },
             "line": 5,
@@ -2749,7 +2909,7 @@
           },
           {
             "result": {
-              "duration": 11364000000,
+              "duration": 6483000000,
               "status": "passed"
             },
             "line": 6,
@@ -2761,36 +2921,47 @@
           },
           {
             "result": {
-              "duration": 464000000,
+              "duration": 458000000,
               "status": "passed"
             },
             "line": 7,
-            "name": "I bring culture menu into view",
+            "name": "I bring \"Kultur\" menu into view",
             "match": {
-              "location": "steps.CultureSteps.i_bring_culture_menu_into_view()"
+              "arguments": [
+                {
+                  "val": "\"Kultur\"",
+                  "offset": 8
+                }
+              ],
+              "location": "steps.MenuSteps.i_bring_top_menu_into_view(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1285000000,
+              "duration": 1126000000,
               "status": "passed"
             },
             "line": 8,
-            "name": "I click TopMenu culture",
+            "name": "I click TopMenu \"Kultur\"",
             "match": {
-              "location": "steps.CultureSteps.i_click_culture_menu()"
+              "arguments": [
+                {
+                  "val": "\"Kultur\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.MenuSteps.i_click_top_menu(java.lang.String)"
             },
             "keyword": "And "
           }
         ]
       },
       {
-        "start_timestamp": "2020-11-12T14:14:50.004Z",
+        "start_timestamp": "2020-11-15T14:27:51.478Z",
         "before": [
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -2807,7 +2978,7 @@
         "steps": [
           {
             "result": {
-              "duration": 172000000,
+              "duration": 449000000,
               "status": "passed"
             },
             "line": 12,
@@ -2825,7 +2996,7 @@
           },
           {
             "result": {
-              "duration": 561000000,
+              "duration": 931000000,
               "status": "passed"
             },
             "line": 13,
@@ -2843,7 +3014,7 @@
           },
           {
             "result": {
-              "duration": 1320000000,
+              "duration": 600000000,
               "status": "passed"
             },
             "line": 14,
@@ -2861,9 +3032,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat steps.CultureSteps.i_go_back_to_menu_kultur_der_spiegel(CultureSteps.java:39)\r\n\tat ✽.I navigate back to Kino - Kultur - DER SPIEGEL(file:///C:/MyWorkspace/guineenews/src/test/resources/features/culturePage.feature:15)\r\n",
-              "duration": 17391000000,
-              "status": "failed"
+              "duration": 2181000000,
+              "status": "passed"
             },
             "line": 15,
             "name": "I navigate back to Kino - Kultur - DER SPIEGEL",
@@ -2897,7 +3067,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4857000000,
+              "duration": 4880000000,
               "status": "passed"
             },
             "line": 5,
@@ -2909,7 +3079,7 @@
           },
           {
             "result": {
-              "duration": 5138000000,
+              "duration": 4234000000,
               "status": "passed"
             },
             "line": 6,
@@ -2921,36 +3091,47 @@
           },
           {
             "result": {
-              "duration": 457000000,
+              "duration": 423000000,
               "status": "passed"
             },
             "line": 7,
-            "name": "I bring culture menu into view",
+            "name": "I bring \"Kultur\" menu into view",
             "match": {
-              "location": "steps.CultureSteps.i_bring_culture_menu_into_view()"
+              "arguments": [
+                {
+                  "val": "\"Kultur\"",
+                  "offset": 8
+                }
+              ],
+              "location": "steps.MenuSteps.i_bring_top_menu_into_view(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1150000000,
+              "duration": 1459000000,
               "status": "passed"
             },
             "line": 8,
-            "name": "I click TopMenu culture",
+            "name": "I click TopMenu \"Kultur\"",
             "match": {
-              "location": "steps.CultureSteps.i_click_culture_menu()"
+              "arguments": [
+                {
+                  "val": "\"Kultur\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.MenuSteps.i_click_top_menu(java.lang.String)"
             },
             "keyword": "And "
           }
         ]
       },
       {
-        "start_timestamp": "2020-11-12T14:15:27.144Z",
+        "start_timestamp": "2020-11-15T14:28:08.036Z",
         "before": [
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -2967,7 +3148,7 @@
         "steps": [
           {
             "result": {
-              "duration": 328000000,
+              "duration": 404000000,
               "status": "passed"
             },
             "line": 12,
@@ -2985,7 +3166,7 @@
           },
           {
             "result": {
-              "duration": 1838000000,
+              "duration": 995000000,
               "status": "passed"
             },
             "line": 13,
@@ -3003,7 +3184,7 @@
           },
           {
             "result": {
-              "duration": 157000000,
+              "duration": 605000000,
               "status": "passed"
             },
             "line": 14,
@@ -3021,7 +3202,7 @@
           },
           {
             "result": {
-              "duration": 2343000000,
+              "duration": 2477000000,
               "status": "passed"
             },
             "line": 15,
@@ -3056,7 +3237,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5801000000,
+              "duration": 4290000000,
               "status": "passed"
             },
             "line": 5,
@@ -3068,7 +3249,7 @@
           },
           {
             "result": {
-              "duration": 5086000000,
+              "duration": 6192000000,
               "status": "passed"
             },
             "line": 6,
@@ -3080,36 +3261,47 @@
           },
           {
             "result": {
-              "duration": 1040000000,
+              "duration": 483000000,
               "status": "passed"
             },
             "line": 7,
-            "name": "I bring culture menu into view",
+            "name": "I bring \"Kultur\" menu into view",
             "match": {
-              "location": "steps.CultureSteps.i_bring_culture_menu_into_view()"
+              "arguments": [
+                {
+                  "val": "\"Kultur\"",
+                  "offset": 8
+                }
+              ],
+              "location": "steps.MenuSteps.i_bring_top_menu_into_view(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1118000000,
+              "duration": 1077000000,
               "status": "passed"
             },
             "line": 8,
-            "name": "I click TopMenu culture",
+            "name": "I click TopMenu \"Kultur\"",
             "match": {
-              "location": "steps.CultureSteps.i_click_culture_menu()"
+              "arguments": [
+                {
+                  "val": "\"Kultur\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.MenuSteps.i_click_top_menu(java.lang.String)"
             },
             "keyword": "And "
           }
         ]
       },
       {
-        "start_timestamp": "2020-11-12T14:15:43.421Z",
+        "start_timestamp": "2020-11-15T14:28:23.519Z",
         "before": [
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -3126,7 +3318,7 @@
         "steps": [
           {
             "result": {
-              "duration": 742000000,
+              "duration": 435000000,
               "status": "passed"
             },
             "line": 12,
@@ -3144,7 +3336,7 @@
           },
           {
             "result": {
-              "duration": 753000000,
+              "duration": 1345000000,
               "status": "passed"
             },
             "line": 13,
@@ -3162,7 +3354,7 @@
           },
           {
             "result": {
-              "duration": 111000000,
+              "duration": 437000000,
               "status": "passed"
             },
             "line": 14,
@@ -3180,9 +3372,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat steps.CultureSteps.i_go_back_to_menu_kultur_der_spiegel(CultureSteps.java:39)\r\n\tat ✽.I navigate back to TV - Kultur - DER SPIEGEL(file:///C:/MyWorkspace/guineenews/src/test/resources/features/culturePage.feature:15)\r\n",
-              "duration": 17422000000,
-              "status": "failed"
+              "duration": 2087000000,
+              "status": "passed"
             },
             "line": 15,
             "name": "I navigate back to TV - Kultur - DER SPIEGEL",
@@ -3216,7 +3407,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4999000000,
+              "duration": 4231000000,
               "status": "passed"
             },
             "line": 5,
@@ -3228,7 +3419,7 @@
           },
           {
             "result": {
-              "duration": 4937000000,
+              "duration": 4271000000,
               "status": "passed"
             },
             "line": 6,
@@ -3240,32 +3431,44 @@
           },
           {
             "result": {
-              "duration": 458000000,
+              "duration": 459000000,
               "status": "passed"
             },
             "line": 7,
-            "name": "I bring culture menu into view",
+            "name": "I bring \"Kultur\" menu into view",
             "match": {
-              "location": "steps.CultureSteps.i_bring_culture_menu_into_view()"
+              "arguments": [
+                {
+                  "val": "\"Kultur\"",
+                  "offset": 8
+                }
+              ],
+              "location": "steps.MenuSteps.i_bring_top_menu_into_view(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 2394000000,
+              "duration": 1091000000,
               "status": "passed"
             },
             "line": 8,
-            "name": "I click TopMenu culture",
+            "name": "I click TopMenu \"Kultur\"",
             "match": {
-              "location": "steps.CultureSteps.i_click_culture_menu()"
+              "arguments": [
+                {
+                  "val": "\"Kultur\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.MenuSteps.i_click_top_menu(java.lang.String)"
             },
             "keyword": "And "
           }
         ]
       },
       {
-        "start_timestamp": "2020-11-12T14:16:15.513Z",
+        "start_timestamp": "2020-11-15T14:28:39.871Z",
         "before": [
           {
             "result": {
@@ -3285,7 +3488,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1406000000,
+              "duration": 1417000000,
               "status": "passed"
             },
             "line": 12,
@@ -3303,7 +3506,7 @@
           },
           {
             "result": {
-              "duration": 1527000000,
+              "duration": 1309000000,
               "status": "passed"
             },
             "line": 13,
@@ -3321,7 +3524,7 @@
           },
           {
             "result": {
-              "duration": 94000000,
+              "duration": 573000000,
               "status": "passed"
             },
             "line": 14,
@@ -3339,7 +3542,7 @@
           },
           {
             "result": {
-              "duration": 3644000000,
+              "duration": 2234000000,
               "status": "passed"
             },
             "line": 15,
@@ -3374,7 +3577,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5627000000,
+              "duration": 4195000000,
               "status": "passed"
             },
             "line": 5,
@@ -3386,7 +3589,7 @@
           },
           {
             "result": {
-              "duration": 4627000000,
+              "duration": 4082000000,
               "status": "passed"
             },
             "line": 6,
@@ -3398,32 +3601,44 @@
           },
           {
             "result": {
-              "duration": 1181000000,
+              "duration": 394000000,
               "status": "passed"
             },
             "line": 7,
-            "name": "I bring culture menu into view",
+            "name": "I bring \"Kultur\" menu into view",
             "match": {
-              "location": "steps.CultureSteps.i_bring_culture_menu_into_view()"
+              "arguments": [
+                {
+                  "val": "\"Kultur\"",
+                  "offset": 8
+                }
+              ],
+              "location": "steps.MenuSteps.i_bring_top_menu_into_view(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1161000000,
+              "duration": 1088000000,
               "status": "passed"
             },
             "line": 8,
-            "name": "I click TopMenu culture",
+            "name": "I click TopMenu \"Kultur\"",
             "match": {
-              "location": "steps.CultureSteps.i_click_culture_menu()"
+              "arguments": [
+                {
+                  "val": "\"Kultur\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.MenuSteps.i_click_top_menu(java.lang.String)"
             },
             "keyword": "And "
           }
         ]
       },
       {
-        "start_timestamp": "2020-11-12T14:16:34.980Z",
+        "start_timestamp": "2020-11-15T14:28:55.461Z",
         "before": [
           {
             "result": {
@@ -3443,7 +3658,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1072000000,
+              "duration": 810000000,
               "status": "passed"
             },
             "line": 12,
@@ -3461,7 +3676,7 @@
           },
           {
             "result": {
-              "duration": 2412000000,
+              "duration": 991000000,
               "status": "passed"
             },
             "line": 13,
@@ -3479,7 +3694,7 @@
           },
           {
             "result": {
-              "duration": 111000000,
+              "duration": 544000000,
               "status": "passed"
             },
             "line": 14,
@@ -3497,7 +3712,7 @@
           },
           {
             "result": {
-              "duration": 5422000000,
+              "duration": 2247000000,
               "status": "passed"
             },
             "line": 15,
@@ -3532,7 +3747,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4921000000,
+              "duration": 4118000000,
               "status": "passed"
             },
             "line": 5,
@@ -3544,7 +3759,7 @@
           },
           {
             "result": {
-              "duration": 4165000000,
+              "duration": 4381000000,
               "status": "passed"
             },
             "line": 6,
@@ -3556,36 +3771,47 @@
           },
           {
             "result": {
-              "duration": 3181000000,
+              "duration": 440000000,
               "status": "passed"
             },
             "line": 7,
-            "name": "I bring culture menu into view",
+            "name": "I bring \"Kultur\" menu into view",
             "match": {
-              "location": "steps.CultureSteps.i_bring_culture_menu_into_view()"
+              "arguments": [
+                {
+                  "val": "\"Kultur\"",
+                  "offset": 8
+                }
+              ],
+              "location": "steps.MenuSteps.i_bring_top_menu_into_view(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 546000000,
+              "duration": 1014000000,
               "status": "passed"
             },
             "line": 8,
-            "name": "I click TopMenu culture",
+            "name": "I click TopMenu \"Kultur\"",
             "match": {
-              "location": "steps.CultureSteps.i_click_culture_menu()"
+              "arguments": [
+                {
+                  "val": "\"Kultur\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.MenuSteps.i_click_top_menu(java.lang.String)"
             },
             "keyword": "And "
           }
         ]
       },
       {
-        "start_timestamp": "2020-11-12T14:16:56.599Z",
+        "start_timestamp": "2020-11-15T14:29:09.818Z",
         "before": [
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -3602,7 +3828,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1720000000,
+              "duration": 419000000,
               "status": "passed"
             },
             "line": 12,
@@ -3620,7 +3846,7 @@
           },
           {
             "result": {
-              "duration": 777000000,
+              "duration": 1684000000,
               "status": "passed"
             },
             "line": 13,
@@ -3638,7 +3864,7 @@
           },
           {
             "result": {
-              "duration": 280000000,
+              "duration": 651000000,
               "status": "passed"
             },
             "line": 14,
@@ -3656,7 +3882,7 @@
           },
           {
             "result": {
-              "duration": 2767000000,
+              "duration": 2191000000,
               "status": "passed"
             },
             "line": 15,
@@ -3700,10 +3926,61 @@
     ]
   },
   {
-    "line": 2,
+    "line": 3,
     "elements": [
       {
-        "start_timestamp": "2020-11-12T14:17:14.963Z",
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4215000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I start Spiegel",
+            "match": {
+              "location": "steps.MenuSteps.i_start_Spiegel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4210000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click Akzeptieren und weiter",
+            "match": {
+              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2284000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click TopMenu \"Schlagzeilen\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Schlagzeilen\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.MenuSteps.i_click_top_menu(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-15T14:29:24.723Z",
         "before": [
           {
             "result": {
@@ -3714,56 +3991,140 @@
             }
           }
         ],
-        "line": 8,
-        "name": "surf on menu page",
+        "line": 11,
+        "name": "reading Schlagzeilen article",
         "description": "",
-        "id": "spiegel-1;surf-on-menu-page",
+        "id": "spiegel-schlagzeilen;reading-schlagzeilen-article",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 4239000000,
+              "duration": 1777000000,
               "status": "passed"
             },
-            "line": 9,
-            "name": "I start Spiegel",
+            "line": 12,
+            "name": "I click a \"first\" article of alle Beitraege section",
             "match": {
-              "location": "steps.MenuSteps.i_start_Spiegel()"
+              "arguments": [
+                {
+                  "val": "\"first\"",
+                  "offset": 10
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
             },
-            "keyword": "Given "
+            "keyword": "Then "
           },
           {
             "result": {
-              "duration": 6432000000,
+              "duration": 900000000,
               "status": "passed"
             },
-            "line": 10,
-            "name": "I click Akzeptieren und weiter",
+            "line": 13,
+            "name": "I click page down 6",
             "match": {
-              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_page_down(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3122000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I go back to \"Schlagzeilen - DER SPIEGEL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Schlagzeilen - DER SPIEGEL\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HelperSteps.i_go_back_to(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1660000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click a \"random\" article of alle Beitraege section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 10
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 299000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click page down 6",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_page_down(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3600000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I go back to \"Schlagzeilen - DER SPIEGEL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Schlagzeilen - DER SPIEGEL\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HelperSteps.i_go_back_to(java.lang.String)"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@menu"
+            "name": "@spiegelSchlagzeilen"
           },
           {
-            "name": "@start"
+            "name": "@readSchlagzeilenArticle"
           }
         ]
       }
     ],
-    "name": "Spiegel 1",
+    "name": "Spiegel Schlagzeilen",
     "description": "",
-    "id": "spiegel-1",
+    "id": "spiegel-schlagzeilen",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/menuPage.feature",
+    "uri": "file:src/test/resources/features/schlagzeilen.feature",
     "tags": [
       {
-        "name": "@menu",
+        "name": "@spiegelSchlagzeilen",
         "type": "Tag",
         "location": {
           "line": 1,
@@ -3784,7 +4145,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4536000000,
+              "duration": 5132000000,
               "status": "passed"
             },
             "line": 5,
@@ -3796,10 +4157,22 @@
           },
           {
             "result": {
-              "duration": 2457000000,
+              "duration": 4217000000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 6,
+            "name": "I click Akzeptieren und weiter",
+            "match": {
+              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1909000000,
+              "status": "passed"
+            },
+            "line": 8,
             "name": "I click SpiegelPlus",
             "match": {
               "location": "steps.SpiegelPlusSteps.clickSpiegelPlus()"
@@ -3809,11 +4182,10 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T14:17:25.639Z",
+        "start_timestamp": "2020-11-15T14:29:46.798Z",
         "before": [
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -3821,7 +4193,7 @@
             }
           }
         ],
-        "line": 10,
+        "line": 11,
         "name": "Spiegel plus read section 1 articles",
         "description": "",
         "id": "spiegel-plus;spiegel-plus-read-section-1-articles",
@@ -3830,10 +4202,10 @@
         "steps": [
           {
             "result": {
-              "duration": 1733000000,
+              "duration": 1432000000,
               "status": "passed"
             },
-            "line": 11,
+            "line": 12,
             "name": "I click first article of \"first\" section",
             "match": {
               "arguments": [
@@ -3848,10 +4220,10 @@
           },
           {
             "result": {
-              "duration": 405000000,
+              "duration": 388000000,
               "status": "passed"
             },
-            "line": 12,
+            "line": 13,
             "name": "I click page down 3",
             "match": {
               "arguments": [
@@ -3866,10 +4238,10 @@
           },
           {
             "result": {
-              "duration": 5106000000,
+              "duration": 2749000000,
               "status": "passed"
             },
-            "line": 13,
+            "line": 14,
             "name": "I go back to \"Plus - DER SPIEGEL\"",
             "match": {
               "arguments": [
@@ -3884,10 +4256,10 @@
           },
           {
             "result": {
-              "duration": 1467000000,
+              "duration": 1059000000,
               "status": "passed"
             },
-            "line": 14,
+            "line": 15,
             "name": "I click last article of \"first\" section",
             "match": {
               "arguments": [
@@ -3902,10 +4274,10 @@
           },
           {
             "result": {
-              "duration": 142000000,
+              "duration": 249000000,
               "status": "passed"
             },
-            "line": 15,
+            "line": 16,
             "name": "I click page down 3",
             "match": {
               "arguments": [
@@ -3920,10 +4292,10 @@
           },
           {
             "result": {
-              "duration": 5129000000,
+              "duration": 2636000000,
               "status": "passed"
             },
-            "line": 16,
+            "line": 17,
             "name": "I go back to \"Plus - DER SPIEGEL\"",
             "match": {
               "arguments": [
@@ -3938,10 +4310,10 @@
           },
           {
             "result": {
-              "duration": 2280000000,
+              "duration": 1528000000,
               "status": "passed"
             },
-            "line": 17,
+            "line": 18,
             "name": "I paginate to \"next\" page",
             "match": {
               "arguments": [
@@ -3956,10 +4328,10 @@
           },
           {
             "result": {
-              "duration": 208000000,
+              "duration": 123000000,
               "status": "passed"
             },
-            "line": 18,
+            "line": 19,
             "name": "I click page down 3",
             "match": {
               "arguments": [
@@ -3974,10 +4346,10 @@
           },
           {
             "result": {
-              "duration": 1097000000,
+              "duration": 657000000,
               "status": "passed"
             },
-            "line": 19,
+            "line": 20,
             "name": "I paginate to \"previous\" page",
             "match": {
               "arguments": [
@@ -3992,10 +4364,10 @@
           },
           {
             "result": {
-              "duration": 1421000000,
+              "duration": 1821000000,
               "status": "passed"
             },
-            "line": 20,
+            "line": 21,
             "name": "I click a random article of \"first\" section",
             "match": {
               "arguments": [
@@ -4010,10 +4382,10 @@
           },
           {
             "result": {
-              "duration": 110000000,
+              "duration": 695000000,
               "status": "passed"
             },
-            "line": 21,
+            "line": 22,
             "name": "I click page down 3",
             "match": {
               "arguments": [
@@ -4045,7 +4417,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4150000000,
+              "duration": 4240000000,
               "status": "passed"
             },
             "line": 5,
@@ -4057,10 +4429,22 @@
           },
           {
             "result": {
-              "duration": 3842000000,
+              "duration": 4427000000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 6,
+            "name": "I click Akzeptieren und weiter",
+            "match": {
+              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2149000000,
+              "status": "passed"
+            },
+            "line": 8,
             "name": "I click SpiegelPlus",
             "match": {
               "location": "steps.SpiegelPlusSteps.clickSpiegelPlus()"
@@ -4070,11 +4454,10 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T14:17:51.739Z",
+        "start_timestamp": "2020-11-15T14:30:11.406Z",
         "before": [
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -4082,7 +4465,7 @@
             }
           }
         ],
-        "line": 23,
+        "line": 24,
         "name": "Spiegel plus read random section articles",
         "description": "",
         "id": "spiegel-plus;spiegel-plus-read-random-section-articles",
@@ -4091,10 +4474,10 @@
         "steps": [
           {
             "result": {
-              "duration": 3623000000,
+              "duration": 292000000,
               "status": "passed"
             },
-            "line": 24,
+            "line": 25,
             "name": "I scroll to \"random\" section",
             "match": {
               "arguments": [
@@ -4109,10 +4492,10 @@
           },
           {
             "result": {
-              "duration": 7440000000,
+              "duration": 639000000,
               "status": "passed"
             },
-            "line": 25,
+            "line": 26,
             "name": "I click first article of \"random\" section",
             "match": {
               "arguments": [
@@ -4127,10 +4510,10 @@
           },
           {
             "result": {
-              "duration": 94000000,
+              "duration": 683000000,
               "status": "passed"
             },
-            "line": 26,
+            "line": 27,
             "name": "I click page down 3",
             "match": {
               "arguments": [
@@ -4145,10 +4528,10 @@
           },
           {
             "result": {
-              "duration": 5078000000,
+              "duration": 2616000000,
               "status": "passed"
             },
-            "line": 27,
+            "line": 28,
             "name": "I go back to \"Plus - DER SPIEGEL\"",
             "match": {
               "arguments": [
@@ -4163,10 +4546,10 @@
           },
           {
             "result": {
-              "duration": 3127000000,
+              "duration": 1446000000,
               "status": "passed"
             },
-            "line": 28,
+            "line": 29,
             "name": "I click a random article of \"random\" section",
             "match": {
               "arguments": [
@@ -4181,10 +4564,10 @@
           },
           {
             "result": {
-              "duration": 251000000,
+              "duration": 201000000,
               "status": "passed"
             },
-            "line": 29,
+            "line": 30,
             "name": "I click page down 3",
             "match": {
               "arguments": [
@@ -4199,10 +4582,10 @@
           },
           {
             "result": {
-              "duration": 5095000000,
+              "duration": 2598000000,
               "status": "passed"
             },
-            "line": 30,
+            "line": 31,
             "name": "I go back to \"Plus - DER SPIEGEL\"",
             "match": {
               "arguments": [
@@ -4231,7 +4614,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4214000000,
+              "duration": 4285000000,
               "status": "passed"
             },
             "line": 5,
@@ -4243,10 +4626,22 @@
           },
           {
             "result": {
-              "duration": 2465000000,
+              "duration": 4490000000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 6,
+            "name": "I click Akzeptieren und weiter",
+            "match": {
+              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1925000000,
+              "status": "passed"
+            },
+            "line": 8,
             "name": "I click SpiegelPlus",
             "match": {
               "location": "steps.SpiegelPlusSteps.clickSpiegelPlus()"
@@ -4256,7 +4651,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T14:18:24.459Z",
+        "start_timestamp": "2020-11-15T14:30:30.701Z",
         "before": [
           {
             "result": {
@@ -4267,7 +4662,7 @@
             }
           }
         ],
-        "line": 33,
+        "line": 34,
         "name": "Spiegel plus read audio section articles",
         "description": "",
         "id": "spiegel-plus;spiegel-plus-read-audio-section-articles",
@@ -4276,10 +4671,10 @@
         "steps": [
           {
             "result": {
-              "duration": 519000000,
+              "duration": 248000000,
               "status": "passed"
             },
-            "line": 34,
+            "line": 35,
             "name": "I scroll to \"audio\" section",
             "match": {
               "arguments": [
@@ -4294,10 +4689,10 @@
           },
           {
             "result": {
-              "duration": 663000000,
+              "duration": 557000000,
               "status": "passed"
             },
-            "line": 35,
+            "line": 36,
             "name": "I click first article of \"audio\" section",
             "match": {
               "arguments": [
@@ -4312,10 +4707,10 @@
           },
           {
             "result": {
-              "duration": 125000000,
+              "duration": 546000000,
               "status": "passed"
             },
-            "line": 36,
+            "line": 37,
             "name": "I click page down 3",
             "match": {
               "arguments": [
@@ -4330,10 +4725,10 @@
           },
           {
             "result": {
-              "duration": 5128000000,
+              "duration": 2636000000,
               "status": "passed"
             },
-            "line": 37,
+            "line": 38,
             "name": "I go back to \"Plus - DER SPIEGEL\"",
             "match": {
               "arguments": [
@@ -4348,10 +4743,10 @@
           },
           {
             "result": {
-              "duration": 1103000000,
+              "duration": 1228000000,
               "status": "passed"
             },
-            "line": 38,
+            "line": 39,
             "name": "I click a random article of \"audio\" section",
             "match": {
               "arguments": [
@@ -4366,10 +4761,10 @@
           },
           {
             "result": {
-              "duration": 687000000,
+              "duration": 262000000,
               "status": "passed"
             },
-            "line": 39,
+            "line": 40,
             "name": "I click page down 3",
             "match": {
               "arguments": [
@@ -4384,10 +4779,10 @@
           },
           {
             "result": {
-              "duration": 5046000000,
+              "duration": 2537000000,
               "status": "passed"
             },
-            "line": 40,
+            "line": 41,
             "name": "I go back to \"Plus - DER SPIEGEL\"",
             "match": {
               "arguments": [
@@ -4419,7 +4814,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4318000000,
+              "duration": 4141000000,
               "status": "passed"
             },
             "line": 5,
@@ -4431,10 +4826,22 @@
           },
           {
             "result": {
-              "duration": 3405000000,
+              "duration": 4144000000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 6,
+            "name": "I click Akzeptieren und weiter",
+            "match": {
+              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2509000000,
+              "status": "passed"
+            },
+            "line": 8,
             "name": "I click SpiegelPlus",
             "match": {
               "location": "steps.SpiegelPlusSteps.clickSpiegelPlus()"
@@ -4444,10 +4851,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T14:18:44.409Z",
+        "start_timestamp": "2020-11-15T14:30:49.419Z",
         "before": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -4455,7 +4863,7 @@
             }
           }
         ],
-        "line": 43,
+        "line": 44,
         "name": "Spiegel plus read alle Beiträge section articles",
         "description": "",
         "id": "spiegel-plus;spiegel-plus-read-alle-beiträge-section-articles",
@@ -4464,10 +4872,10 @@
         "steps": [
           {
             "result": {
-              "duration": 1390000000,
+              "duration": 271000000,
               "status": "passed"
             },
-            "line": 44,
+            "line": 45,
             "name": "I scroll to \"alle_Beitraege\" section",
             "match": {
               "arguments": [
@@ -4482,10 +4890,10 @@
           },
           {
             "result": {
-              "duration": 5133000000,
+              "duration": 270000000,
               "status": "passed"
             },
-            "line": 45,
+            "line": 46,
             "name": "I scroll to alle Beitraege \"last\" article",
             "match": {
               "arguments": [
@@ -4500,10 +4908,10 @@
           },
           {
             "result": {
-              "duration": 175000000,
+              "duration": 290000000,
               "status": "passed"
             },
-            "line": 46,
+            "line": 47,
             "name": "I scroll to alle Beitraege \"random\" article",
             "match": {
               "arguments": [
@@ -4518,10 +4926,10 @@
           },
           {
             "result": {
-              "duration": 1663000000,
+              "duration": 1235000000,
               "status": "passed"
             },
-            "line": 47,
+            "line": 48,
             "name": "I click a \"random\" article of alle Beitraege section",
             "match": {
               "arguments": [
@@ -4536,10 +4944,10 @@
           },
           {
             "result": {
-              "duration": 126000000,
+              "duration": 297000000,
               "status": "passed"
             },
-            "line": 48,
+            "line": 49,
             "name": "I click page down 3",
             "match": {
               "arguments": [
@@ -4554,10 +4962,10 @@
           },
           {
             "result": {
-              "duration": 5116000000,
+              "duration": 2569000000,
               "status": "passed"
             },
-            "line": 49,
+            "line": 50,
             "name": "I go back to \"Plus - DER SPIEGEL\"",
             "match": {
               "arguments": [
@@ -4572,10 +4980,10 @@
           },
           {
             "result": {
-              "duration": 2576000000,
+              "duration": 2832000000,
               "status": "passed"
             },
-            "line": 50,
+            "line": 51,
             "name": "I paginate to \"next\" page",
             "match": {
               "arguments": [
@@ -4624,7 +5032,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7460000000,
+              "duration": 4462000000,
               "status": "passed"
             },
             "line": 6,
@@ -4636,7 +5044,7 @@
           },
           {
             "result": {
-              "duration": 6620000000,
+              "duration": 19355000000,
               "status": "passed"
             },
             "line": 7,
@@ -4649,11 +5057,10 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T14:19:08.318Z",
+        "start_timestamp": "2020-11-15T14:31:07.982Z",
         "before": [
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -4670,20 +5077,30 @@
         "steps": [
           {
             "result": {
-              "duration": 1806000000,
-              "status": "passed"
+              "error_message": "java.lang.Exception: Index: 1, Size: 0\r\n\tat steps.StartpageSteps.i_click_article_of(StartpageSteps.java:55)\r\n\tat ✽.On start page I click random article of latests_news_section(file:///C:/MyWorkspace/guineenews/src/test/resources/features/startPage.feature:12)\r\n",
+              "duration": 3688000000,
+              "status": "failed"
             },
             "line": 12,
-            "name": "I click start page main_article",
+            "name": "On start page I click random article of latests_news_section",
             "match": {
-              "location": "steps.StartpageSteps.i_click_start_page_main_article()"
+              "arguments": [
+                {
+                  "val": "random",
+                  "offset": 22
+                },
+                {
+                  "val": "latests_news_section",
+                  "offset": 40
+                }
+              ],
+              "location": "steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 311000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 13,
             "name": "I click page down 6",
@@ -4700,8 +5117,7 @@
           },
           {
             "result": {
-              "duration": 100000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 14,
             "name": "I click page up 3",
@@ -4718,10 +5134,137 @@
           },
           {
             "result": {
-              "duration": 5083000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 15,
+            "name": "I go back to \"DER SPIEGEL | Online-Nachrichten\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DER SPIEGEL | Online-Nachrichten\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HelperSteps.i_go_back_to(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@spiegelStartPage"
+          },
+          {
+            "name": "@readlatestNewsArticle"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4318000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I start Spiegel",
+            "match": {
+              "location": "steps.MenuSteps.i_start_Spiegel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6969000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click Akzeptieren und weiter",
+            "match": {
+              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-15T14:31:35.502Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.TestCaseBase.setup()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "reading main article",
+        "description": "",
+        "id": "spiegel-startpage;reading-main-article",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1423000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click start page main_article",
+            "match": {
+              "location": "steps.StartpageSteps.i_click_start_page_main_article()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 651000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click page down 6",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_page_down(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 189000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click page up 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_page_up(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3800000000,
+              "status": "passed"
+            },
+            "line": 22,
             "name": "I go back to \"DER SPIEGEL | Online-Nachrichten\"",
             "match": {
               "arguments": [
@@ -4753,7 +5296,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5845000000,
+              "duration": 3694000000,
               "status": "passed"
             },
             "line": 6,
@@ -4765,7 +5308,7 @@
           },
           {
             "result": {
-              "duration": 4700000000,
+              "duration": 4897000000,
               "status": "passed"
             },
             "line": 7,
@@ -4778,7 +5321,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T14:19:29.708Z",
+        "start_timestamp": "2020-11-15T14:31:52.857Z",
         "before": [
           {
             "result": {
@@ -4789,7 +5332,7 @@
             }
           }
         ],
-        "line": 18,
+        "line": 25,
         "name": "read news section articles",
         "description": "",
         "id": "spiegel-startpage;read-news-section-articles",
@@ -4798,10 +5341,10 @@
         "steps": [
           {
             "result": {
-              "duration": 4167000000,
+              "duration": 1116000000,
               "status": "passed"
             },
-            "line": 19,
+            "line": 26,
             "name": "I scroll to \"news_section\" on start page",
             "match": {
               "arguments": [
@@ -4816,10 +5359,10 @@
           },
           {
             "result": {
-              "duration": 4356000000,
+              "duration": 2706000000,
               "status": "passed"
             },
-            "line": 20,
+            "line": 27,
             "name": "On start page I click first article of news_section",
             "match": {
               "arguments": [
@@ -4838,10 +5381,10 @@
           },
           {
             "result": {
-              "duration": 283000000,
+              "duration": 942000000,
               "status": "passed"
             },
-            "line": 21,
+            "line": 28,
             "name": "I click page down 6",
             "match": {
               "arguments": [
@@ -4856,10 +5399,10 @@
           },
           {
             "result": {
-              "duration": 174000000,
+              "duration": 126000000,
               "status": "passed"
             },
-            "line": 22,
+            "line": 29,
             "name": "I click page up 3",
             "match": {
               "arguments": [
@@ -4874,11 +5417,10 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat steps.HelperSteps.i_go_back_to(HelperSteps.java:106)\r\n\tat ✽.I go back to \"DER SPIEGEL | Online-Nachrichten\"(file:///C:/MyWorkspace/guineenews/src/test/resources/features/startPage.feature:23)\r\n",
-              "duration": 20233000000,
-              "status": "failed"
+              "duration": 3870000000,
+              "status": "passed"
             },
-            "line": 23,
+            "line": 30,
             "name": "I go back to \"DER SPIEGEL | Online-Nachrichten\"",
             "match": {
               "arguments": [
@@ -4893,9 +5435,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1533000000,
+              "status": "passed"
             },
-            "line": 24,
+            "line": 31,
             "name": "I scroll to \"news section\" on start page",
             "match": {
               "arguments": [
@@ -4910,9 +5453,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 291000000,
+              "status": "passed"
             },
-            "line": 25,
+            "line": 32,
             "name": "I scroll to random article of news_section",
             "match": {
               "arguments": [
@@ -4931,9 +5475,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1345000000,
+              "status": "passed"
             },
-            "line": 26,
+            "line": 33,
             "name": "On start page I click random article of news_section",
             "match": {
               "arguments": [
@@ -4952,9 +5497,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1137000000,
+              "status": "passed"
             },
-            "line": 27,
+            "line": 34,
             "name": "I click page down 6",
             "match": {
               "arguments": [
@@ -4969,9 +5515,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 643000000,
+              "status": "passed"
             },
-            "line": 28,
+            "line": 35,
             "name": "I click page up 3",
             "match": {
               "arguments": [
@@ -5003,7 +5550,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5649000000,
+              "duration": 4293000000,
               "status": "passed"
             },
             "line": 6,
@@ -5015,7 +5562,7 @@
           },
           {
             "result": {
-              "duration": 5084000000,
+              "duration": 4160000000,
               "status": "passed"
             },
             "line": 7,
@@ -5028,7 +5575,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T14:20:09.484Z",
+        "start_timestamp": "2020-11-15T14:32:15.165Z",
         "before": [
           {
             "result": {
@@ -5039,7 +5586,7 @@
             }
           }
         ],
-        "line": 41,
+        "line": 48,
         "name": "alle Rubriken",
         "description": "",
         "id": "spiegel-startpage;alle-rubriken;;2",
@@ -5048,10 +5595,10 @@
         "steps": [
           {
             "result": {
-              "duration": 4066000000,
+              "duration": 1116000000,
               "status": "passed"
             },
-            "line": 33,
+            "line": 40,
             "name": "I scroll to \"alle_rubriken_section\" on start page",
             "match": {
               "arguments": [
@@ -5066,11 +5613,11 @@
           },
           {
             "result": {
-              "duration": 4400000000,
+              "duration": 3928000000,
               "status": "passed"
             },
-            "line": 34,
-            "name": "On start page I click random article of sport_rubrik",
+            "line": 41,
+            "name": "On start page I click random article of panorama_rubrik",
             "match": {
               "arguments": [
                 {
@@ -5078,7 +5625,7 @@
                   "offset": 22
                 },
                 {
-                  "val": "sport_rubrik",
+                  "val": "panorama_rubrik",
                   "offset": 40
                 }
               ],
@@ -5088,10 +5635,10 @@
           },
           {
             "result": {
-              "duration": 785000000,
+              "duration": 759000000,
               "status": "passed"
             },
-            "line": 35,
+            "line": 42,
             "name": "I click page down 6",
             "match": {
               "arguments": [
@@ -5106,10 +5653,10 @@
           },
           {
             "result": {
-              "duration": 95000000,
+              "duration": 168000000,
               "status": "passed"
             },
-            "line": 36,
+            "line": 43,
             "name": "I click page up 3",
             "match": {
               "arguments": [
@@ -5124,10 +5671,10 @@
           },
           {
             "result": {
-              "duration": 7525000000,
+              "duration": 2786000000,
               "status": "passed"
             },
-            "line": 37,
+            "line": 44,
             "name": "I go back to \"DER SPIEGEL | Online-Nachrichten\"",
             "match": {
               "arguments": [
@@ -5159,7 +5706,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4990000000,
+              "duration": 4989000000,
               "status": "passed"
             },
             "line": 6,
@@ -5171,7 +5718,7 @@
           },
           {
             "result": {
-              "duration": 4852000000,
+              "duration": 4332000000,
               "status": "passed"
             },
             "line": 7,
@@ -5184,11 +5731,10 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T14:20:37.092Z",
+        "start_timestamp": "2020-11-15T14:32:32.381Z",
         "before": [
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -5196,7 +5742,7 @@
             }
           }
         ],
-        "line": 42,
+        "line": 49,
         "name": "alle Rubriken",
         "description": "",
         "id": "spiegel-startpage;alle-rubriken;;3",
@@ -5205,10 +5751,10 @@
         "steps": [
           {
             "result": {
-              "duration": 4048000000,
+              "duration": 1110000000,
               "status": "passed"
             },
-            "line": 33,
+            "line": 40,
             "name": "I scroll to \"alle_rubriken_section\" on start page",
             "match": {
               "arguments": [
@@ -5223,10 +5769,10 @@
           },
           {
             "result": {
-              "duration": 5784000000,
+              "duration": 2589000000,
               "status": "passed"
             },
-            "line": 34,
+            "line": 41,
             "name": "On start page I click random article of politik_rubrik",
             "match": {
               "arguments": [
@@ -5245,10 +5791,10 @@
           },
           {
             "result": {
-              "duration": 6384000000,
+              "duration": 478000000,
               "status": "passed"
             },
-            "line": 35,
+            "line": 42,
             "name": "I click page down 6",
             "match": {
               "arguments": [
@@ -5263,10 +5809,10 @@
           },
           {
             "result": {
-              "duration": 92000000,
+              "duration": 169000000,
               "status": "passed"
             },
-            "line": 36,
+            "line": 43,
             "name": "I click page up 3",
             "match": {
               "arguments": [
@@ -5281,10 +5827,10 @@
           },
           {
             "result": {
-              "duration": 9490000000,
+              "duration": 4044000000,
               "status": "passed"
             },
-            "line": 37,
+            "line": 44,
             "name": "I go back to \"DER SPIEGEL | Online-Nachrichten\"",
             "match": {
               "arguments": [
@@ -5316,7 +5862,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6991000000,
+              "duration": 4705000000,
               "status": "passed"
             },
             "line": 6,
@@ -5328,7 +5874,7 @@
           },
           {
             "result": {
-              "duration": 4328000000,
+              "duration": 5274000000,
               "status": "passed"
             },
             "line": 7,
@@ -5341,11 +5887,10 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T14:21:12.738Z",
+        "start_timestamp": "2020-11-15T14:32:50.098Z",
         "before": [
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -5353,7 +5898,7 @@
             }
           }
         ],
-        "line": 43,
+        "line": 50,
         "name": "alle Rubriken",
         "description": "",
         "id": "spiegel-startpage;alle-rubriken;;4",
@@ -5362,10 +5907,10 @@
         "steps": [
           {
             "result": {
-              "duration": 6237000000,
+              "duration": 1124000000,
               "status": "passed"
             },
-            "line": 33,
+            "line": 40,
             "name": "I scroll to \"alle_rubriken_section\" on start page",
             "match": {
               "arguments": [
@@ -5380,10 +5925,10 @@
           },
           {
             "result": {
-              "duration": 4496000000,
+              "duration": 2347000000,
               "status": "passed"
             },
-            "line": 34,
+            "line": 41,
             "name": "On start page I click random article of wirtschaft_rubrik",
             "match": {
               "arguments": [
@@ -5402,10 +5947,10 @@
           },
           {
             "result": {
-              "duration": 205000000,
+              "duration": 1600000000,
               "status": "passed"
             },
-            "line": 35,
+            "line": 42,
             "name": "I click page down 6",
             "match": {
               "arguments": [
@@ -5420,10 +5965,10 @@
           },
           {
             "result": {
-              "duration": 252000000,
+              "duration": 95000000,
               "status": "passed"
             },
-            "line": 36,
+            "line": 43,
             "name": "I click page up 3",
             "match": {
               "arguments": [
@@ -5438,10 +5983,10 @@
           },
           {
             "result": {
-              "duration": 6849000000,
+              "duration": 2672000000,
               "status": "passed"
             },
-            "line": 37,
+            "line": 44,
             "name": "I go back to \"DER SPIEGEL | Online-Nachrichten\"",
             "match": {
               "arguments": [
@@ -5473,7 +6018,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3433000000,
+              "duration": 8491000000,
               "status": "passed"
             },
             "line": 6,
@@ -5485,7 +6030,7 @@
           },
           {
             "result": {
-              "duration": 4976000000,
+              "duration": 4979000000,
               "status": "passed"
             },
             "line": 7,
@@ -5498,7 +6043,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T14:21:42.101Z",
+        "start_timestamp": "2020-11-15T14:33:07.919Z",
         "before": [
           {
             "result": {
@@ -5509,7 +6054,7 @@
             }
           }
         ],
-        "line": 44,
+        "line": 51,
         "name": "alle Rubriken",
         "description": "",
         "id": "spiegel-startpage;alle-rubriken;;5",
@@ -5518,10 +6063,10 @@
         "steps": [
           {
             "result": {
-              "duration": 5527000000,
+              "duration": 4149000000,
               "status": "passed"
             },
-            "line": 33,
+            "line": 40,
             "name": "I scroll to \"alle_rubriken_section\" on start page",
             "match": {
               "arguments": [
@@ -5536,10 +6081,10 @@
           },
           {
             "result": {
-              "duration": 12320000000,
+              "duration": 3497000000,
               "status": "passed"
             },
-            "line": 34,
+            "line": 41,
             "name": "On start page I click random article of manager_magazin_rubrik",
             "match": {
               "arguments": [
@@ -5558,10 +6103,10 @@
           },
           {
             "result": {
-              "duration": 190000000,
+              "duration": 188000000,
               "status": "passed"
             },
-            "line": 35,
+            "line": 42,
             "name": "I click page down 6",
             "match": {
               "arguments": [
@@ -5576,10 +6121,10 @@
           },
           {
             "result": {
-              "duration": 94000000,
+              "duration": 96000000,
               "status": "passed"
             },
-            "line": 36,
+            "line": 43,
             "name": "I click page up 3",
             "match": {
               "arguments": [
@@ -5594,10 +6139,10 @@
           },
           {
             "result": {
-              "duration": 6609000000,
+              "duration": 4850000000,
               "status": "passed"
             },
-            "line": 37,
+            "line": 44,
             "name": "I go back to \"DER SPIEGEL | Online-Nachrichten\"",
             "match": {
               "arguments": [
@@ -5629,7 +6174,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10326000000,
+              "duration": 4059000000,
               "status": "passed"
             },
             "line": 6,
@@ -5641,7 +6186,7 @@
           },
           {
             "result": {
-              "duration": 6537000000,
+              "duration": 4844000000,
               "status": "passed"
             },
             "line": 7,
@@ -5654,10 +6199,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T14:22:15.570Z",
+        "start_timestamp": "2020-11-15T14:33:34.175Z",
         "before": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -5665,7 +6211,7 @@
             }
           }
         ],
-        "line": 47,
+        "line": 54,
         "name": "stock section",
         "description": "",
         "id": "spiegel-startpage;stock-section",
@@ -5674,10 +6220,10 @@
         "steps": [
           {
             "result": {
-              "duration": 4788000000,
+              "duration": 1062000000,
               "status": "passed"
             },
-            "line": 48,
+            "line": 55,
             "name": "I scroll to \"stock_section\" on start page",
             "match": {
               "arguments": [
@@ -5692,18 +6238,36 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 742000000,
+              "status": "passed"
             },
-            "line": 49,
-            "name": "On start page I click 3 times \"stock\" section arrow \"right\"",
-            "match": {},
+            "line": 56,
+            "name": "I click 3 times \"stock\" section arrow \"right\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 8
+                },
+                {
+                  "val": "\"stock\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"right\"",
+                  "offset": 38
+                }
+              ],
+              "location": "steps.StartpageSteps.i_click_section_arrow(int,java.lang.String,java.lang.String)"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 516000000,
+              "status": "passed"
             },
-            "line": 50,
+            "line": 57,
             "name": "I click 2 times \"stock\" section arrow \"left\"",
             "match": {
               "arguments": [
@@ -5726,9 +6290,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 293000000,
+              "status": "passed"
             },
-            "line": 51,
+            "line": 58,
             "name": "I click dow jones",
             "match": {
               "location": "steps.StartpageSteps.i_click_dow_jones()"
@@ -5737,9 +6302,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 20000000,
+              "status": "passed"
             },
-            "line": 52,
+            "line": 59,
             "name": "I switch to \"dow jones\" tab",
             "match": {
               "arguments": [
@@ -5754,9 +6320,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2121000000,
+              "status": "passed"
             },
-            "line": 53,
+            "line": 60,
             "name": "I click page down 2",
             "match": {
               "arguments": [
@@ -5771,9 +6338,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 65000000,
+              "status": "passed"
             },
-            "line": 54,
+            "line": 61,
             "name": "I switch to \"spiegel\" tab",
             "match": {
               "arguments": [
@@ -5805,7 +6373,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5552000000,
+              "duration": 4387000000,
               "status": "passed"
             },
             "line": 6,
@@ -5817,7 +6385,7 @@
           },
           {
             "result": {
-              "duration": 5251000000,
+              "duration": 4306000000,
               "status": "passed"
             },
             "line": 7,
@@ -5830,7 +6398,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T14:22:37.230Z",
+        "start_timestamp": "2020-11-15T14:33:47.911Z",
         "before": [
           {
             "result": {
@@ -5842,7 +6410,7 @@
             }
           }
         ],
-        "line": 66,
+        "line": 73,
         "name": "block channel section",
         "description": "",
         "id": "spiegel-startpage;block-channel-section;;2",
@@ -5851,10 +6419,10 @@
         "steps": [
           {
             "result": {
-              "duration": 4064000000,
+              "duration": 1122000000,
               "status": "passed"
             },
-            "line": 58,
+            "line": 65,
             "name": "I scroll to \"block_channel_section\" on start page",
             "match": {
               "arguments": [
@@ -5869,10 +6437,10 @@
           },
           {
             "result": {
-              "duration": 8506000000,
+              "duration": 2442000000,
               "status": "passed"
             },
-            "line": 59,
+            "line": 66,
             "name": "On start page I click random article of geschichte_channel",
             "match": {
               "arguments": [
@@ -5891,10 +6459,10 @@
           },
           {
             "result": {
-              "duration": 6499000000,
+              "duration": 3817000000,
               "status": "passed"
             },
-            "line": 60,
+            "line": 67,
             "name": "I click page down 6",
             "match": {
               "arguments": [
@@ -5909,10 +6477,10 @@
           },
           {
             "result": {
-              "duration": 109000000,
+              "duration": 726000000,
               "status": "passed"
             },
-            "line": 61,
+            "line": 68,
             "name": "I click page up 3",
             "match": {
               "arguments": [
@@ -5927,10 +6495,10 @@
           },
           {
             "result": {
-              "duration": 6130000000,
+              "duration": 2937000000,
               "status": "passed"
             },
-            "line": 62,
+            "line": 69,
             "name": "I go back to \"DER SPIEGEL | Online-Nachrichten\"",
             "match": {
               "arguments": [
@@ -5962,7 +6530,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4873000000,
+              "duration": 3980000000,
               "status": "passed"
             },
             "line": 6,
@@ -5974,7 +6542,7 @@
           },
           {
             "result": {
-              "duration": 4899000000,
+              "duration": 4508000000,
               "status": "passed"
             },
             "line": 7,
@@ -5987,10 +6555,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T14:23:13.347Z",
+        "start_timestamp": "2020-11-15T14:34:07.655Z",
         "before": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -5998,7 +6567,7 @@
             }
           }
         ],
-        "line": 67,
+        "line": 74,
         "name": "block channel section",
         "description": "",
         "id": "spiegel-startpage;block-channel-section;;3",
@@ -6007,10 +6576,10 @@
         "steps": [
           {
             "result": {
-              "duration": 4785000000,
+              "duration": 1115000000,
               "status": "passed"
             },
-            "line": 58,
+            "line": 65,
             "name": "I scroll to \"block_channel_section\" on start page",
             "match": {
               "arguments": [
@@ -6025,10 +6594,10 @@
           },
           {
             "result": {
-              "duration": 5316000000,
+              "duration": 2080000000,
               "status": "passed"
             },
-            "line": 59,
+            "line": 66,
             "name": "On start page I click random article of netzwelt_channel",
             "match": {
               "arguments": [
@@ -6047,10 +6616,10 @@
           },
           {
             "result": {
-              "duration": 8858000000,
+              "duration": 565000000,
               "status": "passed"
             },
-            "line": 60,
+            "line": 67,
             "name": "I click page down 6",
             "match": {
               "arguments": [
@@ -6065,10 +6634,10 @@
           },
           {
             "result": {
-              "duration": 95000000,
+              "duration": 155000000,
               "status": "passed"
             },
-            "line": 61,
+            "line": 68,
             "name": "I click page up 3",
             "match": {
               "arguments": [
@@ -6083,10 +6652,10 @@
           },
           {
             "result": {
-              "duration": 5889000000,
+              "duration": 4195000000,
               "status": "passed"
             },
-            "line": 62,
+            "line": 69,
             "name": "I go back to \"DER SPIEGEL | Online-Nachrichten\"",
             "match": {
               "arguments": [
@@ -6118,7 +6687,7 @@
         "steps": [
           {
             "result": {
-              "duration": 11076000000,
+              "duration": 6495000000,
               "status": "passed"
             },
             "line": 6,
@@ -6130,7 +6699,7 @@
           },
           {
             "result": {
-              "duration": 4662000000,
+              "duration": 5688000000,
               "status": "passed"
             },
             "line": 7,
@@ -6143,10 +6712,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T14:23:48.066Z",
+        "start_timestamp": "2020-11-15T14:34:24.258Z",
         "before": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -6154,7 +6724,7 @@
             }
           }
         ],
-        "line": 68,
+        "line": 75,
         "name": "block channel section",
         "description": "",
         "id": "spiegel-startpage;block-channel-section;;4",
@@ -6163,10 +6733,10 @@
         "steps": [
           {
             "result": {
-              "duration": 4830000000,
+              "duration": 1101000000,
               "status": "passed"
             },
-            "line": 58,
+            "line": 65,
             "name": "I scroll to \"block_channel_section\" on start page",
             "match": {
               "arguments": [
@@ -6181,10 +6751,10 @@
           },
           {
             "result": {
-              "duration": 6263000000,
+              "duration": 2704000000,
               "status": "passed"
             },
-            "line": 59,
+            "line": 66,
             "name": "On start page I click random article of mobilität_channel",
             "match": {
               "arguments": [
@@ -6203,10 +6773,10 @@
           },
           {
             "result": {
-              "duration": 270000000,
+              "duration": 816000000,
               "status": "passed"
             },
-            "line": 60,
+            "line": 67,
             "name": "I click page down 6",
             "match": {
               "arguments": [
@@ -6221,10 +6791,10 @@
           },
           {
             "result": {
-              "duration": 1079000000,
+              "duration": 215000000,
               "status": "passed"
             },
-            "line": 61,
+            "line": 68,
             "name": "I click page up 3",
             "match": {
               "arguments": [
@@ -6239,10 +6809,10 @@
           },
           {
             "result": {
-              "duration": 5775000000,
+              "duration": 3920000000,
               "status": "passed"
             },
-            "line": 62,
+            "line": 69,
             "name": "I go back to \"DER SPIEGEL | Online-Nachrichten\"",
             "match": {
               "arguments": [
@@ -6274,7 +6844,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7070000000,
+              "duration": 3464000000,
               "status": "passed"
             },
             "line": 6,
@@ -6286,7 +6856,7 @@
           },
           {
             "result": {
-              "duration": 9205000000,
+              "duration": 4401000000,
               "status": "passed"
             },
             "line": 7,
@@ -6299,7 +6869,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T14:24:22.025Z",
+        "start_timestamp": "2020-11-15T14:34:45.200Z",
         "before": [
           {
             "result": {
@@ -6310,7 +6880,7 @@
             }
           }
         ],
-        "line": 69,
+        "line": 76,
         "name": "block channel section",
         "description": "",
         "id": "spiegel-startpage;block-channel-section;;5",
@@ -6319,10 +6889,10 @@
         "steps": [
           {
             "result": {
-              "duration": 4079000000,
+              "duration": 1121000000,
               "status": "passed"
             },
-            "line": 58,
+            "line": 65,
             "name": "I scroll to \"block_channel_section\" on start page",
             "match": {
               "arguments": [
@@ -6337,10 +6907,10 @@
           },
           {
             "result": {
-              "duration": 4954000000,
+              "duration": 2586000000,
               "status": "passed"
             },
-            "line": 59,
+            "line": 66,
             "name": "On start page I click random article of kultur_channel",
             "match": {
               "arguments": [
@@ -6359,167 +6929,10 @@
           },
           {
             "result": {
-              "duration": 409000000,
+              "duration": 1268000000,
               "status": "passed"
             },
-            "line": 60,
-            "name": "I click page down 6",
-            "match": {
-              "arguments": [
-                {
-                  "val": "6",
-                  "offset": 18
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_page_down(int)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 97000000,
-              "status": "passed"
-            },
-            "line": 61,
-            "name": "I click page up 3",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3",
-                  "offset": 16
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_page_up(int)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 5816000000,
-              "status": "passed"
-            },
-            "line": 62,
-            "name": "I go back to \"DER SPIEGEL | Online-Nachrichten\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"DER SPIEGEL | Online-Nachrichten\"",
-                  "offset": 13
-                }
-              ],
-              "location": "steps.HelperSteps.i_go_back_to(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@spiegelStartPage"
-          },
-          {
-            "name": "@blockchannel"
-          }
-        ]
-      },
-      {
-        "line": 5,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 4587000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "I start Spiegel",
-            "match": {
-              "location": "steps.MenuSteps.i_start_Spiegel()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 5202000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I click Akzeptieren und weiter",
-            "match": {
-              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-12T14:24:53.660Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.TestCaseBase.setup()"
-            }
-          }
-        ],
-        "line": 70,
-        "name": "block channel section",
-        "description": "",
-        "id": "spiegel-startpage;block-channel-section;;6",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 4061000000,
-              "status": "passed"
-            },
-            "line": 58,
-            "name": "I scroll to \"block_channel_section\" on start page",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"block_channel_section\"",
-                  "offset": 12
-                }
-              ],
-              "location": "steps.StartpageSteps.i_scroll_to_section_on_start_page(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1808000000,
-              "status": "passed"
-            },
-            "line": 59,
-            "name": "On start page I click random article of tests_channel",
-            "match": {
-              "arguments": [
-                {
-                  "val": "random",
-                  "offset": 22
-                },
-                {
-                  "val": "tests_channel",
-                  "offset": 40
-                }
-              ],
-              "location": "steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 228000000,
-              "status": "passed"
-            },
-            "line": 60,
+            "line": 67,
             "name": "I click page down 6",
             "match": {
               "arguments": [
@@ -6537,7 +6950,7 @@
               "duration": 107000000,
               "status": "passed"
             },
-            "line": 61,
+            "line": 68,
             "name": "I click page up 3",
             "match": {
               "arguments": [
@@ -6552,11 +6965,10 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat steps.HelperSteps.i_go_back_to(HelperSteps.java:106)\r\n\tat ✽.I go back to \"DER SPIEGEL | Online-Nachrichten\"(file:///C:/MyWorkspace/guineenews/src/test/resources/features/startPage.feature:62)\r\n",
-              "duration": 20304000000,
-              "status": "failed"
+              "duration": 4193000000,
+              "status": "passed"
             },
-            "line": 62,
+            "line": 69,
             "name": "I go back to \"DER SPIEGEL | Online-Nachrichten\"",
             "match": {
               "arguments": [
@@ -6588,7 +7000,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3898000000,
+              "duration": 4151000000,
               "status": "passed"
             },
             "line": 6,
@@ -6600,7 +7012,7 @@
           },
           {
             "result": {
-              "duration": 4549000000,
+              "duration": 4411000000,
               "status": "passed"
             },
             "line": 7,
@@ -6613,10 +7025,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T14:25:29.959Z",
+        "start_timestamp": "2020-11-15T14:35:02.344Z",
         "before": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -6624,19 +7037,19 @@
             }
           }
         ],
-        "line": 71,
+        "line": 77,
         "name": "block channel section",
         "description": "",
-        "id": "spiegel-startpage;block-channel-section;;7",
+        "id": "spiegel-startpage;block-channel-section;;6",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 4084000000,
+              "duration": 1103000000,
               "status": "passed"
             },
-            "line": 58,
+            "line": 65,
             "name": "I scroll to \"block_channel_section\" on start page",
             "match": {
               "arguments": [
@@ -6651,10 +7064,167 @@
           },
           {
             "result": {
-              "duration": 5829000000,
+              "duration": 2782000000,
               "status": "passed"
             },
-            "line": 59,
+            "line": 66,
+            "name": "On start page I click random article of start_channel",
+            "match": {
+              "arguments": [
+                {
+                  "val": "random",
+                  "offset": 22
+                },
+                {
+                  "val": "start_channel",
+                  "offset": 40
+                }
+              ],
+              "location": "steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 439000000,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "I click page down 6",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_page_down(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 124000000,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "I click page up 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_page_up(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2624000000,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "I go back to \"DER SPIEGEL | Online-Nachrichten\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DER SPIEGEL | Online-Nachrichten\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HelperSteps.i_go_back_to(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@spiegelStartPage"
+          },
+          {
+            "name": "@blockchannel"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3475000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I start Spiegel",
+            "match": {
+              "location": "steps.MenuSteps.i_start_Spiegel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4426000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click Akzeptieren und weiter",
+            "match": {
+              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-15T14:35:17.982Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.TestCaseBase.setup()"
+            }
+          }
+        ],
+        "line": 78,
+        "name": "block channel section",
+        "description": "",
+        "id": "spiegel-startpage;block-channel-section;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1127000000,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I scroll to \"block_channel_section\" on start page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"block_channel_section\"",
+                  "offset": 12
+                }
+              ],
+              "location": "steps.StartpageSteps.i_scroll_to_section_on_start_page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2593000000,
+              "status": "passed"
+            },
+            "line": 66,
             "name": "On start page I click random article of wissenschaft_channel",
             "match": {
               "arguments": [
@@ -6673,10 +7243,10 @@
           },
           {
             "result": {
-              "duration": 2578000000,
+              "duration": 432000000,
               "status": "passed"
             },
-            "line": 60,
+            "line": 67,
             "name": "I click page down 6",
             "match": {
               "arguments": [
@@ -6691,10 +7261,10 @@
           },
           {
             "result": {
-              "duration": 111000000,
+              "duration": 123000000,
               "status": "passed"
             },
-            "line": 61,
+            "line": 68,
             "name": "I click page up 3",
             "match": {
               "arguments": [
@@ -6709,10 +7279,10 @@
           },
           {
             "result": {
-              "duration": 5704000000,
+              "duration": 3800000000,
               "status": "passed"
             },
-            "line": 62,
+            "line": 69,
             "name": "I go back to \"DER SPIEGEL | Online-Nachrichten\"",
             "match": {
               "arguments": [
@@ -6744,7 +7314,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10686000000,
+              "duration": 4562000000,
               "status": "passed"
             },
             "line": 6,
@@ -6756,7 +7326,7 @@
           },
           {
             "result": {
-              "duration": 4608000000,
+              "duration": 4336000000,
               "status": "passed"
             },
             "line": 7,
@@ -6769,7 +7339,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T14:25:56.715Z",
+        "start_timestamp": "2020-11-15T14:35:33.965Z",
         "before": [
           {
             "result": {
@@ -6781,7 +7351,7 @@
             }
           }
         ],
-        "line": 74,
+        "line": 81,
         "name": "leben section articles",
         "description": "",
         "id": "spiegel-startpage;leben-section-articles",
@@ -6790,10 +7360,10 @@
         "steps": [
           {
             "result": {
-              "duration": 6165000000,
+              "duration": 1129000000,
               "status": "passed"
             },
-            "line": 75,
+            "line": 82,
             "name": "I scroll to \"leben_section\" on start page",
             "match": {
               "arguments": [
@@ -6808,10 +7378,10 @@
           },
           {
             "result": {
-              "duration": 4347000000,
+              "duration": 3275000000,
               "status": "passed"
             },
-            "line": 76,
+            "line": 83,
             "name": "On start page I click first article of leben_section",
             "match": {
               "arguments": [
@@ -6830,10 +7400,10 @@
           },
           {
             "result": {
-              "duration": 289000000,
+              "duration": 2509000000,
               "status": "passed"
             },
-            "line": 77,
+            "line": 84,
             "name": "I click page down 6",
             "match": {
               "arguments": [
@@ -6848,10 +7418,10 @@
           },
           {
             "result": {
-              "duration": 139000000,
+              "duration": 433000000,
               "status": "passed"
             },
-            "line": 78,
+            "line": 85,
             "name": "I click page up 3",
             "match": {
               "arguments": [
@@ -6866,11 +7436,10 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat steps.HelperSteps.i_go_back_to(HelperSteps.java:106)\r\n\tat ✽.I go back to \"DER SPIEGEL | Online-Nachrichten\"(file:///C:/MyWorkspace/guineenews/src/test/resources/features/startPage.feature:79)\r\n",
-              "duration": 20328000000,
-              "status": "failed"
+              "duration": 4913000000,
+              "status": "passed"
             },
-            "line": 79,
+            "line": 86,
             "name": "I go back to \"DER SPIEGEL | Online-Nachrichten\"",
             "match": {
               "arguments": [
@@ -6885,9 +7454,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1114000000,
+              "status": "passed"
             },
-            "line": 80,
+            "line": 87,
             "name": "I scroll to \"leben_section\" on start page",
             "match": {
               "arguments": [
@@ -6902,9 +7472,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1933000000,
+              "status": "passed"
             },
-            "line": 81,
+            "line": 88,
             "name": "I scroll to random article of leben_section",
             "match": {
               "arguments": [
@@ -6923,9 +7494,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3780000000,
+              "status": "passed"
             },
-            "line": 82,
+            "line": 89,
             "name": "On start page I click random article of leben_section",
             "match": {
               "arguments": [
@@ -6944,9 +7516,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3142000000,
+              "status": "passed"
             },
-            "line": 83,
+            "line": 90,
             "name": "I click page down 6",
             "match": {
               "arguments": [
@@ -6961,9 +7534,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 167000000,
+              "status": "passed"
             },
-            "line": 84,
+            "line": 91,
             "name": "I click page up 3",
             "match": {
               "arguments": [
@@ -6995,7 +7569,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4105000000,
+              "duration": 5712000000,
               "status": "passed"
             },
             "line": 6,
@@ -7007,7 +7581,7 @@
           },
           {
             "result": {
-              "duration": 4744000000,
+              "duration": 6964000000,
               "status": "passed"
             },
             "line": 7,
@@ -7020,7 +7594,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-12T14:26:43.294Z",
+        "start_timestamp": "2020-11-15T14:36:05.268Z",
         "before": [
           {
             "result": {
@@ -7031,7 +7605,7 @@
             }
           }
         ],
-        "line": 87,
+        "line": 94,
         "name": "highligh section",
         "description": "",
         "id": "spiegel-startpage;highligh-section",
@@ -7040,10 +7614,10 @@
         "steps": [
           {
             "result": {
-              "duration": 4041000000,
+              "duration": 1065000000,
               "status": "passed"
             },
-            "line": 88,
+            "line": 95,
             "name": "I scroll to \"highlight_section\" on start page",
             "match": {
               "arguments": [
@@ -7058,10 +7632,10 @@
           },
           {
             "result": {
-              "duration": 7065000000,
+              "duration": 3217000000,
               "status": "passed"
             },
-            "line": 89,
+            "line": 96,
             "name": "On start page I click first article of highlight_section",
             "match": {
               "arguments": [
@@ -7080,10 +7654,10 @@
           },
           {
             "result": {
-              "duration": 2514000000,
+              "duration": 1959000000,
               "status": "passed"
             },
-            "line": 90,
+            "line": 97,
             "name": "I click page down 15",
             "match": {
               "arguments": [
@@ -7098,10 +7672,10 @@
           },
           {
             "result": {
-              "duration": 469000000,
+              "duration": 891000000,
               "status": "passed"
             },
-            "line": 91,
+            "line": 98,
             "name": "I click page up 15",
             "match": {
               "arguments": [
@@ -7116,10 +7690,10 @@
           },
           {
             "result": {
-              "duration": 6362000000,
+              "duration": 3493000000,
               "status": "passed"
             },
-            "line": 92,
+            "line": 99,
             "name": "I go back to \"DER SPIEGEL | Online-Nachrichten\"",
             "match": {
               "arguments": [

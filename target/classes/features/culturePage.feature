@@ -4,8 +4,8 @@ Feature: Spiegel Kultur
   Background:
     Given I start Spiegel
     Then I click Akzeptieren und weiter
-    Then I bring culture menu into view
-    And I click TopMenu culture
+    Then I bring "Kultur" menu into view
+    And I click TopMenu "Kultur"
 
     @culture
     Scenario Outline: navigate on culture sub-menu

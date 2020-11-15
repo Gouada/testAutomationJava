@@ -23,7 +23,9 @@ public class MenuPage extends BasePage{
 
     private String getLeftMenuXpath(String menuElement)
     {
-        return "//nav[@role='navigation' and @data-menu-el='menuDrawer']/child::ul/li/child::a[@title='"+menuElement+"']";
+        String str = "//nav[@role='navigation' and @data-menu-el='menuDrawer']/child::ul/li/child::a[@title='"+menuElement+"']";
+        System.out.println(str);
+        return str;
     }
 
     private String getLeftMenuSubMenuElement(String subMenuElement)

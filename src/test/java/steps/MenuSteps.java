@@ -1,5 +1,6 @@
 package steps;
 
+import constants.Menu;
 import helpers.MyLogger;
 
 import constants.Constants;
@@ -40,7 +41,7 @@ public class MenuSteps{
     public void i_start_Spiegel() throws Throwable
     {
         //driver = DriverFactory.getDriverManager(Constants.CHROME).getDriver();
-        MyLogger.logger.info("starting Spiegel");
+        //MyLogger.logger.info("starting Spiegel");
         driver.get(String.valueOf(Urls.STARTSEITE.getUrl()));
         menuPage = new MenuPage(driver);
         startPage = new StartPage(driver);
@@ -51,10 +52,31 @@ public class MenuSteps{
     @Then("I click Akzeptieren und weiter")
     public void i_click_Akzeptieren_und_weiter() throws InterruptedException
     {
-        MyLogger.logger.info("accepting conditions");
+        //MyLogger.logger.info("accepting conditions");
         startPage.clickAkzeptieren();
         sleep(3000);
     }
+
+    @Then("I bring {string} menu into view")
+    public void i_bring_top_menu_into_view(String menu) {
+        menuPage.click_right_arrow_until_is_visible(menu);
+        //menuPage.click_right_arrow();
+    }
+
+    @Then("I click TopMenu {string}")
+    public void i_click_top_menu(String menu) throws Exception {
+        try {
+            menuPage.clickATopMenu(menu);
+        }
+        catch (Exception e)
+        {
+            MyLogger.logger.error(e.getMessage());
+            startPage.takeScreenhot("clicking top menu");
+            throw new Exception(e.getMessage());
+        }
+
+
+        }
 
 /*
     @After

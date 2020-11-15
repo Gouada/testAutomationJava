@@ -139,11 +139,13 @@ public class SeleniumDriverWrapper {
         {
             MyLogger.logger.error("Element Click Intercepted Exception: " + myLocatorType + e.getMessage());
             takeScreenhot("click_");
+            throw new ElementClickInterceptedException("Error");
         }
         catch (ElementNotVisibleException e)
         {
             MyLogger.logger.error("Element Not Visible Exception: " + myLocatorType + e.getMessage());
             takeScreenhot("click_");
+            throw new ElementNotVisibleException("Error");
         }
     }
 
@@ -158,16 +160,19 @@ public class SeleniumDriverWrapper {
         {
             MyLogger.logger.error("Element Click Intercepted Exception: "  + e.getMessage());
             takeScreenhot("click_");
+            throw new ElementClickInterceptedException("Error");
         }
         catch (ElementNotVisibleException e)
         {
             MyLogger.logger.error("Element Not Visible Exception: " + e.getMessage());
             takeScreenhot("click_");
+            throw new ElementNotVisibleException("Error");
         }
         catch(ElementNotInteractableException e)
         {
             MyLogger.logger.error("Element not interactable exception: " + e.getMessage());
             takeScreenhot("click_");
+            throw new ElementNotInteractableException("Error");
         }
     }
 
@@ -306,7 +311,8 @@ public class SeleniumDriverWrapper {
         }
         catch (Exception e)
         {
-            MyLogger.logger.error(myLocator + e.getMessage());
+            if(!myLocator.contains("sp_message_iframe"))
+                MyLogger.logger.error(myLocator + e.getMessage());
         }
         finally {
             return isDisplayed;
@@ -561,10 +567,18 @@ public class SeleniumDriverWrapper {
         }
     }
 
+    //this will bring element into view at the top of page. Element may then be covered by some menubar
+    //so we need to press arrow up until element is clickable
     public void scrollIntoView(WebElement element)
     {
         try {
             ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
+            while (!isElementDisplayed(element)) { // in case element is covered by a menu element we need to scroll up until element is clickable
+                //takeScreenhot("arrowup");
+                arrowUp(1);
+                implicitlyWait(1000);
+            }
+
         }
         catch (Exception e)
         {
@@ -590,6 +604,8 @@ public class SeleniumDriverWrapper {
     {
         try {
                 ((JavascriptExecutor) driver).executeScript("window.scrollBy("+x+", "+y+");");
+
+
         }
         catch (Exception e)
         {
@@ -672,6 +688,8 @@ public class SeleniumDriverWrapper {
         }
     }
 
+    //this will bring element into view at page bottom. Element may then be covered by some menubar
+    //so we need to press arrow down until element is clickable
     public void moveMouseOnElement(WebElement element)
     {
         Actions actions = new Actions(driver);
@@ -679,6 +697,10 @@ public class SeleniumDriverWrapper {
         {
             waitForElementToBeVisible(element,3);
             actions.moveToElement(element).perform();
+            while (!isElementDisplayed(element)) {// in case element is covered by a menu element we need to scroll down until element is clickable
+                arrowDown(1);
+                implicitlyWait(1000);
+            }
             //implicitlyWait(3);
         } catch (IllegalArgumentException a)
         {

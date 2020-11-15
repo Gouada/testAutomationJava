@@ -11,6 +11,7 @@ public class BasePage extends SeleniumDriverWrapper {
 
     protected static final String adversting_close_btn = "//button[@id='btnClose']";
     protected static final String adversting_colapse_btn = "//button[@id='btnCollapse']";
+    protected static final String popup_window = "//div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen']";
 
     public BasePage(WebDriver driver)
     {
@@ -37,12 +38,16 @@ public class BasePage extends SeleniumDriverWrapper {
 
     public void colapseAdversting()
     {
+        if(isElementDisplayed(getElementByXpath(popup_window)))
+            clickElement(getElementByXpath(popup_window));
         if (isElementDisplayed(getElementByXpath(adversting_colapse_btn)))
             clickElement(getElementByXpath(adversting_colapse_btn));
     }
 
     public void closeAdversting()
     {
+        if(isElementDisplayed(getElementByXpath(popup_window)))
+            clickElement(getElementByXpath(popup_window));
         if (isElementDisplayed(getElementByXpath(adversting_close_btn)))
             clickElement(getElementByXpath(adversting_close_btn));
     }

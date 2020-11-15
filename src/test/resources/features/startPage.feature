@@ -7,8 +7,15 @@ Feature: Spiegel StartPage
     Then I click Akzeptieren und weiter
 
 
-  @readMainArticle
+  @readlatestNewsArticle
   Scenario: reading main article
+    Then On start page I click random article of latests_news_section
+    Then I click page down 6
+    Then I click page up 3
+    Then I go back to "DER SPIEGEL | Online-Nachrichten"
+
+    @readMainArticle
+    Scenario: reading main article
     Then I click start page main_article
     Then I click page down 6
     Then I click page up 3
@@ -38,7 +45,7 @@ Feature: Spiegel StartPage
 
     Examples:
       | rubrik|
-      | sport_rubrik |
+      | panorama_rubrik |
       | politik_rubrik |
       | wirtschaft_rubrik |
       | manager_magazin_rubrik|
@@ -67,7 +74,7 @@ Feature: Spiegel StartPage
       | netzwelt_channel |
       | mobilität_channel |
       | kultur_channel |
-      | tests_channel |
+      | start_channel |
       | wissenschaft_channel |
 
   @readLebenSectionArticles

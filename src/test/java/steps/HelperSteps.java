@@ -99,7 +99,7 @@ public class HelperSteps {
     public void i_go_back_to(String title) {
         try {
             page.goBack();
-            sleep(3000);
+            sleep(500);
             //spiegelPlus.iClickBackButton();
             page.waitForPageToLoad(title);
             //page.implicitlyWait(5);
@@ -144,6 +144,8 @@ public class HelperSteps {
                 page.clickRandomArticleOfAlleBeitraegeSection();
             if (position.equals("last"))
                 page.clickAlleBeitraegeSectionLastArticle();
+            if (position.equals("first"))
+                page.clickAlleBeitraegeElement(1);
             //else spiegelPlus.clickAlleBeitraegeSectionArticle(Integer.parseInt(position));
         }
         catch (Exception e)

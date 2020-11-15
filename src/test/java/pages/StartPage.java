@@ -9,7 +9,7 @@ public class StartPage extends BasePage {
 
     private WebElement element = null;
     private Random rnd = new Random();
-    private static int rndNr = 0;
+    private static int rndNr = 1;
 
     private static final String akzeptieren_btn = "//button[contains(@title, 'Akzeptieren und weiter')]";
     private static final String iframe = "//iframe[contains(@id, 'sp_message_iframe')]";
@@ -22,7 +22,7 @@ public class StartPage extends BasePage {
     private static final String main_section_secondary_article = "//section[@data-area='block>topic']//div[@data-area='article_teaser>news-s-wide' and @data-block-el='articleTeaser']";
 
     private static final String news_section = "//div[@data-area='news-section']";
-    private static final String news_section_article_list = "//div[@data-area='news-section']//div[@data-block-el='articleTeaser']";
+    private static final String news_section_article_list = "//div[@data-area='news-section']//div[@data-block-el='articleTeaser']//article//h2";
 
     private static final String alle_Rubriken_section = "//section[@data-area='block>channel:alle_rubriken']";
 
@@ -38,7 +38,7 @@ public class StartPage extends BasePage {
     private static final String bestseller_section_arrow_left = "(//section[@data-area='block>bestsellerslider:spiegel-bestseller:_sachbuch_hardcover']//span[contains(@class, 'cursor-pointer')])[1]";
 
     private static final String leben_section = "//section[@data-area='block>highlight:leben']";
-    private static final String leben_section_article_list = "//section[@data-area='block>highlight:leben']//div[@data-block-el='articleTeaser']";
+    private static final String leben_section_article_list = "//section[@data-area='block>highlight:leben']//div[@data-block-el='articleTeaser']//a[@class='text-black block']";
     private static final String leben_section_title_link_list = "//section[@data-area='block>highlight:leben']//div[@data-block-el='title']//li//a";
 
     private static final String product_test_section = "//section[@data-area='block>topic:produkte_im_test']";
@@ -171,25 +171,29 @@ public class StartPage extends BasePage {
         WebElement element = null;
         if (article.equals("first")) {
             if (section.equals("news_section"))
-                element = getElementsByXpath(news_section_article_list).get(1);
+                element = getElementsByXpath(news_section_article_list).get(0);
             if (section.equals("leben_section"))
-                element = getElementsByXpath(leben_section_article_list).get(1);
+                element = getElementsByXpath(leben_section_article_list).get(0);
             if (section.equals("highlight_section"))
-                element = getElementsByXpath(highlight_section_list).get(1);
+                element = getElementsByXpath(highlight_section_list).get(0);
             if (section.contains("rubrik")) {
                 String rubrik = section.split("_")[0];
                 if(rubrik.equals("manager"))
                     rubrik="manager_magazin";
-                element = getElementsByXpath(getRubrikArticlesListsXpath(rubrik)).get(1);
+                element = getElementsByXpath(getRubrikArticlesListsXpath(rubrik)).get(0);
             }
             if (section.contains("channel")) {
                 String rubrik = section.split("_")[0];
-                element = getElementsByXpath(getChannelArticlesListsXpath(rubrik)).get(1);
+                element = getElementsByXpath(getChannelArticlesListsXpath(rubrik)).get(0);
             }
         } else if (article.equals("random")) {
-            if (section.equals("news_section")) {
+            if (section.equals("latests_news_section")) {
                 //rndNr = rnd.nextInt(getElementsByXpath(latest_news_lists).size());
                 element = getElementsByXpath(latest_news_lists).get(rndNr);
+            }
+                if (section.equals("news_section")) {
+                //rndNr = rnd.nextInt(getElementsByXpath(latest_news_lists).size());
+                element = getElementsByXpath(news_section_article_list).get(rndNr);
             }
             if (section.equals("leben_section")) {
                 element = getElementsByXpath(leben_section_article_list).get(rndNr);
@@ -207,10 +211,12 @@ public class StartPage extends BasePage {
             if (section.contains("channel")) {
                 String channel = section.split("_")[0];
                 rndNr = rnd.nextInt(getElementsByXpath(getChannelArticlesListsXpath(channel)).size());
+                //System.out.println("rndNr .......  "+1+"\n count ... "+ getElementsByXpath(getChannelArticlesListsXpath(channel)).size() + "\n getChannelArticlesListsXpath(channel) .." + getChannelArticlesListsXpath(channel));
                 element = getElementsByXpath(getChannelArticlesListsXpath(channel)).get(rndNr);
             }
         }
         //scrollIntoView(element);
+        //if (!isElementDisplayed(element))
         moveMouseOnElement(element);
         clickElement(element);
     }
@@ -219,24 +225,28 @@ public class StartPage extends BasePage {
 
         if (article.equals("first")) {
             if (section.equals("news_section"))
-                element = getElementsByXpath(latest_news_lists).get(0);
+                element = getElementsByXpath(news_section_article_list).get(0);
             if(section.equals("leben_section"))
                 element = getElementsByXpath(leben_section_article_list).get(0);
 
         } else if (article.equals("random"))
         {
             if (section.equals("news_section")) {
-                rndNr = rnd.nextInt(getElementsByXpath(latest_news_lists).size());
-                element = getElementsByXpath(latest_news_lists).get(rndNr);
+                rndNr = rnd.nextInt(getElementsByXpath(news_section_article_list).size());
+                element = getElementsByXpath(news_section_article_list).get(rndNr);
+                System.out.println("news_section_article_list:   " +
+                        news_section_article_list + "   rndNr:   "+ rndNr);
             }
             if(section.equals("leben_section"))
             {
                 rndNr = rnd.nextInt(getElementsByXpath(leben_section_article_list).size());
                 element = getElementsByXpath(leben_section_article_list).get(rndNr);
+                System.out.println("leben_section_article_list:   " +
+                        leben_section_article_list + "   rndNr:   "+ rndNr);
 
             }
         }
-        scrollIntoView(element);
+        moveMouseOnElement(element);
     }
 
     public void clickSectionRightLeftArrow(String section, String direction, int clicks)
@@ -254,6 +264,7 @@ public class StartPage extends BasePage {
                 element = getElementByXpath(bestseller_section_arrow_left);
         }
         for(int i=0; i<clicks;i++ )
+            moveMouseOnElement(element);
             clickElement(element);
     }
 

@@ -1,12 +1,12 @@
 @spiegelCultureBestseller
 #noinspection SpellCheckingInspection,NonAsciiCharacters
-Feature: Spiegel Kultur
+Feature: Spiegel Kultur Bestseller
 
   Background:
     Given I start Spiegel
     Then I click Akzeptieren und weiter
-    Then I bring culture menu into view
-    And I click TopMenu culture
+    Then I bring "Kultur" menu into view
+    And I click TopMenu "Kultur"
     Then I click culture SPIEGEL-Bestseller
 
 
