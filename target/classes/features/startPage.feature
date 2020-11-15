@@ -7,12 +7,12 @@ Feature: Spiegel StartPage
     Then I click Akzeptieren und weiter
 
 
-  #@readlatestNewsArticle
-  #Scenario: reading main article
-   # Then On start page I click random article of latests_news_section
-   # Then I click page down 6
-  #  Then I click page up 3
-   # Then I go back to "DER SPIEGEL | Online-Nachrichten"
+  @readlatestNewsArticle
+  Scenario: reading main article
+    Then On start page I click random article of latests_news_section
+    Then I click page down 6
+    Then I click page up 3
+    Then I go back to "DER SPIEGEL | Online-Nachrichten"
 
     @readMainArticle
     Scenario: reading main article
@@ -96,4 +96,30 @@ Feature: Spiegel StartPage
     Then On start page I click first article of highlight_section
     Then I click page down 15
     Then I click page up 15
+    Then I go back to "DER SPIEGEL | Online-Nachrichten"
+
+  @topbeispiegel
+  Scenario: top bei spiegel spiegel
+    And I scroll to "top_bei_spiegel_section" on start page
+    Then On start page I click first article of top_bei_spiegel_section
+    Then I click page down 4
+    Then I click page up 3
+    Then I go back to "DER SPIEGEL | Online-Nachrichten"
+    And I scroll to "top_bei_spiegel_section" on start page
+    Then On start page I click random article of top_bei_spiegel_section
+    Then I click page down 4
+    Then I click page up 3
+    Then I go back to "DER SPIEGEL | Online-Nachrichten"
+
+  @meistgelesene
+  Scenario: meist gelesene section
+    And I scroll to "meist_gelesene_section" on start page
+    Then On start page I click first article of meist_gelesene_section
+    Then I click page down 4
+    Then I click page up 3
+    Then I go back to "DER SPIEGEL | Online-Nachrichten"
+    And I scroll to "meist_gelesene_section" on start page
+    Then On start page I click random article of meist_gelesene_section
+    Then I click page down 4
+    Then I click page up 3
     Then I go back to "DER SPIEGEL | Online-Nachrichten"

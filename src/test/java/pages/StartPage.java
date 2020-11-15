@@ -9,7 +9,7 @@ public class StartPage extends BasePage {
 
     private WebElement element = null;
     private Random rnd = new Random();
-    private static int rndNr = 1;
+    private static int rndNr = 0;
 
     private static final String akzeptieren_btn = "//button[contains(@title, 'Akzeptieren und weiter')]";
     private static final String iframe = "//iframe[contains(@id, 'sp_message_iframe')]";
@@ -51,6 +51,14 @@ public class StartPage extends BasePage {
     private static final String add_block_section_article_list = "//section[@data-area='block>adblock']//div[@data-block-el='articleTeaser']";
 
     private static final String highlight_section_list = "//section[@data-area='block>highlight']";
+
+    //Spiegel Top artikel
+    private static final String top_bei_spiegel_area = "//div[@data-area='block>margin_column_top']//div[contains(text(), 'Top bei SPIEGEL+')]//ancestor::div[contains(@class,'relative w-full')][1]";
+    private static final String top_bei_spiegel_article_list = "//div[@data-area='block>margin_column_top']//div[contains(text(), 'Top bei SPIEGEL+')]/parent::div//following-sibling::ul//li//a";
+
+    //meist gelesene artikel
+    private static final String meist_gelesene_area= "//div[@data-area='block>margin_column_top']//div[contains(text(), 'Meistgelesene Artikel')]//ancestor::div[contains(@class,'relative w-full')][1]";
+    private static final String meist_gelesene_article_list= "//div[@data-area='block>margin_column_top']//div[contains(text(), 'Meistgelesene Artikel')]/parent::div//following-sibling::ul//li//a";
 
     public StartPage(WebDriver driver) {
         super(driver);
@@ -162,7 +170,10 @@ public class StartPage extends BasePage {
             element = getElementByXpath(block_channel_section);
         if (section.equals("leben_section"))
             element = getElementByXpath(leben_section);
-
+        if (section.equals("top_bei_spiegel_section"))
+            element = getElementByXpath(top_bei_spiegel_area);
+        if (section.equals("meist_gelesene_section"))
+            element = getElementByXpath(meist_gelesene_area);
 
         scrollIntoView(element);
     }
@@ -176,6 +187,13 @@ public class StartPage extends BasePage {
                 element = getElementsByXpath(leben_section_article_list).get(0);
             if (section.equals("highlight_section"))
                 element = getElementsByXpath(highlight_section_list).get(0);
+
+            if (section.equals("top_bei_spiegel_section"))
+                element = getElementsByXpath(top_bei_spiegel_article_list).get(0);
+
+            if (section.equals("meist_gelesene_section"))
+                element = getElementsByXpath(meist_gelesene_article_list).get(0);
+
             if (section.contains("rubrik")) {
                 String rubrik = section.split("_")[0];
                 if(rubrik.equals("manager"))
@@ -201,6 +219,19 @@ public class StartPage extends BasePage {
             if (section.equals("highlight_section")) {
                 element = getElementsByXpath(highlight_section_list).get(rndNr);
             }
+
+            if (section.equals("top_bei_spiegel_section")) {
+                if(rndNr == 0)
+                    rndNr = rnd.nextInt(getElementsByXpath(top_bei_spiegel_article_list).size());
+                System.out.println("rndNr:       "+rndNr);
+                element = getElementsByXpath(top_bei_spiegel_article_list).get(rndNr);
+            }
+            if (section.equals("meist_gelesene_section")) {
+                if (rndNr == 0)
+                    rndNr = rnd.nextInt(getElementsByXpath(meist_gelesene_article_list).size());
+                element = getElementsByXpath(meist_gelesene_article_list).get(rndNr);
+            }
+
             if (section.contains("rubrik")) {
                 String rubrik = section.split("_")[0];
                 if(rubrik.equals("manager"))

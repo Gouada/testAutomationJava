@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="39" failures="0" name="runners.SpiegelRunner" time="839.518" errors="0" skipped="0">
+<testsuite tests="40" failures="0" name="runners.SpiegelRunner" time="1,355.967" errors="0" skipped="0">
   <properties>
     <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -32,33 +32,33 @@
     <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 142 Stepping 10, GenuineIntel"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="LOCALAPPDATA" value="C:\Users\Lenovo\AppData\Local"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://127.0.0.1:8080/job/Webium-Automation/89/display/redirect?page=changes"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://127.0.0.1:8080/job/Webium-Automation/93/display/redirect?page=changes"/>
     <property name="user.timezone" value="Europe/Berlin"/>
     <property name="user.script" value=""/>
     <property name="path.separator" value=";"/>
     <property name="NUMBER_OF_PROCESSORS" value="8"/>
-    <property name="BUILD_TAG" value="jenkins-Webium-Automation-89"/>
+    <property name="BUILD_TAG" value="jenkins-Webium-Automation-93"/>
     <property name="PYTHONPATH" value="C:\python37;C:\python37\Scripts;C:\python37\DLLs;C:\python37\Lib;C:\python37\libs;"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\apache-maven-3.5.3 C:\Users\Lenovo\.jenkins\war\WEB-INF\lib\remoting-4.3.jar C:\Users\Lenovo\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar C:\Users\Lenovo\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar 51766"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\apache-maven-3.5.3 C:\Users\Lenovo\.jenkins\war\WEB-INF\lib\remoting-4.3.jar C:\Users\Lenovo\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar C:\Users\Lenovo\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar 59889"/>
     <property name="HUDSON_URL" value="http://127.0.0.1:8080/"/>
     <property name="JENKINS_SERVER_COOKIE" value="0631cecedd819be2"/>
     <property name="POSTGRESQLPATH" value="C:\Program Files\PostgreSQL\12\bin;C:\Program Files\PostgreSQL\12\lib"/>
-    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
     <property name="Path" value="C:\Program Files\Java\jdk1.8.0_172/bin;C:\python37\Scripts\;C:\python37\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_172;C:\apache-maven-3.5.3\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Users\Lenovo\AppData\Local\Android\Sdk;C:\Users\Lenovo\AppData\Local\Android\Sdk\tools;C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools;C:\WINDOWS\System32\OpenSSH\;C:\MyWorkspace\SeleniumChromeDriver\;C:\python37;C:\python37\Scripts;C:\python37\DLLs;C:\python37\Lib;C:\python37\libs;;C:\Program Files\PostgreSQL\12\bin;C:\Program Files\PostgreSQL\12\lib;C:\MyWorkspace\SeleniumChromeDriver\83\;C:\MyWorkspace\SeleniumFirefoxDriver\2.6\;C:\MyWorkspace\IEDriver\;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Users\Lenovo\AppData\Roaming\npm;C:\Users\Lenovo\AppData\Roaming\Dashlane\5.12.0.19744\bin\Firefox_Extension\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\components;C:\Users\Lenovo\AppData\Roaming\Dashlane\5.12.0.19744\ucrt;"/>
     <property name="java.io.tmpdir" value="C:\Users\Lenovo\AppData\Local\Temp\"/>
     <property name="APPDATA" value="C:\Users\Lenovo\AppData\Roaming"/>
     <property name="user.language" value="de"/>
     <property name="line.separator" value="
 "/>
-    <property name="BUILD_URL" value="http://127.0.0.1:8080/job/Webium-Automation/89/"/>
+    <property name="BUILD_URL" value="http://127.0.0.1:8080/job/Webium-Automation/93/"/>
     <property name="M2_HOME" value="C:\apache-maven-3.5.3"/>
     <property name="=C:" value="C:\jenkins"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
     <property name="sun.desktop" value="windows"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="BUILD_DISPLAY_NAME" value="#89"/>
+    <property name="BUILD_DISPLAY_NAME" value="#93"/>
     <property name="OS" value="Windows_NT"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="HUDSON_SERVER_COOKIE" value="0631cecedd819be2"/>
@@ -73,7 +73,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="89"/>
+    <property name="BUILD_NUMBER" value="93"/>
     <property name="maven3.interceptor" value="C:\Users\Lenovo\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\apache-maven-3.5.3/bin;C:\Program Files\Java\jdk1.8.0_172/bin;C:\Program Files\Java\jdk1.8.0_172/bin;C:\python37\Scripts\;C:\python37\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_172;C:\apache-maven-3.5.3\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Users\Lenovo\AppData\Local\Android\Sdk;C:\Users\Lenovo\AppData\Local\Android\Sdk\tools;C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools;C:\WINDOWS\System32\OpenSSH\;C:\MyWorkspace\SeleniumChromeDriver\;C:\python37;C:\python37\Scripts;C:\python37\DLLs;C:\python37\Lib;C:\python37\libs;;C:\Program Files\PostgreSQL\12\bin;C:\Program Files\PostgreSQL\12\lib;C:\MyWorkspace\SeleniumChromeDriver\83\;C:\MyWorkspace\SeleniumFirefoxDriver\2.6\;C:\MyWorkspace\IEDriver\;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Users\Lenovo\AppData\Roaming\npm;C:\Users\Lenovo\AppData\Roaming\Dashlane\5.12.0.19744\bin\Firefox_Extension\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\components;C:\Users\Lenovo\AppData\Roaming\Dashlane\5.12.0.19744\ucrt;;."/>
     <property name="HOMEDRIVE" value="C:"/>
@@ -82,9 +82,9 @@
     <property name="java.class.version" value="52.0"/>
     <property name="JOB_URL" value="http://127.0.0.1:8080/job/Webium-Automation/"/>
     <property name="OneDrive" value="C:\Users\Lenovo\OneDrive"/>
-    <property name="RUN_DISPLAY_URL" value="http://127.0.0.1:8080/job/Webium-Automation/89/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://127.0.0.1:8080/job/Webium-Automation/93/display/redirect"/>
     <property name="JENKINS_HOME" value="C:\Users\Lenovo\.jenkins"/>
-    <property name="BUILD_ID" value="89"/>
+    <property name="BUILD_ID" value="93"/>
     <property name="TEMP" value="C:\Users\Lenovo\AppData\Local\Temp"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_172\jre\bin"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -147,43 +147,44 @@
     <property name="POM_DISPLAYNAME" value="guineenews"/>
     <property name="sun.arch.data.model" value="64"/>
   </properties>
-  <testcase classname="Spiegel Kultur Bestseller" name="Bestseller Books #1" time="33.774"/>
-  <testcase classname="Spiegel Kultur Bestseller" name="Bestseller Books #2" time="25.467"/>
-  <testcase classname="Spiegel Kultur Bestseller" name="Bestseller Books #3" time="25.585"/>
-  <testcase classname="Spiegel Kultur Bestseller" name="Bestseller DVD #1" time="27.893"/>
-  <testcase classname="Spiegel Kultur Bestseller" name="Bestseller DVD #2" time="25.054"/>
-  <testcase classname="Spiegel Kultur Bestseller" name="Bestseller Ratgeber #1" time="26.597"/>
-  <testcase classname="Spiegel Kultur Bestseller" name="Bestseller Ratgeber #2" time="26.521"/>
-  <testcase classname="Spiegel Kultur Bestseller" name="Bestseller Ratgeber #3" time="25.557"/>
-  <testcase classname="Spiegel Kultur Bestseller" name="Bestseller Ratgeber #4" time="26.925"/>
-  <testcase classname="Spiegel Kultur Bestseller" name="Bestseller KinderBuch #1" time="26.861"/>
-  <testcase classname="Spiegel Kultur Bestseller" name="Bestseller KinderBuch #2" time="25.358"/>
-  <testcase classname="Spiegel Kultur Bestseller" name="Bestseller KinderBuch #3" time="26.625"/>
-  <testcase classname="Spiegel Kultur Bestseller" name="Bestseller KinderBuch #4" time="28.298"/>
-  <testcase classname="Spiegel Kultur" name="navigate on culture sub-menu #1" time="18.449"/>
-  <testcase classname="Spiegel Kultur" name="navigate on culture sub-menu #2" time="14.609"/>
-  <testcase classname="Spiegel Kultur" name="navigate on culture sub-menu #3" time="16.384"/>
-  <testcase classname="Spiegel Kultur" name="navigate on culture sub-menu #4" time="15.207"/>
-  <testcase classname="Spiegel Kultur" name="navigate on culture sub-menu #5" time="15.441"/>
-  <testcase classname="Spiegel Kultur" name="navigate on culture sub-menu #6" time="15.385"/>
-  <testcase classname="Spiegel Schlagzeilen" name="reading Schlagzeilen article" time="22.192"/>
-  <testcase classname="Spiegel Plus" name="Spiegel plus read section 1 articles" time="27.401"/>
-  <testcase classname="Spiegel Plus" name="Spiegel plus read random section articles" time="22.463"/>
-  <testcase classname="Spiegel Plus" name="Spiegel plus read audio section articles" time="20.24"/>
-  <testcase classname="Spiegel Plus" name="Spiegel plus read alle Beiträge section articles" time="18.965"/>
-  <testcase classname="Spiegel StartPage" name="reading main article" time="16.003"/>
-  <testcase classname="Spiegel StartPage" name="read news section articles" time="22.25"/>
-  <testcase classname="Spiegel StartPage" name="alle Rubriken #1" time="17.968"/>
-  <testcase classname="Spiegel StartPage" name="alle Rubriken #2" time="20.881"/>
-  <testcase classname="Spiegel StartPage" name="alle Rubriken #3" time="18.334"/>
-  <testcase classname="Spiegel StartPage" name="alle Rubriken #4" time="28.801"/>
-  <testcase classname="Spiegel StartPage" name="stock section" time="15.434"/>
-  <testcase classname="Spiegel StartPage" name="block channel section #1" time="17.459"/>
-  <testcase classname="Spiegel StartPage" name="block channel section #2" time="18.269"/>
-  <testcase classname="Spiegel StartPage" name="block channel section #3" time="17.559"/>
-  <testcase classname="Spiegel StartPage" name="block channel section #4" time="15.821"/>
-  <testcase classname="Spiegel StartPage" name="block channel section #5" time="14.751"/>
-  <testcase classname="Spiegel StartPage" name="block channel section #6" time="17.61"/>
-  <testcase classname="Spiegel StartPage" name="leben section articles" time="23.669"/>
-  <testcase classname="Spiegel StartPage" name="highligh section" time="17.458"/>
+  <testcase classname="Spiegel Kultur Bestseller" name="Bestseller Books #1" time="60.59"/>
+  <testcase classname="Spiegel Kultur Bestseller" name="Bestseller Books #2" time="47.441"/>
+  <testcase classname="Spiegel Kultur Bestseller" name="Bestseller Books #3" time="47.696"/>
+  <testcase classname="Spiegel Kultur Bestseller" name="Bestseller DVD #1" time="56.431"/>
+  <testcase classname="Spiegel Kultur Bestseller" name="Bestseller DVD #2" time="55.325"/>
+  <testcase classname="Spiegel Kultur Bestseller" name="Bestseller Ratgeber #1" time="55.015"/>
+  <testcase classname="Spiegel Kultur Bestseller" name="Bestseller Ratgeber #2" time="56.584"/>
+  <testcase classname="Spiegel Kultur Bestseller" name="Bestseller Ratgeber #3" time="55.86"/>
+  <testcase classname="Spiegel Kultur Bestseller" name="Bestseller Ratgeber #4" time="56.567"/>
+  <testcase classname="Spiegel Kultur Bestseller" name="Bestseller KinderBuch #1" time="58.79"/>
+  <testcase classname="Spiegel Kultur Bestseller" name="Bestseller KinderBuch #2" time="57.298"/>
+  <testcase classname="Spiegel Kultur Bestseller" name="Bestseller KinderBuch #3" time="58.332"/>
+  <testcase classname="Spiegel Kultur Bestseller" name="Bestseller KinderBuch #4" time="64.686"/>
+  <testcase classname="Spiegel Kultur" name="navigate on culture sub-menu #1" time="22.848"/>
+  <testcase classname="Spiegel Kultur" name="navigate on culture sub-menu #2" time="22.761"/>
+  <testcase classname="Spiegel Kultur" name="navigate on culture sub-menu #3" time="22.683"/>
+  <testcase classname="Spiegel Kultur" name="navigate on culture sub-menu #4" time="23.553"/>
+  <testcase classname="Spiegel Kultur" name="navigate on culture sub-menu #5" time="22.56"/>
+  <testcase classname="Spiegel Kultur" name="navigate on culture sub-menu #6" time="21.594"/>
+  <testcase classname="Spiegel Schlagzeilen" name="reading Schlagzeilen article" time="33.339"/>
+  <testcase classname="Spiegel Plus" name="Spiegel plus read section 1 articles" time="27.691"/>
+  <testcase classname="Spiegel Plus" name="Spiegel plus read random section articles" time="36.232"/>
+  <testcase classname="Spiegel Plus" name="Spiegel plus read audio section articles" time="24.278"/>
+  <testcase classname="Spiegel Plus" name="Spiegel plus read alle Beiträge section articles" time="41.067"/>
+  <testcase classname="Spiegel StartPage" name="reading main article #1" time="20.839"/>
+  <testcase classname="Spiegel StartPage" name="reading main article #2" time="13.882"/>
+  <testcase classname="Spiegel StartPage" name="read news section articles" time="29.432"/>
+  <testcase classname="Spiegel StartPage" name="alle Rubriken #1" time="19.522"/>
+  <testcase classname="Spiegel StartPage" name="alle Rubriken #2" time="20.405"/>
+  <testcase classname="Spiegel StartPage" name="alle Rubriken #3" time="17.286"/>
+  <testcase classname="Spiegel StartPage" name="alle Rubriken #4" time="22.413"/>
+  <testcase classname="Spiegel StartPage" name="stock section" time="14.948"/>
+  <testcase classname="Spiegel StartPage" name="block channel section #1" time="18.46"/>
+  <testcase classname="Spiegel StartPage" name="block channel section #2" time="19.69"/>
+  <testcase classname="Spiegel StartPage" name="block channel section #3" time="16.763"/>
+  <testcase classname="Spiegel StartPage" name="block channel section #4" time="20.028"/>
+  <testcase classname="Spiegel StartPage" name="block channel section #5" time="20.66"/>
+  <testcase classname="Spiegel StartPage" name="block channel section #6" time="23.414"/>
+  <testcase classname="Spiegel StartPage" name="leben section articles" time="29.26"/>
+  <testcase classname="Spiegel StartPage" name="highligh section" time="19.744"/>
 </testsuite>

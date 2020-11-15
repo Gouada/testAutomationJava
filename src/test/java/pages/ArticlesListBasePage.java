@@ -42,6 +42,9 @@ public class ArticlesListBasePage extends BasePage{
         Random rnd = new Random();
         int rndId = rnd.nextInt(articleCount);
         WebElement element = getElementsByXpath(alle_beitraege_list).get(rndId);
+
+        System.out.println("rndId: "+rndId+"  alle_beitraege_list:    "+alle_beitraege_list);
+        closeAdversting();
         //scrollIntoView(element);
         moveMouseOnElement(element);
         //takeScreenhot("before");
@@ -59,6 +62,7 @@ public class ArticlesListBasePage extends BasePage{
     public void clickAlleBeitraegeSectionLastArticle()
     {
         int articleNr = getElementsByXpath(alle_beitraege_list).size()-1;
+        closeAdversting();
         clickElement(getElementsByXpath(alle_beitraege_list).get(articleNr));
     }
 
@@ -66,6 +70,7 @@ public class ArticlesListBasePage extends BasePage{
     public void clickAlleBeitraegeElement(int articleNr)
     {
         String myLocator = getAllebeitraegeElementXpath(articleNr);
+        closeAdversting();
         moveMouseOnElement(getElementByXpath(myLocator));
         //scrollIntoView(getElementByXpath(myLocator));
         clickElement(myLocator, "xpath");
@@ -77,6 +82,7 @@ public class ArticlesListBasePage extends BasePage{
         int articleCount = getElementsByXpath(alle_beitraege_list).size()-1;
         Random rnd = new Random();
         int rndId = rnd.nextInt(articleCount);
+        closeAdversting();
         moveMouseOnElement(getElementsByXpath(alle_beitraege_list).get(rndId));
     }
 
@@ -88,6 +94,7 @@ public class ArticlesListBasePage extends BasePage{
     public void scrollToAlleBeitraegeSectionLastArticle()
     {
         int articleNr = getElementsByXpath(alle_beitraege_list).size() -1;
+        closeAdversting();
         moveMouseOnElement(getElementsByXpath(alle_beitraege_list).get(articleNr));
     }
 

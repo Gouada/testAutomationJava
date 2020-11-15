@@ -60,6 +60,7 @@ public class BestSellerBasePage extends BasePage{
     public void clickBestSellerMenuElement(String menuElement)
     {
         WebElement element = getElementByXpath(getBestsellerMenuElementXpath(menuElement));
+        closeAdversting();
         clickElement(element);
     }
 
@@ -67,6 +68,7 @@ public class BestSellerBasePage extends BasePage{
         MyLogger.logger.warn(getBestsellerSubMenuElementXpath(subMenuElement));
         System.out.println(getBestsellerSubMenuElementXpath(subMenuElement));
         WebElement element = getElementByXpath(getBestsellerSubMenuElementXpath(subMenuElement));
+        closeAdversting();
         if (isElementDisplayed(element))
             clickElement(element);
         else throw new NoSuchElementException("Element was not found on page ");
@@ -83,6 +85,7 @@ public class BestSellerBasePage extends BasePage{
     {
         WebElement element = getElementByXpath(getElementExpandButtonXpath(elementNr));
         //moveMouseOnElement(element);
+        closeAdversting();
         if(!isElementDisplayed(element))
             scrollIntoView(element);
         clickElement(element);
@@ -112,6 +115,7 @@ public class BestSellerBasePage extends BasePage{
     public void moveMouseOnKaufenButton(int elementNr)
     {
         WebElement element = getElementByXpath(getElementKaufenButtonXpath(elementNr));
+        closeAdversting();
         if(!isElementDisplayed(element))
             scrollIntoView(element);
         moveMouseOnElement(element);
@@ -130,6 +134,7 @@ public class BestSellerBasePage extends BasePage{
     {
         String xpath = "("+element_lits+")["+i+"]";
         WebElement element = getElementByXpath(xpath);
+        closeAdversting();
         moveMouseOnElement(element);
         if(isElementDisplayed(getElementByXpath(adversting_close_btn)))
             clickElement(getElementByXpath(adversting_close_btn));
