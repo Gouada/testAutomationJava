@@ -43,7 +43,7 @@ public class ArticlesListBasePage extends BasePage{
         int rndId = rnd.nextInt(articleCount);
         WebElement element = getElementsByXpath(alle_beitraege_list).get(rndId);
 
-        System.out.println("rndId: "+rndId+"  alle_beitraege_list:    "+alle_beitraege_list);
+        //System.out.println("rndId: "+rndId+"  alle_beitraege_list:    "+alle_beitraege_list);
         closeAdversting();
         //scrollIntoView(element);
         moveMouseOnElement(element);

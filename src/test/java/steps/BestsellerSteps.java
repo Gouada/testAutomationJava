@@ -38,7 +38,8 @@ public class BestsellerSteps {
     @Then("^I click bestseller (.*)$")
     public void i_click_bestseller_menu(String menu) throws InterruptedException {
         bestSellerBasePage.clickBestSellerMenuElement(menu);
-        sleep(3000);
+        bestSellerBasePage.closeAdversting();
+        sleep(1000);
         Assert.assertTrue(bestSellerBasePage.getPageTitle().contains("Bestseller"));
         System.out.println(menu);
         //System.out.println(menu.split(" ")[1]);
@@ -83,6 +84,7 @@ public class BestsellerSteps {
     public void i_click_bestseller_sub_menu(String submenu)  {
         bestSellerBasePage.clickBestSellerSubMenuElement(submenu);
         bestSellerBasePage.waitForPageToLoad("Bestseller");
+        bestSellerBasePage.closeAdversting();
         Assert.assertTrue(bestSellerBasePage.getPageTitle().contains("Bestseller"));
     }
 }

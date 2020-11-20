@@ -13,13 +13,14 @@ import static constants.Constants.*;
             "junit:" + XML_RESULT_FOLDER
                     + "/spiegel.xml" },
         features = SPIEGEL_FEATURE,
-        glue = SPIEGEL_STEPS_DEFINITION,
-        //tags = ("@spiegelCulture"))
-        //tags = ("@spiegelCultureBestseller"))
-        //tags = ("@spiegelPlus"))
-        //tags = ("@spiegelStartPage"))
-        //tags = ("@spiegelSchlagzeilen"))
-        //tags = ("@topbeispiegel or @meistgelesene"))
-        tags = ("@spiegelCulture or @spiegelCultureBestseller or @spiegelPlus or @spiegelStartPage or @spiegelSchlagzeilen"))
+        glue = SPIEGEL_STEPS_DEFINITION
+        )
+        //,tags = ("@spiegelCulture"))
+        //,tags = ("@spiegelCultureBestseller"))
+        //,tags = ("@spiegelPlus"))
+        //,tags = ("@spiegelStartPage"))
+        //,tags = ("@spiegelSchlagzeilen"))
+        //,tags = ("@spiegelCoronavirus"))
+        //,tags = ("@spiegelCulture or @spiegelCultureBestseller or @spiegelPlus or @spiegelStartPage or @spiegelSchlagzeilen"))
     public class SpiegelRunner {
     }

@@ -113,8 +113,6 @@ public class HelperSteps {
             e.printStackTrace();
             throw new AssertionError();
         }
-
-
     }
 
     @Then("I scroll to alle Beitraege {string} article")
@@ -181,6 +179,12 @@ public class HelperSteps {
             page.takeScreenhot("i_paginate_to_"+direction+"_page");
             e.printStackTrace();
         }
+    }
 
+    @Then("I close the tab")
+    public void i_close_the_tab()
+    {
+        page.switchToTab(0);
+        page.switch_back_toDefault();
     }
 }

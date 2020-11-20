@@ -45,8 +45,8 @@ public class MenuSteps{
         driver.get(String.valueOf(Urls.STARTSEITE.getUrl()));
         menuPage = new MenuPage(driver);
         startPage = new StartPage(driver);
+        startPage.closeAdversting();
         sleep(3000);
-
     }
 
     @Then("I click Akzeptieren und weiter")
@@ -67,6 +67,7 @@ public class MenuSteps{
     public void i_click_top_menu(String menu) throws Exception {
         try {
             menuPage.clickATopMenu(menu);
+            menuPage.closeAdversting();
         }
         catch (Exception e)
         {

@@ -15,6 +15,7 @@ public class CultureSteps {
     @Then("^I click culture (.*)$")
     public void i_click_menu(String menu) {
         culturePage.clickMenuElement(menu);
+        culturePage.closeAdversting();
     }
 
     @Then("^I navigate back to (.*) - Kultur - DER SPIEGEL$")

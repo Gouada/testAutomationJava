@@ -1,9 +1,9 @@
 [
   {
-    "line": 3,
+    "line": 2,
     "elements": [
       {
-        "line": 5,
+        "line": 4,
         "name": "",
         "description": "",
         "type": "background",
@@ -11,10 +11,10 @@
         "steps": [
           {
             "result": {
-              "duration": 5654000000,
+              "duration": 5844000000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 5,
             "name": "I start Spiegel",
             "match": {
               "location": "steps.MenuSteps.i_start_Spiegel()"
@@ -23,24 +23,42 @@
           },
           {
             "result": {
-              "duration": 3331000000,
+              "duration": 3354000000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 6,
             "name": "I click Akzeptieren und weiter",
             "match": {
               "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15993000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click TopMenu \"Coronavirus\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Coronavirus\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.MenuSteps.i_click_top_menu(java.lang.String)"
             },
             "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2020-11-15T21:37:12.496Z",
+        "start_timestamp": "2020-11-20T00:00:58.349Z",
         "before": [
           {
             "result": {
-              "duration": 7164000000,
+              "duration": 7123000000,
               "status": "passed"
             },
             "match": {
@@ -48,64 +66,42 @@
             }
           }
         ],
-        "line": 102,
-        "name": "top bei spiegel spiegel",
+        "line": 11,
+        "name": "Spiegel Coronavirus read section 1 articles",
         "description": "",
-        "id": "spiegel-startpage;top-bei-spiegel-spiegel",
+        "id": "coronavirus;spiegel-coronavirus-read-section-1-articles",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 1450000000,
+              "duration": 1405000000,
               "status": "passed"
             },
-            "line": 103,
-            "name": "I scroll to \"top_bei_spiegel_section\" on start page",
+            "line": 12,
+            "name": "I click first article of \"first\" section",
             "match": {
               "arguments": [
                 {
-                  "val": "\"top_bei_spiegel_section\"",
-                  "offset": 12
+                  "val": "\"first\"",
+                  "offset": 25
                 }
               ],
-              "location": "steps.StartpageSteps.i_scroll_to_section_on_start_page(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2869000000,
-              "status": "passed"
-            },
-            "line": 104,
-            "name": "On start page I click first article of top_bei_spiegel_section",
-            "match": {
-              "arguments": [
-                {
-                  "val": "first",
-                  "offset": 22
-                },
-                {
-                  "val": "top_bei_spiegel_section",
-                  "offset": 39
-                }
-              ],
-              "location": "steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)"
+              "location": "steps.SpiegelPlusSteps.i_click_first_article_of_section(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 529000000,
+              "duration": 263000000,
               "status": "passed"
             },
-            "line": 105,
-            "name": "I click page down 4",
+            "line": 13,
+            "name": "I click page down 3",
             "match": {
               "arguments": [
                 {
-                  "val": "4",
+                  "val": "3",
                   "offset": 18
                 }
               ],
@@ -115,33 +111,15 @@
           },
           {
             "result": {
-              "duration": 138000000,
+              "duration": 2575000000,
               "status": "passed"
             },
-            "line": 106,
-            "name": "I click page up 3",
+            "line": 14,
+            "name": "I go back to \"Coronavirus - DER SPIEGEL\"",
             "match": {
               "arguments": [
                 {
-                  "val": "3",
-                  "offset": 16
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_page_up(int)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 5025000000,
-              "status": "passed"
-            },
-            "line": 107,
-            "name": "I go back to \"DER SPIEGEL | Online-Nachrichten\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"DER SPIEGEL | Online-Nachrichten\"",
+                  "val": "\"Coronavirus - DER SPIEGEL\"",
                   "offset": 13
                 }
               ],
@@ -151,55 +129,33 @@
           },
           {
             "result": {
-              "duration": 2550000000,
+              "duration": 1428000000,
               "status": "passed"
             },
-            "line": 108,
-            "name": "I scroll to \"top_bei_spiegel_section\" on start page",
+            "line": 15,
+            "name": "I click last article of \"first\" section",
             "match": {
               "arguments": [
                 {
-                  "val": "\"top_bei_spiegel_section\"",
-                  "offset": 12
+                  "val": "\"first\"",
+                  "offset": 24
                 }
               ],
-              "location": "steps.StartpageSteps.i_scroll_to_section_on_start_page(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2381000000,
-              "status": "passed"
-            },
-            "line": 109,
-            "name": "On start page I click random article of top_bei_spiegel_section",
-            "match": {
-              "arguments": [
-                {
-                  "val": "random",
-                  "offset": 22
-                },
-                {
-                  "val": "top_bei_spiegel_section",
-                  "offset": 40
-                }
-              ],
-              "location": "steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)"
+              "location": "steps.SpiegelPlusSteps.i_click_last_article_of_section(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 663000000,
+              "duration": 369000000,
               "status": "passed"
             },
-            "line": 110,
-            "name": "I click page down 4",
+            "line": 16,
+            "name": "I click page down 3",
             "match": {
               "arguments": [
                 {
-                  "val": "4",
+                  "val": "3",
                   "offset": 18
                 }
               ],
@@ -209,52 +165,124 @@
           },
           {
             "result": {
-              "duration": 864000000,
+              "duration": 2764000000,
               "status": "passed"
             },
-            "line": 111,
-            "name": "I click page up 3",
+            "line": 17,
+            "name": "I go back to \"Coronavirus - DER SPIEGEL\"",
             "match": {
               "arguments": [
                 {
-                  "val": "3",
-                  "offset": 16
+                  "val": "\"Coronavirus - DER SPIEGEL\"",
+                  "offset": 13
                 }
               ],
-              "location": "steps.HelperSteps.i_click_page_up(int)"
+              "location": "steps.HelperSteps.i_go_back_to(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 3397000000,
+              "duration": 1821000000,
               "status": "passed"
             },
-            "line": 112,
-            "name": "I go back to \"DER SPIEGEL | Online-Nachrichten\"",
+            "line": 18,
+            "name": "I paginate to \"next\" page",
             "match": {
               "arguments": [
                 {
-                  "val": "\"DER SPIEGEL | Online-Nachrichten\"",
-                  "offset": 13
+                  "val": "\"next\"",
+                  "offset": 14
                 }
               ],
-              "location": "steps.HelperSteps.i_go_back_to(java.lang.String)"
+              "location": "steps.HelperSteps.i_paginate_to_next_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 371000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click page down 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_page_down(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 454000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I paginate to \"previous\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"previous\"",
+                  "offset": 14
+                }
+              ],
+              "location": "steps.HelperSteps.i_paginate_to_next_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2079000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click a random article of \"first\" section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"first\"",
+                  "offset": 28
+                }
+              ],
+              "location": "steps.SpiegelPlusSteps.i_click_an_random_article_of_section(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 444000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I click page down 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_page_down(int)"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@spiegelStartPage"
+            "name": "@spiegelCoronavirus"
           },
           {
-            "name": "@topbeispiegel"
+            "name": "@first_sectionCoronaVirus"
           }
         ]
       },
       {
-        "line": 5,
+        "line": 4,
         "name": "",
         "description": "",
         "type": "background",
@@ -262,10 +290,10 @@
         "steps": [
           {
             "result": {
-              "duration": 5303000000,
+              "duration": 11969000000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 5,
             "name": "I start Spiegel",
             "match": {
               "location": "steps.MenuSteps.i_start_Spiegel()"
@@ -274,24 +302,42 @@
           },
           {
             "result": {
-              "duration": 5090000000,
+              "duration": 4056000000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 6,
             "name": "I click Akzeptieren und weiter",
             "match": {
               "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10721000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click TopMenu \"Coronavirus\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Coronavirus\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.MenuSteps.i_click_top_menu(java.lang.String)"
             },
             "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2020-11-15T21:37:48.648Z",
+        "start_timestamp": "2020-11-20T00:01:44.769Z",
         "before": [
           {
             "result": {
-              "duration": 1000000,
+              "duration": 2000000,
               "status": "passed"
             },
             "match": {
@@ -299,64 +345,60 @@
             }
           }
         ],
-        "line": 115,
-        "name": "meist gelesene section",
+        "line": 24,
+        "name": "Spiegel Coronavirus read random section articles",
         "description": "",
-        "id": "spiegel-startpage;meist-gelesene-section",
+        "id": "coronavirus;spiegel-coronavirus-read-random-section-articles",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 1117000000,
+              "duration": 358000000,
               "status": "passed"
             },
-            "line": 116,
-            "name": "I scroll to \"meist_gelesene_section\" on start page",
+            "line": 25,
+            "name": "I scroll to \"random\" section",
             "match": {
               "arguments": [
                 {
-                  "val": "\"meist_gelesene_section\"",
+                  "val": "\"random\"",
                   "offset": 12
                 }
               ],
-              "location": "steps.StartpageSteps.i_scroll_to_section_on_start_page(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2755000000,
-              "status": "passed"
-            },
-            "line": 117,
-            "name": "On start page I click first article of meist_gelesene_section",
-            "match": {
-              "arguments": [
-                {
-                  "val": "first",
-                  "offset": 22
-                },
-                {
-                  "val": "meist_gelesene_section",
-                  "offset": 39
-                }
-              ],
-              "location": "steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)"
+              "location": "steps.SpiegelPlusSteps.i_scroll_to_section(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 2856000000,
+              "duration": 7990000000,
               "status": "passed"
             },
-            "line": 118,
-            "name": "I click page down 4",
+            "line": 26,
+            "name": "I click first article of \"random\" section",
             "match": {
               "arguments": [
                 {
-                  "val": "4",
+                  "val": "\"random\"",
+                  "offset": 25
+                }
+              ],
+              "location": "steps.SpiegelPlusSteps.i_click_first_article_of_section(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 401000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I click page down 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
                   "offset": 18
                 }
               ],
@@ -366,91 +408,45 @@
           },
           {
             "result": {
-              "duration": 999000000,
+              "duration": 36000000,
               "status": "passed"
             },
-            "line": 119,
-            "name": "I click page up 3",
+            "line": 28,
+            "name": "I close the tab",
+            "match": {
+              "location": "steps.HelperSteps.i_close_the_tab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3453000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I click a random article of \"random\" section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 28
+                }
+              ],
+              "location": "steps.SpiegelPlusSteps.i_click_an_random_article_of_section(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 467000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I click page down 3",
             "match": {
               "arguments": [
                 {
                   "val": "3",
-                  "offset": 16
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_page_up(int)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 4900000000,
-              "status": "passed"
-            },
-            "line": 120,
-            "name": "I go back to \"DER SPIEGEL | Online-Nachrichten\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"DER SPIEGEL | Online-Nachrichten\"",
-                  "offset": 13
-                }
-              ],
-              "location": "steps.HelperSteps.i_go_back_to(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1685000000,
-              "status": "passed"
-            },
-            "line": 121,
-            "name": "I scroll to \"meist_gelesene_section\" on start page",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"meist_gelesene_section\"",
-                  "offset": 12
-                }
-              ],
-              "location": "steps.StartpageSteps.i_scroll_to_section_on_start_page(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2344000000,
-              "status": "passed"
-            },
-            "line": 122,
-            "name": "On start page I click random article of meist_gelesene_section",
-            "match": {
-              "arguments": [
-                {
-                  "val": "random",
-                  "offset": 22
-                },
-                {
-                  "val": "meist_gelesene_section",
-                  "offset": 40
-                }
-              ],
-              "location": "steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1563000000,
-              "status": "passed"
-            },
-            "line": 123,
-            "name": "I click page down 4",
-            "match": {
-              "arguments": [
-                {
-                  "val": "4",
                   "offset": 18
                 }
               ],
@@ -460,59 +456,235 @@
           },
           {
             "result": {
-              "duration": 1566000000,
+              "duration": 104000000,
               "status": "passed"
             },
-            "line": 124,
-            "name": "I click page up 3",
+            "line": 32,
+            "name": "I close the tab",
             "match": {
-              "arguments": [
-                {
-                  "val": "3",
-                  "offset": 16
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_page_up(int)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3076000000,
-              "status": "passed"
-            },
-            "line": 125,
-            "name": "I go back to \"DER SPIEGEL | Online-Nachrichten\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"DER SPIEGEL | Online-Nachrichten\"",
-                  "offset": 13
-                }
-              ],
-              "location": "steps.HelperSteps.i_go_back_to(java.lang.String)"
+              "location": "steps.HelperSteps.i_close_the_tab()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@spiegelStartPage"
+            "name": "@spiegelCoronavirus"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9921000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I start Spiegel",
+            "match": {
+              "location": "steps.MenuSteps.i_start_Spiegel()"
+            },
+            "keyword": "Given "
           },
           {
-            "name": "@meistgelesene"
+            "result": {
+              "duration": 4051000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click Akzeptieren und weiter",
+            "match": {
+              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10450000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click TopMenu \"Coronavirus\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Coronavirus\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.MenuSteps.i_click_top_menu(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-20T00:02:24.343Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.TestCaseBase.setup()"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "Spiegel Coronavirus read alle Beiträge section articles",
+        "description": "",
+        "id": "coronavirus;spiegel-coronavirus-read-alle-beiträge-section-articles",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 224000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I scroll to \"alle_Beitraege\" section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"alle_Beitraege\"",
+                  "offset": 12
+                }
+              ],
+              "location": "steps.SpiegelPlusSteps.i_scroll_to_section(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9297000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I scroll to alle Beitraege \"last\" article",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"last\"",
+                  "offset": 27
+                }
+              ],
+              "location": "steps.HelperSteps.i_scroll_to_alle_Beitraegearticle(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9374000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I scroll to alle Beitraege \"random\" article",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 27
+                }
+              ],
+              "location": "steps.HelperSteps.i_scroll_to_alle_Beitraegearticle(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10264000000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I click a \"random\" article of alle Beitraege section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 10
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 366000000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I click page down 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_page_down(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4032000000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I go back to \"Coronavirus - DER SPIEGEL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Coronavirus - DER SPIEGEL\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HelperSteps.i_go_back_to(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1670000000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I paginate to \"next\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"next\"",
+                  "offset": 14
+                }
+              ],
+              "location": "steps.HelperSteps.i_paginate_to_next_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@spiegelCoronavirus"
           }
         ]
       }
     ],
-    "name": "Spiegel StartPage",
+    "name": "Coronavirus",
     "description": "",
-    "id": "spiegel-startpage",
+    "id": "coronavirus",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/startPage.feature",
+    "uri": "file:src/test/resources/features/coronaVirus.feature",
     "tags": [
       {
-        "name": "@spiegelStartPage",
+        "name": "@spiegelCoronavirus",
         "type": "Tag",
         "location": {
           "line": 1,

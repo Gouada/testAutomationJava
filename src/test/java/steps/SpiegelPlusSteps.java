@@ -9,13 +9,13 @@ import static java.lang.Thread.sleep;
 
 public class SpiegelPlusSteps{
 
-    private SpiegelPlus spiegelPlus;
+    private SpiegelPlus spiegelPlus = new SpiegelPlus(TestCaseBase.driver);
 
     @Then("I click SpiegelPlus")
     public void clickSpiegelPlus()
     {
         try {
-            spiegelPlus = new SpiegelPlus(TestCaseBase.driver);
+            //spiegelPlus = new SpiegelPlus(TestCaseBase.driver);
             MenuSteps.menuPage.clickATopMenu(Menu.SPIEGEL_PLUS);
             spiegelPlus.waitForPageToLoad("Plus - DER SPIEGEL");
             Assert.assertTrue(spiegelPlus.getitle().contains("Plus - DER SPIEGEL"));
@@ -41,6 +41,8 @@ public class SpiegelPlusSteps{
     @Then("I click first article of {string} section")
     public void i_click_first_article_of_section(String section) {
         try {
+            //if(spiegelPlus == null)
+              //  spiegelPlus = new SpiegelPlus(TestCaseBase.driver);
             int sectionNr = 0;
             if (section.equals("first")) sectionNr = 1;
             if (section.equals("random")) sectionNr = spiegelPlus.getRandomSectionNr();
@@ -89,7 +91,9 @@ public class SpiegelPlusSteps{
             if (section.equals("audio"))
                 sectionNr = spiegelPlus.getSectionsCount();
             spiegelPlus.clickSectionRandomArticle(sectionNr);
-            //sleep(3000);
+            sleep(1000);
+            if(spiegelPlus.getTabCount()>1)
+                spiegelPlus.switchToTab(0);
         }
         catch (Exception e)
         {
