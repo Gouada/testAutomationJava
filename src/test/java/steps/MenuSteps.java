@@ -1,19 +1,11 @@
 package steps;
 
-import constants.Menu;
 import helpers.MyLogger;
 
-import constants.Constants;
 import constants.Urls;
-import core.DriverFactory;
-import io.cucumber.java.After;
-import io.cucumber.java.Before;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
-import org.apache.logging.log4j.Level;
-import org.junit.AfterClass;
-import org.junit.BeforeClass;
-import org.junit.jupiter.api.AfterAll;
 import org.openqa.selenium.WebDriver;
 import pages.MenuPage;
 import pages.StartPage;
@@ -46,7 +38,7 @@ public class MenuSteps{
         menuPage = new MenuPage(driver);
         startPage = new StartPage(driver);
         startPage.closeAdversting();
-        sleep(3000);
+        sleep(2000);
     }
 
     @Then("I click Akzeptieren und weiter")
@@ -54,17 +46,28 @@ public class MenuSteps{
     {
         //MyLogger.logger.info("accepting conditions");
         startPage.clickAkzeptieren();
-        sleep(3000);
+        sleep(1000);
     }
 
     @Then("I bring {string} menu into view")
     public void i_bring_top_menu_into_view(String menu) {
-        menuPage.click_right_arrow_until_is_visible(menu);
+        //if(menuPage == null)
+          //  menuPage = new MenuPage(driver);
+        try {
+            menuPage.click_right_arrow_until_is_visible(menu);
+        }
+        catch (Exception e)
+        {
+            menuPage.takeScreenhot("bringing_"+menu+"_into_view_");
+            MyLogger.logger.error(e.getMessage());
+            new Exception(e);
+        }
         //menuPage.click_right_arrow();
     }
 
     @Then("I click TopMenu {string}")
-    public void i_click_top_menu(String menu) throws Exception {
+    public void i_click_top_menu(String menu) throws Exception
+    {
         try {
             menuPage.clickATopMenu(menu);
             menuPage.closeAdversting();
@@ -72,13 +75,30 @@ public class MenuSteps{
         catch (Exception e)
         {
             MyLogger.logger.error(e.getMessage());
-            startPage.takeScreenhot("clicking top menu");
+            startPage.takeScreenhot("clicking_top_menu");
             throw new Exception(e.getMessage());
         }
+    }
 
+    @And("I click TopMenuButton")
+    public void i_click_top_menu_button()
+    {
+        menuPage.click_menu_button();
+    }
 
+    @Then("^I click leftSubMenu (.*) in (.*)$")
+    public void i_click_leftMenu(String subMenu, String menu ) throws Exception
+    {
+        try{
+            menuPage.clickLeftSubMenuElement(menu, subMenu);
         }
-
+        catch (Exception e)
+        {
+            MyLogger.logger.error(e.getMessage());
+            startPage.takeScreenhot("clicking_left_subMenu");
+            throw new Exception(e.getMessage());
+        }
+    }
 /*
     @After
     public void endsTest()

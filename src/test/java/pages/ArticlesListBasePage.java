@@ -35,15 +35,15 @@ public class ArticlesListBasePage extends BasePage{
     }
 
     //click randomly an article within alle Beiträge section
-    public void clickRandomArticleOfAlleBeitraegeSection()
+    public void   clickRandomArticleOfAlleBeitraegeSection()
     {
         //article count in alle Beitraege section
         int articleCount = getElementsByXpath(alle_beitraege_list).size();
         Random rnd = new Random();
-        int rndId = rnd.nextInt(articleCount);
+        int rndId = rnd.nextInt(articleCount -1);
         WebElement element = getElementsByXpath(alle_beitraege_list).get(rndId);
 
-        //System.out.println("rndId: "+rndId+"  alle_beitraege_list:    "+alle_beitraege_list);
+        System.out.println("rndId: "+rndId+"  alle_beitraege_list:    "+alle_beitraege_list);
         closeAdversting();
         //scrollIntoView(element);
         moveMouseOnElement(element);

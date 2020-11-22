@@ -1,46 +1,57 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="146.038">
-<testcase classname="Coronavirus" name="Spiegel Coronavirus read section 1 articles" time="46.395">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="146.406">
+<testcase classname="Spiegel Politk" name="Bundesregierung" time="29.087">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
-Then I click TopMenu "Coronavirus"..........................................passed
-Then I click first article of "first" section...............................passed
-Then I click page down 3....................................................passed
-Then I go back to "Coronavirus - DER SPIEGEL"...............................passed
-Then I click last article of "first" section................................passed
-Then I click page down 3....................................................passed
-Then I go back to "Coronavirus - DER SPIEGEL"...............................passed
-Then I paginate to "next" page..............................................passed
-Then I click page down 3....................................................passed
-Then I paginate to "previous" page..........................................passed
-Then I click a random article of "first" section............................passed
-Then I click page down 3....................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Coronavirus" name="Spiegel Coronavirus read random section articles" time="39.562">
-<system-out><![CDATA[Given I start Spiegel.......................................................passed
-Then I click Akzeptieren und weiter.........................................passed
-Then I click TopMenu "Coronavirus"..........................................passed
-Then I scroll to "random" section...........................................passed
-Then I click first article of "random" section..............................passed
-Then I click page down 3....................................................passed
-Then I close the tab........................................................passed
-Then I click a random article of "random" section...........................passed
-Then I click page down 3....................................................passed
-Then I close the tab........................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Coronavirus" name="Spiegel Coronavirus read alle Beiträge section articles" time="59.654">
-<system-out><![CDATA[Given I start Spiegel.......................................................passed
-Then I click Akzeptieren und weiter.........................................passed
-Then I click TopMenu "Coronavirus"..........................................passed
-Then I scroll to "alle_Beitraege" section...................................passed
-Then I scroll to alle Beitraege "last" article..............................passed
-Then I scroll to alle Beitraege "random" article............................passed
+And I click TopMenuButton...................................................passed
+Then I click leftSubMenu Bundestag in Politik...............................passed
 Then I click a "random" article of alle Beitraege section...................passed
 Then I click page down 3....................................................passed
-Then I go back to "Coronavirus - DER SPIEGEL"...............................passed
-Then I paginate to "next" page..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Spiegel Politk" name="Bundesregierung_2" time="23.777">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+And I click TopMenuButton...................................................passed
+Then I click leftSubMenu Bundesregierung in Politik.........................passed
+Then I click a "random" article of alle Beitraege section...................passed
+Then I click page down 3....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Spiegel Politk" name="Bundesregierung_3" time="20.581">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+And I click TopMenuButton...................................................passed
+Then I click leftSubMenu Afrika in Ausland..................................passed
+Then I click a "random" article of alle Beitraege section...................passed
+Then I click page down 3....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Spiegel Politk" name="Bundesregierung_4" time="24.137">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+And I click TopMenuButton...................................................passed
+Then I click leftSubMenu Nahost in Ausland..................................passed
+Then I click a "random" article of alle Beitraege section...................passed
+Then I click page down 3....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Spiegel Politk" name="Bundesregierung_5" time="23.571">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+And I click TopMenuButton...................................................passed
+Then I click leftSubMenu Leute in Panorama..................................passed
+Then I click a "random" article of alle Beitraege section...................passed
+Then I click page down 3....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Spiegel Politk" name="Bundesregierung_6" time="24.819">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+And I click TopMenuButton...................................................passed
+Then I click leftSubMenu Gesellschaft in Panorama...........................passed
+Then I click a "random" article of alle Beitraege section...................passed
+Then I click page down 3....................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

@@ -221,14 +221,17 @@ public class StartPage extends BasePage {
             }
 
             if (section.equals("top_bei_spiegel_section")) {
-                if(rndNr == 0)
+                //System.out.println("rndNr before:       "+rndNr);
+                //if(rndNr == 0)
                     rndNr = rnd.nextInt(getElementsByXpath(top_bei_spiegel_article_list).size()-1);
-                System.out.println("rndNr:       "+rndNr);
+                //System.out.println("rndNr after:       "+rndNr);
                 element = getElementsByXpath(top_bei_spiegel_article_list).get(rndNr);
             }
             if (section.equals("meist_gelesene_section")) {
-                if (rndNr == 0)
+                //System.out.println("rndNr before:       "+rndNr);
+                //if (rndNr == 0)
                     rndNr = rnd.nextInt(getElementsByXpath(meist_gelesene_article_list).size()-1);
+                //System.out.println("rndNr after:       "+rndNr);
                 element = getElementsByXpath(meist_gelesene_article_list).get(rndNr);
             }
 

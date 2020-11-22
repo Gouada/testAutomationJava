@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: runners.SpiegelRunner
 -------------------------------------------------------------------------------
-Tests run: 42, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1,373.883 sec
+Tests run: 56, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1,913.471 sec <<< FAILURE!
+Bundesregierung #3(Spiegel Politk)  Time elapsed: 18.971 sec  <<< ERROR!
+java.lang.Exception: Error
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: driver.version: unknown
+	at steps.MenuSteps.i_click_leftMenu(MenuSteps.java:99)
+	at ?.I click leftSubMenu Afrika in Ausland(file:///C:/MyWorkspace/guineenews/src/test/resources/features/politik.feature:15)
+

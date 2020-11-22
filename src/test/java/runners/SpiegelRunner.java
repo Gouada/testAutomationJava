@@ -20,7 +20,8 @@ import static constants.Constants.*;
         //,tags = ("@spiegelPlus"))
         //,tags = ("@spiegelStartPage"))
         //,tags = ("@spiegelSchlagzeilen"))
-        //,tags = ("@spiegelCoronavirus"))
+        //,tags = ("@topbeispiegel or @meistgelesene"))
+        //,tags = ("@spiegelPolitik"))
         //,tags = ("@spiegelCulture or @spiegelCultureBestseller or @spiegelPlus or @spiegelStartPage or @spiegelSchlagzeilen"))
     public class SpiegelRunner {
     }

@@ -131,9 +131,9 @@ public class SeleniumDriverWrapper {
     {
         try {
             WebElement element = getElement(myLocator, myLocatorType);
-            waitForElementToBeClickable(element,10); // we wait max 10 seconds to check element is clickable
+            //waitForElementToBeClickable(element,3); // we wait max 10 seconds to check element is clickable
             element.click();
-            implicitlyWait(3);
+            //implicitlyWait(3);
         }
         catch (ElementClickInterceptedException e)
         {
@@ -152,9 +152,9 @@ public class SeleniumDriverWrapper {
     public void clickElement( WebElement element)
     {
         try {
-            waitForElementToBeClickable(element,10);
+            waitForElementToBeClickable(element,3);
             element.click();
-            implicitlyWait(3);
+            //implicitlyWait(3);
         }
         catch (ElementClickInterceptedException e)
         {
@@ -655,7 +655,7 @@ public class SeleniumDriverWrapper {
         try {
             JavascriptExecutor js = (JavascriptExecutor) driver;
             js.executeScript("window.history.back();");
-            sleep(2000);
+            sleep(3000);
         } catch (Exception e) {
             e.printStackTrace();
             MyLogger.logger.error(e.getMessage());
@@ -667,7 +667,7 @@ public class SeleniumDriverWrapper {
         try {
             JavascriptExecutor js = (JavascriptExecutor) driver;
             js.executeScript("window.history.forward();");
-            sleep(2000);
+            sleep(1000);
         } catch (Exception e) {
             e.printStackTrace();
             takeScreenhot("goForward()");
@@ -695,11 +695,11 @@ public class SeleniumDriverWrapper {
         Actions actions = new Actions(driver);
         try
         {
-            waitForElementToBeVisible(element,3);
+            //waitForElementToBeVisible(element,3);
             actions.moveToElement(element).perform();
             while (!isElementDisplayed(element)) {// in case element is covered by a menu element we need to scroll down until element is clickable
                 arrowDown(1);
-                implicitlyWait(1000);
+                implicitlyWait(500);
             }
             //implicitlyWait(3);
         } catch (IllegalArgumentException a)
@@ -807,7 +807,7 @@ public class SeleniumDriverWrapper {
             actions.moveToElement(element).keyDown(Keys.LEFT_CONTROL).click(element).build().perform();
             ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
             driver.switchTo().window(tabs.get(tabs.size()-1));
-            sleep(3000);
+            sleep(1000);
         }
         catch(InterruptedException e)
         {

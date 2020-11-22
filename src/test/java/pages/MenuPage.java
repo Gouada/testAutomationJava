@@ -44,11 +44,15 @@ public class MenuPage extends BasePage{
         return getElement(myLocator, "xpath") != null;
     }
 
-    private void expandLeftMenuElement(String menuElement)
+    public void expandLeftMenuElement(String menuElement)
     {
         String myLocator = getLeftMenuexpandingButtonxpath(menuElement);
+        WebElement expander = getElementByXpath(myLocator);
+        WebElement element = getElementByXpath(getLeftMenuXpath(menuElement));
+        if(!isElementDisplayed(element))
+            moveMouseOnElement(element);
         if(!isLeftMenuElementExpanded(menuElement)) {
-            clickElement(myLocator,"xpath");
+            clickElement(expander);
         }
     }
 
@@ -59,13 +63,20 @@ public class MenuPage extends BasePage{
             clickElement(myLocator,"xpath");
     }
 
+    public void click_menu_button()
+    {
+        clickElement(getElementByXpath(meunu_button_xpath));
+    }
     public void clickLeftMenuElement(String menuElement)
     {
         String myLocator = getLeftMenuXpath(menuElement);
-        clickElement(myLocator,"xpath");
+        WebElement element = getElementByXpath(myLocator);
+        if(!isElementDisplayed(element))
+            moveMouseOnElement(element);
+        clickElement(element);
     }
 
-    public void clickSubMenuElement(String menuElement, String subMenuElement)
+    public void clickLeftSubMenuElement(String menuElement, String subMenuElement)
     {
         String myLocator = getLeftMenuSubMenuElement(subMenuElement);
         expandLeftMenuElement(menuElement);
@@ -93,6 +104,7 @@ public class MenuPage extends BasePage{
     public void click_right_arrow_until_is_visible(String menu) {
         WebElement element = getElementByXpath(getTopMenuXpathString(menu));
         WebElement arrow = getElementByXpath(pfeil_nach_recht_xpath);
+        waitForElementToBeClickable(arrow,3);
         do {
             clickElement(arrow);
             implicitlyWait(1);

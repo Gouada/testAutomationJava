@@ -66,7 +66,7 @@ public class BestSellerBasePage extends BasePage{
 
     public void clickBestSellerSubMenuElement(String subMenuElement) throws NoSuchElementException {
         MyLogger.logger.warn(getBestsellerSubMenuElementXpath(subMenuElement));
-        System.out.println(getBestsellerSubMenuElementXpath(subMenuElement));
+        //System.out.println(getBestsellerSubMenuElementXpath(subMenuElement));
         WebElement element = getElementByXpath(getBestsellerSubMenuElementXpath(subMenuElement));
         closeAdversting();
         if (isElementDisplayed(element))
