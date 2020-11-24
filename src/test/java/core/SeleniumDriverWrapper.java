@@ -6,6 +6,7 @@ import org.apache.logging.log4j.Level;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
@@ -176,7 +177,7 @@ public class SeleniumDriverWrapper {
         }
     }
 
-    public void TypeTextInField(String myLocator, String myLocatorType, String text)
+    public void typeTextInField(String myLocator, String myLocatorType, String text)
     {
         try {
                 getElement(myLocator, myLocatorType).sendKeys(text);
@@ -189,9 +190,13 @@ public class SeleniumDriverWrapper {
         {
             MyLogger.logger.error("Element Not Visible Exception: " + myLocatorType + e.getMessage());
         }
+        catch (Exception e)
+        {
+            MyLogger.logger.error("Exception: " + myLocatorType + e.getMessage());
+        }
     }
 
-    public void TypeTextInField( WebElement element, String text)
+    public void typeTextInField( WebElement element, String text)
     {
         try {
             element.sendKeys(text);
@@ -226,7 +231,9 @@ public class SeleniumDriverWrapper {
         String text ="";
         try {
 
-            text = element.getText();
+            //text = element.getText();
+            text = element.getAttribute("innerHTML");
+            //System.out.println("Text        ............:"+text);
         }
         catch (ElementClickInterceptedException e)
         {
@@ -453,6 +460,30 @@ public class SeleniumDriverWrapper {
         }
         finally {
         return element;
+        }
+    }
+
+    public void selectDropDownElementByIndex(WebElement element, int index)
+    {
+        try {
+            Select select = new Select(element);
+            select.selectByIndex(index);
+        }
+        catch (Exception e)
+        {
+            MyLogger.logger.error(e.getMessage());
+        }
+    }
+
+    public void selectDropDownElementByVisibleText(WebElement element, String text)
+    {
+        try {
+            Select select = new Select(element);
+            select.selectByVisibleText(text);
+        }
+        catch (Exception e)
+        {
+            MyLogger.logger.error(e.getMessage());
         }
     }
 
@@ -709,6 +740,12 @@ public class SeleniumDriverWrapper {
         catch (Exception e) {
         MyLogger.logger.error(e.getMessage());
         }
+    }
+
+    public void pressEnter()
+    {
+        Actions actions = new Actions(driver);
+        actions.sendKeys(Keys.ENTER).perform();
     }
 
     public void pageUp(int count)

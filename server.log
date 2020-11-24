@@ -1,0 +1,808 @@
+2020-11-24 18:45:07,422 INFO s.TestCaseBase [main] starting test ...
+2020-11-24 18:45:07,437 INFO h.PropertiesFilesLoader [main] success loading properties-file /properties/environment.properties
+2020-11-24 18:45:07,437 INFO h.PropertiesFilesLoader [main] getting property with following key...CHROME_DRIVER_LOCATION
+2020-11-24 18:45:07,437 INFO h.PropertiesFilesLoader [main]  found corresponding property C:\MyWorkspace\SeleniumChromeDriver\87\chromedriver.exe
+2020-11-24 18:45:16,556 ERROR c.SeleniumDriverWrapper [main] Element: //div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58233}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4ff533f7cc610cb497e3274c3ec32317
+*** Element info: {Using=xpath, value=//div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen']}
+2020-11-24 18:45:16,569 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 18:45:16,593 ERROR c.SeleniumDriverWrapper [main] Element: //button[@id='btnClose'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='btnClose']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58233}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4ff533f7cc610cb497e3274c3ec32317
+*** Element info: {Using=xpath, value=//button[@id='btnClose']}
+2020-11-24 18:45:16,593 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 18:45:16,611 ERROR c.SeleniumDriverWrapper [main] Element: //button[@aria-label='Schließen'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//button[@aria-label='Schließen']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58233}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4ff533f7cc610cb497e3274c3ec32317
+*** Element info: {Using=xpath, value=//button[@aria-label='Schließen']}
+2020-11-24 18:45:16,612 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 18:45:39,164 INFO s.TestCaseBase [main] starting test ...
+2020-11-24 18:45:41,868 ERROR c.SeleniumDriverWrapper [main] Element: //div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58233}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4ff533f7cc610cb497e3274c3ec32317
+*** Element info: {Using=xpath, value=//div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen']}
+2020-11-24 18:45:41,868 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 18:45:41,911 ERROR c.SeleniumDriverWrapper [main] Element: //button[@id='btnClose'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='btnClose']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58233}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4ff533f7cc610cb497e3274c3ec32317
+*** Element info: {Using=xpath, value=//button[@id='btnClose']}
+2020-11-24 18:45:41,911 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 18:45:41,930 ERROR c.SeleniumDriverWrapper [main] Element: //button[@aria-label='Schließen'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//button[@aria-label='Schließen']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58233}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4ff533f7cc610cb497e3274c3ec32317
+*** Element info: {Using=xpath, value=//button[@aria-label='Schließen']}
+2020-11-24 18:45:41,931 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 18:50:16,081 INFO s.TestCaseBase [main] starting test ...
+2020-11-24 18:50:16,091 INFO h.PropertiesFilesLoader [main] success loading properties-file /properties/environment.properties
+2020-11-24 18:50:16,091 INFO h.PropertiesFilesLoader [main] getting property with following key...CHROME_DRIVER_LOCATION
+2020-11-24 18:50:16,091 INFO h.PropertiesFilesLoader [main]  found corresponding property C:\MyWorkspace\SeleniumChromeDriver\87\chromedriver.exe
+2020-11-24 18:50:25,108 ERROR c.SeleniumDriverWrapper [main] Element: //div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59190}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 56b4feec122be603bc1b21c4b46525af
+*** Element info: {Using=xpath, value=//div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen']}
+2020-11-24 18:50:25,108 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 18:50:25,132 ERROR c.SeleniumDriverWrapper [main] Element: //button[@id='btnClose'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='btnClose']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59190}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 56b4feec122be603bc1b21c4b46525af
+*** Element info: {Using=xpath, value=//button[@id='btnClose']}
+2020-11-24 18:50:25,132 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 18:50:25,146 ERROR c.SeleniumDriverWrapper [main] Element: //button[@aria-label='Schließen'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//button[@aria-label='Schließen']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59190}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 56b4feec122be603bc1b21c4b46525af
+*** Element info: {Using=xpath, value=//button[@aria-label='Schließen']}
+2020-11-24 18:50:25,147 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 18:50:47,445 INFO s.TestCaseBase [main] starting test ...
+2020-11-24 18:51:21,668 INFO s.TestCaseBase [main] starting test ...
+2020-11-24 18:51:21,684 INFO h.PropertiesFilesLoader [main] success loading properties-file /properties/environment.properties
+2020-11-24 18:51:21,684 INFO h.PropertiesFilesLoader [main] getting property with following key...CHROME_DRIVER_LOCATION
+2020-11-24 18:51:21,684 INFO h.PropertiesFilesLoader [main]  found corresponding property C:\MyWorkspace\SeleniumChromeDriver\87\chromedriver.exe
+2020-11-24 18:51:29,945 ERROR c.SeleniumDriverWrapper [main] Element: //div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59488}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98013c99550cc1e26d16f5890ddbce4c
+*** Element info: {Using=xpath, value=//div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen']}
+2020-11-24 18:51:29,945 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 18:51:29,981 ERROR c.SeleniumDriverWrapper [main] Element: //button[@id='btnClose'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='btnClose']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59488}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98013c99550cc1e26d16f5890ddbce4c
+*** Element info: {Using=xpath, value=//button[@id='btnClose']}
+2020-11-24 18:51:29,982 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 18:51:30,007 ERROR c.SeleniumDriverWrapper [main] Element: //button[@aria-label='Schließen'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//button[@aria-label='Schließen']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59488}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 98013c99550cc1e26d16f5890ddbce4c
+*** Element info: {Using=xpath, value=//button[@aria-label='Schließen']}
+2020-11-24 18:51:30,007 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 18:51:55,183 INFO s.TestCaseBase [main] starting test ...
+2020-11-24 18:59:37,769 INFO s.TestCaseBase [main] starting test ...
+2020-11-24 18:59:37,784 INFO h.PropertiesFilesLoader [main] success loading properties-file /properties/environment.properties
+2020-11-24 18:59:37,784 INFO h.PropertiesFilesLoader [main] getting property with following key...CHROME_DRIVER_LOCATION
+2020-11-24 18:59:37,784 INFO h.PropertiesFilesLoader [main]  found corresponding property C:\MyWorkspace\SeleniumChromeDriver\87\chromedriver.exe
+2020-11-24 18:59:46,675 ERROR c.SeleniumDriverWrapper [main] Element: //div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60748}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4bbceedc172ac68af7ebcb328dad2084
+*** Element info: {Using=xpath, value=//div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen']}
+2020-11-24 18:59:46,675 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 18:59:46,692 ERROR c.SeleniumDriverWrapper [main] Element: //button[@id='btnClose'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='btnClose']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60748}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4bbceedc172ac68af7ebcb328dad2084
+*** Element info: {Using=xpath, value=//button[@id='btnClose']}
+2020-11-24 18:59:46,692 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 18:59:46,707 ERROR c.SeleniumDriverWrapper [main] Element: //button[@aria-label='Schließen'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//button[@aria-label='Schließen']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60748}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4bbceedc172ac68af7ebcb328dad2084
+*** Element info: {Using=xpath, value=//button[@aria-label='Schließen']}
+2020-11-24 18:59:46,708 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 19:00:09,468 INFO s.TestCaseBase [main] starting test ...
+2020-11-24 19:02:17,222 INFO s.TestCaseBase [main] starting test ...
+2020-11-24 19:02:17,233 INFO h.PropertiesFilesLoader [main] success loading properties-file /properties/environment.properties
+2020-11-24 19:02:17,233 INFO h.PropertiesFilesLoader [main] getting property with following key...CHROME_DRIVER_LOCATION
+2020-11-24 19:02:17,233 INFO h.PropertiesFilesLoader [main]  found corresponding property C:\MyWorkspace\SeleniumChromeDriver\87\chromedriver.exe
+2020-11-24 19:02:25,662 ERROR c.SeleniumDriverWrapper [main] Element: //div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61121}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d391372f14f823590eb36d652bebbf71
+*** Element info: {Using=xpath, value=//div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen']}
+2020-11-24 19:02:25,662 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 19:02:25,687 ERROR c.SeleniumDriverWrapper [main] Element: //button[@id='btnClose'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='btnClose']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61121}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d391372f14f823590eb36d652bebbf71
+*** Element info: {Using=xpath, value=//button[@id='btnClose']}
+2020-11-24 19:02:25,687 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 19:02:25,702 ERROR c.SeleniumDriverWrapper [main] Element: //button[@aria-label='Schließen'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//button[@aria-label='Schließen']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61121}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d391372f14f823590eb36d652bebbf71
+*** Element info: {Using=xpath, value=//button[@aria-label='Schließen']}
+2020-11-24 19:02:25,702 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 19:02:48,672 INFO s.TestCaseBase [main] starting test ...
+2020-11-24 19:02:53,798 ERROR c.SeleniumDriverWrapper [main] Element: //div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61121}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d391372f14f823590eb36d652bebbf71
+*** Element info: {Using=xpath, value=//div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen']}
+2020-11-24 19:02:53,798 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 19:02:53,827 ERROR c.SeleniumDriverWrapper [main] Element: //button[@id='btnClose'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='btnClose']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61121}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d391372f14f823590eb36d652bebbf71
+*** Element info: {Using=xpath, value=//button[@id='btnClose']}
+2020-11-24 19:02:53,827 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 19:02:53,842 ERROR c.SeleniumDriverWrapper [main] Element: //button[@aria-label='Schließen'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//button[@aria-label='Schließen']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61121}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d391372f14f823590eb36d652bebbf71
+*** Element info: {Using=xpath, value=//button[@aria-label='Schließen']}
+2020-11-24 19:02:53,843 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 19:02:55,904 ERROR c.SeleniumDriverWrapper [main] Element: //iframe[contains(@id, 'sp_message_iframe')] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//iframe[contains(@id, 'sp_message_iframe')]"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61121}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d391372f14f823590eb36d652bebbf71
+*** Element info: {Using=xpath, value=//iframe[contains(@id, 'sp_message_iframe')]}
+2020-11-24 19:04:24,431 INFO s.TestCaseBase [main] starting test ...
+2020-11-24 19:04:24,444 INFO h.PropertiesFilesLoader [main] success loading properties-file /properties/environment.properties
+2020-11-24 19:04:24,444 INFO h.PropertiesFilesLoader [main] getting property with following key...CHROME_DRIVER_LOCATION
+2020-11-24 19:04:24,444 INFO h.PropertiesFilesLoader [main]  found corresponding property C:\MyWorkspace\SeleniumChromeDriver\87\chromedriver.exe
+2020-11-24 19:04:32,213 ERROR c.SeleniumDriverWrapper [main] Element: //div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61500}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: cdb384c02cbe9ef1eed180149ff50005
+*** Element info: {Using=xpath, value=//div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen']}
+2020-11-24 19:04:32,214 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 19:04:32,236 ERROR c.SeleniumDriverWrapper [main] Element: //button[@id='btnClose'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='btnClose']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61500}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: cdb384c02cbe9ef1eed180149ff50005
+*** Element info: {Using=xpath, value=//button[@id='btnClose']}
+2020-11-24 19:04:32,236 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 19:04:32,251 ERROR c.SeleniumDriverWrapper [main] Element: //button[@aria-label='Schließen'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//button[@aria-label='Schließen']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61500}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: cdb384c02cbe9ef1eed180149ff50005
+*** Element info: {Using=xpath, value=//button[@aria-label='Schließen']}
+2020-11-24 19:04:32,251 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 19:05:00,459 ERROR c.SeleniumDriverWrapper [main] Element: //section[@id='suchergebnisse']/div[1]//h2//span//span//span was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//section[@id='suchergebnisse']/div[1]//h2//span//span//span"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61500}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: cdb384c02cbe9ef1eed180149ff50005
+*** Element info: {Using=xpath, value=//section[@id='suchergebnisse']/div[1]//h2//span//span//span}
+2020-11-24 19:05:00,504 INFO s.TestCaseBase [main] starting test ...
+2020-11-24 19:05:06,034 ERROR c.SeleniumDriverWrapper [main] Element: //div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61500}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: cdb384c02cbe9ef1eed180149ff50005
+*** Element info: {Using=xpath, value=//div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen']}
+2020-11-24 19:05:06,035 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 19:05:06,056 ERROR c.SeleniumDriverWrapper [main] Element: //button[@id='btnClose'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='btnClose']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61500}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: cdb384c02cbe9ef1eed180149ff50005
+*** Element info: {Using=xpath, value=//button[@id='btnClose']}
+2020-11-24 19:05:06,057 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 19:05:06,085 ERROR c.SeleniumDriverWrapper [main] Element: //button[@aria-label='Schließen'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//button[@aria-label='Schließen']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61500}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: cdb384c02cbe9ef1eed180149ff50005
+*** Element info: {Using=xpath, value=//button[@aria-label='Schließen']}
+2020-11-24 19:05:06,085 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 19:05:08,130 ERROR c.SeleniumDriverWrapper [main] Element: //iframe[contains(@id, 'sp_message_iframe')] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//iframe[contains(@id, 'sp_message_iframe')]"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61500}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: cdb384c02cbe9ef1eed180149ff50005
+*** Element info: {Using=xpath, value=//iframe[contains(@id, 'sp_message_iframe')]}
+2020-11-24 19:05:45,844 INFO s.TestCaseBase [main] starting test ...
+2020-11-24 19:05:45,859 INFO h.PropertiesFilesLoader [main] success loading properties-file /properties/environment.properties
+2020-11-24 19:05:45,859 INFO h.PropertiesFilesLoader [main] getting property with following key...CHROME_DRIVER_LOCATION
+2020-11-24 19:05:45,859 INFO h.PropertiesFilesLoader [main]  found corresponding property C:\MyWorkspace\SeleniumChromeDriver\87\chromedriver.exe
+2020-11-24 19:05:53,952 ERROR c.SeleniumDriverWrapper [main] Element: //div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 034e2ac2b191dea100f05fd7d3849d1f
+*** Element info: {Using=xpath, value=//div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen']}
+2020-11-24 19:05:53,953 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 19:05:53,976 ERROR c.SeleniumDriverWrapper [main] Element: //button[@id='btnClose'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='btnClose']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 034e2ac2b191dea100f05fd7d3849d1f
+*** Element info: {Using=xpath, value=//button[@id='btnClose']}
+2020-11-24 19:05:53,976 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 19:05:53,990 ERROR c.SeleniumDriverWrapper [main] Element: //button[@aria-label='Schließen'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//button[@aria-label='Schließen']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 034e2ac2b191dea100f05fd7d3849d1f
+*** Element info: {Using=xpath, value=//button[@aria-label='Schließen']}
+2020-11-24 19:05:53,991 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 19:06:24,180 INFO s.TestCaseBase [main] starting test ...
+2020-11-24 19:06:30,589 ERROR c.SeleniumDriverWrapper [main] Element: //div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 034e2ac2b191dea100f05fd7d3849d1f
+*** Element info: {Using=xpath, value=//div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen']}
+2020-11-24 19:06:30,589 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 19:06:31,605 ERROR c.SeleniumDriverWrapper [main] Element: //button[@id='btnClose'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='btnClose']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 034e2ac2b191dea100f05fd7d3849d1f
+*** Element info: {Using=xpath, value=//button[@id='btnClose']}
+2020-11-24 19:06:31,606 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 19:06:32,630 ERROR c.SeleniumDriverWrapper [main] Element: //button[@aria-label='Schließen'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//button[@aria-label='Schließen']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 034e2ac2b191dea100f05fd7d3849d1f
+*** Element info: {Using=xpath, value=//button[@aria-label='Schließen']}
+2020-11-24 19:06:32,630 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 19:06:35,690 ERROR c.SeleniumDriverWrapper [main] Element: //iframe[contains(@id, 'sp_message_iframe')] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//iframe[contains(@id, 'sp_message_iframe')]"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 034e2ac2b191dea100f05fd7d3849d1f
+*** Element info: {Using=xpath, value=//iframe[contains(@id, 'sp_message_iframe')]}
+2020-11-24 19:06:55,946 INFO s.TestCaseBase [main] starting test ...
+2020-11-24 19:07:01,638 ERROR c.SeleniumDriverWrapper [main] Element: //div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 034e2ac2b191dea100f05fd7d3849d1f
+*** Element info: {Using=xpath, value=//div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen']}
+2020-11-24 19:07:01,639 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 19:07:02,685 ERROR c.SeleniumDriverWrapper [main] Element: //button[@id='btnClose'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='btnClose']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 034e2ac2b191dea100f05fd7d3849d1f
+*** Element info: {Using=xpath, value=//button[@id='btnClose']}
+2020-11-24 19:07:02,685 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 19:07:03,710 ERROR c.SeleniumDriverWrapper [main] Element: //button[@aria-label='Schließen'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//button[@aria-label='Schließen']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 034e2ac2b191dea100f05fd7d3849d1f
+*** Element info: {Using=xpath, value=//button[@aria-label='Schließen']}
+2020-11-24 19:07:03,711 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 19:07:06,777 ERROR c.SeleniumDriverWrapper [main] Element: //iframe[contains(@id, 'sp_message_iframe')] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//iframe[contains(@id, 'sp_message_iframe')]"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 034e2ac2b191dea100f05fd7d3849d1f
+*** Element info: {Using=xpath, value=//iframe[contains(@id, 'sp_message_iframe')]}
+2020-11-24 19:07:29,090 INFO s.TestCaseBase [main] starting test ...
+2020-11-24 19:07:36,134 ERROR c.SeleniumDriverWrapper [main] Element: //div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 034e2ac2b191dea100f05fd7d3849d1f
+*** Element info: {Using=xpath, value=//div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen']}
+2020-11-24 19:07:36,134 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 19:07:37,172 ERROR c.SeleniumDriverWrapper [main] Element: //button[@id='btnClose'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='btnClose']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 034e2ac2b191dea100f05fd7d3849d1f
+*** Element info: {Using=xpath, value=//button[@id='btnClose']}
+2020-11-24 19:07:37,173 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 19:07:38,202 ERROR c.SeleniumDriverWrapper [main] Element: //button[@aria-label='Schließen'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//button[@aria-label='Schließen']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 034e2ac2b191dea100f05fd7d3849d1f
+*** Element info: {Using=xpath, value=//button[@aria-label='Schließen']}
+2020-11-24 19:07:38,203 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 19:07:41,264 ERROR c.SeleniumDriverWrapper [main] Element: //iframe[contains(@id, 'sp_message_iframe')] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//iframe[contains(@id, 'sp_message_iframe')]"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 034e2ac2b191dea100f05fd7d3849d1f
+*** Element info: {Using=xpath, value=//iframe[contains(@id, 'sp_message_iframe')]}
+2020-11-24 19:08:04,541 INFO s.TestCaseBase [main] starting test ...
+2020-11-24 19:08:12,417 ERROR c.SeleniumDriverWrapper [main] Element: //div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 034e2ac2b191dea100f05fd7d3849d1f
+*** Element info: {Using=xpath, value=//div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen']}
+2020-11-24 19:08:12,417 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 19:08:13,465 ERROR c.SeleniumDriverWrapper [main] Element: //button[@id='btnClose'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='btnClose']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 034e2ac2b191dea100f05fd7d3849d1f
+*** Element info: {Using=xpath, value=//button[@id='btnClose']}
+2020-11-24 19:08:13,465 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 19:08:14,524 ERROR c.SeleniumDriverWrapper [main] Element: //button[@aria-label='Schließen'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//button[@aria-label='Schließen']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 034e2ac2b191dea100f05fd7d3849d1f
+*** Element info: {Using=xpath, value=//button[@aria-label='Schließen']}
+2020-11-24 19:08:14,525 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 19:08:17,585 ERROR c.SeleniumDriverWrapper [main] Element: //iframe[contains(@id, 'sp_message_iframe')] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//iframe[contains(@id, 'sp_message_iframe')]"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 034e2ac2b191dea100f05fd7d3849d1f
+*** Element info: {Using=xpath, value=//iframe[contains(@id, 'sp_message_iframe')]}
+2020-11-24 19:08:32,326 INFO s.TestCaseBase [main] starting test ...
+2020-11-24 19:08:38,609 ERROR c.SeleniumDriverWrapper [main] Element: //div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 034e2ac2b191dea100f05fd7d3849d1f
+*** Element info: {Using=xpath, value=//div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen']}
+2020-11-24 19:08:38,609 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 19:08:39,681 ERROR c.SeleniumDriverWrapper [main] Element: //button[@id='btnClose'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='btnClose']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 034e2ac2b191dea100f05fd7d3849d1f
+*** Element info: {Using=xpath, value=//button[@id='btnClose']}
+2020-11-24 19:08:39,681 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 19:08:40,741 ERROR c.SeleniumDriverWrapper [main] Element: //button[@aria-label='Schließen'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//button[@aria-label='Schließen']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 034e2ac2b191dea100f05fd7d3849d1f
+*** Element info: {Using=xpath, value=//button[@aria-label='Schließen']}
+2020-11-24 19:08:40,741 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 19:08:43,783 ERROR c.SeleniumDriverWrapper [main] Element: //iframe[contains(@id, 'sp_message_iframe')] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//iframe[contains(@id, 'sp_message_iframe')]"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 034e2ac2b191dea100f05fd7d3849d1f
+*** Element info: {Using=xpath, value=//iframe[contains(@id, 'sp_message_iframe')]}
+2020-11-24 19:08:58,190 ERROR c.SeleniumDriverWrapper [main] Element Click Intercepted Exception: xpathelement click intercepted: Element <button data-search-page-prev="" title="Zurück" class="group flex justify-start items-center text-black font-normal font-sansUI lg:text-base md:text-base sm:text-s leading-normal">...</button> is not clickable at point (271, 10). Other element would receive the click: <div data-headerbar-el="inner" class="lg:max-w-lg mx-auto flex items-center lg:px-32 md:px-24 lg:py-20 md:py-20 sm:pb-12 sm:pl-16 sm:pr-12 sm:pt-12 lg:h-80 md:h-80 sm:h-48">...</div>
+  (Session info: chrome=87.0.4280.66)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 034e2ac2b191dea100f05fd7d3849d1f
+2020-11-24 19:08:58,190 INFO c.SeleniumDriverWrapper [main] this is the filename  ERROR_SCREENSHOT_click__1606241338190.jpg
+2020-11-24 19:08:58,657 ERROR s.SearchPageSteps [main] Error
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: driver.version: unknown
+2020-11-24 19:08:58,657 INFO c.SeleniumDriverWrapper [main] this is the filename  ERROR_SCREENSHOT_clicking_Zurueck__1606241338657.jpg
+2020-11-24 19:10:42,006 INFO s.TestCaseBase [main] starting test ...
+2020-11-24 19:10:42,016 INFO h.PropertiesFilesLoader [main] success loading properties-file /properties/environment.properties
+2020-11-24 19:10:42,016 INFO h.PropertiesFilesLoader [main] getting property with following key...CHROME_DRIVER_LOCATION
+2020-11-24 19:10:42,016 INFO h.PropertiesFilesLoader [main]  found corresponding property C:\MyWorkspace\SeleniumChromeDriver\87\chromedriver.exe
+2020-11-24 19:10:50,757 ERROR c.SeleniumDriverWrapper [main] Element: //div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3acfd45a8541b8cc4490386f44d1b612
+*** Element info: {Using=xpath, value=//div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen']}
+2020-11-24 19:10:50,758 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 19:10:50,776 ERROR c.SeleniumDriverWrapper [main] Element: //button[@id='btnClose'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='btnClose']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3acfd45a8541b8cc4490386f44d1b612
+*** Element info: {Using=xpath, value=//button[@id='btnClose']}
+2020-11-24 19:10:50,777 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 19:10:50,806 ERROR c.SeleniumDriverWrapper [main] Element: //button[@aria-label='Schließen'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//button[@aria-label='Schließen']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3acfd45a8541b8cc4490386f44d1b612
+*** Element info: {Using=xpath, value=//button[@aria-label='Schließen']}
+2020-11-24 19:10:50,806 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 19:11:21,095 INFO s.TestCaseBase [main] starting test ...
+2020-11-24 19:11:27,610 ERROR c.SeleniumDriverWrapper [main] Element: //div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3acfd45a8541b8cc4490386f44d1b612
+*** Element info: {Using=xpath, value=//div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen']}
+2020-11-24 19:11:27,611 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 19:11:28,674 ERROR c.SeleniumDriverWrapper [main] Element: //button[@id='btnClose'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='btnClose']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3acfd45a8541b8cc4490386f44d1b612
+*** Element info: {Using=xpath, value=//button[@id='btnClose']}
+2020-11-24 19:11:29,024 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 19:11:30,068 ERROR c.SeleniumDriverWrapper [main] Element: //button[@aria-label='Schließen'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//button[@aria-label='Schließen']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3acfd45a8541b8cc4490386f44d1b612
+*** Element info: {Using=xpath, value=//button[@aria-label='Schließen']}
+2020-11-24 19:11:30,068 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 19:11:33,118 ERROR c.SeleniumDriverWrapper [main] Element: //iframe[contains(@id, 'sp_message_iframe')] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//iframe[contains(@id, 'sp_message_iframe')]"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3acfd45a8541b8cc4490386f44d1b612
+*** Element info: {Using=xpath, value=//iframe[contains(@id, 'sp_message_iframe')]}
+2020-11-24 19:11:53,920 INFO s.TestCaseBase [main] starting test ...
+2020-11-24 19:12:00,001 ERROR c.SeleniumDriverWrapper [main] Element: //div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3acfd45a8541b8cc4490386f44d1b612
+*** Element info: {Using=xpath, value=//div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen']}
+2020-11-24 19:12:00,001 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 19:12:01,025 ERROR c.SeleniumDriverWrapper [main] Element: //button[@id='btnClose'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='btnClose']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3acfd45a8541b8cc4490386f44d1b612
+*** Element info: {Using=xpath, value=//button[@id='btnClose']}
+2020-11-24 19:12:01,025 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 19:12:02,108 ERROR c.SeleniumDriverWrapper [main] Element: //button[@aria-label='Schließen'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//button[@aria-label='Schließen']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3acfd45a8541b8cc4490386f44d1b612
+*** Element info: {Using=xpath, value=//button[@aria-label='Schließen']}
+2020-11-24 19:12:02,109 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 19:12:05,180 ERROR c.SeleniumDriverWrapper [main] Element: //iframe[contains(@id, 'sp_message_iframe')] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//iframe[contains(@id, 'sp_message_iframe')]"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3acfd45a8541b8cc4490386f44d1b612
+*** Element info: {Using=xpath, value=//iframe[contains(@id, 'sp_message_iframe')]}
+2020-11-24 19:12:31,597 INFO s.TestCaseBase [main] starting test ...
+2020-11-24 19:12:37,428 ERROR c.SeleniumDriverWrapper [main] Element: //div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3acfd45a8541b8cc4490386f44d1b612
+*** Element info: {Using=xpath, value=//div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen']}
+2020-11-24 19:12:37,429 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 19:12:38,518 ERROR c.SeleniumDriverWrapper [main] Element: //button[@id='btnClose'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='btnClose']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3acfd45a8541b8cc4490386f44d1b612
+*** Element info: {Using=xpath, value=//button[@id='btnClose']}
+2020-11-24 19:12:38,518 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 19:12:39,578 ERROR c.SeleniumDriverWrapper [main] Element: //button[@aria-label='Schließen'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//button[@aria-label='Schließen']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3acfd45a8541b8cc4490386f44d1b612
+*** Element info: {Using=xpath, value=//button[@aria-label='Schließen']}
+2020-11-24 19:12:39,579 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 19:12:42,669 ERROR c.SeleniumDriverWrapper [main] Element: //iframe[contains(@id, 'sp_message_iframe')] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//iframe[contains(@id, 'sp_message_iframe')]"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3acfd45a8541b8cc4490386f44d1b612
+*** Element info: {Using=xpath, value=//iframe[contains(@id, 'sp_message_iframe')]}
+2020-11-24 19:13:02,053 INFO s.TestCaseBase [main] starting test ...
+2020-11-24 19:13:07,669 ERROR c.SeleniumDriverWrapper [main] Element: //div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3acfd45a8541b8cc4490386f44d1b612
+*** Element info: {Using=xpath, value=//div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen']}
+2020-11-24 19:13:07,669 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 19:13:08,726 ERROR c.SeleniumDriverWrapper [main] Element: //button[@id='btnClose'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='btnClose']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3acfd45a8541b8cc4490386f44d1b612
+*** Element info: {Using=xpath, value=//button[@id='btnClose']}
+2020-11-24 19:13:08,726 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 19:13:09,812 ERROR c.SeleniumDriverWrapper [main] Element: //button[@aria-label='Schließen'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//button[@aria-label='Schließen']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3acfd45a8541b8cc4490386f44d1b612
+*** Element info: {Using=xpath, value=//button[@aria-label='Schließen']}
+2020-11-24 19:13:09,812 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 19:13:12,896 ERROR c.SeleniumDriverWrapper [main] Element: //iframe[contains(@id, 'sp_message_iframe')] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//iframe[contains(@id, 'sp_message_iframe')]"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3acfd45a8541b8cc4490386f44d1b612
+*** Element info: {Using=xpath, value=//iframe[contains(@id, 'sp_message_iframe')]}
+2020-11-24 19:13:34,342 INFO s.TestCaseBase [main] starting test ...
+2020-11-24 19:13:41,375 ERROR c.SeleniumDriverWrapper [main] Element: //div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3acfd45a8541b8cc4490386f44d1b612
+*** Element info: {Using=xpath, value=//div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen']}
+2020-11-24 19:13:41,375 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 19:13:42,408 ERROR c.SeleniumDriverWrapper [main] Element: //button[@id='btnClose'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='btnClose']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3acfd45a8541b8cc4490386f44d1b612
+*** Element info: {Using=xpath, value=//button[@id='btnClose']}
+2020-11-24 19:13:42,409 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 19:13:43,421 ERROR c.SeleniumDriverWrapper [main] Element: //button[@aria-label='Schließen'] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//button[@aria-label='Schließen']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3acfd45a8541b8cc4490386f44d1b612
+*** Element info: {Using=xpath, value=//button[@aria-label='Schließen']}
+2020-11-24 19:13:43,421 ERROR c.SeleniumDriverWrapper [main] null
+2020-11-24 19:13:46,526 ERROR c.SeleniumDriverWrapper [main] Element: //iframe[contains(@id, 'sp_message_iframe')] was not foundno such element: Unable to locate element: {"method":"xpath","selector":"//iframe[contains(@id, 'sp_message_iframe')]"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3acfd45a8541b8cc4490386f44d1b612
+*** Element info: {Using=xpath, value=//iframe[contains(@id, 'sp_message_iframe')]}

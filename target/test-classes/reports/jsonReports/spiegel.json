@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3877000000,
+              "duration": 3804000000,
               "status": "passed"
             },
             "line": 5,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 1276000000,
+              "duration": 1304000000,
               "status": "passed"
             },
             "line": 6,
@@ -35,10 +35,10 @@
           },
           {
             "result": {
-              "duration": 5244000000,
+              "duration": 9884000000,
               "status": "passed"
             },
-            "line": 8,
+            "line": 7,
             "name": "I click TopMenuButton",
             "match": {
               "location": "steps.MenuSteps.i_click_top_menu_button()"
@@ -48,11 +48,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-22T15:14:12.326Z",
+        "start_timestamp": "2020-11-24T18:05:45.235Z",
         "before": [
           {
             "result": {
-              "duration": 7947000000,
+              "duration": 6858000000,
               "status": "passed"
             },
             "match": {
@@ -60,42 +60,74 @@
             }
           }
         ],
-        "line": 21,
-        "name": "Bundesregierung",
+        "line": 26,
+        "name": "search",
         "description": "",
-        "id": "spiegel-politk;bundesregierung;;2",
+        "id": "spiegel-left-menu-navigation;search;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 2718000000,
+              "duration": 10416000000,
               "status": "passed"
             },
-            "line": 15,
-            "name": "I click leftSubMenu Bundestag in Politik",
+            "line": 16,
+            "name": "I enter Obama and press enter",
             "match": {
               "arguments": [
                 {
-                  "val": "Bundestag",
-                  "offset": 20
-                },
-                {
-                  "val": "Politik",
-                  "offset": 33
+                  "val": "Obama",
+                  "offset": 8
                 }
               ],
-              "location": "steps.MenuSteps.i_click_leftMenu(java.lang.String,java.lang.String)"
+              "location": "steps.MenuSteps.i_enter_search_word_and_press_enter(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 7717000000,
+              "duration": 579000000,
               "status": "passed"
             },
-            "line": 16,
-            "name": "I click a \"random\" article of alle Beitraege section",
+            "line": 17,
+            "name": "I click weiter 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 15
+                }
+              ],
+              "location": "steps.SearchPageSteps.i_click_weiter(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 145000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click zurück 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 15
+                }
+              ],
+              "location": "steps.SearchPageSteps.i_click_zurück(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1859000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click a \"random\" article on search results page",
             "match": {
               "arguments": [
                 {
@@ -103,16 +135,16 @@
                   "offset": 10
                 }
               ],
-              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
+              "location": "steps.SearchPageSteps.i_click_a_article_on_search_results_page(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 191000000,
+              "duration": 90000000,
               "status": "passed"
             },
-            "line": 17,
+            "line": 20,
             "name": "I click page down 3",
             "match": {
               "arguments": [
@@ -124,14 +156,68 @@
               "location": "steps.HelperSteps.i_click_page_down(int)"
             },
             "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3570000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I go back to \"Suche - DER SPIEGEL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Suche - DER SPIEGEL\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HelperSteps.i_go_back_to(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 168000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I filter results by \"Letztes Jahr\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Letztes Jahr\"",
+                  "offset": 20
+                }
+              ],
+              "location": "steps.SearchPageSteps.i_filter_results_by(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 138000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I filter results by \"seit 2005\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"seit 2005\"",
+                  "offset": 20
+                }
+              ],
+              "location": "steps.SearchPageSteps.i_filter_results_by(java.lang.String)"
+            },
+            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@spiegelPolitik"
+            "name": "@spiegelLeftMenuNavigation"
           },
           {
-            "name": "@Bundesregierung"
+            "name": "@search"
           }
         ]
       },
@@ -144,7 +230,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8135000000,
+              "duration": 10451000000,
               "status": "passed"
             },
             "line": 5,
@@ -156,7 +242,7 @@
           },
           {
             "result": {
-              "duration": 2099000000,
+              "duration": 2069000000,
               "status": "passed"
             },
             "line": 6,
@@ -168,10 +254,10 @@
           },
           {
             "result": {
-              "duration": 180000000,
+              "duration": 2181000000,
               "status": "passed"
             },
-            "line": 8,
+            "line": 7,
             "name": "I click TopMenuButton",
             "match": {
               "location": "steps.MenuSteps.i_click_top_menu_button()"
@@ -181,7 +267,876 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-22T15:14:41.441Z",
+        "start_timestamp": "2020-11-24T18:06:24.179Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.TestCaseBase.setup()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "search",
+        "description": "",
+        "id": "spiegel-left-menu-navigation;search;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9793000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter Lebron James and press enter",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lebron James",
+                  "offset": 8
+                }
+              ],
+              "location": "steps.MenuSteps.i_enter_search_word_and_press_enter(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 526000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click weiter 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 15
+                }
+              ],
+              "location": "steps.SearchPageSteps.i_click_weiter(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 260000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click zurück 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 15
+                }
+              ],
+              "location": "steps.SearchPageSteps.i_click_zurück(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2337000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click a \"random\" article on search results page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 10
+                }
+              ],
+              "location": "steps.SearchPageSteps.i_click_a_article_on_search_results_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 194000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click page down 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_page_down(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3601000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I go back to \"Suche - DER SPIEGEL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Suche - DER SPIEGEL\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HelperSteps.i_go_back_to(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 184000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I filter results by \"Letztes Jahr\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Letztes Jahr\"",
+                  "offset": 20
+                }
+              ],
+              "location": "steps.SearchPageSteps.i_filter_results_by(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 156000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I filter results by \"seit 2005\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"seit 2005\"",
+                  "offset": 20
+                }
+              ],
+              "location": "steps.SearchPageSteps.i_filter_results_by(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@spiegelLeftMenuNavigation"
+          },
+          {
+            "name": "@search"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9769000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I start Spiegel",
+            "match": {
+              "location": "steps.MenuSteps.i_start_Spiegel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2066000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click Akzeptieren und weiter",
+            "match": {
+              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2184000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click TopMenuButton",
+            "match": {
+              "location": "steps.MenuSteps.i_click_top_menu_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-24T18:06:55.945Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.TestCaseBase.setup()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "search",
+        "description": "",
+        "id": "spiegel-left-menu-navigation;search;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11059000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter Thaler Richard and press enter",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Thaler Richard",
+                  "offset": 8
+                }
+              ],
+              "location": "steps.MenuSteps.i_enter_search_word_and_press_enter(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1853000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click weiter 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 15
+                }
+              ],
+              "location": "steps.SearchPageSteps.i_click_weiter(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 363000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click zurück 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 15
+                }
+              ],
+              "location": "steps.SearchPageSteps.i_click_zurück(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1865000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click a \"random\" article on search results page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 10
+                }
+              ],
+              "location": "steps.SearchPageSteps.i_click_a_article_on_search_results_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 87000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click page down 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_page_down(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3599000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I go back to \"Suche - DER SPIEGEL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Suche - DER SPIEGEL\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HelperSteps.i_go_back_to(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 155000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I filter results by \"Letztes Jahr\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Letztes Jahr\"",
+                  "offset": 20
+                }
+              ],
+              "location": "steps.SearchPageSteps.i_filter_results_by(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 139000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I filter results by \"seit 2005\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"seit 2005\"",
+                  "offset": 20
+                }
+              ],
+              "location": "steps.SearchPageSteps.i_filter_results_by(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@spiegelLeftMenuNavigation"
+          },
+          {
+            "name": "@search"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11115000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I start Spiegel",
+            "match": {
+              "location": "steps.MenuSteps.i_start_Spiegel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2063000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click Akzeptieren und weiter",
+            "match": {
+              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2205000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click TopMenuButton",
+            "match": {
+              "location": "steps.MenuSteps.i_click_top_menu_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-24T18:07:29.090Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.TestCaseBase.setup()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "search",
+        "description": "",
+        "id": "spiegel-left-menu-navigation;search;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10041000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter Kahneman Daniel and press enter",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Kahneman Daniel",
+                  "offset": 8
+                }
+              ],
+              "location": "steps.MenuSteps.i_enter_search_word_and_press_enter(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 416000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click weiter 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 15
+                }
+              ],
+              "location": "steps.SearchPageSteps.i_click_weiter(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 41000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click zurück 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 15
+                }
+              ],
+              "location": "steps.SearchPageSteps.i_click_zurück(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1257000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click a \"random\" article on search results page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 10
+                }
+              ],
+              "location": "steps.SearchPageSteps.i_click_a_article_on_search_results_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 82000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click page down 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_page_down(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7908000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I go back to \"Suche - DER SPIEGEL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Suche - DER SPIEGEL\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HelperSteps.i_go_back_to(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 189000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I filter results by \"Letztes Jahr\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Letztes Jahr\"",
+                  "offset": 20
+                }
+              ],
+              "location": "steps.SearchPageSteps.i_filter_results_by(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 127000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I filter results by \"seit 2005\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"seit 2005\"",
+                  "offset": 20
+                }
+              ],
+              "location": "steps.SearchPageSteps.i_filter_results_by(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@spiegelLeftMenuNavigation"
+          },
+          {
+            "name": "@search"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11994000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I start Spiegel",
+            "match": {
+              "location": "steps.MenuSteps.i_start_Spiegel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2059000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click Akzeptieren und weiter",
+            "match": {
+              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2179000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click TopMenuButton",
+            "match": {
+              "location": "steps.MenuSteps.i_click_top_menu_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-24T18:08:04.540Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.TestCaseBase.setup()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "search",
+        "description": "",
+        "id": "spiegel-left-menu-navigation;search;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10094000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter Fama Eugene and press enter",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Fama Eugene",
+                  "offset": 8
+                }
+              ],
+              "location": "steps.MenuSteps.i_enter_search_word_and_press_enter(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 385000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click weiter 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 15
+                }
+              ],
+              "location": "steps.SearchPageSteps.i_click_weiter(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 43000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click zurück 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 15
+                }
+              ],
+              "location": "steps.SearchPageSteps.i_click_zurück(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.IllegalArgumentException: bound must be positive\r\n\tat java.util.Random.nextInt(Random.java:388)\r\n\tat pages.SearchPage.getRandNumber(SearchPage.java:30)\r\n\tat pages.SearchPage.clickRandomArticle(SearchPage.java:37)\r\n\tat steps.SearchPageSteps.i_click_a_article_on_search_results_page(SearchPageSteps.java:47)\r\n\tat ✽.I click a \"random\" article on search results page(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:19)\r\n",
+              "duration": 1018000000,
+              "status": "failed"
+            },
+            "line": 19,
+            "name": "I click a \"random\" article on search results page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 10
+                }
+              ],
+              "location": "steps.SearchPageSteps.i_click_a_article_on_search_results_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "I click page down 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_page_down(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "I go back to \"Suche - DER SPIEGEL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Suche - DER SPIEGEL\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HelperSteps.i_go_back_to(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "I filter results by \"Letztes Jahr\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Letztes Jahr\"",
+                  "offset": 20
+                }
+              ],
+              "location": "steps.SearchPageSteps.i_filter_results_by(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "I filter results by \"seit 2005\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"seit 2005\"",
+                  "offset": 20
+                }
+              ],
+              "location": "steps.SearchPageSteps.i_filter_results_by(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@spiegelLeftMenuNavigation"
+          },
+          {
+            "name": "@search"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10417000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I start Spiegel",
+            "match": {
+              "location": "steps.MenuSteps.i_start_Spiegel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2056000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click Akzeptieren und weiter",
+            "match": {
+              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2210000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click TopMenuButton",
+            "match": {
+              "location": "steps.MenuSteps.i_click_top_menu_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-24T18:08:32.325Z",
         "before": [
           {
             "result": {
@@ -193,42 +1148,74 @@
             }
           }
         ],
-        "line": 22,
-        "name": "Bundesregierung",
+        "line": 31,
+        "name": "search",
         "description": "",
-        "id": "spiegel-politk;bundesregierung;;3",
+        "id": "spiegel-left-menu-navigation;search;;7",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 3805000000,
+              "duration": 9678000000,
               "status": "passed"
             },
-            "line": 15,
-            "name": "I click leftSubMenu Bundesregierung in Politik",
+            "line": 16,
+            "name": "I enter Angela Merkel and press enter",
             "match": {
               "arguments": [
                 {
-                  "val": "Bundesregierung",
-                  "offset": 20
-                },
-                {
-                  "val": "Politik",
-                  "offset": 39
+                  "val": "Angela Merkel",
+                  "offset": 8
                 }
               ],
-              "location": "steps.MenuSteps.i_click_leftMenu(java.lang.String,java.lang.String)"
+              "location": "steps.MenuSteps.i_enter_search_word_and_press_enter(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 9360000000,
+              "duration": 405000000,
               "status": "passed"
             },
-            "line": 16,
-            "name": "I click a \"random\" article of alle Beitraege section",
+            "line": 17,
+            "name": "I click weiter 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 15
+                }
+              ],
+              "location": "steps.SearchPageSteps.i_click_weiter(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2037000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click zurück 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 15
+                }
+              ],
+              "location": "steps.SearchPageSteps.i_click_zurück(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2294000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click a \"random\" article on search results page",
             "match": {
               "arguments": [
                 {
@@ -236,16 +1223,16 @@
                   "offset": 10
                 }
               ],
-              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
+              "location": "steps.SearchPageSteps.i_click_a_article_on_search_results_page(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 190000000,
+              "duration": 100000000,
               "status": "passed"
             },
-            "line": 17,
+            "line": 20,
             "name": "I click page down 3",
             "match": {
               "arguments": [
@@ -257,554 +1244,80 @@
               "location": "steps.HelperSteps.i_click_page_down(int)"
             },
             "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@spiegelPolitik"
-          },
-          {
-            "name": "@Bundesregierung"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 8880000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I start Spiegel",
-            "match": {
-              "location": "steps.MenuSteps.i_start_Spiegel()"
-            },
-            "keyword": "Given "
           },
           {
             "result": {
-              "duration": 2095000000,
+              "duration": 3557000000,
               "status": "passed"
             },
-            "line": 6,
-            "name": "I click Akzeptieren und weiter",
+            "line": 21,
+            "name": "I go back to \"Suche - DER SPIEGEL\"",
             "match": {
-              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+              "arguments": [
+                {
+                  "val": "\"Suche - DER SPIEGEL\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HelperSteps.i_go_back_to(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 333000000,
+              "duration": 450000000,
               "status": "passed"
             },
-            "line": 8,
-            "name": "I click TopMenuButton",
-            "match": {
-              "location": "steps.MenuSteps.i_click_top_menu_button()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-22T15:15:05.229Z",
-        "before": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.TestCaseBase.setup()"
-            }
-          }
-        ],
-        "line": 23,
-        "name": "Bundesregierung",
-        "description": "",
-        "id": "spiegel-politk;bundesregierung;;4",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 3821000000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "I click leftSubMenu Afrika in Ausland",
+            "line": 22,
+            "name": "I filter results by \"Letztes Jahr\"",
             "match": {
               "arguments": [
                 {
-                  "val": "Afrika",
+                  "val": "\"Letztes Jahr\"",
                   "offset": 20
-                },
-                {
-                  "val": "Ausland",
-                  "offset": 30
                 }
               ],
-              "location": "steps.MenuSteps.i_click_leftMenu(java.lang.String,java.lang.String)"
+              "location": "steps.SearchPageSteps.i_filter_results_by(java.lang.String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 5303000000,
+              "duration": 177000000,
               "status": "passed"
             },
-            "line": 16,
-            "name": "I click a \"random\" article of alle Beitraege section",
+            "line": 23,
+            "name": "I filter results by \"seit 2005\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"random\"",
-                  "offset": 10
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 145000000,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "I click page down 3",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3",
-                  "offset": 18
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_page_down(int)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@spiegelPolitik"
-          },
-          {
-            "name": "@Bundesregierung"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 7783000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I start Spiegel",
-            "match": {
-              "location": "steps.MenuSteps.i_start_Spiegel()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2078000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "I click Akzeptieren und weiter",
-            "match": {
-              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 173000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I click TopMenuButton",
-            "match": {
-              "location": "steps.MenuSteps.i_click_top_menu_button()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-22T15:15:25.819Z",
-        "before": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.TestCaseBase.setup()"
-            }
-          }
-        ],
-        "line": 24,
-        "name": "Bundesregierung",
-        "description": "",
-        "id": "spiegel-politk;bundesregierung;;5",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 3923000000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "I click leftSubMenu Nahost in Ausland",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Nahost",
+                  "val": "\"seit 2005\"",
                   "offset": 20
-                },
-                {
-                  "val": "Ausland",
-                  "offset": 30
                 }
               ],
-              "location": "steps.MenuSteps.i_click_leftMenu(java.lang.String,java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 10024000000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "I click a \"random\" article of alle Beitraege section",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"random\"",
-                  "offset": 10
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 153000000,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "I click page down 3",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3",
-                  "offset": 18
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_page_down(int)"
+              "location": "steps.SearchPageSteps.i_filter_results_by(java.lang.String)"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@spiegelPolitik"
+            "name": "@spiegelLeftMenuNavigation"
           },
           {
-            "name": "@Bundesregierung"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 11330000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I start Spiegel",
-            "match": {
-              "location": "steps.MenuSteps.i_start_Spiegel()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2036000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "I click Akzeptieren und weiter",
-            "match": {
-              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 202000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I click TopMenuButton",
-            "match": {
-              "location": "steps.MenuSteps.i_click_top_menu_button()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-22T15:15:49.964Z",
-        "before": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.TestCaseBase.setup()"
-            }
-          }
-        ],
-        "line": 25,
-        "name": "Bundesregierung",
-        "description": "",
-        "id": "spiegel-politk;bundesregierung;;6",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 3900000000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "I click leftSubMenu Leute in Panorama",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Leute",
-                  "offset": 20
-                },
-                {
-                  "val": "Panorama",
-                  "offset": 29
-                }
-              ],
-              "location": "steps.MenuSteps.i_click_leftMenu(java.lang.String,java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 6003000000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "I click a \"random\" article of alle Beitraege section",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"random\"",
-                  "offset": 10
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 99000000,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "I click page down 3",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3",
-                  "offset": 18
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_page_down(int)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@spiegelPolitik"
-          },
-          {
-            "name": "@Bundesregierung"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 7392000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I start Spiegel",
-            "match": {
-              "location": "steps.MenuSteps.i_start_Spiegel()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2053000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "I click Akzeptieren und weiter",
-            "match": {
-              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 163000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I click TopMenuButton",
-            "match": {
-              "location": "steps.MenuSteps.i_click_top_menu_button()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-11-22T15:16:13.540Z",
-        "before": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.TestCaseBase.setup()"
-            }
-          }
-        ],
-        "line": 26,
-        "name": "Bundesregierung",
-        "description": "",
-        "id": "spiegel-politk;bundesregierung;;7",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 4850000000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "I click leftSubMenu Gesellschaft in Panorama",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Gesellschaft",
-                  "offset": 20
-                },
-                {
-                  "val": "Panorama",
-                  "offset": 36
-                }
-              ],
-              "location": "steps.MenuSteps.i_click_leftMenu(java.lang.String,java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 10197000000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "I click a \"random\" article of alle Beitraege section",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"random\"",
-                  "offset": 10
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 162000000,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "I click page down 3",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3",
-                  "offset": 18
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_page_down(int)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@spiegelPolitik"
-          },
-          {
-            "name": "@Bundesregierung"
+            "name": "@search"
           }
         ]
       }
     ],
-    "name": "Spiegel Politk",
+    "name": "Spiegel Left Menu Navigation",
     "description": "",
-    "id": "spiegel-politk",
+    "id": "spiegel-left-menu-navigation",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/politik.feature",
+    "uri": "file:src/test/resources/features/leftMenuNavigation.feature",
     "tags": [
       {
-        "name": "@spiegelPolitik",
+        "name": "@spiegelLeftMenuNavigation",
         "type": "Tag",
         "location": {
           "line": 1,

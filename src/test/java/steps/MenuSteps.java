@@ -81,13 +81,37 @@ public class MenuSteps{
     }
 
     @And("I click TopMenuButton")
-    public void i_click_top_menu_button()
+    public void i_click_top_menu_button() throws Exception
     {
-        menuPage.click_menu_button();
+        try {
+            menuPage.click_menu_button();
+            sleep(1000);
+            //menuPage.implicitlyWait(3);
+        }
+        catch (Exception e)
+        {
+            MyLogger.logger.error(e.getMessage());
+            startPage.takeScreenhot("clicking_top_Menu_Button");
+            throw new Exception(e.getMessage());
+        }
+    }
+
+    @Then("^I click leftMenu (.*)$")
+    public void i_click_leftMenu(String menu ) throws Exception
+    {
+        try{
+            menuPage.clickLeftMenuElement(menu);
+        }
+        catch (Exception e)
+        {
+            MyLogger.logger.error(e.getMessage());
+            startPage.takeScreenhot("clicking_left_Menu");
+            throw new Exception(e.getMessage());
+        }
     }
 
     @Then("^I click leftSubMenu (.*) in (.*)$")
-    public void i_click_leftMenu(String subMenu, String menu ) throws Exception
+    public void i_click_leftSubMenu(String subMenu, String menu ) throws Exception
     {
         try{
             menuPage.clickLeftSubMenuElement(menu, subMenu);
@@ -98,6 +122,21 @@ public class MenuSteps{
             startPage.takeScreenhot("clicking_left_subMenu");
             throw new Exception(e.getMessage());
         }
+    }
+
+    @Then("^I enter (.*) and press enter$")
+    public void i_enter_search_word_and_press_enter(String text) throws Exception {
+        try {
+            menuPage.search(text);
+            sleep(1000);
+        }
+        catch (Exception e)
+        {
+            MyLogger.logger.error(e.getMessage());
+            startPage.takeScreenhot("searching_"+text+"_");
+            //throw new Exception(e.getMessage());
+        }
+
     }
 /*
     @After

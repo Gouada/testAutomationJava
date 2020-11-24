@@ -3,6 +3,8 @@ package pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import static java.lang.Thread.sleep;
+
 public class MenuPage extends BasePage{
 
     private static String navigation_xpath = "//nav[@role='navigation']//parent::div[@class='OffsetContainer bg-white']";
@@ -11,6 +13,10 @@ public class MenuPage extends BasePage{
     private static String pfeil_nach_links_xpath = "((//div[@class='OffsetContainer bg-white']//child::nav[@role='navigation']//preceding-sibling::div)[3]//child::span)[1]";
     private static String meunu_button_xpath = "//button[@data-navbar-el='menuActivator']";
     private static String icon_xpath = "//span[contains(text(), 'Anmelden') and @class='relative bottom-px']";
+    private static String search_button = "//button[@data-search-el='toggle']";
+    private static String search_input_field = "search-input-field";
+    private static String search_menu_field = "search-menu-field";
+    private static String search_main_field = "search-main-field";
 
     public MenuPage(WebDriver driver) {
         super(driver);
@@ -124,5 +130,25 @@ public class MenuPage extends BasePage{
             //waitForElementToBeClickable(element, 1);
         }
         while (!isElementDisplayed(element));
+    }
+
+    public void search(String text) throws InterruptedException {
+        //sleep(3000);
+        if(isElementDisplayed(search_menu_field, "id")) {
+            typeTextInField(search_menu_field, "id", text);
+            sleep(5000);
+        }
+        else
+        {
+            if(isElementDisplayed(search_main_field, "id"))
+                typeTextInField(search_main_field, "id", text);
+            else {
+                if (!isElementDisplayed(search_input_field, "id"))
+                    clickElement(search_button, "xpath");
+                typeTextInField(search_input_field, "id", text);
+                }
+        }
+
+        pressEnter();
     }
 }
