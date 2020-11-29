@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="37" failures="0" name="runners.SpiegelCultureRunner" time="1,895.789" errors="1" skipped="0">
+  <properties>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="DASHLANE_DLL_DIR" value="C:\Users\Lenovo\AppData\Roaming\Dashlane\5.12.0.19744\bin\Firefox_Extension\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\components;C:\Users\Lenovo\AppData\Roaming\Dashlane\5.12.0.19744\ucrt"/>
+    <property name="LOGONSERVER" value="\\LAPTOP-RN5VIIS5"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_172\jre"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="JENKINS_URL" value="http://127.0.0.1:8080/"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_172\jre\lib\endorsed"/>
+    <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules"/>
+    <property name="=::" value="::\"/>
+    <property name="USERDOMAIN" value="LAPTOP-RN5VIIS5"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="test" value="SpiegelCultureRunner"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.version" value="1.8.0_172"/>
+    <property name="JOB_NAME" value="WebAutomationPart2"/>
+    <property name="COMPUTERNAME" value="LAPTOP-RN5VIIS5"/>
+    <property name="ANDROID_HOME" value="C:\Users\Lenovo\AppData\Local\Android\Sdk"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="user.name" value="Lenovo"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="windir" value="C:\WINDOWS"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 142 Stepping 10, GenuineIntel"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="LOCALAPPDATA" value="C:\Users\Lenovo\AppData\Local"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://127.0.0.1:8080/job/WebAutomationPart2/12/display/redirect?page=changes"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="user.script" value=""/>
+    <property name="path.separator" value=";"/>
+    <property name="NUMBER_OF_PROCESSORS" value="8"/>
+    <property name="BUILD_TAG" value="jenkins-WebAutomationPart2-12"/>
+    <property name="PYTHONPATH" value="C:\python37;C:\python37\Scripts;C:\python37\DLLs;C:\python37\Lib;C:\python37\libs;"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\apache-maven-3.5.3 C:\Users\Lenovo\.jenkins\war\WEB-INF\lib\remoting-4.3.jar C:\Users\Lenovo\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar C:\Users\Lenovo\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar 65409"/>
+    <property name="HUDSON_URL" value="http://127.0.0.1:8080/"/>
+    <property name="JENKINS_SERVER_COOKIE" value="0631cecedd819be2"/>
+    <property name="POSTGRESQLPATH" value="C:\Program Files\PostgreSQL\12\bin;C:\Program Files\PostgreSQL\12\lib"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_172/bin;C:\python37\Scripts\;C:\python37\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_172;C:\apache-maven-3.5.3\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Users\Lenovo\AppData\Local\Android\Sdk;C:\Users\Lenovo\AppData\Local\Android\Sdk\tools;C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools;C:\WINDOWS\System32\OpenSSH\;C:\MyWorkspace\SeleniumChromeDriver\;C:\python37;C:\python37\Scripts;C:\python37\DLLs;C:\python37\Lib;C:\python37\libs;;C:\Program Files\PostgreSQL\12\bin;C:\Program Files\PostgreSQL\12\lib;C:\MyWorkspace\SeleniumChromeDriver\83\;C:\MyWorkspace\SeleniumFirefoxDriver\2.6\;C:\MyWorkspace\IEDriver\;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Users\Lenovo\AppData\Roaming\npm;C:\Users\Lenovo\AppData\Roaming\Dashlane\5.12.0.19744\bin\Firefox_Extension\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\components;C:\Users\Lenovo\AppData\Roaming\Dashlane\5.12.0.19744\ucrt;"/>
+    <property name="java.io.tmpdir" value="C:\Users\Lenovo\AppData\Local\Temp\"/>
+    <property name="APPDATA" value="C:\Users\Lenovo\AppData\Roaming"/>
+    <property name="user.language" value="de"/>
+    <property name="line.separator" value="
+"/>
+    <property name="BUILD_URL" value="http://127.0.0.1:8080/job/WebAutomationPart2/12/"/>
+    <property name="M2_HOME" value="C:\apache-maven-3.5.3"/>
+    <property name="=C:" value="C:\jenkins"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="BUILD_DISPLAY_NAME" value="#12"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="HUDSON_SERVER_COOKIE" value="0631cecedd819be2"/>
+    <property name="WORKSPACE_TMP" value="C:\Users\Lenovo\.jenkins\workspace\WebAutomationPart2@tmp"/>
+    <property name="MAVEN_HOME" value="C:\apache-maven-3.5.3"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="maven3.interceptor.common" value="C:\Users\Lenovo\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="HOMEPATH" value="\Users\Lenovo"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="12"/>
+    <property name="maven3.interceptor" value="C:\Users\Lenovo\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\apache-maven-3.5.3/bin;C:\Program Files\Java\jdk1.8.0_172/bin;C:\Program Files\Java\jdk1.8.0_172/bin;C:\python37\Scripts\;C:\python37\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_172;C:\apache-maven-3.5.3\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Users\Lenovo\AppData\Local\Android\Sdk;C:\Users\Lenovo\AppData\Local\Android\Sdk\tools;C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools;C:\WINDOWS\System32\OpenSSH\;C:\MyWorkspace\SeleniumChromeDriver\;C:\python37;C:\python37\Scripts;C:\python37\DLLs;C:\python37\Lib;C:\python37\libs;;C:\Program Files\PostgreSQL\12\bin;C:\Program Files\PostgreSQL\12\lib;C:\MyWorkspace\SeleniumChromeDriver\83\;C:\MyWorkspace\SeleniumFirefoxDriver\2.6\;C:\MyWorkspace\IEDriver\;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Users\Lenovo\AppData\Roaming\npm;C:\Users\Lenovo\AppData\Roaming\Dashlane\5.12.0.19744\bin\Firefox_Extension\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\components;C:\Users\Lenovo\AppData\Roaming\Dashlane\5.12.0.19744\ucrt;;."/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="POM_GROUPID" value="guineenews"/>
+    <property name="POM_ARTIFACTID" value="guineenews"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="JOB_URL" value="http://127.0.0.1:8080/job/WebAutomationPart2/"/>
+    <property name="OneDrive" value="C:\Users\Lenovo\OneDrive"/>
+    <property name="RUN_DISPLAY_URL" value="http://127.0.0.1:8080/job/WebAutomationPart2/12/display/redirect"/>
+    <property name="JENKINS_HOME" value="C:\Users\Lenovo\.jenkins"/>
+    <property name="BUILD_ID" value="12"/>
+    <property name="TEMP" value="C:\Users\Lenovo\AppData\Local\Temp"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_172\jre\bin"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.variant" value=""/>
+    <property name="PROCESSOR_REVISION" value="8e0a"/>
+    <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
+    <property name="configsetroot" value="C:\WINDOWS\ConfigSetRoot"/>
+    <property name="HUDSON_HOME" value="C:\Users\Lenovo\.jenkins"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="PATH+MAVEN" value="C:\apache-maven-3.5.3/bin"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="LAPTOP-RN5VIIS5"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_172"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="USERPROFILE" value="C:\Users\Lenovo"/>
+    <property name="JOB_DISPLAY_URL" value="http://127.0.0.1:8080/job/WebAutomationPart2/display/redirect"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Lenovo"/>
+    <property name="USERNAME" value="Lenovo"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="user.dir" value="C:\MyWorkspace\guineenews"/>
+    <property name="maven.conf" value="C:\apache-maven-3.5.3\conf"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="TMP" value="C:\Users\Lenovo\AppData\Local\Temp"/>
+    <property name="CHROMEDRIVER_PATH" value="C:\MyWorkspace\SeleniumChromeDriver\83\"/>
+    <property name="NODE_JS" value="C:\Program Files\nodejs"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="java.vm.version" value="25.172-b11"/>
+    <property name="java.class.path" value="C:\Users\Lenovo\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.12-alpha-1.jar;C:\apache-maven-3.5.3\boot\plexus-classworlds-2.5.2.jar;C:\apache-maven-3.5.3/conf/logging"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="OneDriveConsumer" value="C:\Users\Lenovo\OneDrive"/>
+    <property name="WORKSPACE" value="C:\Users\Lenovo\.jenkins\workspace\WebAutomationPart2"/>
+    <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer"/>
+    <property name="SystemRoot" value="C:\WINDOWS"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="FPS_BROWSER_USER_PROFILE_STRING" value="Default"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.runtime.version" value="1.8.0_172-b11"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_172\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_172\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_172\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_172\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_172\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_172\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_172\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_172\jre\classes"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_172/bin"/>
+    <property name="user.country" value="DE"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="maven.home" value="C:\apache-maven-3.5.3"/>
+    <property name="JOB_BASE_NAME" value="WebAutomationPart2"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="POM_DISPLAYNAME" value="guineenews"/>
+    <property name="sun.arch.data.model" value="64"/>
+  </properties>
+  <testcase classname="Spiegel Kultur Bestseller" name="Bestseller Books #1" time="38.645">
+    <error message="Error
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-RN5VIIS5&apos;, ip: &apos;192.168.142.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: driver.version: unknown" type="java.lang.Exception">java.lang.Exception: Error
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-RN5VIIS5&apos;, ip: &apos;192.168.142.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: driver.version: unknown
+	at steps.MenuSteps.i_click_top_menu(MenuSteps.java:84)
+	at ✽.I click TopMenu &quot;Kultur&quot;(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:9)
+</error>
+    <system-out>
+@spiegelCultureBestseller @bestsellerbooks
+Scenario Outline: Bestseller Books        &amp;#27;[90m# src/test/resources/features/bestseller.feature:26&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mI start Spiegel&amp;#27;[0m                   &amp;#27;[90m# steps.MenuSteps.i_start_Spiegel()&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click Akzeptieren und weiter&amp;#27;[0m     &amp;#27;[90m# steps.MenuSteps.i_click_Akzeptieren_und_weiter()&amp;#27;[0m
+..taking screenshot..
+.. screenshot taken..
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI bring &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;Kultur&quot;&amp;#27;[0m&amp;#27;[32m menu into view&amp;#27;[0m    &amp;#27;[90m# steps.MenuSteps.i_bring_top_menu_into_view(java.lang.String)&amp;#27;[0m
+..taking screenshot..
+.. screenshot taken..
+..taking screenshot..
+.. screenshot taken..
+  &amp;#27;[31mAnd &amp;#27;[0m&amp;#27;[31mI click TopMenu &amp;#27;[0m&amp;#27;[31m&amp;#27;[1m&quot;Kultur&quot;&amp;#27;[0m            &amp;#27;[90m# steps.MenuSteps.i_click_top_menu(java.lang.String)&amp;#27;[0m
+      &amp;#27;[31mjava.lang.Exception: Error
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-RN5VIIS5&apos;, ip: &apos;192.168.142.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: driver.version: unknown
+	at steps.MenuSteps.i_click_top_menu(MenuSteps.java:84)
+	at âœ½.I click TopMenu &quot;Kultur&quot;(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:9)
+&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click culture &amp;#27;[0m&amp;#27;[36m&amp;#27;[1mSPIEGEL-Bestseller&amp;#27;[0m &amp;#27;[90m# steps.CultureSteps.i_click_menu(java.lang.String)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click bestseller &amp;#27;[0m&amp;#27;[36m&amp;#27;[1mSachbuch&amp;#27;[0m        &amp;#27;[90m# steps.BestsellerSteps.i_click_bestseller_menu(java.lang.String)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI scroll to a random bestseller&amp;#27;[0m    &amp;#27;[90m# steps.BestsellerSteps.i_scroll_to_random_bestseller_element()&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click mehr anzeigen&amp;#27;[0m              &amp;#27;[90m# steps.BestsellerSteps.i_click_mehr_anzeigen()&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI move mouse over kaufen&amp;#27;[0m           &amp;#27;[90m# steps.BestsellerSteps.i_move_mouse_over_kaufen()&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click bei &amp;#27;[0m&amp;#27;[36m&amp;#27;[1mThaila&amp;#27;[0m&amp;#27;[36m kaufen&amp;#27;[0m          &amp;#27;[90m# steps.BestsellerSteps.i_click_bei_vendor_kaufen(java.lang.String)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI close the &amp;#27;[0m&amp;#27;[36m&amp;#27;[1mThaila&amp;#27;[0m&amp;#27;[36m tab&amp;#27;[0m             &amp;#27;[90m# steps.BestsellerSteps.i_close_vendor_tab(java.lang.String)&amp;#27;[0m
+</system-out>
+    <system-err>Starting ChromeDriver 87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355}) on port 36101
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 27, 2020 8:16:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMATION: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="Spiegel Kultur Bestseller" name="Bestseller Books #2" time="51.941"/>
+  <testcase classname="Spiegel Kultur Bestseller" name="Bestseller Books #3" time="57.433"/>
+  <testcase classname="Spiegel Kultur Bestseller" name="Bestseller DVD #1" time="66.291"/>
+  <testcase classname="Spiegel Kultur Bestseller" name="Bestseller DVD #2" time="69.681"/>
+  <testcase classname="Spiegel Kultur Bestseller" name="Bestseller Ratgeber #1" time="69.197"/>
+  <testcase classname="Spiegel Kultur Bestseller" name="Bestseller Ratgeber #2" time="66.921"/>
+  <testcase classname="Spiegel Kultur Bestseller" name="Bestseller Ratgeber #3" time="69.185"/>
+  <testcase classname="Spiegel Kultur Bestseller" name="Bestseller Ratgeber #4" time="68.146"/>
+  <testcase classname="Spiegel Kultur Bestseller" name="Bestseller KinderBuch #1" time="68.561"/>
+  <testcase classname="Spiegel Kultur Bestseller" name="Bestseller KinderBuch #2" time="70.243"/>
+  <testcase classname="Spiegel Kultur Bestseller" name="Bestseller KinderBuch #3" time="92.59"/>
+  <testcase classname="Spiegel Kultur Bestseller" name="Bestseller KinderBuch #4" time="73.734"/>
+  <testcase classname="Spiegel Kultur" name="navigate on culture sub-menu #1" time="43.403"/>
+  <testcase classname="Spiegel Kultur" name="navigate on culture sub-menu #2" time="44.84"/>
+  <testcase classname="Spiegel Kultur" name="navigate on culture sub-menu #3" time="41.004"/>
+  <testcase classname="Spiegel Kultur" name="navigate on culture sub-menu #4" time="38.53"/>
+  <testcase classname="Spiegel Kultur" name="navigate on culture sub-menu #5" time="37.752"/>
+  <testcase classname="Spiegel Kultur" name="navigate on culture sub-menu #6" time="41.251"/>
+  <testcase classname="Spiegel StartPage" name="reading main article #1" time="30.691"/>
+  <testcase classname="Spiegel StartPage" name="reading main article #2" time="28.333"/>
+  <testcase classname="Spiegel StartPage" name="read news section articles" time="38.098"/>
+  <testcase classname="Spiegel StartPage" name="alle Rubriken #1" time="25.298"/>
+  <testcase classname="Spiegel StartPage" name="alle Rubriken #2" time="29.721"/>
+  <testcase classname="Spiegel StartPage" name="alle Rubriken #3" time="25.737"/>
+  <testcase classname="Spiegel StartPage" name="alle Rubriken #4" time="26.279"/>
+  <testcase classname="Spiegel StartPage" name="stock section" time="16.572"/>
+  <testcase classname="Spiegel StartPage" name="block channel section #1" time="28.916"/>
+  <testcase classname="Spiegel StartPage" name="block channel section #2" time="26.916"/>
+  <testcase classname="Spiegel StartPage" name="block channel section #3" time="26.578"/>
+  <testcase classname="Spiegel StartPage" name="block channel section #4" time="26.096"/>
+  <testcase classname="Spiegel StartPage" name="block channel section #5" time="20.933"/>
+  <testcase classname="Spiegel StartPage" name="block channel section #6" time="26.926"/>
+  <testcase classname="Spiegel StartPage" name="leben section articles" time="303.262"/>
+  <testcase classname="Spiegel StartPage" name="highligh section" time="30.02"/>
+  <testcase classname="Spiegel StartPage" name="top bei spiegel spiegel" time="35.92"/>
+  <testcase classname="Spiegel StartPage" name="meist gelesene section" time="40.145"/>
+</testsuite>

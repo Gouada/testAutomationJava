@@ -28,7 +28,7 @@ public class BasePage extends SeleniumDriverWrapper {
     public void waitForPageToLoad(String title)
     {
         try {
-            WebDriverWait dw = new WebDriverWait(driver, 10);
+            WebDriverWait dw = new WebDriverWait(driver, 30);
             dw.until(ExpectedConditions.titleContains(title));
         }
         catch (Exception e)

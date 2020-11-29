@@ -18,6 +18,8 @@ public class CulturePage extends ArticlesListBasePage{
     public void clickMenuElement(String menu)
     {
         WebElement element = getElementByXpath(getMenuXpath(menu));
+        closeAdversting();
+        waitForElementToBeClickable(element,10);
         clickElement(element);
     }
 

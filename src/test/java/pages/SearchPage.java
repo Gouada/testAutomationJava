@@ -23,22 +23,30 @@ public class SearchPage extends BasePage{
 
     private int getRandNumber()
     {
-        //System.out.println("Test..................");
-
+        //System.out.println("Test.1..................");
         int article_count = getElementsByXpath(search_results_title_list).size();
+        //System.out.println("Test.2.................");
+
         Random rnd = new Random();
         int rndNbr = rnd.nextInt(article_count);
-        //System.out.println("rndNbr        :"+ rndNbr);
         if(rndNbr >0)
             rndNbr= rndNbr-1;
+        //System.out.println("rndNbr:........"+ rndNbr);
         return rndNbr;
     }
 
     public void clickRandomArticle()
     {
+        waitForPageToLoad("Suche - DER SPIEGEL");
+        //moveMouseOnElement(getElementByXpath(search_results_text));
+        pageUp(3);
         int i = getRandNumber();
+        //System.out.println("i:       "+i);
+        //System.out.println("size:  "+ getElementsByXpath(search_results_title_list).size());
+
         WebElement element = getElementsByXpath(search_results_title_list).get(i);
         moveMouseOnElement(element);
+        arrowDown(2);
         clickElement(element);
     }
 
@@ -56,14 +64,18 @@ public class SearchPage extends BasePage{
     }
 
     public void clickWeiter(int clicks) throws InterruptedException {
-        int i = 0;
+
+       int i = 0;
        WebElement navSection = getElementByXpath(search_results_nav);
        WebElement weiter_btn = getElementByXpath(search_results_weiter_button);
-       moveMouseOnElement(navSection);
-        while (i < clicks) {
-            //waitForElementToBeClickable(weiter_btn, 3);
-            if (isElementDisplayed(weiter_btn))
-                clickElement(weiter_btn);
+       while (i < clicks) {
+           //waitForElementToBeClickable(weiter_btn, 3);
+           moveMouseOnElement(navSection);
+           if (isElementDisplayed(weiter_btn))
+           {
+               moveMouseOnElement(weiter_btn);
+               clickElement(weiter_btn);
+        }
             i = i + 1;
         }
     }
@@ -72,10 +84,13 @@ public class SearchPage extends BasePage{
     {
         int i = 0;
         while (i < clicks) {
+            moveMouseOnElement(getElement(search_results_nav,"xpath"));
             if (isElementDisplayed(search_results_zurueck_button, "xpath"))
+            {
+                moveMouseOnElement(getElementByXpath(search_results_zurueck_button));
                 clickElement(search_results_zurueck_button, "xpath");
+            }
             i = i + 1;
-
         }
     }
 

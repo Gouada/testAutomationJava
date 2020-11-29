@@ -318,7 +318,7 @@ public class SeleniumDriverWrapper {
         }
         catch (Exception e)
         {
-            if(!myLocator.contains("sp_message_iframe"))
+            if(!myLocator.contains("iframe") && !myLocator.contains("btnClose"))
                 MyLogger.logger.error(myLocator + e.getMessage());
         }
         finally {
@@ -577,6 +577,7 @@ public class SeleniumDriverWrapper {
                     MyLogger.logger.error(e.getMessage());
                 }
     }
+
 
     public void scrollUpToTop()
     {

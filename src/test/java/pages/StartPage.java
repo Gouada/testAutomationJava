@@ -11,6 +11,7 @@ public class StartPage extends BasePage {
     private Random rnd = new Random();
     private static int rndNr = 0;
 
+    private static final String spiegel_logo = "//span[@data-headerbar-el='logo']";
     private static final String akzeptieren_btn = "//button[contains(@title, 'Akzeptieren und weiter')]";
     private static final String iframe = "//iframe[contains(@id, 'sp_message_iframe')]";
 
@@ -147,10 +148,15 @@ public class StartPage extends BasePage {
     }
 
     public void clickAkzeptieren() {
-        if (isElementDisplayed(iframe, "xpath")) {
+        WebElement accept_iframe = getElementByXpath(iframe);
+        WebElement accept_btn;
+        waitForElementToBeClickable(accept_iframe,3);
+        if (isElementDisplayed(accept_iframe)) {
+            //accept_btn = getElement(akzeptieren_btn, "xpath");
             switch_toFrame(iframe, "xpath");
-            waitForElementToBeClickable(akzeptieren_btn, "xpath", 10);
-            clickElement(akzeptieren_btn, "xpath");
+            accept_btn = getElement(akzeptieren_btn, "xpath");
+            waitForElementToBeClickable(accept_btn, 10);
+            clickElement(accept_btn);
             switch_back_toDefault();
         }
     }
@@ -268,15 +274,15 @@ public class StartPage extends BasePage {
             if (section.equals("news_section")) {
                 rndNr = rnd.nextInt(getElementsByXpath(news_section_article_list).size());
                 element = getElementsByXpath(news_section_article_list).get(rndNr);
-                System.out.println("news_section_article_list:   " +
-                        news_section_article_list + "   rndNr:   "+ rndNr);
+                //System.out.println("news_section_article_list:   " +
+                   //     news_section_article_list + "   rndNr:   "+ rndNr);
             }
             if(section.equals("leben_section"))
             {
                 rndNr = rnd.nextInt(getElementsByXpath(leben_section_article_list).size());
                 element = getElementsByXpath(leben_section_article_list).get(rndNr);
-                System.out.println("leben_section_article_list:   " +
-                        leben_section_article_list + "   rndNr:   "+ rndNr);
+                //System.out.println("leben_section_article_list:   " +
+                      //  leben_section_article_list + "   rndNr:   "+ rndNr);
 
             }
         }
@@ -307,6 +313,17 @@ public class StartPage extends BasePage {
         element = getElementsByXpath(stock_section_element_list).get(position);
         clickElement(element);
     }
+
+    /*
+    public boolean i_am_on_start_page()
+    {
+        WebElement element = getElementByXpath(spiegel_logo);
+        //return getElementText(element).contains("Ergebnisse für")
+        if(getElementText(element).contains("Ergebnisse für"))
+            return true;
+        else return false;
+    }
+        */
 }
 
 

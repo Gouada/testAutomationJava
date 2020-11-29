@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: runners.SpiegelCultureRunner
+-------------------------------------------------------------------------------
+Tests run: 37, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1,896.908 sec <<< FAILURE!
+Bestseller Books #1(Spiegel Kultur Bestseller)  Time elapsed: 38.645 sec  <<< ERROR!
+java.lang.Exception: Error
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: driver.version: unknown
+	at steps.MenuSteps.i_click_top_menu(MenuSteps.java:84)
+	at ?.I click TopMenu "Kultur"(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:9)
+

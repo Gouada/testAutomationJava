@@ -2,10 +2,12 @@ C:\MyWorkspace\guineenews\src\test\java\pages\BestSellerBasePage.java
 C:\MyWorkspace\guineenews\src\test\java\constants\CultureBestsellerSubMenus.java
 C:\MyWorkspace\guineenews\src\test\java\pages\BestSeller.java
 C:\MyWorkspace\guineenews\src\test\java\pages\ArticlesListBasePage.java
+C:\MyWorkspace\guineenews\src\test\java\steps\SearchPageSteps.java
 C:\MyWorkspace\guineenews\src\test\java\steps\TestCaseBase.java
 C:\MyWorkspace\guineenews\src\test\java\pages\StartPage.java
 C:\MyWorkspace\guineenews\src\test\java\pages\Schlagzeilen.java
 C:\MyWorkspace\guineenews\src\test\java\steps\BestsellerSteps.java
+C:\MyWorkspace\guineenews\src\test\java\runners\SpiegelCultureRunner.java
 C:\MyWorkspace\guineenews\src\test\java\constants\CultureBestsellerMenus.java
 C:\MyWorkspace\guineenews\src\test\java\steps\StartpageSteps.java
 C:\MyWorkspace\guineenews\src\test\java\core\FirefoxDriverManager.java
@@ -20,6 +22,7 @@ C:\MyWorkspace\guineenews\src\test\java\steps\MenuSteps.java
 C:\MyWorkspace\guineenews\src\test\java\constants\Urls.java
 C:\MyWorkspace\guineenews\src\test\java\core\DriverFactory.java
 C:\MyWorkspace\guineenews\src\test\java\core\DriverManager.java
+C:\MyWorkspace\guineenews\src\test\java\runners\SpiegelMenuRunner.java
 C:\MyWorkspace\guineenews\src\test\java\steps\HelperSteps.java
 C:\MyWorkspace\guineenews\src\test\java\constants\Constants.java
 C:\MyWorkspace\guineenews\src\test\java\pages\SpiegelPlus.java

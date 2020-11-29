@@ -103,7 +103,7 @@ public class SpiegelPlus extends ArticlesListBasePage{
             rndSection = rdm.nextInt(getSectionsCount());
         }
         while(!hasArticle(rndSection));
-        System.out.println("rndSection:   "+rndSection);
+        //System.out.println("rndSection:   "+rndSection);
         return rndSection;
     }
 

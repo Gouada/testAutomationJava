@@ -28,7 +28,7 @@ public class CultureSteps {
         culturePage.goBack();
         culturePage.waitForPageToLoad(title);
         //Assert.assertTrue(culturePage.getitle().contains(title));
-        Assert.assertTrue(culturePage.getPageVisibleTitle(menu).equals(menu));
+        Assert.assertTrue(culturePage.getPageVisibleTitle(menu).contains(menu));
         //System.out.println("title:......."+title+"   CulturMenus.KUNST.getTitle() "+CulturMenus.KUNST.getTitle());
         //HelperSteps.i_go_back_to(title);
     }

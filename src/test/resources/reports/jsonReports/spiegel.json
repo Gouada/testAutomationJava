@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4100000000,
+              "duration": 10379000000,
               "status": "passed"
             },
             "line": 5,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 1294000000,
+              "duration": 1283000000,
               "status": "passed"
             },
             "line": 6,
@@ -35,8 +35,9 @@
           },
           {
             "result": {
-              "duration": 8440000000,
-              "status": "passed"
+              "error_message": "java.lang.Exception\r\n\tat steps.MenuSteps.i_click_top_menu_button(MenuSteps.java:95)\r\n\tat ✽.I click TopMenuButton(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:7)\r\n",
+              "duration": 454000000,
+              "status": "failed"
             },
             "line": 7,
             "name": "I click TopMenuButton",
@@ -48,11 +49,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-24T18:10:41.399Z",
+        "start_timestamp": "2020-11-26T16:48:23.713Z",
         "before": [
           {
             "result": {
-              "duration": 7237000000,
+              "duration": 5736000000,
               "status": "passed"
             },
             "match": {
@@ -69,8 +70,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9660000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 16,
             "name": "I enter Obama and press enter",
@@ -87,8 +87,7 @@
           },
           {
             "result": {
-              "duration": 450000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 17,
             "name": "I click weiter 5",
@@ -105,8 +104,7 @@
           },
           {
             "result": {
-              "duration": 260000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 18,
             "name": "I click zurück 1",
@@ -123,8 +121,7 @@
           },
           {
             "result": {
-              "duration": 3609000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 19,
             "name": "I click a \"random\" article on search results page",
@@ -141,8 +138,8 @@
           },
           {
             "result": {
-              "duration": 211000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 20,
             "name": "I click page down 3",
@@ -159,8 +156,7 @@
           },
           {
             "result": {
-              "duration": 3881000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 21,
             "name": "I go back to \"Suche - DER SPIEGEL\"",
@@ -177,8 +173,7 @@
           },
           {
             "result": {
-              "duration": 184000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 22,
             "name": "I filter results by \"Letztes Jahr\"",
@@ -195,8 +190,7 @@
           },
           {
             "result": {
-              "duration": 265000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 23,
             "name": "I filter results by \"seit 2005\"",
@@ -230,7 +224,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10974000000,
+              "duration": 29908000000,
               "status": "passed"
             },
             "line": 5,
@@ -242,7 +236,7 @@
           },
           {
             "result": {
-              "duration": 2057000000,
+              "duration": 1050000000,
               "status": "passed"
             },
             "line": 6,
@@ -254,7 +248,7 @@
           },
           {
             "result": {
-              "duration": 2160000000,
+              "duration": 1226000000,
               "status": "passed"
             },
             "line": 7,
@@ -267,11 +261,10 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-24T18:11:21.094Z",
+        "start_timestamp": "2020-11-26T16:48:41.684Z",
         "before": [
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -288,7 +281,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9930000000,
+              "duration": 11412000000,
               "status": "passed"
             },
             "line": 16,
@@ -306,7 +299,7 @@
           },
           {
             "result": {
-              "duration": 750000000,
+              "duration": 505000000,
               "status": "passed"
             },
             "line": 17,
@@ -324,7 +317,7 @@
           },
           {
             "result": {
-              "duration": 237000000,
+              "duration": 76000000,
               "status": "passed"
             },
             "line": 18,
@@ -342,8 +335,9 @@
           },
           {
             "result": {
-              "duration": 2214000000,
-              "status": "passed"
+              "error_message": "java.lang.IllegalArgumentException: bound must be positive\r\n\tat java.util.Random.nextInt(Random.java:388)\r\n\tat pages.SearchPage.getRandNumber(SearchPage.java:30)\r\n\tat pages.SearchPage.clickRandomArticle(SearchPage.java:39)\r\n\tat steps.SearchPageSteps.i_click_a_article_on_search_results_page(SearchPageSteps.java:47)\r\n\tat ✽.I click a \"random\" article on search results page(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:19)\r\n",
+              "duration": 24000000,
+              "status": "failed"
             },
             "line": 19,
             "name": "I click a \"random\" article on search results page",
@@ -360,8 +354,8 @@
           },
           {
             "result": {
-              "duration": 247000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 20,
             "name": "I click page down 3",
@@ -378,8 +372,7 @@
           },
           {
             "result": {
-              "duration": 3847000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 21,
             "name": "I go back to \"Suche - DER SPIEGEL\"",
@@ -396,8 +389,7 @@
           },
           {
             "result": {
-              "duration": 258000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 22,
             "name": "I filter results by \"Letztes Jahr\"",
@@ -414,8 +406,7 @@
           },
           {
             "result": {
-              "duration": 139000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 23,
             "name": "I filter results by \"seit 2005\"",
@@ -449,7 +440,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10196000000,
+              "duration": 14387000000,
               "status": "passed"
             },
             "line": 5,
@@ -461,7 +452,7 @@
           },
           {
             "result": {
-              "duration": 2080000000,
+              "duration": 1042000000,
               "status": "passed"
             },
             "line": 6,
@@ -473,7 +464,7 @@
           },
           {
             "result": {
-              "duration": 2183000000,
+              "duration": 1171000000,
               "status": "passed"
             },
             "line": 7,
@@ -486,11 +477,10 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-24T18:11:53.918Z",
+        "start_timestamp": "2020-11-26T16:49:25.899Z",
         "before": [
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -507,7 +497,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10235000000,
+              "duration": 121365000000,
               "status": "passed"
             },
             "line": 16,
@@ -525,8 +515,9 @@
           },
           {
             "result": {
-              "duration": 474000000,
-              "status": "passed"
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat steps.SearchPageSteps.i_click_weiter(SearchPageSteps.java:20)\r\n\tat ✽.I click weiter 5(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:17)\r\n",
+              "duration": 77000000,
+              "status": "failed"
             },
             "line": 17,
             "name": "I click weiter 5",
@@ -543,8 +534,7 @@
           },
           {
             "result": {
-              "duration": 209000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 18,
             "name": "I click zurück 1",
@@ -561,8 +551,7 @@
           },
           {
             "result": {
-              "duration": 8345000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 19,
             "name": "I click a \"random\" article on search results page",
@@ -579,8 +568,7 @@
           },
           {
             "result": {
-              "duration": 27000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 20,
             "name": "I click page down 3",
@@ -597,8 +585,7 @@
           },
           {
             "result": {
-              "duration": 3593000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 21,
             "name": "I go back to \"Suche - DER SPIEGEL\"",
@@ -615,8 +602,7 @@
           },
           {
             "result": {
-              "duration": 185000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 22,
             "name": "I filter results by \"Letztes Jahr\"",
@@ -633,8 +619,7 @@
           },
           {
             "result": {
-              "duration": 141000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 23,
             "name": "I filter results by \"seit 2005\"",
@@ -668,7 +653,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9988000000,
+              "duration": 19373000000,
               "status": "passed"
             },
             "line": 5,
@@ -680,7 +665,7 @@
           },
           {
             "result": {
-              "duration": 2100000000,
+              "duration": 1048000000,
               "status": "passed"
             },
             "line": 6,
@@ -692,7 +677,7 @@
           },
           {
             "result": {
-              "duration": 2197000000,
+              "duration": 1166000000,
               "status": "passed"
             },
             "line": 7,
@@ -705,7 +690,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-24T18:12:31.597Z",
+        "start_timestamp": "2020-11-26T16:51:43.959Z",
         "before": [
           {
             "result": {
@@ -725,7 +710,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9843000000,
+              "duration": 121318000000,
               "status": "passed"
             },
             "line": 16,
@@ -743,8 +728,9 @@
           },
           {
             "result": {
-              "duration": 424000000,
-              "status": "passed"
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat steps.SearchPageSteps.i_click_weiter(SearchPageSteps.java:20)\r\n\tat ✽.I click weiter 5(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:17)\r\n",
+              "duration": 62000000,
+              "status": "failed"
             },
             "line": 17,
             "name": "I click weiter 5",
@@ -761,8 +747,7 @@
           },
           {
             "result": {
-              "duration": 218000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 18,
             "name": "I click zurück 1",
@@ -779,8 +764,7 @@
           },
           {
             "result": {
-              "duration": 1628000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 19,
             "name": "I click a \"random\" article on search results page",
@@ -797,8 +781,7 @@
           },
           {
             "result": {
-              "duration": 106000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 20,
             "name": "I click page down 3",
@@ -815,8 +798,7 @@
           },
           {
             "result": {
-              "duration": 3607000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 21,
             "name": "I go back to \"Suche - DER SPIEGEL\"",
@@ -833,8 +815,7 @@
           },
           {
             "result": {
-              "duration": 208000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 22,
             "name": "I filter results by \"Letztes Jahr\"",
@@ -851,8 +832,7 @@
           },
           {
             "result": {
-              "duration": 129000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 23,
             "name": "I filter results by \"seit 2005\"",
@@ -886,7 +866,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9774000000,
+              "duration": 6422000000,
               "status": "passed"
             },
             "line": 5,
@@ -898,7 +878,7 @@
           },
           {
             "result": {
-              "duration": 2083000000,
+              "duration": 1051000000,
               "status": "passed"
             },
             "line": 6,
@@ -910,7 +890,7 @@
           },
           {
             "result": {
-              "duration": 2167000000,
+              "duration": 1163000000,
               "status": "passed"
             },
             "line": 7,
@@ -923,7 +903,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-24T18:13:02.052Z",
+        "start_timestamp": "2020-11-26T16:54:06.933Z",
         "before": [
           {
             "result": {
@@ -943,7 +923,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9451000000,
+              "duration": 121383000000,
               "status": "passed"
             },
             "line": 16,
@@ -961,8 +941,9 @@
           },
           {
             "result": {
-              "duration": 448000000,
-              "status": "passed"
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat steps.SearchPageSteps.i_click_weiter(SearchPageSteps.java:20)\r\n\tat ✽.I click weiter 5(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:17)\r\n",
+              "duration": 51000000,
+              "status": "failed"
             },
             "line": 17,
             "name": "I click weiter 5",
@@ -979,8 +960,7 @@
           },
           {
             "result": {
-              "duration": 224000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 18,
             "name": "I click zurück 1",
@@ -997,8 +977,7 @@
           },
           {
             "result": {
-              "duration": 4072000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 19,
             "name": "I click a \"random\" article on search results page",
@@ -1015,8 +994,7 @@
           },
           {
             "result": {
-              "duration": 126000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 20,
             "name": "I click page down 3",
@@ -1033,8 +1011,7 @@
           },
           {
             "result": {
-              "duration": 3570000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 21,
             "name": "I go back to \"Suche - DER SPIEGEL\"",
@@ -1051,8 +1028,7 @@
           },
           {
             "result": {
-              "duration": 239000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 22,
             "name": "I filter results by \"Letztes Jahr\"",
@@ -1069,8 +1045,7 @@
           },
           {
             "result": {
-              "duration": 128000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 23,
             "name": "I filter results by \"seit 2005\"",
@@ -1104,7 +1079,7 @@
         "steps": [
           {
             "result": {
-              "duration": 11093000000,
+              "duration": 6190000000,
               "status": "passed"
             },
             "line": 5,
@@ -1116,7 +1091,7 @@
           },
           {
             "result": {
-              "duration": 2107000000,
+              "duration": 1045000000,
               "status": "passed"
             },
             "line": 6,
@@ -1128,7 +1103,7 @@
           },
           {
             "result": {
-              "duration": 2199000000,
+              "duration": 1185000000,
               "status": "passed"
             },
             "line": 7,
@@ -1141,11 +1116,10 @@
         ]
       },
       {
-        "start_timestamp": "2020-11-24T18:13:34.342Z",
+        "start_timestamp": "2020-11-26T16:56:17.012Z",
         "before": [
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -1162,7 +1136,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9697000000,
+              "duration": 121376000000,
               "status": "passed"
             },
             "line": 16,
@@ -1180,8 +1154,9 @@
           },
           {
             "result": {
-              "duration": 600000000,
-              "status": "passed"
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat steps.SearchPageSteps.i_click_weiter(SearchPageSteps.java:20)\r\n\tat ✽.I click weiter 5(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:17)\r\n",
+              "duration": 67000000,
+              "status": "failed"
             },
             "line": 17,
             "name": "I click weiter 5",
@@ -1198,8 +1173,7 @@
           },
           {
             "result": {
-              "duration": 41000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 18,
             "name": "I click zurück 1",
@@ -1216,8 +1190,7 @@
           },
           {
             "result": {
-              "duration": 1433000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 19,
             "name": "I click a \"random\" article on search results page",
@@ -1234,8 +1207,7 @@
           },
           {
             "result": {
-              "duration": 82000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 20,
             "name": "I click page down 3",
@@ -1252,8 +1224,7 @@
           },
           {
             "result": {
-              "duration": 4936000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 21,
             "name": "I go back to \"Suche - DER SPIEGEL\"",
@@ -1270,8 +1241,7 @@
           },
           {
             "result": {
-              "duration": 215000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 22,
             "name": "I filter results by \"Letztes Jahr\"",
@@ -1288,8 +1258,7 @@
           },
           {
             "result": {
-              "duration": 123000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 23,
             "name": "I filter results by \"seit 2005\"",
@@ -1311,6 +1280,3009 @@
           },
           {
             "name": "@search"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6913000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I start Spiegel",
+            "match": {
+              "location": "steps.MenuSteps.i_start_Spiegel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1055000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click Akzeptieren und weiter",
+            "match": {
+              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1180000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click TopMenuButton",
+            "match": {
+              "location": "steps.MenuSteps.i_click_top_menu_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-26T16:58:26.881Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.TestCaseBase.setup()"
+            }
+          }
+        ],
+        "line": 47,
+        "name": "Leftmenu",
+        "description": "",
+        "id": "spiegel-left-menu-navigation;leftmenu;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.Exception: Error\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: driver.version: unknown\r\n\tat steps.MenuSteps.i_click_leftMenu(MenuSteps.java:109)\r\n\tat ✽.I click leftMenu Job \u0026 Karriere(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:41)\r\n",
+              "duration": 121322000000,
+              "status": "failed"
+            },
+            "line": 41,
+            "name": "I click leftMenu Job \u0026 Karriere",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Job \u0026 Karriere",
+                  "offset": 17
+                }
+              ],
+              "location": "steps.MenuSteps.i_click_leftMenu(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "I click a \"random\" article of alle Beitraege section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 10
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "I click page down 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_page_down(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@spiegelLeftMenuNavigation"
+          },
+          {
+            "name": "@leftMenu"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7252000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I start Spiegel",
+            "match": {
+              "location": "steps.MenuSteps.i_start_Spiegel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1040000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click Akzeptieren und weiter",
+            "match": {
+              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1172000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click TopMenuButton",
+            "match": {
+              "location": "steps.MenuSteps.i_click_top_menu_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-26T17:00:37.358Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.TestCaseBase.setup()"
+            }
+          }
+        ],
+        "line": 48,
+        "name": "Leftmenu",
+        "description": "",
+        "id": "spiegel-left-menu-navigation;leftmenu;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.Exception: Error\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: driver.version: unknown\r\n\tat steps.MenuSteps.i_click_leftMenu(MenuSteps.java:109)\r\n\tat ✽.I click leftMenu Start(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:41)\r\n",
+              "duration": 121321000000,
+              "status": "failed"
+            },
+            "line": 41,
+            "name": "I click leftMenu Start",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Start",
+                  "offset": 17
+                }
+              ],
+              "location": "steps.MenuSteps.i_click_leftMenu(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "I click a \"random\" article of alle Beitraege section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 10
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "I click page down 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_page_down(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@spiegelLeftMenuNavigation"
+          },
+          {
+            "name": "@leftMenu"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6103000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I start Spiegel",
+            "match": {
+              "location": "steps.MenuSteps.i_start_Spiegel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1063000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click Akzeptieren und weiter",
+            "match": {
+              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1200000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click TopMenuButton",
+            "match": {
+              "location": "steps.MenuSteps.i_click_top_menu_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-26T17:02:48.149Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.TestCaseBase.setup()"
+            }
+          }
+        ],
+        "line": 49,
+        "name": "Leftmenu",
+        "description": "",
+        "id": "spiegel-left-menu-navigation;leftmenu;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.Exception: Error\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: driver.version: unknown\r\n\tat steps.MenuSteps.i_click_leftMenu(MenuSteps.java:109)\r\n\tat ✽.I click leftMenu Coronavirus(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:41)\r\n",
+              "duration": 123532000000,
+              "status": "failed"
+            },
+            "line": 41,
+            "name": "I click leftMenu Coronavirus",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Coronavirus",
+                  "offset": 17
+                }
+              ],
+              "location": "steps.MenuSteps.i_click_leftMenu(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "I click a \"random\" article of alle Beitraege section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 10
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "I click page down 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_page_down(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@spiegelLeftMenuNavigation"
+          },
+          {
+            "name": "@leftMenu"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5901000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I start Spiegel",
+            "match": {
+              "location": "steps.MenuSteps.i_start_Spiegel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1081000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click Akzeptieren und weiter",
+            "match": {
+              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1169000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click TopMenuButton",
+            "match": {
+              "location": "steps.MenuSteps.i_click_top_menu_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-26T17:05:00.053Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.TestCaseBase.setup()"
+            }
+          }
+        ],
+        "line": 50,
+        "name": "Leftmenu",
+        "description": "",
+        "id": "spiegel-left-menu-navigation;leftmenu;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.Exception: Error\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: driver.version: unknown\r\n\tat steps.MenuSteps.i_click_leftMenu(MenuSteps.java:109)\r\n\tat ✽.I click leftMenu Meinung(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:41)\r\n",
+              "duration": 123559000000,
+              "status": "failed"
+            },
+            "line": 41,
+            "name": "I click leftMenu Meinung",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Meinung",
+                  "offset": 17
+                }
+              ],
+              "location": "steps.MenuSteps.i_click_leftMenu(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "I click a \"random\" article of alle Beitraege section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 10
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "I click page down 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_page_down(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@spiegelLeftMenuNavigation"
+          },
+          {
+            "name": "@leftMenu"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 14697000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I start Spiegel",
+            "match": {
+              "location": "steps.MenuSteps.i_start_Spiegel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1123000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click Akzeptieren und weiter",
+            "match": {
+              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1201000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click TopMenuButton",
+            "match": {
+              "location": "steps.MenuSteps.i_click_top_menu_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-26T17:07:11.768Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.TestCaseBase.setup()"
+            }
+          }
+        ],
+        "line": 51,
+        "name": "Leftmenu",
+        "description": "",
+        "id": "spiegel-left-menu-navigation;leftmenu;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.Exception: Error\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: driver.version: unknown\r\n\tat steps.MenuSteps.i_click_leftMenu(MenuSteps.java:109)\r\n\tat ✽.I click leftMenu Backstage(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:41)\r\n",
+              "duration": 121370000000,
+              "status": "failed"
+            },
+            "line": 41,
+            "name": "I click leftMenu Backstage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Backstage",
+                  "offset": 17
+                }
+              ],
+              "location": "steps.MenuSteps.i_click_leftMenu(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "I click a \"random\" article of alle Beitraege section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 10
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "I click page down 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_page_down(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@spiegelLeftMenuNavigation"
+          },
+          {
+            "name": "@leftMenu"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5639000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I start Spiegel",
+            "match": {
+              "location": "steps.MenuSteps.i_start_Spiegel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1041000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click Akzeptieren und weiter",
+            "match": {
+              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1170000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click TopMenuButton",
+            "match": {
+              "location": "steps.MenuSteps.i_click_top_menu_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-26T17:09:30.165Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.TestCaseBase.setup()"
+            }
+          }
+        ],
+        "line": 65,
+        "name": "Left Submenu",
+        "description": "",
+        "id": "spiegel-left-menu-navigation;left-submenu;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.Exception: Error\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: driver.version: unknown\r\n\tat steps.MenuSteps.i_click_leftSubMenu(MenuSteps.java:123)\r\n\tat ✽.I click leftSubMenu Bundestag in Politik(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:59)\r\n",
+              "duration": 123723000000,
+              "status": "failed"
+            },
+            "line": 59,
+            "name": "I click leftSubMenu Bundestag in Politik",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bundestag",
+                  "offset": 20
+                },
+                {
+                  "val": "Politik",
+                  "offset": 33
+                }
+              ],
+              "location": "steps.MenuSteps.i_click_leftSubMenu(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 60,
+            "name": "I click a \"random\" article of alle Beitraege section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 10
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 61,
+            "name": "I click page down 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_page_down(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@spiegelLeftMenuNavigation"
+          },
+          {
+            "name": "@leftSubmenu"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10865000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I start Spiegel",
+            "match": {
+              "location": "steps.MenuSteps.i_start_Spiegel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1054000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click Akzeptieren und weiter",
+            "match": {
+              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1207000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click TopMenuButton",
+            "match": {
+              "location": "steps.MenuSteps.i_click_top_menu_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-26T17:11:41.748Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.TestCaseBase.setup()"
+            }
+          }
+        ],
+        "line": 66,
+        "name": "Left Submenu",
+        "description": "",
+        "id": "spiegel-left-menu-navigation;left-submenu;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.Exception: Error\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: driver.version: unknown\r\n\tat steps.MenuSteps.i_click_leftSubMenu(MenuSteps.java:123)\r\n\tat ✽.I click leftSubMenu Bundesregierung in Politik(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:59)\r\n",
+              "duration": 123543000000,
+              "status": "failed"
+            },
+            "line": 59,
+            "name": "I click leftSubMenu Bundesregierung in Politik",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bundesregierung",
+                  "offset": 20
+                },
+                {
+                  "val": "Politik",
+                  "offset": 39
+                }
+              ],
+              "location": "steps.MenuSteps.i_click_leftSubMenu(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 60,
+            "name": "I click a \"random\" article of alle Beitraege section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 10
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 61,
+            "name": "I click page down 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_page_down(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@spiegelLeftMenuNavigation"
+          },
+          {
+            "name": "@leftSubmenu"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7314000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I start Spiegel",
+            "match": {
+              "location": "steps.MenuSteps.i_start_Spiegel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1048000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click Akzeptieren und weiter",
+            "match": {
+              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1172000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click TopMenuButton",
+            "match": {
+              "location": "steps.MenuSteps.i_click_top_menu_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-26T17:13:58.423Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.TestCaseBase.setup()"
+            }
+          }
+        ],
+        "line": 67,
+        "name": "Left Submenu",
+        "description": "",
+        "id": "spiegel-left-menu-navigation;left-submenu;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.Exception: Error\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: driver.version: unknown\r\n\tat steps.MenuSteps.i_click_leftSubMenu(MenuSteps.java:123)\r\n\tat ✽.I click leftSubMenu Afrika in Ausland(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:59)\r\n",
+              "duration": 123535000000,
+              "status": "failed"
+            },
+            "line": 59,
+            "name": "I click leftSubMenu Afrika in Ausland",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Afrika",
+                  "offset": 20
+                },
+                {
+                  "val": "Ausland",
+                  "offset": 30
+                }
+              ],
+              "location": "steps.MenuSteps.i_click_leftSubMenu(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 60,
+            "name": "I click a \"random\" article of alle Beitraege section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 10
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 61,
+            "name": "I click page down 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_page_down(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@spiegelLeftMenuNavigation"
+          },
+          {
+            "name": "@leftSubmenu"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7509000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I start Spiegel",
+            "match": {
+              "location": "steps.MenuSteps.i_start_Spiegel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1034000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click Akzeptieren und weiter",
+            "match": {
+              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1167000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click TopMenuButton",
+            "match": {
+              "location": "steps.MenuSteps.i_click_top_menu_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-26T17:16:11.498Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.TestCaseBase.setup()"
+            }
+          }
+        ],
+        "line": 68,
+        "name": "Left Submenu",
+        "description": "",
+        "id": "spiegel-left-menu-navigation;left-submenu;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.Exception: Error\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: driver.version: unknown\r\n\tat steps.MenuSteps.i_click_leftSubMenu(MenuSteps.java:123)\r\n\tat ✽.I click leftSubMenu Nahost in Ausland(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:59)\r\n",
+              "duration": 123765000000,
+              "status": "failed"
+            },
+            "line": 59,
+            "name": "I click leftSubMenu Nahost in Ausland",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nahost",
+                  "offset": 20
+                },
+                {
+                  "val": "Ausland",
+                  "offset": 30
+                }
+              ],
+              "location": "steps.MenuSteps.i_click_leftSubMenu(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 60,
+            "name": "I click a \"random\" article of alle Beitraege section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 10
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 61,
+            "name": "I click page down 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_page_down(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@spiegelLeftMenuNavigation"
+          },
+          {
+            "name": "@leftSubmenu"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5023000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I start Spiegel",
+            "match": {
+              "location": "steps.MenuSteps.i_start_Spiegel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1043000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click Akzeptieren und weiter",
+            "match": {
+              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1170000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click TopMenuButton",
+            "match": {
+              "location": "steps.MenuSteps.i_click_top_menu_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-26T17:18:24.977Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.TestCaseBase.setup()"
+            }
+          }
+        ],
+        "line": 69,
+        "name": "Left Submenu",
+        "description": "",
+        "id": "spiegel-left-menu-navigation;left-submenu;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.Exception: Error\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: driver.version: unknown\r\n\tat steps.MenuSteps.i_click_leftSubMenu(MenuSteps.java:123)\r\n\tat ✽.I click leftSubMenu Leute in Panorama(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:59)\r\n",
+              "duration": 121330000000,
+              "status": "failed"
+            },
+            "line": 59,
+            "name": "I click leftSubMenu Leute in Panorama",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Leute",
+                  "offset": 20
+                },
+                {
+                  "val": "Panorama",
+                  "offset": 29
+                }
+              ],
+              "location": "steps.MenuSteps.i_click_leftSubMenu(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 60,
+            "name": "I click a \"random\" article of alle Beitraege section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 10
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 61,
+            "name": "I click page down 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_page_down(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@spiegelLeftMenuNavigation"
+          },
+          {
+            "name": "@leftSubmenu"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7102000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I start Spiegel",
+            "match": {
+              "location": "steps.MenuSteps.i_start_Spiegel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1066000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click Akzeptieren und weiter",
+            "match": {
+              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1161000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click TopMenuButton",
+            "match": {
+              "location": "steps.MenuSteps.i_click_top_menu_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-26T17:20:33.554Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.TestCaseBase.setup()"
+            }
+          }
+        ],
+        "line": 70,
+        "name": "Left Submenu",
+        "description": "",
+        "id": "spiegel-left-menu-navigation;left-submenu;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.Exception: Error\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: driver.version: unknown\r\n\tat steps.MenuSteps.i_click_leftSubMenu(MenuSteps.java:123)\r\n\tat ✽.I click leftSubMenu Gesellschaft in Panorama(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:59)\r\n",
+              "duration": 121368000000,
+              "status": "failed"
+            },
+            "line": 59,
+            "name": "I click leftSubMenu Gesellschaft in Panorama",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Gesellschaft",
+                  "offset": 20
+                },
+                {
+                  "val": "Panorama",
+                  "offset": 36
+                }
+              ],
+              "location": "steps.MenuSteps.i_click_leftSubMenu(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 60,
+            "name": "I click a \"random\" article of alle Beitraege section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 10
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 61,
+            "name": "I click page down 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_page_down(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@spiegelLeftMenuNavigation"
+          },
+          {
+            "name": "@leftSubmenu"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8482000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I start Spiegel",
+            "match": {
+              "location": "steps.MenuSteps.i_start_Spiegel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1057000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click Akzeptieren und weiter",
+            "match": {
+              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1164000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click TopMenuButton",
+            "match": {
+              "location": "steps.MenuSteps.i_click_top_menu_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-26T17:22:44.256Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.TestCaseBase.setup()"
+            }
+          }
+        ],
+        "line": 71,
+        "name": "Left Submenu",
+        "description": "",
+        "id": "spiegel-left-menu-navigation;left-submenu;;8",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.Exception: Error\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: driver.version: unknown\r\n\tat steps.MenuSteps.i_click_leftSubMenu(MenuSteps.java:123)\r\n\tat ✽.I click leftSubMenu Bildung in Panorama(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:59)\r\n",
+              "duration": 121361000000,
+              "status": "failed"
+            },
+            "line": 59,
+            "name": "I click leftSubMenu Bildung in Panorama",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bildung",
+                  "offset": 20
+                },
+                {
+                  "val": "Panorama",
+                  "offset": 31
+                }
+              ],
+              "location": "steps.MenuSteps.i_click_leftSubMenu(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 60,
+            "name": "I click a \"random\" article of alle Beitraege section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 10
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 61,
+            "name": "I click page down 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_page_down(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@spiegelLeftMenuNavigation"
+          },
+          {
+            "name": "@leftSubmenu"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4598000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I start Spiegel",
+            "match": {
+              "location": "steps.MenuSteps.i_start_Spiegel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1060000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click Akzeptieren und weiter",
+            "match": {
+              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1157000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click TopMenuButton",
+            "match": {
+              "location": "steps.MenuSteps.i_click_top_menu_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-26T17:25:13.347Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.TestCaseBase.setup()"
+            }
+          }
+        ],
+        "line": 72,
+        "name": "Left Submenu",
+        "description": "",
+        "id": "spiegel-left-menu-navigation;left-submenu;;9",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.Exception: Error\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: driver.version: unknown\r\n\tat steps.MenuSteps.i_click_leftSubMenu(MenuSteps.java:123)\r\n\tat ✽.I click leftSubMenu Psychologie in Leben(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:59)\r\n",
+              "duration": 121367000000,
+              "status": "failed"
+            },
+            "line": 59,
+            "name": "I click leftSubMenu Psychologie in Leben",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Psychologie",
+                  "offset": 20
+                },
+                {
+                  "val": "Leben",
+                  "offset": 35
+                }
+              ],
+              "location": "steps.MenuSteps.i_click_leftSubMenu(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 60,
+            "name": "I click a \"random\" article of alle Beitraege section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 10
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 61,
+            "name": "I click page down 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_page_down(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@spiegelLeftMenuNavigation"
+          },
+          {
+            "name": "@leftSubmenu"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5801000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I start Spiegel",
+            "match": {
+              "location": "steps.MenuSteps.i_start_Spiegel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1067000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click Akzeptieren und weiter",
+            "match": {
+              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1176000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click TopMenuButton",
+            "match": {
+              "location": "steps.MenuSteps.i_click_top_menu_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-26T17:27:21.534Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.TestCaseBase.setup()"
+            }
+          }
+        ],
+        "line": 73,
+        "name": "Left Submenu",
+        "description": "",
+        "id": "spiegel-left-menu-navigation;left-submenu;;10",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.Exception: Error\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: driver.version: unknown\r\n\tat steps.MenuSteps.i_click_leftSubMenu(MenuSteps.java:123)\r\n\tat ✽.I click leftSubMenu Familie in Leben(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:59)\r\n",
+              "duration": 121330000000,
+              "status": "failed"
+            },
+            "line": 59,
+            "name": "I click leftSubMenu Familie in Leben",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Familie",
+                  "offset": 20
+                },
+                {
+                  "val": "Leben",
+                  "offset": 31
+                }
+              ],
+              "location": "steps.MenuSteps.i_click_leftSubMenu(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 60,
+            "name": "I click a \"random\" article of alle Beitraege section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 10
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 61,
+            "name": "I click page down 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_page_down(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@spiegelLeftMenuNavigation"
+          },
+          {
+            "name": "@leftSubmenu"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6136000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I start Spiegel",
+            "match": {
+              "location": "steps.MenuSteps.i_start_Spiegel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1046000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click Akzeptieren und weiter",
+            "match": {
+              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1171000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click TopMenuButton",
+            "match": {
+              "location": "steps.MenuSteps.i_click_top_menu_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-26T17:29:30.913Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.TestCaseBase.setup()"
+            }
+          }
+        ],
+        "line": 74,
+        "name": "Left Submenu",
+        "description": "",
+        "id": "spiegel-left-menu-navigation;left-submenu;;11",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.Exception: Error\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: driver.version: unknown\r\n\tat steps.MenuSteps.i_click_leftSubMenu(MenuSteps.java:123)\r\n\tat ✽.I click leftSubMenu Business in English(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:59)\r\n",
+              "duration": 121318000000,
+              "status": "failed"
+            },
+            "line": 59,
+            "name": "I click leftSubMenu Business in English",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Business",
+                  "offset": 20
+                },
+                {
+                  "val": "English",
+                  "offset": 32
+                }
+              ],
+              "location": "steps.MenuSteps.i_click_leftSubMenu(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 60,
+            "name": "I click a \"random\" article of alle Beitraege section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 10
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 61,
+            "name": "I click page down 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_page_down(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@spiegelLeftMenuNavigation"
+          },
+          {
+            "name": "@leftSubmenu"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4815000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I start Spiegel",
+            "match": {
+              "location": "steps.MenuSteps.i_start_Spiegel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1044000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click Akzeptieren und weiter",
+            "match": {
+              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1191000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click TopMenuButton",
+            "match": {
+              "location": "steps.MenuSteps.i_click_top_menu_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-26T17:31:40.595Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.TestCaseBase.setup()"
+            }
+          }
+        ],
+        "line": 75,
+        "name": "Left Submenu",
+        "description": "",
+        "id": "spiegel-left-menu-navigation;left-submenu;;12",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.Exception: Error\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: driver.version: unknown\r\n\tat steps.MenuSteps.i_click_leftSubMenu(MenuSteps.java:123)\r\n\tat ✽.I click leftSubMenu Technik in Wissenschaft(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:59)\r\n",
+              "duration": 121334000000,
+              "status": "failed"
+            },
+            "line": 59,
+            "name": "I click leftSubMenu Technik in Wissenschaft",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Technik",
+                  "offset": 20
+                },
+                {
+                  "val": "Wissenschaft",
+                  "offset": 31
+                }
+              ],
+              "location": "steps.MenuSteps.i_click_leftSubMenu(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 60,
+            "name": "I click a \"random\" article of alle Beitraege section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 10
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 61,
+            "name": "I click page down 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_page_down(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@spiegelLeftMenuNavigation"
+          },
+          {
+            "name": "@leftSubmenu"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6924000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I start Spiegel",
+            "match": {
+              "location": "steps.MenuSteps.i_start_Spiegel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1033000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click Akzeptieren und weiter",
+            "match": {
+              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1173000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click TopMenuButton",
+            "match": {
+              "location": "steps.MenuSteps.i_click_top_menu_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-26T17:33:48.984Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.TestCaseBase.setup()"
+            }
+          }
+        ],
+        "line": 76,
+        "name": "Left Submenu",
+        "description": "",
+        "id": "spiegel-left-menu-navigation;left-submenu;;13",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.Exception: Error\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: driver.version: unknown\r\n\tat steps.MenuSteps.i_click_leftSubMenu(MenuSteps.java:123)\r\n\tat ✽.I click leftSubMenu Weltall in Wissenschaft(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:59)\r\n",
+              "duration": 121314000000,
+              "status": "failed"
+            },
+            "line": 59,
+            "name": "I click leftSubMenu Weltall in Wissenschaft",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Weltall",
+                  "offset": 20
+                },
+                {
+                  "val": "Wissenschaft",
+                  "offset": 31
+                }
+              ],
+              "location": "steps.MenuSteps.i_click_leftSubMenu(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 60,
+            "name": "I click a \"random\" article of alle Beitraege section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 10
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 61,
+            "name": "I click page down 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_page_down(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@spiegelLeftMenuNavigation"
+          },
+          {
+            "name": "@leftSubmenu"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6036000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I start Spiegel",
+            "match": {
+              "location": "steps.MenuSteps.i_start_Spiegel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1066000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click Akzeptieren und weiter",
+            "match": {
+              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1193000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click TopMenuButton",
+            "match": {
+              "location": "steps.MenuSteps.i_click_top_menu_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-26T17:35:59.432Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.TestCaseBase.setup()"
+            }
+          }
+        ],
+        "line": 77,
+        "name": "Left Submenu",
+        "description": "",
+        "id": "spiegel-left-menu-navigation;left-submenu;;14",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.Exception: Error\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: driver.version: unknown\r\n\tat steps.MenuSteps.i_click_leftSubMenu(MenuSteps.java:123)\r\n\tat ✽.I click leftSubMenu Medizin in Wissenschaft(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:59)\r\n",
+              "duration": 121672000000,
+              "status": "failed"
+            },
+            "line": 59,
+            "name": "I click leftSubMenu Medizin in Wissenschaft",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Medizin",
+                  "offset": 20
+                },
+                {
+                  "val": "Wissenschaft",
+                  "offset": 31
+                }
+              ],
+              "location": "steps.MenuSteps.i_click_leftSubMenu(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 60,
+            "name": "I click a \"random\" article of alle Beitraege section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 10
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 61,
+            "name": "I click page down 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_page_down(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@spiegelLeftMenuNavigation"
+          },
+          {
+            "name": "@leftSubmenu"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5493000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I start Spiegel",
+            "match": {
+              "location": "steps.MenuSteps.i_start_Spiegel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1033000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click Akzeptieren und weiter",
+            "match": {
+              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1204000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click TopMenuButton",
+            "match": {
+              "location": "steps.MenuSteps.i_click_top_menu_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-26T17:38:09.404Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.TestCaseBase.setup()"
+            }
+          }
+        ],
+        "line": 78,
+        "name": "Left Submenu",
+        "description": "",
+        "id": "spiegel-left-menu-navigation;left-submenu;;15",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.Exception: Error\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: driver.version: unknown\r\n\tat steps.MenuSteps.i_click_leftSubMenu(MenuSteps.java:123)\r\n\tat ✽.I click leftSubMenu Familie in Leben(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:59)\r\n",
+              "duration": 121444000000,
+              "status": "failed"
+            },
+            "line": 59,
+            "name": "I click leftSubMenu Familie in Leben",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Familie",
+                  "offset": 20
+                },
+                {
+                  "val": "Leben",
+                  "offset": 31
+                }
+              ],
+              "location": "steps.MenuSteps.i_click_leftSubMenu(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 60,
+            "name": "I click a \"random\" article of alle Beitraege section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 10
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 61,
+            "name": "I click page down 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_page_down(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@spiegelLeftMenuNavigation"
+          },
+          {
+            "name": "@leftSubmenu"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5791000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I start Spiegel",
+            "match": {
+              "location": "steps.MenuSteps.i_start_Spiegel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1042000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click Akzeptieren und weiter",
+            "match": {
+              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1147000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click TopMenuButton",
+            "match": {
+              "location": "steps.MenuSteps.i_click_top_menu_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-26T17:40:18.601Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.TestCaseBase.setup()"
+            }
+          }
+        ],
+        "line": 80,
+        "name": "Left Submenu",
+        "description": "",
+        "id": "spiegel-left-menu-navigation;left-submenu;;16",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.Exception: Error\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: driver.version: unknown\r\n\tat steps.MenuSteps.i_click_leftSubMenu(MenuSteps.java:123)\r\n\tat ✽.I click leftSubMenu Young-Money-Blog in Wirtschaft(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:59)\r\n",
+              "duration": 121348000000,
+              "status": "failed"
+            },
+            "line": 59,
+            "name": "I click leftSubMenu Young-Money-Blog in Wirtschaft",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Young-Money-Blog",
+                  "offset": 20
+                },
+                {
+                  "val": "Wirtschaft",
+                  "offset": 40
+                }
+              ],
+              "location": "steps.MenuSteps.i_click_leftSubMenu(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 60,
+            "name": "I click a \"random\" article of alle Beitraege section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 10
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 61,
+            "name": "I click page down 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_page_down(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@spiegelLeftMenuNavigation"
+          },
+          {
+            "name": "@leftSubmenu"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5149000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I start Spiegel",
+            "match": {
+              "location": "steps.MenuSteps.i_start_Spiegel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1041000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click Akzeptieren und weiter",
+            "match": {
+              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1180000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click TopMenuButton",
+            "match": {
+              "location": "steps.MenuSteps.i_click_top_menu_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-26T17:42:27.932Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.TestCaseBase.setup()"
+            }
+          }
+        ],
+        "line": 81,
+        "name": "Left Submenu",
+        "description": "",
+        "id": "spiegel-left-menu-navigation;left-submenu;;17",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.Exception: Error\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: driver.version: unknown\r\n\tat steps.MenuSteps.i_click_leftSubMenu(MenuSteps.java:123)\r\n\tat ✽.I click leftSubMenu Städte der Zukunft in Wirtschaft(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:59)\r\n",
+              "duration": 121503000000,
+              "status": "failed"
+            },
+            "line": 59,
+            "name": "I click leftSubMenu Städte der Zukunft in Wirtschaft",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Städte der Zukunft",
+                  "offset": 20
+                },
+                {
+                  "val": "Wirtschaft",
+                  "offset": 42
+                }
+              ],
+              "location": "steps.MenuSteps.i_click_leftSubMenu(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 60,
+            "name": "I click a \"random\" article of alle Beitraege section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 10
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 61,
+            "name": "I click page down 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_page_down(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@spiegelLeftMenuNavigation"
+          },
+          {
+            "name": "@leftSubmenu"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5132000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I start Spiegel",
+            "match": {
+              "location": "steps.MenuSteps.i_start_Spiegel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1047000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click Akzeptieren und weiter",
+            "match": {
+              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1171000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click TopMenuButton",
+            "match": {
+              "location": "steps.MenuSteps.i_click_top_menu_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-26T17:44:36.809Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.TestCaseBase.setup()"
+            }
+          }
+        ],
+        "line": 82,
+        "name": "Left Submenu",
+        "description": "",
+        "id": "spiegel-left-menu-navigation;left-submenu;;18",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.Exception: Error\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: driver.version: unknown\r\n\tat steps.MenuSteps.i_click_leftSubMenu(MenuSteps.java:123)\r\n\tat ✽.I click leftSubMenu Champions League in Sport(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:59)\r\n",
+              "duration": 121390000000,
+              "status": "failed"
+            },
+            "line": 59,
+            "name": "I click leftSubMenu Champions League in Sport",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Champions League",
+                  "offset": 20
+                },
+                {
+                  "val": "Sport",
+                  "offset": 40
+                }
+              ],
+              "location": "steps.MenuSteps.i_click_leftSubMenu(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 60,
+            "name": "I click a \"random\" article of alle Beitraege section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 10
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 61,
+            "name": "I click page down 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_page_down(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@spiegelLeftMenuNavigation"
+          },
+          {
+            "name": "@leftSubmenu"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4958000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I start Spiegel",
+            "match": {
+              "location": "steps.MenuSteps.i_start_Spiegel()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1079000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click Akzeptieren und weiter",
+            "match": {
+              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1169000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click TopMenuButton",
+            "match": {
+              "location": "steps.MenuSteps.i_click_top_menu_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-26T17:46:45.556Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.TestCaseBase.setup()"
+            }
+          }
+        ],
+        "line": 83,
+        "name": "Left Submenu",
+        "description": "",
+        "id": "spiegel-left-menu-navigation;left-submenu;;19",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.Exception: Error\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: driver.version: unknown\r\n\tat steps.MenuSteps.i_click_leftSubMenu(MenuSteps.java:123)\r\n\tat ✽.I click leftSubMenu Business in English(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:59)\r\n",
+              "duration": 121342000000,
+              "status": "failed"
+            },
+            "line": 59,
+            "name": "I click leftSubMenu Business in English",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Business",
+                  "offset": 20
+                },
+                {
+                  "val": "English",
+                  "offset": 32
+                }
+              ],
+              "location": "steps.MenuSteps.i_click_leftSubMenu(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 60,
+            "name": "I click a \"random\" article of alle Beitraege section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 10
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 61,
+            "name": "I click page down 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_page_down(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@spiegelLeftMenuNavigation"
+          },
+          {
+            "name": "@leftSubmenu"
           }
         ]
       }

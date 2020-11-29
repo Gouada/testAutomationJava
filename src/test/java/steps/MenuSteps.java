@@ -6,8 +6,10 @@ import constants.Urls;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import pages.MenuPage;
+import pages.SearchPage;
 import pages.StartPage;
 
 import static java.lang.Thread.sleep;
@@ -18,6 +20,7 @@ public class MenuSteps{
     private WebDriver driver = TestCaseBase.driver;
     public static MenuPage menuPage;
     public static StartPage startPage;
+    public static SearchPage searchPage;
 /*
     @Before
     public void init()
@@ -37,8 +40,10 @@ public class MenuSteps{
         driver.get(String.valueOf(Urls.STARTSEITE.getUrl()));
         menuPage = new MenuPage(driver);
         startPage = new StartPage(driver);
+        startPage.waitForPageToLoad("DER SPIEGEL | Online-Nachrichten");
         startPage.closeAdversting();
-        sleep(2000);
+
+        sleep(4000);
     }
 
     @Then("I click Akzeptieren und weiter")
@@ -46,7 +51,7 @@ public class MenuSteps{
     {
         //MyLogger.logger.info("accepting conditions");
         startPage.clickAkzeptieren();
-        sleep(1000);
+        //sleep(3000);
     }
 
     @Then("I bring {string} menu into view")
@@ -85,14 +90,14 @@ public class MenuSteps{
     {
         try {
             menuPage.click_menu_button();
-            sleep(1000);
+            //sleep(1000);
             //menuPage.implicitlyWait(3);
         }
         catch (Exception e)
         {
             MyLogger.logger.error(e.getMessage());
             startPage.takeScreenhot("clicking_top_Menu_Button");
-            throw new Exception(e.getMessage());
+            throw new Exception();
         }
     }
 
@@ -128,7 +133,10 @@ public class MenuSteps{
     public void i_enter_search_word_and_press_enter(String text) throws Exception {
         try {
             menuPage.search(text);
-            sleep(1000);
+            searchPage = new SearchPage(driver);
+            searchPage.waitForPageToLoad("Suche - DER SPIEGEL");
+            Assert.assertTrue(searchPage.i_am_on_results_page());
+            //sleep(1000);
         }
         catch (Exception e)
         {

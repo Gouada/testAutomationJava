@@ -28,7 +28,7 @@ public class ArticlesListBasePage extends BasePage{
     //get page title
     public String getPageVisibleTitle(String menu)
     {
-        if(menu.equals("Kunst") || menu.equals("Streaming"))
+        if(menu.toUpperCase().contains("KUNST") || menu.toUpperCase().contains("STREAMING"))
             return getElementText(getElementByXpath("//div[@class='bg-white shadow rounded']//h2"));
         else
             return getElementText(getElementByXpath("//div[@class='bg-white shadow rounded']//h1"));
@@ -43,11 +43,12 @@ public class ArticlesListBasePage extends BasePage{
         int rndId = rnd.nextInt(articleCount -1);
         WebElement element = getElementsByXpath(alle_beitraege_list).get(rndId);
 
-        System.out.println("rndId: "+rndId+"  alle_beitraege_list:    "+alle_beitraege_list);
+        //System.out.println("rndId: "+rndId+"  alle_beitraege_list:    "+alle_beitraege_list);
         closeAdversting();
         //scrollIntoView(element);
         moveMouseOnElement(element);
         //takeScreenhot("before");
+        arrowDown(2);
         clickElement(element);
         //takeScreenhot("after");
     }

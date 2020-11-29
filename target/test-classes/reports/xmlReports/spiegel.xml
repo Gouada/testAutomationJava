@@ -1,66 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="200.803">
-<testcase classname="Spiegel Left Menu Navigation" name="search" time="38.926">
-<system-out><![CDATA[Given I start Spiegel.......................................................passed
+<testsuite errors="0" failures="29" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="29" time="3,630.648">
+<testcase classname="Spiegel Left Menu Navigation" name="search" time="17.937">
+<failure message="" type="java.lang.Exception"><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
-And I click TopMenuButton...................................................passed
-Then I enter Obama and press enter..........................................passed
-Then I click weiter 5.......................................................passed
-Then I click zurück 1.......................................................passed
-Then I click a "random" article on search results page......................passed
-Then I click page down 3....................................................passed
-Then I go back to "Suche - DER SPIEGEL".....................................passed
-Then I filter results by "Letztes Jahr".....................................passed
-Then I filter results by "seit 2005"........................................passed
-]]></system-out>
+And I click TopMenuButton...................................................failed
+Then I enter Obama and press enter..........................................skipped
+Then I click weiter 5.......................................................skipped
+Then I click zurück 1.......................................................skipped
+Then I click a "random" article on search results page......................skipped
+Then I click page down 3....................................................skipped
+Then I go back to "Suche - DER SPIEGEL".....................................skipped
+Then I filter results by "Letztes Jahr".....................................skipped
+Then I filter results by "seit 2005"........................................skipped
+
+StackTrace:
+java.lang.Exception
+	at steps.MenuSteps.i_click_top_menu_button(MenuSteps.java:95)
+	at ✽.I click TopMenuButton(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:7)
+]]></failure>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="search_2" time="31.757">
-<system-out><![CDATA[Given I start Spiegel.......................................................passed
-Then I click Akzeptieren und weiter.........................................passed
-And I click TopMenuButton...................................................passed
-Then I enter Lebron James and press enter...................................passed
-Then I click weiter 5.......................................................passed
-Then I click zurück 1.......................................................passed
-Then I click a "random" article on search results page......................passed
-Then I click page down 3....................................................passed
-Then I go back to "Suche - DER SPIEGEL".....................................passed
-Then I filter results by "Letztes Jahr".....................................passed
-Then I filter results by "seit 2005"........................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="search_3" time="33.14">
-<system-out><![CDATA[Given I start Spiegel.......................................................passed
-Then I click Akzeptieren und weiter.........................................passed
-And I click TopMenuButton...................................................passed
-Then I enter Thaler Richard and press enter.................................passed
-Then I click weiter 5.......................................................passed
-Then I click zurück 1.......................................................passed
-Then I click a "random" article on search results page......................passed
-Then I click page down 3....................................................passed
-Then I go back to "Suche - DER SPIEGEL".....................................passed
-Then I filter results by "Letztes Jahr".....................................passed
-Then I filter results by "seit 2005"........................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="search_4" time="35.445">
-<system-out><![CDATA[Given I start Spiegel.......................................................passed
-Then I click Akzeptieren und weiter.........................................passed
-And I click TopMenuButton...................................................passed
-Then I enter Kahneman Daniel and press enter................................passed
-Then I click weiter 5.......................................................passed
-Then I click zurück 1.......................................................passed
-Then I click a "random" article on search results page......................passed
-Then I click page down 3....................................................passed
-Then I go back to "Suche - DER SPIEGEL".....................................passed
-Then I filter results by "Letztes Jahr".....................................passed
-Then I filter results by "seit 2005"........................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="search_5" time="27.775">
+<testcase classname="Spiegel Left Menu Navigation" name="search_2" time="44.208">
 <failure message="bound must be positive" type="java.lang.IllegalArgumentException"><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
-Then I enter Fama Eugene and press enter....................................passed
+Then I enter Lebron James and press enter...................................passed
 Then I click weiter 5.......................................................passed
 Then I click zurück 1.......................................................passed
 Then I click a "random" article on search results page......................failed
@@ -73,23 +36,488 @@ StackTrace:
 java.lang.IllegalArgumentException: bound must be positive
 	at java.util.Random.nextInt(Random.java:388)
 	at pages.SearchPage.getRandNumber(SearchPage.java:30)
-	at pages.SearchPage.clickRandomArticle(SearchPage.java:37)
+	at pages.SearchPage.clickRandomArticle(SearchPage.java:39)
 	at steps.SearchPageSteps.i_click_a_article_on_search_results_page(SearchPageSteps.java:47)
 	at ✽.I click a "random" article on search results page(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:19)
 ]]></failure>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="search_6" time="33.382">
-<system-out><![CDATA[Given I start Spiegel.......................................................passed
+<testcase classname="Spiegel Left Menu Navigation" name="search_3" time="138.044">
+<failure message="" type="java.lang.AssertionError"><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+And I click TopMenuButton...................................................passed
+Then I enter Thaler Richard and press enter.................................passed
+Then I click weiter 5.......................................................failed
+Then I click zurück 1.......................................................skipped
+Then I click a "random" article on search results page......................skipped
+Then I click page down 3....................................................skipped
+Then I go back to "Suche - DER SPIEGEL".....................................skipped
+Then I filter results by "Letztes Jahr".....................................skipped
+Then I filter results by "seit 2005"........................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at steps.SearchPageSteps.i_click_weiter(SearchPageSteps.java:20)
+	at ✽.I click weiter 5(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:17)
+]]></failure>
+</testcase>
+<testcase classname="Spiegel Left Menu Navigation" name="search_4" time="142.969">
+<failure message="" type="java.lang.AssertionError"><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+And I click TopMenuButton...................................................passed
+Then I enter Kahneman Daniel and press enter................................passed
+Then I click weiter 5.......................................................failed
+Then I click zurück 1.......................................................skipped
+Then I click a "random" article on search results page......................skipped
+Then I click page down 3....................................................skipped
+Then I go back to "Suche - DER SPIEGEL".....................................skipped
+Then I filter results by "Letztes Jahr".....................................skipped
+Then I filter results by "seit 2005"........................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at steps.SearchPageSteps.i_click_weiter(SearchPageSteps.java:20)
+	at ✽.I click weiter 5(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:17)
+]]></failure>
+</testcase>
+<testcase classname="Spiegel Left Menu Navigation" name="search_5" time="130.074">
+<failure message="" type="java.lang.AssertionError"><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+And I click TopMenuButton...................................................passed
+Then I enter Fama Eugene and press enter....................................passed
+Then I click weiter 5.......................................................failed
+Then I click zurück 1.......................................................skipped
+Then I click a "random" article on search results page......................skipped
+Then I click page down 3....................................................skipped
+Then I go back to "Suche - DER SPIEGEL".....................................skipped
+Then I filter results by "Letztes Jahr".....................................skipped
+Then I filter results by "seit 2005"........................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at steps.SearchPageSteps.i_click_weiter(SearchPageSteps.java:20)
+	at ✽.I click weiter 5(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:17)
+]]></failure>
+</testcase>
+<testcase classname="Spiegel Left Menu Navigation" name="search_6" time="129.865">
+<failure message="" type="java.lang.AssertionError"><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
 Then I enter Angela Merkel and press enter..................................passed
-Then I click weiter 5.......................................................passed
-Then I click zurück 1.......................................................passed
-Then I click a "random" article on search results page......................passed
-Then I click page down 3....................................................passed
-Then I go back to "Suche - DER SPIEGEL".....................................passed
-Then I filter results by "Letztes Jahr".....................................passed
-Then I filter results by "seit 2005"........................................passed
-]]></system-out>
+Then I click weiter 5.......................................................failed
+Then I click zurück 1.......................................................skipped
+Then I click a "random" article on search results page......................skipped
+Then I click page down 3....................................................skipped
+Then I go back to "Suche - DER SPIEGEL".....................................skipped
+Then I filter results by "Letztes Jahr".....................................skipped
+Then I filter results by "seit 2005"........................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at steps.SearchPageSteps.i_click_weiter(SearchPageSteps.java:20)
+	at ✽.I click weiter 5(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:17)
+]]></failure>
+</testcase>
+<testcase classname="Spiegel Left Menu Navigation" name="Leftmenu" time="130.472">
+<failure message="Error&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'&#10;Driver info: driver.version: unknown" type="java.lang.Exception"><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+And I click TopMenuButton...................................................passed
+Then I click leftMenu Job & Karriere........................................failed
+Then I click a "random" article of alle Beitraege section...................skipped
+Then I click page down 3....................................................skipped
+
+StackTrace:
+java.lang.Exception: Error
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: driver.version: unknown
+	at steps.MenuSteps.i_click_leftMenu(MenuSteps.java:109)
+	at ✽.I click leftMenu Job & Karriere(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:41)
+]]></failure>
+</testcase>
+<testcase classname="Spiegel Left Menu Navigation" name="Leftmenu_2" time="130.787">
+<failure message="Error&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'&#10;Driver info: driver.version: unknown" type="java.lang.Exception"><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+And I click TopMenuButton...................................................passed
+Then I click leftMenu Start.................................................failed
+Then I click a "random" article of alle Beitraege section...................skipped
+Then I click page down 3....................................................skipped
+
+StackTrace:
+java.lang.Exception: Error
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: driver.version: unknown
+	at steps.MenuSteps.i_click_leftMenu(MenuSteps.java:109)
+	at ✽.I click leftMenu Start(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:41)
+]]></failure>
+</testcase>
+<testcase classname="Spiegel Left Menu Navigation" name="Leftmenu_3" time="131.9">
+<failure message="Error&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'&#10;Driver info: driver.version: unknown" type="java.lang.Exception"><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+And I click TopMenuButton...................................................passed
+Then I click leftMenu Coronavirus...........................................failed
+Then I click a "random" article of alle Beitraege section...................skipped
+Then I click page down 3....................................................skipped
+
+StackTrace:
+java.lang.Exception: Error
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: driver.version: unknown
+	at steps.MenuSteps.i_click_leftMenu(MenuSteps.java:109)
+	at ✽.I click leftMenu Coronavirus(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:41)
+]]></failure>
+</testcase>
+<testcase classname="Spiegel Left Menu Navigation" name="Leftmenu_4" time="131.711">
+<failure message="Error&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'&#10;Driver info: driver.version: unknown" type="java.lang.Exception"><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+And I click TopMenuButton...................................................passed
+Then I click leftMenu Meinung...............................................failed
+Then I click a "random" article of alle Beitraege section...................skipped
+Then I click page down 3....................................................skipped
+
+StackTrace:
+java.lang.Exception: Error
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: driver.version: unknown
+	at steps.MenuSteps.i_click_leftMenu(MenuSteps.java:109)
+	at ✽.I click leftMenu Meinung(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:41)
+]]></failure>
+</testcase>
+<testcase classname="Spiegel Left Menu Navigation" name="Leftmenu_5" time="138.393">
+<failure message="Error&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'&#10;Driver info: driver.version: unknown" type="java.lang.Exception"><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+And I click TopMenuButton...................................................passed
+Then I click leftMenu Backstage.............................................failed
+Then I click a "random" article of alle Beitraege section...................skipped
+Then I click page down 3....................................................skipped
+
+StackTrace:
+java.lang.Exception: Error
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: driver.version: unknown
+	at steps.MenuSteps.i_click_leftMenu(MenuSteps.java:109)
+	at ✽.I click leftMenu Backstage(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:41)
+]]></failure>
+</testcase>
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu" time="131.576">
+<failure message="Error&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'&#10;Driver info: driver.version: unknown" type="java.lang.Exception"><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+And I click TopMenuButton...................................................passed
+Then I click leftSubMenu Bundestag in Politik...............................failed
+Then I click a "random" article of alle Beitraege section...................skipped
+Then I click page down 3....................................................skipped
+
+StackTrace:
+java.lang.Exception: Error
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: driver.version: unknown
+	at steps.MenuSteps.i_click_leftSubMenu(MenuSteps.java:123)
+	at ✽.I click leftSubMenu Bundestag in Politik(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:59)
+]]></failure>
+</testcase>
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 2" time="136.671">
+<failure message="Error&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'&#10;Driver info: driver.version: unknown" type="java.lang.Exception"><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+And I click TopMenuButton...................................................passed
+Then I click leftSubMenu Bundesregierung in Politik.........................failed
+Then I click a "random" article of alle Beitraege section...................skipped
+Then I click page down 3....................................................skipped
+
+StackTrace:
+java.lang.Exception: Error
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: driver.version: unknown
+	at steps.MenuSteps.i_click_leftSubMenu(MenuSteps.java:123)
+	at ✽.I click leftSubMenu Bundesregierung in Politik(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:59)
+]]></failure>
+</testcase>
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 3" time="133.072">
+<failure message="Error&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'&#10;Driver info: driver.version: unknown" type="java.lang.Exception"><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+And I click TopMenuButton...................................................passed
+Then I click leftSubMenu Afrika in Ausland..................................failed
+Then I click a "random" article of alle Beitraege section...................skipped
+Then I click page down 3....................................................skipped
+
+StackTrace:
+java.lang.Exception: Error
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: driver.version: unknown
+	at steps.MenuSteps.i_click_leftSubMenu(MenuSteps.java:123)
+	at ✽.I click leftSubMenu Afrika in Ausland(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:59)
+]]></failure>
+</testcase>
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 4" time="133.476">
+<failure message="Error&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'&#10;Driver info: driver.version: unknown" type="java.lang.Exception"><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+And I click TopMenuButton...................................................passed
+Then I click leftSubMenu Nahost in Ausland..................................failed
+Then I click a "random" article of alle Beitraege section...................skipped
+Then I click page down 3....................................................skipped
+
+StackTrace:
+java.lang.Exception: Error
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: driver.version: unknown
+	at steps.MenuSteps.i_click_leftSubMenu(MenuSteps.java:123)
+	at ✽.I click leftSubMenu Nahost in Ausland(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:59)
+]]></failure>
+</testcase>
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 5" time="128.573">
+<failure message="Error&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'&#10;Driver info: driver.version: unknown" type="java.lang.Exception"><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+And I click TopMenuButton...................................................passed
+Then I click leftSubMenu Leute in Panorama..................................failed
+Then I click a "random" article of alle Beitraege section...................skipped
+Then I click page down 3....................................................skipped
+
+StackTrace:
+java.lang.Exception: Error
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: driver.version: unknown
+	at steps.MenuSteps.i_click_leftSubMenu(MenuSteps.java:123)
+	at ✽.I click leftSubMenu Leute in Panorama(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:59)
+]]></failure>
+</testcase>
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 6" time="130.699">
+<failure message="Error&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'&#10;Driver info: driver.version: unknown" type="java.lang.Exception"><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+And I click TopMenuButton...................................................passed
+Then I click leftSubMenu Gesellschaft in Panorama...........................failed
+Then I click a "random" article of alle Beitraege section...................skipped
+Then I click page down 3....................................................skipped
+
+StackTrace:
+java.lang.Exception: Error
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: driver.version: unknown
+	at steps.MenuSteps.i_click_leftSubMenu(MenuSteps.java:123)
+	at ✽.I click leftSubMenu Gesellschaft in Panorama(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:59)
+]]></failure>
+</testcase>
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 7" time="149.088">
+<failure message="Error&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'&#10;Driver info: driver.version: unknown" type="java.lang.Exception"><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+And I click TopMenuButton...................................................passed
+Then I click leftSubMenu Bildung in Panorama................................failed
+Then I click a "random" article of alle Beitraege section...................skipped
+Then I click page down 3....................................................skipped
+
+StackTrace:
+java.lang.Exception: Error
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: driver.version: unknown
+	at steps.MenuSteps.i_click_leftSubMenu(MenuSteps.java:123)
+	at ✽.I click leftSubMenu Bildung in Panorama(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:59)
+]]></failure>
+</testcase>
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 8" time="128.184">
+<failure message="Error&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'&#10;Driver info: driver.version: unknown" type="java.lang.Exception"><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+And I click TopMenuButton...................................................passed
+Then I click leftSubMenu Psychologie in Leben...............................failed
+Then I click a "random" article of alle Beitraege section...................skipped
+Then I click page down 3....................................................skipped
+
+StackTrace:
+java.lang.Exception: Error
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: driver.version: unknown
+	at steps.MenuSteps.i_click_leftSubMenu(MenuSteps.java:123)
+	at ✽.I click leftSubMenu Psychologie in Leben(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:59)
+]]></failure>
+</testcase>
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 9" time="129.376">
+<failure message="Error&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'&#10;Driver info: driver.version: unknown" type="java.lang.Exception"><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+And I click TopMenuButton...................................................passed
+Then I click leftSubMenu Familie in Leben...................................failed
+Then I click a "random" article of alle Beitraege section...................skipped
+Then I click page down 3....................................................skipped
+
+StackTrace:
+java.lang.Exception: Error
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: driver.version: unknown
+	at steps.MenuSteps.i_click_leftSubMenu(MenuSteps.java:123)
+	at ✽.I click leftSubMenu Familie in Leben(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:59)
+]]></failure>
+</testcase>
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 10" time="129.674">
+<failure message="Error&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'&#10;Driver info: driver.version: unknown" type="java.lang.Exception"><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+And I click TopMenuButton...................................................passed
+Then I click leftSubMenu Business in English................................failed
+Then I click a "random" article of alle Beitraege section...................skipped
+Then I click page down 3....................................................skipped
+
+StackTrace:
+java.lang.Exception: Error
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: driver.version: unknown
+	at steps.MenuSteps.i_click_leftSubMenu(MenuSteps.java:123)
+	at ✽.I click leftSubMenu Business in English(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:59)
+]]></failure>
+</testcase>
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 11" time="128.387">
+<failure message="Error&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'&#10;Driver info: driver.version: unknown" type="java.lang.Exception"><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+And I click TopMenuButton...................................................passed
+Then I click leftSubMenu Technik in Wissenschaft............................failed
+Then I click a "random" article of alle Beitraege section...................skipped
+Then I click page down 3....................................................skipped
+
+StackTrace:
+java.lang.Exception: Error
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: driver.version: unknown
+	at steps.MenuSteps.i_click_leftSubMenu(MenuSteps.java:123)
+	at ✽.I click leftSubMenu Technik in Wissenschaft(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:59)
+]]></failure>
+</testcase>
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 12" time="130.445">
+<failure message="Error&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'&#10;Driver info: driver.version: unknown" type="java.lang.Exception"><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+And I click TopMenuButton...................................................passed
+Then I click leftSubMenu Weltall in Wissenschaft............................failed
+Then I click a "random" article of alle Beitraege section...................skipped
+Then I click page down 3....................................................skipped
+
+StackTrace:
+java.lang.Exception: Error
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: driver.version: unknown
+	at steps.MenuSteps.i_click_leftSubMenu(MenuSteps.java:123)
+	at ✽.I click leftSubMenu Weltall in Wissenschaft(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:59)
+]]></failure>
+</testcase>
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 13" time="129.969">
+<failure message="Error&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'&#10;Driver info: driver.version: unknown" type="java.lang.Exception"><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+And I click TopMenuButton...................................................passed
+Then I click leftSubMenu Medizin in Wissenschaft............................failed
+Then I click a "random" article of alle Beitraege section...................skipped
+Then I click page down 3....................................................skipped
+
+StackTrace:
+java.lang.Exception: Error
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: driver.version: unknown
+	at steps.MenuSteps.i_click_leftSubMenu(MenuSteps.java:123)
+	at ✽.I click leftSubMenu Medizin in Wissenschaft(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:59)
+]]></failure>
+</testcase>
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 14" time="129.178">
+<failure message="Error&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'&#10;Driver info: driver.version: unknown" type="java.lang.Exception"><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+And I click TopMenuButton...................................................passed
+Then I click leftSubMenu Familie in Leben...................................failed
+Then I click a "random" article of alle Beitraege section...................skipped
+Then I click page down 3....................................................skipped
+
+StackTrace:
+java.lang.Exception: Error
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: driver.version: unknown
+	at steps.MenuSteps.i_click_leftSubMenu(MenuSteps.java:123)
+	at ✽.I click leftSubMenu Familie in Leben(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:59)
+]]></failure>
+</testcase>
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 15" time="129.329">
+<failure message="Error&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'&#10;Driver info: driver.version: unknown" type="java.lang.Exception"><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+And I click TopMenuButton...................................................passed
+Then I click leftSubMenu Young-Money-Blog in Wirtschaft.....................failed
+Then I click a "random" article of alle Beitraege section...................skipped
+Then I click page down 3....................................................skipped
+
+StackTrace:
+java.lang.Exception: Error
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: driver.version: unknown
+	at steps.MenuSteps.i_click_leftSubMenu(MenuSteps.java:123)
+	at ✽.I click leftSubMenu Young-Money-Blog in Wirtschaft(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:59)
+]]></failure>
+</testcase>
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 16" time="128.875">
+<failure message="Error&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'&#10;Driver info: driver.version: unknown" type="java.lang.Exception"><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+And I click TopMenuButton...................................................passed
+Then I click leftSubMenu Städte der Zukunft in Wirtschaft...................failed
+Then I click a "random" article of alle Beitraege section...................skipped
+Then I click page down 3....................................................skipped
+
+StackTrace:
+java.lang.Exception: Error
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: driver.version: unknown
+	at steps.MenuSteps.i_click_leftSubMenu(MenuSteps.java:123)
+	at ✽.I click leftSubMenu Städte der Zukunft in Wirtschaft(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:59)
+]]></failure>
+</testcase>
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 17" time="128.743">
+<failure message="Error&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'&#10;Driver info: driver.version: unknown" type="java.lang.Exception"><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+And I click TopMenuButton...................................................passed
+Then I click leftSubMenu Champions League in Sport..........................failed
+Then I click a "random" article of alle Beitraege section...................skipped
+Then I click page down 3....................................................skipped
+
+StackTrace:
+java.lang.Exception: Error
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: driver.version: unknown
+	at steps.MenuSteps.i_click_leftSubMenu(MenuSteps.java:123)
+	at ✽.I click leftSubMenu Champions League in Sport(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:59)
+]]></failure>
+</testcase>
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 18" time="128.55">
+<failure message="Error&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'&#10;Driver info: driver.version: unknown" type="java.lang.Exception"><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+And I click TopMenuButton...................................................passed
+Then I click leftSubMenu Business in English................................failed
+Then I click a "random" article of alle Beitraege section...................skipped
+Then I click page down 3....................................................skipped
+
+StackTrace:
+java.lang.Exception: Error
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: driver.version: unknown
+	at steps.MenuSteps.i_click_leftSubMenu(MenuSteps.java:123)
+	at ✽.I click leftSubMenu Business in English(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:59)
+]]></failure>
 </testcase>
 </testsuite>

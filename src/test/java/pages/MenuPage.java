@@ -13,10 +13,11 @@ public class MenuPage extends BasePage{
     private static String pfeil_nach_links_xpath = "((//div[@class='OffsetContainer bg-white']//child::nav[@role='navigation']//preceding-sibling::div)[3]//child::span)[1]";
     private static String meunu_button_xpath = "//button[@data-navbar-el='menuActivator']";
     private static String icon_xpath = "//span[contains(text(), 'Anmelden') and @class='relative bottom-px']";
-    private static String search_button = "//button[@data-search-el='toggle']";
+    private static String search_button_startpage = "//button[@data-search-el='toggle']";
     private static String search_input_field = "search-input-field";
     private static String search_menu_field = "search-menu-field";
     private static String search_main_field = "search-main-field";
+    private static String search__button_leftMenu = "//form[@action='https://www.spiegel.de/suche/']//button";
 
     public MenuPage(WebDriver driver) {
         super(driver);
@@ -71,6 +72,7 @@ public class MenuPage extends BasePage{
 
     public void click_menu_button()
     {
+        waitForElementToBeClickable(meunu_button_xpath, "xpath",10);
         clickElement(getElementByXpath(meunu_button_xpath));
     }
     public void clickLeftMenuElement(String menuElement)
@@ -92,6 +94,7 @@ public class MenuPage extends BasePage{
     public void clickATopMenu(String menuName)
     {
         String myLocator = getTopMenuXpathString(menuName);
+        waitForElementToBeClickable(myLocator,"xpath", 15);
         moveMouseOnElement(getElement(myLocator,"xpath"));
         clickElement(getElement(myLocator, "xpath"));
     }
@@ -110,7 +113,7 @@ public class MenuPage extends BasePage{
     public void click_right_arrow_until_is_visible(String menu) {
         WebElement element = getElementByXpath(getTopMenuXpathString(menu));
         WebElement arrow = getElementByXpath(pfeil_nach_recht_xpath);
-        waitForElementToBeClickable(arrow,3);
+        waitForElementToBeClickable(arrow,10);
         do {
             clickElement(arrow);
             implicitlyWait(1);
@@ -134,9 +137,12 @@ public class MenuPage extends BasePage{
 
     public void search(String text) throws InterruptedException {
         //sleep(3000);
+        WebElement search_button = getElementByXpath(search__button_leftMenu);
+        waitForElementToBeClickable(search_button,10);
         if(isElementDisplayed(search_menu_field, "id")) {
             typeTextInField(search_menu_field, "id", text);
-            sleep(5000);
+            //sleep(5000);
+            clickElement(search_button);
         }
         else
         {
@@ -144,11 +150,11 @@ public class MenuPage extends BasePage{
                 typeTextInField(search_main_field, "id", text);
             else {
                 if (!isElementDisplayed(search_input_field, "id"))
-                    clickElement(search_button, "xpath");
+                    clickElement(search_button_startpage, "xpath");
                 typeTextInField(search_input_field, "id", text);
                 }
+            pressEnter();
         }
 
-        pressEnter();
     }
 }

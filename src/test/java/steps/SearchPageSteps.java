@@ -24,12 +24,12 @@ public class SearchPageSteps {
         {
             MyLogger.logger.error(e.getMessage());
             searPage.takeScreenhot("clicking_Weiter_");
-            throw new Exception();
+            throw new Exception(e.getMessage());
         }
     }
 
     @Then("I click zurück {int}")
-    public void i_click_zurück(int clicks) {
+    public void i_click_zurück(int clicks) throws Exception {
         try {
             searPage.clickZurueck(clicks);
             Assert.assertTrue(searPage.i_am_on_results_page());
@@ -38,14 +38,23 @@ public class SearchPageSteps {
         {
             MyLogger.logger.error(e.getMessage());
             searPage.takeScreenhot("clicking_Zurueck_");
+            throw new Exception(e.getMessage());
         }
     }
 
     @Then("I click a {string} article on search results page")
     public void i_click_a_article_on_search_results_page(String position) throws Throwable{
-        if(position.equals("random"))
-            searPage.clickRandomArticle();
-        //Assert.assertTrue(searPage.i_am_on_results_page());
+        try {
+            if (position.equals("random"))
+                searPage.clickRandomArticle();
+            //Assert.assertTrue(searPage.i_am_on_results_page());
+        }
+        catch (Exception e)
+        {
+            MyLogger.logger.error(e.getMessage());
+            searPage.takeScreenhot("clicking_"+position+"_article");
+            throw new Exception(e.getMessage());
+        }
     }
 
     @Then("I filter results by {string}")

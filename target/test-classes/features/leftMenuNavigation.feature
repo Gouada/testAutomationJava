@@ -14,7 +14,7 @@ Feature: Spiegel Left Menu Navigation
   @search
   Scenario Outline: search
     Then I enter <serach_word> and press enter
-    Then I click weiter 5
+    Then I click weiter 3
     Then I click zurück 1
     Then I click a "random" article on search results page
     Then I click page down 3
