@@ -6,6 +6,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.time.Duration;
+
 public class BasePage extends SeleniumDriverWrapper {
     WebDriver driver;
 
@@ -28,7 +30,7 @@ public class BasePage extends SeleniumDriverWrapper {
     public void waitForPageToLoad(String title)
     {
         try {
-            WebDriverWait dw = new WebDriverWait(driver, 30);
+            WebDriverWait dw = new WebDriverWait(driver, Duration.ofSeconds(30));
             dw.until(ExpectedConditions.titleContains(title));
         }
         catch (Exception e)

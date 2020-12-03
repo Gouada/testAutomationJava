@@ -1,4 +1,84 @@
 -------------------------------------------------------------------------------
 Test set: runners.SpiegelRunner
 -------------------------------------------------------------------------------
-Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 883.231 sec
+Tests run: 26, Failures: 6, Errors: 4, Skipped: 0, Time elapsed: 1,969.884 sec <<< FAILURE!
+Spiegel Coronavirus read section 1 articles(Coronavirus)  Time elapsed: 74.415 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at steps.HelperSteps.i_go_back_to(HelperSteps.java:106)
+	at ?.I go back to "Coronavirus - DER SPIEGEL"(file:///C:/MyWorkspace/guineenews/src/test/resources/features/coronaVirus.feature:14)
+
+reading Schlagzeilen article(Spiegel Schlagzeilen)  Time elapsed: 100.463 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at steps.HelperSteps.i_go_back_to(HelperSteps.java:106)
+	at ?.I go back to "Schlagzeilen - DER SPIEGEL"(file:///C:/MyWorkspace/guineenews/src/test/resources/features/schlagzeilen.feature:17)
+
+Spiegel plus read section 1 articles(Spiegel Plus)  Time elapsed: 116.894 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at steps.HelperSteps.i_go_back_to(HelperSteps.java:106)
+	at ?.I go back to "Plus - DER SPIEGEL"(file:///C:/MyWorkspace/guineenews/src/test/resources/features/spiegelPlus.feature:14)
+
+Spiegel plus read random section articles(Spiegel Plus)  Time elapsed: 176.024 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at steps.HelperSteps.i_go_back_to(HelperSteps.java:106)
+	at ?.I go back to "Plus - DER SPIEGEL"(file:///C:/MyWorkspace/guineenews/src/test/resources/features/spiegelPlus.feature:28)
+
+Spiegel plus read audio section articles(Spiegel Plus)  Time elapsed: 118.727 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at steps.HelperSteps.i_go_back_to(HelperSteps.java:106)
+	at ?.I go back to "Plus - DER SPIEGEL"(file:///C:/MyWorkspace/guineenews/src/test/resources/features/spiegelPlus.feature:38)
+
+reading main article #2(Spiegel StartPage)  Time elapsed: 44.415 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at steps.HelperSteps.i_go_back_to(HelperSteps.java:106)
+	at ?.I go back to "DER SPIEGEL | Online-Nachrichten"(file:///C:/MyWorkspace/guineenews/src/test/resources/features/startPage.feature:22)
+
+read news section articles(Spiegel StartPage)  Time elapsed: 139.112 sec  <<< ERROR!
+java.lang.Exception: Error
+Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: driver.version: unknown
+	at steps.StartpageSteps.i_click_article_of(StartpageSteps.java:55)
+	at ?.On start page I click first article of news_section(file:///C:/MyWorkspace/guineenews/src/test/resources/features/startPage.feature:27)
+
+block channel section #1(Spiegel StartPage)  Time elapsed: 140.554 sec  <<< ERROR!
+java.lang.Exception: Error
+Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: driver.version: unknown
+	at steps.StartpageSteps.i_click_article_of(StartpageSteps.java:55)
+	at ?.On start page I click random article of geschichte_channel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/startPage.feature:66)
+
+block channel section #4(Spiegel StartPage)  Time elapsed: 138.576 sec  <<< ERROR!
+java.lang.Exception: Error
+Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: driver.version: unknown
+	at steps.StartpageSteps.i_click_article_of(StartpageSteps.java:55)
+	at ?.On start page I click random article of kultur_channel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/startPage.feature:66)
+
+block channel section #6(Spiegel StartPage)  Time elapsed: 138.15 sec  <<< ERROR!
+java.lang.Exception: Error
+Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: driver.version: unknown
+	at steps.StartpageSteps.i_click_article_of(StartpageSteps.java:55)
+	at ?.On start page I click random article of wissenschaft_channel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/startPage.feature:66)
+

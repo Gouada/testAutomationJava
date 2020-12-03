@@ -2,6 +2,8 @@ package steps;
 
 import helpers.MyLogger;
 import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
 import org.junit.Assert;
 import pages.ArticlesListBasePage;
 
@@ -96,7 +98,7 @@ public class HelperSteps {
     }
 
     @Then("I go back to {string}")
-    public void i_go_back_to(String title) {
+    public void i_go_back_to(String title) throws Exception {
         try {
             page.goBack();
             sleep(500);
@@ -106,12 +108,19 @@ public class HelperSteps {
             Assert.assertTrue(page.getitle().contains(title));
             //Assert.assertTrue(page.getPageSource().contains("SPIEGEL+"));
         }
+        catch (AssertionError  e)
+        {
+            MyLogger.logger.error("Step 'i_go_back': "+e.getMessage());
+            page.takeScreenhot("i_go_back_to_" + title);
+            e.printStackTrace();
+            throw new AssertionError();
+        }
         catch (Exception  e)
         {
             MyLogger.logger.error("Step 'i_go_back': "+e.getMessage());
-            page.takeScreenhot("i_go_back" + title);
+            page.takeScreenhot("i_go_back_to_" + title);
             e.printStackTrace();
-            throw new AssertionError();
+            throw new Exception(e.getMessage());
         }
     }
 
@@ -186,5 +195,13 @@ public class HelperSteps {
     {
         page.switchToTab(0);
         page.switch_back_toDefault();
+    }
+
+    @When("A new tab is opened")
+    public boolean new_tab_is_opened()
+    {
+        if(page.getTabCount() > 1)
+            return true;
+        else return false;
     }
 }

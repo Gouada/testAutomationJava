@@ -59,6 +59,7 @@ public class BestSellerBasePage extends BasePage{
 
     public void clickBestSellerMenuElement(String menuElement)
     {
+
         WebElement element = getElementByXpath(getBestsellerMenuElementXpath(menuElement));
         closeAdversting();
         clickElement(element);

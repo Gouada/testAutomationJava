@@ -100,7 +100,7 @@ public class SpiegelPlusSteps{
             MyLogger.logger.error(e.getMessage());
             spiegelPlus.takeScreenhot("i_click_an_random_article_of_"+section+"_section");
             e.printStackTrace();
-            //throw new AssertionError();
+            throw new AssertionError();
         }
     }
 
@@ -126,7 +126,25 @@ public class SpiegelPlusSteps{
             MyLogger.logger.error(e.getMessage());
             spiegelPlus.takeScreenhot("i_click_an_random_article_of_"+section+"_section");
             e.printStackTrace();
-            //throw new AssertionError();
+            throw new AssertionError();
+        }
+    }
+
+    @Then("I close the tab or go back to {string}")
+    public void i_close_the_tab_or_go_back_to(String pageTitle)
+    {
+        try {
+            if (spiegelPlus.getTabCount() > 1)
+                spiegelPlus.close_tab();
+            else
+                spiegelPlus.goBack();
+        }
+        catch (Exception e)
+        {
+            MyLogger.logger.error(e.getMessage());
+            spiegelPlus.takeScreenhot("closing_tab");
+            e.printStackTrace();
+            throw new AssertionError();
         }
     }
 

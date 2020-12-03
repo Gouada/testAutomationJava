@@ -43,7 +43,7 @@ public class MenuSteps{
         startPage.waitForPageToLoad("DER SPIEGEL | Online-Nachrichten");
         startPage.closeAdversting();
 
-        sleep(4000);
+        sleep(3000);
     }
 
     @Then("I click Akzeptieren und weiter")

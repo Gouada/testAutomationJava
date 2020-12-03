@@ -25,7 +25,7 @@ Feature: Coronavirus
     Then I scroll to "random" section
     Then I click first article of "random" section
     Then I click page down 3
-    Then I close the tab
+    Then I close the tab or go back to "Coronavirus - DER SPIEGEL"
     #Then I go back to "Coronavirus - DER SPIEGEL"
     Then I click a random article of "random" section
     Then I click page down 3

@@ -13,7 +13,7 @@ public class SpiegelPlus extends ArticlesListBasePage{
     }
 
     //xpaths
-    private static final String sections_list = "//section[@class='relative flex flex-wrap w-full']";
+    private static final String sections_list = "//section[starts-with(@class, 'relative flex flex-wrap w-full')]";
   /*  private static final String alle_Beitrege_section = "//section[@data-area='article-teaser-list']";
     private static final String alle_beitraege_list = "//section[@data-area='article-teaser-list']//div[@data-block-el='articleTeaser']";
     private static final String nav_right = "//span[contains(@title, 'ltere Artikel')]";
@@ -22,13 +22,13 @@ public class SpiegelPlus extends ArticlesListBasePage{
     // gets the xpath of an article section in the specified section
     private String getSectionArticleXpath(int sectionNr, int articleNr)
     {
-        return "//section[@class='relative flex flex-wrap w-full']["+sectionNr+"]//child::div[@data-block-el='articleTeaser']["+articleNr+"]";
+        return "//section[starts-with(@class, 'relative flex flex-wrap w-full')]["+sectionNr+"]//child::div[@data-block-el='articleTeaser']["+articleNr+"]";
     }
 
     //gets the xpath of articles list of a specific section
     private String getSectionArticlesXpath(int sectionNr)
     {
-        return "//section[@class='relative flex flex-wrap w-full']["+sectionNr+"]//child::div[@data-block-el='articleTeaser']";
+        return "//section[starts-with(@class, 'relative flex flex-wrap w-full')]["+sectionNr+"]//child::div[@data-block-el='articleTeaser']";
     }
 
     //gets the xpath of a specific section
@@ -69,6 +69,7 @@ public class SpiegelPlus extends ArticlesListBasePage{
     public void clickSectionArticle(int sectionNr, int articleNr)
     {
         String myLocator = "(" + getSectionArticleXpath(sectionNr, articleNr) + "//a)[1]";
+        System.out.println(myLocator);
         moveMouseOnElement(getElementByXpath(myLocator));
         clickElement(getElementByXpath(myLocator));
 
@@ -103,7 +104,7 @@ public class SpiegelPlus extends ArticlesListBasePage{
             rndSection = rdm.nextInt(getSectionsCount());
         }
         while(!hasArticle(rndSection));
-        //System.out.println("rndSection:   "+rndSection);
+        System.out.println("rndSection:   "+rndSection);
         return rndSection;
     }
 

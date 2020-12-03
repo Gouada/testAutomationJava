@@ -3,6 +3,8 @@ package pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import java.time.Duration;
+
 import static java.lang.Thread.sleep;
 
 public class MenuPage extends BasePage{
@@ -72,14 +74,14 @@ public class MenuPage extends BasePage{
 
     public void click_menu_button()
     {
-        waitForElementToBeClickable(meunu_button_xpath, "xpath",10);
+        waitForElementToBeClickable(meunu_button_xpath, "xpath", Duration.ofSeconds(10));
         clickElement(getElementByXpath(meunu_button_xpath));
     }
     public void clickLeftMenuElement(String menuElement)
     {
         String myLocator = getLeftMenuXpath(menuElement);
         WebElement element = getElementByXpath(myLocator);
-        if(!isElementDisplayed(element))
+        if(!isElementDisplayed(myLocator,"xpath"))
             moveMouseOnElement(element);
         clickElement(element);
     }
@@ -94,7 +96,7 @@ public class MenuPage extends BasePage{
     public void clickATopMenu(String menuName)
     {
         String myLocator = getTopMenuXpathString(menuName);
-        waitForElementToBeClickable(myLocator,"xpath", 15);
+        waitForElementToBeClickable(myLocator,"xpath", Duration.ofSeconds(15));
         moveMouseOnElement(getElement(myLocator,"xpath"));
         clickElement(getElement(myLocator, "xpath"));
     }
@@ -111,9 +113,11 @@ public class MenuPage extends BasePage{
     }
 
     public void click_right_arrow_until_is_visible(String menu) {
-        WebElement element = getElementByXpath(getTopMenuXpathString(menu));
+
+        waitForElementToBeClickable(pfeil_nach_recht_xpath,"xpath", Duration.ofSeconds(15));
+
         WebElement arrow = getElementByXpath(pfeil_nach_recht_xpath);
-        waitForElementToBeClickable(arrow,10);
+        WebElement element = getElementByXpath(getTopMenuXpathString(menu));
         do {
             clickElement(arrow);
             implicitlyWait(1);
@@ -137,8 +141,9 @@ public class MenuPage extends BasePage{
 
     public void search(String text) throws InterruptedException {
         //sleep(3000);
+        waitForElementToBeClickable(search__button_leftMenu, "xpath", Duration.ofSeconds(10));
         WebElement search_button = getElementByXpath(search__button_leftMenu);
-        waitForElementToBeClickable(search_button,10);
+        //waitForElementToBeClickable(search_button,Duration.ofSeconds(10));
         if(isElementDisplayed(search_menu_field, "id")) {
             typeTextInField(search_menu_field, "id", text);
             //sleep(5000);

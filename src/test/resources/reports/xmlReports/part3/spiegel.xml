@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="12" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="29" time="595.355">
-<testcase classname="Spiegel Left Menu Navigation" name="search" time="57.342">
+<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="29" time="715.89">
+<testcase classname="Spiegel Left Menu Navigation" name="search" time="37.848">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
@@ -14,7 +14,7 @@ Then I filter results by "Letztes Jahr".....................................pass
 Then I filter results by "seit 2005"........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="search_2" time="35.159">
+<testcase classname="Spiegel Left Menu Navigation" name="search_2" time="26.702">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
@@ -28,7 +28,7 @@ Then I filter results by "Letztes Jahr".....................................pass
 Then I filter results by "seit 2005"........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="search_3" time="28.057">
+<testcase classname="Spiegel Left Menu Navigation" name="search_3" time="37.913">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
@@ -42,7 +42,7 @@ Then I filter results by "Letztes Jahr".....................................pass
 Then I filter results by "seit 2005"........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="search_4" time="24.291">
+<testcase classname="Spiegel Left Menu Navigation" name="search_4" time="26.355">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
@@ -56,7 +56,7 @@ Then I filter results by "Letztes Jahr".....................................pass
 Then I filter results by "seit 2005"........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="search_5" time="31.35">
+<testcase classname="Spiegel Left Menu Navigation" name="search_5" time="22.915">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
@@ -70,7 +70,7 @@ Then I filter results by "Letztes Jahr".....................................pass
 Then I filter results by "seit 2005"........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="search_6" time="30.232">
+<testcase classname="Spiegel Left Menu Navigation" name="search_6" time="30.999">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
@@ -84,25 +84,41 @@ Then I filter results by "Letztes Jahr".....................................pass
 Then I filter results by "seit 2005"........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="Leftmenu" time="23.152">
-<system-out><![CDATA[Given I start Spiegel.......................................................passed
+<testcase classname="Spiegel Left Menu Navigation" name="Leftmenu" time="16.181">
+<failure message="Error&#10;Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'&#10;System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'&#10;Driver info: driver.version: unknown" type="java.lang.Exception"><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
-Then I click leftMenu Job & Karriere........................................passed
-Then I click a "random" article of alle Beitraege section...................passed
-Then I click page down 3....................................................passed
-]]></system-out>
+Then I click leftMenu Job & Karriere........................................failed
+Then I click a "random" article of alle Beitraege section...................skipped
+Then I click page down 3....................................................skipped
+
+StackTrace:
+java.lang.Exception: Error
+Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: driver.version: unknown
+	at steps.MenuSteps.i_click_leftMenu(MenuSteps.java:114)
+	at ✽.I click leftMenu Job & Karriere(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:41)
+]]></failure>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="Leftmenu_2" time="22.362">
-<system-out><![CDATA[Given I start Spiegel.......................................................passed
+<testcase classname="Spiegel Left Menu Navigation" name="Leftmenu_2" time="15.678">
+<failure message="Error&#10;Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'&#10;System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'&#10;Driver info: driver.version: unknown" type="java.lang.Exception"><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
-Then I click leftMenu Start.................................................passed
-Then I click a "random" article of alle Beitraege section...................passed
-Then I click page down 3....................................................passed
-]]></system-out>
+Then I click leftMenu Start.................................................failed
+Then I click a "random" article of alle Beitraege section...................skipped
+Then I click page down 3....................................................skipped
+
+StackTrace:
+java.lang.Exception: Error
+Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: driver.version: unknown
+	at steps.MenuSteps.i_click_leftMenu(MenuSteps.java:114)
+	at ✽.I click leftMenu Start(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:41)
+]]></failure>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="Leftmenu_3" time="27.22">
+<testcase classname="Spiegel Left Menu Navigation" name="Leftmenu_3" time="21.01">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
@@ -111,7 +127,7 @@ Then I click a "random" article of alle Beitraege section...................pass
 Then I click page down 3....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="Leftmenu_4" time="23.871">
+<testcase classname="Spiegel Left Menu Navigation" name="Leftmenu_4" time="21.041">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
@@ -120,16 +136,24 @@ Then I click a "random" article of alle Beitraege section...................pass
 Then I click page down 3....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="Leftmenu_5" time="21.567">
-<system-out><![CDATA[Given I start Spiegel.......................................................passed
+<testcase classname="Spiegel Left Menu Navigation" name="Leftmenu_5" time="12.774">
+<failure message="Error&#10;Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'&#10;System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'&#10;Driver info: driver.version: unknown" type="java.lang.Exception"><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
-Then I click leftMenu Backstage.............................................passed
-Then I click a "random" article of alle Beitraege section...................passed
-Then I click page down 3....................................................passed
-]]></system-out>
+Then I click leftMenu Backstage.............................................failed
+Then I click a "random" article of alle Beitraege section...................skipped
+Then I click page down 3....................................................skipped
+
+StackTrace:
+java.lang.Exception: Error
+Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: driver.version: unknown
+	at steps.MenuSteps.i_click_leftMenu(MenuSteps.java:114)
+	at ✽.I click leftMenu Backstage(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:41)
+]]></failure>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu" time="27.158">
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu" time="24.496">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
@@ -138,7 +162,7 @@ Then I click a "random" article of alle Beitraege section...................pass
 Then I click page down 3....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 2" time="30.363">
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 2" time="23.227">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
@@ -147,7 +171,7 @@ Then I click a "random" article of alle Beitraege section...................pass
 Then I click page down 3....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 3" time="22.52">
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 3" time="30.867">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
@@ -156,7 +180,7 @@ Then I click a "random" article of alle Beitraege section...................pass
 Then I click page down 3....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 4" time="33.501">
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 4" time="24.019">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
@@ -165,7 +189,7 @@ Then I click a "random" article of alle Beitraege section...................pass
 Then I click page down 3....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 5" time="28.089">
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 5" time="22.898">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
@@ -174,7 +198,7 @@ Then I click a "random" article of alle Beitraege section...................pass
 Then I click page down 3....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 6" time="28.623">
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 6" time="23.228">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
@@ -183,359 +207,112 @@ Then I click a "random" article of alle Beitraege section...................pass
 Then I click page down 3....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 7" time="95.498">
-<failure message="" type="java.lang.AssertionError"><![CDATA[Given I start Spiegel.......................................................passed
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 7" time="23.995">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
 Then I click leftSubMenu Bildung in Panorama................................passed
-Then I click a "random" article of alle Beitraege section...................failed
-Then I click page down 3....................................................skipped
-
-StackTrace:
-java.lang.AssertionError
-	at steps.HelperSteps.i_click_article_of_alle_Beitraege_section(HelperSteps.java:154)
-	at ✽.I click a "random" article of alle Beitraege section(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:60)
-]]></failure>
+Then I click a "random" article of alle Beitraege section...................passed
+Then I click page down 3....................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 8" time="3.207">
-<failure message="unknown error: net::ERR_NAME_NOT_RESOLVED&#10;  (Session info: chrome=87.0.4280.66)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52472}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 40467b93f87b1bc9daa7d9f1d9cc80ce" type="org.openqa.selenium.WebDriverException"><![CDATA[Given I start Spiegel.......................................................failed
-Then I click Akzeptieren und weiter.........................................skipped
-And I click TopMenuButton...................................................skipped
-Then I click leftSubMenu Psychologie in Leben...............................skipped
-Then I click a "random" article of alle Beitraege section...................skipped
-Then I click page down 3....................................................skipped
-
-StackTrace:
-org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
-  (Session info: chrome=87.0.4280.66)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52472}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 40467b93f87b1bc9daa7d9f1d9cc80ce
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-	at steps.MenuSteps.i_start_Spiegel(MenuSteps.java:40)
-	at ✽.I start Spiegel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:5)
-]]></failure>
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 8" time="27.749">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+And I click TopMenuButton...................................................passed
+Then I click leftSubMenu Psychologie in Leben...............................passed
+Then I click a "random" article of alle Beitraege section...................passed
+Then I click page down 3....................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 9" time="0.119">
-<failure message="unknown error: net::ERR_NAME_NOT_RESOLVED&#10;  (Session info: chrome=87.0.4280.66)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52472}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 40467b93f87b1bc9daa7d9f1d9cc80ce" type="org.openqa.selenium.WebDriverException"><![CDATA[Given I start Spiegel.......................................................failed
-Then I click Akzeptieren und weiter.........................................skipped
-And I click TopMenuButton...................................................skipped
-Then I click leftSubMenu Familie in Leben...................................skipped
-Then I click a "random" article of alle Beitraege section...................skipped
-Then I click page down 3....................................................skipped
-
-StackTrace:
-org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
-  (Session info: chrome=87.0.4280.66)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52472}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 40467b93f87b1bc9daa7d9f1d9cc80ce
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-	at steps.MenuSteps.i_start_Spiegel(MenuSteps.java:40)
-	at ✽.I start Spiegel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:5)
-]]></failure>
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 9" time="22.869">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+And I click TopMenuButton...................................................passed
+Then I click leftSubMenu Familie in Leben...................................passed
+Then I click a "random" article of alle Beitraege section...................passed
+Then I click page down 3....................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 10" time="0.139">
-<failure message="unknown error: net::ERR_NAME_NOT_RESOLVED&#10;  (Session info: chrome=87.0.4280.66)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52472}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 40467b93f87b1bc9daa7d9f1d9cc80ce" type="org.openqa.selenium.WebDriverException"><![CDATA[Given I start Spiegel.......................................................failed
-Then I click Akzeptieren und weiter.........................................skipped
-And I click TopMenuButton...................................................skipped
-Then I click leftSubMenu Business in English................................skipped
-Then I click a "random" article of alle Beitraege section...................skipped
-Then I click page down 3....................................................skipped
-
-StackTrace:
-org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
-  (Session info: chrome=87.0.4280.66)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52472}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 40467b93f87b1bc9daa7d9f1d9cc80ce
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-	at steps.MenuSteps.i_start_Spiegel(MenuSteps.java:40)
-	at ✽.I start Spiegel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:5)
-]]></failure>
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 10" time="24.158">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+And I click TopMenuButton...................................................passed
+Then I click leftSubMenu Business in English................................passed
+Then I click a "random" article of alle Beitraege section...................passed
+Then I click page down 3....................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 11" time="0.118">
-<failure message="unknown error: net::ERR_NAME_NOT_RESOLVED&#10;  (Session info: chrome=87.0.4280.66)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52472}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 40467b93f87b1bc9daa7d9f1d9cc80ce" type="org.openqa.selenium.WebDriverException"><![CDATA[Given I start Spiegel.......................................................failed
-Then I click Akzeptieren und weiter.........................................skipped
-And I click TopMenuButton...................................................skipped
-Then I click leftSubMenu Technik in Wissenschaft............................skipped
-Then I click a "random" article of alle Beitraege section...................skipped
-Then I click page down 3....................................................skipped
-
-StackTrace:
-org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
-  (Session info: chrome=87.0.4280.66)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52472}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 40467b93f87b1bc9daa7d9f1d9cc80ce
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-	at steps.MenuSteps.i_start_Spiegel(MenuSteps.java:40)
-	at ✽.I start Spiegel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:5)
-]]></failure>
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 11" time="23.915">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+And I click TopMenuButton...................................................passed
+Then I click leftSubMenu Technik in Wissenschaft............................passed
+Then I click a "random" article of alle Beitraege section...................passed
+Then I click page down 3....................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 12" time="0.139">
-<failure message="unknown error: net::ERR_NAME_NOT_RESOLVED&#10;  (Session info: chrome=87.0.4280.66)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52472}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 40467b93f87b1bc9daa7d9f1d9cc80ce" type="org.openqa.selenium.WebDriverException"><![CDATA[Given I start Spiegel.......................................................failed
-Then I click Akzeptieren und weiter.........................................skipped
-And I click TopMenuButton...................................................skipped
-Then I click leftSubMenu Weltall in Wissenschaft............................skipped
-Then I click a "random" article of alle Beitraege section...................skipped
-Then I click page down 3....................................................skipped
-
-StackTrace:
-org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
-  (Session info: chrome=87.0.4280.66)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52472}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 40467b93f87b1bc9daa7d9f1d9cc80ce
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-	at steps.MenuSteps.i_start_Spiegel(MenuSteps.java:40)
-	at ✽.I start Spiegel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:5)
-]]></failure>
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 12" time="20.148">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+And I click TopMenuButton...................................................passed
+Then I click leftSubMenu Weltall in Wissenschaft............................passed
+Then I click a "random" article of alle Beitraege section...................passed
+Then I click page down 3....................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 13" time="0.129">
-<failure message="unknown error: net::ERR_NAME_NOT_RESOLVED&#10;  (Session info: chrome=87.0.4280.66)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52472}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 40467b93f87b1bc9daa7d9f1d9cc80ce" type="org.openqa.selenium.WebDriverException"><![CDATA[Given I start Spiegel.......................................................failed
-Then I click Akzeptieren und weiter.........................................skipped
-And I click TopMenuButton...................................................skipped
-Then I click leftSubMenu Medizin in Wissenschaft............................skipped
-Then I click a "random" article of alle Beitraege section...................skipped
-Then I click page down 3....................................................skipped
-
-StackTrace:
-org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
-  (Session info: chrome=87.0.4280.66)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52472}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 40467b93f87b1bc9daa7d9f1d9cc80ce
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-	at steps.MenuSteps.i_start_Spiegel(MenuSteps.java:40)
-	at ✽.I start Spiegel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:5)
-]]></failure>
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 13" time="22.468">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+And I click TopMenuButton...................................................passed
+Then I click leftSubMenu Medizin in Wissenschaft............................passed
+Then I click a "random" article of alle Beitraege section...................passed
+Then I click page down 3....................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 14" time="0.134">
-<failure message="unknown error: net::ERR_NAME_NOT_RESOLVED&#10;  (Session info: chrome=87.0.4280.66)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52472}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 40467b93f87b1bc9daa7d9f1d9cc80ce" type="org.openqa.selenium.WebDriverException"><![CDATA[Given I start Spiegel.......................................................failed
-Then I click Akzeptieren und weiter.........................................skipped
-And I click TopMenuButton...................................................skipped
-Then I click leftSubMenu Familie in Leben...................................skipped
-Then I click a "random" article of alle Beitraege section...................skipped
-Then I click page down 3....................................................skipped
-
-StackTrace:
-org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
-  (Session info: chrome=87.0.4280.66)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52472}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 40467b93f87b1bc9daa7d9f1d9cc80ce
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-	at steps.MenuSteps.i_start_Spiegel(MenuSteps.java:40)
-	at ✽.I start Spiegel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:5)
-]]></failure>
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 14" time="22.262">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+And I click TopMenuButton...................................................passed
+Then I click leftSubMenu Familie in Leben...................................passed
+Then I click a "random" article of alle Beitraege section...................passed
+Then I click page down 3....................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 15" time="0.14">
-<failure message="unknown error: net::ERR_NAME_NOT_RESOLVED&#10;  (Session info: chrome=87.0.4280.66)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52472}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 40467b93f87b1bc9daa7d9f1d9cc80ce" type="org.openqa.selenium.WebDriverException"><![CDATA[Given I start Spiegel.......................................................failed
-Then I click Akzeptieren und weiter.........................................skipped
-And I click TopMenuButton...................................................skipped
-Then I click leftSubMenu Young-Money-Blog in Wirtschaft.....................skipped
-Then I click a "random" article of alle Beitraege section...................skipped
-Then I click page down 3....................................................skipped
-
-StackTrace:
-org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
-  (Session info: chrome=87.0.4280.66)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52472}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 40467b93f87b1bc9daa7d9f1d9cc80ce
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-	at steps.MenuSteps.i_start_Spiegel(MenuSteps.java:40)
-	at ✽.I start Spiegel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:5)
-]]></failure>
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 15" time="24.695">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+And I click TopMenuButton...................................................passed
+Then I click leftSubMenu Young-Money-Blog in Wirtschaft.....................passed
+Then I click a "random" article of alle Beitraege section...................passed
+Then I click page down 3....................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 16" time="0.134">
-<failure message="unknown error: net::ERR_NAME_NOT_RESOLVED&#10;  (Session info: chrome=87.0.4280.66)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52472}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 40467b93f87b1bc9daa7d9f1d9cc80ce" type="org.openqa.selenium.WebDriverException"><![CDATA[Given I start Spiegel.......................................................failed
-Then I click Akzeptieren und weiter.........................................skipped
-And I click TopMenuButton...................................................skipped
-Then I click leftSubMenu Städte der Zukunft in Wirtschaft...................skipped
-Then I click a "random" article of alle Beitraege section...................skipped
-Then I click page down 3....................................................skipped
-
-StackTrace:
-org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
-  (Session info: chrome=87.0.4280.66)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52472}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 40467b93f87b1bc9daa7d9f1d9cc80ce
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-	at steps.MenuSteps.i_start_Spiegel(MenuSteps.java:40)
-	at ✽.I start Spiegel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:5)
-]]></failure>
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 16" time="29.422">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+And I click TopMenuButton...................................................passed
+Then I click leftSubMenu Städte der Zukunft in Wirtschaft...................passed
+Then I click a "random" article of alle Beitraege section...................passed
+Then I click page down 3....................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 17" time="0.186">
-<failure message="unknown error: net::ERR_NAME_NOT_RESOLVED&#10;  (Session info: chrome=87.0.4280.66)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52472}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 40467b93f87b1bc9daa7d9f1d9cc80ce" type="org.openqa.selenium.WebDriverException"><![CDATA[Given I start Spiegel.......................................................failed
-Then I click Akzeptieren und weiter.........................................skipped
-And I click TopMenuButton...................................................skipped
-Then I click leftSubMenu Champions League in Sport..........................skipped
-Then I click a "random" article of alle Beitraege section...................skipped
-Then I click page down 3....................................................skipped
-
-StackTrace:
-org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
-  (Session info: chrome=87.0.4280.66)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52472}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 40467b93f87b1bc9daa7d9f1d9cc80ce
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-	at steps.MenuSteps.i_start_Spiegel(MenuSteps.java:40)
-	at ✽.I start Spiegel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:5)
-]]></failure>
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 17" time="28.975">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+And I click TopMenuButton...................................................passed
+Then I click leftSubMenu Champions League in Sport..........................passed
+Then I click a "random" article of alle Beitraege section...................passed
+Then I click page down 3....................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 18" time="0.166">
-<failure message="unknown error: net::ERR_NAME_NOT_RESOLVED&#10;  (Session info: chrome=87.0.4280.66)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52472}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 40467b93f87b1bc9daa7d9f1d9cc80ce" type="org.openqa.selenium.WebDriverException"><![CDATA[Given I start Spiegel.......................................................failed
-Then I click Akzeptieren und weiter.........................................skipped
-And I click TopMenuButton...................................................skipped
-Then I click leftSubMenu Business in English................................skipped
-Then I click a "random" article of alle Beitraege section...................skipped
-Then I click page down 3....................................................skipped
-
-StackTrace:
-org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
-  (Session info: chrome=87.0.4280.66)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52472}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 40467b93f87b1bc9daa7d9f1d9cc80ce
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-	at steps.MenuSteps.i_start_Spiegel(MenuSteps.java:40)
-	at ✽.I start Spiegel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:5)
-]]></failure>
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 18" time="26.666">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+And I click TopMenuButton...................................................passed
+Then I click leftSubMenu Business in English................................passed
+Then I click a "random" article of alle Beitraege section...................passed
+Then I click page down 3....................................................passed
+]]></system-out>
 </testcase>
 </testsuite>

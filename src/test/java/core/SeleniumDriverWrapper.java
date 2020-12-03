@@ -10,6 +10,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
+import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
@@ -153,7 +154,7 @@ public class SeleniumDriverWrapper {
     public void clickElement( WebElement element)
     {
         try {
-            waitForElementToBeClickable(element,3);
+            waitForElementToBeClickable(element,Duration.ofSeconds(3));
             element.click();
             //implicitlyWait(3);
         }
@@ -500,7 +501,7 @@ public class SeleniumDriverWrapper {
         }
     }
 
-    public void waitForElementToBeClickable(String myLocator, String locatorType, long timeout)
+    public void waitForElementToBeClickable(String myLocator, String locatorType, Duration timeout)
     {
         WebDriverWait wt = new WebDriverWait(this.driver, timeout);
         By by = getByType(locatorType,myLocator);
@@ -513,7 +514,7 @@ public class SeleniumDriverWrapper {
         }
     }
 
-    public void waitForElementToBeClickable(WebElement element, long timeout)
+    public void waitForElementToBeClickable(WebElement element, Duration timeout)
     {
         WebDriverWait wt = new WebDriverWait(this.driver, timeout);
         try {
@@ -525,7 +526,7 @@ public class SeleniumDriverWrapper {
         }
     }
 
-    public void waitForElementToBeVisible(String myLocator, String locatorType, long timeout, WebElement element, String event)
+    public void waitForElementToBeVisible(String myLocator, String locatorType, Duration timeout, WebElement element, String event)
     {
         WebDriverWait wt = new WebDriverWait(this.driver, timeout);
         By by = getByType(locatorType,myLocator);
@@ -540,7 +541,7 @@ public class SeleniumDriverWrapper {
         }
     }
 
-    public void waitForElementToBeVisible(WebElement element, long timeout)
+    public void waitForElementToBeVisible(WebElement element, Duration timeout)
     {
         WebDriverWait wt = new WebDriverWait(this.driver, timeout);
 
@@ -730,7 +731,7 @@ public class SeleniumDriverWrapper {
             //waitForElementToBeVisible(element,3);
             actions.moveToElement(element).perform();
             while (!isElementDisplayed(element)) {// in case element is covered by a menu element we need to scroll down until element is clickable
-                arrowDown(1);
+                arrowDown(2);
                 implicitlyWait(500);
             }
             //implicitlyWait(3);
@@ -857,7 +858,10 @@ public class SeleniumDriverWrapper {
     {
         ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
         if (tabs.size() > 1)
+        {
+            driver.switchTo().window(tabs.get(1));
             driver.close();
+        }
         else MyLogger.logger.warn("Only one tab was active. I did not close it");
         driver.switchTo().window(tabs.get(0));
     }
@@ -875,4 +879,5 @@ public class SeleniumDriverWrapper {
         ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
         return tabs.size();
     }
+
 }

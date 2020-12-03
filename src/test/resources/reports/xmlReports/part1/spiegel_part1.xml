@@ -1,314 +1,174 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="26" time="882.156">
-<testcase classname="Coronavirus" name="Spiegel Coronavirus read section 1 articles" time="53.729">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="15" time="642.568">
+<testcase classname="Spiegel Kultur Bestseller" name="Bestseller KinderBuch" time="65.527">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
-Then I click TopMenu "Coronavirus"..........................................passed
-Then I click first article of "first" section...............................passed
-Then I click page down 3....................................................passed
-Then I go back to "Coronavirus - DER SPIEGEL"...............................passed
-Then I click last article of "first" section................................passed
-Then I click page down 3....................................................passed
-Then I go back to "Coronavirus - DER SPIEGEL"...............................passed
-Then I paginate to "next" page..............................................passed
-Then I click page down 3....................................................passed
-Then I paginate to "previous" page..........................................passed
-Then I click a random article of "first" section............................passed
-Then I click page down 3....................................................passed
+Then I bring "Kultur" menu into view........................................passed
+And I click TopMenu "Kultur"................................................passed
+Then I click culture SPIEGEL-Bestseller.....................................passed
+Then I click bestseller Kinder/ Jugend......................................passed
+Then I click the bestseller sub_menu Kinderbuch.............................passed
+Then I scroll to a random bestseller........................................passed
+Then I click mehr anzeigen..................................................passed
+Then I move mouse over kaufen...............................................passed
+Then I click bei Amazon kaufen..............................................passed
+Then I close the Amazon tab.................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Coronavirus" name="Spiegel Coronavirus read random section articles" time="37.793">
+<testcase classname="Spiegel Kultur Bestseller" name="Bestseller KinderBuch 2" time="65.734">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
-Then I click TopMenu "Coronavirus"..........................................passed
-Then I scroll to "random" section...........................................passed
-Then I click first article of "random" section..............................passed
-Then I click page down 3....................................................passed
-Then I close the tab........................................................passed
-Then I click a random article of "random" section...........................passed
-Then I click page down 3....................................................passed
-Then I close the tab........................................................passed
+Then I bring "Kultur" menu into view........................................passed
+And I click TopMenu "Kultur"................................................passed
+Then I click culture SPIEGEL-Bestseller.....................................passed
+Then I click bestseller Kinder/ Jugend......................................passed
+Then I click the bestseller sub_menu Jugendbuch.............................passed
+Then I scroll to a random bestseller........................................passed
+Then I click mehr anzeigen..................................................passed
+Then I move mouse over kaufen...............................................passed
+Then I click bei Thaila kaufen..............................................passed
+Then I close the Thaila tab.................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Coronavirus" name="Spiegel Coronavirus read alle Beiträge section articles" time="45.699">
+<testcase classname="Spiegel Kultur Bestseller" name="Bestseller KinderBuch 3" time="83.158">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
-Then I click TopMenu "Coronavirus"..........................................passed
-Then I scroll to "alle_Beitraege" section...................................passed
-Then I scroll to alle Beitraege "last" article..............................passed
-Then I scroll to alle Beitraege "random" article............................passed
+Then I bring "Kultur" menu into view........................................passed
+And I click TopMenu "Kultur"................................................passed
+Then I click culture SPIEGEL-Bestseller.....................................passed
+Then I click bestseller Kinder/ Jugend......................................passed
+Then I click the bestseller sub_menu Bilderbuch.............................passed
+Then I scroll to a random bestseller........................................passed
+Then I click mehr anzeigen..................................................passed
+Then I move mouse over kaufen...............................................passed
+Then I click bei Thaila kaufen..............................................passed
+Then I close the Thaila tab.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Spiegel Kultur Bestseller" name="Bestseller KinderBuch 4" time="62.125">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+Then I bring "Kultur" menu into view........................................passed
+And I click TopMenu "Kultur"................................................passed
+Then I click culture SPIEGEL-Bestseller.....................................passed
+Then I click bestseller Kinder/ Jugend......................................passed
+Then I click the bestseller sub_menu Hörbuch................................passed
+Then I scroll to a random bestseller........................................passed
+Then I click mehr anzeigen..................................................passed
+Then I move mouse over kaufen...............................................passed
+Then I click bei Amazon kaufen..............................................passed
+Then I close the Amazon tab.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu" time="42.808">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
+Then I click Akzeptieren und weiter.........................................passed
+Then I bring "Kultur" menu into view........................................passed
+And I click TopMenu "Kultur"................................................passed
+Then I click culture Kino...................................................passed
 Then I click a "random" article of alle Beitraege section...................passed
 Then I click page down 3....................................................passed
-Then I go back to "Coronavirus - DER SPIEGEL"...............................passed
-Then I paginate to "next" page..............................................passed
+Then I navigate back to Kino - Kultur - DER SPIEGEL.........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Schlagzeilen" name="reading Schlagzeilen article" time="67.383">
+<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu 2" time="38.798">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
-And I click TopMenu "Schlagzeilen"..........................................passed
-Then I click a "first" article of alle Beitraege section....................passed
-Then I click page down 6....................................................passed
-Then I go back to "Schlagzeilen - DER SPIEGEL"..............................passed
-Then I click a "random" article of alle Beitraege section...................passed
-Then I click page down 6....................................................passed
-Then I go back to "Schlagzeilen - DER SPIEGEL"..............................passed
-]]></system-out>
-</testcase>
-<testcase classname="Spiegel Plus" name="Spiegel plus read section 1 articles" time="42.271">
-<system-out><![CDATA[Given I start Spiegel.......................................................passed
-Then I click Akzeptieren und weiter.........................................passed
-Then I click SpiegelPlus....................................................passed
-Then I click first article of "first" section...............................passed
-Then I click page down 3....................................................passed
-Then I go back to "Plus - DER SPIEGEL"......................................passed
-Then I click last article of "first" section................................passed
-Then I click page down 3....................................................passed
-Then I go back to "Plus - DER SPIEGEL"......................................passed
-Then I paginate to "next" page..............................................passed
-Then I click page down 3....................................................passed
-Then I paginate to "previous" page..........................................passed
-Then I click a random article of "first" section............................passed
-Then I click page down 3....................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Spiegel Plus" name="Spiegel plus read random section articles" time="35.921">
-<system-out><![CDATA[Given I start Spiegel.......................................................passed
-Then I click Akzeptieren und weiter.........................................passed
-Then I click SpiegelPlus....................................................passed
-Then I scroll to "random" section...........................................passed
-Then I click first article of "random" section..............................passed
-Then I click page down 3....................................................passed
-Then I go back to "Plus - DER SPIEGEL"......................................passed
-Then I click a random article of "random" section...........................passed
-Then I click page down 3....................................................passed
-Then I go back to "Plus - DER SPIEGEL"......................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Spiegel Plus" name="Spiegel plus read audio section articles" time="38.31">
-<system-out><![CDATA[Given I start Spiegel.......................................................passed
-Then I click Akzeptieren und weiter.........................................passed
-Then I click SpiegelPlus....................................................passed
-Then I scroll to "audio" section............................................passed
-Then I click first article of "audio" section...............................passed
-Then I click page down 3....................................................passed
-Then I go back to "Plus - DER SPIEGEL"......................................passed
-Then I click a random article of "audio" section............................passed
-Then I click page down 3....................................................passed
-Then I go back to "Plus - DER SPIEGEL"......................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Spiegel Plus" name="Spiegel plus read alle Beiträge section articles" time="34.649">
-<system-out><![CDATA[Given I start Spiegel.......................................................passed
-Then I click Akzeptieren und weiter.........................................passed
-Then I click SpiegelPlus....................................................passed
-Then I scroll to "alle_Beitraege" section...................................passed
-Then I scroll to alle Beitraege "last" article..............................passed
-Then I scroll to alle Beitraege "random" article............................passed
+Then I bring "Kultur" menu into view........................................passed
+And I click TopMenu "Kultur"................................................passed
+Then I click culture Musik..................................................passed
 Then I click a "random" article of alle Beitraege section...................passed
 Then I click page down 3....................................................passed
-Then I go back to "Plus - DER SPIEGEL"......................................passed
-Then I paginate to "next" page..............................................passed
+Then I navigate back to Musik - Kultur - DER SPIEGEL........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel StartPage" name="reading main article" time="28.504">
+<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu 3" time="38.775">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
-Then On start page I click random article of latests_news_section...........passed
-Then I click page down 6....................................................passed
-Then I click page up 3......................................................passed
-Then I go back to "DER SPIEGEL | Online-Nachrichten"........................passed
+Then I bring "Kultur" menu into view........................................passed
+And I click TopMenu "Kultur"................................................passed
+Then I click culture TV.....................................................passed
+Then I click a "random" article of alle Beitraege section...................passed
+Then I click page down 3....................................................passed
+Then I navigate back to TV - Kultur - DER SPIEGEL...........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel StartPage" name="reading main article 2" time="21.922">
+<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu 4" time="42.047">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
-Then I click start page main_article........................................passed
-Then I click page down 6....................................................passed
-Then I click page up 3......................................................passed
-Then I go back to "DER SPIEGEL | Online-Nachrichten"........................passed
+Then I bring "Kultur" menu into view........................................passed
+And I click TopMenu "Kultur"................................................passed
+Then I click culture Literatur..............................................passed
+Then I click a "random" article of alle Beitraege section...................passed
+Then I click page down 3....................................................passed
+Then I navigate back to Literatur - Kultur - DER SPIEGEL....................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel StartPage" name="read news section articles" time="31.373">
+<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu 5" time="42.154">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
-And I scroll to "news_section" on start page................................passed
-Then On start page I click first article of news_section....................passed
-Then I click page down 6....................................................passed
-Then I click page up 3......................................................passed
-Then I go back to "DER SPIEGEL | Online-Nachrichten"........................passed
-And I scroll to "news section" on start page................................passed
-Then I scroll to random article of news_section.............................passed
-Then On start page I click random article of news_section...................passed
-Then I click page down 6....................................................passed
-Then I click page up 3......................................................passed
+Then I bring "Kultur" menu into view........................................passed
+And I click TopMenu "Kultur"................................................passed
+Then I click culture Streaming..............................................passed
+Then I click a "random" article of alle Beitraege section...................passed
+Then I click page down 3....................................................passed
+Then I navigate back to Streaming - Kultur - DER SPIEGEL....................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel StartPage" name="alle Rubriken" time="25.331">
+<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu 6" time="40.406">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
-And I scroll to "alle_rubriken_section" on start page.......................passed
-Then On start page I click random article of panorama_rubrik................passed
-Then I click page down 6....................................................passed
-Then I click page up 3......................................................passed
-Then I go back to "DER SPIEGEL | Online-Nachrichten"........................passed
+Then I bring "Kultur" menu into view........................................passed
+And I click TopMenu "Kultur"................................................passed
+Then I click culture Kunst..................................................passed
+Then I click a "random" article of alle Beitraege section...................passed
+Then I click page down 3....................................................passed
+Then I navigate back to Kunst - Kultur - DER SPIEGEL........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel StartPage" name="alle Rubriken 2" time="29.259">
+<testcase classname="Spiegel Left Menu Navigation" name="Leftmenu" time="24.394">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
-And I scroll to "alle_rubriken_section" on start page.......................passed
-Then On start page I click random article of politik_rubrik.................passed
-Then I click page down 6....................................................passed
-Then I click page up 3......................................................passed
-Then I go back to "DER SPIEGEL | Online-Nachrichten"........................passed
+And I click TopMenuButton...................................................passed
+Then I click leftMenu Job & Karriere........................................passed
+Then I click a "random" article of alle Beitraege section...................passed
+Then I click page down 3....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel StartPage" name="alle Rubriken 3" time="24.502">
+<testcase classname="Spiegel Left Menu Navigation" name="Leftmenu_2" time="22.362">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
-And I scroll to "alle_rubriken_section" on start page.......................passed
-Then On start page I click random article of wirtschaft_rubrik..............passed
-Then I click page down 6....................................................passed
-Then I click page up 3......................................................passed
-Then I go back to "DER SPIEGEL | Online-Nachrichten"........................passed
+And I click TopMenuButton...................................................passed
+Then I click leftMenu Start.................................................passed
+Then I click a "random" article of alle Beitraege section...................passed
+Then I click page down 3....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel StartPage" name="alle Rubriken 4" time="29.454">
+<testcase classname="Spiegel Left Menu Navigation" name="Leftmenu_3" time="25.398">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
-And I scroll to "alle_rubriken_section" on start page.......................passed
-Then On start page I click random article of manager_magazin_rubrik.........passed
-Then I click page down 6....................................................passed
-Then I click page up 3......................................................passed
-Then I go back to "DER SPIEGEL | Online-Nachrichten"........................passed
+And I click TopMenuButton...................................................passed
+Then I click leftMenu Coronavirus...........................................passed
+Then I click a "random" article of alle Beitraege section...................passed
+Then I click page down 3....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel StartPage" name="stock section" time="19.825">
+<testcase classname="Spiegel Left Menu Navigation" name="Leftmenu_4" time="23.914">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
-And I scroll to "stock_section" on start page...............................passed
-Then I click 3 times "stock" section arrow "right"..........................passed
-Then I click 2 times "stock" section arrow "left"...........................passed
-Then I click dow jones......................................................passed
-Then I switch to "dow jones" tab............................................passed
-Then I click page down 2....................................................passed
-Then I switch to "spiegel" tab..............................................passed
+And I click TopMenuButton...................................................passed
+Then I click leftMenu Meinung...............................................passed
+Then I click a "random" article of alle Beitraege section...................passed
+Then I click page down 3....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel StartPage" name="block channel section" time="28.383">
+<testcase classname="Spiegel Left Menu Navigation" name="Leftmenu_5" time="24.38">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
-And I scroll to "block_channel_section" on start page.......................passed
-Then On start page I click random article of geschichte_channel.............passed
-Then I click page down 6....................................................passed
-Then I click page up 3......................................................passed
-Then I go back to "DER SPIEGEL | Online-Nachrichten"........................passed
-]]></system-out>
-</testcase>
-<testcase classname="Spiegel StartPage" name="block channel section 2" time="27.715">
-<system-out><![CDATA[Given I start Spiegel.......................................................passed
-Then I click Akzeptieren und weiter.........................................passed
-And I scroll to "block_channel_section" on start page.......................passed
-Then On start page I click random article of netzwelt_channel...............passed
-Then I click page down 6....................................................passed
-Then I click page up 3......................................................passed
-Then I go back to "DER SPIEGEL | Online-Nachrichten"........................passed
-]]></system-out>
-</testcase>
-<testcase classname="Spiegel StartPage" name="block channel section 3" time="25.999">
-<system-out><![CDATA[Given I start Spiegel.......................................................passed
-Then I click Akzeptieren und weiter.........................................passed
-And I scroll to "block_channel_section" on start page.......................passed
-Then On start page I click random article of mobilität_channel..............passed
-Then I click page down 6....................................................passed
-Then I click page up 3......................................................passed
-Then I go back to "DER SPIEGEL | Online-Nachrichten"........................passed
-]]></system-out>
-</testcase>
-<testcase classname="Spiegel StartPage" name="block channel section 4" time="29.767">
-<system-out><![CDATA[Given I start Spiegel.......................................................passed
-Then I click Akzeptieren und weiter.........................................passed
-And I scroll to "block_channel_section" on start page.......................passed
-Then On start page I click random article of kultur_channel.................passed
-Then I click page down 6....................................................passed
-Then I click page up 3......................................................passed
-Then I go back to "DER SPIEGEL | Online-Nachrichten"........................passed
-]]></system-out>
-</testcase>
-<testcase classname="Spiegel StartPage" name="block channel section 5" time="27.342">
-<system-out><![CDATA[Given I start Spiegel.......................................................passed
-Then I click Akzeptieren und weiter.........................................passed
-And I scroll to "block_channel_section" on start page.......................passed
-Then On start page I click random article of start_channel..................passed
-Then I click page down 6....................................................passed
-Then I click page up 3......................................................passed
-Then I go back to "DER SPIEGEL | Online-Nachrichten"........................passed
-]]></system-out>
-</testcase>
-<testcase classname="Spiegel StartPage" name="block channel section 6" time="25.259">
-<system-out><![CDATA[Given I start Spiegel.......................................................passed
-Then I click Akzeptieren und weiter.........................................passed
-And I scroll to "block_channel_section" on start page.......................passed
-Then On start page I click random article of wissenschaft_channel...........passed
-Then I click page down 6....................................................passed
-Then I click page up 3......................................................passed
-Then I go back to "DER SPIEGEL | Online-Nachrichten"........................passed
-]]></system-out>
-</testcase>
-<testcase classname="Spiegel StartPage" name="leben section articles" time="35.266">
-<system-out><![CDATA[Given I start Spiegel.......................................................passed
-Then I click Akzeptieren und weiter.........................................passed
-And I scroll to "leben_section" on start page...............................passed
-Then On start page I click first article of leben_section...................passed
-Then I click page down 6....................................................passed
-Then I click page up 3......................................................passed
-Then I go back to "DER SPIEGEL | Online-Nachrichten"........................passed
-And I scroll to "leben_section" on start page...............................passed
-Then I scroll to random article of leben_section............................passed
-Then On start page I click random article of leben_section..................passed
-Then I click page down 6....................................................passed
-Then I click page up 3......................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Spiegel StartPage" name="highligh section" time="26.469">
-<system-out><![CDATA[Given I start Spiegel.......................................................passed
-Then I click Akzeptieren und weiter.........................................passed
-And I scroll to "highlight_section" on start page...........................passed
-Then On start page I click first article of highlight_section...............passed
-Then I click page down 15...................................................passed
-Then I click page up 15.....................................................passed
-Then I go back to "DER SPIEGEL | Online-Nachrichten"........................passed
-]]></system-out>
-</testcase>
-<testcase classname="Spiegel StartPage" name="top bei spiegel spiegel" time="35.406">
-<system-out><![CDATA[Given I start Spiegel.......................................................passed
-Then I click Akzeptieren und weiter.........................................passed
-And I scroll to "top_bei_spiegel_section" on start page.....................passed
-Then On start page I click first article of top_bei_spiegel_section.........passed
-Then I click page down 4....................................................passed
-Then I click page up 3......................................................passed
-Then I go back to "DER SPIEGEL | Online-Nachrichten"........................passed
-And I scroll to "top_bei_spiegel_section" on start page.....................passed
-Then On start page I click random article of top_bei_spiegel_section........passed
-Then I click page down 4....................................................passed
-Then I click page up 3......................................................passed
-Then I go back to "DER SPIEGEL | Online-Nachrichten"........................passed
-]]></system-out>
-</testcase>
-<testcase classname="Spiegel StartPage" name="meist gelesene section" time="54.237">
-<system-out><![CDATA[Given I start Spiegel.......................................................passed
-Then I click Akzeptieren und weiter.........................................passed
-And I scroll to "meist_gelesene_section" on start page......................passed
-Then On start page I click first article of meist_gelesene_section..........passed
-Then I click page down 4....................................................passed
-Then I click page up 3......................................................passed
-Then I go back to "DER SPIEGEL | Online-Nachrichten"........................passed
-And I scroll to "meist_gelesene_section" on start page......................passed
-Then On start page I click random article of meist_gelesene_section.........passed
-Then I click page down 4....................................................passed
-Then I click page up 3......................................................passed
-Then I go back to "DER SPIEGEL | Online-Nachrichten"........................passed
+And I click TopMenuButton...................................................passed
+Then I click leftMenu Backstage.............................................passed
+Then I click a "random" article of alle Beitraege section...................passed
+Then I click page down 3....................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

@@ -3,6 +3,7 @@ package pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import java.time.Duration;
 import java.util.Random;
 
 public class StartPage extends BasePage {
@@ -148,22 +149,30 @@ public class StartPage extends BasePage {
     }
 
     public void clickAkzeptieren() {
+
+        waitForElementToBeClickable(iframe,"xpath",Duration.ofSeconds(3));
+
         WebElement accept_iframe = getElementByXpath(iframe);
         WebElement accept_btn;
-        waitForElementToBeClickable(accept_iframe,3);
+        //waitForElementToBeClickable(accept_iframe,3);
         if (isElementDisplayed(accept_iframe)) {
             //accept_btn = getElement(akzeptieren_btn, "xpath");
             switch_toFrame(iframe, "xpath");
+            waitForElementToBeClickable(akzeptieren_btn, "xpath", Duration.ofSeconds(15));
             accept_btn = getElement(akzeptieren_btn, "xpath");
-            waitForElementToBeClickable(accept_btn, 10);
+            //waitForElementToBeClickable(accept_btn, Duration.ofSeconds(15));
             clickElement(accept_btn);
             switch_back_toDefault();
         }
     }
 
     public void clickOnStarPage(String name) {
-        if (name.equals("main_article"))
-            clickElement(getElementByXpath(main_article));
+        if (name.equals("main_article")) {
+            waitForElementToBeClickable(main_article,"xpath", Duration.ofSeconds(15));
+            WebElement element = getElementByXpath(main_article);
+            moveMouseOnElement(element);
+            clickElement(element);
+        }
     }
 
     public void scrollOnStartPageToSection(String section) {
@@ -257,6 +266,7 @@ public class StartPage extends BasePage {
         }
         //scrollIntoView(element);
         //if (!isElementDisplayed(element))
+        //waitForElementToBeClickable(element);
         moveMouseOnElement(element);
         clickElement(element);
     }

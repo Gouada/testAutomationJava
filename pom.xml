@@ -15,19 +15,39 @@
 
     <dependencies>
             <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server -->
-         <dependency>
+        <!--
+            <dependency>
                 <groupId>org.seleniumhq.selenium</groupId>
                 <artifactId>selenium-server</artifactId>
                 <version>3.141.59</version>
             </dependency>
+        -->
+
+        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server -->
+
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-server</artifactId>
+            <version>4.0.0-alpha-2</version>
+        </dependency>
 
 
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
-        <dependency>
+          <dependency>
+              <groupId>org.seleniumhq.selenium</groupId>
+              <artifactId>selenium-java</artifactId>
+              <version>4.0.0-alpha-7</version>
+          </dependency>
+
+
+        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+        <!--
+         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <version>3.141.59</version>
         </dependency>
+        -->
 
         <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
         <dependency>
@@ -154,7 +174,15 @@
                 <directory>src/test/resources</directory>
             </resource>
         </resources>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>8</source>
+                    <target>8</target>
+                </configuration>
+            </plugin>
+        </plugins>
     </build>
-
-
 </project>

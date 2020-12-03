@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="26" failures="0" name="runners.SpiegelRunner" time="882.082" errors="0" skipped="0">
+<testsuite tests="26" failures="6" name="runners.SpiegelRunner" time="1,967.987" errors="4" skipped="0">
   <properties>
     <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -32,15 +32,15 @@
     <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 142 Stepping 10, GenuineIntel"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="LOCALAPPDATA" value="C:\Users\Lenovo\AppData\Local"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://127.0.0.1:8080/job/Webium-Automation/143/display/redirect?page=changes"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://127.0.0.1:8080/job/Webium-Automation/145/display/redirect?page=changes"/>
     <property name="user.timezone" value="Europe/Berlin"/>
     <property name="user.script" value=""/>
     <property name="path.separator" value=";"/>
     <property name="NUMBER_OF_PROCESSORS" value="8"/>
-    <property name="BUILD_TAG" value="jenkins-Webium-Automation-143"/>
+    <property name="BUILD_TAG" value="jenkins-Webium-Automation-145"/>
     <property name="PYTHONPATH" value="C:\python37;C:\python37\Scripts;C:\python37\DLLs;C:\python37\Lib;C:\python37\libs;"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\apache-maven-3.5.3 C:\Users\Lenovo\.jenkins\war\WEB-INF\lib\remoting-4.3.jar C:\Users\Lenovo\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar C:\Users\Lenovo\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar 49869"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\apache-maven-3.5.3 C:\Users\Lenovo\.jenkins\war\WEB-INF\lib\remoting-4.5.jar C:\Users\Lenovo\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar C:\Users\Lenovo\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar 58351"/>
     <property name="HUDSON_URL" value="http://127.0.0.1:8080/"/>
     <property name="JENKINS_SERVER_COOKIE" value="0631cecedd819be2"/>
     <property name="POSTGRESQLPATH" value="C:\Program Files\PostgreSQL\12\bin;C:\Program Files\PostgreSQL\12\lib"/>
@@ -51,14 +51,14 @@
     <property name="user.language" value="de"/>
     <property name="line.separator" value="
 "/>
-    <property name="BUILD_URL" value="http://127.0.0.1:8080/job/Webium-Automation/143/"/>
+    <property name="BUILD_URL" value="http://127.0.0.1:8080/job/Webium-Automation/145/"/>
     <property name="M2_HOME" value="C:\apache-maven-3.5.3"/>
     <property name="=C:" value="C:\jenkins"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
     <property name="sun.desktop" value="windows"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="BUILD_DISPLAY_NAME" value="#143"/>
+    <property name="BUILD_DISPLAY_NAME" value="#145"/>
     <property name="OS" value="Windows_NT"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="HUDSON_SERVER_COOKIE" value="0631cecedd819be2"/>
@@ -73,7 +73,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="143"/>
+    <property name="BUILD_NUMBER" value="145"/>
     <property name="maven3.interceptor" value="C:\Users\Lenovo\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\apache-maven-3.5.3/bin;C:\Program Files\Java\jdk1.8.0_172/bin;C:\Program Files\Java\jdk1.8.0_172/bin;C:\python37\Scripts\;C:\python37\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_172;C:\apache-maven-3.5.3\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Users\Lenovo\AppData\Local\Android\Sdk;C:\Users\Lenovo\AppData\Local\Android\Sdk\tools;C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools;C:\WINDOWS\System32\OpenSSH\;C:\MyWorkspace\SeleniumChromeDriver\;C:\python37;C:\python37\Scripts;C:\python37\DLLs;C:\python37\Lib;C:\python37\libs;;C:\Program Files\PostgreSQL\12\bin;C:\Program Files\PostgreSQL\12\lib;C:\MyWorkspace\SeleniumChromeDriver\83\;C:\MyWorkspace\SeleniumFirefoxDriver\2.6\;C:\MyWorkspace\IEDriver\;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Users\Lenovo\AppData\Roaming\npm;C:\Users\Lenovo\AppData\Roaming\Dashlane\5.12.0.19744\bin\Firefox_Extension\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\components;C:\Users\Lenovo\AppData\Roaming\Dashlane\5.12.0.19744\ucrt;;."/>
     <property name="HOMEDRIVE" value="C:"/>
@@ -82,9 +82,9 @@
     <property name="java.class.version" value="52.0"/>
     <property name="JOB_URL" value="http://127.0.0.1:8080/job/Webium-Automation/"/>
     <property name="OneDrive" value="C:\Users\Lenovo\OneDrive"/>
-    <property name="RUN_DISPLAY_URL" value="http://127.0.0.1:8080/job/Webium-Automation/143/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://127.0.0.1:8080/job/Webium-Automation/145/display/redirect"/>
     <property name="JENKINS_HOME" value="C:\Users\Lenovo\.jenkins"/>
-    <property name="BUILD_ID" value="143"/>
+    <property name="BUILD_ID" value="145"/>
     <property name="TEMP" value="C:\Users\Lenovo\AppData\Local\Temp"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_172\jre\bin"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -147,30 +147,1651 @@
     <property name="POM_DISPLAYNAME" value="guineenews"/>
     <property name="sun.arch.data.model" value="64"/>
   </properties>
-  <testcase classname="Coronavirus" name="Spiegel Coronavirus read section 1 articles" time="53.918"/>
-  <testcase classname="Coronavirus" name="Spiegel Coronavirus read random section articles" time="37.8"/>
-  <testcase classname="Coronavirus" name="Spiegel Coronavirus read alle Beiträge section articles" time="45.713"/>
-  <testcase classname="Spiegel Schlagzeilen" name="reading Schlagzeilen article" time="67.391"/>
-  <testcase classname="Spiegel Plus" name="Spiegel plus read section 1 articles" time="42.279"/>
-  <testcase classname="Spiegel Plus" name="Spiegel plus read random section articles" time="35.929"/>
-  <testcase classname="Spiegel Plus" name="Spiegel plus read audio section articles" time="38.319"/>
-  <testcase classname="Spiegel Plus" name="Spiegel plus read alle Beiträge section articles" time="34.653"/>
-  <testcase classname="Spiegel StartPage" name="reading main article #1" time="28.51"/>
-  <testcase classname="Spiegel StartPage" name="reading main article #2" time="21.927"/>
-  <testcase classname="Spiegel StartPage" name="read news section articles" time="31.377"/>
-  <testcase classname="Spiegel StartPage" name="alle Rubriken #1" time="25.334"/>
-  <testcase classname="Spiegel StartPage" name="alle Rubriken #2" time="29.263"/>
-  <testcase classname="Spiegel StartPage" name="alle Rubriken #3" time="24.508"/>
-  <testcase classname="Spiegel StartPage" name="alle Rubriken #4" time="29.456"/>
-  <testcase classname="Spiegel StartPage" name="stock section" time="19.831"/>
-  <testcase classname="Spiegel StartPage" name="block channel section #1" time="28.388"/>
-  <testcase classname="Spiegel StartPage" name="block channel section #2" time="27.717"/>
-  <testcase classname="Spiegel StartPage" name="block channel section #3" time="26.001"/>
-  <testcase classname="Spiegel StartPage" name="block channel section #4" time="29.77"/>
-  <testcase classname="Spiegel StartPage" name="block channel section #5" time="27.344"/>
-  <testcase classname="Spiegel StartPage" name="block channel section #6" time="25.263"/>
-  <testcase classname="Spiegel StartPage" name="leben section articles" time="35.269"/>
-  <testcase classname="Spiegel StartPage" name="highligh section" time="26.472"/>
-  <testcase classname="Spiegel StartPage" name="top bei spiegel spiegel" time="35.41"/>
-  <testcase classname="Spiegel StartPage" name="meist gelesene section" time="54.24"/>
+  <testcase classname="Coronavirus" name="Spiegel Coronavirus read section 1 articles" time="74.415">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at steps.HelperSteps.i_go_back_to(HelperSteps.java:106)
+	at ✽.I go back to &quot;Coronavirus - DER SPIEGEL&quot;(file:///C:/MyWorkspace/guineenews/src/test/resources/features/coronaVirus.feature:14)
+</failure>
+    <system-out>
+@spiegelCoronavirus @first_sectionCoronaVirus
+Scenario: Spiegel Coronavirus read section 1 articles &amp;#27;[90m# src/test/resources/features/coronaVirus.feature:11&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mI start Spiegel&amp;#27;[0m                               &amp;#27;[90m# steps.MenuSteps.i_start_Spiegel()&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click Akzeptieren und weiter&amp;#27;[0m                 &amp;#27;[90m# steps.MenuSteps.i_click_Akzeptieren_und_weiter()&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click TopMenu &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;Coronavirus&quot;&amp;#27;[0m                  &amp;#27;[90m# steps.MenuSteps.i_click_top_menu(java.lang.String)&amp;#27;[0m
+..taking screenshot..
+.. screenshot taken..
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click first article of &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;first&quot;&amp;#27;[0m&amp;#27;[32m section&amp;#27;[0m       &amp;#27;[90m# steps.SpiegelPlusSteps.i_click_first_article_of_section(java.lang.String)&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click page down &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m3&amp;#27;[0m                            &amp;#27;[90m# steps.HelperSteps.i_click_page_down(int)&amp;#27;[0m
+  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mI go back to &amp;#27;[0m&amp;#27;[31m&amp;#27;[1m&quot;Coronavirus - DER SPIEGEL&quot;&amp;#27;[0m       &amp;#27;[90m# steps.HelperSteps.i_go_back_to(java.lang.String)&amp;#27;[0m
+      &amp;#27;[31mjava.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at steps.HelperSteps.i_go_back_to(HelperSteps.java:106)
+	at âœ½.I go back to &quot;Coronavirus - DER SPIEGEL&quot;(file:///C:/MyWorkspace/guineenews/src/test/resources/features/coronaVirus.feature:14)
+&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click last article of &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;first&quot;&amp;#27;[0m&amp;#27;[36m section&amp;#27;[0m        &amp;#27;[90m# steps.SpiegelPlusSteps.i_click_last_article_of_section(java.lang.String)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click page down &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m3&amp;#27;[0m                            &amp;#27;[90m# steps.HelperSteps.i_click_page_down(int)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI go back to &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;Coronavirus - DER SPIEGEL&quot;&amp;#27;[0m       &amp;#27;[90m# steps.HelperSteps.i_go_back_to(java.lang.String)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI paginate to &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;next&quot;&amp;#27;[0m&amp;#27;[36m page&amp;#27;[0m                      &amp;#27;[90m# steps.HelperSteps.i_paginate_to_next_page(java.lang.String)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click page down &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m3&amp;#27;[0m                            &amp;#27;[90m# steps.HelperSteps.i_click_page_down(int)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI paginate to &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;previous&quot;&amp;#27;[0m&amp;#27;[36m page&amp;#27;[0m                  &amp;#27;[90m# steps.HelperSteps.i_paginate_to_next_page(java.lang.String)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click a random article of &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;first&quot;&amp;#27;[0m&amp;#27;[36m section&amp;#27;[0m    &amp;#27;[90m# steps.SpiegelPlusSteps.i_click_an_random_article_of_section(java.lang.String)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click page down &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m3&amp;#27;[0m                            &amp;#27;[90m# steps.HelperSteps.i_click_page_down(int)&amp;#27;[0m
+</system-out>
+    <system-err>SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355}) on port 41210
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dez 03, 2020 7:40:07 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMATION: Detected dialect: W3C
+Dez 03, 2020 7:40:08 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNUNG: Unable to find an exact match for CDP version 87, so returning the closest version found: 86
+Dez 03, 2020 7:40:08 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFORMATION: Found CDP implementation for version 87 of 86
+java.lang.NullPointerException
+	at core.SeleniumDriverWrapper.clickElement(SeleniumDriverWrapper.java:157)
+	at pages.SpiegelPlus.clickSectionArticle(SpiegelPlus.java:73)
+	at steps.SpiegelPlusSteps.i_click_first_article_of_section(SpiegelPlusSteps.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:63)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:99)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</system-err>
+  </testcase>
+  <testcase classname="Coronavirus" name="Spiegel Coronavirus read random section articles" time="207.003"/>
+  <testcase classname="Coronavirus" name="Spiegel Coronavirus read alle Beiträge section articles" time="62.269"/>
+  <testcase classname="Spiegel Schlagzeilen" name="reading Schlagzeilen article" time="100.463">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at steps.HelperSteps.i_go_back_to(HelperSteps.java:106)
+	at ✽.I go back to &quot;Schlagzeilen - DER SPIEGEL&quot;(file:///C:/MyWorkspace/guineenews/src/test/resources/features/schlagzeilen.feature:17)
+</failure>
+    <system-out>
+@spiegelSchlagzeilen @readSchlagzeilenArticle
+Scenario: reading Schlagzeilen article                      &amp;#27;[90m# src/test/resources/features/schlagzeilen.feature:11&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mI start Spiegel&amp;#27;[0m                                     &amp;#27;[90m# steps.MenuSteps.i_start_Spiegel()&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click Akzeptieren und weiter&amp;#27;[0m                       &amp;#27;[90m# steps.MenuSteps.i_click_Akzeptieren_und_weiter()&amp;#27;[0m
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI click TopMenu &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;Schlagzeilen&quot;&amp;#27;[0m                        &amp;#27;[90m# steps.MenuSteps.i_click_top_menu(java.lang.String)&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click a &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;first&quot;&amp;#27;[0m&amp;#27;[32m article of alle Beitraege section&amp;#27;[0m  &amp;#27;[90m# steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click page down &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m6&amp;#27;[0m                                  &amp;#27;[90m# steps.HelperSteps.i_click_page_down(int)&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI go back to &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;Schlagzeilen - DER SPIEGEL&quot;&amp;#27;[0m            &amp;#27;[90m# steps.HelperSteps.i_go_back_to(java.lang.String)&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click a &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;random&quot;&amp;#27;[0m&amp;#27;[32m article of alle Beitraege section&amp;#27;[0m &amp;#27;[90m# steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click page down &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m6&amp;#27;[0m                                  &amp;#27;[90m# steps.HelperSteps.i_click_page_down(int)&amp;#27;[0m
+  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mI go back to &amp;#27;[0m&amp;#27;[31m&amp;#27;[1m&quot;Schlagzeilen - DER SPIEGEL&quot;&amp;#27;[0m            &amp;#27;[90m# steps.HelperSteps.i_go_back_to(java.lang.String)&amp;#27;[0m
+      &amp;#27;[31mjava.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at steps.HelperSteps.i_go_back_to(HelperSteps.java:106)
+	at âœ½.I go back to &quot;Schlagzeilen - DER SPIEGEL&quot;(file:///C:/MyWorkspace/guineenews/src/test/resources/features/schlagzeilen.feature:17)
+&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Spiegel Plus" name="Spiegel plus read section 1 articles" time="116.894">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at steps.HelperSteps.i_go_back_to(HelperSteps.java:106)
+	at ✽.I go back to &quot;Plus - DER SPIEGEL&quot;(file:///C:/MyWorkspace/guineenews/src/test/resources/features/spiegelPlus.feature:14)
+</failure>
+    <system-out>
+@spiegelPlus @first_section
+Scenario: Spiegel plus read section 1 articles     &amp;#27;[90m# src/test/resources/features/spiegelPlus.feature:11&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mI start Spiegel&amp;#27;[0m                            &amp;#27;[90m# steps.MenuSteps.i_start_Spiegel()&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click Akzeptieren und weiter&amp;#27;[0m              &amp;#27;[90m# steps.MenuSteps.i_click_Akzeptieren_und_weiter()&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click SpiegelPlus&amp;#27;[0m                         &amp;#27;[90m# steps.SpiegelPlusSteps.clickSpiegelPlus()&amp;#27;[0m
+..taking screenshot..
+error taking screenshot
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click first article of &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;first&quot;&amp;#27;[0m&amp;#27;[32m section&amp;#27;[0m    &amp;#27;[90m# steps.SpiegelPlusSteps.i_click_first_article_of_section(java.lang.String)&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click page down &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m3&amp;#27;[0m                         &amp;#27;[90m# steps.HelperSteps.i_click_page_down(int)&amp;#27;[0m
+  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mI go back to &amp;#27;[0m&amp;#27;[31m&amp;#27;[1m&quot;Plus - DER SPIEGEL&quot;&amp;#27;[0m           &amp;#27;[90m# steps.HelperSteps.i_go_back_to(java.lang.String)&amp;#27;[0m
+      &amp;#27;[31mjava.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at steps.HelperSteps.i_go_back_to(HelperSteps.java:106)
+	at âœ½.I go back to &quot;Plus - DER SPIEGEL&quot;(file:///C:/MyWorkspace/guineenews/src/test/resources/features/spiegelPlus.feature:14)
+&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click last article of &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;first&quot;&amp;#27;[0m&amp;#27;[36m section&amp;#27;[0m     &amp;#27;[90m# steps.SpiegelPlusSteps.i_click_last_article_of_section(java.lang.String)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click page down &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m3&amp;#27;[0m                         &amp;#27;[90m# steps.HelperSteps.i_click_page_down(int)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI go back to &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;Plus - DER SPIEGEL&quot;&amp;#27;[0m           &amp;#27;[90m# steps.HelperSteps.i_go_back_to(java.lang.String)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI paginate to &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;next&quot;&amp;#27;[0m&amp;#27;[36m page&amp;#27;[0m                   &amp;#27;[90m# steps.HelperSteps.i_paginate_to_next_page(java.lang.String)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click page down &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m3&amp;#27;[0m                         &amp;#27;[90m# steps.HelperSteps.i_click_page_down(int)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI paginate to &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;previous&quot;&amp;#27;[0m&amp;#27;[36m page&amp;#27;[0m               &amp;#27;[90m# steps.HelperSteps.i_paginate_to_next_page(java.lang.String)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click a random article of &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;first&quot;&amp;#27;[0m&amp;#27;[36m section&amp;#27;[0m &amp;#27;[90m# steps.SpiegelPlusSteps.i_click_an_random_article_of_section(java.lang.String)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click page down &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m3&amp;#27;[0m                         &amp;#27;[90m# steps.HelperSteps.i_click_page_down(int)&amp;#27;[0m
+</system-out>
+    <system-err>[1606978077.844][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606978077.845][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1606978087.845][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606978097.855][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606978097.855][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1606978107.872][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606978117.875][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606978117.875][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1606978127.885][SEVERE]: Timed out receiving message from renderer: 10.000
+org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;4.0.0-alpha-7&apos;, revision: &apos;de8579b6d5&apos;
+System info: host: &apos;LAPTOP-RN5VIIS5&apos;, ip: &apos;192.168.142.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: driver.version: RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58396}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e8f6007f570f6aa2f2e153ec726abaf6
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:522)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:562)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:294)
+	at core.SeleniumDriverWrapper.takeScreenhot(SeleniumDriverWrapper.java:657)
+	at steps.SpiegelPlusSteps.i_click_first_article_of_section(SpiegelPlusSteps.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:63)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:99)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:72)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:47)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:60)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:123)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:501)
+	... 50 more
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:41210 after 60000 ms
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1895)
+	at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:201)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:57)
+	... 59 more
+Caused by: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:41210 after 60000 ms
+	at org.asynchttpclient.netty.timeout.TimeoutTimerTask.expire(TimeoutTimerTask.java:43)
+	at org.asynchttpclient.netty.timeout.RequestTimeoutTimerTask.run(RequestTimeoutTimerTask.java:50)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:672)
+	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:747)
+	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:472)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+java.lang.NullPointerException
+	at core.SeleniumDriverWrapper.clickElement(SeleniumDriverWrapper.java:157)
+	at pages.SpiegelPlus.clickSectionArticle(SpiegelPlus.java:73)
+	at steps.SpiegelPlusSteps.i_click_first_article_of_section(SpiegelPlusSteps.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:63)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:99)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</system-err>
+  </testcase>
+  <testcase classname="Spiegel Plus" name="Spiegel plus read random section articles" time="176.024">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at steps.HelperSteps.i_go_back_to(HelperSteps.java:106)
+	at ✽.I go back to &quot;Plus - DER SPIEGEL&quot;(file:///C:/MyWorkspace/guineenews/src/test/resources/features/spiegelPlus.feature:28)
+</failure>
+    <system-out>
+@spiegelPlus
+Scenario: Spiegel plus read random section articles &amp;#27;[90m# src/test/resources/features/spiegelPlus.feature:24&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mI start Spiegel&amp;#27;[0m                             &amp;#27;[90m# steps.MenuSteps.i_start_Spiegel()&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click Akzeptieren und weiter&amp;#27;[0m               &amp;#27;[90m# steps.MenuSteps.i_click_Akzeptieren_und_weiter()&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click SpiegelPlus&amp;#27;[0m                          &amp;#27;[90m# steps.SpiegelPlusSteps.clickSpiegelPlus()&amp;#27;[0m
+..taking screenshot..
+error taking screenshot
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI scroll to &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;random&quot;&amp;#27;[0m&amp;#27;[32m section&amp;#27;[0m                 &amp;#27;[90m# steps.SpiegelPlusSteps.i_scroll_to_section(java.lang.String)&amp;#27;[0m
+..taking screenshot..
+error taking screenshot
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click first article of &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;random&quot;&amp;#27;[0m&amp;#27;[32m section&amp;#27;[0m    &amp;#27;[90m# steps.SpiegelPlusSteps.i_click_first_article_of_section(java.lang.String)&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click page down &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m3&amp;#27;[0m                          &amp;#27;[90m# steps.HelperSteps.i_click_page_down(int)&amp;#27;[0m
+  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mI go back to &amp;#27;[0m&amp;#27;[31m&amp;#27;[1m&quot;Plus - DER SPIEGEL&quot;&amp;#27;[0m            &amp;#27;[90m# steps.HelperSteps.i_go_back_to(java.lang.String)&amp;#27;[0m
+      &amp;#27;[31mjava.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at steps.HelperSteps.i_go_back_to(HelperSteps.java:106)
+	at âœ½.I go back to &quot;Plus - DER SPIEGEL&quot;(file:///C:/MyWorkspace/guineenews/src/test/resources/features/spiegelPlus.feature:28)
+&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click a random article of &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;random&quot;&amp;#27;[0m&amp;#27;[36m section&amp;#27;[0m &amp;#27;[90m# steps.SpiegelPlusSteps.i_click_an_random_article_of_section(java.lang.String)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click page down &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m3&amp;#27;[0m                          &amp;#27;[90m# steps.HelperSteps.i_click_page_down(int)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI go back to &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;Plus - DER SPIEGEL&quot;&amp;#27;[0m            &amp;#27;[90m# steps.HelperSteps.i_go_back_to(java.lang.String)&amp;#27;[0m
+</system-out>
+    <system-err>[1606978192.572][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606978192.573][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1606978202.581][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606978212.597][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606978212.598][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1606978222.606][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606978232.622][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606978232.622][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;4.0.0-alpha-7&apos;, revision: &apos;de8579b6d5&apos;
+System info: host: &apos;LAPTOP-RN5VIIS5&apos;, ip: &apos;192.168.142.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: driver.version: RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58396}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e8f6007f570f6aa2f2e153ec726abaf6
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:522)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:562)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:294)
+	at core.SeleniumDriverWrapper.takeScreenhot(SeleniumDriverWrapper.java:657)
+	at steps.SpiegelPlusSteps.i_scroll_to_section(SpiegelPlusSteps.java:127)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:63)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:99)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:72)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:47)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:60)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:123)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:501)
+	... 50 more
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:41210 after 60000 ms
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1895)
+	at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:201)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:57)
+	... 59 more
+Caused by: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:41210 after 60000 ms
+	at org.asynchttpclient.netty.timeout.TimeoutTimerTask.expire(TimeoutTimerTask.java:43)
+	at org.asynchttpclient.netty.timeout.RequestTimeoutTimerTask.run(RequestTimeoutTimerTask.java:50)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:672)
+	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:747)
+	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:472)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+java.lang.IllegalArgumentException: bound must be positive
+	at java.util.Random.nextInt(Random.java:388)
+	at pages.SpiegelPlus.getRandomSectionNr(SpiegelPlus.java:103)
+	at steps.SpiegelPlusSteps.i_scroll_to_section(SpiegelPlusSteps.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:63)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:99)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+[1606978242.623][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606978253.684][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606978253.684][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1606978263.684][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606978273.712][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606978273.712][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1606978283.722][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606978293.733][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606978293.734][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;4.0.0-alpha-7&apos;, revision: &apos;de8579b6d5&apos;
+System info: host: &apos;LAPTOP-RN5VIIS5&apos;, ip: &apos;192.168.142.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: driver.version: RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58396}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e8f6007f570f6aa2f2e153ec726abaf6
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:522)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:562)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:294)
+	at core.SeleniumDriverWrapper.takeScreenhot(SeleniumDriverWrapper.java:657)
+	at steps.SpiegelPlusSteps.i_click_first_article_of_section(SpiegelPlusSteps.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:63)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:99)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:72)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:47)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:60)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:123)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:501)
+	... 50 more
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:41210 after 60000 ms
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1895)
+	at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:201)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:57)
+	... 59 more
+Caused by: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:41210 after 60000 ms
+	at org.asynchttpclient.netty.timeout.TimeoutTimerTask.expire(TimeoutTimerTask.java:43)
+	at org.asynchttpclient.netty.timeout.RequestTimeoutTimerTask.run(RequestTimeoutTimerTask.java:50)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:672)
+	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:747)
+	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:472)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+java.lang.IllegalArgumentException: bound must be positive
+	at java.util.Random.nextInt(Random.java:388)
+	at pages.SpiegelPlus.getRandomSectionNr(SpiegelPlus.java:103)
+	at steps.SpiegelPlusSteps.i_click_first_article_of_section(SpiegelPlusSteps.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:63)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:99)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+[1606978303.747][SEVERE]: Timed out receiving message from renderer: 10.000
+</system-err>
+  </testcase>
+  <testcase classname="Spiegel Plus" name="Spiegel plus read audio section articles" time="118.727">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at steps.HelperSteps.i_go_back_to(HelperSteps.java:106)
+	at ✽.I go back to &quot;Plus - DER SPIEGEL&quot;(file:///C:/MyWorkspace/guineenews/src/test/resources/features/spiegelPlus.feature:38)
+</failure>
+    <system-out>
+@spiegelPlus @audio
+Scenario: Spiegel plus read audio section articles &amp;#27;[90m# src/test/resources/features/spiegelPlus.feature:34&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mI start Spiegel&amp;#27;[0m                            &amp;#27;[90m# steps.MenuSteps.i_start_Spiegel()&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click Akzeptieren und weiter&amp;#27;[0m              &amp;#27;[90m# steps.MenuSteps.i_click_Akzeptieren_und_weiter()&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click SpiegelPlus&amp;#27;[0m                         &amp;#27;[90m# steps.SpiegelPlusSteps.clickSpiegelPlus()&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI scroll to &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;audio&quot;&amp;#27;[0m&amp;#27;[32m section&amp;#27;[0m                 &amp;#27;[90m# steps.SpiegelPlusSteps.i_scroll_to_section(java.lang.String)&amp;#27;[0m
+..taking screenshot..
+error taking screenshot
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click first article of &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;audio&quot;&amp;#27;[0m&amp;#27;[32m section&amp;#27;[0m    &amp;#27;[90m# steps.SpiegelPlusSteps.i_click_first_article_of_section(java.lang.String)&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click page down &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m3&amp;#27;[0m                         &amp;#27;[90m# steps.HelperSteps.i_click_page_down(int)&amp;#27;[0m
+  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mI go back to &amp;#27;[0m&amp;#27;[31m&amp;#27;[1m&quot;Plus - DER SPIEGEL&quot;&amp;#27;[0m           &amp;#27;[90m# steps.HelperSteps.i_go_back_to(java.lang.String)&amp;#27;[0m
+      &amp;#27;[31mjava.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at steps.HelperSteps.i_go_back_to(HelperSteps.java:106)
+	at âœ½.I go back to &quot;Plus - DER SPIEGEL&quot;(file:///C:/MyWorkspace/guineenews/src/test/resources/features/spiegelPlus.feature:38)
+&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click a random article of &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;audio&quot;&amp;#27;[0m&amp;#27;[36m section&amp;#27;[0m &amp;#27;[90m# steps.SpiegelPlusSteps.i_click_an_random_article_of_section(java.lang.String)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click page down &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m3&amp;#27;[0m                         &amp;#27;[90m# steps.HelperSteps.i_click_page_down(int)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI go back to &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;Plus - DER SPIEGEL&quot;&amp;#27;[0m           &amp;#27;[90m# steps.HelperSteps.i_go_back_to(java.lang.String)&amp;#27;[0m
+</system-out>
+    <system-err>[1606978372.393][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606978372.393][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1606978382.397][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606978392.416][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606978392.416][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1606978402.421][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606978412.425][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606978412.425][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1606978422.434][SEVERE]: Timed out receiving message from renderer: 10.000
+org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=87.0.4280.66)
+Build info: version: &apos;4.0.0-alpha-7&apos;, revision: &apos;de8579b6d5&apos;
+System info: host: &apos;LAPTOP-RN5VIIS5&apos;, ip: &apos;192.168.142.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58396}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e8f6007f570f6aa2f2e153ec726abaf6
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:123)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:501)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:562)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:294)
+	at core.SeleniumDriverWrapper.takeScreenhot(SeleniumDriverWrapper.java:657)
+	at steps.SpiegelPlusSteps.i_click_first_article_of_section(SpiegelPlusSteps.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:63)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:99)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+java.lang.NullPointerException
+	at core.SeleniumDriverWrapper.clickElement(SeleniumDriverWrapper.java:157)
+	at pages.SpiegelPlus.clickSectionArticle(SpiegelPlus.java:73)
+	at steps.SpiegelPlusSteps.i_click_first_article_of_section(SpiegelPlusSteps.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:63)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:99)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</system-err>
+  </testcase>
+  <testcase classname="Spiegel Plus" name="Spiegel plus read alle Beiträge section articles" time="59.265"/>
+  <testcase classname="Spiegel StartPage" name="reading main article #1" time="30.662"/>
+  <testcase classname="Spiegel StartPage" name="reading main article #2" time="44.415">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at steps.HelperSteps.i_go_back_to(HelperSteps.java:106)
+	at ✽.I go back to &quot;DER SPIEGEL | Online-Nachrichten&quot;(file:///C:/MyWorkspace/guineenews/src/test/resources/features/startPage.feature:22)
+</failure>
+    <system-out>
+@spiegelStartPage @readMainArticle
+Scenario: reading main article                         &amp;#27;[90m# src/test/resources/features/startPage.feature:18&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mI start Spiegel&amp;#27;[0m                                &amp;#27;[90m# steps.MenuSteps.i_start_Spiegel()&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click Akzeptieren und weiter&amp;#27;[0m                  &amp;#27;[90m# steps.MenuSteps.i_click_Akzeptieren_und_weiter()&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click start page main_article&amp;#27;[0m                 &amp;#27;[90m# steps.StartpageSteps.i_click_start_page_main_article()&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click page down &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m6&amp;#27;[0m                             &amp;#27;[90m# steps.HelperSteps.i_click_page_down(int)&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click page up &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m3&amp;#27;[0m                               &amp;#27;[90m# steps.HelperSteps.i_click_page_up(int)&amp;#27;[0m
+  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mI go back to &amp;#27;[0m&amp;#27;[31m&amp;#27;[1m&quot;DER SPIEGEL | Online-Nachrichten&quot;&amp;#27;[0m &amp;#27;[90m# steps.HelperSteps.i_go_back_to(java.lang.String)&amp;#27;[0m
+      &amp;#27;[31mjava.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at steps.HelperSteps.i_go_back_to(HelperSteps.java:106)
+	at âœ½.I go back to &quot;DER SPIEGEL | Online-Nachrichten&quot;(file:///C:/MyWorkspace/guineenews/src/test/resources/features/startPage.feature:22)
+&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Spiegel StartPage" name="read news section articles" time="139.112">
+    <error message="Error
+Build info: version: &apos;4.0.0-alpha-7&apos;, revision: &apos;de8579b6d5&apos;
+System info: host: &apos;LAPTOP-RN5VIIS5&apos;, ip: &apos;192.168.142.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: driver.version: unknown" type="java.lang.Exception">java.lang.Exception: Error
+Build info: version: &apos;4.0.0-alpha-7&apos;, revision: &apos;de8579b6d5&apos;
+System info: host: &apos;LAPTOP-RN5VIIS5&apos;, ip: &apos;192.168.142.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: driver.version: unknown
+	at steps.StartpageSteps.i_click_article_of(StartpageSteps.java:55)
+	at ✽.On start page I click first article of news_section(file:///C:/MyWorkspace/guineenews/src/test/resources/features/startPage.feature:27)
+</error>
+    <system-out>
+@spiegelStartPage @readNewsSectionArticles
+Scenario: read news section articles                        &amp;#27;[90m# src/test/resources/features/startPage.feature:25&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mI start Spiegel&amp;#27;[0m                                     &amp;#27;[90m# steps.MenuSteps.i_start_Spiegel()&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click Akzeptieren und weiter&amp;#27;[0m                       &amp;#27;[90m# steps.MenuSteps.i_click_Akzeptieren_und_weiter()&amp;#27;[0m
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI scroll to &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;news_section&quot;&amp;#27;[0m&amp;#27;[32m on start page&amp;#27;[0m              &amp;#27;[90m# steps.StartpageSteps.i_scroll_to_section_on_start_page(java.lang.String)&amp;#27;[0m
+..taking screenshot..
+error taking screenshot
+..taking screenshot..
+error taking screenshot
+  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mOn start page I click &amp;#27;[0m&amp;#27;[31m&amp;#27;[1mfirst&amp;#27;[0m&amp;#27;[31m article of &amp;#27;[0m&amp;#27;[31m&amp;#27;[1mnews_section&amp;#27;[0m  &amp;#27;[90m# steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)&amp;#27;[0m
+      &amp;#27;[31mjava.lang.Exception: Error
+Build info: version: &apos;4.0.0-alpha-7&apos;, revision: &apos;de8579b6d5&apos;
+System info: host: &apos;LAPTOP-RN5VIIS5&apos;, ip: &apos;192.168.142.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: driver.version: unknown
+	at steps.StartpageSteps.i_click_article_of(StartpageSteps.java:55)
+	at âœ½.On start page I click first article of news_section(file:///C:/MyWorkspace/guineenews/src/test/resources/features/startPage.feature:27)
+&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click page down &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m6&amp;#27;[0m                                  &amp;#27;[90m# steps.HelperSteps.i_click_page_down(int)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click page up &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m3&amp;#27;[0m                                    &amp;#27;[90m# steps.HelperSteps.i_click_page_up(int)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI go back to &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;DER SPIEGEL | Online-Nachrichten&quot;&amp;#27;[0m      &amp;#27;[90m# steps.HelperSteps.i_go_back_to(java.lang.String)&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI scroll to &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;news section&quot;&amp;#27;[0m&amp;#27;[36m on start page&amp;#27;[0m              &amp;#27;[90m# steps.StartpageSteps.i_scroll_to_section_on_start_page(java.lang.String)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI scroll to &amp;#27;[0m&amp;#27;[36m&amp;#27;[1mrandom&amp;#27;[0m&amp;#27;[36m article of &amp;#27;[0m&amp;#27;[36m&amp;#27;[1mnews_section&amp;#27;[0m           &amp;#27;[90m# steps.StartpageSteps.i_scroll_to_article_section(java.lang.String,java.lang.String)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mOn start page I click &amp;#27;[0m&amp;#27;[36m&amp;#27;[1mrandom&amp;#27;[0m&amp;#27;[36m article of &amp;#27;[0m&amp;#27;[36m&amp;#27;[1mnews_section&amp;#27;[0m &amp;#27;[90m# steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click page down &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m6&amp;#27;[0m                                  &amp;#27;[90m# steps.HelperSteps.i_click_page_down(int)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click page up &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m3&amp;#27;[0m                                    &amp;#27;[90m# steps.HelperSteps.i_click_page_up(int)&amp;#27;[0m
+</system-out>
+    <system-err>[1606978619.758][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606978619.759][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1606978629.763][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606978639.778][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606978639.778][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1606978649.787][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606978659.800][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606978659.801][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;4.0.0-alpha-7&apos;, revision: &apos;de8579b6d5&apos;
+System info: host: &apos;LAPTOP-RN5VIIS5&apos;, ip: &apos;192.168.142.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: driver.version: RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58396}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e8f6007f570f6aa2f2e153ec726abaf6
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:522)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:562)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:294)
+	at core.SeleniumDriverWrapper.takeScreenhot(SeleniumDriverWrapper.java:657)
+	at core.SeleniumDriverWrapper.clickElement(SeleniumDriverWrapper.java:163)
+	at pages.StartPage.clickSectionArticle(StartPage.java:261)
+	at steps.StartpageSteps.i_click_article_of(StartpageSteps.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:63)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:99)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:72)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:47)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:60)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:123)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:501)
+	... 52 more
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:41210 after 60000 ms
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1895)
+	at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:201)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:57)
+	... 61 more
+Caused by: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:41210 after 60000 ms
+	at org.asynchttpclient.netty.timeout.TimeoutTimerTask.expire(TimeoutTimerTask.java:43)
+	at org.asynchttpclient.netty.timeout.RequestTimeoutTimerTask.run(RequestTimeoutTimerTask.java:50)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:672)
+	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:747)
+	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:472)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+[1606978669.801][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606978679.808][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606978679.808][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1606978689.809][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606978699.812][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606978699.812][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1606978709.826][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606978719.840][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606978719.840][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1606978729.849][SEVERE]: Timed out receiving message from renderer: 10.000
+org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=87.0.4280.66)
+Build info: version: &apos;4.0.0-alpha-7&apos;, revision: &apos;de8579b6d5&apos;
+System info: host: &apos;LAPTOP-RN5VIIS5&apos;, ip: &apos;192.168.142.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58396}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e8f6007f570f6aa2f2e153ec726abaf6
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:123)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:501)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:562)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:294)
+	at core.SeleniumDriverWrapper.takeScreenhot(SeleniumDriverWrapper.java:657)
+	at steps.StartpageSteps.i_click_article_of(StartpageSteps.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:63)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:99)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</system-err>
+  </testcase>
+  <testcase classname="Spiegel StartPage" name="alle Rubriken #1" time="40.248"/>
+  <testcase classname="Spiegel StartPage" name="alle Rubriken #2" time="26.126"/>
+  <testcase classname="Spiegel StartPage" name="alle Rubriken #3" time="23.711"/>
+  <testcase classname="Spiegel StartPage" name="alle Rubriken #4" time="26.946"/>
+  <testcase classname="Spiegel StartPage" name="stock section" time="40.216"/>
+  <testcase classname="Spiegel StartPage" name="block channel section #1" time="140.554">
+    <error message="Error
+Build info: version: &apos;4.0.0-alpha-7&apos;, revision: &apos;de8579b6d5&apos;
+System info: host: &apos;LAPTOP-RN5VIIS5&apos;, ip: &apos;192.168.142.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: driver.version: unknown" type="java.lang.Exception">java.lang.Exception: Error
+Build info: version: &apos;4.0.0-alpha-7&apos;, revision: &apos;de8579b6d5&apos;
+System info: host: &apos;LAPTOP-RN5VIIS5&apos;, ip: &apos;192.168.142.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: driver.version: unknown
+	at steps.StartpageSteps.i_click_article_of(StartpageSteps.java:55)
+	at ✽.On start page I click random article of geschichte_channel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/startPage.feature:66)
+</error>
+    <system-out>
+@spiegelStartPage @blockchannel
+Scenario Outline: block channel section                           &amp;#27;[90m# src/test/resources/features/startPage.feature:73&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mI start Spiegel&amp;#27;[0m                                           &amp;#27;[90m# steps.MenuSteps.i_start_Spiegel()&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click Akzeptieren und weiter&amp;#27;[0m                             &amp;#27;[90m# steps.MenuSteps.i_click_Akzeptieren_und_weiter()&amp;#27;[0m
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI scroll to &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;block_channel_section&quot;&amp;#27;[0m&amp;#27;[32m on start page&amp;#27;[0m           &amp;#27;[90m# steps.StartpageSteps.i_scroll_to_section_on_start_page(java.lang.String)&amp;#27;[0m
+..taking screenshot..
+error taking screenshot
+..taking screenshot..
+error taking screenshot
+  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mOn start page I click &amp;#27;[0m&amp;#27;[31m&amp;#27;[1mrandom&amp;#27;[0m&amp;#27;[31m article of &amp;#27;[0m&amp;#27;[31m&amp;#27;[1mgeschichte_channel&amp;#27;[0m &amp;#27;[90m# steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)&amp;#27;[0m
+      &amp;#27;[31mjava.lang.Exception: Error
+Build info: version: &apos;4.0.0-alpha-7&apos;, revision: &apos;de8579b6d5&apos;
+System info: host: &apos;LAPTOP-RN5VIIS5&apos;, ip: &apos;192.168.142.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: driver.version: unknown
+	at steps.StartpageSteps.i_click_article_of(StartpageSteps.java:55)
+	at âœ½.On start page I click random article of geschichte_channel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/startPage.feature:66)
+&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click page down &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m6&amp;#27;[0m                                        &amp;#27;[90m# steps.HelperSteps.i_click_page_down(int)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click page up &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m3&amp;#27;[0m                                          &amp;#27;[90m# steps.HelperSteps.i_click_page_up(int)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI go back to &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;DER SPIEGEL | Online-Nachrichten&quot;&amp;#27;[0m            &amp;#27;[90m# steps.HelperSteps.i_go_back_to(java.lang.String)&amp;#27;[0m
+</system-out>
+    <system-err>[1606978917.536][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606978917.536][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1606978927.542][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606978937.562][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606978937.563][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1606978947.573][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606978957.599][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606978957.599][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;4.0.0-alpha-7&apos;, revision: &apos;de8579b6d5&apos;
+System info: host: &apos;LAPTOP-RN5VIIS5&apos;, ip: &apos;192.168.142.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: driver.version: RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58396}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e8f6007f570f6aa2f2e153ec726abaf6
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:522)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:562)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:294)
+	at core.SeleniumDriverWrapper.takeScreenhot(SeleniumDriverWrapper.java:657)
+	at core.SeleniumDriverWrapper.clickElement(SeleniumDriverWrapper.java:163)
+	at pages.StartPage.clickSectionArticle(StartPage.java:261)
+	at steps.StartpageSteps.i_click_article_of(StartpageSteps.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:63)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:99)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:72)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:47)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:60)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:123)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:501)
+	... 52 more
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:41210 after 60000 ms
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1895)
+	at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:201)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:57)
+	... 61 more
+Caused by: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:41210 after 60000 ms
+	at org.asynchttpclient.netty.timeout.TimeoutTimerTask.expire(TimeoutTimerTask.java:43)
+	at org.asynchttpclient.netty.timeout.RequestTimeoutTimerTask.run(RequestTimeoutTimerTask.java:50)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:672)
+	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:747)
+	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:472)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+[1606978967.614][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606978977.622][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606978977.623][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1606978987.632][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606978997.642][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606978997.643][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1606979007.649][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606979017.656][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606979017.656][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1606979027.664][SEVERE]: Timed out receiving message from renderer: 10.000
+org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=87.0.4280.66)
+Build info: version: &apos;4.0.0-alpha-7&apos;, revision: &apos;de8579b6d5&apos;
+System info: host: &apos;LAPTOP-RN5VIIS5&apos;, ip: &apos;192.168.142.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58396}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e8f6007f570f6aa2f2e153ec726abaf6
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:123)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:501)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:562)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:294)
+	at core.SeleniumDriverWrapper.takeScreenhot(SeleniumDriverWrapper.java:657)
+	at steps.StartpageSteps.i_click_article_of(StartpageSteps.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:63)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:99)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</system-err>
+  </testcase>
+  <testcase classname="Spiegel StartPage" name="block channel section #2" time="25.377"/>
+  <testcase classname="Spiegel StartPage" name="block channel section #3" time="28.552"/>
+  <testcase classname="Spiegel StartPage" name="block channel section #4" time="138.576">
+    <error message="Error
+Build info: version: &apos;4.0.0-alpha-7&apos;, revision: &apos;de8579b6d5&apos;
+System info: host: &apos;LAPTOP-RN5VIIS5&apos;, ip: &apos;192.168.142.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: driver.version: unknown" type="java.lang.Exception">java.lang.Exception: Error
+Build info: version: &apos;4.0.0-alpha-7&apos;, revision: &apos;de8579b6d5&apos;
+System info: host: &apos;LAPTOP-RN5VIIS5&apos;, ip: &apos;192.168.142.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: driver.version: unknown
+	at steps.StartpageSteps.i_click_article_of(StartpageSteps.java:55)
+	at ✽.On start page I click random article of kultur_channel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/startPage.feature:66)
+</error>
+    <system-out>
+@spiegelStartPage @blockchannel
+Scenario Outline: block channel section                       &amp;#27;[90m# src/test/resources/features/startPage.feature:76&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mI start Spiegel&amp;#27;[0m                                       &amp;#27;[90m# steps.MenuSteps.i_start_Spiegel()&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click Akzeptieren und weiter&amp;#27;[0m                         &amp;#27;[90m# steps.MenuSteps.i_click_Akzeptieren_und_weiter()&amp;#27;[0m
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI scroll to &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;block_channel_section&quot;&amp;#27;[0m&amp;#27;[32m on start page&amp;#27;[0m       &amp;#27;[90m# steps.StartpageSteps.i_scroll_to_section_on_start_page(java.lang.String)&amp;#27;[0m
+..taking screenshot..
+error taking screenshot
+..taking screenshot..
+error taking screenshot
+  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mOn start page I click &amp;#27;[0m&amp;#27;[31m&amp;#27;[1mrandom&amp;#27;[0m&amp;#27;[31m article of &amp;#27;[0m&amp;#27;[31m&amp;#27;[1mkultur_channel&amp;#27;[0m &amp;#27;[90m# steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)&amp;#27;[0m
+      &amp;#27;[31mjava.lang.Exception: Error
+Build info: version: &apos;4.0.0-alpha-7&apos;, revision: &apos;de8579b6d5&apos;
+System info: host: &apos;LAPTOP-RN5VIIS5&apos;, ip: &apos;192.168.142.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: driver.version: unknown
+	at steps.StartpageSteps.i_click_article_of(StartpageSteps.java:55)
+	at âœ½.On start page I click random article of kultur_channel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/startPage.feature:66)
+&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click page down &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m6&amp;#27;[0m                                    &amp;#27;[90m# steps.HelperSteps.i_click_page_down(int)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click page up &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m3&amp;#27;[0m                                      &amp;#27;[90m# steps.HelperSteps.i_click_page_up(int)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI go back to &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;DER SPIEGEL | Online-Nachrichten&quot;&amp;#27;[0m        &amp;#27;[90m# steps.HelperSteps.i_go_back_to(java.lang.String)&amp;#27;[0m
+</system-out>
+    <system-err>[1606979110.070][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606979110.070][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1606979120.071][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606979130.091][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606979130.091][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1606979140.095][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606979150.113][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606979150.114][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;4.0.0-alpha-7&apos;, revision: &apos;de8579b6d5&apos;
+System info: host: &apos;LAPTOP-RN5VIIS5&apos;, ip: &apos;192.168.142.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: driver.version: RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58396}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e8f6007f570f6aa2f2e153ec726abaf6
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:522)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:562)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:294)
+	at core.SeleniumDriverWrapper.takeScreenhot(SeleniumDriverWrapper.java:657)
+	at core.SeleniumDriverWrapper.clickElement(SeleniumDriverWrapper.java:163)
+	at pages.StartPage.clickSectionArticle(StartPage.java:261)
+	at steps.StartpageSteps.i_click_article_of(StartpageSteps.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:63)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:99)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:72)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:47)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:60)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:123)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:501)
+	... 52 more
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:41210 after 60000 ms
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1895)
+	at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:201)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:57)
+	... 61 more
+Caused by: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:41210 after 60000 ms
+	at org.asynchttpclient.netty.timeout.TimeoutTimerTask.expire(TimeoutTimerTask.java:43)
+	at org.asynchttpclient.netty.timeout.RequestTimeoutTimerTask.run(RequestTimeoutTimerTask.java:50)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:672)
+	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:747)
+	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:472)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+[1606979160.115][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606979170.122][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606979170.122][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1606979180.122][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606979190.139][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606979190.140][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1606979200.150][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606979210.163][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606979210.163][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1606979220.169][SEVERE]: Timed out receiving message from renderer: 10.000
+org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=87.0.4280.66)
+Build info: version: &apos;4.0.0-alpha-7&apos;, revision: &apos;de8579b6d5&apos;
+System info: host: &apos;LAPTOP-RN5VIIS5&apos;, ip: &apos;192.168.142.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58396}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e8f6007f570f6aa2f2e153ec726abaf6
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:123)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:501)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:562)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:294)
+	at core.SeleniumDriverWrapper.takeScreenhot(SeleniumDriverWrapper.java:657)
+	at steps.StartpageSteps.i_click_article_of(StartpageSteps.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:63)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:99)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</system-err>
+  </testcase>
+  <testcase classname="Spiegel StartPage" name="block channel section #5" time="28.864"/>
+  <testcase classname="Spiegel StartPage" name="block channel section #6" time="138.15">
+    <error message="Error
+Build info: version: &apos;4.0.0-alpha-7&apos;, revision: &apos;de8579b6d5&apos;
+System info: host: &apos;LAPTOP-RN5VIIS5&apos;, ip: &apos;192.168.142.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: driver.version: unknown" type="java.lang.Exception">java.lang.Exception: Error
+Build info: version: &apos;4.0.0-alpha-7&apos;, revision: &apos;de8579b6d5&apos;
+System info: host: &apos;LAPTOP-RN5VIIS5&apos;, ip: &apos;192.168.142.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: driver.version: unknown
+	at steps.StartpageSteps.i_click_article_of(StartpageSteps.java:55)
+	at ✽.On start page I click random article of wissenschaft_channel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/startPage.feature:66)
+</error>
+    <system-out>
+@spiegelStartPage @blockchannel
+Scenario Outline: block channel section                             &amp;#27;[90m# src/test/resources/features/startPage.feature:78&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mI start Spiegel&amp;#27;[0m                                             &amp;#27;[90m# steps.MenuSteps.i_start_Spiegel()&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click Akzeptieren und weiter&amp;#27;[0m                               &amp;#27;[90m# steps.MenuSteps.i_click_Akzeptieren_und_weiter()&amp;#27;[0m
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI scroll to &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;block_channel_section&quot;&amp;#27;[0m&amp;#27;[32m on start page&amp;#27;[0m             &amp;#27;[90m# steps.StartpageSteps.i_scroll_to_section_on_start_page(java.lang.String)&amp;#27;[0m
+..taking screenshot..
+error taking screenshot
+..taking screenshot..
+error taking screenshot
+  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mOn start page I click &amp;#27;[0m&amp;#27;[31m&amp;#27;[1mrandom&amp;#27;[0m&amp;#27;[31m article of &amp;#27;[0m&amp;#27;[31m&amp;#27;[1mwissenschaft_channel&amp;#27;[0m &amp;#27;[90m# steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)&amp;#27;[0m
+      &amp;#27;[31mjava.lang.Exception: Error
+Build info: version: &apos;4.0.0-alpha-7&apos;, revision: &apos;de8579b6d5&apos;
+System info: host: &apos;LAPTOP-RN5VIIS5&apos;, ip: &apos;192.168.142.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: driver.version: unknown
+	at steps.StartpageSteps.i_click_article_of(StartpageSteps.java:55)
+	at âœ½.On start page I click random article of wissenschaft_channel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/startPage.feature:66)
+&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click page down &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m6&amp;#27;[0m                                          &amp;#27;[90m# steps.HelperSteps.i_click_page_down(int)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click page up &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m3&amp;#27;[0m                                            &amp;#27;[90m# steps.HelperSteps.i_click_page_up(int)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI go back to &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;DER SPIEGEL | Online-Nachrichten&quot;&amp;#27;[0m              &amp;#27;[90m# steps.HelperSteps.i_go_back_to(java.lang.String)&amp;#27;[0m
+</system-out>
+    <system-err>[1606979277.102][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606979277.103][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1606979287.115][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606979297.127][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606979297.127][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1606979307.132][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606979317.146][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606979317.147][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1606979327.157][SEVERE]: Timed out receiving message from renderer: 10.000
+org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=87.0.4280.66)
+Build info: version: &apos;4.0.0-alpha-7&apos;, revision: &apos;de8579b6d5&apos;
+System info: host: &apos;LAPTOP-RN5VIIS5&apos;, ip: &apos;192.168.142.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58396}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e8f6007f570f6aa2f2e153ec726abaf6
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:123)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:501)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:562)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:294)
+	at core.SeleniumDriverWrapper.takeScreenhot(SeleniumDriverWrapper.java:657)
+	at core.SeleniumDriverWrapper.clickElement(SeleniumDriverWrapper.java:163)
+	at pages.StartPage.clickSectionArticle(StartPage.java:261)
+	at steps.StartpageSteps.i_click_article_of(StartpageSteps.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:63)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:99)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+[1606979337.178][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606979337.180][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1606979347.194][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606979357.206][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606979357.207][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1606979367.216][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606979377.228][SEVERE]: Timed out receiving message from renderer: 10.000
+[1606979377.229][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;4.0.0-alpha-7&apos;, revision: &apos;de8579b6d5&apos;
+System info: host: &apos;LAPTOP-RN5VIIS5&apos;, ip: &apos;192.168.142.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: driver.version: RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58396}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e8f6007f570f6aa2f2e153ec726abaf6
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:522)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:562)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:294)
+	at core.SeleniumDriverWrapper.takeScreenhot(SeleniumDriverWrapper.java:657)
+	at steps.StartpageSteps.i_click_article_of(StartpageSteps.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:63)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:99)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:72)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:47)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:60)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:123)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:501)
+	... 50 more
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:41210 after 60000 ms
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1895)
+	at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:201)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:57)
+	... 59 more
+Caused by: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:41210 after 60000 ms
+	at org.asynchttpclient.netty.timeout.TimeoutTimerTask.expire(TimeoutTimerTask.java:43)
+	at org.asynchttpclient.netty.timeout.RequestTimeoutTimerTask.run(RequestTimeoutTimerTask.java:50)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:672)
+	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:747)
+	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:472)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+</system-err>
+  </testcase>
+  <testcase classname="Spiegel StartPage" name="leben section articles" time="46.839"/>
+  <testcase classname="Spiegel StartPage" name="highligh section" time="34.976"/>
+  <testcase classname="Spiegel StartPage" name="top bei spiegel spiegel" time="46.964"/>
+  <testcase classname="Spiegel StartPage" name="meist gelesene section" time="52.639"/>
 </testsuite>
