@@ -1,9 +1,9 @@
 [
   {
-    "line": 2,
+    "line": 3,
     "elements": [
       {
-        "line": 4,
+        "line": 5,
         "name": "",
         "description": "",
         "type": "background",
@@ -11,485 +11,78 @@
         "steps": [
           {
             "result": {
-              "duration": 5836000000,
+              "duration": 5394000000,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "I start Spiegel",
             "match": {
               "location": "steps.MenuSteps.i_start_Spiegel()"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 249000000,
+              "duration": 547000000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "I click Akzeptieren und weiter",
             "match": {
               "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 8514000000,
+              "duration": 7007000000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "I click TopMenuButton",
             "match": {
               "location": "steps.MenuSteps.i_click_top_menu_button()"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "And "
           }
         ]
       },
       {
-        "start_timestamp": "2020-12-03T07:45:13.614Z",
+        "start_timestamp": "2020-12-13T12:42:13.675Z",
         "before": [
           {
             "result": {
-              "duration": 5339000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.TestCaseBase.setup()"
-            }
-          }
-        ],
-        "line": 26,
-        "name": "search",
-        "description": "",
-        "id": "spiegel-left-menu-navigation;search;;2",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1991000000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "I enter Obama and press enter",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Obama",
-                  "offset": 8
-                }
-              ],
-              "location": "steps.MenuSteps.i_enter_search_word_and_press_enter(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 865000000,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "I click weiter 3",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3",
-                  "offset": 15
-                }
-              ],
-              "location": "steps.SearchPageSteps.i_click_weiter(int)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 63000000,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "I click zurück 1",
-            "match": {
-              "arguments": [
-                {
-                  "val": "1",
-                  "offset": 15
-                }
-              ],
-              "location": "steps.SearchPageSteps.i_click_zurück(int)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 10520000000,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "I click a \"random\" article on search results page",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"random\"",
-                  "offset": 10
-                }
-              ],
-              "location": "steps.SearchPageSteps.i_click_a_article_on_search_results_page(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 61000000,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "I click page down 3",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3",
-                  "offset": 18
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_page_down(int)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3708000000,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "I go back to \"Suche - DER SPIEGEL\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Suche - DER SPIEGEL\"",
-                  "offset": 13
-                }
-              ],
-              "location": "steps.HelperSteps.i_go_back_to(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 507000000,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "I filter results by \"Letztes Jahr\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Letztes Jahr\"",
-                  "offset": 20
-                }
-              ],
-              "location": "steps.SearchPageSteps.i_filter_results_by(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 124000000,
-              "status": "passed"
-            },
-            "line": 23,
-            "name": "I filter results by \"seit 2005\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"seit 2005\"",
-                  "offset": 20
-                }
-              ],
-              "location": "steps.SearchPageSteps.i_filter_results_by(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@spiegelLeftMenuNavigation"
-          },
-          {
-            "name": "@search"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 11013000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I start Spiegel",
-            "match": {
-              "location": "steps.MenuSteps.i_start_Spiegel()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1050000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "I click Akzeptieren und weiter",
-            "match": {
-              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 173000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I click TopMenuButton",
-            "match": {
-              "location": "steps.MenuSteps.i_click_top_menu_button()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-12-03T07:45:51.490Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.TestCaseBase.setup()"
-            }
-          }
-        ],
-        "line": 27,
-        "name": "search",
-        "description": "",
-        "id": "spiegel-left-menu-navigation;search;;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2946000000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "I enter Lebron James and press enter",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Lebron James",
-                  "offset": 8
-                }
-              ],
-              "location": "steps.MenuSteps.i_enter_search_word_and_press_enter(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 572000000,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "I click weiter 3",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3",
-                  "offset": 15
-                }
-              ],
-              "location": "steps.SearchPageSteps.i_click_weiter(int)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 912000000,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "I click zurück 1",
-            "match": {
-              "arguments": [
-                {
-                  "val": "1",
-                  "offset": 15
-                }
-              ],
-              "location": "steps.SearchPageSteps.i_click_zurück(int)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 5463000000,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "I click a \"random\" article on search results page",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"random\"",
-                  "offset": 10
-                }
-              ],
-              "location": "steps.SearchPageSteps.i_click_a_article_on_search_results_page(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 432000000,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "I click page down 3",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3",
-                  "offset": 18
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_page_down(int)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3837000000,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "I go back to \"Suche - DER SPIEGEL\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Suche - DER SPIEGEL\"",
-                  "offset": 13
-                }
-              ],
-              "location": "steps.HelperSteps.i_go_back_to(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 173000000,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "I filter results by \"Letztes Jahr\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Letztes Jahr\"",
-                  "offset": 20
-                }
-              ],
-              "location": "steps.SearchPageSteps.i_filter_results_by(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 121000000,
-              "status": "passed"
-            },
-            "line": 23,
-            "name": "I filter results by \"seit 2005\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"seit 2005\"",
-                  "offset": 20
-                }
-              ],
-              "location": "steps.SearchPageSteps.i_filter_results_by(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@spiegelLeftMenuNavigation"
-          },
-          {
-            "name": "@search"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 12466000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I start Spiegel",
-            "match": {
-              "location": "steps.MenuSteps.i_start_Spiegel()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1053000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "I click Akzeptieren und weiter",
-            "match": {
-              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 170000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I click TopMenuButton",
-            "match": {
-              "location": "steps.MenuSteps.i_click_top_menu_button()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-12-03T07:46:18.198Z",
-        "before": [
-          {
-            "result": {
+              "duration": 8136000000,
               "status": "passed"
             },
             "match": {
@@ -498,36 +91,46 @@
           }
         ],
         "line": 28,
-        "name": "search",
+        "name": "LeftMenuSearch",
         "description": "",
-        "id": "spiegel-left-menu-navigation;search;;4",
+        "id": "spiegel-left-menu-navigation;leftmenusearch;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 1714000000,
+              "duration": 6223000000,
               "status": "passed"
             },
-            "line": 16,
-            "name": "I enter Thaler Richard and press enter",
+            "line": 18,
+            "name": "I enter Barack Obama and press enter",
             "match": {
               "arguments": [
                 {
-                  "val": "Thaler Richard",
+                  "val": "Barack Obama",
                   "offset": 8
                 }
               ],
               "location": "steps.MenuSteps.i_enter_search_word_and_press_enter(java.lang.String)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 699000000,
+              "duration": 2427000000,
               "status": "passed"
             },
-            "line": 17,
+            "line": 19,
             "name": "I click weiter 3",
             "match": {
               "arguments": [
@@ -538,14 +141,25 @@
               ],
               "location": "steps.SearchPageSteps.i_click_weiter(int)"
             },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 54000000,
+              "duration": 712000000,
               "status": "passed"
             },
-            "line": 18,
+            "line": 20,
             "name": "I click zurück 1",
             "match": {
               "arguments": [
@@ -556,14 +170,24 @@
               ],
               "location": "steps.SearchPageSteps.i_click_zurück(int)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 17041000000,
+              "duration": 7449000000,
               "status": "passed"
             },
-            "line": 19,
+            "line": 21,
             "name": "I click a \"random\" article on search results page",
             "match": {
               "arguments": [
@@ -574,14 +198,24 @@
               ],
               "location": "steps.SearchPageSteps.i_click_a_article_on_search_results_page(java.lang.String)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 451000000,
+              "duration": 153000000,
               "status": "passed"
             },
-            "line": 20,
+            "line": 22,
             "name": "I click page down 3",
             "match": {
               "arguments": [
@@ -592,14 +226,24 @@
               ],
               "location": "steps.HelperSteps.i_click_page_down(int)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 3854000000,
+              "duration": 4956000000,
               "status": "passed"
             },
-            "line": 21,
+            "line": 23,
             "name": "I go back to \"Suche - DER SPIEGEL\"",
             "match": {
               "arguments": [
@@ -610,14 +254,24 @@
               ],
               "location": "steps.HelperSteps.i_go_back_to(java.lang.String)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 275000000,
+              "duration": 904000000,
               "status": "passed"
             },
-            "line": 22,
+            "line": 24,
             "name": "I filter results by \"Letztes Jahr\"",
             "match": {
               "arguments": [
@@ -628,14 +282,24 @@
               ],
               "location": "steps.SearchPageSteps.i_filter_results_by(java.lang.String)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 133000000,
+              "duration": 758000000,
               "status": "passed"
             },
-            "line": 23,
+            "line": 25,
             "name": "I filter results by \"seit 2005\"",
             "match": {
               "arguments": [
@@ -646,6 +310,16 @@
               ],
               "location": "steps.SearchPageSteps.i_filter_results_by(java.lang.String)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           }
         ],
@@ -654,12 +328,15 @@
             "name": "@spiegelLeftMenuNavigation"
           },
           {
+            "name": "@start"
+          },
+          {
             "name": "@search"
           }
         ]
       },
       {
-        "line": 4,
+        "line": 5,
         "name": "",
         "description": "",
         "type": "background",
@@ -667,44 +344,75 @@
         "steps": [
           {
             "result": {
-              "duration": 11768000000,
+              "duration": 19402000000,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "I start Spiegel",
             "match": {
               "location": "steps.MenuSteps.i_start_Spiegel()"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1054000000,
+              "duration": 5240000000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "I click Akzeptieren und weiter",
             "match": {
               "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 156000000,
+              "duration": 508000000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "I click TopMenuButton",
             "match": {
               "location": "steps.MenuSteps.i_click_top_menu_button()"
             },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "And "
           }
         ]
       },
       {
-        "start_timestamp": "2020-12-03T07:46:56.116Z",
+        "start_timestamp": "2020-12-13T12:42:58.532Z",
         "before": [
           {
             "result": {
@@ -717,36 +425,46 @@
           }
         ],
         "line": 29,
-        "name": "search",
+        "name": "LeftMenuSearch",
         "description": "",
-        "id": "spiegel-left-menu-navigation;search;;5",
+        "id": "spiegel-left-menu-navigation;leftmenusearch;;3",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 2245000000,
+              "duration": 2754000000,
               "status": "passed"
             },
-            "line": 16,
-            "name": "I enter Kahneman Daniel and press enter",
+            "line": 18,
+            "name": "I enter Lebron James and press enter",
             "match": {
               "arguments": [
                 {
-                  "val": "Kahneman Daniel",
+                  "val": "Lebron James",
                   "offset": 8
                 }
               ],
               "location": "steps.MenuSteps.i_enter_search_word_and_press_enter(java.lang.String)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 573000000,
+              "duration": 2919000000,
               "status": "passed"
             },
-            "line": 17,
+            "line": 19,
             "name": "I click weiter 3",
             "match": {
               "arguments": [
@@ -757,14 +475,25 @@
               ],
               "location": "steps.SearchPageSteps.i_click_weiter(int)"
             },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 919000000,
+              "duration": 825000000,
               "status": "passed"
             },
-            "line": 18,
+            "line": 20,
             "name": "I click zurück 1",
             "match": {
               "arguments": [
@@ -775,14 +504,24 @@
               ],
               "location": "steps.SearchPageSteps.i_click_zurück(int)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 3252000000,
+              "duration": 8584000000,
               "status": "passed"
             },
-            "line": 19,
+            "line": 21,
             "name": "I click a \"random\" article on search results page",
             "match": {
               "arguments": [
@@ -793,14 +532,24 @@
               ],
               "location": "steps.SearchPageSteps.i_click_a_article_on_search_results_page(java.lang.String)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 41000000,
+              "duration": 902000000,
               "status": "passed"
             },
-            "line": 20,
+            "line": 22,
             "name": "I click page down 3",
             "match": {
               "arguments": [
@@ -811,14 +560,24 @@
               ],
               "location": "steps.HelperSteps.i_click_page_down(int)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 6053000000,
+              "duration": 4138000000,
               "status": "passed"
             },
-            "line": 21,
+            "line": 23,
             "name": "I go back to \"Suche - DER SPIEGEL\"",
             "match": {
               "arguments": [
@@ -829,14 +588,24 @@
               ],
               "location": "steps.HelperSteps.i_go_back_to(java.lang.String)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 158000000,
+              "duration": 857000000,
               "status": "passed"
             },
-            "line": 22,
+            "line": 24,
             "name": "I filter results by \"Letztes Jahr\"",
             "match": {
               "arguments": [
@@ -847,14 +616,24 @@
               ],
               "location": "steps.SearchPageSteps.i_filter_results_by(java.lang.String)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 130000000,
+              "duration": 855000000,
               "status": "passed"
             },
-            "line": 23,
+            "line": 25,
             "name": "I filter results by \"seit 2005\"",
             "match": {
               "arguments": [
@@ -865,6 +644,16 @@
               ],
               "location": "steps.SearchPageSteps.i_filter_results_by(java.lang.String)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           }
         ],
@@ -873,12 +662,15 @@
             "name": "@spiegelLeftMenuNavigation"
           },
           {
+            "name": "@start"
+          },
+          {
             "name": "@search"
           }
         ]
       },
       {
-        "line": 4,
+        "line": 5,
         "name": "",
         "description": "",
         "type": "background",
@@ -886,47 +678,79 @@
         "steps": [
           {
             "result": {
-              "duration": 11512000000,
+              "duration": 19085000000,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "I start Spiegel",
             "match": {
               "location": "steps.MenuSteps.i_start_Spiegel()"
             },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1029000000,
+              "duration": 5224000000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "I click Akzeptieren und weiter",
             "match": {
               "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 159000000,
+              "duration": 459000000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "I click TopMenuButton",
             "match": {
               "location": "steps.MenuSteps.i_click_top_menu_button()"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "And "
           }
         ]
       },
       {
-        "start_timestamp": "2020-12-03T07:47:22.477Z",
+        "start_timestamp": "2020-12-13T12:43:45.553Z",
         "before": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -935,36 +759,46 @@
           }
         ],
         "line": 30,
-        "name": "search",
+        "name": "LeftMenuSearch",
         "description": "",
-        "id": "spiegel-left-menu-navigation;search;;6",
+        "id": "spiegel-left-menu-navigation;leftmenusearch;;4",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 2979000000,
+              "duration": 6009000000,
               "status": "passed"
             },
-            "line": 16,
-            "name": "I enter Fama Eugene and press enter",
+            "line": 18,
+            "name": "I enter Thaler Richard and press enter",
             "match": {
               "arguments": [
                 {
-                  "val": "Fama Eugene",
+                  "val": "Thaler Richard",
                   "offset": 8
                 }
               ],
               "location": "steps.MenuSteps.i_enter_search_word_and_press_enter(java.lang.String)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 556000000,
+              "duration": 1302000000,
               "status": "passed"
             },
-            "line": 17,
+            "line": 19,
             "name": "I click weiter 3",
             "match": {
               "arguments": [
@@ -975,14 +809,24 @@
               ],
               "location": "steps.SearchPageSteps.i_click_weiter(int)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 60000000,
+              "duration": 671000000,
               "status": "passed"
             },
-            "line": 18,
+            "line": 20,
             "name": "I click zurück 1",
             "match": {
               "arguments": [
@@ -993,14 +837,24 @@
               ],
               "location": "steps.SearchPageSteps.i_click_zurück(int)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 2786000000,
+              "duration": 9551000000,
               "status": "passed"
             },
-            "line": 19,
+            "line": 21,
             "name": "I click a \"random\" article on search results page",
             "match": {
               "arguments": [
@@ -1011,14 +865,25 @@
               ],
               "location": "steps.SearchPageSteps.i_click_a_article_on_search_results_page(java.lang.String)"
             },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 31000000,
+              "duration": 118000000,
               "status": "passed"
             },
-            "line": 20,
+            "line": 22,
             "name": "I click page down 3",
             "match": {
               "arguments": [
@@ -1029,14 +894,24 @@
               ],
               "location": "steps.HelperSteps.i_click_page_down(int)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 3557000000,
+              "duration": 3886000000,
               "status": "passed"
             },
-            "line": 21,
+            "line": 23,
             "name": "I go back to \"Suche - DER SPIEGEL\"",
             "match": {
               "arguments": [
@@ -1047,14 +922,24 @@
               ],
               "location": "steps.HelperSteps.i_go_back_to(java.lang.String)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 121000000,
+              "duration": 587000000,
               "status": "passed"
             },
-            "line": 22,
+            "line": 24,
             "name": "I filter results by \"Letztes Jahr\"",
             "match": {
               "arguments": [
@@ -1065,14 +950,24 @@
               ],
               "location": "steps.SearchPageSteps.i_filter_results_by(java.lang.String)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 119000000,
+              "duration": 772000000,
               "status": "passed"
             },
-            "line": 23,
+            "line": 25,
             "name": "I filter results by \"seit 2005\"",
             "match": {
               "arguments": [
@@ -1083,6 +978,16 @@
               ],
               "location": "steps.SearchPageSteps.i_filter_results_by(java.lang.String)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           }
         ],
@@ -1091,12 +996,15 @@
             "name": "@spiegelLeftMenuNavigation"
           },
           {
+            "name": "@start"
+          },
+          {
             "name": "@search"
           }
         ]
       },
       {
-        "line": 4,
+        "line": 5,
         "name": "",
         "description": "",
         "type": "background",
@@ -1104,44 +1012,75 @@
         "steps": [
           {
             "result": {
-              "duration": 12348000000,
+              "duration": 19080000000,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "I start Spiegel",
             "match": {
               "location": "steps.MenuSteps.i_start_Spiegel()"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1061000000,
+              "duration": 5404000000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "I click Akzeptieren und weiter",
             "match": {
               "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 204000000,
+              "duration": 992000000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "I click TopMenuButton",
             "match": {
               "location": "steps.MenuSteps.i_click_top_menu_button()"
             },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "And "
           }
         ]
       },
       {
-        "start_timestamp": "2020-12-03T07:47:45.398Z",
+        "start_timestamp": "2020-12-13T12:44:33.240Z",
         "before": [
           {
             "result": {
@@ -1154,36 +1093,46 @@
           }
         ],
         "line": 31,
-        "name": "search",
+        "name": "LeftMenuSearch",
         "description": "",
-        "id": "spiegel-left-menu-navigation;search;;7",
+        "id": "spiegel-left-menu-navigation;leftmenusearch;;5",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 2080000000,
+              "duration": 5272000000,
               "status": "passed"
             },
-            "line": 16,
-            "name": "I enter Angela Merkel and press enter",
+            "line": 18,
+            "name": "I enter Kahneman Daniel and press enter",
             "match": {
               "arguments": [
                 {
-                  "val": "Angela Merkel",
+                  "val": "Kahneman Daniel",
                   "offset": 8
                 }
               ],
               "location": "steps.MenuSteps.i_enter_search_word_and_press_enter(java.lang.String)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 567000000,
+              "duration": 3859000000,
               "status": "passed"
             },
-            "line": 17,
+            "line": 19,
             "name": "I click weiter 3",
             "match": {
               "arguments": [
@@ -1194,14 +1143,24 @@
               ],
               "location": "steps.SearchPageSteps.i_click_weiter(int)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 387000000,
+              "duration": 665000000,
               "status": "passed"
             },
-            "line": 18,
+            "line": 20,
             "name": "I click zurück 1",
             "match": {
               "arguments": [
@@ -1212,14 +1171,24 @@
               ],
               "location": "steps.SearchPageSteps.i_click_zurück(int)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 10153000000,
+              "duration": 676000000,
               "status": "passed"
             },
-            "line": 19,
+            "line": 21,
             "name": "I click a \"random\" article on search results page",
             "match": {
               "arguments": [
@@ -1230,14 +1199,25 @@
               ],
               "location": "steps.SearchPageSteps.i_click_a_article_on_search_results_page(java.lang.String)"
             },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 103000000,
+              "duration": 234000000,
               "status": "passed"
             },
-            "line": 20,
+            "line": 22,
             "name": "I click page down 3",
             "match": {
               "arguments": [
@@ -1248,14 +1228,24 @@
               ],
               "location": "steps.HelperSteps.i_click_page_down(int)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 3797000000,
+              "duration": 3677000000,
               "status": "passed"
             },
-            "line": 21,
+            "line": 23,
             "name": "I go back to \"Suche - DER SPIEGEL\"",
             "match": {
               "arguments": [
@@ -1266,14 +1256,25 @@
               ],
               "location": "steps.HelperSteps.i_go_back_to(java.lang.String)"
             },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 175000000,
+              "duration": 810000000,
               "status": "passed"
             },
-            "line": 22,
+            "line": 24,
             "name": "I filter results by \"Letztes Jahr\"",
             "match": {
               "arguments": [
@@ -1284,14 +1285,24 @@
               ],
               "location": "steps.SearchPageSteps.i_filter_results_by(java.lang.String)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 118000000,
+              "duration": 761000000,
               "status": "passed"
             },
-            "line": 23,
+            "line": 25,
             "name": "I filter results by \"seit 2005\"",
             "match": {
               "arguments": [
@@ -1302,6 +1313,16 @@
               ],
               "location": "steps.SearchPageSteps.i_filter_results_by(java.lang.String)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           }
         ],
@@ -1310,12 +1331,15 @@
             "name": "@spiegelLeftMenuNavigation"
           },
           {
+            "name": "@start"
+          },
+          {
             "name": "@search"
           }
         ]
       },
       {
-        "line": 4,
+        "line": 5,
         "name": "",
         "description": "",
         "type": "background",
@@ -1323,47 +1347,78 @@
         "steps": [
           {
             "result": {
-              "duration": 12047000000,
+              "duration": 20186000000,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "I start Spiegel",
             "match": {
               "location": "steps.MenuSteps.i_start_Spiegel()"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1067000000,
+              "duration": 5203000000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "I click Akzeptieren und weiter",
             "match": {
               "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 165000000,
+              "duration": 411000000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "I click TopMenuButton",
             "match": {
               "location": "steps.MenuSteps.i_click_top_menu_button()"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "And "
           }
         ]
       },
       {
-        "start_timestamp": "2020-12-03T07:48:16.401Z",
+        "start_timestamp": "2020-12-13T12:45:14.691Z",
         "before": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -1371,7 +1426,328 @@
             }
           }
         ],
-        "line": 47,
+        "line": 32,
+        "name": "LeftMenuSearch",
+        "description": "",
+        "id": "spiegel-left-menu-navigation;leftmenusearch;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5697000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter Angela Merkel and press enter",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Angela Merkel",
+                  "offset": 8
+                }
+              ],
+              "location": "steps.MenuSteps.i_enter_search_word_and_press_enter(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1893000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click weiter 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 15
+                }
+              ],
+              "location": "steps.SearchPageSteps.i_click_weiter(int)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 733000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click zurück 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 15
+                }
+              ],
+              "location": "steps.SearchPageSteps.i_click_zurück(int)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.Exception: Error\nBuild info: version: \u00274.0.0-alpha-7\u0027, revision: \u0027de8579b6d5\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: driver.version: unknown\r\n\tat steps.SearchPageSteps.i_click_a_article_on_search_results_page(SearchPageSteps.java:56)\r\n\tat ✽.I click a \"random\" article on search results page(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:21)\r\n",
+              "duration": 3321000000,
+              "status": "failed"
+            },
+            "line": 21,
+            "name": "I click a \"random\" article on search results page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"random\"",
+                  "offset": 10
+                }
+              ],
+              "location": "steps.SearchPageSteps.i_click_a_article_on_search_results_page(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 544000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "I click page down 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_page_down(int)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "I go back to \"Suche - DER SPIEGEL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Suche - DER SPIEGEL\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HelperSteps.i_go_back_to(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "I filter results by \"Letztes Jahr\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Letztes Jahr\"",
+                  "offset": 20
+                }
+              ],
+              "location": "steps.SearchPageSteps.i_filter_results_by(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "I filter results by \"seit 2005\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"seit 2005\"",
+                  "offset": 20
+                }
+              ],
+              "location": "steps.SearchPageSteps.i_filter_results_by(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@spiegelLeftMenuNavigation"
+          },
+          {
+            "name": "@start"
+          },
+          {
+            "name": "@search"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 19499000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I start Spiegel",
+            "match": {
+              "location": "steps.MenuSteps.i_start_Spiegel()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5247000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click Akzeptieren und weiter",
+            "match": {
+              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 329000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click TopMenuButton",
+            "match": {
+              "location": "steps.MenuSteps.i_click_top_menu_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-13T12:45:52.706Z",
+        "line": 46,
         "name": "Leftmenu",
         "description": "",
         "id": "spiegel-left-menu-navigation;leftmenu;;2",
@@ -1380,11 +1756,10 @@
         "steps": [
           {
             "result": {
-              "error_message": "java.lang.Exception: Error\nBuild info: version: \u00274.0.0-alpha-7\u0027, revision: \u0027de8579b6d5\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: driver.version: unknown\r\n\tat steps.MenuSteps.i_click_leftMenu(MenuSteps.java:114)\r\n\tat ✽.I click leftMenu Job \u0026 Karriere(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:41)\r\n",
-              "duration": 2898000000,
-              "status": "failed"
+              "duration": 3677000000,
+              "status": "passed"
             },
-            "line": 41,
+            "line": 40,
             "name": "I click leftMenu Job \u0026 Karriere",
             "match": {
               "arguments": [
@@ -1395,13 +1770,24 @@
               ],
               "location": "steps.MenuSteps.i_click_leftMenu(java.lang.String)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 15098000000,
+              "status": "passed"
             },
-            "line": 42,
+            "line": 41,
             "name": "I click a \"random\" article of alle Beitraege section",
             "match": {
               "arguments": [
@@ -1412,13 +1798,25 @@
               ],
               "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
             },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 554000000,
+              "status": "passed"
             },
-            "line": 43,
+            "line": 42,
             "name": "I click page down 3",
             "match": {
               "arguments": [
@@ -1429,6 +1827,16 @@
               ],
               "location": "steps.HelperSteps.i_click_page_down(int)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           }
         ],
@@ -1442,7 +1850,7 @@
         ]
       },
       {
-        "line": 4,
+        "line": 5,
         "name": "",
         "description": "",
         "type": "background",
@@ -1450,55 +1858,77 @@
         "steps": [
           {
             "result": {
-              "duration": 12328000000,
+              "duration": 17070000000,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "I start Spiegel",
             "match": {
               "location": "steps.MenuSteps.i_start_Spiegel()"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1055000000,
+              "duration": 5343000000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "I click Akzeptieren und weiter",
             "match": {
               "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
             },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 156000000,
+              "duration": 436000000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "I click TopMenuButton",
             "match": {
               "location": "steps.MenuSteps.i_click_top_menu_button()"
             },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "And "
           }
         ]
       },
       {
-        "start_timestamp": "2020-12-03T07:48:32.590Z",
-        "before": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.TestCaseBase.setup()"
-            }
-          }
-        ],
-        "line": 48,
+        "start_timestamp": "2020-12-13T12:46:37.127Z",
+        "line": 47,
         "name": "Leftmenu",
         "description": "",
         "id": "spiegel-left-menu-navigation;leftmenu;;3",
@@ -1507,11 +1937,10 @@
         "steps": [
           {
             "result": {
-              "error_message": "java.lang.Exception: Error\nBuild info: version: \u00274.0.0-alpha-7\u0027, revision: \u0027de8579b6d5\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: driver.version: unknown\r\n\tat steps.MenuSteps.i_click_leftMenu(MenuSteps.java:114)\r\n\tat ✽.I click leftMenu Start(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:41)\r\n",
-              "duration": 2137000000,
-              "status": "failed"
+              "duration": 18209000000,
+              "status": "passed"
             },
-            "line": 41,
+            "line": 40,
             "name": "I click leftMenu Start",
             "match": {
               "arguments": [
@@ -1522,13 +1951,25 @@
               ],
               "location": "steps.MenuSteps.i_click_leftMenu(java.lang.String)"
             },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 12192000000,
+              "status": "passed"
             },
-            "line": 42,
+            "line": 41,
             "name": "I click a \"random\" article of alle Beitraege section",
             "match": {
               "arguments": [
@@ -1539,13 +1980,24 @@
               ],
               "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 516000000,
+              "status": "passed"
             },
-            "line": 43,
+            "line": 42,
             "name": "I click page down 3",
             "match": {
               "arguments": [
@@ -1556,6 +2008,16 @@
               ],
               "location": "steps.HelperSteps.i_click_page_down(int)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           }
         ],
@@ -1569,7 +2031,7 @@
         ]
       },
       {
-        "line": 4,
+        "line": 5,
         "name": "",
         "description": "",
         "type": "background",
@@ -1577,55 +2039,75 @@
         "steps": [
           {
             "result": {
-              "duration": 11024000000,
+              "duration": 19908000000,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "I start Spiegel",
             "match": {
               "location": "steps.MenuSteps.i_start_Spiegel()"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1035000000,
+              "duration": 5328000000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "I click Akzeptieren und weiter",
             "match": {
               "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 144000000,
+              "duration": 469000000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "I click TopMenuButton",
             "match": {
               "location": "steps.MenuSteps.i_click_top_menu_button()"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "And "
           }
         ]
       },
       {
-        "start_timestamp": "2020-12-03T07:48:48.272Z",
-        "before": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.TestCaseBase.setup()"
-            }
-          }
-        ],
-        "line": 49,
+        "start_timestamp": "2020-12-13T12:47:30.917Z",
+        "line": 48,
         "name": "Leftmenu",
         "description": "",
         "id": "spiegel-left-menu-navigation;leftmenu;;4",
@@ -1634,10 +2116,10 @@
         "steps": [
           {
             "result": {
-              "duration": 2514000000,
+              "duration": 2979000000,
               "status": "passed"
             },
-            "line": 41,
+            "line": 40,
             "name": "I click leftMenu Coronavirus",
             "match": {
               "arguments": [
@@ -1648,14 +2130,24 @@
               ],
               "location": "steps.MenuSteps.i_click_leftMenu(java.lang.String)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 6264000000,
+              "duration": 12946000000,
               "status": "passed"
             },
-            "line": 42,
+            "line": 41,
             "name": "I click a \"random\" article of alle Beitraege section",
             "match": {
               "arguments": [
@@ -1666,14 +2158,25 @@
               ],
               "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
             },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 27000000,
+              "duration": 268000000,
               "status": "passed"
             },
-            "line": 43,
+            "line": 42,
             "name": "I click page down 3",
             "match": {
               "arguments": [
@@ -1684,6 +2187,16 @@
               ],
               "location": "steps.HelperSteps.i_click_page_down(int)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           }
         ],
@@ -1697,7 +2210,7 @@
         ]
       },
       {
-        "line": 4,
+        "line": 5,
         "name": "",
         "description": "",
         "type": "background",
@@ -1705,56 +2218,75 @@
         "steps": [
           {
             "result": {
-              "duration": 11249000000,
+              "duration": 17993000000,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "I start Spiegel",
             "match": {
               "location": "steps.MenuSteps.i_start_Spiegel()"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1049000000,
+              "duration": 5327000000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "I click Akzeptieren und weiter",
             "match": {
               "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 157000000,
+              "duration": 460000000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "I click TopMenuButton",
             "match": {
               "location": "steps.MenuSteps.i_click_top_menu_button()"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "And "
           }
         ]
       },
       {
-        "start_timestamp": "2020-12-03T07:49:09.288Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.TestCaseBase.setup()"
-            }
-          }
-        ],
-        "line": 50,
+        "start_timestamp": "2020-12-13T12:48:12.836Z",
+        "line": 49,
         "name": "Leftmenu",
         "description": "",
         "id": "spiegel-left-menu-navigation;leftmenu;;5",
@@ -1763,10 +2295,10 @@
         "steps": [
           {
             "result": {
-              "duration": 3314000000,
+              "duration": 3095000000,
               "status": "passed"
             },
-            "line": 41,
+            "line": 40,
             "name": "I click leftMenu Meinung",
             "match": {
               "arguments": [
@@ -1777,14 +2309,24 @@
               ],
               "location": "steps.MenuSteps.i_click_leftMenu(java.lang.String)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 5254000000,
+              "duration": 9020000000,
               "status": "passed"
             },
-            "line": 42,
+            "line": 41,
             "name": "I click a \"random\" article of alle Beitraege section",
             "match": {
               "arguments": [
@@ -1795,14 +2337,24 @@
               ],
               "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 15000000,
+              "duration": 289000000,
               "status": "passed"
             },
-            "line": 43,
+            "line": 42,
             "name": "I click page down 3",
             "match": {
               "arguments": [
@@ -1813,6 +2365,16 @@
               ],
               "location": "steps.HelperSteps.i_click_page_down(int)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           }
         ],
@@ -1826,7 +2388,7 @@
         ]
       },
       {
-        "line": 4,
+        "line": 5,
         "name": "",
         "description": "",
         "type": "background",
@@ -1834,55 +2396,75 @@
         "steps": [
           {
             "result": {
-              "duration": 9398000000,
+              "duration": 17249000000,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "I start Spiegel",
             "match": {
               "location": "steps.MenuSteps.i_start_Spiegel()"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1048000000,
+              "duration": 5300000000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "I click Akzeptieren und weiter",
             "match": {
               "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 150000000,
+              "duration": 396000000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "I click TopMenuButton",
             "match": {
               "location": "steps.MenuSteps.i_click_top_menu_button()"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "And "
           }
         ]
       },
       {
-        "start_timestamp": "2020-12-03T07:49:30.338Z",
-        "before": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.TestCaseBase.setup()"
-            }
-          }
-        ],
-        "line": 51,
+        "start_timestamp": "2020-12-13T12:48:49.038Z",
+        "line": 50,
         "name": "Leftmenu",
         "description": "",
         "id": "spiegel-left-menu-navigation;leftmenu;;6",
@@ -1891,11 +2473,10 @@
         "steps": [
           {
             "result": {
-              "error_message": "java.lang.Exception: Error\nBuild info: version: \u00274.0.0-alpha-7\u0027, revision: \u0027de8579b6d5\u0027\nSystem info: host: \u0027LAPTOP-RN5VIIS5\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_172\u0027\nDriver info: driver.version: unknown\r\n\tat steps.MenuSteps.i_click_leftMenu(MenuSteps.java:114)\r\n\tat ✽.I click leftMenu Backstage(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:41)\r\n",
-              "duration": 2175000000,
-              "status": "failed"
+              "duration": 3002000000,
+              "status": "passed"
             },
-            "line": 41,
+            "line": 40,
             "name": "I click leftMenu Backstage",
             "match": {
               "arguments": [
@@ -1906,13 +2487,24 @@
               ],
               "location": "steps.MenuSteps.i_click_leftMenu(java.lang.String)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 8970000000,
+              "status": "passed"
             },
-            "line": 42,
+            "line": 41,
             "name": "I click a \"random\" article of alle Beitraege section",
             "match": {
               "arguments": [
@@ -1923,13 +2515,25 @@
               ],
               "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
             },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 34000000,
+              "status": "passed"
             },
-            "line": 43,
+            "line": 42,
             "name": "I click page down 3",
             "match": {
               "arguments": [
@@ -1940,6 +2544,16 @@
               ],
               "location": "steps.HelperSteps.i_click_page_down(int)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           }
         ],
@@ -1953,7 +2567,7 @@
         ]
       },
       {
-        "line": 4,
+        "line": 5,
         "name": "",
         "description": "",
         "type": "background",
@@ -1961,56 +2575,75 @@
         "steps": [
           {
             "result": {
-              "duration": 11000000000,
+              "duration": 16920000000,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "I start Spiegel",
             "match": {
               "location": "steps.MenuSteps.i_start_Spiegel()"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1053000000,
+              "duration": 5300000000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "I click Akzeptieren und weiter",
             "match": {
               "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 144000000,
+              "duration": 371000000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "I click TopMenuButton",
             "match": {
               "location": "steps.MenuSteps.i_click_top_menu_button()"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "And "
           }
         ]
       },
       {
-        "start_timestamp": "2020-12-03T07:49:43.117Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.TestCaseBase.setup()"
-            }
-          }
-        ],
-        "line": 65,
+        "start_timestamp": "2020-12-13T12:49:24.005Z",
+        "line": 66,
         "name": "Left Submenu",
         "description": "",
         "id": "spiegel-left-menu-navigation;left-submenu;;2",
@@ -2019,143 +2652,10 @@
         "steps": [
           {
             "result": {
-              "duration": 3753000000,
-              "status": "passed"
-            },
-            "line": 59,
-            "name": "I click leftSubMenu Bundestag in Politik",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Bundestag",
-                  "offset": 20
-                },
-                {
-                  "val": "Politik",
-                  "offset": 33
-                }
-              ],
-              "location": "steps.MenuSteps.i_click_leftSubMenu(java.lang.String,java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 8477000000,
+              "duration": 5408000000,
               "status": "passed"
             },
             "line": 60,
-            "name": "I click a \"random\" article of alle Beitraege section",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"random\"",
-                  "offset": 10
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 67000000,
-              "status": "passed"
-            },
-            "line": 61,
-            "name": "I click page down 3",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3",
-                  "offset": 18
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_page_down(int)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@spiegelLeftMenuNavigation"
-          },
-          {
-            "name": "@leftSubmenu"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 13838000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I start Spiegel",
-            "match": {
-              "location": "steps.MenuSteps.i_start_Spiegel()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1037000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "I click Akzeptieren und weiter",
-            "match": {
-              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 165000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I click TopMenuButton",
-            "match": {
-              "location": "steps.MenuSteps.i_click_top_menu_button()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-12-03T07:50:07.619Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.TestCaseBase.setup()"
-            }
-          }
-        ],
-        "line": 66,
-        "name": "Left Submenu",
-        "description": "",
-        "id": "spiegel-left-menu-navigation;left-submenu;;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 4519000000,
-              "status": "passed"
-            },
-            "line": 59,
             "name": "I click leftSubMenu Bundesregierung in Politik",
             "match": {
               "arguments": [
@@ -2170,14 +2670,24 @@
               ],
               "location": "steps.MenuSteps.i_click_leftSubMenu(java.lang.String,java.lang.String)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 3600000000,
+              "duration": 11986000000,
               "status": "passed"
             },
-            "line": 60,
+            "line": 61,
             "name": "I click a \"random\" article of alle Beitraege section",
             "match": {
               "arguments": [
@@ -2188,14 +2698,24 @@
               ],
               "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 65000000,
+              "duration": 270000000,
               "status": "passed"
             },
-            "line": 61,
+            "line": 62,
             "name": "I click page down 3",
             "match": {
               "arguments": [
@@ -2206,6 +2726,16 @@
               ],
               "location": "steps.HelperSteps.i_click_page_down(int)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           }
         ],
@@ -2219,7 +2749,7 @@
         ]
       },
       {
-        "line": 4,
+        "line": 5,
         "name": "",
         "description": "",
         "type": "background",
@@ -2227,67 +2757,87 @@
         "steps": [
           {
             "result": {
-              "duration": 12868000000,
+              "duration": 17504000000,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "I start Spiegel",
             "match": {
               "location": "steps.MenuSteps.i_start_Spiegel()"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1055000000,
+              "duration": 5189000000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "I click Akzeptieren und weiter",
             "match": {
               "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1031000000,
+              "duration": 454000000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "I click TopMenuButton",
             "match": {
               "location": "steps.MenuSteps.i_click_top_menu_button()"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "And "
           }
         ]
       },
       {
-        "start_timestamp": "2020-12-03T07:50:30.851Z",
-        "before": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.TestCaseBase.setup()"
-            }
-          }
-        ],
+        "start_timestamp": "2020-12-13T12:50:04.278Z",
         "line": 67,
         "name": "Left Submenu",
         "description": "",
-        "id": "spiegel-left-menu-navigation;left-submenu;;4",
+        "id": "spiegel-left-menu-navigation;left-submenu;;3",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 3678000000,
+              "duration": 5234000000,
               "status": "passed"
             },
-            "line": 59,
+            "line": 60,
             "name": "I click leftSubMenu Afrika in Ausland",
             "match": {
               "arguments": [
@@ -2302,14 +2852,25 @@
               ],
               "location": "steps.MenuSteps.i_click_leftSubMenu(java.lang.String,java.lang.String)"
             },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 12213000000,
+              "duration": 13183000000,
               "status": "passed"
             },
-            "line": 60,
+            "line": 61,
             "name": "I click a \"random\" article of alle Beitraege section",
             "match": {
               "arguments": [
@@ -2320,14 +2881,24 @@
               ],
               "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 20000000,
+              "duration": 663000000,
               "status": "passed"
             },
-            "line": 61,
+            "line": 62,
             "name": "I click page down 3",
             "match": {
               "arguments": [
@@ -2338,6 +2909,17 @@
               ],
               "location": "steps.HelperSteps.i_click_page_down(int)"
             },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           }
         ],
@@ -2351,7 +2933,7 @@
         ]
       },
       {
-        "line": 4,
+        "line": 5,
         "name": "",
         "description": "",
         "type": "background",
@@ -2359,200 +2941,87 @@
         "steps": [
           {
             "result": {
-              "duration": 13014000000,
+              "duration": 19240000000,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "I start Spiegel",
             "match": {
               "location": "steps.MenuSteps.i_start_Spiegel()"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1051000000,
+              "duration": 5204000000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "I click Akzeptieren und weiter",
             "match": {
               "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 164000000,
+              "duration": 406000000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "I click TopMenuButton",
             "match": {
               "location": "steps.MenuSteps.i_click_top_menu_button()"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "And "
           }
         ]
       },
       {
-        "start_timestamp": "2020-12-03T07:51:01.722Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.TestCaseBase.setup()"
-            }
-          }
-        ],
+        "start_timestamp": "2020-12-13T12:50:46.524Z",
         "line": 68,
         "name": "Left Submenu",
         "description": "",
-        "id": "spiegel-left-menu-navigation;left-submenu;;5",
+        "id": "spiegel-left-menu-navigation;left-submenu;;4",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 3682000000,
-              "status": "passed"
-            },
-            "line": 59,
-            "name": "I click leftSubMenu Nahost in Ausland",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Nahost",
-                  "offset": 20
-                },
-                {
-                  "val": "Ausland",
-                  "offset": 30
-                }
-              ],
-              "location": "steps.MenuSteps.i_click_leftSubMenu(java.lang.String,java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 6085000000,
+              "duration": 5503000000,
               "status": "passed"
             },
             "line": 60,
-            "name": "I click a \"random\" article of alle Beitraege section",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"random\"",
-                  "offset": 10
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 21000000,
-              "status": "passed"
-            },
-            "line": 61,
-            "name": "I click page down 3",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3",
-                  "offset": 18
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_page_down(int)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@spiegelLeftMenuNavigation"
-          },
-          {
-            "name": "@leftSubmenu"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 9465000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I start Spiegel",
-            "match": {
-              "location": "steps.MenuSteps.i_start_Spiegel()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1035000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "I click Akzeptieren und weiter",
-            "match": {
-              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 155000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I click TopMenuButton",
-            "match": {
-              "location": "steps.MenuSteps.i_click_top_menu_button()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-12-03T07:51:25.746Z",
-        "before": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.TestCaseBase.setup()"
-            }
-          }
-        ],
-        "line": 69,
-        "name": "Left Submenu",
-        "description": "",
-        "id": "spiegel-left-menu-navigation;left-submenu;;6",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 3686000000,
-              "status": "passed"
-            },
-            "line": 59,
             "name": "I click leftSubMenu Leute in Panorama",
             "match": {
               "arguments": [
@@ -2567,146 +3036,24 @@
               ],
               "location": "steps.MenuSteps.i_click_leftSubMenu(java.lang.String,java.lang.String)"
             },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 8477000000,
-              "status": "passed"
-            },
-            "line": 60,
-            "name": "I click a \"random\" article of alle Beitraege section",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"random\"",
-                  "offset": 10
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 76000000,
-              "status": "passed"
-            },
-            "line": 61,
-            "name": "I click page down 3",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3",
-                  "offset": 18
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_page_down(int)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@spiegelLeftMenuNavigation"
-          },
-          {
-            "name": "@leftSubmenu"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 11262000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I start Spiegel",
-            "match": {
-              "location": "steps.MenuSteps.i_start_Spiegel()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1072000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "I click Akzeptieren und weiter",
-            "match": {
-              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 154000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I click TopMenuButton",
-            "match": {
-              "location": "steps.MenuSteps.i_click_top_menu_button()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-12-03T07:51:48.651Z",
-        "before": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.TestCaseBase.setup()"
-            }
-          }
-        ],
-        "line": 70,
-        "name": "Left Submenu",
-        "description": "",
-        "id": "spiegel-left-menu-navigation;left-submenu;;7",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 4904000000,
-              "status": "passed"
-            },
-            "line": 59,
-            "name": "I click leftSubMenu Gesellschaft in Panorama",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Gesellschaft",
-                  "offset": 20
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
                 },
-                {
-                  "val": "Panorama",
-                  "offset": 36
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
                 }
-              ],
-              "location": "steps.MenuSteps.i_click_leftSubMenu(java.lang.String,java.lang.String)"
-            },
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 5757000000,
+              "duration": 8876000000,
               "status": "passed"
             },
-            "line": 60,
+            "line": 61,
             "name": "I click a \"random\" article of alle Beitraege section",
             "match": {
               "arguments": [
@@ -2717,14 +3064,24 @@
               ],
               "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 73000000,
+              "duration": 218000000,
               "status": "passed"
             },
-            "line": 61,
+            "line": 62,
             "name": "I click page down 3",
             "match": {
               "arguments": [
@@ -2735,6 +3092,16 @@
               ],
               "location": "steps.HelperSteps.i_click_page_down(int)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           }
         ],
@@ -2748,7 +3115,7 @@
         ]
       },
       {
-        "line": 4,
+        "line": 5,
         "name": "",
         "description": "",
         "type": "background",
@@ -2756,68 +3123,87 @@
         "steps": [
           {
             "result": {
-              "duration": 12412000000,
+              "duration": 16985000000,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "I start Spiegel",
             "match": {
               "location": "steps.MenuSteps.i_start_Spiegel()"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1054000000,
+              "duration": 5294000000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "I click Akzeptieren und weiter",
             "match": {
               "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 158000000,
+              "duration": 382000000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "I click TopMenuButton",
             "match": {
               "location": "steps.MenuSteps.i_click_top_menu_button()"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "And "
           }
         ]
       },
       {
-        "start_timestamp": "2020-12-03T07:52:11.889Z",
-        "before": [
-          {
-            "result": {
-              "duration": 9000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.TestCaseBase.setup()"
-            }
-          }
-        ],
-        "line": 71,
+        "start_timestamp": "2020-12-13T12:51:25.990Z",
+        "line": 69,
         "name": "Left Submenu",
         "description": "",
-        "id": "spiegel-left-menu-navigation;left-submenu;;8",
+        "id": "spiegel-left-menu-navigation;left-submenu;;5",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 3667000000,
+              "duration": 5272000000,
               "status": "passed"
             },
-            "line": 59,
+            "line": 60,
             "name": "I click leftSubMenu Bildung in Panorama",
             "match": {
               "arguments": [
@@ -2832,14 +3218,24 @@
               ],
               "location": "steps.MenuSteps.i_click_leftSubMenu(java.lang.String,java.lang.String)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 6672000000,
+              "duration": 12725000000,
               "status": "passed"
             },
-            "line": 60,
+            "line": 61,
             "name": "I click a \"random\" article of alle Beitraege section",
             "match": {
               "arguments": [
@@ -2850,14 +3246,24 @@
               ],
               "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 21000000,
+              "duration": 253000000,
               "status": "passed"
             },
-            "line": 61,
+            "line": 62,
             "name": "I click page down 3",
             "match": {
               "arguments": [
@@ -2868,6 +3274,16 @@
               ],
               "location": "steps.HelperSteps.i_click_page_down(int)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           }
         ],
@@ -2881,7 +3297,7 @@
         ]
       },
       {
-        "line": 4,
+        "line": 5,
         "name": "",
         "description": "",
         "type": "background",
@@ -2889,67 +3305,87 @@
         "steps": [
           {
             "result": {
-              "duration": 11407000000,
+              "duration": 17792000000,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "I start Spiegel",
             "match": {
               "location": "steps.MenuSteps.i_start_Spiegel()"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1074000000,
+              "duration": 5251000000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "I click Akzeptieren und weiter",
             "match": {
               "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 146000000,
+              "duration": 442000000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "I click TopMenuButton",
             "match": {
               "location": "steps.MenuSteps.i_click_top_menu_button()"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "And "
           }
         ]
       },
       {
-        "start_timestamp": "2020-12-03T07:52:35.886Z",
-        "before": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.TestCaseBase.setup()"
-            }
-          }
-        ],
-        "line": 72,
+        "start_timestamp": "2020-12-13T12:52:06.915Z",
+        "line": 70,
         "name": "Left Submenu",
         "description": "",
-        "id": "spiegel-left-menu-navigation;left-submenu;;9",
+        "id": "spiegel-left-menu-navigation;left-submenu;;6",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 3805000000,
+              "duration": 6165000000,
               "status": "passed"
             },
-            "line": 59,
+            "line": 60,
             "name": "I click leftSubMenu Psychologie in Leben",
             "match": {
               "arguments": [
@@ -2964,146 +3400,24 @@
               ],
               "location": "steps.MenuSteps.i_click_leftSubMenu(java.lang.String,java.lang.String)"
             },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 11120000000,
-              "status": "passed"
-            },
-            "line": 60,
-            "name": "I click a \"random\" article of alle Beitraege section",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"random\"",
-                  "offset": 10
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 195000000,
-              "status": "passed"
-            },
-            "line": 61,
-            "name": "I click page down 3",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3",
-                  "offset": 18
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_page_down(int)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@spiegelLeftMenuNavigation"
-          },
-          {
-            "name": "@leftSubmenu"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 11805000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I start Spiegel",
-            "match": {
-              "location": "steps.MenuSteps.i_start_Spiegel()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1029000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "I click Akzeptieren und weiter",
-            "match": {
-              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 155000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I click TopMenuButton",
-            "match": {
-              "location": "steps.MenuSteps.i_click_top_menu_button()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-12-03T07:53:03.640Z",
-        "before": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.TestCaseBase.setup()"
-            }
-          }
-        ],
-        "line": 73,
-        "name": "Left Submenu",
-        "description": "",
-        "id": "spiegel-left-menu-navigation;left-submenu;;10",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 4223000000,
-              "status": "passed"
-            },
-            "line": 59,
-            "name": "I click leftSubMenu Familie in Leben",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Familie",
-                  "offset": 20
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
                 },
-                {
-                  "val": "Leben",
-                  "offset": 31
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
                 }
-              ],
-              "location": "steps.MenuSteps.i_click_leftSubMenu(java.lang.String,java.lang.String)"
-            },
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 5631000000,
+              "duration": 10952000000,
               "status": "passed"
             },
-            "line": 60,
+            "line": 61,
             "name": "I click a \"random\" article of alle Beitraege section",
             "match": {
               "arguments": [
@@ -3114,147 +3428,25 @@
               ],
               "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
             },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 23000000,
-              "status": "passed"
-            },
-            "line": 61,
-            "name": "I click page down 3",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3",
-                  "offset": 18
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_page_down(int)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@spiegelLeftMenuNavigation"
-          },
-          {
-            "name": "@leftSubmenu"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 11567000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I start Spiegel",
-            "match": {
-              "location": "steps.MenuSteps.i_start_Spiegel()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1031000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "I click Akzeptieren und weiter",
-            "match": {
-              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 143000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I click TopMenuButton",
-            "match": {
-              "location": "steps.MenuSteps.i_click_top_menu_button()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-12-03T07:53:26.513Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.TestCaseBase.setup()"
-            }
-          }
-        ],
-        "line": 74,
-        "name": "Left Submenu",
-        "description": "",
-        "id": "spiegel-left-menu-navigation;left-submenu;;11",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 3977000000,
-              "status": "passed"
-            },
-            "line": 59,
-            "name": "I click leftSubMenu Business in English",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Business",
-                  "offset": 20
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
                 },
-                {
-                  "val": "English",
-                  "offset": 32
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
                 }
-              ],
-              "location": "steps.MenuSteps.i_click_leftSubMenu(java.lang.String,java.lang.String)"
-            },
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 7283000000,
+              "duration": 293000000,
               "status": "passed"
             },
-            "line": 60,
-            "name": "I click a \"random\" article of alle Beitraege section",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"random\"",
-                  "offset": 10
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 154000000,
-              "status": "passed"
-            },
-            "line": 61,
+            "line": 62,
             "name": "I click page down 3",
             "match": {
               "arguments": [
@@ -3265,6 +3457,16 @@
               ],
               "location": "steps.HelperSteps.i_click_page_down(int)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           }
         ],
@@ -3278,7 +3480,7 @@
         ]
       },
       {
-        "line": 4,
+        "line": 5,
         "name": "",
         "description": "",
         "type": "background",
@@ -3286,67 +3488,88 @@
         "steps": [
           {
             "result": {
-              "duration": 10408000000,
+              "duration": 18491000000,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "I start Spiegel",
             "match": {
               "location": "steps.MenuSteps.i_start_Spiegel()"
             },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1069000000,
+              "duration": 5338000000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "I click Akzeptieren und weiter",
             "match": {
               "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 152000000,
+              "duration": 382000000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "I click TopMenuButton",
             "match": {
               "location": "steps.MenuSteps.i_click_top_menu_button()"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "And "
           }
         ]
       },
       {
-        "start_timestamp": "2020-12-03T07:53:50.675Z",
-        "before": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.TestCaseBase.setup()"
-            }
-          }
-        ],
-        "line": 75,
+        "start_timestamp": "2020-12-13T12:52:47.826Z",
+        "line": 71,
         "name": "Left Submenu",
         "description": "",
-        "id": "spiegel-left-menu-navigation;left-submenu;;12",
+        "id": "spiegel-left-menu-navigation;left-submenu;;7",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 3606000000,
+              "duration": 8509000000,
               "status": "passed"
             },
-            "line": 59,
+            "line": 60,
             "name": "I click leftSubMenu Technik in Wissenschaft",
             "match": {
               "arguments": [
@@ -3361,14 +3584,24 @@
               ],
               "location": "steps.MenuSteps.i_click_leftSubMenu(java.lang.String,java.lang.String)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 8556000000,
+              "duration": 11888000000,
               "status": "passed"
             },
-            "line": 60,
+            "line": 61,
             "name": "I click a \"random\" article of alle Beitraege section",
             "match": {
               "arguments": [
@@ -3379,14 +3612,24 @@
               ],
               "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 120000000,
+              "duration": 439000000,
               "status": "passed"
             },
-            "line": 61,
+            "line": 62,
             "name": "I click page down 3",
             "match": {
               "arguments": [
@@ -3397,6 +3640,16 @@
               ],
               "location": "steps.HelperSteps.i_click_page_down(int)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           }
         ],
@@ -3410,7 +3663,7 @@
         ]
       },
       {
-        "line": 4,
+        "line": 5,
         "name": "",
         "description": "",
         "type": "background",
@@ -3418,68 +3671,87 @@
         "steps": [
           {
             "result": {
-              "duration": 10909000000,
+              "duration": 19755000000,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "I start Spiegel",
             "match": {
               "location": "steps.MenuSteps.i_start_Spiegel()"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1071000000,
+              "duration": 5158000000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "I click Akzeptieren und weiter",
             "match": {
               "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 157000000,
+              "duration": 395000000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "I click TopMenuButton",
             "match": {
               "location": "steps.MenuSteps.i_click_top_menu_button()"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "And "
           }
         ]
       },
       {
-        "start_timestamp": "2020-12-03T07:54:14.593Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.TestCaseBase.setup()"
-            }
-          }
-        ],
-        "line": 76,
+        "start_timestamp": "2020-12-13T12:53:32.891Z",
+        "line": 72,
         "name": "Left Submenu",
         "description": "",
-        "id": "spiegel-left-menu-navigation;left-submenu;;13",
+        "id": "spiegel-left-menu-navigation;left-submenu;;8",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 4139000000,
+              "duration": 6122000000,
               "status": "passed"
             },
-            "line": 59,
+            "line": 60,
             "name": "I click leftSubMenu Weltall in Wissenschaft",
             "match": {
               "arguments": [
@@ -3494,146 +3766,24 @@
               ],
               "location": "steps.MenuSteps.i_click_leftSubMenu(java.lang.String,java.lang.String)"
             },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3643000000,
-              "status": "passed"
-            },
-            "line": 60,
-            "name": "I click a \"random\" article of alle Beitraege section",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"random\"",
-                  "offset": 10
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 224000000,
-              "status": "passed"
-            },
-            "line": 61,
-            "name": "I click page down 3",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3",
-                  "offset": 18
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_page_down(int)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@spiegelLeftMenuNavigation"
-          },
-          {
-            "name": "@leftSubmenu"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 12920000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I start Spiegel",
-            "match": {
-              "location": "steps.MenuSteps.i_start_Spiegel()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1054000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "I click Akzeptieren und weiter",
-            "match": {
-              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 156000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I click TopMenuButton",
-            "match": {
-              "location": "steps.MenuSteps.i_click_top_menu_button()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-12-03T07:54:34.748Z",
-        "before": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.TestCaseBase.setup()"
-            }
-          }
-        ],
-        "line": 77,
-        "name": "Left Submenu",
-        "description": "",
-        "id": "spiegel-left-menu-navigation;left-submenu;;14",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 3764000000,
-              "status": "passed"
-            },
-            "line": 59,
-            "name": "I click leftSubMenu Medizin in Wissenschaft",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Medizin",
-                  "offset": 20
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
                 },
-                {
-                  "val": "Wissenschaft",
-                  "offset": 31
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
                 }
-              ],
-              "location": "steps.MenuSteps.i_click_leftSubMenu(java.lang.String,java.lang.String)"
-            },
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 4450000000,
+              "duration": 12369000000,
               "status": "passed"
             },
-            "line": 60,
+            "line": 61,
             "name": "I click a \"random\" article of alle Beitraege section",
             "match": {
               "arguments": [
@@ -3644,147 +3794,24 @@
               ],
               "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
             },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 121000000,
-              "status": "passed"
-            },
-            "line": 61,
-            "name": "I click page down 3",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3",
-                  "offset": 18
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_page_down(int)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@spiegelLeftMenuNavigation"
-          },
-          {
-            "name": "@leftSubmenu"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 12483000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I start Spiegel",
-            "match": {
-              "location": "steps.MenuSteps.i_start_Spiegel()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1048000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "I click Akzeptieren und weiter",
-            "match": {
-              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 146000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I click TopMenuButton",
-            "match": {
-              "location": "steps.MenuSteps.i_click_top_menu_button()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-12-03T07:54:57.218Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.TestCaseBase.setup()"
-            }
-          }
-        ],
-        "line": 78,
-        "name": "Left Submenu",
-        "description": "",
-        "id": "spiegel-left-menu-navigation;left-submenu;;15",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 4118000000,
-              "status": "passed"
-            },
-            "line": 59,
-            "name": "I click leftSubMenu Familie in Leben",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Familie",
-                  "offset": 20
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
                 },
-                {
-                  "val": "Leben",
-                  "offset": 31
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
                 }
-              ],
-              "location": "steps.MenuSteps.i_click_leftSubMenu(java.lang.String,java.lang.String)"
-            },
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 4357000000,
+              "duration": 1056000000,
               "status": "passed"
             },
-            "line": 60,
-            "name": "I click a \"random\" article of alle Beitraege section",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"random\"",
-                  "offset": 10
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 106000000,
-              "status": "passed"
-            },
-            "line": 61,
+            "line": 62,
             "name": "I click page down 3",
             "match": {
               "arguments": [
@@ -3795,6 +3822,16 @@
               ],
               "location": "steps.HelperSteps.i_click_page_down(int)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           }
         ],
@@ -3808,7 +3845,7 @@
         ]
       },
       {
-        "line": 4,
+        "line": 5,
         "name": "",
         "description": "",
         "type": "background",
@@ -3816,67 +3853,87 @@
         "steps": [
           {
             "result": {
-              "duration": 11407000000,
+              "duration": 18590000000,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "I start Spiegel",
             "match": {
               "location": "steps.MenuSteps.i_start_Spiegel()"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1022000000,
+              "duration": 5247000000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "I click Akzeptieren und weiter",
             "match": {
               "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 143000000,
+              "duration": 477000000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "I click TopMenuButton",
             "match": {
               "location": "steps.MenuSteps.i_click_top_menu_button()"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "And "
           }
         ]
       },
       {
-        "start_timestamp": "2020-12-03T07:55:19.482Z",
-        "before": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.TestCaseBase.setup()"
-            }
-          }
-        ],
-        "line": 80,
+        "start_timestamp": "2020-12-13T12:54:17.761Z",
+        "line": 73,
         "name": "Left Submenu",
         "description": "",
-        "id": "spiegel-left-menu-navigation;left-submenu;;16",
+        "id": "spiegel-left-menu-navigation;left-submenu;;9",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 5168000000,
+              "duration": 5335000000,
               "status": "passed"
             },
-            "line": 59,
+            "line": 60,
             "name": "I click leftSubMenu Young-Money-Blog in Wirtschaft",
             "match": {
               "arguments": [
@@ -3891,146 +3948,24 @@
               ],
               "location": "steps.MenuSteps.i_click_leftSubMenu(java.lang.String,java.lang.String)"
             },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 6939000000,
-              "status": "passed"
-            },
-            "line": 60,
-            "name": "I click a \"random\" article of alle Beitraege section",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"random\"",
-                  "offset": 10
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 15000000,
-              "status": "passed"
-            },
-            "line": 61,
-            "name": "I click page down 3",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3",
-                  "offset": 18
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_page_down(int)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@spiegelLeftMenuNavigation"
-          },
-          {
-            "name": "@leftSubmenu"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 12053000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I start Spiegel",
-            "match": {
-              "location": "steps.MenuSteps.i_start_Spiegel()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1061000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "I click Akzeptieren und weiter",
-            "match": {
-              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 160000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I click TopMenuButton",
-            "match": {
-              "location": "steps.MenuSteps.i_click_top_menu_button()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-12-03T07:55:44.179Z",
-        "before": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.TestCaseBase.setup()"
-            }
-          }
-        ],
-        "line": 81,
-        "name": "Left Submenu",
-        "description": "",
-        "id": "spiegel-left-menu-navigation;left-submenu;;17",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 4801000000,
-              "status": "passed"
-            },
-            "line": 59,
-            "name": "I click leftSubMenu Städte der Zukunft in Wirtschaft",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Städte der Zukunft",
-                  "offset": 20
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
                 },
-                {
-                  "val": "Wirtschaft",
-                  "offset": 42
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
                 }
-              ],
-              "location": "steps.MenuSteps.i_click_leftSubMenu(java.lang.String,java.lang.String)"
-            },
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 11204000000,
+              "duration": 9306000000,
               "status": "passed"
             },
-            "line": 60,
+            "line": 61,
             "name": "I click a \"random\" article of alle Beitraege section",
             "match": {
               "arguments": [
@@ -4041,14 +3976,25 @@
               ],
               "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
             },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 140000000,
+              "duration": 1353000000,
               "status": "passed"
             },
-            "line": 61,
+            "line": 62,
             "name": "I click page down 3",
             "match": {
               "arguments": [
@@ -4059,6 +4005,16 @@
               ],
               "location": "steps.HelperSteps.i_click_page_down(int)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           }
         ],
@@ -4072,7 +4028,7 @@
         ]
       },
       {
-        "line": 4,
+        "line": 5,
         "name": "",
         "description": "",
         "type": "background",
@@ -4080,67 +4036,87 @@
         "steps": [
           {
             "result": {
-              "duration": 12382000000,
+              "duration": 18671000000,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "I start Spiegel",
             "match": {
               "location": "steps.MenuSteps.i_start_Spiegel()"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1044000000,
+              "duration": 5200000000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "I click Akzeptieren und weiter",
             "match": {
               "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 149000000,
+              "duration": 434000000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "I click TopMenuButton",
             "match": {
               "location": "steps.MenuSteps.i_click_top_menu_button()"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "And "
           }
         ]
       },
       {
-        "start_timestamp": "2020-12-03T07:56:13.605Z",
-        "before": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.TestCaseBase.setup()"
-            }
-          }
-        ],
-        "line": 82,
+        "start_timestamp": "2020-12-13T12:54:58.086Z",
+        "line": 74,
         "name": "Left Submenu",
         "description": "",
-        "id": "spiegel-left-menu-navigation;left-submenu;;18",
+        "id": "spiegel-left-menu-navigation;left-submenu;;10",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 3958000000,
+              "duration": 5428000000,
               "status": "passed"
             },
-            "line": 59,
+            "line": 60,
             "name": "I click leftSubMenu Champions League in Sport",
             "match": {
               "arguments": [
@@ -4155,14 +4131,24 @@
               ],
               "location": "steps.MenuSteps.i_click_leftSubMenu(java.lang.String,java.lang.String)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 11417000000,
+              "duration": 10563000000,
               "status": "passed"
             },
-            "line": 60,
+            "line": 61,
             "name": "I click a \"random\" article of alle Beitraege section",
             "match": {
               "arguments": [
@@ -4173,14 +4159,24 @@
               ],
               "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 22000000,
+              "duration": 351000000,
               "status": "passed"
             },
-            "line": 61,
+            "line": 62,
             "name": "I click page down 3",
             "match": {
               "arguments": [
@@ -4191,6 +4187,16 @@
               ],
               "location": "steps.HelperSteps.i_click_page_down(int)"
             },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
             "keyword": "Then "
           }
         ],
@@ -4204,135 +4210,28 @@
         ]
       },
       {
-        "line": 4,
+        "line": 5,
         "name": "",
         "description": "",
         "type": "background",
         "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 10485000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I start Spiegel",
-            "match": {
-              "location": "steps.MenuSteps.i_start_Spiegel()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1050000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "I click Akzeptieren und weiter",
-            "match": {
-              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 151000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I click TopMenuButton",
-            "match": {
-              "location": "steps.MenuSteps.i_click_top_menu_button()"
-            },
-            "keyword": "And "
-          }
-        ]
+        "steps": []
       },
       {
-        "start_timestamp": "2020-12-03T07:56:42.583Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "steps.TestCaseBase.setup()"
-            }
-          }
-        ],
-        "line": 83,
-        "name": "Left Submenu",
+        "start_timestamp": "2020-12-13T12:55:38.745Z",
+        "line": 77,
+        "name": "clossing browser",
         "description": "",
-        "id": "spiegel-left-menu-navigation;left-submenu;;19",
+        "id": "spiegel-left-menu-navigation;clossing-browser",
         "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 3614000000,
-              "status": "passed"
-            },
-            "line": 59,
-            "name": "I click leftSubMenu Business in English",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Business",
-                  "offset": 20
-                },
-                {
-                  "val": "English",
-                  "offset": 32
-                }
-              ],
-              "location": "steps.MenuSteps.i_click_leftSubMenu(java.lang.String,java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 11218000000,
-              "status": "passed"
-            },
-            "line": 60,
-            "name": "I click a \"random\" article of alle Beitraege section",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"random\"",
-                  "offset": 10
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 144000000,
-              "status": "passed"
-            },
-            "line": 61,
-            "name": "I click page down 3",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3",
-                  "offset": 18
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_page_down(int)"
-            },
-            "keyword": "Then "
-          }
-        ],
+        "keyword": "Scenario",
+        "steps": [],
         "tags": [
           {
             "name": "@spiegelLeftMenuNavigation"
           },
           {
-            "name": "@leftSubmenu"
+            "name": "@end"
           }
         ]
       }

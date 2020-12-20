@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 
 public abstract class DriverManager {
 
-    private static WebDriver driver;
+    public static WebDriver driver;
 
     public abstract WebDriver createDriver() throws ClassNotFoundException;
 
@@ -14,7 +14,8 @@ public abstract class DriverManager {
             {
                 DriverManager.driver = createDriver();
             }
-        }
+            else System.out.println("driver is null DriverManager..................");
+          }
         catch (Exception e)
         {
             e.printStackTrace();

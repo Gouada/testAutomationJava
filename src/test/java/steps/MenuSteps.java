@@ -58,15 +58,17 @@ public class MenuSteps{
     public void i_bring_top_menu_into_view(String menu) {
         //if(menuPage == null)
           //  menuPage = new MenuPage(driver);
-        try {
+        //try {
             menuPage.click_right_arrow_until_is_visible(menu);
-        }
+        /*}
         catch (Exception e)
         {
             menuPage.takeScreenhot("bringing_"+menu+"_into_view_");
             MyLogger.logger.error(e.getMessage());
             new Exception(e);
         }
+        */
+
         //menuPage.click_right_arrow();
     }
 

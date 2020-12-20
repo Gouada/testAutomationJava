@@ -9,7 +9,8 @@ Feature: Spiegel Kultur Bestseller
     And I click TopMenu "Kultur"
     Then I click culture SPIEGEL-Bestseller
 
-
+  @start
+  #@end
   @bestsellerbooks
   Scenario Outline: Bestseller Books
     Then I click bestseller <menu>
@@ -28,8 +29,6 @@ Feature: Spiegel Kultur Bestseller
       | Kinder/ Jugend | Thaila |
     #Examples:
      # | |
-
-
 
   @bestsellerDVD
   Scenario Outline: Bestseller DVD
@@ -65,6 +64,9 @@ Feature: Spiegel Kultur Bestseller
       | Natur & Garten | Thaila |
       | Hobby & Kreativität| Amazon |
 
+
+  #@start
+  #@end
   @bestsellerKinderBuch
   Scenario Outline: Bestseller KinderBuch
     Then I click bestseller Kinder/ Jugend
@@ -82,3 +84,6 @@ Feature: Spiegel Kultur Bestseller
       | Jugendbuch | Thaila |
       | Bilderbuch | Thaila |
       | Hörbuch| Amazon |
+
+  @end
+  Scenario: clossing browser

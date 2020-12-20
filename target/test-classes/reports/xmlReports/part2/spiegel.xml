@@ -1,71 +1,49 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="17" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="37" time="1,808.738">
-<testcase classname="Spiegel Kultur Bestseller" name="Bestseller Books" time="38.77">
-<failure message="Error&#10;Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'&#10;System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'&#10;Driver info: driver.version: unknown" type="java.lang.Exception"><![CDATA[Given I start Spiegel.......................................................passed
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="21" time="1,087.083">
+<testcase classname="Spiegel Kultur Bestseller" name="Bestseller Books" time="65.71">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring "Kultur" menu into view........................................passed
-And I click TopMenu "Kultur"................................................failed
-Then I click culture SPIEGEL-Bestseller.....................................skipped
-Then I click bestseller Sachbuch............................................skipped
-Then I scroll to a random bestseller........................................skipped
-Then I click mehr anzeigen..................................................skipped
-Then I move mouse over kaufen...............................................skipped
-Then I click bei Thaila kaufen..............................................skipped
-Then I close the Thaila tab.................................................skipped
-
-StackTrace:
-java.lang.Exception: Error
-Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
-System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
-Driver info: driver.version: unknown
-	at steps.MenuSteps.i_click_top_menu(MenuSteps.java:84)
-	at ✽.I click TopMenu "Kultur"(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:9)
-]]></failure>
+And I click TopMenu "Kultur"................................................passed
+Then I click culture SPIEGEL-Bestseller.....................................passed
+Then I click bestseller Sachbuch............................................passed
+Then I scroll to a random bestseller........................................passed
+Then I click mehr anzeigen..................................................passed
+Then I move mouse over kaufen...............................................passed
+Then I click bei Thaila kaufen..............................................passed
+Then I close the Thaila tab.................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur Bestseller" name="Bestseller Books 2" time="45.753">
-<failure message="" type="java.lang.NullPointerException"><![CDATA[Given I start Spiegel.......................................................passed
+<testcase classname="Spiegel Kultur Bestseller" name="Bestseller Books 2" time="57.314">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring "Kultur" menu into view........................................passed
 And I click TopMenu "Kultur"................................................passed
 Then I click culture SPIEGEL-Bestseller.....................................passed
 Then I click bestseller Belletristik........................................passed
 Then I scroll to a random bestseller........................................passed
-Then I click mehr anzeigen..................................................failed
-Then I move mouse over kaufen...............................................skipped
-Then I click bei Amazon kaufen..............................................skipped
-Then I close the Amazon tab.................................................skipped
-
-StackTrace:
-java.lang.NullPointerException
-	at core.SeleniumDriverWrapper.clickElement(SeleniumDriverWrapper.java:157)
-	at pages.BestSellerBasePage.clickElementElementExpandButton(BestSellerBasePage.java:91)
-	at steps.BestsellerSteps.i_click_mehr_anzeigen(BestsellerSteps.java:60)
-	at ✽.I click mehr anzeigen(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:17)
-]]></failure>
+Then I click mehr anzeigen..................................................passed
+Then I move mouse over kaufen...............................................passed
+Then I click bei Amazon kaufen..............................................passed
+Then I close the Amazon tab.................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur Bestseller" name="Bestseller Books 3" time="46.558">
-<failure message="" type="java.lang.NullPointerException"><![CDATA[Given I start Spiegel.......................................................passed
+<testcase classname="Spiegel Kultur Bestseller" name="Bestseller Books 3" time="58.826">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring "Kultur" menu into view........................................passed
 And I click TopMenu "Kultur"................................................passed
 Then I click culture SPIEGEL-Bestseller.....................................passed
 Then I click bestseller Kinder/ Jugend......................................passed
 Then I scroll to a random bestseller........................................passed
-Then I click mehr anzeigen..................................................failed
-Then I move mouse over kaufen...............................................skipped
-Then I click bei Thaila kaufen..............................................skipped
-Then I close the Thaila tab.................................................skipped
-
-StackTrace:
-java.lang.NullPointerException
-	at core.SeleniumDriverWrapper.clickElement(SeleniumDriverWrapper.java:157)
-	at pages.BestSellerBasePage.clickElementElementExpandButton(BestSellerBasePage.java:91)
-	at steps.BestsellerSteps.i_click_mehr_anzeigen(BestsellerSteps.java:60)
-	at ✽.I click mehr anzeigen(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:17)
-]]></failure>
+Then I click mehr anzeigen..................................................passed
+Then I move mouse over kaufen...............................................passed
+Then I click bei Thaila kaufen..............................................passed
+Then I close the Thaila tab.................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur Bestseller" name="Bestseller DVD" time="58.581">
-<failure message="" type="java.lang.NullPointerException"><![CDATA[Given I start Spiegel.......................................................passed
+<testcase classname="Spiegel Kultur Bestseller" name="Bestseller DVD" time="61.39">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring "Kultur" menu into view........................................passed
 And I click TopMenu "Kultur"................................................passed
@@ -73,21 +51,14 @@ Then I click culture SPIEGEL-Bestseller.....................................pass
 Then I click bestseller DVD.................................................passed
 Then I click the bestseller sub_menu TV & Hobby.............................passed
 Then I scroll to a random bestseller........................................passed
-Then I click mehr anzeigen..................................................failed
-Then I move mouse over kaufen...............................................skipped
-Then I click bei Amazon kaufen..............................................skipped
-Then I close the Amazon tab.................................................skipped
-
-StackTrace:
-java.lang.NullPointerException
-	at core.SeleniumDriverWrapper.clickElement(SeleniumDriverWrapper.java:157)
-	at pages.BestSellerBasePage.clickElementElementExpandButton(BestSellerBasePage.java:91)
-	at steps.BestsellerSteps.i_click_mehr_anzeigen(BestsellerSteps.java:60)
-	at ✽.I click mehr anzeigen(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:39)
-]]></failure>
+Then I click mehr anzeigen..................................................passed
+Then I move mouse over kaufen...............................................passed
+Then I click bei Amazon kaufen..............................................passed
+Then I close the Amazon tab.................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur Bestseller" name="Bestseller DVD 2" time="59.439">
-<failure message="" type="java.lang.NullPointerException"><![CDATA[Given I start Spiegel.......................................................passed
+<testcase classname="Spiegel Kultur Bestseller" name="Bestseller DVD 2" time="64.8">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring "Kultur" menu into view........................................passed
 And I click TopMenu "Kultur"................................................passed
@@ -95,21 +66,14 @@ Then I click culture SPIEGEL-Bestseller.....................................pass
 Then I click bestseller DVD.................................................passed
 Then I click the bestseller sub_menu TV & Hobby.............................passed
 Then I scroll to a random bestseller........................................passed
-Then I click mehr anzeigen..................................................failed
-Then I move mouse over kaufen...............................................skipped
-Then I click bei Thaila kaufen..............................................skipped
-Then I close the Thaila tab.................................................skipped
-
-StackTrace:
-java.lang.NullPointerException
-	at core.SeleniumDriverWrapper.clickElement(SeleniumDriverWrapper.java:157)
-	at pages.BestSellerBasePage.clickElementElementExpandButton(BestSellerBasePage.java:91)
-	at steps.BestsellerSteps.i_click_mehr_anzeigen(BestsellerSteps.java:60)
-	at ✽.I click mehr anzeigen(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:39)
-]]></failure>
+Then I click mehr anzeigen..................................................passed
+Then I move mouse over kaufen...............................................passed
+Then I click bei Thaila kaufen..............................................passed
+Then I close the Thaila tab.................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur Bestseller" name="Bestseller Ratgeber" time="59.775">
-<failure message="" type="java.lang.NullPointerException"><![CDATA[Given I start Spiegel.......................................................passed
+<testcase classname="Spiegel Kultur Bestseller" name="Bestseller Ratgeber" time="67.165">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring "Kultur" menu into view........................................passed
 And I click TopMenu "Kultur"................................................passed
@@ -117,21 +81,14 @@ Then I click culture SPIEGEL-Bestseller.....................................pass
 Then I click bestseller Ratgeber............................................passed
 Then I click the bestseller sub_menu Leben & Gesundheit.....................passed
 Then I scroll to a random bestseller........................................passed
-Then I click mehr anzeigen..................................................failed
-Then I move mouse over kaufen...............................................skipped
-Then I click bei Thaila kaufen..............................................skipped
-Then I close the Thaila tab.................................................skipped
-
-StackTrace:
-java.lang.NullPointerException
-	at core.SeleniumDriverWrapper.clickElement(SeleniumDriverWrapper.java:157)
-	at pages.BestSellerBasePage.clickElementElementExpandButton(BestSellerBasePage.java:91)
-	at steps.BestsellerSteps.i_click_mehr_anzeigen(BestsellerSteps.java:60)
-	at ✽.I click mehr anzeigen(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:55)
-]]></failure>
+Then I click mehr anzeigen..................................................passed
+Then I move mouse over kaufen...............................................passed
+Then I click bei Thaila kaufen..............................................passed
+Then I close the Thaila tab.................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur Bestseller" name="Bestseller Ratgeber 2" time="61.769">
-<failure message="" type="java.lang.NullPointerException"><![CDATA[Given I start Spiegel.......................................................passed
+<testcase classname="Spiegel Kultur Bestseller" name="Bestseller Ratgeber 2" time="68.5">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring "Kultur" menu into view........................................passed
 And I click TopMenu "Kultur"................................................passed
@@ -139,21 +96,14 @@ Then I click culture SPIEGEL-Bestseller.....................................pass
 Then I click bestseller Ratgeber............................................passed
 Then I click the bestseller sub_menu Essen & Trinken........................passed
 Then I scroll to a random bestseller........................................passed
-Then I click mehr anzeigen..................................................failed
-Then I move mouse over kaufen...............................................skipped
-Then I click bei Amazon kaufen..............................................skipped
-Then I close the Amazon tab.................................................skipped
-
-StackTrace:
-java.lang.NullPointerException
-	at core.SeleniumDriverWrapper.clickElement(SeleniumDriverWrapper.java:157)
-	at pages.BestSellerBasePage.clickElementElementExpandButton(BestSellerBasePage.java:91)
-	at steps.BestsellerSteps.i_click_mehr_anzeigen(BestsellerSteps.java:60)
-	at ✽.I click mehr anzeigen(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:55)
-]]></failure>
+Then I click mehr anzeigen..................................................passed
+Then I move mouse over kaufen...............................................passed
+Then I click bei Amazon kaufen..............................................passed
+Then I close the Amazon tab.................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur Bestseller" name="Bestseller Ratgeber 3" time="61.451">
-<failure message="" type="java.lang.NullPointerException"><![CDATA[Given I start Spiegel.......................................................passed
+<testcase classname="Spiegel Kultur Bestseller" name="Bestseller Ratgeber 3" time="62.912">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring "Kultur" menu into view........................................passed
 And I click TopMenu "Kultur"................................................passed
@@ -161,21 +111,14 @@ Then I click culture SPIEGEL-Bestseller.....................................pass
 Then I click bestseller Ratgeber............................................passed
 Then I click the bestseller sub_menu Natur & Garten.........................passed
 Then I scroll to a random bestseller........................................passed
-Then I click mehr anzeigen..................................................failed
-Then I move mouse over kaufen...............................................skipped
-Then I click bei Thaila kaufen..............................................skipped
-Then I close the Thaila tab.................................................skipped
-
-StackTrace:
-java.lang.NullPointerException
-	at core.SeleniumDriverWrapper.clickElement(SeleniumDriverWrapper.java:157)
-	at pages.BestSellerBasePage.clickElementElementExpandButton(BestSellerBasePage.java:91)
-	at steps.BestsellerSteps.i_click_mehr_anzeigen(BestsellerSteps.java:60)
-	at ✽.I click mehr anzeigen(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:55)
-]]></failure>
+Then I click mehr anzeigen..................................................passed
+Then I move mouse over kaufen...............................................passed
+Then I click bei Thaila kaufen..............................................passed
+Then I close the Thaila tab.................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur Bestseller" name="Bestseller Ratgeber 4" time="58.179">
-<failure message="" type="java.lang.NullPointerException"><![CDATA[Given I start Spiegel.......................................................passed
+<testcase classname="Spiegel Kultur Bestseller" name="Bestseller Ratgeber 4" time="65.994">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring "Kultur" menu into view........................................passed
 And I click TopMenu "Kultur"................................................passed
@@ -183,21 +126,14 @@ Then I click culture SPIEGEL-Bestseller.....................................pass
 Then I click bestseller Ratgeber............................................passed
 Then I click the bestseller sub_menu Hobby & Kreativität....................passed
 Then I scroll to a random bestseller........................................passed
-Then I click mehr anzeigen..................................................failed
-Then I move mouse over kaufen...............................................skipped
-Then I click bei Amazon kaufen..............................................skipped
-Then I close the Amazon tab.................................................skipped
-
-StackTrace:
-java.lang.NullPointerException
-	at core.SeleniumDriverWrapper.clickElement(SeleniumDriverWrapper.java:157)
-	at pages.BestSellerBasePage.clickElementElementExpandButton(BestSellerBasePage.java:91)
-	at steps.BestsellerSteps.i_click_mehr_anzeigen(BestsellerSteps.java:60)
-	at ✽.I click mehr anzeigen(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:55)
-]]></failure>
+Then I click mehr anzeigen..................................................passed
+Then I move mouse over kaufen...............................................passed
+Then I click bei Amazon kaufen..............................................passed
+Then I close the Amazon tab.................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur Bestseller" name="Bestseller KinderBuch" time="57.515">
-<failure message="" type="java.lang.NullPointerException"><![CDATA[Given I start Spiegel.......................................................passed
+<testcase classname="Spiegel Kultur Bestseller" name="Bestseller KinderBuch" time="68.26">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring "Kultur" menu into view........................................passed
 And I click TopMenu "Kultur"................................................passed
@@ -205,21 +141,14 @@ Then I click culture SPIEGEL-Bestseller.....................................pass
 Then I click bestseller Kinder/ Jugend......................................passed
 Then I click the bestseller sub_menu Kinderbuch.............................passed
 Then I scroll to a random bestseller........................................passed
-Then I click mehr anzeigen..................................................failed
-Then I move mouse over kaufen...............................................skipped
-Then I click bei Amazon kaufen..............................................skipped
-Then I close the Amazon tab.................................................skipped
-
-StackTrace:
-java.lang.NullPointerException
-	at core.SeleniumDriverWrapper.clickElement(SeleniumDriverWrapper.java:157)
-	at pages.BestSellerBasePage.clickElementElementExpandButton(BestSellerBasePage.java:91)
-	at steps.BestsellerSteps.i_click_mehr_anzeigen(BestsellerSteps.java:60)
-	at ✽.I click mehr anzeigen(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:73)
-]]></failure>
+Then I click mehr anzeigen..................................................passed
+Then I move mouse over kaufen...............................................passed
+Then I click bei Amazon kaufen..............................................passed
+Then I close the Amazon tab.................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur Bestseller" name="Bestseller KinderBuch 2" time="58.547">
-<failure message="" type="java.lang.NullPointerException"><![CDATA[Given I start Spiegel.......................................................passed
+<testcase classname="Spiegel Kultur Bestseller" name="Bestseller KinderBuch 2" time="61.401">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring "Kultur" menu into view........................................passed
 And I click TopMenu "Kultur"................................................passed
@@ -227,21 +156,14 @@ Then I click culture SPIEGEL-Bestseller.....................................pass
 Then I click bestseller Kinder/ Jugend......................................passed
 Then I click the bestseller sub_menu Jugendbuch.............................passed
 Then I scroll to a random bestseller........................................passed
-Then I click mehr anzeigen..................................................failed
-Then I move mouse over kaufen...............................................skipped
-Then I click bei Thaila kaufen..............................................skipped
-Then I close the Thaila tab.................................................skipped
-
-StackTrace:
-java.lang.NullPointerException
-	at core.SeleniumDriverWrapper.clickElement(SeleniumDriverWrapper.java:157)
-	at pages.BestSellerBasePage.clickElementElementExpandButton(BestSellerBasePage.java:91)
-	at steps.BestsellerSteps.i_click_mehr_anzeigen(BestsellerSteps.java:60)
-	at ✽.I click mehr anzeigen(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:73)
-]]></failure>
+Then I click mehr anzeigen..................................................passed
+Then I move mouse over kaufen...............................................passed
+Then I click bei Thaila kaufen..............................................passed
+Then I close the Thaila tab.................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur Bestseller" name="Bestseller KinderBuch 3" time="79.827">
-<failure message="" type="java.lang.NullPointerException"><![CDATA[Given I start Spiegel.......................................................passed
+<testcase classname="Spiegel Kultur Bestseller" name="Bestseller KinderBuch 3" time="64.596">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring "Kultur" menu into view........................................passed
 And I click TopMenu "Kultur"................................................passed
@@ -249,21 +171,14 @@ Then I click culture SPIEGEL-Bestseller.....................................pass
 Then I click bestseller Kinder/ Jugend......................................passed
 Then I click the bestseller sub_menu Bilderbuch.............................passed
 Then I scroll to a random bestseller........................................passed
-Then I click mehr anzeigen..................................................failed
-Then I move mouse over kaufen...............................................skipped
-Then I click bei Thaila kaufen..............................................skipped
-Then I close the Thaila tab.................................................skipped
-
-StackTrace:
-java.lang.NullPointerException
-	at core.SeleniumDriverWrapper.clickElement(SeleniumDriverWrapper.java:157)
-	at pages.BestSellerBasePage.clickElementElementExpandButton(BestSellerBasePage.java:91)
-	at steps.BestsellerSteps.i_click_mehr_anzeigen(BestsellerSteps.java:60)
-	at ✽.I click mehr anzeigen(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:73)
-]]></failure>
+Then I click mehr anzeigen..................................................passed
+Then I move mouse over kaufen...............................................passed
+Then I click bei Thaila kaufen..............................................passed
+Then I close the Thaila tab.................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur Bestseller" name="Bestseller KinderBuch 4" time="60.387">
-<failure message="" type="java.lang.NullPointerException"><![CDATA[Given I start Spiegel.......................................................passed
+<testcase classname="Spiegel Kultur Bestseller" name="Bestseller KinderBuch 4" time="63.753">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring "Kultur" menu into view........................................passed
 And I click TopMenu "Kultur"................................................passed
@@ -271,20 +186,16 @@ Then I click culture SPIEGEL-Bestseller.....................................pass
 Then I click bestseller Kinder/ Jugend......................................passed
 Then I click the bestseller sub_menu Hörbuch................................passed
 Then I scroll to a random bestseller........................................passed
-Then I click mehr anzeigen..................................................failed
-Then I move mouse over kaufen...............................................skipped
-Then I click bei Amazon kaufen..............................................skipped
-Then I close the Amazon tab.................................................skipped
-
-StackTrace:
-java.lang.NullPointerException
-	at core.SeleniumDriverWrapper.clickElement(SeleniumDriverWrapper.java:157)
-	at pages.BestSellerBasePage.clickElementElementExpandButton(BestSellerBasePage.java:91)
-	at steps.BestsellerSteps.i_click_mehr_anzeigen(BestsellerSteps.java:60)
-	at ✽.I click mehr anzeigen(file:///C:/MyWorkspace/guineenews/src/test/resources/features/bestseller.feature:73)
-]]></failure>
+Then I click mehr anzeigen..................................................passed
+Then I move mouse over kaufen...............................................passed
+Then I click bei Amazon kaufen..............................................passed
+Then I close the Amazon tab.................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu" time="40.648">
+<testcase classname="Spiegel Kultur Bestseller" name="clossing browser" time="0.001">
+<failure message="The scenario has no steps" type="java.lang.Exception"/>
+</testcase>
+<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu" time="45.021">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring "Kultur" menu into view........................................passed
@@ -295,45 +206,29 @@ Then I click page down 3....................................................pass
 Then I navigate back to Kino - Kultur - DER SPIEGEL.........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu 2" time="69.255">
-<failure message="" type="java.lang.AssertionError"><![CDATA[Given I start Spiegel.......................................................passed
+<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu 2" time="40.243">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring "Kultur" menu into view........................................passed
 And I click TopMenu "Kultur"................................................passed
 Then I click culture Musik..................................................passed
 Then I click a "random" article of alle Beitraege section...................passed
 Then I click page down 3....................................................passed
-Then I navigate back to Musik - Kultur - DER SPIEGEL........................failed
-
-StackTrace:
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at steps.CultureSteps.i_go_back_to_menu_kultur_der_spiegel(CultureSteps.java:31)
-	at ✽.I navigate back to Musik - Kultur - DER SPIEGEL(file:///C:/MyWorkspace/guineenews/src/test/resources/features/culturePage.feature:15)
-]]></failure>
+Then I navigate back to Musik - Kultur - DER SPIEGEL........................passed
+]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu 3" time="64.227">
-<failure message="" type="java.lang.AssertionError"><![CDATA[Given I start Spiegel.......................................................passed
+<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu 3" time="46.863">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring "Kultur" menu into view........................................passed
 And I click TopMenu "Kultur"................................................passed
 Then I click culture TV.....................................................passed
 Then I click a "random" article of alle Beitraege section...................passed
 Then I click page down 3....................................................passed
-Then I navigate back to TV - Kultur - DER SPIEGEL...........................failed
-
-StackTrace:
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at steps.CultureSteps.i_go_back_to_menu_kultur_der_spiegel(CultureSteps.java:31)
-	at ✽.I navigate back to TV - Kultur - DER SPIEGEL(file:///C:/MyWorkspace/guineenews/src/test/resources/features/culturePage.feature:15)
-]]></failure>
+Then I navigate back to TV - Kultur - DER SPIEGEL...........................passed
+]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu 4" time="60.651">
+<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu 4" time="40.757">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring "Kultur" menu into view........................................passed
@@ -344,7 +239,7 @@ Then I click page down 3....................................................pass
 Then I navigate back to Literatur - Kultur - DER SPIEGEL....................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu 5" time="35.893">
+<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu 5" time="43.876">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring "Kultur" menu into view........................................passed
@@ -355,7 +250,7 @@ Then I click page down 3....................................................pass
 Then I navigate back to Streaming - Kultur - DER SPIEGEL....................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu 6" time="43.754">
+<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu 6" time="39.347">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring "Kultur" menu into view........................................passed
@@ -366,224 +261,7 @@ Then I click page down 3....................................................pass
 Then I navigate back to Kunst - Kultur - DER SPIEGEL........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel StartPage" name="reading main article" time="28.33">
-<system-out><![CDATA[Given I start Spiegel.......................................................passed
-Then I click Akzeptieren und weiter.........................................passed
-Then On start page I click random article of latests_news_section...........passed
-Then I click page down 6....................................................passed
-Then I click page up 3......................................................passed
-Then I go back to "DER SPIEGEL | Online-Nachrichten"........................passed
-]]></system-out>
-</testcase>
-<testcase classname="Spiegel StartPage" name="reading main article 2" time="22.677">
-<system-out><![CDATA[Given I start Spiegel.......................................................passed
-Then I click Akzeptieren und weiter.........................................passed
-Then I click start page main_article........................................passed
-Then I click page down 6....................................................passed
-Then I click page up 3......................................................passed
-Then I go back to "DER SPIEGEL | Online-Nachrichten"........................passed
-]]></system-out>
-</testcase>
-<testcase classname="Spiegel StartPage" name="read news section articles" time="31.527">
-<system-out><![CDATA[Given I start Spiegel.......................................................passed
-Then I click Akzeptieren und weiter.........................................passed
-And I scroll to "news_section" on start page................................passed
-Then On start page I click first article of news_section....................passed
-Then I click page down 6....................................................passed
-Then I click page up 3......................................................passed
-Then I go back to "DER SPIEGEL | Online-Nachrichten"........................passed
-And I scroll to "news section" on start page................................passed
-Then I scroll to random article of news_section.............................passed
-Then On start page I click random article of news_section...................passed
-Then I click page down 6....................................................passed
-Then I click page up 3......................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Spiegel StartPage" name="alle Rubriken" time="30.532">
-<system-out><![CDATA[Given I start Spiegel.......................................................passed
-Then I click Akzeptieren und weiter.........................................passed
-And I scroll to "alle_rubriken_section" on start page.......................passed
-Then On start page I click random article of panorama_rubrik................passed
-Then I click page down 6....................................................passed
-Then I click page up 3......................................................passed
-Then I go back to "DER SPIEGEL | Online-Nachrichten"........................passed
-]]></system-out>
-</testcase>
-<testcase classname="Spiegel StartPage" name="alle Rubriken 2" time="23.175">
-<system-out><![CDATA[Given I start Spiegel.......................................................passed
-Then I click Akzeptieren und weiter.........................................passed
-And I scroll to "alle_rubriken_section" on start page.......................passed
-Then On start page I click random article of politik_rubrik.................passed
-Then I click page down 6....................................................passed
-Then I click page up 3......................................................passed
-Then I go back to "DER SPIEGEL | Online-Nachrichten"........................passed
-]]></system-out>
-</testcase>
-<testcase classname="Spiegel StartPage" name="alle Rubriken 3" time="27.565">
-<system-out><![CDATA[Given I start Spiegel.......................................................passed
-Then I click Akzeptieren und weiter.........................................passed
-And I scroll to "alle_rubriken_section" on start page.......................passed
-Then On start page I click random article of wirtschaft_rubrik..............passed
-Then I click page down 6....................................................passed
-Then I click page up 3......................................................passed
-Then I go back to "DER SPIEGEL | Online-Nachrichten"........................passed
-]]></system-out>
-</testcase>
-<testcase classname="Spiegel StartPage" name="alle Rubriken 4" time="61.203">
-<system-out><![CDATA[Given I start Spiegel.......................................................passed
-Then I click Akzeptieren und weiter.........................................passed
-And I scroll to "alle_rubriken_section" on start page.......................passed
-Then On start page I click random article of manager_magazin_rubrik.........passed
-Then I click page down 6....................................................passed
-Then I click page up 3......................................................passed
-Then I go back to "DER SPIEGEL | Online-Nachrichten"........................passed
-]]></system-out>
-</testcase>
-<testcase classname="Spiegel StartPage" name="stock section" time="17.174">
-<system-out><![CDATA[Given I start Spiegel.......................................................passed
-Then I click Akzeptieren und weiter.........................................passed
-And I scroll to "stock_section" on start page...............................passed
-Then I click 3 times "stock" section arrow "right"..........................passed
-Then I click 2 times "stock" section arrow "left"...........................passed
-Then I click dow jones......................................................passed
-Then I switch to "dow jones" tab............................................passed
-Then I click page down 2....................................................passed
-Then I switch to "spiegel" tab..............................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Spiegel StartPage" name="block channel section" time="21.775">
-<system-out><![CDATA[Given I start Spiegel.......................................................passed
-Then I click Akzeptieren und weiter.........................................passed
-And I scroll to "block_channel_section" on start page.......................passed
-Then On start page I click random article of geschichte_channel.............passed
-Then I click page down 6....................................................passed
-Then I click page up 3......................................................passed
-Then I go back to "DER SPIEGEL | Online-Nachrichten"........................passed
-]]></system-out>
-</testcase>
-<testcase classname="Spiegel StartPage" name="block channel section 2" time="133.665">
-<failure message="Error communicating with the remote browser. It may have died.&#10;Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'&#10;System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'&#10;Driver info: driver.version: RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62431}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 4d54bc29c73f191ef48b2d193614959a" type="java.lang.Exception"><![CDATA[Given I start Spiegel.......................................................passed
-Then I click Akzeptieren und weiter.........................................passed
-And I scroll to "block_channel_section" on start page.......................passed
-Then On start page I click random article of netzwelt_channel...............failed
-Then I click page down 6....................................................skipped
-Then I click page up 3......................................................skipped
-Then I go back to "DER SPIEGEL | Online-Nachrichten"........................skipped
-
-StackTrace:
-java.lang.Exception: Error communicating with the remote browser. It may have died.
-Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
-System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
-Driver info: driver.version: RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62431}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 4d54bc29c73f191ef48b2d193614959a
-	at steps.StartpageSteps.i_click_article_of(StartpageSteps.java:55)
-	at ✽.On start page I click random article of netzwelt_channel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/startPage.feature:66)
-]]></failure>
-</testcase>
-<testcase classname="Spiegel StartPage" name="block channel section 3" time="50.679">
-<system-out><![CDATA[Given I start Spiegel.......................................................passed
-Then I click Akzeptieren und weiter.........................................passed
-And I scroll to "block_channel_section" on start page.......................passed
-Then On start page I click random article of mobilität_channel..............passed
-Then I click page down 6....................................................passed
-Then I click page up 3......................................................passed
-Then I go back to "DER SPIEGEL | Online-Nachrichten"........................passed
-]]></system-out>
-</testcase>
-<testcase classname="Spiegel StartPage" name="block channel section 4" time="23.348">
-<system-out><![CDATA[Given I start Spiegel.......................................................passed
-Then I click Akzeptieren und weiter.........................................passed
-And I scroll to "block_channel_section" on start page.......................passed
-Then On start page I click random article of kultur_channel.................passed
-Then I click page down 6....................................................passed
-Then I click page up 3......................................................passed
-Then I go back to "DER SPIEGEL | Online-Nachrichten"........................passed
-]]></system-out>
-</testcase>
-<testcase classname="Spiegel StartPage" name="block channel section 5" time="29.894">
-<system-out><![CDATA[Given I start Spiegel.......................................................passed
-Then I click Akzeptieren und weiter.........................................passed
-And I scroll to "block_channel_section" on start page.......................passed
-Then On start page I click random article of start_channel..................passed
-Then I click page down 6....................................................passed
-Then I click page up 3......................................................passed
-Then I go back to "DER SPIEGEL | Online-Nachrichten"........................passed
-]]></system-out>
-</testcase>
-<testcase classname="Spiegel StartPage" name="block channel section 6" time="22.617">
-<system-out><![CDATA[Given I start Spiegel.......................................................passed
-Then I click Akzeptieren und weiter.........................................passed
-And I scroll to "block_channel_section" on start page.......................passed
-Then On start page I click random article of wissenschaft_channel...........passed
-Then I click page down 6....................................................passed
-Then I click page up 3......................................................passed
-Then I go back to "DER SPIEGEL | Online-Nachrichten"........................passed
-]]></system-out>
-</testcase>
-<testcase classname="Spiegel StartPage" name="leben section articles" time="30.535">
-<system-out><![CDATA[Given I start Spiegel.......................................................passed
-Then I click Akzeptieren und weiter.........................................passed
-And I scroll to "leben_section" on start page...............................passed
-Then On start page I click first article of leben_section...................passed
-Then I click page down 6....................................................passed
-Then I click page up 3......................................................passed
-Then I go back to "DER SPIEGEL | Online-Nachrichten"........................passed
-And I scroll to "leben_section" on start page...............................passed
-Then I scroll to random article of leben_section............................passed
-Then On start page I click random article of leben_section..................passed
-Then I click page down 6....................................................passed
-Then I click page up 3......................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Spiegel StartPage" name="highligh section" time="22.436">
-<system-out><![CDATA[Given I start Spiegel.......................................................passed
-Then I click Akzeptieren und weiter.........................................passed
-And I scroll to "highlight_section" on start page...........................passed
-Then On start page I click first article of highlight_section...............passed
-Then I click page down 15...................................................passed
-Then I click page up 15.....................................................passed
-Then I go back to "DER SPIEGEL | Online-Nachrichten"........................passed
-]]></system-out>
-</testcase>
-<testcase classname="Spiegel StartPage" name="top bei spiegel spiegel" time="35.951">
-<system-out><![CDATA[Given I start Spiegel.......................................................passed
-Then I click Akzeptieren und weiter.........................................passed
-And I scroll to "top_bei_spiegel_section" on start page.....................passed
-Then On start page I click first article of top_bei_spiegel_section.........passed
-Then I click page down 4....................................................passed
-Then I click page up 3......................................................passed
-Then I go back to "DER SPIEGEL | Online-Nachrichten"........................passed
-And I scroll to "top_bei_spiegel_section" on start page.....................passed
-Then On start page I click random article of top_bei_spiegel_section........passed
-Then I click page down 4....................................................passed
-Then I click page up 3......................................................passed
-Then I go back to "DER SPIEGEL | Online-Nachrichten"........................passed
-]]></system-out>
-</testcase>
-<testcase classname="Spiegel StartPage" name="meist gelesene section" time="134.206">
-<failure message="Error communicating with the remote browser. It may have died.&#10;Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'&#10;System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'&#10;Driver info: driver.version: RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62431}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 4d54bc29c73f191ef48b2d193614959a" type="java.lang.Exception"><![CDATA[Given I start Spiegel.......................................................passed
-Then I click Akzeptieren und weiter.........................................passed
-And I scroll to "meist_gelesene_section" on start page......................passed
-Then On start page I click first article of meist_gelesene_section..........failed
-Then I click page down 4....................................................skipped
-Then I click page up 3......................................................skipped
-Then I go back to "DER SPIEGEL | Online-Nachrichten"........................skipped
-And I scroll to "meist_gelesene_section" on start page......................skipped
-Then On start page I click random article of meist_gelesene_section.........skipped
-Then I click page down 4....................................................skipped
-Then I click page up 3......................................................skipped
-Then I go back to "DER SPIEGEL | Online-Nachrichten"........................skipped
-
-StackTrace:
-java.lang.Exception: Error communicating with the remote browser. It may have died.
-Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
-System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
-Driver info: driver.version: RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62431}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 4d54bc29c73f191ef48b2d193614959a
-	at steps.StartpageSteps.i_click_article_of(StartpageSteps.java:55)
-	at ✽.On start page I click first article of meist_gelesene_section(file:///C:/MyWorkspace/guineenews/src/test/resources/features/startPage.feature:117)
-]]></failure>
+<testcase classname="Spiegel Kultur" name="clossing browser" time="0.001">
+<failure message="The scenario has no steps" type="java.lang.Exception"/>
 </testcase>
 </testsuite>

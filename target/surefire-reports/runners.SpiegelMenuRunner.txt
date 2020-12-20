@@ -1,28 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: runners.SpiegelMenuRunner
 -------------------------------------------------------------------------------
-Tests run: 29, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 716.984 sec <<< FAILURE!
-Leftmenu #1(Spiegel Left Menu Navigation)  Time elapsed: 16.189 sec  <<< ERROR!
-java.lang.Exception: Error
-Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
-System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
-Driver info: driver.version: unknown
-	at steps.MenuSteps.i_click_leftMenu(MenuSteps.java:114)
-	at ?.I click leftMenu Job & Karriere(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:41)
-
-Leftmenu #2(Spiegel Left Menu Navigation)  Time elapsed: 15.682 sec  <<< ERROR!
-java.lang.Exception: Error
-Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
-System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
-Driver info: driver.version: unknown
-	at steps.MenuSteps.i_click_leftMenu(MenuSteps.java:114)
-	at ?.I click leftMenu Start(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:41)
-
-Leftmenu #5(Spiegel Left Menu Navigation)  Time elapsed: 12.782 sec  <<< ERROR!
-java.lang.Exception: Error
-Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
-System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
-Driver info: driver.version: unknown
-	at steps.MenuSteps.i_click_leftMenu(MenuSteps.java:114)
-	at ?.I click leftMenu Backstage(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:41)
-
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 614.241 sec

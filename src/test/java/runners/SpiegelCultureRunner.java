@@ -14,7 +14,7 @@ import static constants.Constants.*;
         features = SPIEGEL_FEATURE,
         glue = SPIEGEL_STEPS_DEFINITION
         //)
-        ,tags = ("@spiegelCulture or @spiegelStartPage or @spiegelCultureBestseller"))
+        ,tags = ("@spiegelCulture or @spiegelCultureBestseller"))  //or @spiegelStartPage
         //,tags = ("@spiegelCultureBestseller"))
         //,tags = ("@spiegelPlus"))
         //,tags = ("@spiegelStartPage"))

@@ -14,8 +14,8 @@ import static constants.Constants.*;
         features = SPIEGEL_FEATURE,
         glue = SPIEGEL_STEPS_DEFINITION
         //)
-        ,tags = ("@leftMenu or @culture or @bestsellerKinderBuch")) // or @spiegelCultureBestseller or @spiegelCoronavirus or @blockchannel or @readMainArticle or @readNewsSectionArticles"))
-        //,tags = ("@spiegelPlus @spiegelCulture"))
+        //,tags = ("@leftMenu or @culture or @bestsellerKinderBuch")) // or @spiegelCultureBestseller or @spiegelCoronavirus or @blockchannel or @readMainArticle or @readNewsSectionArticles"))
+        ,tags = ("@spiegelCoronavirus or @menu"))
         //,tags = ("@spiegelCultureBestseller"))
         //,tags = ("@spiegelPlus"))
         //,tags = ("@spiegelStartPage or @spiegelSchlagzeilen or @spiegelCoronavirus or @spiegelPlus"))

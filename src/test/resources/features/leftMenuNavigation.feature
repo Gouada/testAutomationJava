@@ -1,4 +1,5 @@
 @spiegelLeftMenuNavigation
+#@test-suite
 Feature: Spiegel Left Menu Navigation
 
   Background:
@@ -11,8 +12,9 @@ Feature: Spiegel Left Menu Navigation
    # Given I start Spiegel
     #Then I click Akzeptieren und weiter
 
+  @start
   @search
-  Scenario Outline: search
+  Scenario Outline: LeftMenuSearch
     Then I enter <serach_word> and press enter
     Then I click weiter 3
     Then I click zurück 1
@@ -23,14 +25,11 @@ Feature: Spiegel Left Menu Navigation
     Then I filter results by "seit 2005"
     Examples:
       | serach_word |
-      | Obama |
+      | Barack Obama |
       | Lebron James |
       | Thaler Richard |
       | Kahneman Daniel |
-      | Fama Eugene |
       | Angela Merkel |
-
-
 
   @leftMenu
   Scenario Outline: Leftmenu
@@ -51,6 +50,8 @@ Feature: Spiegel Left Menu Navigation
       | Backstage |
       #| Nachrichtenarchiv |
 
+    #@end
+    #@start
     @leftSubmenu
     Scenario Outline: Left Submenu
       #Then I scroll to leftMenu "menu"
@@ -62,22 +63,15 @@ Feature: Spiegel Left Menu Navigation
       #Then I go back to <subMenu>
       Examples:
         |subMenu  | menu|
-        |Bundestag  | Politik |
         |Bundesregierung | Politik |
         |Afrika | Ausland |
-        |Nahost | Ausland |
         |Leute | Panorama |
-        |Gesellschaft | Panorama |
         |Bildung | Panorama |
         |Psychologie | Leben |
-        |Familie | Leben |
-        |Business|English|
         |Technik | Wissenschaft |
         |Weltall | Wissenschaft |
-        |Medizin | Wissenschaft |
-        |Familie | Leben |
-        #|Börse   |Wirtschaft|
         |Young-Money-Blog | Wirtschaft |
-        |Städte der Zukunft | Wirtschaft |
         |Champions League | Sport |
-        |Business|English|
+
+      @end
+      Scenario: clossing browser

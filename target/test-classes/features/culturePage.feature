@@ -7,6 +7,7 @@ Feature: Spiegel Kultur
     Then I bring "Kultur" menu into view
     And I click TopMenu "Kultur"
 
+    @start
     @culture
     Scenario Outline: navigate on culture sub-menu
       Then I click culture <menu>
@@ -21,3 +22,7 @@ Feature: Spiegel Kultur
         | Literatur |
         |Streaming  |
         |Kunst      |
+
+
+  @end
+  Scenario: clossing browser

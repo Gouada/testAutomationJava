@@ -37,8 +37,8 @@ public class BestsellerSteps {
 */
 
     @Then("^I click bestseller (.*)$")
-    public void i_click_bestseller_menu(String menu) throws InterruptedException {
-        try {
+    public void i_click_bestseller_menu(String menu) { //throws InterruptedException
+        //try {
             bestSellerBasePage.clickBestSellerMenuElement(menu);
             bestSellerBasePage.closeAdversting();
             //sleep(1000);
@@ -51,21 +51,21 @@ public class BestsellerSteps {
                 Assert.assertTrue(bestSellerBasePage.getPageTitle().contains("DVD-Charts - die Top 20 "));
             else if (!menu.contains("Jugend") && !menu.contains("DVD"))
                 Assert.assertTrue(bestSellerBasePage.getPageTitle().contains(menu));
-        }
+       /* }
         catch(Exception e)
         {
             MyLogger.logger.error("Step 'clicking BestSeller Menu': "+e.getMessage());
             bestSellerBasePage.takeScreenhot("i_go_back_to_" + menu);
             e.printStackTrace();
             throw new AssertionError();
-        }
+        }*/
     }
 
     @Then("I scroll to a random bestseller")
     public void i_scroll_to_random_bestseller_element() {
-        try {
+        //try {
             bestSellerBasePage.scrollToBestSellerElement(rndNr);
-        }
+       /* }
         catch (Exception e)
         {
             MyLogger.logger.error("Step 'scrolling to random bestseller element': "+e.getMessage());
@@ -73,6 +73,7 @@ public class BestsellerSteps {
             e.printStackTrace();
             throw new AssertionError();
         }
+        */
     }
 
     @Then("I click mehr anzeigen")

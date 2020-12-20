@@ -51,7 +51,7 @@ public class StartpageSteps{
         catch (Exception e)
         {
             MyLogger.logger.error(e.getMessage());
-            startPage.takeScreenhot("clicking_"+article+"_article_of_"+section);
+            startPage.takeScreenhot("on:start_page_clicking_"+article+"_article_of_"+section);
             throw new Exception(e.getMessage());
         }
     }

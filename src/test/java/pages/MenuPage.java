@@ -81,8 +81,12 @@ public class MenuPage extends BasePage{
     {
         String myLocator = getLeftMenuXpath(menuElement);
         WebElement element = getElementByXpath(myLocator);
-        if(!isElementDisplayed(myLocator,"xpath"))
-            moveMouseOnElement(element);
+        if(!isElementDisplayed(myLocator,"xpath")) {
+            element = getElementByXpath(myLocator);
+            scrollIntoView(element);
+            //moveMouseOnElement(element);
+        }
+        waitForElementToBeClickable(element, Duration.ofSeconds(5));
         clickElement(element);
     }
 

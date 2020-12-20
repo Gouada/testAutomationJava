@@ -526,13 +526,14 @@ public class SeleniumDriverWrapper {
         }
     }
 
-    public void waitForElementToBeVisible(String myLocator, String locatorType, Duration timeout, WebElement element, String event)
+    public void waitForElementToBeVisible(String myLocator, String locatorType, Duration timeout)
     {
         WebDriverWait wt = new WebDriverWait(this.driver, timeout);
         By by = getByType(locatorType,myLocator);
+        WebElement element;
         try {
-            if (element == null)
-                element = getElement(myLocator,locatorType);
+
+            element = getElement(myLocator,locatorType);
             wt.until(ExpectedConditions.visibilityOf(element));
         }
         catch(Exception e)

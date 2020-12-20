@@ -7,6 +7,7 @@ Feature: Coronavirus
     #And I click TopMenu "SPIEGEL+"
     Then I click TopMenu "Coronavirus"
 
+  @start
   @first_sectionCoronaVirus
   Scenario: Spiegel Coronavirus read section 1 articles
     Then I click first article of "first" section
@@ -32,7 +33,7 @@ Feature: Coronavirus
     Then I close the tab
     #Then I go back to "Coronavirus - DER SPIEGEL"
 
-  #@end
+  @end
   Scenario: Spiegel Coronavirus read alle Beiträge section articles
     Then I scroll to "alle_Beitraege" section
     Then I scroll to alle Beitraege "last" article

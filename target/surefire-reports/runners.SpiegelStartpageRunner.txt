@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: runners.SpiegelStartpageRunner
+-------------------------------------------------------------------------------
+Tests run: 26, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 1,088.189 sec <<< FAILURE!
+reading Schlagzeilen article(Spiegel Schlagzeilen)  Time elapsed: 68.178 sec  <<< FAILURE!
+java.lang.AssertionError
+	at steps.HelperSteps.i_go_back_to(HelperSteps.java:116)
+	at ?.I go back to "Schlagzeilen - DER SPIEGEL"(file:///C:/MyWorkspace/guineenews/src/test/resources/features/schlagzeilen.feature:18)
+
+reading main article #1(Spiegel StartPage)  Time elapsed: 23.764 sec  <<< ERROR!
+java.lang.Exception: Index: 0, Size: 0
+	at steps.StartpageSteps.i_click_article_of(StartpageSteps.java:55)
+	at ?.On start page I click random article of latests_news_section(file:///C:/MyWorkspace/guineenews/src/test/resources/features/startPage.feature:13)
+

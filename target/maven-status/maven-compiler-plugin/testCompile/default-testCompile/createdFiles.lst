@@ -1,6 +1,5 @@
 core\ChromeDriverManager.class
 pages\BasePage.class
-runners\SpiegelRunner.class
 core\DriverFactory.class
 core\SeleniumDriverWrapper.class
 helpers\MyLogger.class

@@ -1,4 +1,5 @@
 @spiegelStartPage
+#@test-suite-start
 #noinspection SpellCheckingInspection,NonAsciiCharacters
 Feature: Spiegel StartPage
 
@@ -6,7 +7,7 @@ Feature: Spiegel StartPage
     Given I start Spiegel
     Then I click Akzeptieren und weiter
 
-
+  @start
   @readlatestNewsArticle
   Scenario: reading main article
     Then On start page I click random article of latests_news_section
@@ -111,6 +112,7 @@ Feature: Spiegel StartPage
     Then I click page up 3
     Then I go back to "DER SPIEGEL | Online-Nachrichten"
 
+  @end
   @meistgelesene
   Scenario: meist gelesene section
     And I scroll to "meist_gelesene_section" on start page

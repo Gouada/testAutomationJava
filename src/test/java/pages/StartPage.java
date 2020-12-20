@@ -20,7 +20,7 @@ public class StartPage extends BasePage {
     private static final String sport_daten_section = "//section[@data-area='block>sportdaten']";
 
     private static final String main_section = "//section[@data-area='block>topic']";
-    private static final String main_article = "//section[contains(@data-area,'block>topic')]//div[contains(@data-area,'article_teaser>news-x') and @data-block-el='articleTeaser']";
+    private static final String main_article = "(//section[contains(@data-area,'block>topic')]//div[contains(@data-area,'article_teaser>news-x') and @data-block-el='articleTeaser'])[1]";
     private static final String main_section_secondary_article = "//section[@data-area='block>topic']//div[@data-area='article_teaser>news-s-wide' and @data-block-el='articleTeaser']";
 
     private static final String news_section = "//div[@data-area='news-section']";
@@ -243,10 +243,10 @@ public class StartPage extends BasePage {
                 element = getElementsByXpath(top_bei_spiegel_article_list).get(rndNr);
             }
             if (section.equals("meist_gelesene_section")) {
-                //System.out.println("rndNr before:       "+rndNr);
+                System.out.println("rndNr before:       "+rndNr);
                 //if (rndNr == 0)
                     rndNr = rnd.nextInt(getElementsByXpath(meist_gelesene_article_list).size()-1);
-                //System.out.println("rndNr after:       "+rndNr);
+                System.out.println("rndNr after:       "+rndNr);
                 element = getElementsByXpath(meist_gelesene_article_list).get(rndNr);
             }
 

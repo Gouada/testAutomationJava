@@ -12,6 +12,8 @@ public class DriverFactory {
 
     public static DriverManager getDriverManager(String browser)
     {
+        //System.out.println("hehehehe..............11111111");
+
         if(browser.toUpperCase().equals("CHROME"))
             driverManager = new ChromeDriverManager();
         if(browser.toUpperCase().equals("FIREFOX"))

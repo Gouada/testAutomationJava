@@ -3,6 +3,7 @@ package pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import java.time.Duration;
 import java.util.Random;
 
 
@@ -102,6 +103,7 @@ public class SearchPage extends BasePage{
 
     public boolean i_am_on_results_page()
     {
+        waitForElementToBeVisible(search_results_text, "xpath", Duration.ofSeconds(20));
         WebElement element = getElementByXpath(search_results_text);
         //return getElementText(element).contains("Ergebnisse für")
         if(getElementText(element).contains("Ergebnisse für"))

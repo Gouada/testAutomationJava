@@ -1,4 +1,6 @@
 @spiegelSchlagzeilen
+#@test-suite-start
+#@test-suite-end
 #noinspection SpellCheckingInspection,NonAsciiCharacters
 Feature: Spiegel Schlagzeilen
 
@@ -7,6 +9,8 @@ Feature: Spiegel Schlagzeilen
     Then I click Akzeptieren und weiter
     And I click TopMenu "Schlagzeilen"
 
+  @start
+  @end
   @readSchlagzeilenArticle
   Scenario: reading Schlagzeilen article
     Then I click a "first" article of alle Beitraege section
