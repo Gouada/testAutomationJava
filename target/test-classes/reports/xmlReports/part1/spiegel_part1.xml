@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="26" time="1,085.736">
-<testcase classname="Coronavirus" name="Spiegel Coronavirus read section 1 articles" time="69.6">
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="26" time="930.319">
+<testcase classname="Coronavirus" name="Spiegel Coronavirus read section 1 articles" time="107.811">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I click TopMenu "Coronavirus"..........................................passed
@@ -17,7 +17,7 @@ Then I click a random article of "first" section............................pass
 Then I click page down 3....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Coronavirus" name="Spiegel Coronavirus read random section articles" time="31.673">
+<testcase classname="Coronavirus" name="Spiegel Coronavirus read random section articles" time="29.136">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I click TopMenu "Coronavirus"..........................................passed
@@ -30,37 +30,37 @@ Then I click page down 3....................................................pass
 Then I close the tab........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Coronavirus" name="Spiegel Coronavirus read alle Beiträge section articles" time="49.142">
-<system-out><![CDATA[Given I start Spiegel.......................................................passed
+<testcase classname="Coronavirus" name="Spiegel Coronavirus read alle Beiträge section articles" time="39.738">
+<failure message="" type="java.lang.AssertionError"><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I click TopMenu "Coronavirus"..........................................passed
 Then I scroll to "alle_Beitraege" section...................................passed
 Then I scroll to alle Beitraege "last" article..............................passed
 Then I scroll to alle Beitraege "random" article............................passed
-Then I click a "random" article of alle Beitraege section...................passed
-Then I click page down 3....................................................passed
-Then I go back to "Coronavirus - DER SPIEGEL"...............................passed
-Then I paginate to "next" page..............................................passed
-]]></system-out>
+Then I click a "random" article of alle Beitraege section...................failed
+Then I click page down 3....................................................skipped
+Then I go back to "Coronavirus - DER SPIEGEL"...............................skipped
+Then I paginate to "next" page..............................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at steps.HelperSteps.i_click_article_of_alle_Beitraege_section(HelperSteps.java:163)
+	at ✽.I click a "random" article of alle Beitraege section(file:///C:/MyWorkspace/guineenews/src/test/resources/features/coronaVirus.feature:41)
+]]></failure>
 </testcase>
-<testcase classname="Spiegel Schlagzeilen" name="reading Schlagzeilen article" time="68.152">
-<failure message="" type="java.lang.AssertionError"><![CDATA[Given I start Spiegel.......................................................passed
+<testcase classname="Spiegel Schlagzeilen" name="reading Schlagzeilen article" time="55.614">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenu "Schlagzeilen"..........................................passed
 Then I click a "first" article of alle Beitraege section....................passed
 Then I click page down 6....................................................passed
-Then I go back to "Schlagzeilen - DER SPIEGEL"..............................failed
-Then I click a "random" article of alle Beitraege section...................skipped
-Then I click page down 6....................................................skipped
-Then I go back to "Schlagzeilen - DER SPIEGEL"..............................skipped
-
-StackTrace:
-java.lang.AssertionError
-	at steps.HelperSteps.i_go_back_to(HelperSteps.java:116)
-	at ✽.I go back to "Schlagzeilen - DER SPIEGEL"(file:///C:/MyWorkspace/guineenews/src/test/resources/features/schlagzeilen.feature:18)
-]]></failure>
+Then I go back to "Schlagzeilen - DER SPIEGEL"..............................passed
+Then I click a "random" article of alle Beitraege section...................passed
+Then I click page down 6....................................................passed
+Then I go back to "Schlagzeilen - DER SPIEGEL"..............................passed
+]]></system-out>
 </testcase>
-<testcase classname="Spiegel Plus" name="Spiegel plus read section 1 articles" time="69.986">
+<testcase classname="Spiegel Plus" name="Spiegel plus read section 1 articles" time="52.732">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I click SpiegelPlus....................................................passed
@@ -77,7 +77,7 @@ Then I click a random article of "first" section............................pass
 Then I click page down 3....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Plus" name="Spiegel plus read random section articles" time="48.63">
+<testcase classname="Spiegel Plus" name="Spiegel plus read random section articles" time="35.705">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I click SpiegelPlus....................................................passed
@@ -90,7 +90,7 @@ Then I click page down 3....................................................pass
 Then I go back to "Plus - DER SPIEGEL"......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Plus" name="Spiegel plus read audio section articles" time="36.361">
+<testcase classname="Spiegel Plus" name="Spiegel plus read audio section articles" time="31.978">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I click SpiegelPlus....................................................passed
@@ -103,7 +103,7 @@ Then I click page down 3....................................................pass
 Then I go back to "Plus - DER SPIEGEL"......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Plus" name="Spiegel plus read alle Beiträge section articles" time="44.107">
+<testcase classname="Spiegel Plus" name="Spiegel plus read alle Beiträge section articles" time="36.854">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I click SpiegelPlus....................................................passed
@@ -116,7 +116,7 @@ Then I go back to "Plus - DER SPIEGEL"......................................pass
 Then I paginate to "next" page..............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel StartPage" name="reading main article" time="23.748">
+<testcase classname="Spiegel StartPage" name="reading main article" time="26.734">
 <failure message="Index: 0, Size: 0" type="java.lang.Exception"><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then On start page I click random article of latests_news_section...........failed
@@ -130,7 +130,7 @@ java.lang.Exception: Index: 0, Size: 0
 	at ✽.On start page I click random article of latests_news_section(file:///C:/MyWorkspace/guineenews/src/test/resources/features/startPage.feature:13)
 ]]></failure>
 </testcase>
-<testcase classname="Spiegel StartPage" name="reading main article 2" time="37.796">
+<testcase classname="Spiegel StartPage" name="reading main article 2" time="23.903">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I click start page main_article........................................passed
@@ -139,7 +139,7 @@ Then I click page up 3......................................................pass
 Then I go back to "DER SPIEGEL | Online-Nachrichten"........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel StartPage" name="read news section articles" time="49.898">
+<testcase classname="Spiegel StartPage" name="read news section articles" time="39.351">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I scroll to "news_section" on start page................................passed
@@ -154,7 +154,7 @@ Then I click page down 6....................................................pass
 Then I click page up 3......................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel StartPage" name="alle Rubriken" time="32.487">
+<testcase classname="Spiegel StartPage" name="alle Rubriken" time="29.457">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I scroll to "alle_rubriken_section" on start page.......................passed
@@ -164,7 +164,7 @@ Then I click page up 3......................................................pass
 Then I go back to "DER SPIEGEL | Online-Nachrichten"........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel StartPage" name="alle Rubriken 2" time="35.097">
+<testcase classname="Spiegel StartPage" name="alle Rubriken 2" time="25.715">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I scroll to "alle_rubriken_section" on start page.......................passed
@@ -174,7 +174,7 @@ Then I click page up 3......................................................pass
 Then I go back to "DER SPIEGEL | Online-Nachrichten"........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel StartPage" name="alle Rubriken 3" time="38.732">
+<testcase classname="Spiegel StartPage" name="alle Rubriken 3" time="21.454">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I scroll to "alle_rubriken_section" on start page.......................passed
@@ -184,7 +184,7 @@ Then I click page up 3......................................................pass
 Then I go back to "DER SPIEGEL | Online-Nachrichten"........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel StartPage" name="alle Rubriken 4" time="34.53">
+<testcase classname="Spiegel StartPage" name="alle Rubriken 4" time="26.206">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I scroll to "alle_rubriken_section" on start page.......................passed
@@ -194,7 +194,7 @@ Then I click page up 3......................................................pass
 Then I go back to "DER SPIEGEL | Online-Nachrichten"........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel StartPage" name="stock section" time="24.257">
+<testcase classname="Spiegel StartPage" name="stock section" time="37.51">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I scroll to "stock_section" on start page...............................passed
@@ -206,7 +206,7 @@ Then I click page down 2....................................................pass
 Then I switch to "spiegel" tab..............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel StartPage" name="block channel section" time="35.872">
+<testcase classname="Spiegel StartPage" name="block channel section" time="26.106">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I scroll to "block_channel_section" on start page.......................passed
@@ -216,7 +216,7 @@ Then I click page up 3......................................................pass
 Then I go back to "DER SPIEGEL | Online-Nachrichten"........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel StartPage" name="block channel section 2" time="37.563">
+<testcase classname="Spiegel StartPage" name="block channel section 2" time="31.183">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I scroll to "block_channel_section" on start page.......................passed
@@ -226,7 +226,7 @@ Then I click page up 3......................................................pass
 Then I go back to "DER SPIEGEL | Online-Nachrichten"........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel StartPage" name="block channel section 3" time="31.096">
+<testcase classname="Spiegel StartPage" name="block channel section 3" time="23.767">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I scroll to "block_channel_section" on start page.......................passed
@@ -236,7 +236,7 @@ Then I click page up 3......................................................pass
 Then I go back to "DER SPIEGEL | Online-Nachrichten"........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel StartPage" name="block channel section 4" time="34.842">
+<testcase classname="Spiegel StartPage" name="block channel section 4" time="29.415">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I scroll to "block_channel_section" on start page.......................passed
@@ -246,7 +246,7 @@ Then I click page up 3......................................................pass
 Then I go back to "DER SPIEGEL | Online-Nachrichten"........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel StartPage" name="block channel section 5" time="33.741">
+<testcase classname="Spiegel StartPage" name="block channel section 5" time="31.672">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I scroll to "block_channel_section" on start page.......................passed
@@ -256,7 +256,7 @@ Then I click page up 3......................................................pass
 Then I go back to "DER SPIEGEL | Online-Nachrichten"........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel StartPage" name="block channel section 6" time="35.867">
+<testcase classname="Spiegel StartPage" name="block channel section 6" time="27.601">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I scroll to "block_channel_section" on start page.......................passed
@@ -266,7 +266,7 @@ Then I click page up 3......................................................pass
 Then I go back to "DER SPIEGEL | Online-Nachrichten"........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel StartPage" name="leben section articles" time="43.238">
+<testcase classname="Spiegel StartPage" name="leben section articles" time="31.972">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I scroll to "leben_section" on start page...............................passed
@@ -281,7 +281,7 @@ Then I click page down 6....................................................pass
 Then I click page up 3......................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel StartPage" name="highligh section" time="32.707">
+<testcase classname="Spiegel StartPage" name="highligh section" time="28.894">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I scroll to "highlight_section" on start page...........................passed
@@ -291,7 +291,7 @@ Then I click page up 15.....................................................pass
 Then I go back to "DER SPIEGEL | Online-Nachrichten"........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel StartPage" name="top bei spiegel spiegel" time="51.846">
+<testcase classname="Spiegel StartPage" name="top bei spiegel spiegel" time="35.942">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I scroll to "top_bei_spiegel_section" on start page.....................passed
@@ -306,7 +306,7 @@ Then I click page up 3......................................................pass
 Then I go back to "DER SPIEGEL | Online-Nachrichten"........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel StartPage" name="meist gelesene section" time="54.249">
+<testcase classname="Spiegel StartPage" name="meist gelesene section" time="43.147">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I scroll to "meist_gelesene_section" on start page......................passed

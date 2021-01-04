@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="20" time="805.548">
-<testcase classname="Spiegel Left Menu Navigation" name="LeftMenuSearch" time="44.827">
+<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="20" time="825.377">
+<testcase classname="Spiegel Left Menu Navigation" name="LeftMenuSearch" time="54.426">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
@@ -14,7 +14,7 @@ Then I filter results by "Letztes Jahr".....................................pass
 Then I filter results by "seit 2005"........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="LeftMenuSearch_2" time="47.002">
+<testcase classname="Spiegel Left Menu Navigation" name="LeftMenuSearch_2" time="35.223">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
@@ -28,7 +28,7 @@ Then I filter results by "Letztes Jahr".....................................pass
 Then I filter results by "seit 2005"........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="LeftMenuSearch_3" time="47.675">
+<testcase classname="Spiegel Left Menu Navigation" name="LeftMenuSearch_3" time="33.48">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
@@ -42,7 +42,7 @@ Then I filter results by "Letztes Jahr".....................................pass
 Then I filter results by "seit 2005"........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="LeftMenuSearch_4" time="41.441">
+<testcase classname="Spiegel Left Menu Navigation" name="LeftMenuSearch_4" time="32.422">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
@@ -56,29 +56,21 @@ Then I filter results by "Letztes Jahr".....................................pass
 Then I filter results by "seit 2005"........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="LeftMenuSearch_5" time="38">
-<failure message="Error&#10;Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'&#10;System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'&#10;Driver info: driver.version: unknown" type="java.lang.Exception"><![CDATA[Given I start Spiegel.......................................................passed
+<testcase classname="Spiegel Left Menu Navigation" name="LeftMenuSearch_5" time="29.028">
+<system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
 Then I enter Angela Merkel and press enter..................................passed
 Then I click weiter 3.......................................................passed
 Then I click zurück 1.......................................................passed
-Then I click a "random" article on search results page......................failed
-Then I click page down 3....................................................skipped
-Then I go back to "Suche - DER SPIEGEL".....................................skipped
-Then I filter results by "Letztes Jahr".....................................skipped
-Then I filter results by "seit 2005"........................................skipped
-
-StackTrace:
-java.lang.Exception: Error
-Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
-System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
-Driver info: driver.version: unknown
-	at steps.SearchPageSteps.i_click_a_article_on_search_results_page(SearchPageSteps.java:56)
-	at ✽.I click a "random" article on search results page(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:21)
-]]></failure>
+Then I click a "random" article on search results page......................passed
+Then I click page down 3....................................................passed
+Then I go back to "Suche - DER SPIEGEL".....................................passed
+Then I filter results by "Letztes Jahr".....................................passed
+Then I filter results by "seit 2005"........................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="Leftmenu" time="44.407">
+<testcase classname="Spiegel Left Menu Navigation" name="Leftmenu" time="20.901">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
@@ -87,7 +79,7 @@ Then I click a "random" article of alle Beitraege section...................pass
 Then I click page down 3....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="Leftmenu_2" time="53.773">
+<testcase classname="Spiegel Left Menu Navigation" name="Leftmenu_2" time="28.381">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
@@ -96,7 +88,7 @@ Then I click a "random" article of alle Beitraege section...................pass
 Then I click page down 3....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="Leftmenu_3" time="41.904">
+<testcase classname="Spiegel Left Menu Navigation" name="Leftmenu_3" time="24.996">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
@@ -105,7 +97,7 @@ Then I click a "random" article of alle Beitraege section...................pass
 Then I click page down 3....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="Leftmenu_4" time="36.19">
+<testcase classname="Spiegel Left Menu Navigation" name="Leftmenu_4" time="31.947">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
@@ -114,7 +106,7 @@ Then I click a "random" article of alle Beitraege section...................pass
 Then I click page down 3....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="Leftmenu_5" time="34.957">
+<testcase classname="Spiegel Left Menu Navigation" name="Leftmenu_5" time="22.792">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
@@ -123,7 +115,7 @@ Then I click a "random" article of alle Beitraege section...................pass
 Then I click page down 3....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu" time="40.261">
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu" time="32.661">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
@@ -132,25 +124,114 @@ Then I click a "random" article of alle Beitraege section...................pass
 Then I click page down 3....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 2" time="42.235">
-<system-out><![CDATA[Given I start Spiegel.......................................................passed
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 2" time="203.723">
+<failure message="" type="java.lang.AssertionError"><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
 Then I click leftSubMenu Afrika in Ausland..................................passed
-Then I click a "random" article of alle Beitraege section...................passed
-Then I click page down 3....................................................passed
-]]></system-out>
+Then I click a "random" article of alle Beitraege section...................failed
+Then I click page down 3....................................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at steps.HelperSteps.i_click_article_of_alle_Beitraege_section(HelperSteps.java:163)
+	at ✽.I click a "random" article of alle Beitraege section(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:61)
+]]></failure>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 3" time="39.451">
-<system-out><![CDATA[Given I start Spiegel.......................................................passed
-Then I click Akzeptieren und weiter.........................................passed
-And I click TopMenuButton...................................................passed
-Then I click leftSubMenu Leute in Panorama..................................passed
-Then I click a "random" article of alle Beitraege section...................passed
-Then I click page down 3....................................................passed
-]]></system-out>
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 3" time="120.194">
+<failure message="Error communicating with the remote browser. It may have died.&#10;Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'&#10;System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'&#10;Driver info: driver.version: RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60243}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: a45a11225738acf4d944b8922acdf05f" type="org.openqa.selenium.remote.UnreachableBrowserException"><![CDATA[Given I start Spiegel.......................................................failed
+Then I click Akzeptieren und weiter.........................................skipped
+And I click TopMenuButton...................................................skipped
+Then I click leftSubMenu Leute in Panorama..................................skipped
+Then I click a "random" article of alle Beitraege section...................skipped
+Then I click page down 3....................................................skipped
+
+StackTrace:
+org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
+System info: host: 'LAPTOP-RN5VIIS5', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: driver.version: RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60243}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a45a11225738acf4d944b8922acdf05f
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:522)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:273)
+	at steps.MenuSteps.i_start_Spiegel(MenuSteps.java:40)
+	at ✽.I start Spiegel(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:6)
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:72)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:47)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:60)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:123)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:501)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:273)
+	at steps.MenuSteps.i_start_Spiegel(MenuSteps.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:63)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:99)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:39247 after 60000 ms
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1895)
+	at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:201)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:57)
+	... 56 more
+Caused by: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:39247 after 60000 ms
+	at org.asynchttpclient.netty.timeout.TimeoutTimerTask.expire(TimeoutTimerTask.java:43)
+	at org.asynchttpclient.netty.timeout.RequestTimeoutTimerTask.run(RequestTimeoutTimerTask.java:50)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:672)
+	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:747)
+	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:472)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+]]></failure>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 4" time="40.913">
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 4" time="28.251">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
@@ -159,7 +240,7 @@ Then I click a "random" article of alle Beitraege section...................pass
 Then I click page down 3....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 5" time="40.899">
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 5" time="23.893">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
@@ -168,7 +249,7 @@ Then I click a "random" article of alle Beitraege section...................pass
 Then I click page down 3....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 6" time="45.055">
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 6" time="24.092">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
@@ -177,7 +258,7 @@ Then I click a "random" article of alle Beitraege section...................pass
 Then I click page down 3....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 7" time="44.861">
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 7" time="26.925">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
@@ -186,7 +267,7 @@ Then I click a "random" article of alle Beitraege section...................pass
 Then I click page down 3....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 8" time="40.315">
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 8" time="25.356">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
@@ -195,7 +276,7 @@ Then I click a "random" article of alle Beitraege section...................pass
 Then I click page down 3....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 9" time="40.652">
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 9" time="26.286">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed

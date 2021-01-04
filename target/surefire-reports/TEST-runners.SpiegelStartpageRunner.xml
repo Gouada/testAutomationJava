@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="26" failures="1" name="runners.SpiegelStartpageRunner" time="1,085.663" errors="1" skipped="0">
+<testsuite tests="26" failures="1" name="runners.SpiegelStartpageRunner" time="930.242" errors="1" skipped="0">
   <properties>
     <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -32,15 +32,15 @@
     <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 142 Stepping 10, GenuineIntel"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="LOCALAPPDATA" value="C:\Users\Lenovo\AppData\Local"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://127.0.0.1:8080/job/Webium-Automation/153/display/redirect?page=changes"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://127.0.0.1:8080/job/Webium-Automation/156/display/redirect?page=changes"/>
     <property name="user.timezone" value="Europe/Berlin"/>
     <property name="user.script" value=""/>
     <property name="path.separator" value=";"/>
     <property name="NUMBER_OF_PROCESSORS" value="8"/>
-    <property name="BUILD_TAG" value="jenkins-Webium-Automation-153"/>
+    <property name="BUILD_TAG" value="jenkins-Webium-Automation-156"/>
     <property name="PYTHONPATH" value="C:\python37;C:\python37\Scripts;C:\python37\DLLs;C:\python37\Lib;C:\python37\libs;"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\apache-maven-3.5.3 C:\Users\Lenovo\.jenkins\war\WEB-INF\lib\remoting-4.5.jar C:\Users\Lenovo\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar C:\Users\Lenovo\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar 64319"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\apache-maven-3.5.3 C:\Users\Lenovo\.jenkins\war\WEB-INF\lib\remoting-4.5.jar C:\Users\Lenovo\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar C:\Users\Lenovo\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar 57825"/>
     <property name="HUDSON_URL" value="http://127.0.0.1:8080/"/>
     <property name="JENKINS_SERVER_COOKIE" value="0631cecedd819be2"/>
     <property name="POSTGRESQLPATH" value="C:\Program Files\PostgreSQL\12\bin;C:\Program Files\PostgreSQL\12\lib"/>
@@ -51,14 +51,14 @@
     <property name="user.language" value="de"/>
     <property name="line.separator" value="
 "/>
-    <property name="BUILD_URL" value="http://127.0.0.1:8080/job/Webium-Automation/153/"/>
+    <property name="BUILD_URL" value="http://127.0.0.1:8080/job/Webium-Automation/156/"/>
     <property name="M2_HOME" value="C:\apache-maven-3.5.3"/>
     <property name="=C:" value="C:\jenkins"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
     <property name="sun.desktop" value="windows"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="BUILD_DISPLAY_NAME" value="#153"/>
+    <property name="BUILD_DISPLAY_NAME" value="#156"/>
     <property name="OS" value="Windows_NT"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="HUDSON_SERVER_COOKIE" value="0631cecedd819be2"/>
@@ -73,7 +73,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="153"/>
+    <property name="BUILD_NUMBER" value="156"/>
     <property name="maven3.interceptor" value="C:\Users\Lenovo\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\apache-maven-3.5.3/bin;C:\Program Files\Java\jdk1.8.0_172/bin;C:\Program Files\Java\jdk1.8.0_172/bin;C:\python37\Scripts\;C:\python37\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_172;C:\apache-maven-3.5.3\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Users\Lenovo\AppData\Local\Android\Sdk;C:\Users\Lenovo\AppData\Local\Android\Sdk\tools;C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools;C:\WINDOWS\System32\OpenSSH\;C:\MyWorkspace\SeleniumChromeDriver\;C:\python37;C:\python37\Scripts;C:\python37\DLLs;C:\python37\Lib;C:\python37\libs;;C:\Program Files\PostgreSQL\12\bin;C:\Program Files\PostgreSQL\12\lib;C:\MyWorkspace\SeleniumChromeDriver\83\;C:\MyWorkspace\SeleniumFirefoxDriver\2.6\;C:\MyWorkspace\IEDriver\;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Users\Lenovo\AppData\Roaming\npm;C:\Users\Lenovo\AppData\Roaming\Dashlane\5.12.0.19744\bin\Firefox_Extension\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\components;C:\Users\Lenovo\AppData\Roaming\Dashlane\5.12.0.19744\ucrt;;."/>
     <property name="HOMEDRIVE" value="C:"/>
@@ -82,9 +82,9 @@
     <property name="java.class.version" value="52.0"/>
     <property name="JOB_URL" value="http://127.0.0.1:8080/job/Webium-Automation/"/>
     <property name="OneDrive" value="C:\Users\Lenovo\OneDrive"/>
-    <property name="RUN_DISPLAY_URL" value="http://127.0.0.1:8080/job/Webium-Automation/153/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://127.0.0.1:8080/job/Webium-Automation/156/display/redirect"/>
     <property name="JENKINS_HOME" value="C:\Users\Lenovo\.jenkins"/>
-    <property name="BUILD_ID" value="153"/>
+    <property name="BUILD_ID" value="156"/>
     <property name="TEMP" value="C:\Users\Lenovo\AppData\Local\Temp"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_172\jre\bin"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -147,53 +147,47 @@
     <property name="POM_DISPLAYNAME" value="guineenews"/>
     <property name="sun.arch.data.model" value="64"/>
   </properties>
-  <testcase classname="Coronavirus" name="Spiegel Coronavirus read section 1 articles" time="69.832"/>
-  <testcase classname="Coronavirus" name="Spiegel Coronavirus read random section articles" time="31.691"/>
-  <testcase classname="Coronavirus" name="Spiegel Coronavirus read alle Beiträge section articles" time="49.157"/>
-  <testcase classname="Spiegel Schlagzeilen" name="reading Schlagzeilen article" time="68.178">
+  <testcase classname="Coronavirus" name="Spiegel Coronavirus read section 1 articles" time="108.322"/>
+  <testcase classname="Coronavirus" name="Spiegel Coronavirus read random section articles" time="29.15"/>
+  <testcase classname="Coronavirus" name="Spiegel Coronavirus read alle Beiträge section articles" time="39.756">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
-	at steps.HelperSteps.i_go_back_to(HelperSteps.java:116)
-	at ✽.I go back to &quot;Schlagzeilen - DER SPIEGEL&quot;(file:///C:/MyWorkspace/guineenews/src/test/resources/features/schlagzeilen.feature:18)
+	at steps.HelperSteps.i_click_article_of_alle_Beitraege_section(HelperSteps.java:163)
+	at ✽.I click a &quot;random&quot; article of alle Beitraege section(file:///C:/MyWorkspace/guineenews/src/test/resources/features/coronaVirus.feature:41)
 </failure>
     <system-out>
-@spiegelSchlagzeilen @start @end @readSchlagzeilenArticle
-Scenario: reading Schlagzeilen article                      &amp;#27;[90m# src/test/resources/features/schlagzeilen.feature:15&amp;#27;[0m
-starting test ...
-  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mI start Spiegel&amp;#27;[0m                                     &amp;#27;[90m# steps.MenuSteps.i_start_Spiegel()&amp;#27;[0m
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click Akzeptieren und weiter&amp;#27;[0m                       &amp;#27;[90m# steps.MenuSteps.i_click_Akzeptieren_und_weiter()&amp;#27;[0m
-  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI click TopMenu &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;Schlagzeilen&quot;&amp;#27;[0m                        &amp;#27;[90m# steps.MenuSteps.i_click_top_menu(java.lang.String)&amp;#27;[0m
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click a &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;first&quot;&amp;#27;[0m&amp;#27;[32m article of alle Beitraege section&amp;#27;[0m  &amp;#27;[90m# steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)&amp;#27;[0m
-  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click page down &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m6&amp;#27;[0m                                  &amp;#27;[90m# steps.HelperSteps.i_click_page_down(int)&amp;#27;[0m
+@spiegelCoronavirus @end
+Scenario: Spiegel Coronavirus read alle BeitrÃ¤ge section articles &amp;#27;[90m# src/test/resources/features/coronaVirus.feature:37&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mI start Spiegel&amp;#27;[0m                                           &amp;#27;[90m# steps.MenuSteps.i_start_Spiegel()&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click Akzeptieren und weiter&amp;#27;[0m                             &amp;#27;[90m# steps.MenuSteps.i_click_Akzeptieren_und_weiter()&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI click TopMenu &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;Coronavirus&quot;&amp;#27;[0m                              &amp;#27;[90m# steps.MenuSteps.i_click_top_menu(java.lang.String)&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI scroll to &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;alle_Beitraege&quot;&amp;#27;[0m&amp;#27;[32m section&amp;#27;[0m                       &amp;#27;[90m# steps.SpiegelPlusSteps.i_scroll_to_section(java.lang.String)&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI scroll to alle Beitraege &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;last&quot;&amp;#27;[0m&amp;#27;[32m article&amp;#27;[0m                  &amp;#27;[90m# steps.HelperSteps.i_scroll_to_alle_Beitraegearticle(java.lang.String)&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI scroll to alle Beitraege &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;random&quot;&amp;#27;[0m&amp;#27;[32m article&amp;#27;[0m                &amp;#27;[90m# steps.HelperSteps.i_scroll_to_alle_Beitraegearticle(java.lang.String)&amp;#27;[0m
+rndId: 2  alle_beitraege_list:    //section[@data-area=&apos;article-teaser-list&apos;]//div[@data-block-el=&apos;articleTeaser&apos;]//article//h2//a
 ..taking screenshot..
 .. screenshot taken..
-  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mI go back to &amp;#27;[0m&amp;#27;[31m&amp;#27;[1m&quot;Schlagzeilen - DER SPIEGEL&quot;&amp;#27;[0m            &amp;#27;[90m# steps.HelperSteps.i_go_back_to(java.lang.String)&amp;#27;[0m
+..taking screenshot..
+.. screenshot taken..
+  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mI click a &amp;#27;[0m&amp;#27;[31m&amp;#27;[1m&quot;random&quot;&amp;#27;[0m&amp;#27;[31m article of alle Beitraege section&amp;#27;[0m       &amp;#27;[90m# steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)&amp;#27;[0m
       &amp;#27;[31mjava.lang.AssertionError
-	at steps.HelperSteps.i_go_back_to(HelperSteps.java:116)
-	at âœ½.I go back to &quot;Schlagzeilen - DER SPIEGEL&quot;(file:///C:/MyWorkspace/guineenews/src/test/resources/features/schlagzeilen.feature:18)
+	at steps.HelperSteps.i_click_article_of_alle_Beitraege_section(HelperSteps.java:163)
+	at âœ½.I click a &quot;random&quot; article of alle Beitraege section(file:///C:/MyWorkspace/guineenews/src/test/resources/features/coronaVirus.feature:41)
 &amp;#27;[0m
 screenshot name ist: 
-reading_Schlagzeilen_article
+Spiegel_Coronavirus_read_alle_Beiträge_section_articles
 ..taking screenshot..
 .. screenshot taken..
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click a &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;random&quot;&amp;#27;[0m&amp;#27;[36m article of alle Beitraege section&amp;#27;[0m &amp;#27;[90m# steps.HelperSteps.i_click_article_of_alle_Beitraege_section(java.lang.String)&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click page down &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m6&amp;#27;[0m                                  &amp;#27;[90m# steps.HelperSteps.i_click_page_down(int)&amp;#27;[0m
-  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI go back to &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;Schlagzeilen - DER SPIEGEL&quot;&amp;#27;[0m            &amp;#27;[90m# steps.HelperSteps.i_go_back_to(java.lang.String)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click page down &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m3&amp;#27;[0m                                        &amp;#27;[90m# steps.HelperSteps.i_click_page_down(int)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI go back to &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;Coronavirus - DER SPIEGEL&quot;&amp;#27;[0m                   &amp;#27;[90m# steps.HelperSteps.i_go_back_to(java.lang.String)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI paginate to &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;next&quot;&amp;#27;[0m&amp;#27;[36m page&amp;#27;[0m                                  &amp;#27;[90m# steps.HelperSteps.i_paginate_to_next_page(java.lang.String)&amp;#27;[0m
 </system-out>
-    <system-err>Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 19582
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Dez 14, 2020 12:34:37 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFORMATION: Detected dialect: W3C
-Dez 14, 2020 12:34:37 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNUNG: Unable to find an exact match for CDP version 87, so returning the closest version found: 86
-Dez 14, 2020 12:34:37 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFORMATION: Found CDP implementation for version 87 of 86
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at steps.HelperSteps.i_go_back_to(HelperSteps.java:108)
+    <system-err>org.openqa.selenium.ElementClickInterceptedException: Error
+Build info: version: &apos;4.0.0-alpha-7&apos;, revision: &apos;de8579b6d5&apos;
+System info: host: &apos;LAPTOP-RN5VIIS5&apos;, ip: &apos;192.168.142.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: driver.version: unknown
+	at core.SeleniumDriverWrapper.clickElement(SeleniumDriverWrapper.java:165)
+	at pages.ArticlesListBasePage.clickRandomArticleOfAlleBeitraegeSection(ArticlesListBasePage.java:57)
+	at steps.HelperSteps.i_click_article_of_alle_Beitraege_section(HelperSteps.java:151)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -241,11 +235,12 @@ java.lang.AssertionError
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </system-err>
   </testcase>
-  <testcase classname="Spiegel Plus" name="Spiegel plus read section 1 articles" time="70.002"/>
-  <testcase classname="Spiegel Plus" name="Spiegel plus read random section articles" time="48.639"/>
-  <testcase classname="Spiegel Plus" name="Spiegel plus read audio section articles" time="36.367"/>
-  <testcase classname="Spiegel Plus" name="Spiegel plus read alle Beiträge section articles" time="44.113"/>
-  <testcase classname="Spiegel StartPage" name="reading main article #1" time="23.764">
+  <testcase classname="Spiegel Schlagzeilen" name="reading Schlagzeilen article" time="55.621"/>
+  <testcase classname="Spiegel Plus" name="Spiegel plus read section 1 articles" time="52.736"/>
+  <testcase classname="Spiegel Plus" name="Spiegel plus read random section articles" time="35.712"/>
+  <testcase classname="Spiegel Plus" name="Spiegel plus read audio section articles" time="31.982"/>
+  <testcase classname="Spiegel Plus" name="Spiegel plus read alle Beiträge section articles" time="36.859"/>
+  <testcase classname="Spiegel StartPage" name="reading main article #1" time="26.735">
     <error message="Index: 0, Size: 0" type="java.lang.Exception">java.lang.Exception: Index: 0, Size: 0
 	at steps.StartpageSteps.i_click_article_of(StartpageSteps.java:55)
 	at ✽.On start page I click random article of latests_news_section(file:///C:/MyWorkspace/guineenews/src/test/resources/features/startPage.feature:13)
@@ -272,15 +267,15 @@ reading_main_article
   &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI click page up &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m3&amp;#27;[0m                                            &amp;#27;[90m# steps.HelperSteps.i_click_page_up(int)&amp;#27;[0m
   &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI go back to &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;DER SPIEGEL | Online-Nachrichten&quot;&amp;#27;[0m              &amp;#27;[90m# steps.HelperSteps.i_go_back_to(java.lang.String)&amp;#27;[0m
 </system-out>
-    <system-err>Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 34923
+    <system-err>Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 12806
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Dez 14, 2020 12:39:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Dez 28, 2020 3:38:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMATION: Detected dialect: W3C
-Dez 14, 2020 12:39:05 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Dez 28, 2020 3:38:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNUNG: Unable to find an exact match for CDP version 87, so returning the closest version found: 86
-Dez 14, 2020 12:39:05 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Dez 28, 2020 3:38:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFORMATION: Found CDP implementation for version 87 of 86
 java.io.IOException: Die Syntax für den Dateinamen, Verzeichnisnamen oder die Datenträgerbezeichnung ist falsch
 	at java.io.WinNTFileSystem.canonicalize0(Native Method)
@@ -338,21 +333,21 @@ java.io.IOException: Die Syntax für den Dateinamen, Verzeichnisnamen oder die D
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </system-err>
   </testcase>
-  <testcase classname="Spiegel StartPage" name="reading main article #2" time="37.809"/>
-  <testcase classname="Spiegel StartPage" name="read news section articles" time="49.905"/>
-  <testcase classname="Spiegel StartPage" name="alle Rubriken #1" time="32.493"/>
-  <testcase classname="Spiegel StartPage" name="alle Rubriken #2" time="35.106"/>
-  <testcase classname="Spiegel StartPage" name="alle Rubriken #3" time="38.738"/>
-  <testcase classname="Spiegel StartPage" name="alle Rubriken #4" time="34.535"/>
-  <testcase classname="Spiegel StartPage" name="stock section" time="24.265"/>
-  <testcase classname="Spiegel StartPage" name="block channel section #1" time="35.877"/>
-  <testcase classname="Spiegel StartPage" name="block channel section #2" time="37.565"/>
-  <testcase classname="Spiegel StartPage" name="block channel section #3" time="31.102"/>
-  <testcase classname="Spiegel StartPage" name="block channel section #4" time="34.845"/>
-  <testcase classname="Spiegel StartPage" name="block channel section #5" time="33.747"/>
-  <testcase classname="Spiegel StartPage" name="block channel section #6" time="35.871"/>
-  <testcase classname="Spiegel StartPage" name="leben section articles" time="43.244"/>
-  <testcase classname="Spiegel StartPage" name="highligh section" time="32.711"/>
-  <testcase classname="Spiegel StartPage" name="top bei spiegel spiegel" time="51.852"/>
-  <testcase classname="Spiegel StartPage" name="meist gelesene section" time="54.255"/>
+  <testcase classname="Spiegel StartPage" name="reading main article #2" time="23.907"/>
+  <testcase classname="Spiegel StartPage" name="read news section articles" time="39.356"/>
+  <testcase classname="Spiegel StartPage" name="alle Rubriken #1" time="29.462"/>
+  <testcase classname="Spiegel StartPage" name="alle Rubriken #2" time="25.719"/>
+  <testcase classname="Spiegel StartPage" name="alle Rubriken #3" time="21.461"/>
+  <testcase classname="Spiegel StartPage" name="alle Rubriken #4" time="26.21"/>
+  <testcase classname="Spiegel StartPage" name="stock section" time="37.514"/>
+  <testcase classname="Spiegel StartPage" name="block channel section #1" time="26.116"/>
+  <testcase classname="Spiegel StartPage" name="block channel section #2" time="31.187"/>
+  <testcase classname="Spiegel StartPage" name="block channel section #3" time="23.77"/>
+  <testcase classname="Spiegel StartPage" name="block channel section #4" time="29.418"/>
+  <testcase classname="Spiegel StartPage" name="block channel section #5" time="31.676"/>
+  <testcase classname="Spiegel StartPage" name="block channel section #6" time="27.606"/>
+  <testcase classname="Spiegel StartPage" name="leben section articles" time="31.977"/>
+  <testcase classname="Spiegel StartPage" name="highligh section" time="28.896"/>
+  <testcase classname="Spiegel StartPage" name="top bei spiegel spiegel" time="35.945"/>
+  <testcase classname="Spiegel StartPage" name="meist gelesene section" time="43.149"/>
 </testsuite>

@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5833000000,
+              "duration": 9216000000,
               "status": "passed"
             },
             "line": 5,
@@ -34,7 +34,7 @@
           },
           {
             "result": {
-              "duration": 270000000,
+              "duration": 509000000,
               "status": "passed"
             },
             "line": 6,
@@ -56,7 +56,7 @@
           },
           {
             "result": {
-              "duration": 27824000000,
+              "duration": 25197000000,
               "status": "passed"
             },
             "line": 8,
@@ -85,11 +85,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-13T23:32:03.422Z",
+        "start_timestamp": "2020-12-28T14:32:09.621Z",
         "before": [
           {
             "result": {
-              "duration": 14460000000,
+              "duration": 17774000000,
               "status": "passed"
             },
             "match": {
@@ -106,7 +106,7 @@
         "steps": [
           {
             "result": {
-              "duration": 438000000,
+              "duration": 19768000000,
               "status": "passed"
             },
             "line": 13,
@@ -134,7 +134,7 @@
           },
           {
             "result": {
-              "duration": 153000000,
+              "duration": 536000000,
               "status": "passed"
             },
             "line": 14,
@@ -162,7 +162,7 @@
           },
           {
             "result": {
-              "duration": 3752000000,
+              "duration": 4004000000,
               "status": "passed"
             },
             "line": 15,
@@ -190,7 +190,7 @@
           },
           {
             "result": {
-              "duration": 5174000000,
+              "duration": 10651000000,
               "status": "passed"
             },
             "line": 16,
@@ -218,7 +218,7 @@
           },
           {
             "result": {
-              "duration": 62000000,
+              "duration": 49000000,
               "status": "passed"
             },
             "line": 17,
@@ -246,7 +246,7 @@
           },
           {
             "result": {
-              "duration": 3626000000,
+              "duration": 3552000000,
               "status": "passed"
             },
             "line": 18,
@@ -274,7 +274,7 @@
           },
           {
             "result": {
-              "duration": 2799000000,
+              "duration": 5889000000,
               "status": "passed"
             },
             "line": 19,
@@ -302,7 +302,7 @@
           },
           {
             "result": {
-              "duration": 24000000,
+              "duration": 141000000,
               "status": "passed"
             },
             "line": 20,
@@ -330,7 +330,7 @@
           },
           {
             "result": {
-              "duration": 1820000000,
+              "duration": 1238000000,
               "status": "passed"
             },
             "line": 21,
@@ -347,7 +347,6 @@
             "after": [
               {
                 "result": {
-                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -359,7 +358,7 @@
           },
           {
             "result": {
-              "duration": 3089000000,
+              "duration": 9097000000,
               "status": "passed"
             },
             "line": 22,
@@ -387,7 +386,7 @@
           },
           {
             "result": {
-              "duration": 182000000,
+              "duration": 28000000,
               "status": "passed"
             },
             "line": 23,
@@ -435,7 +434,7 @@
         "steps": [
           {
             "result": {
-              "duration": 12424000000,
+              "duration": 12330000000,
               "status": "passed"
             },
             "line": 5,
@@ -457,7 +456,7 @@
           },
           {
             "result": {
-              "duration": 5210000000,
+              "duration": 5144000000,
               "status": "passed"
             },
             "line": 6,
@@ -479,7 +478,7 @@
           },
           {
             "result": {
-              "duration": 5312000000,
+              "duration": 6179000000,
               "status": "passed"
             },
             "line": 8,
@@ -496,6 +495,7 @@
             "after": [
               {
                 "result": {
+                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -508,7 +508,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-13T23:33:13.100Z",
+        "start_timestamp": "2020-12-28T14:33:57.543Z",
         "line": 25,
         "name": "Spiegel Coronavirus read random section articles",
         "description": "",
@@ -518,7 +518,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1290000000,
+              "duration": 186000000,
               "status": "passed"
             },
             "line": 26,
@@ -535,6 +535,7 @@
             "after": [
               {
                 "result": {
+                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -546,7 +547,7 @@
           },
           {
             "result": {
-              "duration": 1388000000,
+              "duration": 303000000,
               "status": "passed"
             },
             "line": 27,
@@ -574,7 +575,7 @@
           },
           {
             "result": {
-              "duration": 174000000,
+              "duration": 37000000,
               "status": "passed"
             },
             "line": 28,
@@ -591,7 +592,6 @@
             "after": [
               {
                 "result": {
-                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -603,7 +603,7 @@
           },
           {
             "result": {
-              "duration": 2156000000,
+              "duration": 2629000000,
               "status": "passed"
             },
             "line": 29,
@@ -631,7 +631,7 @@
           },
           {
             "result": {
-              "duration": 3431000000,
+              "duration": 2014000000,
               "status": "passed"
             },
             "line": 31,
@@ -659,7 +659,7 @@
           },
           {
             "result": {
-              "duration": 229000000,
+              "duration": 80000000,
               "status": "passed"
             },
             "line": 32,
@@ -687,7 +687,7 @@
           },
           {
             "result": {
-              "duration": 51000000,
+              "duration": 226000000,
               "status": "passed"
             },
             "line": 33,
@@ -723,7 +723,7 @@
         "steps": [
           {
             "result": {
-              "duration": 14035000000,
+              "duration": 13327000000,
               "status": "passed"
             },
             "line": 5,
@@ -745,7 +745,7 @@
           },
           {
             "result": {
-              "duration": 5196000000,
+              "duration": 5137000000,
               "status": "passed"
             },
             "line": 6,
@@ -756,6 +756,7 @@
             "after": [
               {
                 "result": {
+                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -767,7 +768,7 @@
           },
           {
             "result": {
-              "duration": 5272000000,
+              "duration": 6056000000,
               "status": "passed"
             },
             "line": 8,
@@ -784,6 +785,7 @@
             "after": [
               {
                 "result": {
+                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -796,7 +798,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-13T23:33:44.787Z",
+        "start_timestamp": "2020-12-28T14:34:26.694Z",
         "line": 37,
         "name": "Spiegel Coronavirus read alle Beiträge section articles",
         "description": "",
@@ -804,7 +806,7 @@
         "after": [
           {
             "result": {
-              "duration": 1923000000,
+              "duration": 1512000000,
               "status": "passed"
             },
             "match": {
@@ -817,7 +819,7 @@
         "steps": [
           {
             "result": {
-              "duration": 173000000,
+              "duration": 167000000,
               "status": "passed"
             },
             "line": 38,
@@ -845,7 +847,7 @@
           },
           {
             "result": {
-              "duration": 3381000000,
+              "duration": 3258000000,
               "status": "passed"
             },
             "line": 39,
@@ -873,7 +875,7 @@
           },
           {
             "result": {
-              "duration": 3295000000,
+              "duration": 3273000000,
               "status": "passed"
             },
             "line": 40,
@@ -901,8 +903,9 @@
           },
           {
             "result": {
-              "duration": 8846000000,
-              "status": "passed"
+              "error_message": "java.lang.AssertionError\r\n\tat steps.HelperSteps.i_click_article_of_alle_Beitraege_section(HelperSteps.java:163)\r\n\tat ✽.I click a \"random\" article of alle Beitraege section(file:///C:/MyWorkspace/guineenews/src/test/resources/features/coronaVirus.feature:41)\r\n",
+              "duration": 6574000000,
+              "status": "failed"
             },
             "line": 41,
             "name": "I click a \"random\" article of alle Beitraege section",
@@ -918,6 +921,7 @@
             "after": [
               {
                 "result": {
+                  "duration": 427000000,
                   "status": "passed"
                 },
                 "match": {
@@ -929,8 +933,7 @@
           },
           {
             "result": {
-              "duration": 74000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 42,
             "name": "I click page down 3",
@@ -946,7 +949,7 @@
             "after": [
               {
                 "result": {
-                  "status": "passed"
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
@@ -957,8 +960,7 @@
           },
           {
             "result": {
-              "duration": 3870000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 43,
             "name": "I go back to \"Coronavirus - DER SPIEGEL\"",
@@ -974,7 +976,7 @@
             "after": [
               {
                 "result": {
-                  "status": "passed"
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
@@ -985,8 +987,7 @@
           },
           {
             "result": {
-              "duration": 3072000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 44,
             "name": "I paginate to \"next\" page",
@@ -1002,7 +1003,7 @@
             "after": [
               {
                 "result": {
-                  "status": "passed"
+                  "status": "skipped"
                 },
                 "match": {
                   "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
@@ -1050,7 +1051,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5453000000,
+              "duration": 4247000000,
               "status": "passed"
             },
             "line": 8,
@@ -1072,7 +1073,7 @@
           },
           {
             "result": {
-              "duration": 1599000000,
+              "duration": 244000000,
               "status": "passed"
             },
             "line": 9,
@@ -1094,7 +1095,7 @@
           },
           {
             "result": {
-              "duration": 19112000000,
+              "duration": 19458000000,
               "status": "passed"
             },
             "line": 10,
@@ -1123,11 +1124,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-13T23:34:33.949Z",
+        "start_timestamp": "2020-12-28T14:35:06.444Z",
         "before": [
           {
             "result": {
-              "duration": 3502000000,
+              "duration": 3152000000,
               "status": "passed"
             },
             "match": {
@@ -1142,7 +1143,7 @@
         "after": [
           {
             "result": {
-              "duration": 1259000000,
+              "duration": 1543000000,
               "status": "passed"
             },
             "match": {
@@ -1155,7 +1156,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1732000000,
+              "duration": 7632000000,
               "status": "passed"
             },
             "line": 16,
@@ -1183,7 +1184,7 @@
           },
           {
             "result": {
-              "duration": 375000000,
+              "duration": 427000000,
               "status": "passed"
             },
             "line": 17,
@@ -1211,9 +1212,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError\r\n\tat steps.HelperSteps.i_go_back_to(HelperSteps.java:116)\r\n\tat ✽.I go back to \"Schlagzeilen - DER SPIEGEL\"(file:///C:/MyWorkspace/guineenews/src/test/resources/features/schlagzeilen.feature:18)\r\n",
-              "duration": 34444000000,
-              "status": "failed"
+              "duration": 4576000000,
+              "status": "passed"
             },
             "line": 18,
             "name": "I go back to \"Schlagzeilen - DER SPIEGEL\"",
@@ -1229,7 +1229,7 @@
             "after": [
               {
                 "result": {
-                  "duration": 672000000,
+                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -1241,7 +1241,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 10556000000,
+              "status": "passed"
             },
             "line": 19,
             "name": "I click a \"random\" article of alle Beitraege section",
@@ -1257,7 +1258,7 @@
             "after": [
               {
                 "result": {
-                  "status": "skipped"
+                  "status": "passed"
                 },
                 "match": {
                   "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
@@ -1268,7 +1269,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 155000000,
+              "status": "passed"
             },
             "line": 20,
             "name": "I click page down 6",
@@ -1284,7 +1286,8 @@
             "after": [
               {
                 "result": {
-                  "status": "skipped"
+                  "duration": 1000000,
+                  "status": "passed"
                 },
                 "match": {
                   "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
@@ -1295,7 +1298,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3615000000,
+              "status": "passed"
             },
             "line": 21,
             "name": "I go back to \"Schlagzeilen - DER SPIEGEL\"",
@@ -1311,7 +1315,7 @@
             "after": [
               {
                 "result": {
-                  "status": "skipped"
+                  "status": "passed"
                 },
                 "match": {
                   "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
@@ -1365,7 +1369,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4727000000,
+              "duration": 5277000000,
               "status": "passed"
             },
             "line": 6,
@@ -1376,6 +1380,7 @@
             "after": [
               {
                 "result": {
+                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -1387,7 +1392,7 @@
           },
           {
             "result": {
-              "duration": 249000000,
+              "duration": 225000000,
               "status": "passed"
             },
             "line": 7,
@@ -1409,7 +1414,7 @@
           },
           {
             "result": {
-              "duration": 22290000000,
+              "duration": 16388000000,
               "status": "passed"
             },
             "line": 10,
@@ -1432,11 +1437,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-13T23:35:42.125Z",
+        "start_timestamp": "2020-12-28T14:36:02.062Z",
         "before": [
           {
             "result": {
-              "duration": 3403000000,
+              "duration": 3140000000,
               "status": "passed"
             },
             "match": {
@@ -1453,7 +1458,7 @@
         "steps": [
           {
             "result": {
-              "duration": 13366000000,
+              "duration": 4497000000,
               "status": "passed"
             },
             "line": 15,
@@ -1481,7 +1486,7 @@
           },
           {
             "result": {
-              "duration": 174000000,
+              "duration": 23000000,
               "status": "passed"
             },
             "line": 16,
@@ -1509,7 +1514,7 @@
           },
           {
             "result": {
-              "duration": 3566000000,
+              "duration": 3624000000,
               "status": "passed"
             },
             "line": 17,
@@ -1537,7 +1542,7 @@
           },
           {
             "result": {
-              "duration": 6182000000,
+              "duration": 4118000000,
               "status": "passed"
             },
             "line": 18,
@@ -1565,7 +1570,7 @@
           },
           {
             "result": {
-              "duration": 262000000,
+              "duration": 24000000,
               "status": "passed"
             },
             "line": 19,
@@ -1593,7 +1598,7 @@
           },
           {
             "result": {
-              "duration": 3849000000,
+              "duration": 3547000000,
               "status": "passed"
             },
             "line": 20,
@@ -1621,7 +1626,7 @@
           },
           {
             "result": {
-              "duration": 2296000000,
+              "duration": 4007000000,
               "status": "passed"
             },
             "line": 21,
@@ -1649,7 +1654,7 @@
           },
           {
             "result": {
-              "duration": 15000000,
+              "duration": 67000000,
               "status": "passed"
             },
             "line": 22,
@@ -1677,7 +1682,7 @@
           },
           {
             "result": {
-              "duration": 4745000000,
+              "duration": 2527000000,
               "status": "passed"
             },
             "line": 23,
@@ -1705,7 +1710,7 @@
           },
           {
             "result": {
-              "duration": 4585000000,
+              "duration": 5234000000,
               "status": "passed"
             },
             "line": 24,
@@ -1733,7 +1738,7 @@
           },
           {
             "result": {
-              "duration": 261000000,
+              "duration": 27000000,
               "status": "passed"
             },
             "line": 25,
@@ -1781,7 +1786,7 @@
         "steps": [
           {
             "result": {
-              "duration": 22565000000,
+              "duration": 8379000000,
               "status": "passed"
             },
             "line": 6,
@@ -1803,13 +1808,35 @@
           },
           {
             "result": {
-              "duration": 5209000000,
+              "duration": 5130000000,
               "status": "passed"
             },
             "line": 7,
             "name": "I click Akzeptieren und weiter",
             "match": {
               "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5122000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click SpiegelPlus",
+            "match": {
+              "location": "steps.SpiegelPlusSteps.clickSpiegelPlus()"
             },
             "after": [
               {
@@ -1823,33 +1850,11 @@
               }
             ],
             "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 4365000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "I click SpiegelPlus",
-            "match": {
-              "location": "steps.SpiegelPlusSteps.clickSpiegelPlus()"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2020-12-13T23:36:52.120Z",
+        "start_timestamp": "2020-12-28T14:36:54.800Z",
         "line": 27,
         "name": "Spiegel plus read random section articles",
         "description": "",
@@ -1859,7 +1864,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2440000000,
+              "duration": 642000000,
               "status": "passed"
             },
             "line": 28,
@@ -1887,7 +1892,7 @@
           },
           {
             "result": {
-              "duration": 2535000000,
+              "duration": 3275000000,
               "status": "passed"
             },
             "line": 29,
@@ -1915,7 +1920,7 @@
           },
           {
             "result": {
-              "duration": 28000000,
+              "duration": 313000000,
               "status": "passed"
             },
             "line": 30,
@@ -1943,7 +1948,7 @@
           },
           {
             "result": {
-              "duration": 3603000000,
+              "duration": 3543000000,
               "status": "passed"
             },
             "line": 31,
@@ -1971,7 +1976,7 @@
           },
           {
             "result": {
-              "duration": 4265000000,
+              "duration": 5693000000,
               "status": "passed"
             },
             "line": 32,
@@ -1988,6 +1993,7 @@
             "after": [
               {
                 "result": {
+                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -1999,7 +2005,7 @@
           },
           {
             "result": {
-              "duration": 40000000,
+              "duration": 24000000,
               "status": "passed"
             },
             "line": 33,
@@ -2027,7 +2033,7 @@
           },
           {
             "result": {
-              "duration": 3570000000,
+              "duration": 3579000000,
               "status": "passed"
             },
             "line": 34,
@@ -2069,7 +2075,7 @@
         "steps": [
           {
             "result": {
-              "duration": 11852000000,
+              "duration": 8509000000,
               "status": "passed"
             },
             "line": 6,
@@ -2091,7 +2097,7 @@
           },
           {
             "result": {
-              "duration": 5137000000,
+              "duration": 5090000000,
               "status": "passed"
             },
             "line": 7,
@@ -2113,7 +2119,7 @@
           },
           {
             "result": {
-              "duration": 3123000000,
+              "duration": 4300000000,
               "status": "passed"
             },
             "line": 10,
@@ -2136,7 +2142,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-13T23:37:40.756Z",
+        "start_timestamp": "2020-12-28T14:37:30.510Z",
         "line": 37,
         "name": "Spiegel plus read audio section articles",
         "description": "",
@@ -2146,7 +2152,7 @@
         "steps": [
           {
             "result": {
-              "duration": 292000000,
+              "duration": 207000000,
               "status": "passed"
             },
             "line": 38,
@@ -2174,7 +2180,7 @@
           },
           {
             "result": {
-              "duration": 5216000000,
+              "duration": 2045000000,
               "status": "passed"
             },
             "line": 39,
@@ -2202,7 +2208,7 @@
           },
           {
             "result": {
-              "duration": 80000000,
+              "duration": 36000000,
               "status": "passed"
             },
             "line": 40,
@@ -2230,7 +2236,7 @@
           },
           {
             "result": {
-              "duration": 3541000000,
+              "duration": 3548000000,
               "status": "passed"
             },
             "line": 41,
@@ -2258,7 +2264,7 @@
           },
           {
             "result": {
-              "duration": 3545000000,
+              "duration": 4672000000,
               "status": "passed"
             },
             "line": 42,
@@ -2286,7 +2292,7 @@
           },
           {
             "result": {
-              "duration": 26000000,
+              "duration": 21000000,
               "status": "passed"
             },
             "line": 43,
@@ -2314,7 +2320,7 @@
           },
           {
             "result": {
-              "duration": 3546000000,
+              "duration": 3547000000,
               "status": "passed"
             },
             "line": 44,
@@ -2359,7 +2365,7 @@
         "steps": [
           {
             "result": {
-              "duration": 12353000000,
+              "duration": 9519000000,
               "status": "passed"
             },
             "line": 6,
@@ -2381,7 +2387,7 @@
           },
           {
             "result": {
-              "duration": 5196000000,
+              "duration": 5195000000,
               "status": "passed"
             },
             "line": 7,
@@ -2403,7 +2409,7 @@
           },
           {
             "result": {
-              "duration": 3137000000,
+              "duration": 3406000000,
               "status": "passed"
             },
             "line": 10,
@@ -2414,6 +2420,7 @@
             "after": [
               {
                 "result": {
+                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -2426,7 +2433,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-13T23:38:17.121Z",
+        "start_timestamp": "2020-12-28T14:38:02.493Z",
         "line": 47,
         "name": "Spiegel plus read alle Beiträge section articles",
         "description": "",
@@ -2434,7 +2441,7 @@
         "after": [
           {
             "result": {
-              "duration": 1198000000,
+              "duration": 1139000000,
               "status": "passed"
             },
             "match": {
@@ -2447,7 +2454,7 @@
         "steps": [
           {
             "result": {
-              "duration": 484000000,
+              "duration": 469000000,
               "status": "passed"
             },
             "line": 48,
@@ -2475,7 +2482,7 @@
           },
           {
             "result": {
-              "duration": 3232000000,
+              "duration": 3342000000,
               "status": "passed"
             },
             "line": 49,
@@ -2492,7 +2499,6 @@
             "after": [
               {
                 "result": {
-                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -2504,7 +2510,7 @@
           },
           {
             "result": {
-              "duration": 3317000000,
+              "duration": 3359000000,
               "status": "passed"
             },
             "line": 50,
@@ -2521,7 +2527,6 @@
             "after": [
               {
                 "result": {
-                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -2533,7 +2538,7 @@
           },
           {
             "result": {
-              "duration": 7763000000,
+              "duration": 5075000000,
               "status": "passed"
             },
             "line": 51,
@@ -2561,7 +2566,7 @@
           },
           {
             "result": {
-              "duration": 44000000,
+              "duration": 36000000,
               "status": "passed"
             },
             "line": 52,
@@ -2589,7 +2594,7 @@
           },
           {
             "result": {
-              "duration": 3546000000,
+              "duration": 3553000000,
               "status": "passed"
             },
             "line": 53,
@@ -2617,7 +2622,7 @@
           },
           {
             "result": {
-              "duration": 3833000000,
+              "duration": 1755000000,
               "status": "passed"
             },
             "line": 54,
@@ -2682,7 +2687,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5784000000,
+              "duration": 4523000000,
               "status": "passed"
             },
             "line": 7,
@@ -2704,7 +2709,7 @@
           },
           {
             "result": {
-              "duration": 220000000,
+              "duration": 224000000,
               "status": "passed"
             },
             "line": 8,
@@ -2727,11 +2732,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-13T23:39:01.247Z",
+        "start_timestamp": "2020-12-28T14:38:39.347Z",
         "before": [
           {
             "result": {
-              "duration": 3757000000,
+              "duration": 3276000000,
               "status": "passed"
             },
             "match": {
@@ -2749,7 +2754,7 @@
           {
             "result": {
               "error_message": "java.lang.Exception: Index: 0, Size: 0\r\n\tat steps.StartpageSteps.i_click_article_of(StartpageSteps.java:55)\r\n\tat ✽.On start page I click random article of latests_news_section(file:///C:/MyWorkspace/guineenews/src/test/resources/features/startPage.feature:13)\r\n",
-              "duration": 468000000,
+              "duration": 414000000,
               "status": "failed"
             },
             "line": 13,
@@ -2770,7 +2775,7 @@
             "after": [
               {
                 "result": {
-                  "duration": 13502000000,
+                  "duration": 18296000000,
                   "status": "passed"
                 },
                 "match": {
@@ -2883,7 +2888,7 @@
         "steps": [
           {
             "result": {
-              "duration": 12452000000,
+              "duration": 11696000000,
               "status": "passed"
             },
             "line": 7,
@@ -2905,7 +2910,7 @@
           },
           {
             "result": {
-              "duration": 3244000000,
+              "duration": 3181000000,
               "status": "passed"
             },
             "line": 8,
@@ -2928,7 +2933,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-13T23:39:25.008Z",
+        "start_timestamp": "2020-12-28T14:39:06.086Z",
         "line": 19,
         "name": "reading main article",
         "description": "",
@@ -2938,7 +2943,7 @@
         "steps": [
           {
             "result": {
-              "duration": 13412000000,
+              "duration": 5271000000,
               "status": "passed"
             },
             "line": 20,
@@ -2960,7 +2965,7 @@
           },
           {
             "result": {
-              "duration": 445000000,
+              "duration": 77000000,
               "status": "passed"
             },
             "line": 21,
@@ -2988,7 +2993,7 @@
           },
           {
             "result": {
-              "duration": 228000000,
+              "duration": 117000000,
               "status": "passed"
             },
             "line": 22,
@@ -3016,7 +3021,7 @@
           },
           {
             "result": {
-              "duration": 8011000000,
+              "duration": 3559000000,
               "status": "passed"
             },
             "line": 23,
@@ -3061,371 +3066,7 @@
         "steps": [
           {
             "result": {
-              "duration": 19524000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I start Spiegel",
-            "match": {
-              "location": "steps.MenuSteps.i_start_Spiegel()"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 5188000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I click Akzeptieren und weiter",
-            "match": {
-              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-12-13T23:40:02.812Z",
-        "line": 26,
-        "name": "read news section articles",
-        "description": "",
-        "id": "spiegel-startpage;read-news-section-articles",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 1239000000,
-              "status": "passed"
-            },
-            "line": 27,
-            "name": "I scroll to \"news_section\" on start page",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"news_section\"",
-                  "offset": 12
-                }
-              ],
-              "location": "steps.StartpageSteps.i_scroll_to_section_on_start_page(java.lang.String)"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 6407000000,
-              "status": "passed"
-            },
-            "line": 28,
-            "name": "On start page I click first article of news_section",
-            "match": {
-              "arguments": [
-                {
-                  "val": "first",
-                  "offset": 22
-                },
-                {
-                  "val": "news_section",
-                  "offset": 39
-                }
-              ],
-              "location": "steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 73000000,
-              "status": "passed"
-            },
-            "line": 29,
-            "name": "I click page down 6",
-            "match": {
-              "arguments": [
-                {
-                  "val": "6",
-                  "offset": 18
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_page_down(int)"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 43000000,
-              "status": "passed"
-            },
-            "line": 30,
-            "name": "I click page up 3",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3",
-                  "offset": 16
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_page_up(int)"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 7638000000,
-              "status": "passed"
-            },
-            "line": 31,
-            "name": "I go back to \"DER SPIEGEL | Online-Nachrichten\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"DER SPIEGEL | Online-Nachrichten\"",
-                  "offset": 13
-                }
-              ],
-              "location": "steps.HelperSteps.i_go_back_to(java.lang.String)"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1059000000,
-              "status": "passed"
-            },
-            "line": 32,
-            "name": "I scroll to \"news section\" on start page",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"news section\"",
-                  "offset": 12
-                }
-              ],
-              "location": "steps.StartpageSteps.i_scroll_to_section_on_start_page(java.lang.String)"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 415000000,
-              "status": "passed"
-            },
-            "line": 33,
-            "name": "I scroll to random article of news_section",
-            "match": {
-              "arguments": [
-                {
-                  "val": "random",
-                  "offset": 12
-                },
-                {
-                  "val": "news_section",
-                  "offset": 30
-                }
-              ],
-              "location": "steps.StartpageSteps.i_scroll_to_article_section(java.lang.String,java.lang.String)"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 8113000000,
-              "status": "passed"
-            },
-            "line": 34,
-            "name": "On start page I click random article of news_section",
-            "match": {
-              "arguments": [
-                {
-                  "val": "random",
-                  "offset": 22
-                },
-                {
-                  "val": "news_section",
-                  "offset": 40
-                }
-              ],
-              "location": "steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 54000000,
-              "status": "passed"
-            },
-            "line": 35,
-            "name": "I click page down 6",
-            "match": {
-              "arguments": [
-                {
-                  "val": "6",
-                  "offset": 18
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_page_down(int)"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 138000000,
-              "status": "passed"
-            },
-            "line": 36,
-            "name": "I click page up 3",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3",
-                  "offset": 16
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_page_up(int)"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@spiegelStartPage"
-          },
-          {
-            "name": "@readNewsSectionArticles"
-          }
-        ]
-      },
-      {
-        "line": 6,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 14913000000,
+              "duration": 10422000000,
               "status": "passed"
             },
             "line": 7,
@@ -3470,7 +3111,372 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-13T23:40:52.715Z",
+        "start_timestamp": "2020-12-28T14:39:29.993Z",
+        "line": 26,
+        "name": "read news section articles",
+        "description": "",
+        "id": "spiegel-startpage;read-news-section-articles",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1091000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I scroll to \"news_section\" on start page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"news_section\"",
+                  "offset": 12
+                }
+              ],
+              "location": "steps.StartpageSteps.i_scroll_to_section_on_start_page(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9098000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "On start page I click first article of news_section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "first",
+                  "offset": 22
+                },
+                {
+                  "val": "news_section",
+                  "offset": 39
+                }
+              ],
+              "location": "steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 336000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I click page down 6",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_page_down(int)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 49000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I click page up 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_page_up(int)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4793000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I go back to \"DER SPIEGEL | Online-Nachrichten\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DER SPIEGEL | Online-Nachrichten\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HelperSteps.i_go_back_to(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1025000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I scroll to \"news section\" on start page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"news section\"",
+                  "offset": 12
+                }
+              ],
+              "location": "steps.StartpageSteps.i_scroll_to_section_on_start_page(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 298000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I scroll to random article of news_section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "random",
+                  "offset": 12
+                },
+                {
+                  "val": "news_section",
+                  "offset": 30
+                }
+              ],
+              "location": "steps.StartpageSteps.i_scroll_to_article_section(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6845000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "On start page I click random article of news_section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "random",
+                  "offset": 22
+                },
+                {
+                  "val": "news_section",
+                  "offset": 40
+                }
+              ],
+              "location": "steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 131000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I click page down 6",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_page_down(int)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 91000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I click page up 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_page_up(int)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@spiegelStartPage"
+          },
+          {
+            "name": "@readNewsSectionArticles"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9439000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I start Spiegel",
+            "match": {
+              "location": "steps.MenuSteps.i_start_Spiegel()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5188000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click Akzeptieren und weiter",
+            "match": {
+              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-28T14:40:09.349Z",
         "line": 49,
         "name": "alle Rubriken",
         "description": "",
@@ -3480,7 +3486,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1232000000,
+              "duration": 1083000000,
               "status": "passed"
             },
             "line": 41,
@@ -3508,7 +3514,7 @@
           },
           {
             "result": {
-              "duration": 3387000000,
+              "duration": 6594000000,
               "status": "passed"
             },
             "line": 42,
@@ -3540,7 +3546,7 @@
           },
           {
             "result": {
-              "duration": 53000000,
+              "duration": 320000000,
               "status": "passed"
             },
             "line": 43,
@@ -3568,7 +3574,7 @@
           },
           {
             "result": {
-              "duration": 35000000,
+              "duration": 39000000,
               "status": "passed"
             },
             "line": 44,
@@ -3596,7 +3602,7 @@
           },
           {
             "result": {
-              "duration": 7700000000,
+              "duration": 6792000000,
               "status": "passed"
             },
             "line": 45,
@@ -3641,7 +3647,7 @@
         "steps": [
           {
             "result": {
-              "duration": 13374000000,
+              "duration": 11384000000,
               "status": "passed"
             },
             "line": 7,
@@ -3663,7 +3669,7 @@
           },
           {
             "result": {
-              "duration": 5210000000,
+              "duration": 5251000000,
               "status": "passed"
             },
             "line": 8,
@@ -3686,7 +3692,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-13T23:41:25.211Z",
+        "start_timestamp": "2020-12-28T14:40:38.810Z",
         "line": 50,
         "name": "alle Rubriken",
         "description": "",
@@ -3696,7 +3702,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1101000000,
+              "duration": 1078000000,
               "status": "passed"
             },
             "line": 41,
@@ -3713,6 +3719,7 @@
             "after": [
               {
                 "result": {
+                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -3724,7 +3731,7 @@
           },
           {
             "result": {
-              "duration": 6383000000,
+              "duration": 3127000000,
               "status": "passed"
             },
             "line": 42,
@@ -3756,7 +3763,7 @@
           },
           {
             "result": {
-              "duration": 832000000,
+              "duration": 609000000,
               "status": "passed"
             },
             "line": 43,
@@ -3784,7 +3791,7 @@
           },
           {
             "result": {
-              "duration": 175000000,
+              "duration": 527000000,
               "status": "passed"
             },
             "line": 44,
@@ -3801,7 +3808,6 @@
             "after": [
               {
                 "result": {
-                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -3813,7 +3819,7 @@
           },
           {
             "result": {
-              "duration": 8019000000,
+              "duration": 3736000000,
               "status": "passed"
             },
             "line": 45,
@@ -3858,7 +3864,7 @@
         "steps": [
           {
             "result": {
-              "duration": 15046000000,
+              "duration": 8444000000,
               "status": "passed"
             },
             "line": 7,
@@ -3880,7 +3886,7 @@
           },
           {
             "result": {
-              "duration": 5185000000,
+              "duration": 5142000000,
               "status": "passed"
             },
             "line": 8,
@@ -3891,6 +3897,7 @@
             "after": [
               {
                 "result": {
+                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -3903,7 +3910,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-13T23:42:00.314Z",
+        "start_timestamp": "2020-12-28T14:41:04.532Z",
         "line": 51,
         "name": "alle Rubriken",
         "description": "",
@@ -3913,7 +3920,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1114000000,
+              "duration": 1056000000,
               "status": "passed"
             },
             "line": 41,
@@ -3941,7 +3948,7 @@
           },
           {
             "result": {
-              "duration": 7778000000,
+              "duration": 3109000000,
               "status": "passed"
             },
             "line": 42,
@@ -3973,7 +3980,7 @@
           },
           {
             "result": {
-              "duration": 69000000,
+              "duration": 77000000,
               "status": "passed"
             },
             "line": 43,
@@ -3990,6 +3997,7 @@
             "after": [
               {
                 "result": {
+                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -4001,7 +4009,7 @@
           },
           {
             "result": {
-              "duration": 35000000,
+              "duration": 26000000,
               "status": "passed"
             },
             "line": 44,
@@ -4029,7 +4037,7 @@
           },
           {
             "result": {
-              "duration": 9502000000,
+              "duration": 3597000000,
               "status": "passed"
             },
             "line": 45,
@@ -4074,7 +4082,7 @@
         "steps": [
           {
             "result": {
-              "duration": 14707000000,
+              "duration": 8437000000,
               "status": "passed"
             },
             "line": 7,
@@ -4096,7 +4104,7 @@
           },
           {
             "result": {
-              "duration": 5236000000,
+              "duration": 5170000000,
               "status": "passed"
             },
             "line": 8,
@@ -4107,7 +4115,6 @@
             "after": [
               {
                 "result": {
-                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -4120,7 +4127,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-13T23:42:39.052Z",
+        "start_timestamp": "2020-12-28T14:41:25.991Z",
         "line": 52,
         "name": "alle Rubriken",
         "description": "",
@@ -4130,7 +4137,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1089000000,
+              "duration": 1100000000,
               "status": "passed"
             },
             "line": 41,
@@ -4158,7 +4165,7 @@
           },
           {
             "result": {
-              "duration": 2614000000,
+              "duration": 2576000000,
               "status": "passed"
             },
             "line": 42,
@@ -4190,7 +4197,7 @@
           },
           {
             "result": {
-              "duration": 30000000,
+              "duration": 60000000,
               "status": "passed"
             },
             "line": 43,
@@ -4207,6 +4214,7 @@
             "after": [
               {
                 "result": {
+                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -4218,7 +4226,7 @@
           },
           {
             "result": {
-              "duration": 12000000,
+              "duration": 14000000,
               "status": "passed"
             },
             "line": 44,
@@ -4246,7 +4254,7 @@
           },
           {
             "result": {
-              "duration": 10839000000,
+              "duration": 8845000000,
               "status": "passed"
             },
             "line": 45,
@@ -4291,7 +4299,7 @@
         "steps": [
           {
             "result": {
-              "duration": 14052000000,
+              "duration": 28031000000,
               "status": "passed"
             },
             "line": 7,
@@ -4302,6 +4310,7 @@
             "after": [
               {
                 "result": {
+                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -4313,7 +4322,7 @@
           },
           {
             "result": {
-              "duration": 5261000000,
+              "duration": 5179000000,
               "status": "passed"
             },
             "line": 8,
@@ -4336,7 +4345,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-13T23:43:13.589Z",
+        "start_timestamp": "2020-12-28T14:41:52.200Z",
         "line": 55,
         "name": "stock section",
         "description": "",
@@ -4346,7 +4355,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1020000000,
+              "duration": 1019000000,
               "status": "passed"
             },
             "line": 56,
@@ -4374,7 +4383,7 @@
           },
           {
             "result": {
-              "duration": 735000000,
+              "duration": 551000000,
               "status": "passed"
             },
             "line": 57,
@@ -4399,7 +4408,6 @@
             "after": [
               {
                 "result": {
-                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -4411,7 +4419,7 @@
           },
           {
             "result": {
-              "duration": 591000000,
+              "duration": 413000000,
               "status": "passed"
             },
             "line": 58,
@@ -4447,7 +4455,7 @@
           },
           {
             "result": {
-              "duration": 378000000,
+              "duration": 237000000,
               "status": "passed"
             },
             "line": 59,
@@ -4469,7 +4477,7 @@
           },
           {
             "result": {
-              "duration": 10000000,
+              "duration": 9000000,
               "status": "passed"
             },
             "line": 60,
@@ -4498,7 +4506,7 @@
           },
           {
             "result": {
-              "duration": 2175000000,
+              "duration": 2044000000,
               "status": "passed"
             },
             "line": 61,
@@ -4526,7 +4534,7 @@
           },
           {
             "result": {
-              "duration": 30000000,
+              "duration": 20000000,
               "status": "passed"
             },
             "line": 62,
@@ -4543,6 +4551,7 @@
             "after": [
               {
                 "result": {
+                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -4571,7 +4580,7 @@
         "steps": [
           {
             "result": {
-              "duration": 14826000000,
+              "duration": 9785000000,
               "status": "passed"
             },
             "line": 7,
@@ -4593,7 +4602,7 @@
           },
           {
             "result": {
-              "duration": 5212000000,
+              "duration": 5173000000,
               "status": "passed"
             },
             "line": 8,
@@ -4616,7 +4625,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-13T23:43:37.852Z",
+        "start_timestamp": "2020-12-28T14:42:29.721Z",
         "line": 74,
         "name": "block channel section",
         "description": "",
@@ -4626,7 +4635,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1069000000,
+              "duration": 1092000000,
               "status": "passed"
             },
             "line": 66,
@@ -4643,7 +4652,6 @@
             "after": [
               {
                 "result": {
-                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -4655,7 +4663,7 @@
           },
           {
             "result": {
-              "duration": 6306000000,
+              "duration": 5902000000,
               "status": "passed"
             },
             "line": 67,
@@ -4687,7 +4695,7 @@
           },
           {
             "result": {
-              "duration": 47000000,
+              "duration": 84000000,
               "status": "passed"
             },
             "line": 68,
@@ -4715,7 +4723,7 @@
           },
           {
             "result": {
-              "duration": 19000000,
+              "duration": 72000000,
               "status": "passed"
             },
             "line": 69,
@@ -4743,7 +4751,7 @@
           },
           {
             "result": {
-              "duration": 8389000000,
+              "duration": 3996000000,
               "status": "passed"
             },
             "line": 70,
@@ -4788,7 +4796,7 @@
         "steps": [
           {
             "result": {
-              "duration": 15201000000,
+              "duration": 11127000000,
               "status": "passed"
             },
             "line": 7,
@@ -4810,7 +4818,7 @@
           },
           {
             "result": {
-              "duration": 5153000000,
+              "duration": 5183000000,
               "status": "passed"
             },
             "line": 8,
@@ -4833,7 +4841,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-13T23:44:13.727Z",
+        "start_timestamp": "2020-12-28T14:42:55.831Z",
         "line": 75,
         "name": "block channel section",
         "description": "",
@@ -4843,7 +4851,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1282000000,
+              "duration": 1090000000,
               "status": "passed"
             },
             "line": 66,
@@ -4871,7 +4879,7 @@
           },
           {
             "result": {
-              "duration": 6869000000,
+              "duration": 9064000000,
               "status": "passed"
             },
             "line": 67,
@@ -4903,7 +4911,7 @@
           },
           {
             "result": {
-              "duration": 71000000,
+              "duration": 58000000,
               "status": "passed"
             },
             "line": 68,
@@ -4931,7 +4939,7 @@
           },
           {
             "result": {
-              "duration": 102000000,
+              "duration": 134000000,
               "status": "passed"
             },
             "line": 69,
@@ -4959,7 +4967,7 @@
           },
           {
             "result": {
-              "duration": 8877000000,
+              "duration": 4526000000,
               "status": "passed"
             },
             "line": 70,
@@ -5004,7 +5012,7 @@
         "steps": [
           {
             "result": {
-              "duration": 12387000000,
+              "duration": 10124000000,
               "status": "passed"
             },
             "line": 7,
@@ -5015,6 +5023,7 @@
             "after": [
               {
                 "result": {
+                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -5026,7 +5035,7 @@
           },
           {
             "result": {
-              "duration": 5185000000,
+              "duration": 5181000000,
               "status": "passed"
             },
             "line": 8,
@@ -5049,7 +5058,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-13T23:44:51.295Z",
+        "start_timestamp": "2020-12-28T14:43:27.018Z",
         "line": 76,
         "name": "block channel section",
         "description": "",
@@ -5059,7 +5068,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1102000000,
+              "duration": 1058000000,
               "status": "passed"
             },
             "line": 66,
@@ -5087,7 +5096,7 @@
           },
           {
             "result": {
-              "duration": 8264000000,
+              "duration": 3736000000,
               "status": "passed"
             },
             "line": 67,
@@ -5119,7 +5128,7 @@
           },
           {
             "result": {
-              "duration": 93000000,
+              "duration": 83000000,
               "status": "passed"
             },
             "line": 68,
@@ -5136,7 +5145,654 @@
             "after": [
               {
                 "result": {
-                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24000000,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "I click page up 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_page_up(int)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3557000000,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "I go back to \"DER SPIEGEL | Online-Nachrichten\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DER SPIEGEL | Online-Nachrichten\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HelperSteps.i_go_back_to(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@spiegelStartPage"
+          },
+          {
+            "name": "@blockchannel"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10891000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I start Spiegel",
+            "match": {
+              "location": "steps.MenuSteps.i_start_Spiegel()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5147000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click Akzeptieren und weiter",
+            "match": {
+              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-28T14:43:50.787Z",
+        "line": 77,
+        "name": "block channel section",
+        "description": "",
+        "id": "spiegel-startpage;block-channel-section;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1100000000,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "I scroll to \"block_channel_section\" on start page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"block_channel_section\"",
+                  "offset": 12
+                }
+              ],
+              "location": "steps.StartpageSteps.i_scroll_to_section_on_start_page(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5976000000,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "On start page I click random article of kultur_channel",
+            "match": {
+              "arguments": [
+                {
+                  "val": "random",
+                  "offset": 22
+                },
+                {
+                  "val": "kultur_channel",
+                  "offset": 40
+                }
+              ],
+              "location": "steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 297000000,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "I click page down 6",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_page_down(int)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 166000000,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "I click page up 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_page_up(int)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5835000000,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "I go back to \"DER SPIEGEL | Online-Nachrichten\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DER SPIEGEL | Online-Nachrichten\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HelperSteps.i_go_back_to(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@spiegelStartPage"
+          },
+          {
+            "name": "@blockchannel"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11285000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I start Spiegel",
+            "match": {
+              "location": "steps.MenuSteps.i_start_Spiegel()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5168000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click Akzeptieren und weiter",
+            "match": {
+              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-28T14:44:20.207Z",
+        "line": 78,
+        "name": "block channel section",
+        "description": "",
+        "id": "spiegel-startpage;block-channel-section;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1081000000,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "I scroll to \"block_channel_section\" on start page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"block_channel_section\"",
+                  "offset": 12
+                }
+              ],
+              "location": "steps.StartpageSteps.i_scroll_to_section_on_start_page(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6631000000,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "On start page I click random article of start_channel",
+            "match": {
+              "arguments": [
+                {
+                  "val": "random",
+                  "offset": 22
+                },
+                {
+                  "val": "start_channel",
+                  "offset": 40
+                }
+              ],
+              "location": "steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 171000000,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "I click page down 6",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_page_down(int)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 105000000,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "I click page up 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_page_up(int)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7229000000,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "I go back to \"DER SPIEGEL | Online-Nachrichten\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DER SPIEGEL | Online-Nachrichten\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.HelperSteps.i_go_back_to(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@spiegelStartPage"
+          },
+          {
+            "name": "@blockchannel"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11335000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I start Spiegel",
+            "match": {
+              "location": "steps.MenuSteps.i_start_Spiegel()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5162000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click Akzeptieren und weiter",
+            "match": {
+              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-28T14:44:51.883Z",
+        "line": 79,
+        "name": "block channel section",
+        "description": "",
+        "id": "spiegel-startpage;block-channel-section;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1076000000,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "I scroll to \"block_channel_section\" on start page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"block_channel_section\"",
+                  "offset": 12
+                }
+              ],
+              "location": "steps.StartpageSteps.i_scroll_to_section_on_start_page(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3309000000,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "On start page I click random article of wissenschaft_channel",
+            "match": {
+              "arguments": [
+                {
+                  "val": "random",
+                  "offset": 22
+                },
+                {
+                  "val": "wissenschaft_channel",
+                  "offset": 40
+                }
+              ],
+              "location": "steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 578000000,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "I click page down 6",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.HelperSteps.i_click_page_down(int)"
+            },
+            "after": [
+              {
+                "result": {
                   "status": "passed"
                 },
                 "match": {
@@ -5176,7 +5832,7 @@
           },
           {
             "result": {
-              "duration": 4001000000,
+              "duration": 6077000000,
               "status": "passed"
             },
             "line": 70,
@@ -5221,7 +5877,7 @@
         "steps": [
           {
             "result": {
-              "duration": 13916000000,
+              "duration": 9959000000,
               "status": "passed"
             },
             "line": 7,
@@ -5243,225 +5899,7 @@
           },
           {
             "result": {
-              "duration": 5149000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I click Akzeptieren und weiter",
-            "match": {
-              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
-            },
-            "after": [
-              {
-                "result": {
-                  "duration": 1000000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-12-13T23:45:22.395Z",
-        "line": 77,
-        "name": "block channel section",
-        "description": "",
-        "id": "spiegel-startpage;block-channel-section;;5",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1177000000,
-              "status": "passed"
-            },
-            "line": 66,
-            "name": "I scroll to \"block_channel_section\" on start page",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"block_channel_section\"",
-                  "offset": 12
-                }
-              ],
-              "location": "steps.StartpageSteps.i_scroll_to_section_on_start_page(java.lang.String)"
-            },
-            "after": [
-              {
-                "result": {
-                  "duration": 1000000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 6564000000,
-              "status": "passed"
-            },
-            "line": 67,
-            "name": "On start page I click random article of kultur_channel",
-            "match": {
-              "arguments": [
-                {
-                  "val": "random",
-                  "offset": 22
-                },
-                {
-                  "val": "kultur_channel",
-                  "offset": 40
-                }
-              ],
-              "location": "steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 62000000,
-              "status": "passed"
-            },
-            "line": 68,
-            "name": "I click page down 6",
-            "match": {
-              "arguments": [
-                {
-                  "val": "6",
-                  "offset": 18
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_page_down(int)"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 33000000,
-              "status": "passed"
-            },
-            "line": 69,
-            "name": "I click page up 3",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3",
-                  "offset": 16
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_page_up(int)"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 7938000000,
-              "status": "passed"
-            },
-            "line": 70,
-            "name": "I go back to \"DER SPIEGEL | Online-Nachrichten\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"DER SPIEGEL | Online-Nachrichten\"",
-                  "offset": 13
-                }
-              ],
-              "location": "steps.HelperSteps.i_go_back_to(java.lang.String)"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@spiegelStartPage"
-          },
-          {
-            "name": "@blockchannel"
-          }
-        ]
-      },
-      {
-        "line": 6,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 14775000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I start Spiegel",
-            "match": {
-              "location": "steps.MenuSteps.i_start_Spiegel()"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 5239000000,
+              "duration": 5155000000,
               "status": "passed"
             },
             "line": 8,
@@ -5484,440 +5922,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-13T23:45:57.243Z",
-        "line": 78,
-        "name": "block channel section",
-        "description": "",
-        "id": "spiegel-startpage;block-channel-section;;6",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1179000000,
-              "status": "passed"
-            },
-            "line": 66,
-            "name": "I scroll to \"block_channel_section\" on start page",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"block_channel_section\"",
-                  "offset": 12
-                }
-              ],
-              "location": "steps.StartpageSteps.i_scroll_to_section_on_start_page(java.lang.String)"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 4751000000,
-              "status": "passed"
-            },
-            "line": 67,
-            "name": "On start page I click random article of start_channel",
-            "match": {
-              "arguments": [
-                {
-                  "val": "random",
-                  "offset": 22
-                },
-                {
-                  "val": "start_channel",
-                  "offset": 40
-                }
-              ],
-              "location": "steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 187000000,
-              "status": "passed"
-            },
-            "line": 68,
-            "name": "I click page down 6",
-            "match": {
-              "arguments": [
-                {
-                  "val": "6",
-                  "offset": 18
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_page_down(int)"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 37000000,
-              "status": "passed"
-            },
-            "line": 69,
-            "name": "I click page up 3",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3",
-                  "offset": 16
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_page_up(int)"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 7568000000,
-              "status": "passed"
-            },
-            "line": 70,
-            "name": "I go back to \"DER SPIEGEL | Online-Nachrichten\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"DER SPIEGEL | Online-Nachrichten\"",
-                  "offset": 13
-                }
-              ],
-              "location": "steps.HelperSteps.i_go_back_to(java.lang.String)"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@spiegelStartPage"
-          },
-          {
-            "name": "@blockchannel"
-          }
-        ]
-      },
-      {
-        "line": 6,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 15137000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I start Spiegel",
-            "match": {
-              "location": "steps.MenuSteps.i_start_Spiegel()"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 5201000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I click Akzeptieren und weiter",
-            "match": {
-              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-12-13T23:46:30.989Z",
-        "line": 79,
-        "name": "block channel section",
-        "description": "",
-        "id": "spiegel-startpage;block-channel-section;;7",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1109000000,
-              "status": "passed"
-            },
-            "line": 66,
-            "name": "I scroll to \"block_channel_section\" on start page",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"block_channel_section\"",
-                  "offset": 12
-                }
-              ],
-              "location": "steps.StartpageSteps.i_scroll_to_section_on_start_page(java.lang.String)"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 5195000000,
-              "status": "passed"
-            },
-            "line": 67,
-            "name": "On start page I click random article of wissenschaft_channel",
-            "match": {
-              "arguments": [
-                {
-                  "val": "random",
-                  "offset": 22
-                },
-                {
-                  "val": "wissenschaft_channel",
-                  "offset": 40
-                }
-              ],
-              "location": "steps.StartpageSteps.i_click_article_of(java.lang.String,java.lang.String)"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 203000000,
-              "status": "passed"
-            },
-            "line": 68,
-            "name": "I click page down 6",
-            "match": {
-              "arguments": [
-                {
-                  "val": "6",
-                  "offset": 18
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_page_down(int)"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 20000000,
-              "status": "passed"
-            },
-            "line": 69,
-            "name": "I click page up 3",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3",
-                  "offset": 16
-                }
-              ],
-              "location": "steps.HelperSteps.i_click_page_up(int)"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 8999000000,
-              "status": "passed"
-            },
-            "line": 70,
-            "name": "I go back to \"DER SPIEGEL | Online-Nachrichten\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"DER SPIEGEL | Online-Nachrichten\"",
-                  "offset": 13
-                }
-              ],
-              "location": "steps.HelperSteps.i_go_back_to(java.lang.String)"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@spiegelStartPage"
-          },
-          {
-            "name": "@blockchannel"
-          }
-        ]
-      },
-      {
-        "line": 6,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 14260000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I start Spiegel",
-            "match": {
-              "location": "steps.MenuSteps.i_start_Spiegel()"
-            },
-            "after": [
-              {
-                "result": {
-                  "duration": 1000000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 5239000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I click Akzeptieren und weiter",
-            "match": {
-              "location": "steps.MenuSteps.i_click_Akzeptieren_und_weiter()"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "steps.TestCaseBase.takeScreenShotOnError(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-12-13T23:47:06.862Z",
+        "start_timestamp": "2020-12-28T14:45:19.490Z",
         "line": 82,
         "name": "leben section articles",
         "description": "",
@@ -5927,7 +5932,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1111000000,
+              "duration": 1070000000,
               "status": "passed"
             },
             "line": 83,
@@ -5944,7 +5949,6 @@
             "after": [
               {
                 "result": {
-                  "duration": 2000000,
                   "status": "passed"
                 },
                 "match": {
@@ -5956,7 +5960,7 @@
           },
           {
             "result": {
-              "duration": 5193000000,
+              "duration": 3742000000,
               "status": "passed"
             },
             "line": 84,
@@ -5988,7 +5992,7 @@
           },
           {
             "result": {
-              "duration": 74000000,
+              "duration": 90000000,
               "status": "passed"
             },
             "line": 85,
@@ -6016,7 +6020,7 @@
           },
           {
             "result": {
-              "duration": 119000000,
+              "duration": 23000000,
               "status": "passed"
             },
             "line": 86,
@@ -6033,7 +6037,6 @@
             "after": [
               {
                 "result": {
-                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -6045,7 +6048,7 @@
           },
           {
             "result": {
-              "duration": 8568000000,
+              "duration": 3575000000,
               "status": "passed"
             },
             "line": 87,
@@ -6073,7 +6076,7 @@
           },
           {
             "result": {
-              "duration": 1558000000,
+              "duration": 1056000000,
               "status": "passed"
             },
             "line": 88,
@@ -6101,7 +6104,7 @@
           },
           {
             "result": {
-              "duration": 213000000,
+              "duration": 173000000,
               "status": "passed"
             },
             "line": 89,
@@ -6133,7 +6136,7 @@
           },
           {
             "result": {
-              "duration": 6824000000,
+              "duration": 6966000000,
               "status": "passed"
             },
             "line": 90,
@@ -6165,7 +6168,7 @@
           },
           {
             "result": {
-              "duration": 51000000,
+              "duration": 78000000,
               "status": "passed"
             },
             "line": 91,
@@ -6193,7 +6196,7 @@
           },
           {
             "result": {
-              "duration": 20000000,
+              "duration": 82000000,
               "status": "passed"
             },
             "line": 92,
@@ -6238,7 +6241,7 @@
         "steps": [
           {
             "result": {
-              "duration": 13274000000,
+              "duration": 9865000000,
               "status": "passed"
             },
             "line": 7,
@@ -6260,7 +6263,7 @@
           },
           {
             "result": {
-              "duration": 5222000000,
+              "duration": 5210000000,
               "status": "passed"
             },
             "line": 8,
@@ -6271,6 +6274,7 @@
             "after": [
               {
                 "result": {
+                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -6283,7 +6287,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-13T23:47:50.104Z",
+        "start_timestamp": "2020-12-28T14:45:51.465Z",
         "line": 95,
         "name": "highligh section",
         "description": "",
@@ -6321,7 +6325,7 @@
           },
           {
             "result": {
-              "duration": 5288000000,
+              "duration": 7339000000,
               "status": "passed"
             },
             "line": 97,
@@ -6353,7 +6357,7 @@
           },
           {
             "result": {
-              "duration": 288000000,
+              "duration": 267000000,
               "status": "passed"
             },
             "line": 98,
@@ -6370,7 +6374,6 @@
             "after": [
               {
                 "result": {
-                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -6382,7 +6385,7 @@
           },
           {
             "result": {
-              "duration": 169000000,
+              "duration": 242000000,
               "status": "passed"
             },
             "line": 99,
@@ -6410,7 +6413,7 @@
           },
           {
             "result": {
-              "duration": 7450000000,
+              "duration": 4954000000,
               "status": "passed"
             },
             "line": 100,
@@ -6427,6 +6430,7 @@
             "after": [
               {
                 "result": {
+                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -6455,7 +6459,7 @@
         "steps": [
           {
             "result": {
-              "duration": 13987000000,
+              "duration": 9672000000,
               "status": "passed"
             },
             "line": 7,
@@ -6477,7 +6481,7 @@
           },
           {
             "result": {
-              "duration": 5253000000,
+              "duration": 5215000000,
               "status": "passed"
             },
             "line": 8,
@@ -6488,6 +6492,7 @@
             "after": [
               {
                 "result": {
+                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -6500,7 +6505,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-13T23:48:22.817Z",
+        "start_timestamp": "2020-12-28T14:46:20.362Z",
         "line": 103,
         "name": "top bei spiegel spiegel",
         "description": "",
@@ -6510,7 +6515,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1176000000,
+              "duration": 1134000000,
               "status": "passed"
             },
             "line": 104,
@@ -6538,7 +6543,7 @@
           },
           {
             "result": {
-              "duration": 3844000000,
+              "duration": 4299000000,
               "status": "passed"
             },
             "line": 105,
@@ -6570,7 +6575,7 @@
           },
           {
             "result": {
-              "duration": 60000000,
+              "duration": 47000000,
               "status": "passed"
             },
             "line": 106,
@@ -6598,7 +6603,7 @@
           },
           {
             "result": {
-              "duration": 23000000,
+              "duration": 37000000,
               "status": "passed"
             },
             "line": 107,
@@ -6626,7 +6631,7 @@
           },
           {
             "result": {
-              "duration": 10503000000,
+              "duration": 3832000000,
               "status": "passed"
             },
             "line": 108,
@@ -6654,7 +6659,7 @@
           },
           {
             "result": {
-              "duration": 1143000000,
+              "duration": 1124000000,
               "status": "passed"
             },
             "line": 109,
@@ -6682,7 +6687,7 @@
           },
           {
             "result": {
-              "duration": 8090000000,
+              "duration": 5107000000,
               "status": "passed"
             },
             "line": 110,
@@ -6703,6 +6708,7 @@
             "after": [
               {
                 "result": {
+                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -6714,7 +6720,7 @@
           },
           {
             "result": {
-              "duration": 26000000,
+              "duration": 461000000,
               "status": "passed"
             },
             "line": 111,
@@ -6731,7 +6737,6 @@
             "after": [
               {
                 "result": {
-                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -6743,7 +6748,7 @@
           },
           {
             "result": {
-              "duration": 28000000,
+              "duration": 113000000,
               "status": "passed"
             },
             "line": 112,
@@ -6771,7 +6776,7 @@
           },
           {
             "result": {
-              "duration": 7705000000,
+              "duration": 4894000000,
               "status": "passed"
             },
             "line": 113,
@@ -6816,7 +6821,7 @@
         "steps": [
           {
             "result": {
-              "duration": 14703000000,
+              "duration": 11692000000,
               "status": "passed"
             },
             "line": 7,
@@ -6838,7 +6843,7 @@
           },
           {
             "result": {
-              "duration": 5209000000,
+              "duration": 5151000000,
               "status": "passed"
             },
             "line": 8,
@@ -6861,7 +6866,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-13T23:49:14.669Z",
+        "start_timestamp": "2020-12-28T14:46:56.307Z",
         "line": 117,
         "name": "meist gelesene section",
         "description": "",
@@ -6869,7 +6874,7 @@
         "after": [
           {
             "result": {
-              "duration": 1547000000,
+              "duration": 1435000000,
               "status": "passed"
             },
             "match": {
@@ -6882,7 +6887,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1147000000,
+              "duration": 1059000000,
               "status": "passed"
             },
             "line": 118,
@@ -6910,7 +6915,7 @@
           },
           {
             "result": {
-              "duration": 6656000000,
+              "duration": 8903000000,
               "status": "passed"
             },
             "line": 119,
@@ -6942,7 +6947,7 @@
           },
           {
             "result": {
-              "duration": 33000000,
+              "duration": 66000000,
               "status": "passed"
             },
             "line": 120,
@@ -6970,7 +6975,7 @@
           },
           {
             "result": {
-              "duration": 40000000,
+              "duration": 71000000,
               "status": "passed"
             },
             "line": 121,
@@ -6998,7 +7003,7 @@
           },
           {
             "result": {
-              "duration": 6933000000,
+              "duration": 4933000000,
               "status": "passed"
             },
             "line": 122,
@@ -7026,7 +7031,7 @@
           },
           {
             "result": {
-              "duration": 1153000000,
+              "duration": 1073000000,
               "status": "passed"
             },
             "line": 123,
@@ -7054,7 +7059,7 @@
           },
           {
             "result": {
-              "duration": 8216000000,
+              "duration": 2917000000,
               "status": "passed"
             },
             "line": 124,
@@ -7086,7 +7091,7 @@
           },
           {
             "result": {
-              "duration": 41000000,
+              "duration": 135000000,
               "status": "passed"
             },
             "line": 125,
@@ -7114,7 +7119,7 @@
           },
           {
             "result": {
-              "duration": 245000000,
+              "duration": 51000000,
               "status": "passed"
             },
             "line": 126,
@@ -7142,7 +7147,7 @@
           },
           {
             "result": {
-              "duration": 8322000000,
+              "duration": 5654000000,
               "status": "passed"
             },
             "line": 127,

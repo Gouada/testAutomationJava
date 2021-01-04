@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="21" time="1,087.083">
-<testcase classname="Spiegel Kultur Bestseller" name="Bestseller Books" time="65.71">
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="21" time="1,107.822">
+<testcase classname="Spiegel Kultur Bestseller" name="Bestseller Books" time="95.026">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring "Kultur" menu into view........................................passed
@@ -14,7 +14,7 @@ Then I click bei Thaila kaufen..............................................pass
 Then I close the Thaila tab.................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur Bestseller" name="Bestseller Books 2" time="57.314">
+<testcase classname="Spiegel Kultur Bestseller" name="Bestseller Books 2" time="52.472">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring "Kultur" menu into view........................................passed
@@ -28,7 +28,7 @@ Then I click bei Amazon kaufen..............................................pass
 Then I close the Amazon tab.................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur Bestseller" name="Bestseller Books 3" time="58.826">
+<testcase classname="Spiegel Kultur Bestseller" name="Bestseller Books 3" time="60.012">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring "Kultur" menu into view........................................passed
@@ -42,7 +42,7 @@ Then I click bei Thaila kaufen..............................................pass
 Then I close the Thaila tab.................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur Bestseller" name="Bestseller DVD" time="61.39">
+<testcase classname="Spiegel Kultur Bestseller" name="Bestseller DVD" time="69.329">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring "Kultur" menu into view........................................passed
@@ -57,7 +57,7 @@ Then I click bei Amazon kaufen..............................................pass
 Then I close the Amazon tab.................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur Bestseller" name="Bestseller DVD 2" time="64.8">
+<testcase classname="Spiegel Kultur Bestseller" name="Bestseller DVD 2" time="62.539">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring "Kultur" menu into view........................................passed
@@ -72,7 +72,7 @@ Then I click bei Thaila kaufen..............................................pass
 Then I close the Thaila tab.................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur Bestseller" name="Bestseller Ratgeber" time="67.165">
+<testcase classname="Spiegel Kultur Bestseller" name="Bestseller Ratgeber" time="70.737">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring "Kultur" menu into view........................................passed
@@ -87,7 +87,7 @@ Then I click bei Thaila kaufen..............................................pass
 Then I close the Thaila tab.................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur Bestseller" name="Bestseller Ratgeber 2" time="68.5">
+<testcase classname="Spiegel Kultur Bestseller" name="Bestseller Ratgeber 2" time="67.083">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring "Kultur" menu into view........................................passed
@@ -102,7 +102,7 @@ Then I click bei Amazon kaufen..............................................pass
 Then I close the Amazon tab.................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur Bestseller" name="Bestseller Ratgeber 3" time="62.912">
+<testcase classname="Spiegel Kultur Bestseller" name="Bestseller Ratgeber 3" time="64.516">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring "Kultur" menu into view........................................passed
@@ -117,7 +117,7 @@ Then I click bei Thaila kaufen..............................................pass
 Then I close the Thaila tab.................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur Bestseller" name="Bestseller Ratgeber 4" time="65.994">
+<testcase classname="Spiegel Kultur Bestseller" name="Bestseller Ratgeber 4" time="64.258">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring "Kultur" menu into view........................................passed
@@ -132,7 +132,7 @@ Then I click bei Amazon kaufen..............................................pass
 Then I close the Amazon tab.................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur Bestseller" name="Bestseller KinderBuch" time="68.26">
+<testcase classname="Spiegel Kultur Bestseller" name="Bestseller KinderBuch" time="63.689">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring "Kultur" menu into view........................................passed
@@ -147,7 +147,7 @@ Then I click bei Amazon kaufen..............................................pass
 Then I close the Amazon tab.................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur Bestseller" name="Bestseller KinderBuch 2" time="61.401">
+<testcase classname="Spiegel Kultur Bestseller" name="Bestseller KinderBuch 2" time="63.634">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring "Kultur" menu into view........................................passed
@@ -162,7 +162,7 @@ Then I click bei Thaila kaufen..............................................pass
 Then I close the Thaila tab.................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur Bestseller" name="Bestseller KinderBuch 3" time="64.596">
+<testcase classname="Spiegel Kultur Bestseller" name="Bestseller KinderBuch 3" time="63.044">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring "Kultur" menu into view........................................passed
@@ -177,7 +177,7 @@ Then I click bei Thaila kaufen..............................................pass
 Then I close the Thaila tab.................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur Bestseller" name="Bestseller KinderBuch 4" time="63.753">
+<testcase classname="Spiegel Kultur Bestseller" name="Bestseller KinderBuch 4" time="61.817">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring "Kultur" menu into view........................................passed
@@ -195,7 +195,7 @@ Then I close the Amazon tab.................................................pass
 <testcase classname="Spiegel Kultur Bestseller" name="clossing browser" time="0.001">
 <failure message="The scenario has no steps" type="java.lang.Exception"/>
 </testcase>
-<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu" time="45.021">
+<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu" time="45.366">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring "Kultur" menu into view........................................passed
@@ -206,7 +206,7 @@ Then I click page down 3....................................................pass
 Then I navigate back to Kino - Kultur - DER SPIEGEL.........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu 2" time="40.243">
+<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu 2" time="40.345">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring "Kultur" menu into view........................................passed
@@ -217,7 +217,7 @@ Then I click page down 3....................................................pass
 Then I navigate back to Musik - Kultur - DER SPIEGEL........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu 3" time="46.863">
+<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu 3" time="41.536">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring "Kultur" menu into view........................................passed
@@ -228,7 +228,7 @@ Then I click page down 3....................................................pass
 Then I navigate back to TV - Kultur - DER SPIEGEL...........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu 4" time="40.757">
+<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu 4" time="39.403">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring "Kultur" menu into view........................................passed
@@ -239,7 +239,7 @@ Then I click page down 3....................................................pass
 Then I navigate back to Literatur - Kultur - DER SPIEGEL....................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu 5" time="43.876">
+<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu 5" time="41.043">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring "Kultur" menu into view........................................passed
@@ -250,7 +250,7 @@ Then I click page down 3....................................................pass
 Then I navigate back to Streaming - Kultur - DER SPIEGEL....................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu 6" time="39.347">
+<testcase classname="Spiegel Kultur" name="navigate on culture sub-menu 6" time="41.612">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 Then I bring "Kultur" menu into view........................................passed
