@@ -234,7 +234,6 @@ public class StartPage extends BasePage {
             if (section.equals("highlight_section")) {
                 element = getElementsByXpath(highlight_section_list).get(rndNr);
             }
-
             if (section.equals("top_bei_spiegel_section")) {
                 //System.out.println("rndNr before:       "+rndNr);
                 //if(rndNr == 0)
