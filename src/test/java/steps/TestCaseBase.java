@@ -43,7 +43,8 @@ public class TestCaseBase {
         {
             BasePage page = new BasePage(driver);
             System.out.println("screenshot name ist: ");
-            String stepName = scenario.getName().replace(" ", "_");
+            String stepName = scenario.getName().replace(" ", "_")+ "_at_line_"+scenario.getLine().toString();
+
             System.out.println(stepName);
             page.takeScreenhot("from_hook_error"+stepName);
         }

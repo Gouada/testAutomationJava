@@ -3,6 +3,9 @@ package pages;
 import core.SeleniumDriverWrapper;
 import helpers.MyLogger;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -11,15 +14,23 @@ import java.time.Duration;
 public class BasePage extends SeleniumDriverWrapper {
     WebDriver driver;
 
-    protected static final String adversting_close_btn = "//button[@id='btnClose']";
-    protected static final String adversting_colapse_btn = "//button[@id='btnCollapse']";
-    protected static final String popup_window = "//div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen']";
-    protected static final String closeBtn = "//button[@aria-label='Schließen']";
+    @FindBy(xpath = "//button[@id='btnClose']")
+    protected static WebElement adversting_close_btn;
+
+    @FindBy(xpath  = "//button[@id='btnCollapse']" )
+    protected static WebElement adversting_colapse_btn;
+
+    @FindBy(xpath = "//div[starts-with(@class, 'shadow-sm md')]//button[@aria-label='Schließen']")
+    protected static WebElement popup_window;
+
+    @FindBy(xpath  = "//button[@aria-label='Schließen']" )
+    protected static WebElement closeBtn;
 
     public BasePage(WebDriver driver)
     {
         super(driver);
         this.driver = driver;
+        PageFactory.initElements(driver, this);
     }
 
     public String getitle()
@@ -41,19 +52,19 @@ public class BasePage extends SeleniumDriverWrapper {
 
     public void colapseAdversting()
     {
-        if(isElementDisplayed(getElementByXpath(popup_window)))
-            clickElement(getElementByXpath(popup_window));
-        if (isElementDisplayed(getElementByXpath(adversting_colapse_btn)))
-            clickElement(getElementByXpath(adversting_colapse_btn));
+        if(isElementDisplayed(popup_window))
+            clickElement(popup_window);
+        if (isElementDisplayed(adversting_colapse_btn))
+            clickElement(adversting_colapse_btn);
     }
 
     public void closeAdversting()
     {
-        if(isElementDisplayed(getElementByXpath(popup_window)))
-            clickElement(getElementByXpath(popup_window));
-        if (isElementDisplayed(getElementByXpath(adversting_close_btn)))
-            clickElement(getElementByXpath(adversting_close_btn));
-        if(isElementDisplayed(getElementByXpath(closeBtn)))
-            clickElement(getElementByXpath(closeBtn));
+        if(isElementDisplayed(popup_window))
+            clickElement(popup_window);
+        if (isElementDisplayed(adversting_close_btn))
+            clickElement(adversting_close_btn);
+        if(isElementDisplayed(closeBtn))
+            clickElement(closeBtn);
     }
 }

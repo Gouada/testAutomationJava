@@ -828,6 +828,13 @@ public class SeleniumDriverWrapper {
         driver.switchTo().frame(element);
     }
 
+    public void switch_toFrame(WebElement element)
+    {
+        //By by = getByType(locatorType, myLocator);
+        //WebElement element = getElement(myLocator, locatorType);
+        driver.switchTo().frame(element);
+    }
+
     public void switch_back_toDefault()
     {
         driver.switchTo().defaultContent();

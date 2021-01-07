@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: runners.SpiegelMenuRunner
 -------------------------------------------------------------------------------
-Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 577.142 sec
+Tests run: 20, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 588.193 sec <<< FAILURE!
+LeftMenuSearch #2(Spiegel Left Menu Navigation)  Time elapsed: 66.41 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at steps.MenuSteps.i_enter_search_word_and_press_enter(MenuSteps.java:140)
+	at ?.I enter Lebron James and press enter(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:18)
+

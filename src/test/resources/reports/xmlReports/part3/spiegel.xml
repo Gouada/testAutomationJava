@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="20" time="576.049">
-<testcase classname="Spiegel Left Menu Navigation" name="LeftMenuSearch" time="51.667">
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="20" time="587.072">
+<testcase classname="Spiegel Left Menu Navigation" name="LeftMenuSearch" time="38.4">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
@@ -14,21 +14,29 @@ Then I filter results by "Letztes Jahr".....................................pass
 Then I filter results by "seit 2005"........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="LeftMenuSearch_2" time="41.252">
-<system-out><![CDATA[Given I start Spiegel.......................................................passed
+<testcase classname="Spiegel Left Menu Navigation" name="LeftMenuSearch_2" time="66.394">
+<failure message="" type="java.lang.AssertionError"><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
-Then I enter Lebron James and press enter...................................passed
-Then I click weiter 3.......................................................passed
-Then I click zurück 1.......................................................passed
-Then I click a "random" article on search results page......................passed
-Then I click page down 3....................................................passed
-Then I go back to "Suche - DER SPIEGEL".....................................passed
-Then I filter results by "Letztes Jahr".....................................passed
-Then I filter results by "seit 2005"........................................passed
-]]></system-out>
+Then I enter Lebron James and press enter...................................failed
+Then I click weiter 3.......................................................skipped
+Then I click zurück 1.......................................................skipped
+Then I click a "random" article on search results page......................skipped
+Then I click page down 3....................................................skipped
+Then I go back to "Suche - DER SPIEGEL".....................................skipped
+Then I filter results by "Letztes Jahr".....................................skipped
+Then I filter results by "seit 2005"........................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at steps.MenuSteps.i_enter_search_word_and_press_enter(MenuSteps.java:140)
+	at ✽.I enter Lebron James and press enter(file:///C:/MyWorkspace/guineenews/src/test/resources/features/leftMenuNavigation.feature:18)
+]]></failure>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="LeftMenuSearch_3" time="41.981">
+<testcase classname="Spiegel Left Menu Navigation" name="LeftMenuSearch_3" time="35.662">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
@@ -42,7 +50,7 @@ Then I filter results by "Letztes Jahr".....................................pass
 Then I filter results by "seit 2005"........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="LeftMenuSearch_4" time="38.012">
+<testcase classname="Spiegel Left Menu Navigation" name="LeftMenuSearch_4" time="28.592">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
@@ -56,7 +64,7 @@ Then I filter results by "Letztes Jahr".....................................pass
 Then I filter results by "seit 2005"........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="LeftMenuSearch_5" time="37.587">
+<testcase classname="Spiegel Left Menu Navigation" name="LeftMenuSearch_5" time="28.202">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
@@ -70,7 +78,7 @@ Then I filter results by "Letztes Jahr".....................................pass
 Then I filter results by "seit 2005"........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="Leftmenu" time="28.392">
+<testcase classname="Spiegel Left Menu Navigation" name="Leftmenu" time="21.966">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
@@ -79,7 +87,7 @@ Then I click a "random" article of alle Beitraege section...................pass
 Then I click page down 3....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="Leftmenu_2" time="27.888">
+<testcase classname="Spiegel Left Menu Navigation" name="Leftmenu_2" time="26.522">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
@@ -88,7 +96,7 @@ Then I click a "random" article of alle Beitraege section...................pass
 Then I click page down 3....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="Leftmenu_3" time="25.073">
+<testcase classname="Spiegel Left Menu Navigation" name="Leftmenu_3" time="45.122">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
@@ -97,7 +105,7 @@ Then I click a "random" article of alle Beitraege section...................pass
 Then I click page down 3....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="Leftmenu_4" time="24.839">
+<testcase classname="Spiegel Left Menu Navigation" name="Leftmenu_4" time="27.109">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
@@ -106,7 +114,7 @@ Then I click a "random" article of alle Beitraege section...................pass
 Then I click page down 3....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="Leftmenu_5" time="23.234">
+<testcase classname="Spiegel Left Menu Navigation" name="Leftmenu_5" time="22.874">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
@@ -115,7 +123,7 @@ Then I click a "random" article of alle Beitraege section...................pass
 Then I click page down 3....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu" time="23.241">
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu" time="24.836">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
@@ -124,7 +132,7 @@ Then I click a "random" article of alle Beitraege section...................pass
 Then I click page down 3....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 2" time="22.805">
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 2" time="25.833">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
@@ -133,7 +141,7 @@ Then I click a "random" article of alle Beitraege section...................pass
 Then I click page down 3....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 3" time="31.322">
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 3" time="24.647">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
@@ -142,7 +150,7 @@ Then I click a "random" article of alle Beitraege section...................pass
 Then I click page down 3....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 4" time="24.824">
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 4" time="25.701">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
@@ -151,7 +159,7 @@ Then I click a "random" article of alle Beitraege section...................pass
 Then I click page down 3....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 5" time="32.444">
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 5" time="30.888">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
@@ -160,7 +168,7 @@ Then I click a "random" article of alle Beitraege section...................pass
 Then I click page down 3....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 6" time="22.833">
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 6" time="25.242">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
@@ -169,7 +177,7 @@ Then I click a "random" article of alle Beitraege section...................pass
 Then I click page down 3....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 7" time="27.041">
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 7" time="28.987">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
@@ -178,7 +186,7 @@ Then I click a "random" article of alle Beitraege section...................pass
 Then I click page down 3....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 8" time="26.625">
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 8" time="33.353">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed
@@ -187,7 +195,7 @@ Then I click a "random" article of alle Beitraege section...................pass
 Then I click page down 3....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 9" time="24.608">
+<testcase classname="Spiegel Left Menu Navigation" name="Left Submenu 9" time="26.374">
 <system-out><![CDATA[Given I start Spiegel.......................................................passed
 Then I click Akzeptieren und weiter.........................................passed
 And I click TopMenuButton...................................................passed

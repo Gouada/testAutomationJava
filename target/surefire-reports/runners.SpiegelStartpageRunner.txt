@@ -1,13 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: runners.SpiegelStartpageRunner
 -------------------------------------------------------------------------------
-Tests run: 26, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 934.301 sec <<< FAILURE!
-Spiegel Coronavirus read alle Beiträge section articles(Coronavirus)  Time elapsed: 39.756 sec  <<< FAILURE!
-java.lang.AssertionError
-	at steps.HelperSteps.i_click_article_of_alle_Beitraege_section(HelperSteps.java:163)
-	at ?.I click a "random" article of alle Beitraege section(file:///C:/MyWorkspace/guineenews/src/test/resources/features/coronaVirus.feature:41)
-
-reading main article #1(Spiegel StartPage)  Time elapsed: 26.735 sec  <<< ERROR!
+Tests run: 26, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 811.183 sec <<< FAILURE!
+reading main article #1(Spiegel StartPage)  Time elapsed: 23.008 sec  <<< ERROR!
 java.lang.Exception: Index: 0, Size: 0
 	at steps.StartpageSteps.i_click_article_of(StartpageSteps.java:55)
 	at ?.On start page I click random article of latests_news_section(file:///C:/MyWorkspace/guineenews/src/test/resources/features/startPage.feature:13)

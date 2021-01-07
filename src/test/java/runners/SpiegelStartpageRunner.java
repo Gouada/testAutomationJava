@@ -18,10 +18,10 @@ import static constants.Constants.*;
         //,tags = ("@spiegelCulture"))
         //,tags = ("@spiegelCultureBestseller"))
         //,tags = ("@spiegelPlus"))
-        ,tags = ("@spiegelStartPage or @spiegelSchlagzeilen or @spiegelCoronavirus or @spiegelPlus"))
+        ////,tags = ("@spiegelStartPage or @spiegelSchlagzeilen or @spiegelCoronavirus or @spiegelPlus"))
         //,tags = ("@spiegelSchlagzeilen"))
         //,tags = ("@topbeispiegel or @meistgelesene"))
         //,tags = ("@search"))
-        //,tags = ("@spiegelCulture or @spiegelCultureBestseller or @spiegelPlus or @spiegelStartPage or @spiegelSchlagzeilen"))
+        ,tags = ("@spiegelStartPage" )) //or @spiegelPlus or @spiegelStartPage or @spiegelSchlagzeilen"))
     public class SpiegelStartpageRunner {
     }

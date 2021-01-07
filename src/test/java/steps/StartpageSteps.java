@@ -45,7 +45,7 @@ public class StartpageSteps{
     public void i_click_article_of(String article, String section) throws Exception {
         try {
             startPage.clickSectionArticle(article, section);
-            sleep(1000);
+            //sleep(1000);
             //startPage.takeScreenhot("clicking_article_");
         }
         catch (Exception e)
