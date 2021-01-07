@@ -3,13 +3,13 @@
 #noinspection SpellCheckingInspection,NonAsciiCharacters
 Feature: Spiegel StartPage
 
-  Background:
+  Background: start spiegel
     Given I start Spiegel
     Then I click Akzeptieren und weiter
 
   @start
   @readlatestNewsArticle
-  Scenario: reading main article
+  Scenario: reading latest News Article article
     Then On start page I click random article of latests_news_section
     Then I click page down 6
     Then I click page up 3

@@ -4,14 +4,21 @@ import helpers.MyLogger;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 
+import java.util.List;
 import java.util.Random;
 
 public class BestSellerBasePage extends BasePage{
 
-    private static final String menus = "(//div[@data-component='SwiperBar'])[1]//ul//li";
-    private static final String sub_menus = "(//div[@data-component='SwiperBar'])[2]//ul//li";
-    private static final String element_lits = "//div[@data-component='BestsellerAccordionSection']";
+    //@FindBy(xpath =)
+    private static final String menus ="(//div[@data-component='SwiperBar'])[1]//ul//li";
+
+    //@FindBy(xpath = )
+    private static final String sub_menus ="(//div[@data-component='SwiperBar'])[2]//ul//li";
+
+    //@FindBy(xpath =  )
+    private static final String element_lits="//div[@data-component='BestsellerAccordionSection']";
     //private static final String add_close_btn = "//button[@id='btnClose']";
 
     //private static final String bei_thaila_bestellen_button =
@@ -137,8 +144,8 @@ public class BestSellerBasePage extends BasePage{
         WebElement element = getElementByXpath(xpath);
         closeAdversting();
         moveMouseOnElement(element);
-        if(isElementDisplayed(getElementByXpath(adversting_close_btn)))
-            clickElement(getElementByXpath(adversting_close_btn));
+        if(isElementDisplayed(adversting_close_btn))
+            clickElement(adversting_close_btn);
 
     }
 }
