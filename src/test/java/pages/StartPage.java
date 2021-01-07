@@ -224,7 +224,6 @@ public class StartPage extends BasePage {
             clickElement(main_article);
         }
     }
-
     public void scrollOnStartPageToSection(String section) {
         element = null;
         if (section.equals("news_section"))
